@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T16:59:39.784Z",
+  "generatedAt": "2026-09-01T06:07:46.923Z",
   "appId": "awesome-xai",
   "items": [
     {
@@ -406,6 +406,34 @@
           "surroundingText": "Grok API Documentation | SpaceXAI Docs",
           "targetUrl": "https://docs.x.ai",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Developer Docs",
+          "surroundingText": "Developer Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok API Documentation | SpaceXAI Docs",
+          "surroundingText": "Grok API Documentation | SpaceXAI Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok API Documentation | SpaceXAI Docs",
+          "surroundingText": "Grok API Documentation | SpaceXAI Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -421,7 +449,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:6558fb82d73a95e1",
@@ -827,6 +855,34 @@
           "surroundingText": "awesome-xai",
           "targetUrl": "https://x.ai",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SpaceXAI / xAI",
+          "surroundingText": "SpaceXAI / xAI",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://x.ai/",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://x.ai/",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -842,13 +898,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:5536a1c4dfc067d6",
       "type": "web_url",
       "canonicalUrl": "https://x.ai/grok",
-      "title": "Grok Page",
+      "title": "Grok",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1050,6 +1106,16 @@
           "surroundingText": "Grok Page",
           "targetUrl": "https://x.ai/grok",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://x.ai/grok",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -1063,234 +1129,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
-    },
-    {
-      "id": "web:fd9d96a288d4c343",
-      "type": "web_url",
-      "canonicalUrl": "https://console.x.ai",
-      "title": "Grok API Console",
-      "discoveredFrom": "curated_readme",
-      "sourceEvidence": [
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-17T19:38:40.370Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-17T19:57:56.858Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-18T01:56:20.629Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-19T01:39:12.824Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-20T03:12:13.199Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-21T01:45:40.569Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-22T01:47:39.211Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-23T01:48:46.171Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-23T21:31:34.851Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-24T01:47:21.289Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-25T01:00:00.086Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-26T01:11:58.516Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-27T01:47:17.126Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-27T01:47:58.966Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-28T01:49:59.457Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-28T01:51:52.836Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-29T05:27:34.458Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-31T06:58:46.628Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-31T07:45:25.454Z"
-        },
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "milisp/awesome-grok",
-          "sourcePath": "README.md",
-          "sectionPath": [],
-          "anchorText": "Grok API Console",
-          "surroundingText": "Grok API Console",
-          "targetUrl": "https://console.x.ai",
-          "discoveredAt": "2026-08-31T15:57:36.650Z"
-        }
-      ],
-      "globalFactRefs": [],
-      "confidenceScore": 0.5,
-      "confidenceReasons": [
-        "formula:awesome-gate-bucket-v1",
-        "bucket:review"
-      ],
-      "riskFlags": [],
-      "recommendedAction": "recommend_review",
-      "proposedRegistryPatch": {},
-      "status": "pending",
-      "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:xai-org/grok-1",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/xai-org/grok-1",
-      "title": "GitHub",
+      "title": "Grok-1 (Open Weights)",
       "description": "Grok open release",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
@@ -1493,6 +1338,16 @@
           "surroundingText": "GitHub",
           "targetUrl": "https://github.com/xai-org/grok-1",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok-1 (Open Weights)",
+          "surroundingText": "Grok-1 (Open Weights)",
+          "targetUrl": "https://github.com/xai-org/grok-1",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [
@@ -1508,13 +1363,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:cd612a359d3171cc",
       "type": "web_url",
       "canonicalUrl": "https://apps.apple.com/us/app/grok/id6670324846",
-      "title": "Grok on App Store",
+      "title": "iOS App",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1716,6 +1571,16 @@
           "surroundingText": "Grok on App Store",
           "targetUrl": "https://apps.apple.com/us/app/grok/id6670324846",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "iOS App",
+          "surroundingText": "iOS App",
+          "targetUrl": "https://apps.apple.com/us/app/grok/id6670324846",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -1729,13 +1594,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:2d57736351de38c2",
       "type": "web_url",
       "canonicalUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
-      "title": "Grok on Google Play",
+      "title": "Android App",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1937,6 +1802,16 @@
           "surroundingText": "Grok on Google Play",
           "targetUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Android App",
+          "surroundingText": "Android App",
+          "targetUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -1950,13 +1825,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:928a0c0ed8fc1d50",
       "type": "web_url",
       "canonicalUrl": "https://grok.com/plans",
-      "title": "Subscription Plans",
+      "title": "Plans & Pricing",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2158,6 +2033,16 @@
           "surroundingText": "Subscription Plans",
           "targetUrl": "https://grok.com/plans",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Plans & Pricing",
+          "surroundingText": "Plans & Pricing",
+          "targetUrl": "https://grok.com/plans",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -2171,13 +2056,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:48f8d29b58111cc2",
       "type": "web_url",
       "canonicalUrl": "https://docs.x.ai/docs/tutorial",
-      "title": "The Hitchhiker's Guide to Grok",
+      "title": "Hitchhiker's Guide to Grok",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2379,6 +2264,16 @@
           "surroundingText": "The Hitchhiker's Guide to Grok",
           "targetUrl": "https://docs.x.ai/docs/tutorial",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hitchhiker's Guide to Grok",
+          "surroundingText": "Hitchhiker's Guide to Grok",
+          "targetUrl": "https://docs.x.ai/docs/tutorial",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -2392,13 +2287,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:055f44d238febeca",
       "type": "web_url",
       "canonicalUrl": "https://lablab.ai/t/xai-beginner-tutorial",
-      "title": "Getting Started with xAI’s Grok API",
+      "title": "Getting Started with the Grok API",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2600,6 +2495,16 @@
           "surroundingText": "Getting Started with xAI’s Grok API",
           "targetUrl": "https://lablab.ai/t/xai-beginner-tutorial",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Getting Started with the Grok API",
+          "surroundingText": "Getting Started with the Grok API",
+          "targetUrl": "https://lablab.ai/t/xai-beginner-tutorial",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -2613,7 +2518,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:cc668e85330748e4",
@@ -2840,7 +2745,7 @@
       "id": "web:52ace9e9a9ead634",
       "type": "web_url",
       "canonicalUrl": "https://www.reddit.com/r/grok",
-      "title": "Subreddit: r/grok",
+      "title": "r/grok Subreddit",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -3042,6 +2947,16 @@
           "surroundingText": "Subreddit: r/grok",
           "targetUrl": "https://www.reddit.com/r/grok",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/grok Subreddit",
+          "surroundingText": "r/grok Subreddit",
+          "targetUrl": "https://www.reddit.com/r/grok",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -3055,7 +2970,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:example/grok-chatbot-ui",
@@ -3713,6 +3628,16 @@
           "surroundingText": "PyPI",
           "targetUrl": "https://pypi.org/project/xai-sdk",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PyPI",
+          "surroundingText": "PyPI",
+          "targetUrl": "https://pypi.org/project/xai-sdk",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -3726,13 +3651,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:xai-org/xai-sdk-python",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/xai-org/xai-sdk-python",
-      "title": "GitHub",
+      "title": "xAI Python SDK",
       "description": "The official Python SDK for the xAI API",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
@@ -3935,6 +3860,16 @@
           "surroundingText": "GitHub",
           "targetUrl": "https://github.com/xai-org/xai-sdk-python",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xAI Python SDK",
+          "surroundingText": "xAI Python SDK",
+          "targetUrl": "https://github.com/xai-org/xai-sdk-python",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [
@@ -3951,13 +3886,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:moesmufti/xai_grok_sdk",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/moesmufti/xai_grok_sdk",
-      "title": "GitHub",
+      "title": "xai_grok_sdk",
       "description": "A lightweight Python library for seamless integration with xAI's Grok API. Features minimal dependencies, robust API key management, and supports the latest xAI models for text generation and function calling.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
@@ -4160,6 +4095,16 @@
           "surroundingText": "GitHub",
           "targetUrl": "https://github.com/moesmufti/xai_grok_sdk",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xai_grok_sdk",
+          "surroundingText": "xai_grok_sdk",
+          "targetUrl": "https://github.com/moesmufti/xai_grok_sdk",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [
@@ -4175,13 +4120,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:f57a2cd3ed776fb4",
       "type": "web_url",
       "canonicalUrl": "https://python.langchain.com/docs/integrations/providers/xai",
-      "title": "Documentation",
+      "title": "LangChain xAI Provider",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -4383,6 +4328,16 @@
           "surroundingText": "Documentation",
           "targetUrl": "https://python.langchain.com/docs/integrations/providers/xai",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "LangChain xAI Provider",
+          "surroundingText": "LangChain xAI Provider",
+          "targetUrl": "https://python.langchain.com/docs/integrations/providers/xai",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -4396,7 +4351,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:9ff2f5028629d0ba",
@@ -4757,6 +4712,25 @@
           "surroundingText": "xai",
           "targetUrl": "https://huggingface.co/xai",
           "discoveredAt": "2026-08-31T15:59:40.942Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hugging Face: xAI",
+          "surroundingText": "Hugging Face: xAI",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "xai",
+          "sectionPath": [],
+          "anchorText": "xai",
+          "surroundingText": "xai",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-09-01T05:41:01.282Z"
         }
       ],
       "globalFactRefs": [],
@@ -4771,13 +4745,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:59:40.942Z"
+      "updatedAt": "2026-09-01T05:41:01.282Z"
     },
     {
       "id": "web:73e73afe7fdae39a",
       "type": "web_url",
       "canonicalUrl": "https://supergrokmac.com",
-      "title": "Website",
+      "title": "SuperGrok Mac",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -4979,6 +4953,16 @@
           "surroundingText": "Website",
           "targetUrl": "https://supergrokmac.com",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SuperGrok Mac",
+          "surroundingText": "SuperGrok Mac",
+          "targetUrl": "https://supergrokmac.com",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -4992,7 +4976,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:superagent-ai/grok-cli",
@@ -5201,6 +5185,16 @@
           "surroundingText": "grok-cli",
           "targetUrl": "https://github.com/superagent-ai/grok-cli",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "grok-cli",
+          "surroundingText": "grok-cli",
+          "targetUrl": "https://github.com/superagent-ai/grok-cli",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [
@@ -5217,13 +5211,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "github:x-cli-team/x-cli",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/x-cli-team/x-cli",
-      "title": "grok-one-shot",
+      "title": "x-cli / grok-one-shot",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -5425,6 +5419,16 @@
           "surroundingText": "grok-one-shot",
           "targetUrl": "https://github.com/x-cli-team/x-cli",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "x-cli / grok-one-shot",
+          "surroundingText": "x-cli / grok-one-shot",
+          "targetUrl": "https://github.com/x-cli-team/x-cli",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -5438,7 +5442,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:0e284257e29e0d3d",
@@ -5665,7 +5669,7 @@
       "id": "web:15cedb8c1be8f647",
       "type": "web_url",
       "canonicalUrl": "https://lifearchitect.ai/whats-in-grok",
-      "title": "LifeArchitect.ai",
+      "title": "What's in Grok?",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -5867,6 +5871,16 @@
           "surroundingText": "LifeArchitect.ai",
           "targetUrl": "https://lifearchitect.ai/whats-in-grok",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "What's in Grok?",
+          "surroundingText": "What's in Grok?",
+          "targetUrl": "https://lifearchitect.ai/whats-in-grok",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -5880,13 +5894,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:c6d3e7bfa462aef2",
       "type": "web_url",
       "canonicalUrl": "https://x.ai/news/grok-4",
-      "title": "Grok 4",
+      "title": "Grok 4 Announcement",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -6088,6 +6102,16 @@
           "surroundingText": "Grok 4",
           "targetUrl": "https://x.ai/news/grok-4",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4 Announcement",
+          "surroundingText": "Grok 4 Announcement",
+          "targetUrl": "https://x.ai/news/grok-4",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -6101,7 +6125,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:9e8c6430d83420da",
@@ -6530,6 +6554,16 @@
           "surroundingText": "Wikipedia: Grok (chatbot)",
           "targetUrl": "https://en.wikipedia.org/wiki/Grok_%28chatbot%29",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Wikipedia: Grok (chatbot)",
+          "surroundingText": "Wikipedia: Grok (chatbot)",
+          "targetUrl": "https://en.wikipedia.org/wiki/Grok_%28chatbot%29",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [],
@@ -6543,7 +6577,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:47bf8a97099c60e1",
@@ -7212,7 +7246,7 @@
       "id": "github:milisp/awesome-grok",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/milisp/awesome-grok",
-      "title": "Awesome Grok Repository",
+      "title": "milisp/awesome-grok",
       "description": "A curated list of resources for Grok, the AI developed by xAI",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
@@ -7415,6 +7449,16 @@
           "surroundingText": "Awesome Grok Repository",
           "targetUrl": "https://github.com/milisp/awesome-grok",
           "discoveredAt": "2026-08-31T15:57:36.650Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "milisp/awesome-grok",
+          "surroundingText": "milisp/awesome-grok",
+          "targetUrl": "https://github.com/milisp/awesome-grok",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
         }
       ],
       "globalFactRefs": [
@@ -7430,7 +7474,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-08-31T15:57:36.650Z"
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     },
     {
       "id": "web:2f8eebe41d7cee8b",
@@ -7528,6 +7572,24 @@
           "surroundingText": "Grok",
           "targetUrl": "https://grok.com",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://grok.com",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://grok.com",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -7542,7 +7604,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:e18152d7f8882fc3",
@@ -7640,6 +7702,34 @@
           "surroundingText": "Grok 4.6 Latest",
           "targetUrl": "https://docs.x.ai/developers/grok-4-6",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Introducing Grok 4.6",
+          "surroundingText": "Introducing Grok 4.6",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-6",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok 4.6 Latest",
+          "surroundingText": "Grok 4.6 Latest",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-6",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok 4.6 Latest",
+          "surroundingText": "Grok 4.6 Latest",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-6",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -7654,7 +7744,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:33e8e29ce0122c75",
@@ -7752,6 +7842,24 @@
           "surroundingText": "Grok Bot",
           "targetUrl": "https://docs.x.ai/grok-bot/overview",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://docs.x.ai/grok-bot/overview",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://docs.x.ai/grok-bot/overview",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -7766,7 +7874,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:55cc90649004ba80",
@@ -7864,6 +7972,24 @@
           "surroundingText": "Grok &amp; Console",
           "targetUrl": "https://docs.x.ai/grok/overview",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok &amp; Console",
+          "surroundingText": "Grok &amp; Console",
+          "targetUrl": "https://docs.x.ai/grok/overview",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok &amp; Console",
+          "surroundingText": "Grok &amp; Console",
+          "targetUrl": "https://docs.x.ai/grok/overview",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -7878,7 +8004,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:255bbdbeaf33fa37",
@@ -7976,6 +8102,24 @@
           "surroundingText": "View model",
           "targetUrl": "https://docs.x.ai/developers/models/grok-4.6",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "View model",
+          "surroundingText": "View model",
+          "targetUrl": "https://docs.x.ai/developers/models/grok-4.6",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "View model",
+          "surroundingText": "View model",
+          "targetUrl": "https://docs.x.ai/developers/models/grok-4.6",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -7990,7 +8134,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
     },
     {
       "id": "web:2ec7dee799d4e228",
@@ -8088,6 +8232,24 @@
           "surroundingText": "Try in playground",
           "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.6&amp;utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-home&amp;utm_content=highlights-grok-46",
           "discoveredAt": "2026-08-31T15:57:37.759Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Try in playground",
+          "surroundingText": "Try in playground",
+          "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.6&amp;utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-home&amp;utm_content=highlights-grok-46",
+          "discoveredAt": "2026-09-01T05:16:54.661Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Try in playground",
+          "surroundingText": "Try in playground",
+          "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.6&amp;utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-home&amp;utm_content=highlights-grok-46",
+          "discoveredAt": "2026-09-01T05:17:06.472Z"
         }
       ],
       "globalFactRefs": [],
@@ -8102,7 +8264,200 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-08-31T15:57:37.759Z"
+      "updatedAt": "2026-09-01T05:17:06.472Z"
+    },
+    {
+      "id": "web:a68f4a2bcd37136b",
+      "type": "web_url",
+      "canonicalUrl": "https://x.ai/news/grok-bot-more-plans",
+      "title": "Grok Bot",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://x.ai/news/grok-bot-more-plans",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
+    },
+    {
+      "id": "web:c1204393b2ebf164",
+      "type": "web_url",
+      "canonicalUrl": "https://sdk.vercel.ai/providers/ai-sdk-providers/xai",
+      "title": "@ai-sdk/xai",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@ai-sdk/xai",
+          "surroundingText": "@ai-sdk/xai",
+          "targetUrl": "https://sdk.vercel.ai/providers/ai-sdk-providers/xai",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
+    },
+    {
+      "id": "github:galleonlabs/hypergrok-trading-desk",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "title": "HyperGrok Trading Desk",
+      "description": "Turn your Grok Bot into a 7-agent Hyperliquid trading desk. Roles, system prompts and skills your Bots use to research, size, execute and review.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HyperGrok Trading Desk",
+          "surroundingText": "HyperGrok Trading Desk",
+          "targetUrl": "https://github.com/galleonlabs/hypergrok-trading-desk",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:github-api:https://github.com/galleonlabs/hypergrok-trading-desk"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
+    },
+    {
+      "id": "github:xai-org/grok-build",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/xai-org/grok-build",
+      "title": "grok-build",
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "grok-build",
+          "surroundingText": "grok-build",
+          "targetUrl": "https://github.com/xai-org/grok-build",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/xai-org/grok-build"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:github-maintained",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
+    },
+    {
+      "id": "web:c5fe4e158440bf6a",
+      "type": "web_url",
+      "canonicalUrl": "https://x.ai/news/grok-4-5",
+      "title": "Grok 4.5 Announcement",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4.5 Announcement",
+          "surroundingText": "Grok 4.5 Announcement",
+          "targetUrl": "https://x.ai/news/grok-4-5",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
+    },
+    {
+      "id": "web:ea34d2b67722ab5f",
+      "type": "web_url",
+      "canonicalUrl": "https://x.ai/news/grok-4-1-fast",
+      "title": "Grok 4.1 Fast & Agent Tools",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4.1 Fast & Agent Tools",
+          "surroundingText": "Grok 4.1 Fast & Agent Tools",
+          "targetUrl": "https://x.ai/news/grok-4-1-fast",
+          "discoveredAt": "2026-09-01T03:23:59.108Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-09-01T03:23:59.108Z",
+      "updatedAt": "2026-09-01T03:23:59.108Z"
     }
   ]
 }
