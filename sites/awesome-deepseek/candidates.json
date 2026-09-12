@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:37:39.636Z",
+  "generatedAt": "2026-09-12T02:30:00.133Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -341,6 +341,15 @@
           "surroundingText": "DeepSeek API Docs",
           "targetUrl": "https://api-docs.deepseek.com",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek API Docs",
+          "surroundingText": "DeepSeek API Docs",
+          "targetUrl": "https://api-docs.deepseek.com",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -356,7 +365,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:ab6d92f37d6e49ab",
@@ -931,6 +940,24 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Platform",
+          "surroundingText": "DeepSeek Platform",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://platform.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -946,7 +973,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:0e284257e29e0d3d",
@@ -1454,6 +1481,15 @@
           "surroundingText": "deepseek-ai",
           "targetUrl": "https://huggingface.co/deepseek-ai",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai",
+          "surroundingText": "deepseek-ai",
+          "targetUrl": "https://huggingface.co/deepseek-ai",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [],
@@ -1468,7 +1504,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:b96a45c2e08370df",
@@ -1755,6 +1791,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-0813",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-0813",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-0813",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -1770,7 +1815,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:a1a747f4e1222f58",
@@ -2057,6 +2102,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-0731",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -2072,7 +2126,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:a0d5aaf3b3e59dfb",
@@ -2359,6 +2413,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -2374,7 +2437,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:912947e504e3337f",
@@ -2661,6 +2724,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -2676,7 +2748,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3ce63bb1cf5241de",
@@ -2963,6 +3035,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1",
+          "surroundingText": "deepseek-ai/DeepSeek-R1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -2978,7 +3059,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:1ea4ce8bf54299ec",
@@ -3265,6 +3346,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -3280,7 +3370,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:12075bd669f12c30",
@@ -3567,6 +3657,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -3582,7 +3681,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:195391ba2fa6ce83",
@@ -3869,6 +3968,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-OCR",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-OCR",
+          "surroundingText": "deepseek-ai/DeepSeek-OCR",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -3884,7 +3992,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:5d93ec0994b30555",
@@ -4171,6 +4279,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-OCR-2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-OCR-2",
+          "surroundingText": "deepseek-ai/DeepSeek-OCR-2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -4186,7 +4303,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:46401eaf9973e087",
@@ -4473,6 +4590,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -4488,7 +4614,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:cb56155b61078c31",
@@ -4775,6 +4901,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -4790,7 +4925,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2691341a5246570c",
@@ -5077,6 +5212,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -5092,7 +5236,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:4eba28950ab5ae83",
@@ -5379,6 +5523,15 @@
           "surroundingText": "deepseek-ai/Janus-Pro-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-Pro-7B",
+          "surroundingText": "deepseek-ai/Janus-Pro-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -5394,7 +5547,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:b47a69739689e009",
@@ -5681,6 +5834,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -5696,7 +5858,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:99f4f250b91d4afe",
@@ -5983,6 +6145,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -5998,7 +6169,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:79f8924f1bfefba4",
@@ -6285,6 +6456,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -6300,7 +6480,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:673a1efdd827985b",
@@ -6587,6 +6767,15 @@
           "surroundingText": "deepseek-ai/deepseek-moe-16b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-moe-16b-base",
+          "surroundingText": "deepseek-ai/deepseek-moe-16b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -6602,7 +6791,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:21ff9a1abaa99cc7",
@@ -6889,6 +7078,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -6904,7 +7102,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:041fd7f90e07181e",
@@ -7191,6 +7389,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Lite",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -7206,7 +7413,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:4d76824f96728b9e",
@@ -7493,6 +7700,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -7508,7 +7724,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:bf4e7665d5edd7a8",
@@ -7795,6 +8011,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Zero",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Zero",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Zero",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -7810,7 +8035,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:168e899d21e1aae8",
@@ -8097,6 +8322,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -8112,7 +8346,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:f82a68591775d32c",
@@ -8399,6 +8633,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -8414,7 +8657,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:d11ae4473ac06aa9",
@@ -8701,6 +8944,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -8716,7 +8968,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2fd110fa947be032",
@@ -9003,6 +9255,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -9018,7 +9279,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:bb0dcbb3de9bcac8",
@@ -9305,6 +9566,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-llm-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -9320,7 +9590,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:7316018d9bc99b62",
@@ -9607,6 +9877,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-67b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-67b-base",
+          "surroundingText": "deepseek-ai/deepseek-llm-67b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -9622,7 +9901,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3358bbfb404820f7",
@@ -9909,6 +10188,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "surroundingText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -9924,7 +10212,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:c0057d0523519c96",
@@ -10211,6 +10499,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -10226,7 +10523,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:4dbe4fd0e88effc5",
@@ -10513,6 +10810,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -10528,7 +10834,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2c4e4c030e7baeb2",
@@ -10815,6 +11121,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -10830,7 +11145,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:e15541ba94dd2265",
@@ -11117,6 +11432,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -11132,7 +11456,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:93098667fb66b455",
@@ -11419,6 +11743,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -11434,7 +11767,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:c1ac3aa4e7a0b5b1",
@@ -11721,6 +12054,15 @@
           "surroundingText": "deepseek-ai/Janus-Pro-1B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-1B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-Pro-1B",
+          "surroundingText": "deepseek-ai/Janus-Pro-1B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-1B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -11736,7 +12078,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:4600e20454e321a2",
@@ -12023,6 +12365,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -12038,7 +12389,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:259510c63a60818e",
@@ -12325,6 +12676,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -12340,7 +12700,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:8cc9ea139028318c",
@@ -12686,6 +13046,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3",
+          "surroundingText": "deepseek-ai/DeepSeek-V3",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -12701,7 +13070,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:0ed6cd57f3b47d8f",
@@ -12988,6 +13357,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -13003,7 +13381,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:fd1e32de3ca0e957",
@@ -13290,6 +13668,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-1.3b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-1.3b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-1.3b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -13305,7 +13692,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:b7e8e2c71d15a905",
@@ -13592,6 +13979,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -13607,7 +14003,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:d6fc49990b08d325",
@@ -13894,6 +14290,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-1.3b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-1.3b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-1.3b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -13909,7 +14314,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:47ba56e59986f430",
@@ -14196,6 +14601,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -14211,7 +14625,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:f3f79c0e22c0678e",
@@ -14498,6 +14912,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -14513,7 +14936,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:fec6688308709b27",
@@ -14800,6 +15223,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-7b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-7b-chat",
+          "surroundingText": "deepseek-ai/deepseek-llm-7b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -14815,7 +15247,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:cbd41766c3312418",
@@ -15102,6 +15534,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-67b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-67b-chat",
+          "surroundingText": "deepseek-ai/deepseek-llm-67b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -15117,7 +15558,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:445b966940501750",
@@ -15404,6 +15845,15 @@
           "surroundingText": "deepseek-ai/deepseek-moe-16b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-moe-16b-chat",
+          "surroundingText": "deepseek-ai/deepseek-moe-16b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -15419,7 +15869,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:c89f380fcdf7177f",
@@ -15706,6 +16156,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-base-v1.5",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "surroundingText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -15721,7 +16180,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:23427510b0ee1569",
@@ -16008,6 +16467,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -16023,7 +16491,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:a42f8b5469041eee",
@@ -16310,6 +16778,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-rl",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-rl",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-rl",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-rl",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-rl",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -16325,7 +16802,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:5684f0f129db17a2",
@@ -16612,6 +17089,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-7b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-7b-chat",
+          "surroundingText": "deepseek-ai/deepseek-vl-7b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -16627,7 +17113,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:02aebc26b4e5d959",
@@ -16914,6 +17400,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-1.3b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-1.3b-chat",
+          "surroundingText": "deepseek-ai/deepseek-vl-1.3b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -16929,7 +17424,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:7fa54309711f0816",
@@ -17216,6 +17711,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-1.3b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-1.3b-base",
+          "surroundingText": "deepseek-ai/deepseek-vl-1.3b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -17231,7 +17735,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:19572607bf2d959a",
@@ -17518,6 +18022,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-vl-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -17533,7 +18046,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:dc97833e15e6565c",
@@ -17820,6 +18333,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2",
+          "surroundingText": "deepseek-ai/DeepSeek-V2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -17835,7 +18357,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:e22e2ed651cd001f",
@@ -18122,6 +18644,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Chat",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -18137,7 +18668,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:cbbec338ca20b3f6",
@@ -18424,6 +18955,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -18439,7 +18979,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:bdb79c45a864e852",
@@ -18726,6 +19266,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -18741,7 +19290,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:593700d51cdfeb05",
@@ -19028,6 +19577,15 @@
           "surroundingText": "deepseek-ai/ESFT-vanilla-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-vanilla-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-vanilla-lite",
+          "surroundingText": "deepseek-ai/ESFT-vanilla-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-vanilla-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -19043,7 +19601,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:17d4dc24a2899f90",
@@ -19330,6 +19888,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-intent-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-intent-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-intent-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-intent-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-intent-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -19345,7 +19912,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:21281ba14385f53e",
@@ -19632,6 +20199,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-intent-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-intent-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-intent-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-intent-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-intent-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -19647,7 +20223,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:c9c5c4a325b589d5",
@@ -19934,6 +20510,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-code-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-code-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-code-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-code-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-code-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -19949,7 +20534,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2707c5842f2b4ba8",
@@ -20236,6 +20821,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-code-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-code-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-code-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-code-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-code-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -20251,7 +20845,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:17e93737d442e82a",
@@ -20538,6 +21132,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-law-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-law-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-law-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-law-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-law-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -20553,7 +21156,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:771136924f1f0508",
@@ -20840,6 +21443,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-law-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-law-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-law-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-law-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-law-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -20855,7 +21467,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2db7d084edd6fa3c",
@@ -21142,6 +21754,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-math-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-math-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-math-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-math-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-math-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -21157,7 +21778,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:508d60971f9fda3c",
@@ -21444,6 +22065,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-math-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-math-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-math-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-math-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-math-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -21459,7 +22089,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2357384172e4d961",
@@ -21746,6 +22376,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-translation-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-translation-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-translation-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-translation-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-translation-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -21761,7 +22400,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:af6fc9547036066d",
@@ -22048,6 +22687,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-translation-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-translation-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-translation-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-translation-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-translation-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -22063,7 +22711,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:6242e934f61a96f6",
@@ -22350,6 +22998,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-summary-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-summary-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-summary-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-summary-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-summary-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -22365,7 +23022,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:171a8be4d47eaf42",
@@ -22652,6 +23309,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-summary-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-summary-lite",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-summary-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-summary-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-summary-lite",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -22667,7 +23333,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2136250235f6b013",
@@ -22954,6 +23620,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Chat-0628",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Chat-0628",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Chat-0628",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -22969,7 +23644,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:d4ca950e3a9cef20",
@@ -23256,6 +23931,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -23271,7 +23955,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:b8823459678e0e14",
@@ -23558,6 +24242,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-SFT",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -23573,7 +24266,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3cec0ce56eb0030a",
@@ -23860,6 +24553,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -23875,7 +24577,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3958a339c6418a5b",
@@ -24162,6 +24864,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -24177,7 +24888,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:cfdac3d5826bc0e9",
@@ -24464,6 +25175,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2.5",
+          "surroundingText": "deepseek-ai/DeepSeek-V2.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -24479,7 +25199,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:d1037e6da936e331",
@@ -24766,6 +25486,15 @@
           "surroundingText": "deepseek-ai/Janus-1.3B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-1.3B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-1.3B",
+          "surroundingText": "deepseek-ai/Janus-1.3B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-1.3B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -24781,7 +25510,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:dd16d91d82c5d675",
@@ -25068,6 +25797,15 @@
           "surroundingText": "deepseek-ai/JanusFlow-1.3B",
           "targetUrl": "https://huggingface.co/deepseek-ai/JanusFlow-1.3B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/JanusFlow-1.3B",
+          "surroundingText": "deepseek-ai/JanusFlow-1.3B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/JanusFlow-1.3B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -25083,7 +25821,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:b92ed50e92339b68",
@@ -25370,6 +26108,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2.5-1210",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2.5-1210",
+          "surroundingText": "deepseek-ai/DeepSeek-V2.5-1210",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -25385,7 +26132,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:25f7c80e5b8d8623",
@@ -25672,6 +26419,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2-tiny",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2-tiny",
+          "surroundingText": "deepseek-ai/deepseek-vl2-tiny",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -25687,7 +26443,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:ca4cf542030c9b55",
@@ -25974,6 +26730,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2-small",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-small",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2-small",
+          "surroundingText": "deepseek-ai/deepseek-vl2-small",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-small",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -25989,7 +26754,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:69f326f1781e36b3",
@@ -26276,6 +27041,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2",
+          "surroundingText": "deepseek-ai/deepseek-vl2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -26291,7 +27065,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:5ba17d100f994479",
@@ -26578,6 +27352,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3-0324",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3-0324",
+          "surroundingText": "deepseek-ai/DeepSeek-V3-0324",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -26593,7 +27376,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:ed0846e7fe346f3c",
@@ -26880,6 +27663,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-671B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V2-671B",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-671B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -26895,7 +27687,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:00407dbf5b00a23c",
@@ -27182,6 +27974,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-7B",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V2-7B",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-7B",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -27197,7 +27998,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:19d7304244c931db",
@@ -27484,6 +28285,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-0528",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-0528",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-0528",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -27499,7 +28309,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:c302ee6fc0a761dd",
@@ -27786,6 +28596,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -27801,7 +28620,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:095dbc2108ddc63a",
@@ -28088,6 +28907,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1-Terminus",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -28103,7 +28931,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:f4a0bf88c3b9f317",
@@ -28390,6 +29218,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -28405,7 +29242,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:fa328c9793842d47",
@@ -28692,6 +29529,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Math-V2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Math-V2",
+          "surroundingText": "deepseek-ai/DeepSeek-Math-V2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -28707,7 +29553,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:e00b0a12276104b2",
@@ -28994,6 +29840,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Speciale",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Speciale",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Speciale",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -29009,7 +29864,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:2cfb501aba75a5f9",
@@ -29296,6 +30151,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_4b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_4b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_4b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -29311,7 +30175,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:da185826fdc7d5e6",
@@ -29598,6 +30462,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_8b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_8b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_8b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_8b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_8b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -29613,7 +30486,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3308391701c11009",
@@ -29900,6 +30773,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_14b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_14b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_14b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_14b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_14b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -29915,7 +30797,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:3e673cee336bd32f",
@@ -30202,6 +31084,15 @@
           "surroundingText": "deepseek-ai/dspark_gemma4_12b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_gemma4_12b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_gemma4_12b_block7",
+          "surroundingText": "deepseek-ai/dspark_gemma4_12b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_gemma4_12b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -30217,7 +31108,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:40878acbca1fb3c8",
@@ -30504,6 +31395,15 @@
           "surroundingText": "deepseek-ai/dflash_qwen3_4b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_4b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dflash_qwen3_4b_block7",
+          "surroundingText": "deepseek-ai/dflash_qwen3_4b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_4b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -30519,7 +31419,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:18a0cfaa912b6f5d",
@@ -30806,6 +31706,15 @@
           "surroundingText": "deepseek-ai/dflash_qwen3_8b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_8b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dflash_qwen3_8b_block7",
+          "surroundingText": "deepseek-ai/dflash_qwen3_8b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_8b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -30821,7 +31730,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:1e2fc16b6b7dcd77",
@@ -31108,6 +32017,15 @@
           "surroundingText": "deepseek-ai/dflash_qwen3_14b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_14b_block7",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dflash_qwen3_14b_block7",
+          "surroundingText": "deepseek-ai/dflash_qwen3_14b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_14b_block7",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -31123,7 +32041,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:f8ea5e7e4d84d96f",
@@ -31789,6 +32707,15 @@
           "surroundingText": "中文（中国）",
           "targetUrl": "https://api-docs.deepseek.com/zh-cn",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "中文（中国）",
+          "surroundingText": "中文（中国）",
+          "targetUrl": "https://api-docs.deepseek.com/zh-cn",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -31803,7 +32730,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:8eb12065b9344787",
@@ -32045,6 +32972,15 @@
           "surroundingText": "Models &amp; Pricing",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Models &amp; Pricing",
+          "surroundingText": "Models &amp; Pricing",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -32059,7 +32995,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:09b653f1e60f06eb",
@@ -32301,6 +33237,15 @@
           "surroundingText": "Token &amp; Token Usage",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Token &amp; Token Usage",
+          "surroundingText": "Token &amp; Token Usage",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -32315,7 +33260,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:412d34570fc9ed46",
@@ -32557,6 +33502,15 @@
           "surroundingText": "Rate Limit &amp; Isolation",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Rate Limit &amp; Isolation",
+          "surroundingText": "Rate Limit &amp; Isolation",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -32571,7 +33525,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:a48ea5a99d7d147d",
@@ -32813,6 +33767,15 @@
           "surroundingText": "Error Codes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Error Codes",
+          "surroundingText": "Error Codes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -32827,7 +33790,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:b1c6496354b12765",
@@ -33069,6 +34032,15 @@
           "surroundingText": "Agent Integrations",
           "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Agent Integrations",
+          "surroundingText": "Agent Integrations",
+          "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -33083,7 +34055,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:95a5094ffe65dab3",
@@ -33325,6 +34297,15 @@
           "surroundingText": "API Guides",
           "targetUrl": "https://api-docs.deepseek.com/guides/vision",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Guides",
+          "surroundingText": "API Guides",
+          "targetUrl": "https://api-docs.deepseek.com/guides/vision",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -33339,7 +34320,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:510bbf16cf9c1f2a",
@@ -33581,6 +34562,15 @@
           "surroundingText": "Thinking Mode",
           "targetUrl": "https://api-docs.deepseek.com/guides/thinking_mode",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Thinking Mode",
+          "surroundingText": "Thinking Mode",
+          "targetUrl": "https://api-docs.deepseek.com/guides/thinking_mode",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -33595,7 +34585,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:a53007b3e6c6f968",
@@ -33837,6 +34827,15 @@
           "surroundingText": "Multi-round Conversation",
           "targetUrl": "https://api-docs.deepseek.com/guides/multi_round_chat",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Multi-round Conversation",
+          "surroundingText": "Multi-round Conversation",
+          "targetUrl": "https://api-docs.deepseek.com/guides/multi_round_chat",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -33851,7 +34850,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:0a7a40946316f2b7",
@@ -34093,6 +35092,15 @@
           "surroundingText": "Chat Prefix Completion (Beta)",
           "targetUrl": "https://api-docs.deepseek.com/guides/chat_prefix_completion",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Chat Prefix Completion (Beta)",
+          "surroundingText": "Chat Prefix Completion (Beta)",
+          "targetUrl": "https://api-docs.deepseek.com/guides/chat_prefix_completion",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -34107,7 +35115,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:f19c9d7408535315",
@@ -34349,6 +35357,15 @@
           "surroundingText": "FIM Completion (Beta)",
           "targetUrl": "https://api-docs.deepseek.com/guides/fim_completion",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FIM Completion (Beta)",
+          "surroundingText": "FIM Completion (Beta)",
+          "targetUrl": "https://api-docs.deepseek.com/guides/fim_completion",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -34363,7 +35380,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:7a8ae80442ddcc54",
@@ -34605,6 +35622,15 @@
           "surroundingText": "JSON Output",
           "targetUrl": "https://api-docs.deepseek.com/guides/json_mode",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "JSON Output",
+          "surroundingText": "JSON Output",
+          "targetUrl": "https://api-docs.deepseek.com/guides/json_mode",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -34619,7 +35645,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:de1bf74dbc33052b",
@@ -34861,6 +35887,15 @@
           "surroundingText": "Tool Calls",
           "targetUrl": "https://api-docs.deepseek.com/guides/tool_calls",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Tool Calls",
+          "surroundingText": "Tool Calls",
+          "targetUrl": "https://api-docs.deepseek.com/guides/tool_calls",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -34875,7 +35910,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:45848085ef1dcb1c",
@@ -35117,6 +36152,15 @@
           "surroundingText": "Files API",
           "targetUrl": "https://api-docs.deepseek.com/guides/files_api",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Files API",
+          "surroundingText": "Files API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/files_api",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -35131,7 +36175,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:9efb8c1daaa88b07",
@@ -35373,6 +36417,15 @@
           "surroundingText": "Context Caching",
           "targetUrl": "https://api-docs.deepseek.com/guides/kv_cache",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Context Caching",
+          "surroundingText": "Context Caching",
+          "targetUrl": "https://api-docs.deepseek.com/guides/kv_cache",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -35387,7 +36440,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:f84abf8d565201d9",
@@ -35629,6 +36682,15 @@
           "surroundingText": "Using the Responses API",
           "targetUrl": "https://api-docs.deepseek.com/guides/responses_api",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Using the Responses API",
+          "surroundingText": "Using the Responses API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/responses_api",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -35643,7 +36705,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:90f60f93701dc7da",
@@ -35885,6 +36947,15 @@
           "surroundingText": "Using the Anthropic API",
           "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Using the Anthropic API",
+          "surroundingText": "Using the Anthropic API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -35899,7 +36970,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:3c16da97a21579f9",
@@ -36141,6 +37212,15 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -36155,7 +37235,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:76615a880d804680",
@@ -36645,6 +37725,15 @@
           "surroundingText": "Other Resources",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Other Resources",
+          "surroundingText": "Other Resources",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [
@@ -36662,7 +37751,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:48c1f75a68a943c6",
@@ -36904,6 +37993,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -36918,7 +38016,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:8f8555b73e1b4292",
@@ -37160,6 +38258,15 @@
           "surroundingText": "Change Log",
           "targetUrl": "https://api-docs.deepseek.com/updates",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Change Log",
+          "surroundingText": "Change Log",
+          "targetUrl": "https://api-docs.deepseek.com/updates",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -37174,7 +38281,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:a9d76d6b9932bb8f",
@@ -37416,6 +38523,15 @@
           "surroundingText": "API key",
           "targetUrl": "https://platform.deepseek.com/api_keys",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API key",
+          "surroundingText": "API key",
+          "targetUrl": "https://platform.deepseek.com/api_keys",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -37430,7 +38546,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:a20f001b9ad5e9db",
@@ -37672,6 +38788,15 @@
           "surroundingText": "Agent Integrations Guide",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Agent Integrations Guide",
+          "surroundingText": "Agent Integrations Guide",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -37686,7 +38811,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:17abab4df4d862c3",
@@ -37928,6 +39053,15 @@
           "surroundingText": "Twitter",
           "targetUrl": "https://twitter.com/deepseek_ai",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Twitter",
+          "surroundingText": "Twitter",
+          "targetUrl": "https://twitter.com/deepseek_ai",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -37942,7 +39076,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:20c9f9de702fe722",
@@ -38085,6 +39219,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -38100,7 +39243,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-31T15:59:40.942Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     },
     {
       "id": "web:93e9efba216a968a",
@@ -38117,6 +39260,15 @@
           "surroundingText": "News",
           "targetUrl": "https://api-docs.deepseek.com/news/news260910",
           "discoveredAt": "2026-09-11T01:20:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "News",
+          "surroundingText": "News",
+          "targetUrl": "https://api-docs.deepseek.com/news/news260910",
+          "discoveredAt": "2026-09-12T01:20:00.076Z"
         }
       ],
       "globalFactRefs": [],
@@ -38131,7 +39283,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-11T01:20:00.121Z",
-      "updatedAt": "2026-09-11T01:20:00.121Z"
+      "updatedAt": "2026-09-12T01:20:00.076Z"
     },
     {
       "id": "web:5c348986a15182f2",
@@ -38148,6 +39300,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
           "discoveredAt": "2026-09-11T02:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "discoveredAt": "2026-09-12T02:00:00.114Z"
         }
       ],
       "globalFactRefs": [
@@ -38163,7 +39324,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-11T02:00:00.120Z",
-      "updatedAt": "2026-09-11T02:00:00.120Z"
+      "updatedAt": "2026-09-12T02:00:00.114Z"
     }
   ]
 }
