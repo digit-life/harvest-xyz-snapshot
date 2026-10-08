@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:30:00.074Z",
+  "generatedAt": "2026-10-08T10:30:00.156Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -602,6 +602,15 @@
           "surroundingText": "DeepSeek API Docs",
           "targetUrl": "https://api-docs.deepseek.com",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek API Docs",
+          "surroundingText": "DeepSeek API Docs",
+          "targetUrl": "https://api-docs.deepseek.com",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -617,7 +626,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:ab6d92f37d6e49ab",
@@ -1714,6 +1723,24 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Platform",
+          "surroundingText": "DeepSeek Platform",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://platform.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -1729,7 +1756,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:0e284257e29e0d3d",
@@ -2489,6 +2516,15 @@
           "surroundingText": "deepseek-ai",
           "targetUrl": "https://huggingface.co/deepseek-ai",
           "discoveredAt": "2026-10-07T10:00:03.435Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai",
+          "surroundingText": "deepseek-ai",
+          "targetUrl": "https://huggingface.co/deepseek-ai",
+          "discoveredAt": "2026-10-08T10:00:00.192Z"
         }
       ],
       "globalFactRefs": [],
@@ -2503,7 +2539,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-07T10:00:03.435Z"
+      "updatedAt": "2026-10-08T10:00:00.192Z"
     },
     {
       "id": "web:b96a45c2e08370df",
@@ -57718,6 +57754,15 @@
           "surroundingText": "中文（中国）",
           "targetUrl": "https://api-docs.deepseek.com/zh-cn",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "中文（中国）",
+          "surroundingText": "中文（中国）",
+          "targetUrl": "https://api-docs.deepseek.com/zh-cn",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -57732,7 +57777,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:8eb12065b9344787",
@@ -58235,6 +58280,15 @@
           "surroundingText": "Models &amp; Pricing",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Models &amp; Pricing",
+          "surroundingText": "Models &amp; Pricing",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -58249,7 +58303,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:09b653f1e60f06eb",
@@ -58752,6 +58806,15 @@
           "surroundingText": "Token &amp; Token Usage",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Token &amp; Token Usage",
+          "surroundingText": "Token &amp; Token Usage",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -58766,7 +58829,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:412d34570fc9ed46",
@@ -59269,6 +59332,15 @@
           "surroundingText": "Rate Limit &amp; Isolation",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Rate Limit &amp; Isolation",
+          "surroundingText": "Rate Limit &amp; Isolation",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -59283,7 +59355,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:a48ea5a99d7d147d",
@@ -59786,6 +59858,15 @@
           "surroundingText": "Error Codes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Error Codes",
+          "surroundingText": "Error Codes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -59800,7 +59881,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:b1c6496354b12765",
@@ -60303,6 +60384,15 @@
           "surroundingText": "DeepSeek Harness",
           "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness",
+          "surroundingText": "DeepSeek Harness",
+          "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -60317,7 +60407,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:95a5094ffe65dab3",
@@ -60820,6 +60910,15 @@
           "surroundingText": "API Guides",
           "targetUrl": "https://api-docs.deepseek.com/guides/vision",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Guides",
+          "surroundingText": "API Guides",
+          "targetUrl": "https://api-docs.deepseek.com/guides/vision",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -60834,7 +60933,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:510bbf16cf9c1f2a",
@@ -64856,6 +64955,15 @@
           "surroundingText": "Anthropic API",
           "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Anthropic API",
+          "surroundingText": "Anthropic API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -64870,7 +64978,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:3c16da97a21579f9",
@@ -65373,6 +65481,15 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -65387,7 +65504,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:76615a880d804680",
@@ -66138,6 +66255,15 @@
           "surroundingText": "Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Integrations",
+          "surroundingText": "Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [
@@ -66155,7 +66281,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:48c1f75a68a943c6",
@@ -66658,6 +66784,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -66672,7 +66807,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:8f8555b73e1b4292",
@@ -67175,6 +67310,15 @@
           "surroundingText": "Change Log",
           "targetUrl": "https://api-docs.deepseek.com/updates",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Change Log",
+          "surroundingText": "Change Log",
+          "targetUrl": "https://api-docs.deepseek.com/updates",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -67189,7 +67333,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:a9d76d6b9932bb8f",
@@ -67692,6 +67836,15 @@
           "surroundingText": "API key",
           "targetUrl": "https://platform.deepseek.com/api_keys",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API key",
+          "surroundingText": "API key",
+          "targetUrl": "https://platform.deepseek.com/api_keys",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -67706,7 +67859,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:a20f001b9ad5e9db",
@@ -68209,6 +68362,15 @@
           "surroundingText": "Claude Code",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Claude Code",
+          "surroundingText": "Claude Code",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -68223,7 +68385,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:17abab4df4d862c3",
@@ -68726,6 +68888,15 @@
           "surroundingText": "Twitter",
           "targetUrl": "https://twitter.com/deepseek_ai",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Twitter",
+          "surroundingText": "Twitter",
+          "targetUrl": "https://twitter.com/deepseek_ai",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -68740,7 +68911,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:20c9f9de702fe722",
@@ -69428,6 +69599,15 @@
           "surroundingText": "News",
           "targetUrl": "https://api-docs.deepseek.com/news/news260910",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "News",
+          "surroundingText": "News",
+          "targetUrl": "https://api-docs.deepseek.com/news/news260910",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -69442,7 +69622,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-11T01:20:00.121Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:5c348986a15182f2",
@@ -69946,6 +70126,15 @@
           "surroundingText": "API Status",
           "targetUrl": "https://status.deepseek.com",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Status",
+          "surroundingText": "API Status",
+          "targetUrl": "https://status.deepseek.com",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -69960,7 +70149,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:8db41822dcc38f9e",
@@ -70094,6 +70283,15 @@
           "surroundingText": "Codex",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Codex",
+          "surroundingText": "Codex",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70108,7 +70306,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:5c23412e98c152cb",
@@ -70242,6 +70440,15 @@
           "surroundingText": "OpenCode",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenCode",
+          "surroundingText": "OpenCode",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70256,7 +70463,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:21338280f82ad1bc",
@@ -70390,6 +70597,15 @@
           "surroundingText": "OpenClaw",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenClaw",
+          "surroundingText": "OpenClaw",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70404,7 +70620,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:779416b92b8cb757",
@@ -70538,6 +70754,15 @@
           "surroundingText": "Hermes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Hermes",
+          "surroundingText": "Hermes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70552,7 +70777,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:166f0ccba7139380",
@@ -70686,6 +70911,15 @@
           "surroundingText": "Reasonix",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Reasonix",
+          "surroundingText": "Reasonix",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70700,7 +70934,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:3dfb0e17aa8df72f",
@@ -70834,6 +71068,15 @@
           "surroundingText": "WorkBuddy/CodeBuddy",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "WorkBuddy/CodeBuddy",
+          "surroundingText": "WorkBuddy/CodeBuddy",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70848,7 +71091,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "web:5ecaa53a8618f3aa",
@@ -70982,6 +71225,15 @@
           "surroundingText": "Qoder",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Qoder",
+          "surroundingText": "Qoder",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [],
@@ -70996,7 +71248,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     },
     {
       "id": "github:deepseek-ai/awesome-deepseek-agent",
@@ -71130,6 +71382,15 @@
           "surroundingText": "Contribute Your Agent Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
           "discoveredAt": "2026-10-07T09:20:00.084Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Contribute Your Agent Integrations",
+          "surroundingText": "Contribute Your Agent Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "discoveredAt": "2026-10-08T09:20:00.081Z"
         }
       ],
       "globalFactRefs": [
@@ -71147,7 +71408,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-07T09:20:00.084Z"
+      "updatedAt": "2026-10-08T09:20:00.081Z"
     }
   ]
 }
