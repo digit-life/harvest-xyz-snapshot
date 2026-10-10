@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T16:18:10.368Z",
+  "generatedAt": "2026-10-10T19:41:45.498Z",
   "appId": "awesome-gta6",
   "items": [
     {
@@ -302,10 +302,10 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-10-10T09:30:00.082Z",
       "aiReview": {
-        "summary": "Official Rockstar Games YouTube short announcing the August 27 GTA VI Extended Look premiere on Netflix and the Rockstar channel. Strong fit for official video listings.",
+        "summary": "Official Rockstar Games YouTube teaser announcing a GTA VI extended look premiere on Netflix and Rockstar channels. Short (25s) but first-party and on-theme for a video listing.",
         "relevanceScore": 0.95,
-        "qualityScore": 0.9,
-        "riskScore": 0.05,
+        "qualityScore": 0.88,
+        "riskScore": 0.08,
         "suggestedTags": [
           "gta6",
           "video",
@@ -313,38 +313,38 @@
           "news"
         ],
         "evidence": [
-          "canonicalUrl is youtube.com/watch?v=YmzCydc4qOk with title Grand Theft Auto VI: An Extended Look Coming August 27.",
-          "sourceRepo is youtube.com/feeds/videos.xml?user=RockstarGames repeated across discovery dates.",
-          "YouTube/search results confirm the same title as a Rockstar short about the August 27 premiere."
+          "YouTube page lists channel Rockstar Games, title matching source RSS, uploaded 2026-08-06, ~4.1M views.",
+          "Source evidence repeatedly cites youtube.com/feeds/videos.xml?user=RockstarGames.",
+          "Description quotes Netflix premiere August 27 3 p.m. ET and YouTube/site 9 p.m. ET."
         ],
         "uncertainty": [
-          "Exact view counts, duration, and whether the watch URL vs shorts URL is the canonical player were not independently fetched."
+          "Whether this clip remains the canonical listing versus a later full extended-look upload.",
+          "Long-term availability of Netflix and pre-order URLs."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:36:01.170Z",
+        "reviewedAt": "2026-10-10T21:24:28.763Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official teaser for the Extended Look premiere date",
-        "description": "Rockstar announces the Extended Look premiere on Netflix and its official YouTube channel for August 27.",
+        "tagline": "Official teaser for the August 27 extended look",
+        "description": "Rockstar announces an extended look premiering on Netflix and YouTube, plus release date and pre-order links.",
         "pros": [
-          "Posted on the official Rockstar Games YouTube feed.",
-          "Title and copy match Rockstar Newswire coverage of the Extended Look.",
-          "Direct first-party announcement rather than a fan recap or clone site."
+          "Published on the Rockstar Games YouTube channel with video ID YmzCydc4qOk.",
+          "Description states the extended look premiere times on Netflix, YouTube, and the official site.",
+          "Mentions a November 19 PlayStation 5 and Xbox Series X|S release and links to rockstargames.com/VI."
         ],
         "cons": [
-          "It is a short announcement clip, not the full Extended Look video.",
-          "Discovery metadata labels the source as github_search despite a YouTube RSS origin."
+          "Runtime is only 25 seconds, so it is an announcement clip rather than the full extended look."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 11021,
-          "output": 373,
+          "input": 11455,
+          "output": 705,
           "cacheRead": 512,
-          "totalTokens": 11906,
+          "totalTokens": 12672,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -893,10 +893,10 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-10-10T09:30:00.082Z",
       "aiReview": {
-        "summary": "Official Rockstar Games YouTube teaser announcing a GTA VI Extended Look premiere on August 27, 2026, plus Netflix and site windows. Short 25-second promo, not gameplay or a full trailer.",
+        "summary": "Official Rockstar Games YouTube teaser announcing the GTA VI Extended Look premiere dates on Netflix and YouTube. Short (25s) but first-party and on-theme for a Video listing.",
         "relevanceScore": 0.95,
-        "qualityScore": 0.85,
-        "riskScore": 0.08,
+        "qualityScore": 0.88,
+        "riskScore": 0.05,
         "suggestedTags": [
           "gta6",
           "video",
@@ -904,38 +904,33 @@
           "news"
         ],
         "evidence": [
-          "YouTube listing: channel Rockstar Games, video id qq76pQsI1iw, uploaded 2026-08-06, ~10M views.",
-          "Description states Extended Look premiere Aug 27 on Netflix 3 p.m. ET and YouTube/GTA VI site 9 p.m. ET.",
-          "Candidate was repeatedly sourced from RockstarGames YouTube feeds, not a landing-page clone repo."
+          "YouTube page: channel Rockstar Games, video id qq76pQsI1iw, uploaded 2026-08-06, ~10M views.",
+          "Description states Extended Look premiere Aug 27 on Netflix and official YouTube/site and Nov 19 PS5/Xbox release."
         ],
         "uncertainty": [
-          "Live comment/moderation quality and whether the video remains unlisted or replaced after premiere."
+          "Live view/comment counts and whether the video remains unlisted or edited after this scrape."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:36:28.178Z",
+        "reviewedAt": "2026-10-10T21:24:55.277Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
-        "suggestedCategory": "Apps",
-        "tagline": "Official teaser for the GTA VI Extended Look premiere",
-        "description": "Watch Rockstar’s official 25-second teaser for the Grand Theft Auto VI Extended Look, with premiere times on Netflix, YouTube, and the game site.",
+        "suggestedCategory": "Resources",
+        "tagline": "Official teaser for the August 27 extended look",
+        "description": "Rockstar announces when the Extended Look premieres on Netflix and YouTube, plus the November 19 console release date.",
         "pros": [
-          "Published on the official Rockstar Games YouTube channel.",
-          "Title and description match Rockstar’s GTA VI Extended Look announcement.",
-          "Includes premiere dates, Netflix/YouTube/site links, and the November 19 PS5/Xbox release note."
+          "Published on the Rockstar Games YouTube channel.",
+          "Title and description match first-party Extended Look and console release messaging.",
+          "Feed evidence repeatedly points at the official RockstarGames channel RSS."
         ],
         "cons": [
-          "Runtime is only 25 seconds, so it is a teaser rather than the Extended Look itself.",
-          "Content is time-bound marketing; value drops after the premiere window."
+          "Runtime is only 25 seconds, so it is a premiere announcement rather than the full Extended Look."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "learning"
-        ],
         "usage": {
-          "input": 9321,
-          "output": 402,
-          "cacheRead": 5120,
-          "totalTokens": 14843,
+          "input": 336,
+          "output": 594,
+          "cacheRead": 14208,
+          "totalTokens": 15138,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1241,51 +1236,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-10-10T09:30:00.082Z",
       "aiReview": {
-        "summary": "Official Rockstar Games YouTube clip revealing Grand Theft Auto VI cover art and pointing to pre-order timing and downloadable artwork. Fits a GTA 6 video/news slot as first-party media, not a clone repo or fan recap.",
+        "summary": "Official Rockstar Games YouTube short revealing GTA VI cover art and noting pre-order timing, with a link to downloadable artwork on rockstargames.com.",
         "relevanceScore": 0.95,
-        "qualityScore": 0.88,
-        "riskScore": 0.08,
+        "qualityScore": 0.9,
+        "riskScore": 0.05,
         "suggestedTags": [
           "gta6",
           "video",
           "official",
-          "news",
-          "wallpaper"
+          "news"
         ],
         "evidence": [
-          "canonicalUrl https://www.youtube.com/watch?v=INjHGpMRjRA matches search result titled Grand Theft Auto VI: Official Cover Art Reveal",
-          "sourceRepo is https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
-          "YouTube snippet mentions pre-orders June 25 and downloadable artwork at rockstargames.com/VI"
+          "YouTube channel listed as Rockstar Games; video ID INjHGpMRjRA; uploaded 2026-06-18.",
+          "Title and description match official cover-art reveal and rockstargames.com/VI artwork link.",
+          "Repeated discovery from RockstarGames YouTube RSS, not a landing-page clone repo."
         ],
         "uncertainty": [
-          "Live comment/like counts and whether the video remains unlisted or region-restricted",
-          "Whether suggestedCategory Apps is the directory’s intended bucket for YouTube videos versus Resources"
+          "Live view counts and comments were not independently audited beyond the fetched page snapshot."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:36:44.852Z",
+        "reviewedAt": "2026-10-10T21:25:16.476Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official cover art clip from the publisher channel",
-        "description": "Watch the publisher’s GTA VI cover art reveal, with pre-order notes and links to downloadable key art.",
+        "tagline": "Official cover art reveal from the publisher channel",
+        "description": "Watch Rockstar’s official GTA VI cover art clip and get the pre-order date plus a link to downloadable artwork.",
         "pros": [
-          "Title and feed source identify it as Rockstar Games’ Official Cover Art Reveal.",
-          "Description covers official cover art, pre-order start, and downloadable artwork on rockstargames.com/VI.",
-          "Repeated discovery from the RockstarGames YouTube videos.xml feed, not a GitHub landing-page clone."
+          "Hosted on the Rockstar Games YouTube channel with an official GTA VI title.",
+          "Description points to rockstargames.com/VI for downloadable cover art.",
+          "States pre-orders begin June 25 on digital storefronts and select retailers."
         ],
         "cons": [
-          "Clip is a short marketing reveal, not a guide, tool, or community hub.",
-          "Exact view counts and upload metadata were not independently re-fetched in this review."
+          "The video is only 33 seconds and is mostly a cover-art presentation, not gameplay or a full trailer."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 1038,
-          "output": 508,
-          "cacheRead": 10112,
-          "totalTokens": 11658,
+          "input": 5393,
+          "output": 412,
+          "cacheRead": 5120,
+          "totalTokens": 10925,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1834,47 +1826,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-10-10T09:30:00.082Z",
       "aiReview": {
-        "summary": "Official Rockstar Games YouTube short revealing GTA VI cover art and pointing to pre-orders and downloadable artwork on rockstargames.com/VI.",
+        "summary": "Official Rockstar Games YouTube clip revealing Grand Theft Auto VI cover art and pointing to pre-order timing plus downloadable artwork on rockstargames.com/VI.",
         "relevanceScore": 0.95,
         "qualityScore": 0.9,
-        "riskScore": 0.08,
+        "riskScore": 0.05,
         "suggestedTags": [
           "gta6",
           "video",
           "official",
-          "wallpaper"
+          "wallpaper",
+          "news"
         ],
         "evidence": [
-          "YouTube metadata: channel Rockstar Games, title Grand Theft Auto VI: Official Cover Art Reveal, uploaded 2026-06-18, ~16M views.",
-          "Page description mentions pre-orders and downloadable artwork at rockstargames.com/VI.",
-          "Candidate source is the RockstarGames YouTube feed, not a GitHub marketing clone."
+          "YouTube page lists channel Rockstar Games, title Grand Theft Auto VI: Official Cover Art Reveal, uploaded 2026-06-18, video id EiQEBYDox_k.",
+          "Feed evidence repeatedly cites youtube.com/feeds/videos.xml?user=RockstarGames.",
+          "Description text matches official cover art and pre-order messaging."
         ],
         "uncertainty": [
-          "Exact current view count and comments policy may change.",
-          "Whether the downloadable artwork page remains live was not independently crawled."
+          "Exact availability of the linked downloadable artwork pages was not independently crawled.",
+          "bestFor labels in the schema do not map well to a marketing video."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:37:09.571Z",
+        "reviewedAt": "2026-10-10T21:25:41.788Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official cover-art reveal from the publisher channel",
-        "description": "Watch the publisher’s 33-second cover-art reveal and follow links to pre-order timing and downloadable artwork.",
+        "tagline": "Official 33-second cover-art reveal from the publisher",
+        "description": "Watch the publisher’s official cover-art reveal and find pre-order timing plus downloadable artwork.",
         "pros": [
-          "Published on the Rockstar Games YouTube channel with a clear GTA VI title.",
-          "Description states pre-orders begin June 25 and links cover art at rockstargames.com/VI.",
-          "Short official media clip rather than a clone landing page or unofficial GitHub site."
+          "Hosted on the Rockstar Games YouTube channel with matching official title.",
+          "Description cites pre-order start date and rockstargames.com/VI for downloadable artwork.",
+          "High view count indicates a widely seen primary source rather than a clone or fan recut."
         ],
         "cons": [
-          "Runtime is 33 seconds of mostly music, so it is not a news article or gameplay guide.",
-          "No extra walkthrough, community, or tooling content beyond the art reveal."
+          "Runtime is only 33 seconds with little more than cover art and music.",
+          "Does not include gameplay, trailers, or a written guide."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 8923,
-          "output": 546,
+          "input": 9035,
+          "output": 532,
           "cacheRead": 5120,
-          "totalTokens": 14589,
+          "totalTokens": 14687,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2009,51 +2002,51 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-31T15:57:49.601Z",
       "aiReview": {
-        "summary": "Fan-site news piece that recaps two outlets retracting unverified GTA 6 leak claims and urges skepticism until official sources confirm. Useful as rumor-correction coverage, but it is not official Rockstar reporting and is a single article rather than a maintained news hub.",
+        "summary": "Fan-news recap of retracted GTA 6 leak claims (Insider Gaming ultimatum, BBC runtime rumor). Useful rumor-correction context, not official Rockstar reporting.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.62,
+        "qualityScore": 0.58,
         "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonical URL and og:type article on gtaboom.com with title about BBC walking back GTA 6 leak claims",
-          "Published 2026-08-23, updated 2026-08-24; author Ray Ampoloquio; section News",
-          "Body states Insider Gaming redacted a CyberLeek ultimatum story and BBC runtime was rumor-based",
-          "Discovered via gtaboom.com/feed.xml, not an official Rockstar source"
+          "Canonical URL and og:title match BBC Walks Back Unverified GTA 6 Leak Claims on gtaboom.com.",
+          "meta-article:section is News; published 2026-08-23, updated 2026-08-24.",
+          "Body covers Insider Gaming redaction of CyberLeek ultimatum claims and BBC 30-minute Netflix runtime rumor.",
+          "Not a GitHub countdown/clone landing page; live article with comments and related GTA 6 news."
         ],
         "uncertainty": [
-          "Long-term editorial accuracy of GTA BOOM versus primary outlets cannot be fully verified here",
-          "Whether the site is paywalled in some regions or via the listed iOS app is unclear",
-          "Independent confirmation of the BBC and Insider Gaming retractions was not re-checked from those outlets"
+          "Independence and accuracy of GTA Boom versus BBC/Insider Gaming originals not independently verified here.",
+          "Whether the site is ad-supported, app-gated, or otherwise monetized beyond a free article.",
+          "Long-term link stability and whether claims still match later official Rockstar statements."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:37:35.944Z",
+        "reviewedAt": "2026-10-10T21:26:05.797Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Recap of retracted GTA 6 leak claims and rumor checks",
-        "description": "Explains retracted leak ultimatum and runtime claims, notes the information vacuum, and points readers toward official reveal coverage.",
+        "tagline": "Recap of retracted GTA 6 leak claims from outlets",
+        "description": "Reports that two outlets walked back GTA 6 leak claims and notes no verified ultimatum, dead-man switch, or 30-minute runtime.",
         "pros": [
-          "Article focuses on retractions and lack of verified evidence rather than amplifying unverified leak details.",
-          "Byline, publish/update dates, and a clear news section are present on the page.",
-          "Meta description and body warn that no confirmed ultimatum, dead man's switch, or 30-minute runtime exists."
+          "Article is on-topic GTA 6 news about outlets retracting unverified leak claims.",
+          "States there is no confirmed ultimatum, dead-man switch, or 30-minute reveal runtime.",
+          "Includes byline, publish/update dates, and a short skepticism/source-check note."
         ],
         "cons": [
-          "Source is a fan publication (GTA BOOM), not Rockstar Newswire or a major newsroom original.",
-          "Listing a single article is weaker than a durable news index or official feed.",
-          "Page mixes news with site arcade/app promotion and community comments."
+          "GTA Boom is fan coverage, not Rockstar Newswire or a major primary newsroom.",
+          "Piece discusses illicit leaks and secondary rumor cycles rather than official materials.",
+          "Time-sensitive correction; details may age quickly after official reveals."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 11795,
-          "output": 686,
-          "cacheRead": 512,
-          "totalTokens": 12993,
+          "input": 4487,
+          "output": 675,
+          "cacheRead": 7936,
+          "totalTokens": 13098,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2188,49 +2181,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-31T15:57:49.601Z",
       "aiReview": {
-        "summary": "Fan-site news about a Vice City GameCube port delay, not a GTA 6 resource. Weak fit for a GTA VI directory despite a passing VI mention.",
-        "relevanceScore": 0.22,
-        "qualityScore": 0.58,
-        "riskScore": 0.18,
+        "summary": "Fan-site news about a Vice City GameCube port delay, not GTA 6 tooling or official coverage. Weak fit for a GTA 6 directory.",
+        "relevanceScore": 0.18,
+        "qualityScore": 0.55,
+        "riskScore": 0.15,
         "suggestedTags": [
           "news",
           "mods"
         ],
         "evidence": [
-          "Canonical URL is a GTA BOOM News article tagged Mods/Fan-made/Vice City, published Aug 23 2026.",
-          "Meta description and body cover EBellumat delaying a GameCube Vice City ISO generator due to a memory freeze.",
-          "GTA VI appears only as contrast in the closing paragraph, not as the topic.",
-          "Discovered via gtaboom.com/feed.xml, not Rockstar Newswire or official video."
+          "Canonical URL and meta describe a Vice City GameCube mod delay due to a memory bug.",
+          "Article section is News; tags include Mods, Fan-made, GTA Vice City.",
+          "GTA VI is only mentioned in passing as contrast to the hobby project."
         ],
         "uncertainty": [
-          "Editorial independence and accuracy of the cited X post were not independently verified.",
-          "Long-term availability of the fan ISO/mod is unknown."
+          "Independence and accuracy of the cited X post from EBellumat were not verified beyond the article.",
+          "Site reputation versus major GTA outlets is not independently ranked here."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-10-09T18:38:00.668Z",
+        "reviewedAt": "2026-10-10T21:26:29.032Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "Fan news on a delayed Vice City GameCube port",
-        "description": "Reports a solo fan delaying a Vice City GameCube ISO/mod over a late memory bug, with no new release date.",
+        "description": "Covers a solo fan delaying a Vice City GameCube mod after a memory bug, with no new release date.",
         "pros": [
-          "Article is attributed, dated, and describes a specific fan-mod delay with a cited X post.",
-          "Site is a GTA-focused news outlet with related stories, not a countdown clone repo."
+          "Published article with named authors and a stated publication date.",
+          "Topic is a documented fan-mod delay, not a countdown clone or fake official page."
         ],
         "cons": [
-          "Subject is a classic Vice City GameCube fan port, not GTA 6 news, tools, or official material.",
-          "No maintained MOD tooling, official Newswire, or GTA VI video to list.",
-          "Coverage is a short recap of a delay with no ship date or downloadable resource."
+          "Subject is Grand Theft Auto: Vice City on GameCube, not GTA 6.",
+          "GTA BOOM is a fan news site, not Rockstar Newswire or major press.",
+          "Story is a short delay report with no maintained tooling or official video."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 6548,
-          "output": 660,
+          "input": 6574,
+          "output": 528,
           "cacheRead": 5120,
-          "totalTokens": 12328,
+          "totalTokens": 12222,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2356,46 +2348,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-31T07:45:40.102Z",
       "aiReview": {
-        "summary": "Fan-site news piece on Devolver Digital teasing a mystery game on GTA VI’s launch day; useful as 新闻资讯 but not official Rockstar coverage.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.55,
-        "riskScore": 0.18,
+        "summary": "Fan-site news/opinion piece about Devolver Digital joking that it will launch a mystery game on GTA VI’s date; tangential GTA 6 coverage, not official Rockstar reporting.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.52,
+        "riskScore": 0.15,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl is a live gtaboom.com article titled about Devolver trolling GTA 6 leak panic.",
-          "Meta description and body state Devolver plans a mystery game on November 19, GTA VI launch day, and joked on X not to leak it.",
-          "Author Ray Ampoloquio, section News, ~592 words; not a GitHub landing-page clone."
+          "Canonical URL and og:title match the Devolver/GTA 6 leak-joke article on gtaboom.com.",
+          "Meta description states Devolver plans a mystery game on November 19, the same day GTA VI launches.",
+          "Page is labeled News/Insider with author Ray Ampoloquio and related GTA 6 news links."
         ],
         "uncertainty": [
-          "Editorial reliability of GTA BOOM versus major outlets was not independently audited.",
-          "Whether Devolver’s November 19 title is real remains speculative in the article itself."
+          "Editorial reliability of GTA Boom versus major outlets was not independently audited.",
+          "Whether Devolver’s November 19 game is a confirmed title versus a bit remains unverified here."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:38:21.551Z",
+        "reviewedAt": "2026-10-10T21:26:51.552Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on Devolver’s GTA VI launch-day joke",
-        "description": "Covers Devolver Digital joking not to leak a mystery game set for the same day as Grand Theft Auto VI.",
+        "tagline": "Fan news on a publisher trolling GTA VI leak panic",
+        "description": "Covers Devolver Digital teasing a mystery game on Grand Theft Auto VI’s launch day and joking about leaks.",
         "pros": [
-          "Bylined GTA BOOM article with published and updated dates and a clear news angle on GTA VI.",
-          "Grounds the story in Devolver’s public tease of a November 19 mystery release and a leak joke.",
-          "Sits in a GTA 6 News section rather than a countdown clone or fake official page."
+          "Article is a real GTA Boom news post with byline, dates, and GTA 6 news tagging.",
+          "Describes a documented publisher tweet tying a mystery release to the GTA VI launch window.",
+          "Not a GitHub landing-page clone or fake official Rockstar site."
         ],
         "cons": [
-          "Not an official Rockstar Newswire post; commentary-heavy fan coverage.",
-          "Focus is Devolver marketing, not GTA VI gameplay, mods, or primary leaks reporting.",
-          "Site mixes ads, arcade, and betting-style related links around the article."
+          "Coverage is about Devolver marketing, not Rockstar Newswire or primary GTA VI facts.",
+          "Tone is opinionated and speculative about whether the mystery game is real.",
+          "GTA Boom is a fan vertical, not a top-tier games news outlet."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 6742,
-          "output": 604,
-          "cacheRead": 5120,
-          "totalTokens": 12466,
+          "input": 4173,
+          "output": 531,
+          "cacheRead": 7808,
+          "totalTokens": 12512,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2521,49 +2516,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-31T07:45:40.102Z",
       "aiReview": {
-        "summary": "Fan-site news piece reporting Shawn Layden’s plan to buy GTA 6 and leave it sealed; on-topic GTA 6 coverage but not official Rockstar material and thin as a directory listing.",
+        "summary": "GTA Boom commentary piece on Shawn Layden saying he will buy GTA 6 and leave it sealed, citing a Kiwi Talkz teaser rather than official Rockstar material. Useful as light news, not as a primary source.",
         "relevanceScore": 0.62,
         "qualityScore": 0.48,
         "riskScore": 0.18,
         "suggestedTags": [
-          "gta6",
-          "news"
+          "news",
+          "gta6"
         ],
         "evidence": [
-          "Canonical URL and meta describe Layden buying GTA VI and leaving it sealed like RDR2.",
-          "Page is tagged News/GTA 6 with ~599 words and community comments.",
-          "Rubric prefers official/reputable news; GTA Boom is a fan news site, not Rockstar."
+          "canonicalUrl and page title match Former PlayStation Boss Plans to Buy GTA 6 but Not Play It on gtaboom.com.",
+          "Meta description: Shawn Layden plans to buy GTA VI but leave it sealed like RDR2.",
+          "Body cites Reece “Kiwi Talkz” Reilly teaser and editorializes on backlogs and Take-Two hype.",
+          "Not a GitHub countdown/clone landing page; it is a news article with comments."
         ],
         "uncertainty": [
-          "Independence and accuracy of the Kiwi Talkz teaser were not independently verified.",
-          "Long-term maintenance of the article URL is unknown."
+          "Independent confirmation of Layden’s exact wording beyond this recap was not verified.",
+          "Long-term editorial quality of GTA Boom as a directory source is not assessed beyond this page."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:38:39.106Z",
+        "reviewedAt": "2026-10-10T21:27:15.448Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "News recap of Layden buying GTA 6 unopened",
-        "description": "Reports former PlayStation boss Shawn Layden will buy GTA 6 and keep it sealed, tying it to backlog and industry-scale hits.",
+        "tagline": "Fan-site recap of Layden’s sealed GTA 6 plan",
+        "description": "Reports former PlayStation boss Shawn Layden will buy GTA 6 and leave it unopened, tying the joke to backlog and industry hype.",
         "pros": [
-          "Article is explicitly about Grand Theft Auto VI and cites Shawn Layden via an interview teaser.",
-          "Published on a GTA-focused site with author byline, timestamps, and a short news body.",
-          "Not a GitHub countdown clone or fake official landing page."
+          "Article is live, dated, and clearly about Grand Theft Auto VI.",
+          "States the Layden claim and links it to an interviewer teaser rather than inventing an API or fake official page.",
+          "Includes author byline, update credit, and related GTA 6 news links."
         ],
         "cons": [
-          "Not an official Rockstar Newswire post or primary-source interview transcript.",
-          "Coverage is a commentary recap of a teaser rather than original reporting or a durable guide.",
-          "Directory value is limited to a single ephemeral news item."
+          "Secondary fan-site commentary, not a Rockstar Newswire or major-outlet original interview.",
+          "Core anecdote depends on a teaser; primary quotes are limited.",
+          "Site is ad- and app-oriented with internal cross-promotion."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3956,
-          "output": 422,
-          "cacheRead": 7936,
-          "totalTokens": 12314,
+          "input": 11495,
+          "output": 670,
+          "cacheRead": 512,
+          "totalTokens": 12677,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2671,47 +2667,47 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-29T06:55:20.713Z",
       "aiReview": {
-        "summary": "Single GTA BOOM news piece summarizing former Rockstar North technical director Obbe Vermeij calling GTA 6 leaks commercially insignificant; useful as fan-site coverage, not official Rockstar Newswire.",
+        "summary": "Fan-site news piece summarizing former Rockstar technical director Obbe Vermeij’s view that GTA 6 leak fallout will not hurt sales or the planned Netflix reveal. Useful as community coverage, not an official Rockstar source.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.62,
-        "riskScore": 0.18,
+        "qualityScore": 0.58,
+        "riskScore": 0.22,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl and og:title match a GTA BOOM News article published 2026-08-23 about Vermeij and GTA 6 leaks.",
-          "meta-article:section is News; wordCount ~743; attributed to Ray Ampoloquio.",
-          "Rubric prefers official Newswire and reputable news; this is secondary fan coverage of leaks, not a landing-page clone."
+          "canonicalUrl is a gtaboom.com article titled about a Rockstar veteran and GTA 6 leaks.",
+          "Meta description and body quote Vermeij on sales, Netflix reveal, and “nothing burger.”",
+          "article:section is News; word count ~743; author Ray Ampoloquio.",
+          "Not a GitHub countdown clone; discovered via site RSS."
         ],
         "uncertainty": [
-          "Cannot independently verify Vermeij’s quotes or Bloomberg morale claims cited in the article.",
-          "Long-term site reliability, ads, and paywall status not fully assessed.",
-          "bestFor product-audience labels do not map cleanly to a news article."
+          "Independent verification of Vermeij’s quotes beyond this article.",
+          "Long-term editorial reliability of GTA Boom versus mainstream outlets."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:39:02.257Z",
+        "reviewedAt": "2026-10-10T21:27:43.785Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Ex-Rockstar view that GTA 6 leaks barely matter",
-        "description": "Covers Obbe Vermeij’s take that GTA 6 leaks will not hurt sales or the Netflix reveal, with context on Hot Coffee and rollout control.",
+        "tagline": "Ex-Rockstar voice downplays leak impact on sales",
+        "description": "Reports Obbe Vermeij calling GTA 6 leak fallout a nothing burger, arguing most buyers will still wait for the official reveal.",
         "pros": [
-          "Article is clearly GTA 6 news with named author, publish date, and quotes from former Rockstar North technical director Obbe Vermeij.",
-          "Meta description and body distinguish leak hype from expected sales impact and the planned Netflix reveal.",
-          "Not a countdown clone, fake official page, or empty GitHub marketing repo."
+          "Bylined GTA Boom article dated August 2026 with named authors and an explicit News section.",
+          "Centers on comments from former Rockstar North technical director Obbe Vermeij about leak impact and marketing.",
+          "Does not host leaked footage as the main artifact; it discusses reaction and official rollout timing."
         ],
         "cons": [
-          "Publisher is a fan news site, not Rockstar Newswire or another primary official source.",
-          "Piece is a short opinion recap of one outsider’s comments, not a maintained tool, guide, or original leak investigation.",
-          "Discovery via feed.xml/github_search is a weak signal for directory quality."
+          "It is unofficial fan press, not a Rockstar Newswire or major outlet original report.",
+          "Commentary is opinionated and notes Vermeij sidestepped security questions.",
+          "Page includes arcade/app promotion and community comments typical of a traffic-driven games blog."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 4326,
-          "output": 639,
-          "cacheRead": 7680,
-          "totalTokens": 12645,
+          "input": 4570,
+          "output": 771,
+          "cacheRead": 7552,
+          "totalTokens": 12893,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2819,49 +2815,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-29T06:55:20.713Z",
       "aiReview": {
-        "summary": "Fan-site news piece on Take-Two DMCA subpoenas targeting X and Google over GTA 6 leak handles; useful as 新闻资讯 but not official Newswire and mixes leak drama with opinion.",
+        "summary": "Fan-site news article on Take-Two DMCA subpoenas aimed at X and Google over named GTA 6 leak accounts. Useful as GTA 6 news, but it is not official Rockstar coverage and mixes reporting with opinion.",
         "relevanceScore": 0.72,
         "qualityScore": 0.55,
-        "riskScore": 0.38,
+        "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Canonical URL and title match a GTA BOOM news article dated Aug 23, 2026 about DMCA subpoenas.",
-          "Meta description states Take-Two filed DMCA subpoenas against X and Google naming CyberLeeks, Surfer24k, and CyberLeekario.",
-          "Site section is News; not a GitHub countdown clone or fake official landing page."
+          "Canonical URL and og:title confirm a news article titled around Take-Two chasing the GTA 6 leaker.",
+          "Meta description states DMCA subpoenas against X and Google naming CyberLeeks, Surfer24k, and CyberLeekario.",
+          "Page lists article:section News, author Ray Ampoloquio, published 2026-08-23.",
+          "Not a GitHub countdown/clone landing page; it is a real article on gtaboom.com."
         ],
         "uncertainty": [
-          "Accuracy of court filings, named handles, and November 19 launch claim versus primary legal/official sources.",
-          "Long-term editorial reliability of gtaboom.com versus mainstream games press."
+          "Accuracy of court filings and handle-to-leaker linkage versus primary legal documents.",
+          "Long-term maintenance of the URL and whether ads/paywalls change access."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:39:22.133Z",
+        "reviewedAt": "2026-10-10T21:28:01.025Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan recap of Take-Two subpoenas over GTA 6 leak accounts",
-        "description": "Reports Take-Two DMCA subpoenas to X and Google naming leak-related handles, with platform table and editorial framing.",
+        "tagline": "Fan report on Take-Two leak subpoenas to X and Google",
+        "description": "Covers Take-Two DMCA subpoenas naming CyberLeeks, Surfer24k, and related handles on X and Google.",
         "pros": [
-          "Article is on-topic GTA 6 news about Take-Two legal action against named leak-related accounts.",
-          "Includes a table of subpoena targets (Microsoft, Discord, X, Google/YouTube) and what data is sought.",
-          "Published on an established GTA fan news site with author byline and update date."
+          "Article is explicitly GTA 6 news about Take-Two legal action around leak accounts.",
+          "Names specific platforms, handles, and a comparison table of prior subpoena targets.",
+          "Published on a dedicated GTA site with author byline and update date."
         ],
         "cons": [
-          "Not an official Rockstar or Take-Two Newswire post; secondary fan reporting with opinionated tone.",
-          "Centers on leak investigation and leaked clips rather than official gameplay or guides.",
-          "Claims about launch dates and legal outcomes are not independently verified here."
+          "GTA BOOM is a fan outlet, not Rockstar Newswire or a major newsroom.",
+          "Copy mixes legal summary with opinionated framing and internal cross-links.",
+          "Claims about identity, memecoins, and leak coordination are not independently verified here."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3843,
-          "output": 563,
+          "input": 3921,
+          "output": 532,
           "cacheRead": 7680,
-          "totalTokens": 12086,
+          "totalTokens": 12133,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2951,50 +2948,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-28T01:52:04.521Z",
       "aiReview": {
-        "summary": "Fan-site news recap of Bloomberg reporting on Rockstar’s probe of the GTA 6 CyberLeek incident; useful as GTA VI news, not an official source.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.58,
-        "riskScore": 0.42,
+        "summary": "GTA BOOM news post summarizing Bloomberg reporting that Rockstar had not identified CyberLeek or the GTA 6 breach method days into its probe. Useful as secondary leak-investigation coverage, not an official source.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.52,
+        "riskScore": 0.38,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Canonical URL is a GTA Boom article titled about Rockstar and CyberLeek, section News, ~647 words.",
-          "Meta description and body cite Bloomberg’s Jason Schreier on identification and breach unknowns as of 2026-08-21.",
-          "Discovered via gtaboom.com/feed.xml, not a GitHub marketing clone."
+          "canonicalUrl is a live GTA BOOM article titled about Rockstar and CyberLeek.",
+          "article:section News; og:description cites Rockstar not identifying CyberLeek.",
+          "Body cites Bloomberg’s Jason Schreier (2026-08-21) and Take-Two copyright/subpoena steps.",
+          "Not a GitHub countdown or fake-official clone repo."
         ],
         "uncertainty": [
-          "Accuracy of leak details versus Bloomberg original not independently verified here.",
-          "Long-term editorial quality of GTA Boom beyond this page.",
-          "Whether directory policy should exclude leak-focused posts even when they cite reputable reporters."
+          "Accuracy of leak details versus Bloomberg original cannot be independently verified here.",
+          "Site ads, app promo, and long-term article maintenance are unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:39:43.440Z",
+        "reviewedAt": "2026-10-10T21:28:22.985Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan recap of Rockstar’s GTA VI leak investigation",
-        "description": "Summarizes Bloomberg reporting that Rockstar had not identified CyberLeek or the GTA VI breach path days into its probe.",
+        "tagline": "Fan-site recap of Rockstar’s GTA 6 leak probe",
+        "description": "Summarizes Bloomberg reporting that Rockstar had not identified CyberLeek or how the GTA 6 breach occurred, plus legal follow-up.",
         "pros": [
-          "On-topic GTA 6 news with named author, publish/update dates, and a Bloomberg citation.",
-          "GTA Boom is an established fan news site, not a countdown clone or fake official landing page.",
-          "Article is short, readable, and clearly labeled as reporting rather than an official Rockstar statement."
+          "Bylined GTA BOOM article with published and updated dates and a Bloomberg citation.",
+          "On-topic GTA 6 news about Rockstar’s investigation of the CyberLeek leak.",
+          "Meta description and body match: Rockstar had not identified the leaker or breach method."
         ],
         "cons": [
-          "Secondary recap, not a Rockstar Newswire or primary Bloomberg piece.",
-          "Centers on leak/insider speculation and illicit footage, which ages poorly and is not evergreen tooling or docs.",
-          "Includes promotional site chrome (arcade, app, comments) around the article."
+          "Secondary fan-site recap, not an official Rockstar Newswire or primary Bloomberg piece.",
+          "Mixes reported facts with speculation about insider access and memecoin motives.",
+          "Centers on leaked footage and a criminal investigation rather than gameplay guides or official materials."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 4071,
-          "output": 566,
+          "input": 4178,
+          "output": 594,
           "cacheRead": 7296,
-          "totalTokens": 11933,
+          "totalTokens": 12068,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3084,49 +3081,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-28T01:52:04.521Z",
       "aiReview": {
-        "summary": "Fan-site news recap of Bloomberg reporting on Rockstar staff morale after a GTA VI leak; useful as 新闻资讯 but secondary, not official Newswire.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.58,
-        "riskScore": 0.22,
+        "summary": "Fan-site news recap of Bloomberg reporting on Rockstar staff morale after a GTA VI leak; useful as GTA 6 news, but secondary coverage rather than an official or primary source.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.55,
+        "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl is a gtaboom.com News article dated Aug 2026 about GTA 6 leak staff impact.",
-          "meta-description and body recap Bloomberg and Rockstar in-office security after the 2022 leak.",
-          "Not a GitHub countdown/clone landing page."
+          "canonicalUrl is a GTA BOOM article titled about the GTA 6 leak and Rockstar staff.",
+          "meta-article:section is News; description matches the leak/morale angle.",
+          "Body cites Bloomberg newsletter URL and 2022 leak / in-office security context.",
+          "Not a GitHub countdown clone or fake official landing page."
         ],
         "uncertainty": [
-          "Independence and accuracy of claims versus Bloomberg original not verified here.",
-          "Long-term editorial quality of GTA BOOM as a directory source."
+          "Accuracy of claimed release dates and Netflix premiere relative to official Rockstar posts was not independently verified here.",
+          "Site monetization (ads/app) beyond free reading is not fully mapped."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:40:03.102Z",
+        "reviewedAt": "2026-10-10T21:28:49.500Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan recap of Bloomberg on Rockstar leak morale",
-        "description": "Summarizes Bloomberg reporting that Rockstar staff felt demoralized after security rules failed to stop a GTA VI leak.",
+        "tagline": "Fan recap of how a GTA VI leak hit Rockstar staff",
+        "description": "Summarizes Bloomberg reporting on Rockstar developers’ morale after a GTA VI leak and years of strict in-office security.",
         "pros": [
-          "Article is explicitly tagged News and focuses on Grand Theft Auto VI / Rockstar.",
-          "It cites Bloomberg’s Jason Schreier newsletter as the primary source.",
-          "Byline, publish/update dates, and a short comment thread are present."
+          "Article is explicitly GTA 6 news and cites Bloomberg’s Jason Schreier newsletter and video.",
+          "Does not host leaked game files; it discusses workplace impact and official schedule claims.",
+          "Has a byline, publish/update dates, and a short comments thread."
         ],
         "cons": [
-          "GTA BOOM is a fan outlet, not Rockstar Newswire or original investigative reporting.",
-          "Coverage mixes leak, studio policy, and site cross-links rather than a durable reference.",
-          "Discovered via a feed, not an official or high-authority newsroom."
+          "GTA BOOM is a fan outlet, not Rockstar Newswire or a primary newsroom.",
+          "Coverage is commentary layered on another reporter’s interviews, not original official documentation.",
+          "Surrounding site content includes leak-adjacent stories and promotional arcade/app elements."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 4626,
-          "output": 505,
-          "cacheRead": 7296,
-          "totalTokens": 12427,
+          "input": 11542,
+          "output": 592,
+          "cacheRead": 512,
+          "totalTokens": 12646,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3216,46 +3214,46 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-28T01:52:04.521Z",
       "aiReview": {
-        "summary": "Fan news article on GTA Boom summarizing Bloomberg reporting that Rockstar will keep the GTA 6 Netflix premiere and November 19 launch after a leak. Useful as secondary news, not an official source.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.55,
-        "riskScore": 0.28,
+        "summary": "Fan-site news recap of Bloomberg reporting that Rockstar will keep GTA VI’s Netflix premiere and November 19 date after a leak. Useful as secondary news, not an official source.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.58,
+        "riskScore": 0.18,
         "suggestedTags": [
-          "news",
-          "gta6"
+          "gta6",
+          "news"
         ],
         "evidence": [
-          "Canonical URL is a GTA Boom news article with meta description matching the leak/premiere/release-date claim.",
-          "Article section is News; body attributes the no-delay claim to Bloomberg/Schreier.",
-          "Discovered via gtaboom.com/feed.xml, not a GitHub countdown clone."
+          "Canonical URL is a GTA BOOM article titled around no delay after a GTA 6 leak.",
+          "Meta description and body say Rockstar will not delay the Netflix premiere or November 19 release, attributing that to Bloomberg.",
+          "Not a GitHub landing-page clone; it is a published news page with author Ray Ampoloquio."
         ],
         "uncertainty": [
-          "Independence and accuracy versus the original Bloomberg newsletter were not verified beyond this page.",
-          "Long-term site reputation and ad/affiliate practices are not fully assessed."
+          "Cannot independently verify Bloomberg sourcing or the accuracy of dates from this page alone.",
+          "Long-term editorial reliability of gtaboom.com versus major games press is not established here."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:40:40.577Z",
+        "reviewedAt": "2026-10-10T21:29:10.962Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan recap of leak impact on premiere and launch",
-        "description": "Covers reports that the Netflix premiere and November 19 date stay on track after leaked footage, citing Bloomberg.",
+        "tagline": "Fan recap of leak fallout and unchanged GTA VI dates",
+        "description": "Reports Rockstar will keep the Netflix premiere and November 19 launch after a leak, citing Bloomberg sources.",
         "pros": [
-          "Article is about GTA 6 news and cites Bloomberg’s Jason Schreier.",
-          "Published on a dedicated GTA coverage site with author bylines and timestamps.",
-          "Does not present itself as an official Rockstar page."
+          "Article is explicitly GTA VI news and cites Bloomberg’s Jason Schreier.",
+          "States the claimed Netflix premiere and November 19 dates without being a countdown clone repo.",
+          "Has a byline, publish/update timestamps, and on-page comments."
         ],
         "cons": [
-          "Not an official Rockstar or Newswire post.",
-          "Fan-site recap of leak-related coverage rather than primary reporting.",
-          "Headline and framing mix Netflix premiere, leak, and release-date claims that readers should verify elsewhere."
+          "It is a fan site restating another outlet, not Rockstar Newswire or original reporting.",
+          "Coverage mixes leak, workplace, and marketing commentary rather than primary documentation.",
+          "Site also hosts arcade/promotional UI around the article."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 11454,
-          "output": 504,
-          "cacheRead": 512,
-          "totalTokens": 12470,
+          "input": 4785,
+          "output": 610,
+          "cacheRead": 7296,
+          "totalTokens": 12691,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3345,49 +3343,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-28T01:52:04.521Z",
       "aiReview": {
-        "summary": "Third-party GTA BOOM news piece on Take-Two DMCA subpoenas to Microsoft and Discord over a GTA 6 leak. Useful as community news, not official Rockstar coverage.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.52,
+        "summary": "Fan-site news article on Take-Two DMCA subpoenas to Microsoft and Discord over a GTA 6 leak, citing Kotaku and social posts. Useful as community news, not an official Rockstar source.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.58,
         "riskScore": 0.28,
         "suggestedTags": [
           "news",
           "gta6"
         ],
         "evidence": [
-          "Canonical URL and og:title describe Take-Two subpoenas of Microsoft/Discord over CyberLeek.",
-          "Meta description and body cite Kotaku plus Xbox CTO comments.",
-          "Site is a GTA fan news/community property with comments, not an official Rockstar page."
+          "canonicalUrl and og:url point to gtaboom.com article on Take-Two subpoenas.",
+          "meta-article:section is News; meta-description matches the subpoena story.",
+          "Body cites Kotaku and X posts; wordCount ~623.",
+          "Not a landing-page clone repo; discovered via gtaboom.com/feed.xml."
         ],
         "uncertainty": [
-          "Accuracy of court-filing details versus Kotaku original.",
-          "Whether the leak story remains current or is rumor-heavy after publication."
+          "Independence and accuracy versus the original Kotaku report were not independently verified.",
+          "Whether related leak footage on the page is still hosted was not fully audited.",
+          "Site monetization beyond ads/app store links is not fully documented."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:41:02.358Z",
+        "reviewedAt": "2026-10-10T21:29:38.361Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan-site report on publisher subpoenas over a leak",
-        "description": "Covers Take-Two federal DMCA subpoenas to Microsoft and Discord seeking records to identify a GTA 6 leak account.",
+        "tagline": "Fan coverage of Take-Two subpoenas over a GTA 6 leak",
+        "description": "Reports Take-Two DMCA subpoenas to Microsoft and Discord seeking records to identify a GTA 6 leak poster, citing Kotaku and public posts.",
         "pros": [
-          "Article is live, dated, and clearly about GTA 6 publisher legal action.",
-          "Cites Kotaku and public Xbox/creator statements rather than inventing the story.",
-          "Fits the 新闻资讯 bucket as a news post, not a countdown clone or fake official site."
+          "Article is explicitly tagged as GTA 6 news and describes Take-Two court subpoenas of Microsoft (GitHub/OneDrive) and Discord.",
+          "It cites secondary reporting (Kotaku) and public statements from Xbox’s Scott Van Vliet and Stephen Totilo.",
+          "Author and update dates are shown (Ray Ampoloquio, updated by Matt Gibbs).",
+          "The page is a live article with comments, not a GitHub countdown clone or fake official site."
         ],
         "cons": [
-          "GTA BOOM is a fan outlet, not Rockstar Newswire or a primary newsroom.",
-          "Story centers on leak enforcement and secondary Discord sweep-in, not gameplay or official materials.",
-          "Discovered via feed/GitHub-search signals with no independent editorial verification of court filings."
+          "It is a GTA Boom fan site, not Rockstar Newswire or a major outlet of record.",
+          "Tone is speculative and editorial, including leak-hunt commentary and Discord bystander privacy concerns.",
+          "The story centers on leaked footage and unmasking a leaker rather than official game information."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "learning"
-        ],
         "usage": {
-          "input": 10837,
-          "output": 548,
-          "cacheRead": 512,
-          "totalTokens": 11897,
+          "input": 6335,
+          "output": 709,
+          "cacheRead": 5120,
+          "totalTokens": 12164,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3459,46 +3457,47 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan news article on GTA Boom covering a Fort Stewart reenlistment incentive tied to GTA 6, citing CBS News confirmation. Useful as 新闻资讯 but not official Rockstar coverage and is a single story rather than a maintained hub.",
+        "summary": "Fan-site recap of CBS-confirmed Fort Stewart reenlistment leave tied to GTA VI; useful as secondary news, not an official Rockstar source.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.55,
-        "riskScore": 0.15,
+        "qualityScore": 0.58,
+        "riskScore": 0.22,
         "suggestedTags": [
+          "news",
           "gta6",
-          "news"
+          "community"
         ],
         "evidence": [
-          "Canonical URL and title match an Aug 21, 2026 GTA Boom news post.",
-          "Meta description and body state Army/CBS confirmation of a four-day GTA 6 pass and 20 reenlistments.",
-          "Page section is News with GTA 6 tags; discovered via gtaboom.com feed, not a landing-page clone repo."
+          "canonicalUrl is a gtaboom.com news post titled about Fort Stewart reenlisting for a GTA 6 pass.",
+          "Meta description and body say the Army confirmed a four-day pass and 20 soldiers reenlisted; CBS News is linked.",
+          "Not a GitHub countdown/clone landing page; it is a dated article with comments."
         ],
         "uncertainty": [
-          "Independence and accuracy of GTA Boom versus the cited CBS piece were not independently verified.",
-          "Long-term maintenance of the article URL and comments is unknown."
+          "Could not independently verify CBS or Army statements beyond this page.",
+          "Long-term editorial quality of GTA BOOM versus mainstream outlets is unassessed."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:41:25.977Z",
+        "reviewedAt": "2026-10-10T21:30:06.881Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan report on Army GTA 6 reenlistment leave",
-        "description": "Reports Army confirmation that Fort Stewart soldiers reenlisted for a four-day GTA 6 launch pass, citing CBS News.",
+        "tagline": "Fan recap of Army GTA VI reenlistment leave",
+        "description": "Reports CBS confirmation that a Fort Stewart unit offers a four-day GTA VI launch pass for reenlistment, with 20 soldiers already signed.",
         "pros": [
-          "Article is clearly about GTA 6 news and names a CBS News confirmation.",
-          "Includes author, dates, and a short recap of the Fort Stewart memo and reenlistment window.",
-          "Not a countdown clone, fake official site, or empty GitHub marketing page."
+          "Article cites CBS News and an Army lieutenant colonel by name for confirmation.",
+          "States concrete details: 9th Brigade Engineer Battalion, Aug 1–Nov 14 2026 window, ~130 eligible, 20 reenlisted.",
+          "Clearly labeled GTA 6 news with author byline and publication date."
         ],
         "cons": [
-          "Source is a fan site, not Rockstar Newswire or a major outlet.",
-          "Listing is a single article, not a dedicated news feed or guide resource.",
-          "Tone is informal and mixes commentary with the reported facts."
+          "Coverage is a GTA BOOM recap, not an official Rockstar or primary news outlet.",
+          "Tone is informal commentary mixed with the facts.",
+          "Site also promotes its own app, arcade, and related fan articles."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 4109,
-          "output": 587,
+          "input": 4228,
+          "output": 608,
           "cacheRead": 6912,
-          "totalTokens": 11608,
+          "totalTokens": 11748,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3570,44 +3569,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site news piece explaining a one-day Best Buy $100-for-$60 gift-card promo that could cut GTA 6 Ultimate Edition to $60 in-store; useful as 新闻资讯, not official Rockstar coverage.",
+        "summary": "Fan-site news post explaining a one-day Best Buy gift-card promo that could cut GTA 6 Ultimate Edition to $60; useful as retail news but time-limited and unofficial.",
         "relevanceScore": 0.72,
         "qualityScore": 0.62,
-        "riskScore": 0.22,
+        "riskScore": 0.28,
         "suggestedTags": [
+          "news",
           "gta6",
-          "news"
+          "guide"
         ],
         "evidence": [
-          "Canonical URL and meta describe Best Buy 60th-anniversary $100 gift card for $60 on August 22.",
-          "Body cites in-store-only, one card per customer, fifty cards per store.",
-          "Section tagged News / GTA 6; not a GitHub countdown clone."
+          "Canonical URL and meta section News / tag GTA 6 on gtaboom.com.",
+          "Body states $100 gift card for $60 on Aug 22, Ultimate $100 vs Standard $80, in-store only, 50 cards per store.",
+          "Author byline Ray Ampoloquio, updated Aug 21 2026; not Rockstar Newswire."
         ],
         "uncertainty": [
-          "Cannot independently confirm Best Buy stock, store rules, or that Ultimate Edition was $100 at the time.",
-          "Site reputation and comment quality beyond this page were not audited."
+          "Whether the Best Buy promo was accurately reported or still valid after publication.",
+          "Long-term editorial reliability of GTA BOOM versus major outlets."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:41:49.859Z",
+        "reviewedAt": "2026-10-10T21:30:28.397Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Retail gift-card promo that can cut Ultimate Edition cost",
-        "description": "Explains Best Buy’s one-day in-store gift-card sale and how it can reduce GTA 6 Ultimate Edition to $60.",
+        "tagline": "Retail gift-card promo that can cut Ultimate Edition to $60",
+        "description": "Explains Best Buy’s one-day $100-for-$60 gift card sale and how it applies to GTA 6 editions, with in-store limits.",
         "pros": [
-          "Published article with author byline, timestamps, and a pricing table for Ultimate vs Standard editions.",
-          "States deal limits: in-store only, one card per customer, fifty cards per store.",
-          "Links a Best Buy corporate anniversary post and notes the card does not expire."
+          "Article is explicitly tagged GTA 6 news and describes a retailer deal tied to Ultimate and Standard editions.",
+          "Includes concrete prices, in-store-only rules, one-card-per-customer, and fifty-card stock limits.",
+          "Links Best Buy’s corporate anniversary announcement and related GTA 6 pricing coverage."
         ],
         "cons": [
-          "Fan outlet (GTA BOOM), not Rockstar Newswire or a major newsroom.",
-          "Coverage is a time-limited August 22, 2026 retail promo, so it ages quickly.",
-          "Deal math depends on using store credit toward a $100 SKU and is not a Rockstar price cut."
+          "Not an official Rockstar or Take-Two Newswire source.",
+          "The promotion is a single-day August 22 in-store event, so the page ages quickly.",
+          "Site also promotes giveaways and other deal content, which is weaker than primary news."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 3743,
-          "output": 643,
+          "input": 3822,
+          "output": 564,
           "cacheRead": 7040,
           "totalTokens": 11426,
           "provider": "xai-oauth",
@@ -3675,58 +3678,55 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site PSA warning that no playable GTA VI build exists and that leak “download” offers are malware. Useful news/safety context, not official Rockstar coverage.",
+        "summary": "Fan-site PSA warning that no playable GTA VI build exists and fake download/Discord offers are malware. Useful as news, not an official Rockstar source.",
         "relevanceScore": 0.78,
         "qualityScore": 0.62,
-        "riskScore": 0.22,
+        "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news",
           "guide"
         ],
         "evidence": [
-          "canonicalUrl is a GTA BOOM News article dated Aug 20, 2026 with an Oct 1, 2026 update.",
-          "Meta description and body: no playable GTA VI build exists; sites/Discords selling one are malware.",
-          "Author byline Ray Ampoloquio; section News; tags GTA 6.",
-          "Not a GitHub countdown clone or fake official landing page."
+          "Canonical article at gtaboom.com titled GTA 6 Download Scams Increase Following Latest Leak, published 2026-08-20 and updated 2026-10-01.",
+          "Meta description and body: no playable Grand Theft Auto VI build exists; selling one is malware in disguise.",
+          "Section tagged News / GTA 6; author Ray Ampoloquio; ~522 words."
         ],
         "uncertainty": [
-          "Editorial independence and long-term accuracy of GTA BOOM relative to Rockstar cannot be fully verified from this page.",
-          "Comment claiming a November 19 release is user-generated, not site editorial."
+          "Editorial independence and long-term accuracy of GTA Boom versus mainstream outlets cannot be fully verified from this page alone.",
+          "Referenced CyberLeek leak details are second-hand and not independently confirmed here."
         ],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:42:10.020Z",
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-10T21:30:50.041Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Warns that fake GTA VI leak downloads are malware",
+        "tagline": "Warns that fake GTA VI downloads are malware scams",
         "description": "Explains that no playable GTA VI build exists and that sites or Discords selling one typically deliver malware.",
         "pros": [
-          "Article states there is no public playable GTA VI build and frames paid “leaked build” offers as scams.",
-          "Names concrete malware risks such as credential stealers, banking trojans, ransomware, and adware.",
-          "Points readers to official trailers, artwork, and the Extended Look instead of unofficial installers.",
-          "Includes an October 2026 update clarifying official viewing channels after the Extended Look premiere."
+          "States clearly that no public playable GTA VI build, beta, or PC version exists to download.",
+          "Warns that paid leak-build offers on sites and Discord are typically credential stealers, banking trojans, ransomware, or adware.",
+          "Points readers to official trailers, artwork, and the Extended Look instead of unofficial installers."
         ],
         "cons": [
-          "GTA BOOM is a fan news site, not Rockstar Newswire or another primary official source.",
-          "Coverage depends on leak/scam hype and may age as the release date approaches.",
-          "The page is a single short news post with site ads, related stories, and community comments."
+          "GTA Boom is a fan news site, not Rockstar Newswire or another primary official source.",
+          "Coverage is a short news PSA tied to leak hype rather than a lasting reference or tool."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3597,
-          "output": 601,
+          "input": 3717,
+          "output": 600,
           "cacheRead": 6912,
-          "totalTokens": 11110,
+          "totalTokens": 11229,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3798,46 +3798,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site news piece on Rockstar staying silent after a GTA 6 leak while running Netflix Extended Look ads and copyright takedowns. Useful as 新闻资讯, not official Newswire.",
+        "summary": "Third-party GTA BOOM news piece on Rockstar’s leak response via ads and takedowns; useful as fan coverage, not an official source.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.55,
+        "qualityScore": 0.62,
         "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Canonical URL and og:title describe Rockstar fighting the GTA 6 leak with takedowns and Netflix ads.",
-          "meta-article:section News; published 2026-08-20; ~472 words; author Ray Ampoloquio.",
-          "Body states Rockstar ran paid ads for Grand Theft Auto VI: An Extended Look (Netflix Aug 27) and Take-Two issued copyright takedowns."
+          "Canonical URL and og:title confirm GTA BOOM article on leak, takedowns, and Netflix ads.",
+          "meta-article:section is News; published 2026-08-20, updated 2026-08-21.",
+          "Discovered from gtaboom.com/feed.xml, not a clone repo."
         ],
         "uncertainty": [
-          "Independent verification of ads, takedowns, Netflix date, and Nov 19 launch claim was not done beyond this page.",
-          "Site reputation and ad/affiliate practices not fully assessed."
+          "Editorial accuracy of ads/takedown claims versus Rockstar/Take-Two primary statements.",
+          "Long-term archival quality of GTA BOOM pages and related leak links."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:42:36.015Z",
+        "reviewedAt": "2026-10-10T21:31:09.765Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on leak response via ads and takedowns",
-        "description": "Covers Rockstar’s silence, Netflix Extended Look ads, and Take-Two takedowns after leaked GTA 6 footage.",
+        "tagline": "Fan news on Rockstar ads and leak takedowns",
+        "description": "Covers Rockstar’s silence, Netflix Extended Look ads, and copyright takedowns after a GTA VI leak.",
         "pros": [
-          "Article is explicitly GTA 6 news with byline, dates, and section tagging.",
-          "Summarizes public marketing (Netflix Extended Look ads) versus takedown strategy rather than hosting leaked clips as the main content.",
-          "Short, readable news format suitable for a directory news bucket."
+          "Article is clearly about GTA VI, Rockstar, and the leak/Netflix reveal timeline.",
+          "Has byline, publish/update dates, and a short original write-up rather than a landing-page clone.",
+          "Site is a dedicated GTA news outlet, not a GitHub countdown or fake official page."
         ],
         "cons": [
-          "GTA BOOM is a fan outlet, not Rockstar Newswire or a major news desk.",
-          "Commentary is opinionated and interlinks other fan articles rather than primary sources.",
-          "Discovered via feed/github_search; not an official or evergreen resource."
+          "Not an official Rockstar Newswire or other primary source.",
+          "Commentary-heavy (~472 words) with limited independently verified facts.",
+          "Discusses leaked footage and leaker context, which can date quickly."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 10203,
-          "output": 607,
+          "input": 10322,
+          "output": 510,
           "cacheRead": 512,
-          "totalTokens": 11322,
+          "totalTokens": 11344,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3903,52 +3906,56 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site news piece on Sony’s Australian PlayStation age checks (ID or facial scan) for R18+ titles including GTA VI; cites PlayStation support, not Rockstar Newswire.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.62,
+        "summary": "Fan news article on Sony’s Australian PlayStation age checks for R18+ titles, including GTA 6. Cites PlayStation support but is not official Rockstar coverage and mixes reporting with opinion.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.52,
         "riskScore": 0.18,
         "suggestedTags": [
-          "gta6",
-          "news"
+          "news",
+          "gta6"
         ],
         "evidence": [
-          "Canonical URL is a ~558-word News article dated Aug 20, 2026, updated Oct 6, 2026.",
-          "Meta description and body describe ID or facial age scans for Australian PS accounts adding R18+ games.",
-          "Not a GitHub countdown/clone landing page; live editorial page with related GTA 6 news links."
+          "canonicalUrl and page title match Australians/face-scan/GTA 6 news.",
+          "meta-article:section is News; word count ~558.",
+          "Cites https://www.playstation.com/en-au/support/account/age-verification-faq/",
+          "Discovered via gtaboom.com/feed.xml, not a GitHub landing-page clone."
         ],
         "uncertainty": [
-          "Accuracy of claimed Microsoft/Sony rollout timing and third-party vendors not independently verified here.",
-          "Whether the site’s overall reporting quality meets directory bar vs. other GTA news sources."
+          "Accuracy of claims about Microsoft rollout, failed checks, and digital-only launch was not independently verified.",
+          "Long-term editorial reliability of GTA BOOM is unknown."
         ],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T18:42:58.304Z",
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-10T21:31:31.118Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "AU PS5 R18+ age checks may block store buys",
-        "description": "Covers Sony’s Australian PlayStation age verification for R18+ store titles, including ID or facial scans before adding GTA VI.",
+        "tagline": "PlayStation AU age scans for R18+ games like GTA 6",
+        "description": "Covers Sony’s Australian ID or facial age checks before adding R18+ store titles, with a PlayStation FAQ citation.",
         "pros": [
-          "Article is on-topic GTA VI news about Australian PlayStation R18+ purchase rules.",
-          "Links PlayStation Australia’s age-verification support page as a primary source.",
-          "Has byline, publish/update dates, and a short community comment thread."
+          "Article is specifically about Grand Theft Auto VI purchase requirements in Australia.",
+          "Links PlayStation’s Australian age-verification support page as a primary source.",
+          "Published on a GTA-focused news site with an author byline and update date."
         ],
         "cons": [
-          "GTA BOOM is a fan outlet, not official Rockstar Newswire or major news.",
-          "Headline is speculative about GTA 6 while the policy is general R18+ store access.",
-          "Includes opinion on enforcement failure and privacy without independent data in the piece."
+          "Not an official Rockstar Newswire or Sony press post.",
+          "Headline and body mix news with editorial claims about enforcement failure.",
+          "Site is a fan outlet, not a major newsroom."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 3812,
-          "output": 632,
-          "cacheRead": 6912,
-          "totalTokens": 11356,
+          "input": 5718,
+          "output": 552,
+          "cacheRead": 5120,
+          "totalTokens": 11390,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4020,49 +4027,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site news post about a U.S. CPSC social joke using GTA 6 leak memes; relevant to 新闻资讯 but not official Rockstar coverage.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.55,
-        "riskScore": 0.22,
+        "summary": "Short GTA BOOM news recap of a U.S. CPSC X post joking that a GTA 6 leak reminds people to change smoke-alarm batteries. Fan coverage of a meme, not official Rockstar news.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.48,
+        "riskScore": 0.18,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Canonical URL and meta-article:section News / tag GTA 6.",
-          "Meta description states CPSC posted a fake GTA VI leak joke about smoke-alarm batteries.",
-          "Body cites USCPSC status/2090157772117516766 and ~396 words / 2-minute read."
+          "canonicalUrl is a GTA BOOM article titled about CPSC joking on a GTA 6 leak.",
+          "Meta description and body confirm the CPSC fake-leak joke and smoke-alarm reminder.",
+          "Not a countdown clone or fake official landing page."
         ],
         "uncertainty": [
-          "Cannot independently verify the cited X post or view counts from this page alone.",
-          "Editorial accuracy versus primary sources was not fact-checked beyond the article text."
+          "Could not independently verify the linked X post still exists or view counts.",
+          "Editorial reliability of GTA BOOM versus mainstream outlets is not fully assessed."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:43:19.178Z",
+        "reviewedAt": "2026-10-10T21:31:50.596Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on a government GTA 6 leak meme",
-        "description": "Covers a U.S. safety agency’s joke post tying a fake GTA 6 leak to yearly smoke-alarm battery changes.",
+        "tagline": "Fan recap of a federal GTA 6 safety meme",
+        "description": "Reports a U.S. CPSC joke post tying a fake GTA 6 leak to yearly smoke-alarm battery changes.",
         "pros": [
-          "Article is on-topic GTA 6 news with an author byline and publish/update dates.",
-          "It quotes the CPSC X post and frames the joke as a safety reminder, not a real leak.",
-          "Word count and section tagging match a short news recap, not a countdown clone repo."
+          "Article is on-topic GTA 6 cultural news with a named author and publish/update dates.",
+          "Quotes the CPSC post and links the X status it describes.",
+          "Site labels the piece as News and tags it GTA 6."
         ],
         "cons": [
-          "Source is a fan outlet, not Rockstar Newswire or a major newsroom.",
-          "Piece is meme/hype commentary rather than gameplay, tools, or official materials.",
-          "Discovered via a feed repeatedly, so it is a single story, not a maintained resource hub."
+          "Fan outlet commentary, not an official Rockstar Newswire or primary government page.",
+          "Very short (~400 words) and mostly hype/meme framing rather than game information.",
+          "Discovered via feed/github_search rather than a high-authority news source."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3587,
-          "output": 526,
+          "input": 3705,
+          "output": 539,
           "cacheRead": 6912,
-          "totalTokens": 11025,
+          "totalTokens": 11156,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4134,50 +4141,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site ranking of possible GTA VI cameos with HD vs 3D-universe caveats; speculative news, not official Rockstar confirmation.",
+        "summary": "Fan-site speculation ranking which legacy GTA characters might cameo in GTA 6; useful as unofficial news/opinion, not Rockstar confirmation.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.62,
+        "qualityScore": 0.55,
         "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news",
-          "guide"
+          "community"
         ],
         "evidence": [
-          "Canonical URL is a GTA Boom article titled around returning GTA characters for GTA 6, section News, ~1037 words.",
-          "Meta description and body rank Lester Crest and Franklin Clinton as more likely than Tommy Vercetti/CJ due to separate universes.",
-          "Giveaway CTA asks for email; Bookie market embeds appear in the article."
+          "Canonical URL and title match a ~1000-word GTA BOOM article dated Aug 20, 2026 (updated Sep 27, 2026).",
+          "Meta description and body rank Lester Crest and Franklin Clinton as most likely and 3D-era icons as very low.",
+          "Page includes email giveaway and Bookie market widgets plus community comments."
         ],
         "uncertainty": [
-          "Long-term editorial reliability of GTA Boom versus major games outlets.",
-          "Whether giveaway terms and Bookie features are legally compliant in all regions."
+          "Editorial reliability of GTA BOOM versus mainstream outlets cannot be independently verified here.",
+          "Giveaway terms and Bookie/gambling compliance were not audited."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:43:42.972Z",
+        "reviewedAt": "2026-10-10T21:32:12.340Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Ranks possible GTA VI cameos by continuity, not hype",
-        "description": "Ranks legacy GTA faces by return odds in GTA VI, noting HD vs 3D universes and that nothing is confirmed.",
+        "tagline": "Ranks likely GTA 6 cameos using HD vs 3D lore",
+        "description": "Ranks legacy GTA characters by cameo odds in GTA 6, noting HD vs 3D universes and that nothing is confirmed.",
         "pros": [
-          "Article distinguishes HD Universe characters from 3D-era icons and states ratings are unconfirmed.",
-          "Named authors, publish/update dates, and a character-plausibility table are present.",
-          "Content is a real GTA Boom news piece, not a countdown-clone or fake official page."
+          "Article is explicitly about GTA 6 returning-character speculation with a ranked table.",
+          "It distinguishes Rockstar’s 3D and HD universes and states that ratings are unconfirmed.",
+          "Byline, publish/update dates, and related GTA 6 coverage are present on a dedicated GTA site."
         ],
         "cons": [
-          "Piece is opinion and likelihood ranking, not official Newswire or confirmed roster news.",
-          "Page promotes an email GTA 6 giveaway and in-site betting-style Bookie widgets.",
-          "Discovered via RSS/GitHub-search metadata rather than an official Rockstar source."
+          "Content is opinion and wishlist analysis, not official Rockstar Newswire or confirmed news.",
+          "The page mixes in a GTA 6 giveaway and in-site betting-style “Bookie” markets.",
+          "Discovery via a feed labeled github_search is a weak signal for directory quality."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 11324,
-          "output": 601,
-          "cacheRead": 512,
-          "totalTokens": 12437,
+          "input": 4954,
+          "output": 673,
+          "cacheRead": 6912,
+          "totalTokens": 12539,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4249,47 +4256,47 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "Fan-site news recap of Stop Killing Games distancing itself from a GTA 6 leak group; useful as 新闻资讯 context but not official Rockstar coverage.",
-        "relevanceScore": 0.62,
+        "summary": "Fan-site news piece on Stop Killing Games distancing itself from a GTA 6 leak group; relevant as GTA 6 news but not official Rockstar coverage and not a top-tier outlet.",
+        "relevanceScore": 0.72,
         "qualityScore": 0.55,
-        "riskScore": 0.42,
+        "riskScore": 0.35,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl and og:url are https://www.gtaboom.com/even-stop-killing-games-is-disowning-the-gta-6-leaker-03d8",
-          "meta-article:section News and meta-article:tag GTA 6",
-          "Body quotes SKG calling the leak destructive and linking r/StopKillingGames",
-          "Not a GitHub countdown/template clone"
+          "canonicalUrl is a gtaboom.com article titled about SKG disowning a GTA 6 leaker.",
+          "meta-article:section News and meta-article:tag GTA 6; ~622 words.",
+          "Quotes SKG calling the leak destructive and warning not to support it.",
+          "Not a GitHub landing-page clone; it is a published news URL."
         ],
         "uncertainty": [
-          "Long-term accuracy of leak claims versus later official timelines",
-          "Editorial independence and ad/affiliate model of gtaboom.com"
+          "Editorial accuracy versus primary SKG/Reddit sources was not independently verified.",
+          "Site ad/affiliate model and long-term maintenance are unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:44:09.895Z",
+        "reviewedAt": "2026-10-10T21:32:35.868Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on SKG rejecting a GTA 6 leak",
-        "description": "Reports Stop Killing Games disowning a GTA 6 leak group, quoting its statement and linking related leak coverage.",
+        "tagline": "Fan news on SKG disowning a GTA 6 leak",
+        "description": "Reports Stop Killing Games rejecting a GTA 6 leak group, quoting its statement and framing the leak as harmful to preservation advocacy.",
         "pros": [
-          "Article is clearly tagged as GTA 6 news with author, dates, and a meta description matching the headline.",
-          "It cites a Stop Killing Games Reddit statement and summarizes why the campaign rejected the leak.",
-          "Word count and structure read as a finished news post rather than a landing-page clone."
+          "Bylined GTA BOOM article dated Aug 19–20 2026 with a clear GTA 6 News topic.",
+          "Summarizes Stop Killing Games’ public statement and links the campaign site and a Reddit statement post.",
+          "Does not host leaked footage; it discusses reaction and preservation politics."
         ],
         "cons": [
-          "It is unofficial fan-site coverage, not a Rockstar Newswire or primary SKG page.",
-          "The piece discusses stolen footage, demands, and a memecoin, which is secondary gossip rather than guides or tools.",
-          "Discovery via a feed/GitHub-style scrape is a weak signal for directory quality."
+          "Fan/enthusiast site, not Rockstar Newswire or a major newsroom.",
+          "Opinionated framing and related-story upsells around leaks and a countdown.",
+          "Discovered via feed/github_search with no independent reputation check."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 4135,
-          "output": 615,
+          "input": 4251,
+          "output": 620,
           "cacheRead": 6912,
-          "totalTokens": 11662,
+          "totalTokens": 11783,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4343,51 +4350,46 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "GTA BOOM news article summarizing streamer reactions to a GTA 6 leak; relevant as fan news but leak-centric, unofficial, and not a primary source.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.48,
-        "riskScore": 0.55,
+        "summary": "Fan-site news piece on streamers distancing themselves from a GTA 6 leak; on-theme but unofficial, leak-centric, and not a primary source.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.42,
+        "riskScore": 0.48,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Canonical URL and meta describe streamers distancing from a GTA 6 leak over spoilers and legal fear.",
-          "Article published 2026-08-19, tagged News/GTA 6, ~508 words.",
-          "Rubric prefers official Newswire or reputable news; this is unofficial leak-reaction coverage.",
-          "Not a GitHub countdown/clone; discovered via gtaboom.com/feed.xml."
+          "canonicalUrl and og:title confirm GTA BOOM article dated Aug 19, 2026 about streamers and a GTA 6 leak.",
+          "meta-description states streamers cite spoiler etiquette and fear of Rockstar legal action.",
+          "Content references Cyberleek dump, DMCAs, and related GTA BOOM leak stories rather than official materials."
         ],
         "uncertainty": [
-          "Cannot independently verify quoted streamer clips or Adin Ross lawsuit claim.",
-          "Site reputation versus mainstream gaming outlets is not independently ranked here.",
-          "Leak authenticity and DMCA status are asserted, not proven in this review."
+          "Accuracy of quoted clips and Adin Ross lawsuit claim cannot be independently verified here.",
+          "Site monetization beyond free articles and an iOS app id is unclear."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:44:33.550Z",
+        "reviewedAt": "2026-10-10T21:32:59.661Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on streamers distancing from a GTA 6 leak",
-        "description": "Reports how major streamers refused leaked GTA 6 footage, citing spoilers and fear of Rockstar legal action.",
+        "tagline": "Coverage of streamers refusing to air a GTA 6 leak",
+        "description": "Reports xQc, Agent, Kai Cenat, and Adin Ross reacting to a GTA 6 leak and avoiding spoilers amid Rockstar legal fears.",
         "pros": [
-          "Page is a live article on a GTA-focused site with author byline and dated publication.",
-          "Topic is explicitly GTA 6 news about public streamer reactions rather than a clone landing page.",
-          "Includes named sources and links to related GTA BOOM coverage."
+          "Article is explicitly about GTA 6 and cites named streamer reactions.",
+          "Published on a GTA-focused site with author byline and timestamps.",
+          "Does not present itself as an official Rockstar page."
         ],
         "cons": [
-          "Centers on leaked footage and unverified claims rather than official Rockstar material.",
-          "Tone is tabloid and quotes are secondary clips, not original reporting from Rockstar.",
-          "Not a maintained tool, SDK, or durable reference resource."
+          "Unofficial fan news, not a Rockstar Newswire or major-outlet primary source.",
+          "Centers on leaked footage and unverified claims such as Adin Ross being sued.",
+          "Thin ~500-word recap with clip embeds rather than original reporting."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "learning"
-        ],
         "usage": {
-          "input": 3827,
-          "output": 523,
-          "cacheRead": 6656,
-          "totalTokens": 11006,
+          "input": 10616,
+          "output": 603,
+          "cacheRead": 0,
+          "totalTokens": 11219,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4441,48 +4443,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan news article on GTA VI Xbox pre-order estimates from Sensor Tower, with caveats that figures are unofficial. Useful as 新闻资讯, not an official Rockstar source.",
+        "summary": "Fan-site news article summarizing Sensor Tower’s unofficial GTA VI pre-order estimates (Xbox ~1M / ~23% of ~4.38M). Useful as news, not official Rockstar data.",
         "relevanceScore": 0.78,
         "qualityScore": 0.62,
-        "riskScore": 0.28,
+        "riskScore": 0.22,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl and og:url match gtaboom.com article on Xbox GTA VI pre-orders.",
-          "meta-description and body cite Sensor Tower ~4.38M total, Xbox ~1M (~23%).",
-          "article:section News; published 2026-08-19, modified 2026-10-06.",
-          "Page explicitly says Sensor Tower lacks actual sales sheets."
+          "Canonical URL is a GTA BOOM news post dated Aug 19, 2026, section News.",
+          "Meta description and body cite Sensor Tower sales-tracker estimates and explicitly say they are not official numbers.",
+          "Discovered via gtaboom.com/feed.xml, not Rockstar or major outlet Newswire."
         ],
         "uncertainty": [
-          "Accuracy of Sensor Tower pre-order model versus real Rockstar/Take-Two figures.",
-          "Long-term editorial quality and ad/affiliate practices of GTA BOOM beyond this URL."
+          "Accuracy of Sensor Tower’s model versus actual Take-Two/Rockstar pre-orders.",
+          "Long-term editorial reliability of GTA BOOM versus mainstream games press."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:45:00.404Z",
+        "reviewedAt": "2026-10-10T21:33:21.941Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan recap of unofficial GTA VI Xbox pre-order estimates",
-        "description": "Reports Sensor Tower estimates that Xbox Series pre-orders topped 1 million, about 23% of 4.38 million tracked, and notes they are unofficial.",
+        "tagline": "Fan report of unofficial GTA VI Xbox pre-order stats",
+        "description": "Covers Sensor Tower estimates that Xbox Series GTA VI pre-orders topped 1 million, about 23% of a 4.38 million tracked total.",
         "pros": [
-          "Article is clearly GTA VI news with author byline, publish and update dates, and a Sensor Tower citation.",
-          "It states the figures are third-party estimates, not Rockstar or platform-holder sales data.",
-          "Includes a simple breakdown table of estimated platform split, weekly adds, and revenue.",
-          "GTA BOOM is a dedicated GTA fan news site rather than a GitHub countdown or fake official clone."
+          "Article is clearly labeled as third-party Sensor Tower estimates, not Rockstar or platform-holder figures.",
+          "Includes a dated snapshot table of total, PS5, Xbox, weekly add, and estimated revenue.",
+          "Published on a GTA-focused news site with author byline and update timestamp."
         ],
         "cons": [
-          "Not an official Rockstar Newswire or Take-Two source; numbers cannot be verified from this page.",
-          "Word count is short (~441) and leans on a public tracker plus prior fan coverage.",
-          "Comments and related links are typical fan-site engagement, not primary reporting."
+          "Not an official Rockstar Newswire or first-party sales disclosure.",
+          "Pre-order totals and platform split cannot be independently verified from the page.",
+          "Site mixes news with arcade, comments, and related recaps typical of a fan portal."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 9847,
-          "output": 657,
-          "cacheRead": 512,
-          "totalTokens": 11016,
+          "input": 3776,
+          "output": 512,
+          "cacheRead": 6656,
+          "totalTokens": 10944,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4536,47 +4539,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan-site news piece on Take-Two/Rockstar’s silence and DMCA response to the Cyberleek GTA VI dump; useful as unofficial news, not an official or high-authority source.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.55,
+        "summary": "Fan-site news/opinion piece on Take-Two’s DMCA response to a GTA VI leak and manifesto; not official Rockstar coverage and it discusses leaked footage.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.48,
         "riskScore": 0.42,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl and page title match a GTA BOOM article on Cyberleek vs Take-Two.",
-          "meta-article:section is News; description cites DMCA takedowns of leaked GTA VI footage and map.",
-          "Body discusses 2022 Lapsus$, April 2026 data leak, and August 2026 Cyberleek with a comparison table.",
-          "Site is a fan news outlet with comments, related stories, and an arcade promo—not Rockstar."
+          "canonicalUrl is gtaboom.com article titled around Cyberleek vs Take-Two.",
+          "meta-article:section is News; published ~2026-08-19; author Ray Ampoloquio.",
+          "Body describes DMCA takedowns of leaked GTA VI footage/map and company silence on demands.",
+          "Not an official Rockstar URL; not a GitHub clone repo."
         ],
         "uncertainty": [
-          "Accuracy of stock-move and Netflix/premiere timeline claims was not independently verified.",
-          "Whether the article still hosts or embeds leak video after DMCA is unclear from metadata alone."
+          "Accuracy of stock-market and leak-history claims versus primary reporting.",
+          "Whether embedded video is original commentary or leak-adjacent media.",
+          "Long-term maintenance of the URL and editorial standards of GTA Boom."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:45:22.558Z",
+        "reviewedAt": "2026-10-10T21:33:43.488Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on Rockstar’s silence after a GTA VI leak",
-        "description": "Covers Take-Two DMCA takedowns and past leak outcomes instead of addressing Cyberleek’s manifesto.",
+        "tagline": "Fan news on Take-Two’s response to a GTA VI leak",
+        "description": "Covers Rockstar and Take-Two’s silence and DMCA takedowns after a GTA VI leak, manifesto, and related crypto scam claims.",
         "pros": [
-          "Article is clearly labeled News on a GTA-focused site with named authors and publish/update dates.",
-          "Summarizes Rockstar/Take-Two’s public silence, DMCA takedowns, and prior leak market outcomes.",
-          "Does not present itself as an official Rockstar or Take-Two page."
+          "Article is clearly about Grand Theft Auto VI and names Rockstar and Take-Two.",
+          "Includes dated bylines, a short comparison of prior Take-Two leak outcomes, and links to related GTA Boom stories.",
+          "Site labels the piece as News rather than a clone landing page or GitHub countdown template."
         ],
         "cons": [
-          "Not an official Newswire or primary source; analysis and stock claims are second-hand commentary.",
-          "Centers leaked footage, a map dump, and a leaker manifesto, which is weaker than official or clean news.",
-          "Discovered via RSS/github_search rather than a strong official signal."
+          "Source is GTA Boom fan media, not Rockstar Newswire or a major news outlet.",
+          "Piece is commentary on leaks, a manifesto, and DMCA wipe of leaked footage rather than verified official announcements.",
+          "Discovery came via a feed/GitHub-search path, which is a weak signal for this directory theme."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 4172,
-          "output": 580,
-          "cacheRead": 6656,
-          "totalTokens": 11408,
+          "input": 5782,
+          "output": 601,
+          "cacheRead": 5120,
+          "totalTokens": 11503,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4630,47 +4634,51 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan-site news piece on a GTA 6 leak group’s demands, memecoin, and stolen footage. Relevant as unofficial news, but not official or high-trust sourcing; review for leak/crime framing.",
-        "relevanceScore": 0.72,
+        "summary": "Fan-site news piece on GTA Boom covering Cyberleek’s stolen GTA 6 footage, memecoin, and demands to Take-Two. Useful as unofficial news, not official or high-trust reporting.",
+        "relevanceScore": 0.62,
         "qualityScore": 0.55,
-        "riskScore": 0.62,
+        "riskScore": 0.48,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl is a GTA BOOM News article dated Aug 18–19 2026 about Cyberleek demands to Take-Two.",
-          "Meta description states stolen GTA 6 footage and memecoin-funded commandments.",
-          "Rubric prefers official/reputable news; this is unofficial leak commentary, not a template clone."
+          "canonicalUrl is a GTA Boom article titled about Cyberleek issuing demands to Take-Two.",
+          "Meta description states Cyberleek stole GTA 6 footage and funds commandments with a memecoin.",
+          "Body argues Take-Two will not negotiate and that extortion poisons legitimate player complaints.",
+          "Rubric prefers official/reputable news; this is unofficial fan-site coverage of a leak actor."
         ],
         "uncertainty": [
-          "Accuracy of leak, release, and Netflix dates versus Rockstar.",
-          "Whether the site paywalls or heavily monetizes beyond free reading.",
-          "Legal status of embedded leak video."
+          "Accuracy of leak, memecoin, and demand claims versus other outlets.",
+          "Long-term site maintenance and paywall or app-only access.",
+          "Whether directory policy should exclude leak-centric crime coverage even when the article is critical."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:45:46.434Z",
+        "reviewedAt": "2026-10-10T21:34:06.057Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on GTA 6 leak group demands to Take-Two",
-        "description": "Covers Cyberleek’s stolen GTA 6 footage, three publisher demands, and memecoin funding, arguing Take-Two will not negotiate.",
+        "tagline": "Fan news on a GTA 6 leak group’s demands",
+        "description": "Covers Cyberleek’s stolen GTA 6 footage, memecoin, and three demands to Take-Two, arguing the methods undermine the message.",
         "pros": [
-          "Published, bylined article on GTA BOOM with a clear GTA 6 news angle.",
-          "Explains the three stated demands (preorders, locked DLC, offline preservation) and criticizes theft and crypto fundraising.",
-          "Not a GitHub countdown clone or fake official landing page."
+          "Article is real GTA 6 news from a dedicated GTA site with author byline and publication date.",
+          "It criticizes theft, threats, and the memecoin rather than promoting the leak as a how-to.",
+          "Content is clearly news, not a countdown clone or fake official landing page."
         ],
         "cons": [
-          "Centers stolen gameplay, a named leak/hacker account, and a memecoin rather than official Rockstar material.",
-          "Fan site rather than Newswire or a major newsroom; claims about leaks and dates are not independently verified here.",
-          "Includes embedded leak-related video and links that may amplify unauthorized footage."
+          "Not an official Rockstar Newswire or major-outlet report.",
+          "Centers on stolen footage, hacking threats, and a crypto pitch, which is a weak directory signal.",
+          "Dates and leak claims are site-reported and not independently verified here."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 4142,
-          "output": 674,
+          "input": 4259,
+          "output": 650,
           "cacheRead": 6656,
-          "totalTokens": 11472,
+          "totalTokens": 11565,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4724,51 +4732,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan-site news piece covering alleged GTA 6 gameplay/map leaks and warning readers not to follow the leaker’s crypto QR codes. Useful as 新闻资讯 context, not official Rockstar coverage.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.58,
+        "summary": "Fan-site news piece on a purported GTA 6 leak that also warns readers off crypto QR codes and download scams. Useful as community rumor coverage, not an official Rockstar source.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.48,
         "riskScore": 0.55,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl is a GTA BOOM News article titled about a GTA 6 leak plus risky crypto links.",
-          "Meta description and body warn that the leaker pushes crypto QR codes and to wait for Rockstar.",
-          "Author Ray Ampoloquio, published 2026-08-18, section News, ~655 words.",
-          "Not a GitHub countdown/clone landing page."
+          "Canonical URL and title match a GTABoom article dated Aug 18, 2026, section News.",
+          "Meta description and body tell readers to avoid crypto QR codes and wait for Rockstar.",
+          "Body states clips may be genuine while the map is less certain and notes Take-Two takedowns.",
+          "Site is not rockstargames.com; GitHub discovery via gtaboom.com/feed.xml is a weak directory signal."
         ],
         "uncertainty": [
-          "Whether the described footage/map is genuine cannot be verified from this review.",
-          "Long-term editorial reliability of GTA BOOM versus mainstream outlets is not independently scored.",
-          "Site monetization beyond free reading (app, arcade, comments) is not fully mapped."
+          "Cannot independently verify whether the leaked clips or map are authentic.",
+          "Site ads, affiliate, or app monetization beyond free reading were not fully audited.",
+          "Long-term maintenance of the article after official reveal is unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:46:07.896Z",
+        "reviewedAt": "2026-10-10T21:34:29.715Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Leak recap that also flags crypto-scam delivery",
-        "description": "Covers alleged GTA 6 clips and a Leonida map, notes Take-Two takedowns, and warns against crypto QR codes from the leaker.",
+        "tagline": "Leak recap that warns against crypto QR scams",
+        "description": "Covers claimed GTA 6 gameplay and map leaks, Take-Two takedowns, and why crypto links from the leaker should be ignored.",
         "pros": [
-          "Article is on-topic GTA 6 news with a byline, publish date, and explicit scam warning.",
-          "It tells readers to skip crypto QR codes/links and wait for Rockstar’s own reveal.",
-          "It distinguishes likely-real clips from a less-certain map and links related GTA 6 explainers."
+          "Article is clearly GTA 6 news and warns readers not to follow crypto QR codes or download supposed builds.",
+          "Cites Take-Two copyright takedowns and links related scam-warning pieces on the same site.",
+          "Byline, publish date, and update date are present on a dedicated article URL."
         ],
         "cons": [
-          "It is unofficial fan-site reporting, not a Rockstar Newswire or similarly primary source.",
-          "The page embeds leak footage and discusses unreleased material that Take-Two was takedown-targeting.",
-          "Authenticity of the leak is asserted, not independently verified in the candidate facts."
+          "Not an official Rockstar or Take-Two Newswire post; GTABoom is a fan news site.",
+          "Centers unverified leak footage and a contested map image, so it can spread rumor as fact.",
+          "Embeds leak video and discusses leak origin accounts, which is a weaker fit than official or reputable reporting."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "learning"
-        ],
         "usage": {
-          "input": 5869,
-          "output": 620,
+          "input": 5981,
+          "output": 621,
           "cacheRead": 5120,
-          "totalTokens": 11609,
+          "totalTokens": 11722,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4822,50 +4827,45 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan-news article on a reverse-engineered GTA Vice City GameCube port; real reporting, but it is classic-GTA hobby news rather than GTA 6 coverage.",
+        "summary": "Fan-news piece on a unofficial GTA: Vice City GameCube port via reVC; real reporting but about a classic title, not GTA 6, and it sits in a legally gray reverse-engineering space.",
         "relevanceScore": 0.28,
         "qualityScore": 0.62,
-        "riskScore": 0.38,
+        "riskScore": 0.45,
         "suggestedTags": [
           "news",
           "mods"
         ],
         "evidence": [
-          "Canonical article at gtaboom.com dated Aug 18, 2026, section News, author Ray Ampoloquio.",
-          "Meta description and body cover reVC, 640x480, 60 fps capped / ~90 uncapped, PC textures.",
-          "Text states the port is unofficial and notes Take-Two enforcement against reverse-engineered GTA code.",
-          "Related links on the same site mix GTA Online and GTA 6 stories, but this URL is Vice City hardware news."
+          "Canonical URL and meta describe a Vice City GameCube fan port at 640x480 with PC textures and ~60 fps cap.",
+          "Body attributes work to Ebellumat/reVC and notes Take-Two enforcement history.",
+          "Rubric prefers GTA 6 news/guides; this article is classic-era mod news."
         ],
         "uncertainty": [
-          "Cannot independently verify the X footage, hardware results, or whether source will be released.",
-          "Site monetization beyond free reading (ads/app) not fully assessed."
+          "Cannot independently verify the port’s current completeness or legal status of any binaries.",
+          "Site monetization and editorial reliability beyond this page were not audited."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:46:32.948Z",
+        "reviewedAt": "2026-10-10T21:35:13.202Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "News on a native Vice City GameCube fan port",
-        "description": "Reports a hobbyist native GTA Vice City GameCube port using reVC, with targets for resolution, frame rate, and textures.",
+        "tagline": "News on a fan Vice City port for GameCube hardware",
+        "description": "Covers a hobbyist native Vice City GameCube port using reVC, with targets, footage, and legal caveats.",
         "pros": [
-          "Article describes a documented fan native port of GTA Vice City to real GameCube hardware.",
-          "Includes concrete targets such as 640x480, 60 fps cap, PC textures, and reVC-based widescreen.",
-          "Cites the developer’s footage and related Dreamcast reverse-engineering work rather than an empty landing page."
+          "Article describes a documented fan native Vice City port on real GameCube hardware with stated resolution, texture, and frame-rate targets.",
+          "Cites the reVC reverse-engineered codebase and related Dreamcast work, plus social posts from the developer.",
+          "States the project is unofficial and notes Take-Two has previously acted against reverse-engineered GTA code."
         ],
         "cons": [
-          "Subject is Vice City on GameCube, not GTA 6 news, guides, or official Rockstar material.",
-          "The work sits in a legal gray area around reverse-engineered GTA code that Take-Two has previously targeted.",
-          "Source is a fan site, not an official Newswire or primary developer repository."
-        ],
-        "pricingModel": "free",
-        "bestFor": [
-          "learning"
+          "Content is about GTA: Vice City, not GTA 6, so it is a weak fit for a GTA 6 directory.",
+          "The described port depends on reverse-engineered game code in a legally gray area.",
+          "GTABoom is a fan news site, not an official Rockstar source."
         ],
         "usage": {
-          "input": 9901,
-          "output": 755,
-          "cacheRead": 512,
-          "totalTokens": 11168,
+          "input": 5264,
+          "output": 517,
+          "cacheRead": 5120,
+          "totalTokens": 10901,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4919,49 +4919,46 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "Fan-site news recap of a Moon Studios founder tweet about GTA 6 as a 60 FPS talking point on Xbox Series S; relevant GTA VI news, not official Rockstar coverage.",
-        "relevanceScore": 0.72,
+        "summary": "Fan-site news piece covering Moon Studios founder Thomas Mahler criticizing fans who cite unreleased GTA 6 as a 60 FPS benchmark on Xbox Series S. Useful as rumor/opinion coverage, not official Rockstar material.",
+        "relevanceScore": 0.62,
         "qualityScore": 0.55,
         "riskScore": 0.15,
         "suggestedTags": [
-          "gta6",
-          "news"
+          "news",
+          "gta6"
         ],
         "evidence": [
-          "canonicalUrl and og:title describe Moon Studios founder responding to fans citing GTA 6 for 60 FPS on Series S.",
-          "meta-article:section is News; published 2026-08-18 on gtaboom.com with author Ray Ampoloquio.",
-          "Body quotes Thomas Mahler’s X post and cites Digital Foundry-style 720p/30fps Series S speculation."
+          "canonicalUrl and page title match a GTA Boom news article dated Aug 18, 2026.",
+          "Meta description and body discuss Xbox Series S, 30fps expectations, and Mahler’s comments.",
+          "Page is categorized as News with GTA 6 tags, not a landing-page clone repo."
         ],
         "uncertainty": [
-          "Editorial reliability of GTA BOOM versus mainstream gaming press is not independently verified here.",
-          "Accuracy of quoted tweet, Digital Foundry claims, and later updates cannot be fully audited from this snapshot."
+          "Long-term site reliability and ad/affiliate practices not audited.",
+          "Cannot independently verify Mahler’s X post or Digital Foundry claims from this page alone."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:46:54.438Z",
+        "reviewedAt": "2026-10-10T21:35:34.872Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan news on GTA VI and Series S 60 FPS debate",
-        "description": "Covers a developer’s reply to fans citing GTA VI for 60 FPS on Xbox Series S, plus console specs and performance speculation.",
+        "tagline": "Dev backlash over Series S 60 FPS GTA arguments",
+        "description": "Covers a studio founder rejecting fan demands that games match unreleased GTA 6 performance on Xbox Series S, plus analyst 30fps notes.",
         "pros": [
-          "Article is explicitly about Grand Theft Auto VI performance expectations and related developer comments.",
-          "Includes a dated byline, quoted primary source (X post), and a Series X vs Series S spec table.",
-          "Site is a GTA-focused news outlet, not a countdown clone or fake official landing page."
+          "Article is on-topic GTA 6 news with a named author and publication date.",
+          "Quotes a public X post from Moon Studios founder Thomas Mahler.",
+          "Links related performance analysis rather than posing as official Rockstar news."
         ],
         "cons": [
-          "Coverage is a fan-site recap of social media, not a Rockstar Newswire or major-outlet report.",
-          "Performance claims about unreleased GTA 6 on Series S are speculative and attributed to analysts.",
-          "Page mixes news with arcade/app promotion and community comments."
+          "GTA Boom is a fan/news blog, not Rockstar Newswire or a top-tier outlet.",
+          "Performance claims for unreleased GTA 6 are speculative (analysts/commentary).",
+          "Discovered via RSS/github_search, which is a weak quality signal for this directory."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "learning"
-        ],
         "usage": {
-          "input": 3743,
-          "output": 632,
+          "input": 3822,
+          "output": 464,
           "cacheRead": 6656,
-          "totalTokens": 11031,
+          "totalTokens": 10942,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5015,51 +5012,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-26T01:30:00.147Z",
       "aiReview": {
-        "summary": "GTA Boom news piece on a viral, unconfirmed Fort Stewart memo offering reenlistment leave around GTA 6 launch. Fan-site rumor coverage, not official Rockstar or verified military reporting.",
+        "summary": "Fan-site news recap of an unconfirmed Fort Stewart reenlistment memo tied to GTA 6 launch leave; useful as rumor coverage, not official or verified reporting.",
         "relevanceScore": 0.72,
         "qualityScore": 0.48,
-        "riskScore": 0.38,
+        "riskScore": 0.35,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "canonicalUrl and title match GTA Boom article published Aug 18, 2026 about Fort Stewart 9th BEB reenlistment incentive.",
-          "Meta description states a viral memo claims four days off starting the day after GTA 6 launches.",
-          "Body says many outlets could not confirm authenticity; includes Reddit spread and LTC Hodgson attribution.",
-          "Rubric prefers reputable/official news; this is fan-site rumor coverage with gambling widget."
+          "Canonical URL and title match GTA BOOM article on an Army unit offering days off to play GTA 6.",
+          "Meta description and body describe a viral Fort Stewart 9th BEB reenlistment incentive memo, unconfirmed.",
+          "Site section is News with GTA 6 tags; not a GitHub countdown clone."
         ],
         "uncertainty": [
-          "Whether the memo is genuine cannot be verified from this page.",
-          "Site monetization beyond ads/Bookie and app listing is not fully mapped.",
-          "Long-term article maintenance and correction policy unknown."
+          "Authenticity of the memo cannot be verified from this page.",
+          "Long-term editorial quality of gtaboom.com versus major outlets is not independently audited here."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:47:14.975Z",
+        "reviewedAt": "2026-10-10T21:35:53.069Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Unverified report of Army leave tied to GTA 6 launch",
-        "description": "Covers a circulating Fort Stewart memo claiming four days off after GTA 6 launch for reenlisting soldiers; authenticity is not confirmed.",
+        "tagline": "Covers a viral, unconfirmed Army GTA 6 leave rumor",
+        "description": "Reports a circulating Fort Stewart memo claiming four days off after GTA 6 launch for reenlisting soldiers, noting it is unverified.",
         "pros": [
-          "Article is explicitly about Grand Theft Auto 6 news and cites the viral memo details and dates.",
-          "Publisher is a dedicated GTA news site with byline, update, and related GTA 6 coverage.",
-          "Text notes that outlets could not confirm authenticity and that the claim is not Army-wide."
+          "Article is explicitly about Grand Theft Auto 6 and launch-week leave claims.",
+          "States the memo has not been authenticated and that outlets could not confirm it.",
+          "Cites the circulating claim’s dates, unit, and leave window rather than inventing Rockstar product details."
         ],
         "cons": [
-          "Story rests on an unauthenticated memo spread via a meme page, not primary official confirmation.",
-          "Page includes betting/Bookie market UI and promotional arcade elements alongside the article.",
-          "Not an official Rockstar Newswire or high-authority news source."
+          "Source is a GTA fan site, not Rockstar Newswire or a major newsroom.",
+          "Core story is a viral, unconfirmed military memo, so it is rumor-level news.",
+          "Page mixes betting/bookie widgets and internal promo links with the article."
         ],
-        "pricingModel": "freemium",
+        "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3968,
-          "output": 591,
-          "cacheRead": 6656,
-          "totalTokens": 11215,
+          "input": 5620,
+          "output": 493,
+          "cacheRead": 5120,
+          "totalTokens": 11233,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5104,48 +5099,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-25T01:30:00.083Z",
       "aiReview": {
-        "summary": "Fan-site listicle speculating what Rockstar’s Netflix Extended Look will omit; useful as unofficial GTA 6 news, not as primary or official coverage.",
+        "summary": "Fan-site listicle about what Rockstar’s Netflix GTA VI Extended Look is unlikely to include; useful as hype/news context but not official Newswire coverage.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.55,
-        "riskScore": 0.28,
+        "qualityScore": 0.58,
+        "riskScore": 0.22,
         "suggestedTags": [
+          "news",
           "gta6",
-          "news"
+          "guide"
         ],
         "evidence": [
-          "Canonical URL and title match a GTA BOOM News article dated Aug 18, 2026, updated Sep 30, 2026.",
-          "Meta description states no full map, no GTA Online details, no PC news, and no real gameplay.",
-          "Correction section links Rockstar support for November 12 digital preload.",
-          "Giveaway CTA asks for email then a site action."
+          "canonicalUrl and title match a GTA BOOM article dated Aug 18, 2026 with section News and tag GTA 6.",
+          "Meta description and body list omitted items: full map, GTA Online, PC, real gameplay.",
+          "Correction block cites Rockstar support article for November 12 preload.",
+          "Not a GitHub landing-page clone; it is a real article on gtaboom.com."
         ],
         "uncertainty": [
-          "Editorial independence and accuracy of all secondary claims versus Rockstar.",
-          "Giveaway legitimacy and data-handling practices.",
-          "Long-term maintenance of the article after the Netflix premiere."
+          "Editorial reliability of GTA BOOM versus mainstream games press is not independently verified here.",
+          "Whether the Netflix Extended Look coverage remains current after later official reveals."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:47:36.921Z",
+        "reviewedAt": "2026-10-10T21:36:14.344Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Fan speculation on what a Netflix GTA VI teaser omits",
-        "description": "Opinion piece arguing a Netflix Extended Look will skip full map, Online, PC, and real gameplay, with a later preload correction.",
+        "tagline": "Speculative recap of what a Netflix GTA VI teaser omits",
+        "description": "Covers likely omissions from the Netflix Extended Look: full map, Online, PC, launch logistics, and real gameplay, plus a later preload correction.",
         "pros": [
-          "Article is explicitly GTA 6 news about the Netflix Extended Look and cites Take-Two/Rockstar talking points.",
-          "A correction was added for preload timing and an earlier Online-schedule claim.",
-          "Byline, publish/update dates, and related GTA 6 topic links are present."
+          "Article is explicitly GTA 6 news about the Netflix Extended Look and cites Rockstar/Take-Two talking points.",
+          "Includes a dated correction pointing to Rockstar support for preload timing.",
+          "Readable ~900-word piece with author byline and related topic links."
         ],
         "cons": [
-          "Coverage is speculative expectation-setting, not an official Rockstar Newswire source.",
-          "The page promotes an email-entry GTA 6 Ultimate Edition giveaway.",
-          "Some claims rest on industry habit and secondary reporting rather than new primary footage."
+          "Fan outlet (GTA BOOM), not official Rockstar Newswire or a major newsroom.",
+          "Much of the piece is expectation-setting speculation rather than primary reporting.",
+          "Page also promotes an email giveaway, which is typical fan-site monetization."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 4677,
-          "output": 625,
-          "cacheRead": 6528,
-          "totalTokens": 11830,
+          "input": 10804,
+          "output": 578,
+          "cacheRead": 512,
+          "totalTokens": 11894,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5190,49 +5185,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-25T01:30:00.083Z",
       "aiReview": {
-        "summary": "Fan-site news piece explaining that Sony’s PS5 ad reuses GTA 6 Trailer 2 clips with presentation changes, not new Rockstar footage. Useful as 新闻资讯, but it is not official Newswire and should not be treated as primary source.",
+        "summary": "Fan-site news piece explaining that Sony’s PS5 ad reuses GTA VI Trailer 2 clips with presentation tweaks, not new Rockstar footage. Useful rumor-check, but it is unofficial GTA Boom coverage with a site giveaway, not Newswire or major-outlet reporting.",
         "relevanceScore": 0.78,
         "qualityScore": 0.62,
-        "riskScore": 0.22,
+        "riskScore": 0.28,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Live URL matches the candidate; meta-description and body say the ad reuses Trailer 2 with brighter lighting, 16:9 framing, and extra SFX.",
-          "Article dated Aug 18, 2026, author Ray Ampoloquio, section News, ~654 words.",
-          "Not a countdown clone or fake official landing page; it is a single news article with a comparison table."
+          "Canonical URL and meta-description state Sony’s PS5 ad reuses Trailer 2 with brighter lighting, 16:9 framing, and added SFX.",
+          "Article dated Aug 18, 2026; section News; author Ray Ampoloquio.",
+          "Not a GitHub countdown/clone landing page; it is a published news article with comparison table."
         ],
         "uncertainty": [
-          "Long-term editorial accuracy versus Rockstar/Sony statements was not independently verified.",
-          "Site monetization (ads, app-id 6478132269) beyond being a free article was not fully audited."
+          "Editorial reliability of GTA Boom versus mainstream outlets was not independently audited.",
+          "Giveaway terms and any affiliate/email-capture practices were not fully verified.",
+          "Visual claims (Lucia hair/eyebrows, trunk slam) were not frame-checked against the ad."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:47:58.384Z",
+        "reviewedAt": "2026-10-10T21:36:36.420Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Explains reused Trailer 2 clips in a Sony PS5 ad",
-        "description": "Compares PlayStation’s GTA 6 ad shots to Trailer 2, covering framing, lighting, audio, and that no new game footage appears.",
+        "tagline": "Explains PS5 ad vs Trailer 2 GTA VI clips",
+        "description": "Breaks down Sony’s PS5 commercial: reused Trailer 2 shots, 16:9 crop, brighter grade, extra SFX—no new game footage.",
         "pros": [
-          "States clearly that the PS5 commercial contains no new GTA 6 footage and maps shots to Trailer 2.",
-          "Includes a shot-for-shot comparison of framing, lighting, character look, and added sound effects.",
-          "Byline, publish date, and section tagging as News are present on the live article."
+          "Article argues the PS5 ad contains no new GTA VI footage and maps shots to Trailer 2.",
+          "Includes a shot-for-shot comparison table of framing, lighting, character look, and audio.",
+          "Cites the Sony marketing partnership context and points to the official second trailer as source material."
         ],
         "cons": [
-          "GTA BOOM is a fan/news outlet, not Rockstar Newswire or another primary official source.",
-          "The page mixes related wiki/guide CTAs, comments, and site app promotion around the article.",
-          "Discovery via a feed labeled github_search is a weak signal for this directory theme."
+          "Hosted on GTA Boom, not Rockstar Newswire or a major newsroom.",
+          "Page mixes analysis with a GTA 6 Ultimate Edition email giveaway.",
+          "Claims such as Lucia’s hair/eyebrow changes are observational, not independently verified."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 3962,
-          "output": 645,
-          "cacheRead": 6528,
-          "totalTokens": 11135,
+          "input": 10145,
+          "output": 693,
+          "cacheRead": 512,
+          "totalTokens": 11350,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5322,49 +5318,49 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-28T01:52:04.521Z",
       "aiReview": {
-        "summary": "French Rockstar Mag news post summarizing unofficial Sensor Tower estimates of GTA 6 preorder units and revenue; useful as fan news, not an official source.",
+        "summary": "French Rockstar Mag article summarizing a Sensor Tower estimate of GTA 6 preorder volume and revenue; unofficial analytics, not Rockstar Newswire.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.62,
+        "qualityScore": 0.55,
         "riskScore": 0.28,
         "suggestedTags": [
-          "gta6",
-          "news"
+          "news",
+          "gta6"
         ],
         "evidence": [
-          "Live article dated 18 août 2026 on rockstarmag.fr under NEWS / Grand Theft Auto VI.",
-          "Body reports ~4.38M preorders and ~$429M, citing Sensor Tower and Take-Two caution.",
-          "Canonical URL matches the candidate; WordPress site, not a GitHub countdown clone."
+          "Canonical URL is a WordPress article on rockstarmag.fr dated 18 août 2026 in NEWS / GTA VI categories.",
+          "Body claims Sensor Tower estimated 4.38M preorders and ~$429M, 77% PS5 / 23% Xbox, and links sensortower.com.",
+          "Site branding and countdown UI are fan coverage of Rockstar, not rockstargames.com."
         ],
         "uncertainty": [
-          "Cannot independently verify Sensor Tower numbers or the site’s long-term maintenance.",
-          "Whether the directory prefers primary English sources over French recaps."
+          "Accuracy of Sensor Tower estimates versus actual Take-Two/Rockstar preorder data.",
+          "Long-term maintenance of the article and whether comments/ads change page quality."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:48:17.166Z",
+        "reviewedAt": "2026-10-10T21:37:02.604Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "French recap of unofficial GTA 6 preorder sales estimates",
-        "description": "Covers Sensor Tower estimates of GTA 6 preorder volume, platform split, and revenue, noting figures are unofficial.",
+        "tagline": "French recap of unofficial GTA 6 preorder estimates",
+        "description": "Reports Sensor Tower figures on GTA 6 preorders, platform split, and estimated revenue, with a link to the original study.",
         "pros": [
-          "Article is clearly about Grand Theft Auto VI preorder news, not a landing-page clone.",
-          "Cites Sensor Tower and states the numbers are unofficial estimates, not Rockstar figures.",
-          "Includes dated claims (units, PS5/Xbox split, revenue) and a source link."
+          "It is a dated news post about Grand Theft Auto VI preorder estimates, not a landing-page clone.",
+          "The piece cites Sensor Tower and links a source URL for the sales-tracker write-up.",
+          "It notes that the numbers are unofficial and that Take-Two has not confirmed precise preorder figures."
         ],
         "cons": [
-          "Not an official Rockstar Newswire or primary Sensor Tower page.",
-          "Title and meta copy mix milliard and million, which weakens editorial quality.",
-          "Fan-site framing with countdown chrome and light comments."
+          "It is a fan magazine recap of third-party estimates, not an official Rockstar post.",
+          "Headline wording (milliard) conflicts with meta description (million), which weakens editorial quality.",
+          "GitHub-feed discovery is a weak signal for this theme."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 4954,
-          "output": 407,
-          "cacheRead": 5120,
-          "totalTokens": 10481,
+          "input": 2618,
+          "output": 586,
+          "cacheRead": 7424,
+          "totalTokens": 10628,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5436,46 +5432,48 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "French fan-news article reporting Sensor Tower figures that 89% of GTA 6 console preorders are the Ultimate edition, with citations to GamesIndustry.biz. Useful as secondary news, not an official Rockstar source.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.68,
-        "riskScore": 0.22,
+        "summary": "French Rockstar Mag article summarizing Sensor Tower and GamesIndustry.biz figures that ~89% of GTA 6 console preorders are the Ultimate Edition. Fan-site news with cited sources, not an official Rockstar post.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.62,
+        "riskScore": 0.18,
         "suggestedTags": [
           "gta6",
           "news"
         ],
         "evidence": [
-          "Live page at rockstarmag.fr dated 14 août 2026 in NEWS / Grand Theft Auto VI.",
-          "OG description matches Sensor Tower 89% Ultimate preorder claim.",
-          "Footer links Sensor Tower and gamesindustry.biz as sources."
+          "Canonical URL returns a full article titled about 89% Ultimate Edition preorders.",
+          "Body attributes 89% / 90% Xbox / 88.5% PS5 figures to Sensor Tower and Karl Kontus via GamesIndustry.biz.",
+          "Site branding is Rockstar Mag (WordPress), not rockstargames.com.",
+          "Rubric prefers official Newswire and reputable news; this is mid-tier enthusiast news."
         ],
         "uncertainty": [
-          "Independence and accuracy of Sensor Tower methodology not verified here.",
-          "Long-term editorial quality of the site beyond this article."
+          "Independence and accuracy of Sensor Tower preorder methodology were not verified here.",
+          "Long-term editorial quality of rockstarmag.fr beyond this page is unreviewed."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:48:41.458Z",
+        "reviewedAt": "2026-10-10T21:37:27.003Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "French recap of Ultimate-edition preorder share",
-        "description": "Reports Sensor Tower data that most GTA 6 console preorders are the Ultimate edition, citing analyst comments and related coverage.",
+        "tagline": "French recap of Ultimate Edition preorder share",
+        "description": "Reports Sensor Tower data that most console preorders are the 99.99€ Ultimate Edition, with Xbox vs PS5 split and analyst quotes.",
         "pros": [
-          "Article cites Sensor Tower and GamesIndustry.biz rather than unsourced rumor.",
-          "Content is a dated news write-up about GTA 6 preorder mix, matching the 新闻资讯 category.",
-          "Site is a long-running WordPress magazine, not a GitHub countdown clone."
+          "Article cites Sensor Tower and links GamesIndustry.biz as sources.",
+          "Covers a concrete GTA VI preorder statistic (Ultimate Edition share on PS5 and Xbox).",
+          "Includes named analyst quotes rather than unsourced rumor.",
+          "Live WordPress article dated 14 August 2026, not a GitHub landing-page clone."
         ],
         "cons": [
-          "Not an official Rockstar Newswire or Take-Two primary post.",
-          "Fan-site branding (Rockstar Mag) can be confused with official channels.",
-          "Figures are third-party estimates and may change as preorders continue."
+          "Rockstar Mag is a fan magazine, not official Rockstar Newswire.",
+          "The piece is a secondary recap of third-party market research.",
+          "Page includes countdown UI and heavy internal linking typical of enthusiast blogs."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 2361,
-          "output": 639,
+          "input": 2328,
+          "output": 730,
           "cacheRead": 6912,
-          "totalTokens": 9912,
+          "totalTokens": 9970,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5547,51 +5545,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "French fan-press article summarizing a Take-Two CEO interview on GTA VI pricing and preorders; on-theme news, not official Newswire, so worth a human check before listing.",
+        "summary": "French fan-news recap of a Take-Two CNBC interview on GTA 6 pricing and preorders; useful as secondary news, not an official source.",
         "relevanceScore": 0.72,
         "qualityScore": 0.55,
-        "riskScore": 0.18,
+        "riskScore": 0.22,
         "suggestedTags": [
           "news",
           "gta6"
         ],
         "evidence": [
-          "URL is a WordPress article dated 13 août 2026 in NEWS / Grand Theft Auto VI.",
-          "OG description: Take Two opted for 80 euros while saying they could have charged more.",
-          "Embeds CNBC-related YouTube and cites youtube.com/watch?v=CJUBFzFkfpE.",
-          "Discovered from rockstarmag.fr/feed, not a landing-page clone repo."
+          "Canonical URL is a rockstarmag.fr NEWS/GTA VI article dated 13 août 2026.",
+          "OG description states Take Two/Rockstar chose an 80 euro price while they could have charged more.",
+          "Body cites CNBC interview, $80/$100 editions, 19 November 2026 console date, and YouTube source.",
+          "Discovered via RSS feed repeats, not a fake official clone repo."
         ],
         "uncertainty": [
-          "Accuracy of paraphrased Zelnick quotes vs the original CNBC interview.",
-          "Site reputation and ad/affiliate practices beyond this page.",
-          "Whether the listed release date and prices remain current."
+          "Cannot independently verify CNBC quote accuracy or interview date from this page alone.",
+          "Editorial reliability of Rockstar Mag versus mainstream outlets is not audited here."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:49:03.086Z",
+        "reviewedAt": "2026-10-10T21:37:48.717Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "French recap of Take-Two GTA VI pricing comments",
-        "description": "Covers Take-Two remarks that GTA VI could have cost more, plus standard vs Ultimate prices and preorder demand.",
+        "tagline": "French recap of Take-Two remarks on GTA 6 pricing",
+        "description": "Covers Strauss Zelnick’s CNBC comments on GTA 6 list prices, value messaging, and preorder demand, with a link to the source clip.",
         "pros": [
-          "Single article on GTA VI retail pricing quoting Strauss Zelnick from a CNBC interview.",
-          "States claimed prices (€79.99 standard, €99.99 Ultimate) and a 19 November 2026 console date.",
-          "Links a YouTube source clip and is a live WordPress news post, not a GitHub countdown clone."
+          "Article is explicitly about Grand Theft Auto VI pricing and preorders.",
+          "Quotes Take-Two CEO Strauss Zelnick and links a YouTube source clip.",
+          "Site is a long-running Rockstar-focused WordPress news blog, not a GitHub landing-page clone."
         ],
         "cons": [
-          "Fan site (Rockstar Mag), not Rockstar Newswire or a major English news outlet.",
-          "Commentary and countdown chrome around a second-hand interview recap.",
-          "Title has a French grammar error and claims are not independently verified here."
+          "Not an official Rockstar Newswire or primary CNBC transcript.",
+          "Fan-site recap with countdown widget, ads, and informal tone.",
+          "French-only coverage; title has a grammar error (privilégier)."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 2579,
-          "output": 670,
-          "cacheRead": 7168,
-          "totalTokens": 10417,
+          "input": 9201,
+          "output": 521,
+          "cacheRead": 512,
+          "totalTokens": 10234,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -5663,48 +5660,50 @@
       "createdAt": "2026-08-24T13:11:11.102Z",
       "updatedAt": "2026-08-27T01:48:25.042Z",
       "aiReview": {
-        "summary": "French Rockstar Mag news article summarizing Take-Two/IGN/Bloomberg comments on a GTA 6 Netflix presentation. Fan-site coverage with named sources, not official Newswire.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.62,
+        "summary": "French fan-site news post summarizing Take-Two/IGN/Bloomberg comments on a claimed GTA 6 Netflix presentation. Useful as secondary news, not an official Rockstar source.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.58,
         "riskScore": 0.22,
         "suggestedTags": [
+          "news",
           "gta6",
-          "news"
+          "community"
         ],
         "evidence": [
-          "canonicalUrl is a WordPress article titled about GTA 6 and Netflix dated 11 août 2026.",
-          "og:description and body discuss Rockstar–Netflix partnership and 27 August 2026 21h premiere.",
-          "Sources linked: fr.ign.com GTA 6 piece and a YouTube timestamp.",
-          "Discovered via rockstarmag.fr RSS, not a 0-star clone repo."
+          "Canonical URL and og:title match a WordPress article dated 11 août 2026 in NEWS/GTA VI categories.",
+          "Body recaps a claimed 27 Aug 2026 Netflix premiere and Zelnick quotes, with links to IGN FR and YouTube.",
+          "Discovered via rockstarmag.fr RSS, not a 0-star countdown clone repo."
         ],
         "uncertainty": [
-          "Cannot independently verify Zelnick quotes or that the Netflix event occurred as described.",
-          "Site reputation versus rumor recycling is not fully audited.",
-          "Paywall/ads beyond the fetched article not verified."
+          "Whether the Netflix event and quotes are accurate as of review time.",
+          "Editorial independence and ad/affiliate practices of rockstarmag.fr."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T18:49:25.924Z",
+        "reviewedAt": "2026-10-10T21:38:12.094Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "French recap of GTA 6 Netflix presentation comments",
-        "description": "Covers Take-Two remarks on a Netflix GTA 6 showcase, citing IGN and Bloomberg, with later YouTube availability.",
+        "description": "Summarizes Take-Two remarks on a Netflix-first GTA 6 look, citing IGN and Bloomberg, with speculation about format and later reveals.",
         "pros": [
-          "Article is GTA 6 news and cites IGN and a YouTube/Bloomberg-related source.",
-          "Site is a long-running French Rockstar fan magazine, not a GitHub countdown clone.",
-          "Content describes a dated presentation window and quotes attributed to Strauss Zelnick."
+          "Article is on-topic GTA 6 news and cites IGN and Bloomberg as sources.",
+          "Site is a long-running Rockstar-focused WordPress magazine, not a GitHub landing-page clone.",
+          "Piece quotes Strauss Zelnick and distinguishes confirmed remarks from speculation."
         ],
         "cons": [
-          "Not an official Rockstar Newswire or Take-Two post.",
-          "Speculative framing (interactive Netflix format, multi-part marketing) goes beyond confirmed facts.",
-          "Page includes a zeroed countdown widget typical of hype landing pages."
+          "Not an official Rockstar Newswire or Take-Two primary post.",
+          "Includes countdown UI, speculation about interactive Netflix formats, and promotional site CTAs.",
+          "French-language fan coverage; claims about event dates and Netflix exclusivity need independent verification."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 9773,
-          "output": 573,
+          "input": 9736,
+          "output": 517,
           "cacheRead": 512,
-          "totalTokens": 10858,
+          "totalTokens": 10765,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
