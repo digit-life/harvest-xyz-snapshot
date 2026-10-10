@@ -1,5 +1,1468 @@
 {
-  "generatedAt": "2026-10-10T07:00:43.718Z",
+  "generatedAt": "2026-10-10T11:53:21.372Z",
   "appId": "awesome-voice-ai",
-  "items": []
+  "items": [
+    {
+      "id": "web:5773d7fb7df7c564",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com",
+      "title": "Suno | AI Music Generator",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno",
+          "surroundingText": "Suno",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno | AI Music Generator",
+          "surroundingText": "Suno | AI Music Generator",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://suno.com"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:seed",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:7a34c540c33653b4",
+      "type": "web_url",
+      "canonicalUrl": "https://help.suno.com",
+      "title": "See the full FAQ →",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Help Center",
+          "surroundingText": "Suno Help Center",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "See the full FAQ →",
+          "surroundingText": "See the full FAQ →",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:2c3f0035ae09a8ae",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/blog",
+      "title": "Suno Blog",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Blog",
+          "surroundingText": "Suno Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:96e3d4f9bbb1d8c2",
+      "type": "web_url",
+      "canonicalUrl": "https://www.youtube.com/@SunoMusic",
+      "title": "Suno on YouTube",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on YouTube",
+          "surroundingText": "Suno on YouTube",
+          "targetUrl": "https://www.youtube.com/@SunoMusic",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:cd5b22f511cfb3ca",
+      "type": "web_url",
+      "canonicalUrl": "https://usesuno.com/tools",
+      "title": "Suno Prompt Builder at usesuno.com",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Prompt Builder at usesuno.com",
+          "surroundingText": "Suno Prompt Builder at usesuno.com",
+          "targetUrl": "https://usesuno.com/tools",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:f0641163bbb29508",
+      "type": "web_url",
+      "canonicalUrl": "https://sunoaiwiki.com",
+      "title": "Suno AI Wiki",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Wiki",
+          "surroundingText": "Suno AI Wiki",
+          "targetUrl": "https://sunoaiwiki.com",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:812b2c30807a9c3b",
+      "type": "web_url",
+      "canonicalUrl": "https://learnprompting.org/blog/guide-suno",
+      "title": "Learn Prompting: Suno Guide",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Learn Prompting: Suno Guide",
+          "surroundingText": "Learn Prompting: Suno Guide",
+          "targetUrl": "https://learnprompting.org/blog/guide-suno",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:577ccb7488f6f024",
+      "type": "web_url",
+      "canonicalUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+      "title": "\"The Science Behind Perfect SUNO Prompts\"",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:49484bfaacf913f2",
+      "type": "web_url",
+      "canonicalUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+      "title": "\"Why Most Suno Prompts Fail\"",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Why Most Suno Prompts Fail\"",
+          "surroundingText": "\"Why Most Suno Prompts Fail\"",
+          "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:427eea53e4fbe707",
+      "type": "web_url",
+      "canonicalUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+      "title": "\"Suno v5 vs v4: Complete Comparison\"",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:bdaf1811d0c5e609",
+      "type": "web_url",
+      "canonicalUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+      "title": "\"17 Suno Tricks That Change How You Make Music\"",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:811343c0be5789fb",
+      "type": "web_url",
+      "canonicalUrl": "https://www.reddit.com/r/SunoAI",
+      "title": "r/SunoAI",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/SunoAI",
+          "surroundingText": "r/SunoAI",
+          "targetUrl": "https://www.reddit.com/r/SunoAI",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:ffad4c16afd129e7",
+      "type": "web_url",
+      "canonicalUrl": "https://www.futurepedia.io/tool/suno",
+      "title": "Suno AI Reviews on Futurepedia",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Reviews on Futurepedia",
+          "surroundingText": "Suno AI Reviews on Futurepedia",
+          "targetUrl": "https://www.futurepedia.io/tool/suno",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:2c6de9e24ab01dea",
+      "type": "web_url",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+      "title": "Suno on Wikipedia",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on Wikipedia",
+          "surroundingText": "Suno on Wikipedia",
+          "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:shaizadok92/suno-prompt-scorer",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+      "title": "**suno-prompt-scorer**",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**suno-prompt-scorer**",
+          "surroundingText": "**suno-prompt-scorer**",
+          "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:23b7c2edddcd1a63",
+      "type": "web_url",
+      "canonicalUrl": "https://acetaggen.com/api/suno-score",
+      "title": "AceTagGen Public Scorer API",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AceTagGen Public Scorer API",
+          "surroundingText": "AceTagGen Public Scorer API",
+          "targetUrl": "https://acetaggen.com/api/suno-score",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:suno-ai/bark",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/suno-ai/bark",
+      "title": "Bark",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bark",
+          "surroundingText": "Bark",
+          "targetUrl": "https://github.com/suno-ai/bark",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:54209856214d147e",
+      "type": "web_url",
+      "canonicalUrl": "https://elevenlabs.io",
+      "title": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "surroundingText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://elevenlabs.io"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:seed",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:812100263471c8ff",
+      "type": "web_url",
+      "canonicalUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+      "title": "OpenAI TTS",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "OpenAI TTS",
+          "surroundingText": "OpenAI TTS",
+          "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:d44d32f684e19d00",
+      "type": "web_url",
+      "canonicalUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+      "title": "Azure Speech Services",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Azure Speech Services",
+          "surroundingText": "Azure Speech Services",
+          "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:72a88ec293cff5a8",
+      "type": "web_url",
+      "canonicalUrl": "https://deepgram.com/product/text-to-speech",
+      "title": "Deepgram Aura-2",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Deepgram Aura-2",
+          "surroundingText": "Deepgram Aura-2",
+          "targetUrl": "https://deepgram.com/product/text-to-speech",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:b2469c20eb5b174d",
+      "type": "web_url",
+      "canonicalUrl": "https://voiceaiandvoiceagents.com",
+      "title": "Voice AI & Voice Agents Primer",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Voice AI & Voice Agents Primer",
+          "surroundingText": "Voice AI & Voice Agents Primer",
+          "targetUrl": "https://voiceaiandvoiceagents.com",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:485de56402c66851",
+      "type": "web_url",
+      "canonicalUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+      "title": "Artificial Analysis — Text-to-Speech Leaderboard",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "wildminder/awesome-ai-voice",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:6c2580bc3b773688",
+      "type": "web_url",
+      "canonicalUrl": "https://elevenlabs.io/text-to-speech",
+      "title": "Ultra-realistic speech",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Ultra-realistic speech",
+          "surroundingText": "Ultra-realistic speech",
+          "targetUrl": "https://elevenlabs.io/text-to-speech",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:d34d4a975cc680cd",
+      "type": "web_url",
+      "canonicalUrl": "https://elevenlabs.io/text-to-speech-api",
+      "title": "Text to Speech API",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Text to Speech API",
+          "surroundingText": "Text to Speech API",
+          "targetUrl": "https://elevenlabs.io/text-to-speech-api",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:3302a81a6a92c14f",
+      "type": "web_url",
+      "canonicalUrl": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+      "title": "API Reference",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:f3ebae6041aea020",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/home",
+      "title": "https://suno.com/home",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://suno.com/home",
+          "surroundingText": "https://suno.com/home",
+          "targetUrl": "https://suno.com/home",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:7aa743b5c5b1e309",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/careers",
+      "title": "Careers",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Careers",
+          "surroundingText": "Careers",
+          "targetUrl": "https://suno.com/careers",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:c1ad3f1cfd47c9b2",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/studio-welcome",
+      "title": "Suno Studio A browser-based DAW for arranging, editing and mixing every part of a song until it is exactly yours.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno Studio A browser-based DAW for arranging, editing and mixing every part of a song until it is exactly yours.",
+          "surroundingText": "Suno Studio A browser-based DAW for arranging, editing and mixing every part of a song until it is exactly yours.",
+          "targetUrl": "https://suno.com/studio-welcome",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:b7d5974066aee4f3",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/voices",
+      "title": "Voices Record a few seconds of your own voice, then hear it sing anything you write, in any style.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Voices Record a few seconds of your own voice, then hear it sing anything you write, in any style.",
+          "surroundingText": "Voices Record a few seconds of your own voice, then hear it sing anything you write, in any style.",
+          "targetUrl": "https://suno.com/voices",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:01717c62932e902b",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/stem-separation",
+      "title": "Stem separation Pull any song apart into clean, time-aligned stems and carry them into the DAW you already use.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Stem separation Pull any song apart into clean, time-aligned stems and carry them into the DAW you already use.",
+          "surroundingText": "Stem separation Pull any song apart into clean, time-aligned stems and carry them into the DAW you already use.",
+          "targetUrl": "https://suno.com/stem-separation",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:18fbf9e0d5ef3b00",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/remix-welcome",
+      "title": "Remix Take a song somewhere new. Change its style, rewrite the lyrics or rebuild it around your own recording.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix Take a song somewhere new. Change its style, rewrite the lyrics or rebuild it around your own recording.",
+          "surroundingText": "Remix Take a song somewhere new. Change its style, rewrite the lyrics or rebuild it around your own recording.",
+          "targetUrl": "https://suno.com/remix-welcome",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:403ca238689ece1e",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/custom-models",
+      "title": "Custom models Train a model on your own recordings so every song it makes starts from your sound.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Custom models Train a model on your own recordings so every song it makes starts from your sound.",
+          "surroundingText": "Custom models Train a model on your own recordings so every song it makes starts from your sound.",
+          "targetUrl": "https://suno.com/custom-models",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:6ed74e45c55d68f7",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/music-library",
+      "title": "Music library Browse songs by genre, mood and occasion, whether you need a reference, a spark or the right track for a project.",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Music library Browse songs by genre, mood and occasion, whether you need a reference, a spark or the right track for a project.",
+          "surroundingText": "Music library Browse songs by genre, mood and occasion, whether you need a reference, a spark or the right track for a project.",
+          "targetUrl": "https://suno.com/music-library",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:6709479bc13f18a6",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/about",
+      "title": "About",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "About",
+          "surroundingText": "About",
+          "targetUrl": "https://suno.com/about",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:f034d15b43c644cf",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/blog?tag=all",
+      "title": "Blog",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Blog",
+          "surroundingText": "Blog",
+          "targetUrl": "https://suno.com/blog?tag=all",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:56ce9c6dc05d7fd8",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/pricing",
+      "title": "Pricing",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Pricing",
+          "surroundingText": "Pricing",
+          "targetUrl": "https://suno.com/pricing",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:5f9a23a615ac1043",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/hub",
+      "title": "Hub",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Hub",
+          "surroundingText": "Hub",
+          "targetUrl": "https://suno.com/hub",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:adc581052d62b8b4",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/safety",
+      "title": "Safety",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Safety",
+          "surroundingText": "Safety",
+          "targetUrl": "https://suno.com/safety",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:c72163db76987cc7",
+      "type": "web_url",
+      "canonicalUrl": "https://help.suno.com/en/articles/2551617",
+      "title": "Contact Us",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Contact Us",
+          "surroundingText": "Contact Us",
+          "targetUrl": "https://help.suno.com/en/articles/2551617",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:14b561bb5dd488e8",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/community-guidelines",
+      "title": "Community Guidelines",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Community Guidelines",
+          "surroundingText": "Community Guidelines",
+          "targetUrl": "https://suno.com/community-guidelines",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:4fbc09013320b1e6",
+      "type": "web_url",
+      "canonicalUrl": "https://x.com/suno",
+      "title": "https://x.com/suno",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://x.com/suno",
+          "surroundingText": "https://x.com/suno",
+          "targetUrl": "https://x.com/suno",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:9b4bdf12d506e554",
+      "type": "web_url",
+      "canonicalUrl": "https://www.instagram.com/sunomusic",
+      "title": "https://www.instagram.com/sunomusic",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.instagram.com/sunomusic",
+          "surroundingText": "https://www.instagram.com/sunomusic",
+          "targetUrl": "https://www.instagram.com/sunomusic",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:4e68a099cf282e7b",
+      "type": "web_url",
+      "canonicalUrl": "https://www.tiktok.com/@sunomusic",
+      "title": "https://www.tiktok.com/@sunomusic",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.tiktok.com/@sunomusic",
+          "surroundingText": "https://www.tiktok.com/@sunomusic",
+          "targetUrl": "https://www.tiktok.com/@sunomusic",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:80d00fddf346c2e9",
+      "type": "web_url",
+      "canonicalUrl": "https://www.youtube.com/@suno",
+      "title": "https://www.youtube.com/@suno",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.youtube.com/@suno",
+          "surroundingText": "https://www.youtube.com/@suno",
+          "targetUrl": "https://www.youtube.com/@suno",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:83b2c2c8a32e94d2",
+      "type": "web_url",
+      "canonicalUrl": "https://discord.com/invite/suno",
+      "title": "https://discord.com/invite/suno",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://discord.com/invite/suno",
+          "surroundingText": "https://discord.com/invite/suno",
+          "targetUrl": "https://discord.com/invite/suno",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    }
+  ]
 }

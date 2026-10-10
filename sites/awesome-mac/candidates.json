@@ -1,5 +1,505 @@
 {
-  "generatedAt": "2026-10-10T07:00:43.718Z",
+  "generatedAt": "2026-10-10T11:53:21.372Z",
   "appId": "awesome-mac",
-  "items": []
+  "items": [
+    {
+      "id": "web:62b32f45586b9f08",
+      "type": "web_url",
+      "canonicalUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
+      "title": "flutter/flutter-setting-up-on-macos",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "flutter/flutter-setting-up-on-macos",
+          "surroundingText": "flutter/flutter-setting-up-on-macos",
+          "targetUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:connerkward/macos-screen-recorder-system-audio",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
+      "title": "connerkward/macos-screen-recorder-system-audio",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "connerkward/macos-screen-recorder-system-audio",
+          "surroundingText": "connerkward/macos-screen-recorder-system-audio",
+          "targetUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:liewcf/codex-notify-macos",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/liewcf/codex-notify-macos",
+      "title": "liewcf/codex-notify-macos",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "liewcf/codex-notify-macos",
+          "surroundingText": "liewcf/codex-notify-macos",
+          "targetUrl": "https://github.com/liewcf/codex-notify-macos",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:jaywcjlove/awesome-mac",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/jaywcjlove/awesome-mac",
+      "title": "HERE",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HERE",
+          "surroundingText": "HERE",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-mac",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:jaywcjlove/awesome-swift-macos-apps",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+      "title": "Awesome Swift macOS Apps",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Awesome Swift macOS Apps",
+          "surroundingText": "Awesome Swift macOS Apps",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:01bd2551b0bbb0d6",
+      "type": "web_url",
+      "canonicalUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
+      "title": "Emacs",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Emacs",
+          "surroundingText": "Emacs",
+          "targetUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:28fbbcd58fd3cc53",
+      "type": "web_url",
+      "canonicalUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
+      "title": "PDF Auditor",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PDF Auditor",
+          "surroundingText": "PDF Auditor",
+          "targetUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:nickustinov/itsyconnect-macos",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/nickustinov/itsyconnect-macos",
+      "title": "Itsyconnect",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Itsyconnect",
+          "surroundingText": "Itsyconnect",
+          "targetUrl": "https://github.com/nickustinov/itsyconnect-macos",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:stmol/ssh-keys-manager-macos-app",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
+      "title": "SSH Keys Manager",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SSH Keys Manager",
+          "surroundingText": "SSH Keys Manager",
+          "targetUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:ptmt/react-native-desktop",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/ptmt/react-native-desktop",
+      "title": "React Native macOS",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "React Native macOS",
+          "surroundingText": "React Native macOS",
+          "targetUrl": "https://github.com/ptmt/react-native-desktop",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:vchewing/vchewing-macos",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/vchewing/vchewing-macos",
+      "title": "vChewing 唯音",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "vChewing 唯音",
+          "surroundingText": "vChewing 唯音",
+          "targetUrl": "https://github.com/vchewing/vchewing-macos",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "github:alextkdev/macoscleaner",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/alextkdev/macoscleaner",
+      "title": "MacOSCleaner",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "MacOSCleaner",
+          "surroundingText": "MacOSCleaner",
+          "targetUrl": "https://github.com/alextkdev/macoscleaner",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:2a0b0c6dd1017cc4",
+      "type": "web_url",
+      "canonicalUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+      "title": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "surroundingText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "targetUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:61e12675826cc3e3",
+      "type": "web_url",
+      "canonicalUrl": "https://alt-tab-macos.netlify.app",
+      "title": "AltTab",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AltTab",
+          "surroundingText": "AltTab",
+          "targetUrl": "https://alt-tab-macos.netlify.app",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:a1cf0ac5dbe14999",
+      "type": "web_url",
+      "canonicalUrl": "https://www.apple.com/macos",
+      "title": "OS - macOS 27 Golden Gate - Apple",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "OS - macOS 27 Golden Gate - Apple",
+          "surroundingText": "OS - macOS 27 Golden Gate - Apple",
+          "targetUrl": "https://www.apple.com/macos",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.apple.com/macos"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:seed",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:52e09831358a60a2",
+      "type": "web_url",
+      "canonicalUrl": "https://developer.apple.com/macos",
+      "title": "Learn more about developing for macOS",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "Learn more about developing for macOS",
+          "surroundingText": "Learn more about developing for macOS",
+          "targetUrl": "https://developer.apple.com/macos",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    }
+  ]
 }

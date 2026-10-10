@@ -1,5 +1,205 @@
 {
-  "generatedAt": "2026-10-10T07:00:43.718Z",
+  "generatedAt": "2026-10-10T11:53:21.372Z",
   "appId": "awesome-generative-ui",
-  "items": []
+  "items": [
+    {
+      "id": "web:93cd69dcdcd4c213",
+      "type": "web_url",
+      "canonicalUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
+      "title": "Generative UI: LLMs are Effective UI Generators",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: LLMs are Effective UI Generators",
+          "surroundingText": "Generative UI: LLMs are Effective UI Generators",
+          "targetUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:2dd0df298eb47898",
+      "type": "web_url",
+      "canonicalUrl": "https://v0.app",
+      "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "v0",
+          "surroundingText": "v0",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://v0.app/",
+          "sectionPath": [],
+          "anchorText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "surroundingText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://v0.app"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:seed",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
+    },
+    {
+      "id": "web:f8ca878d03c53828",
+      "type": "web_url",
+      "canonicalUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
+      "title": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "surroundingText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "targetUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:38547c70639ac5a9",
+      "type": "web_url",
+      "canonicalUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
+      "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "surroundingText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "targetUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:9a68e948c26f7b48",
+      "type": "web_url",
+      "canonicalUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+      "title": "Enabling teachers to create learning interactives with generative UI",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Enabling teachers to create learning interactives with generative UI",
+          "surroundingText": "Enabling teachers to create learning interactives with generative UI",
+          "targetUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:475278496d3a2ec6",
+      "type": "web_url",
+      "canonicalUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
+      "title": "The Developer's Guide to Generative UI in 2026",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "The Developer's Guide to Generative UI in 2026",
+          "surroundingText": "The Developer's Guide to Generative UI in 2026",
+          "targetUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    }
+  ]
 }

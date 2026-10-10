@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T07:00:43.718Z",
+  "generatedAt": "2026-10-10T11:53:21.372Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -620,9 +620,20 @@
           "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-10-09T09:20:00.085Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
         }
       ],
-      "globalFactRefs": [],
+      "globalFactRefs": [
+        "facts:jina:https://ai.google.dev"
+      ],
       "confidenceScore": 1,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
@@ -635,7 +646,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-09T09:20:00.085Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
         "summary": "Official Google developer hub for Gemini API docs, Google AI Studio, Gemma open models, on-device Edge/Nano, and related APIs including Imagen and Veo. Strong maintained documentation entry point; not a video-only SDK or model card.",
         "relevanceScore": 0.86,
@@ -692,6 +703,164 @@
           "model": "grok-4.6"
         }
       }
+    },
+    {
+      "id": "web:78bbb16502d2b544",
+      "type": "web_url",
+      "canonicalUrl": "https://deepmind.google/technologies/veo",
+      "title": "Google Veo 2 / Veo 3",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:cfa0e5b0829d9711",
+      "type": "web_url",
+      "canonicalUrl": "https://klingai.com",
+      "title": "Kling AI",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:cbccf253cb1efa68",
+      "type": "web_url",
+      "canonicalUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+      "title": "Docs",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:050f72087c077040",
+      "type": "web_url",
+      "canonicalUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "title": "Docs",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-10-10T09:00:00.152Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-10T09:00:00.152Z"
+    },
+    {
+      "id": "web:7ae81b057128b271",
+      "type": "web_url",
+      "canonicalUrl": "https://runway.com",
+      "title": "Runway | Building Real-World Intelligence",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Building Real-World Intelligence",
+          "surroundingText": "Runway | Building Real-World Intelligence",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-10-10T09:20:00.077Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://runway.com"
+      ],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:seed",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-10T09:20:00.077Z"
     }
   ]
 }
