@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T21:52:52.810Z",
+  "generatedAt": "2026-10-10T04:37:34.860Z",
   "appId": "awesome-gemini",
   "items": [
     {
@@ -121959,6 +121959,82 @@
           "output": 748,
           "cacheRead": 512,
           "totalTokens": 14723,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "github:thomaszdxsn/flarebar",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/thomaszdxsn/flarebar",
+      "title": "[Submit] awesome-gemini smoke: with backlink (#175)",
+      "discoveredFrom": "submission",
+      "sourceEvidence": [
+        {
+          "sourceType": "submission",
+          "sourceRepo": "https://github.com/digit-life/awesome-xyz/issues/210",
+          "sectionPath": [],
+          "anchorText": "[Submit] awesome-gemini smoke: with backlink (#175)",
+          "surroundingText": "[Submit] awesome-gemini smoke: with backlink (#175)",
+          "targetUrl": "https://github.com/thomaszdxsn/flarebar",
+          "discoveredAt": "2026-10-10T04:37:34.860Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-10T04:37:34.860Z",
+      "updatedAt": "2026-10-10T04:37:34.860Z",
+      "aiReview": {
+        "summary": "The GitHub URL returns 404 and no README or Gemini-related evidence is available, so this candidate cannot be listed as a developer resource.",
+        "relevanceScore": 0,
+        "qualityScore": 0,
+        "riskScore": 0.4,
+        "suggestedTags": [
+          "open-source"
+        ],
+        "evidence": [
+          "Direct fetch of canonicalUrl failed with HTTP 404.",
+          "Candidate facts object is empty.",
+          "Title and sourceEvidence describe an awesome-gemini smoke submit with backlink, not a documented Gemini project."
+        ],
+        "uncertainty": [
+          "Whether the repo was private, renamed, or never published.",
+          "Actual license, maintenance, and Gemini usage if content exists elsewhere."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-10T04:37:59.462Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Resources",
+        "tagline": "Unverified repository; no public project content found",
+        "description": "Candidate GitHub repo is unreachable (HTTP 404). No API docs, code, or Gemini usage can be confirmed.",
+        "pros": [
+          "Submission includes a canonical GitHub URL for review.",
+          "No malware or unsafe payload is present because no repository content loaded."
+        ],
+        "cons": [
+          "https://github.com/thomaszdxsn/flarebar returns HTTP 404.",
+          "Facts.readme and facts.excerpt are empty, so features cannot be verified.",
+          "No demonstrated Gemini API, SDK, or documentation content.",
+          "Looks like an awesome-list smoke submission rather than a maintained resource."
+        ],
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 886,
+          "output": 392,
+          "cacheRead": 6272,
+          "totalTokens": 7550,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
