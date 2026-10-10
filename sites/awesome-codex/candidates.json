@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:53:21.372Z",
+  "generatedAt": "2026-10-10T16:18:10.368Z",
   "appId": "awesome-codex",
   "items": [
     {
@@ -616,7 +616,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://developers.openai.com/codex",
+        "contentHash": "71194e03a2b9edc6c8de2d3604f3abd3cac200de63ad01b45d53a7ed175c78ab",
+        "excerpt": "Title: ChatGPT | ChatGPT Learn\n\nURL Source: https://developers.openai.com/codex\n\nPublished Time: Sat, 10 Oct 2026 03:33:55 GMT\n\nMarkdown Content:\nFor the complete documentation index, see [llms.txt](https://developers.openai.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL. \n\n[ChatGPT](https://developers.openai.com/)\n\nStart searching\n\n[API Dashboard](https://platform.openai.com/login)\n\n[Try ChatGPT](https://chatgpt.com/)\n\n[Home](https://developers.openai.com/)\n\n[API](https://developers.openai.com/api/docs)\n\n[Overview Get started with the OpenAI API](https://developers.openai.com/api/docs)[Models Explore models and compare capabilities](https://developers.openai.com/api/docs/models)[Agents Build persistent agents on hosted infrastructure](https://developers.openai.com/api/docs/guides/agents)[Tools Connect models to tools and data](https://developers.openai.com/api/docs/guides/tools)[Audio & voice Build speech and realtime voice exp"
+      }
     },
     {
       "id": "web:e15820f51a1dfe45",

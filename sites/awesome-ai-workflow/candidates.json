@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:53:21.372Z",
+  "generatedAt": "2026-10-10T16:18:10.368Z",
   "appId": "awesome-ai-workflow",
   "items": [
     {
@@ -87,6 +87,12 @@
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+        "contentHash": "30ec9b583b3a310f0815e884504aee833dcae7421e6bbd91d730756ddfbe0696",
+        "excerpt": "# n8n-nodes-crawlbase\n\nCrawlbase node for [n8n](https://n8n.io). Crawl web pages with native **Crawlbase API** credentials and the **Crawling API** — no need to wire a generic HTTP Request node by hand.\n\n## Features\n\n- **Native credentials** — Add your Crawlbase API token once and use it across workflows; **Test connection** validates the token.\n- **Crawling API** — Single node for GET/POST/PUT with URL (from parameter or from each input item).\n- **Options** — Optional Crawling API parameters (for example `format`, `page_wait`, `country`, `request_headers`, cookies, `device`, scraper, screenshot, store, async, and JS rendering helpers), **request body** for POST/PUT, and an HTTP **timeout** on the client (not a Crawlbase query parameter). See [Crawling API parameters](https://crawlbase.com/docs/crawling-api/parameters) for the full list and behavior.\n- **Normalized output** — Each item returns `statusCode`, `headers`, `body`, and `metadata` (including `originalStatus`, `cbStatus`, `url"
       }
     },
     {
@@ -4397,7 +4403,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://n8n.io",
+        "contentHash": "0f1f0fbf55432b655c08bda3f82412d6f4e6c5e2cfeae703153db7490c03a50b",
+        "excerpt": "Title: n8n.io - AI workflow automation platform\n\nURL Source: https://n8n.io/\n\nMarkdown Content:\nAI Workflow Automation Platform - n8n\n\nIn The Loop, the n8n conference: Berlin, October 14. [Get your ticket →](https://n8n.io/intheloop/?utm_source=site&utm_medium=organic&utm_campaign=2026_in_the_loop&utm_content=ecosystemday&utm_term=banner)\n\n[n8n.io](https://n8n.io/)\n*   [Product](https://n8n.io/features/)\n    *   [Product overview Automate business processes without limits on your logic](https://n8n.io/features/)\n    *   [Integrations Seamlessly move and transform data between different apps with n8n.](https://n8n.io/integrations/)\n    *   [Templates Explore +10k workflow automation templates](https://n8n.io/workflows/)\n    *   [AI Get to prod faster — and with more flexibility than coding alone](https://n8n.io/ai/)\n    *   [MCP Build and update n8n workflows from inside your AI app](https://n8n.io/mcp/)\n\n*   Use cases \n    *   [Building AI agents](https://n8n.io/ai-agents/)\n    *   [RA"
+      }
     },
     {
       "id": "web:b7e5baebbe022d3d",
@@ -6198,7 +6210,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://dify.ai",
+        "contentHash": "1ad50b9fc06a7ddeafbe2c2c518b2e1ec75c66d3aaae2c39c1d092ed10b3a030",
+        "excerpt": "Title: Dify - The Platform for Production-Ready Agentic Workflows\n\nURL Source: https://dify.ai/\n\nMarkdown Content:\nWe value your privacy\n\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.[Cookie Policy](http://dify.ai/cookie-policy)\n\nCustomise Reject All Accept All\n\nCustomise Consent Preferences\n\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.\n\nThe cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. ...Show more\n\nNecessary Always Active\n\nNecessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.\n\nFunctional\n\n- [x"
+      }
     },
     {
       "id": "web:e6431a370f2adac7",
@@ -7348,7 +7366,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://flowiseai.com",
+        "contentHash": "c7f60818a4e2c43a94dd77ee0929d2564859f33189231a4d7e7ed2dfcf5bb2b0",
+        "excerpt": "Title: Flowise - Build AI Agents, Visually\n\nURL Source: https://flowiseai.com/\n\nMarkdown Content:\nWe're sunsetting Flowise.[Learn more](https://flowiseai.com/sunset)\n\n[](https://flowiseai.com/)[Star](https://github.com/FlowiseAI/Flowise)\n\n*   [Features](https://flowiseai.com/#features)\n*   [Case Studies](https://flowiseai.com/#case-studies)\n*   [Pricing](https://flowiseai.com/#pricing)\n*   [Community](https://flowiseai.com/#community)\n*   [Webinars](https://flowiseai.com/#webinars)\n*   [Docs](https://docs.flowiseai.com/)\n*   [Get Started](https://cloud.flowiseai.com/signin)\n\nMenu\n*   [Features](https://flowiseai.com/#features)\n*   [Case Studies](https://flowiseai.com/#case-studies)\n*   [Pricing](https://flowiseai.com/#pricing)\n*   [Community](https://flowiseai.com/#community)\n*   [Webinars](https://flowiseai.com/#webinars)\n*   [Docs](https://docs.flowiseai.com/)\n*   [Get Started](https://cloud.flowiseai.com/signin)\n\n# Build AI Agents\n\n# Visually\n\nOpen source agentic systems development"
+      }
     },
     {
       "id": "web:64929a9f8ea0c4e7",

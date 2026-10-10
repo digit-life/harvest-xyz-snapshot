@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:53:21.372Z",
+  "generatedAt": "2026-10-10T16:18:10.368Z",
   "appId": "awesome-nano-banana",
   "items": [
     {
@@ -702,6 +702,12 @@
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://ai.google.dev",
+        "contentHash": "641a35db42f830d04f0e105a30b698d114a7740514b5713035f748ccee6cd953",
+        "excerpt": "Title: Gemini Developer API | Gemma open models  |  Google AI for Developers\n\nURL Source: https://ai.google.dev/\n\nPublished Time: Wed, 04 Feb 2026 21:02:48 GMT\n\nMarkdown Content:\n[Skip to main content](https://ai.google.dev/#main-content)\n\n[](https://ai.google.dev/)\n\n Models \n\n*   Gemini\n*   [About](https://deepmind.google/gemini)\n*   [Docs](https://ai.google.dev/gemini-api/docs)\n*   [API reference](https://ai.google.dev/api)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Imagen\n*   [About](https://deepmind.google/technologies/imagen/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/imagen)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Veo\n*   [About](https://deepmind.google/technologies/veo/veo-2/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/video)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Gemma\n*   [About](https://deepmind.google/models/gemma)\n*   [Docs](https://ai.google.dev/gemma/docs)\n*   [Gemmaverse](https://ai.google.dev/gemma/gemmaverse)\n\n Solutions \n\n*   B"
       }
     },
     {
@@ -1450,6 +1456,12 @@
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://aistudio.google.com",
+        "contentHash": "30478500a9f528c38757dd3f8de73f86d4cf6a0b817fd75d8a9a9bd9664d61d8",
+        "excerpt": "Title: Google AI Studio\n\nURL Source: https://aistudio.google.com/\n\nWarning: This page maybe not yet fully loaded, consider explicitly specify a timeout.\n\nMarkdown Content:"
       }
     },
     {
@@ -1485,7 +1497,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/op7418/nanobanana-ppt-skills",
+        "contentHash": "a98fb24562971f656742dc4b683d26f7423ce8f688f65c8dd1d502f53f0d9188",
+        "excerpt": "# NanoBanana PPT Skills\n\n> 基于 AI 自动生成高质量 PPT 图片和视频的强大工具，支持智能转场和交互式播放\n\n<div align=\"center\">\n\n**创作者**: [歸藏](https://github.com/op7418)\n\n[效果演示](#-效果演示) • [功能特性](#-功能特性) • [一键安装](#-一键安装) • [作为 Skill 使用](#-作为-claude-code-skill-使用) • [使用指南](#-使用指南) • [视频功能](#-视频功能) • [架构文档](ARCHITECTURE.md) • [常见问题](#-常见问题)\n\n</div>\n\n---\n\n## 🎬 效果演示\n\n<div align=\"center\">\n\nhttps://github.com/user-attachments/assets/b394de21-2848-489a-8d33-a8e262e60f60\n\n*AI 自动生成 PPT 并添加流畅转场动画 - 从文档分析到视频合成一键完成*\n\n</div>\n\n---\n\n## 📖 简介\n\nNanoBanana PPT Skills 是一个强大的 AI 驱动的 PPT 生成工具，能够：\n\n- 📄 **智能分析文档**，自动提取核心要点并规划 PPT 结构\n- 🎨 **生成高质量图片**，使用 Google Nano Banana Pro（Gemini 3 Pro Image Preview）\n- 🎬 **自动生成转场视频**，使用可灵 AI 创建流畅的页面过渡动画\n- 🎮 **交互式视频播放器**，支持键盘控制、循环预览、智能转场\n- 🎥 **完整视频导出**，一键合成包含所有转场的完整 PPT 视频\n\n### 🎨 视觉风格\n\n**渐变毛玻璃卡片风格**\n- 高端科技感，Apple Keynote 极简主义\n- 3D 玻璃物体 + 霓虹渐变\n- 电影级光照效果\n- 适合：科技产品、商务演示、数据报告\n\n**矢量插画风格**\n- 温暖扁平化设计，复古配色\n- 黑色轮廓线 + 几何化处理\n- 玩具模型般的可爱感\n- 适合：教育培训、创意提案、品牌故事\n\n---\n\n## ✨ 功能特性\n\n### 🎯 核心能力\n\n- 🤖 **智能文档分析** - 自动提取核心要点，规划 "
+      }
     },
     {
       "id": "github:antoniocardenas/generate-nanobanana",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:53:21.372Z",
+  "generatedAt": "2026-10-10T16:18:10.368Z",
   "appId": "awesome-mac",
   "items": [
     {
@@ -31,7 +31,60 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "aiReview": {
+        "summary": "Agent skill that checklists Flutter macOS toolchain setup (Xcode, CocoaPods, flutter doctor). Not a Mac-native app; listing quality depends on an unverified GitHub skill path.",
+        "relevanceScore": 0.35,
+        "qualityScore": 0.45,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "flutter",
+          "macos",
+          "agent-skills",
+          "xcode"
+        ],
+        "evidence": [
+          "Meta description and page body: Xcode installation, CocoaPods, environment validation for Flutter on macOS.",
+          "Install: npx skills add https://github.com/flutter/skills --skill flutter-setting-up-on-macos",
+          "GitHub tree URL for the skill returned HTTP 404.",
+          "Source listing is VoltAgent/awesome-agent-skills, not jaywcjlove/awesome-mac."
+        ],
+        "uncertainty": [
+          "Whether the Flutter official skills repo still hosts this skill and what SKILL.md actually contains.",
+          "Maintenance, license, and whether the skill runs privileged install commands."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-10T18:04:54.909Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Agent checklist for Flutter Xcode and CocoaPods setup",
+        "description": "Guides coding agents through Xcode, CocoaPods, and flutter doctor steps when preparing a Mac for Flutter iOS and macOS builds.",
+        "pros": [
+          "Targets a real Mac-specific Flutter toolchain sequence: Xcode, command-line tools, licenses, and CocoaPods.",
+          "States concrete use cases such as flutter doctor Xcode errors and CocoaPods plugin setup.",
+          "Published as a community infrastructure skill on officialskills.sh with an install command via npx skills."
+        ],
+        "cons": [
+          "This is an agent skill page, not a standalone macOS app or native developer tool.",
+          "The linked GitHub skill tree returned 404, so the SKILL.md contents could not be verified.",
+          "Similar-skills section on the page is unrelated WordPress and Apollo items, suggesting weak curation."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "agentic coding",
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 151,
+          "output": 511,
+          "cacheRead": 7296,
+          "totalTokens": 7958,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:connerkward/macos-screen-recorder-system-audio",
@@ -468,7 +521,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.apple.com/macos",
+        "contentHash": "4fefb0c85fe41def06a78cff14ce0ec831533960ecd6ceeedca41f5be01626e7",
+        "excerpt": "Title: OS - macOS 27 Golden Gate\n\nURL Source: https://www.apple.com/macos/\n\nMarkdown Content:\n*   [Apple](https://www.apple.com/)\n*   \n    *   [Store](https://www.apple.com/us/shop/goto/store)\n\n## Shop\n\n    *   [Shop the Latest](https://www.apple.com/us/shop/goto/store)\n    *   [Mac](https://www.apple.com/us/shop/goto/buy_mac)\n    *   [iPad](https://www.apple.com/us/shop/goto/buy_ipad)\n    *   [iPhone](https://www.apple.com/us/shop/goto/buy_iphone)\n    *   [Apple Watch](https://www.apple.com/us/shop/goto/buy_watch)\n    *   [Apple Vision Pro](https://www.apple.com/us/shop/goto/buy_vision)\n    *   [AirPods](https://www.apple.com/us/shop/goto/airpods/accessories)\n    *   [Accessories](https://www.apple.com/us/shop/goto/buy_accessories)\n\n## Quick Links\n\n    *   [Find a Store](https://www.apple.com/retail/)\n    *   [Order Status](https://www.apple.com/us/shop/goto/order/list)\n    *   [Apple Upgrade](https://www.apple.com/us/shop/goto/apple_upgrade)\n    *   [Apple Trade In](https://www.apple"
+      }
     },
     {
       "id": "web:52e09831358a60a2",

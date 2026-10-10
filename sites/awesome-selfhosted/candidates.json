@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:53:21.372Z",
+  "generatedAt": "2026-10-10T16:18:10.368Z",
   "appId": "awesome-selfhosted",
   "items": [
     {
@@ -85,7 +85,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z"
+      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://awesome-selfhosted.net",
+        "contentHash": "38f1b5b2e02cf5e2d3e4300a802be4e2e512ca9d16e93f27317be95e8509c81b",
+        "excerpt": "Title: awesome-selfhosted\n\nURL Source: https://awesome-selfhosted.net/\n\nMarkdown Content:\nHide navigation sidebar\nHide table of contents sidebar\nawesome-selfhosted\nAnalytics\nArchiving and Digital Preservation (DP)\nAutomation\nBackup\nBlogging Platforms\nBooking and Scheduling\nBookmarks and Link Sharing\nCalendar & Contacts\nCommunication - Custom Communication Systems\nCommunication - Email - Complete Solutions\nCommunication - Email - Mail Delivery Agents\nCommunication - Email - Mail Transfer Agents\nCommunication - Email - Mailing Lists and Newsletters\nCommunication - Email - Webmail Clients\nCommunication - IRC\nCommunication - SIP\nCommunication - Social Networks and Forums\nCommunication - Video Conferencing\nCommunication - XMPP - Servers\nCommunication - XMPP - Web Clients\nCommunity-Supported Agriculture (CSA)\nConference Management\nContent Management Systems (CMS)\nCustomer Relationship Management (CRM)\nDatabase Management\nDNS\nDocument Management\nDocument Management - E-books\nDocument Manageme"
+      }
     },
     {
       "id": "github:yourselfhosted/slash",
