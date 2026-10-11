@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T19:41:45.498Z",
+  "generatedAt": "2026-10-10T23:43:51.975Z",
   "appId": "awesome-gemini",
   "items": [
     {
@@ -118241,50 +118241,50 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Google DeepMind product overview for the Gemini model family, with capabilities, evals, safety notes, and links to try/build. Useful as an About destination, not as API or SDK documentation.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.86,
-        "riskScore": 0.12,
+        "summary": "Official Google DeepMind product page for the Gemini model family, with capabilities, benchmarks, and safety notes plus links to AI Studio and consumer Gemini. Useful as background, not as API or implementation documentation.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.78,
+        "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
-          "google-ai"
+          "google-ai",
+          "ai-studio"
         ],
         "evidence": [
           "Page title Gemini — Google DeepMind; canonical https://deepmind.google/models/gemini/.",
-          "Content covers Gemini 4 Argon capabilities, performance table, safety, and ecosystem products.",
-          "Build with Gemini links to aistudio.google.com; Try Gemini links to gemini.google.com.",
-          "Discovered repeatedly from https://ai.google.dev/ curated_readme with anchor About."
+          "CTA Build with Gemini to aistudio.google.com; Try Gemini to gemini.google.com.",
+          "Content covers Gemini 4 Argon capabilities, benchmark table, safety slides, and ecosystem models."
         ],
         "uncertainty": [
-          "API pricing and developer onboarding details are not on this page.",
-          "Whether listing title About should be renamed to match the live page."
+          "Whether the original /gemini path remains stable versus /models/gemini/.",
+          "Pricing and developer API availability are not specified on this page."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:18:39.767Z",
+        "reviewedAt": "2026-10-11T01:06:56.746Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official model overview, evals, and safety context",
-        "description": "Read official model capabilities, benchmarks, safety posture, and ecosystem links from Google DeepMind.",
+        "tagline": "Official model family overview, evals, and safety notes",
+        "description": "Read official model capabilities, benchmark tables, safety framing, and ecosystem links from Google DeepMind.",
         "pros": [
-          "Hosted on deepmind.google and linked from ai.google.dev as an official About destination.",
-          "Describes current model capabilities, published benchmark tables, and a linked evals methodology page.",
-          "Includes safety sections and CTAs to AI Studio and the consumer chat product."
+          "Hosted on Google DeepMind’s official site and linked from ai.google.dev.",
+          "Includes capability summaries, a published eval table, and methodology link.",
+          "Points builders to AI Studio and related model ecosystem pages."
         ],
         "cons": [
-          "Marketing and research overview rather than implementation, API, or SDK docs.",
-          "URL in the listing redirects to /models/gemini/ and content will change with model launches."
+          "Marketing and model overview rather than API, SDK, or integration guides.",
+          "Canonical URL redirected to /models/gemini/ and content is model-release specific.",
+          "No code samples, auth, or endpoint documentation on the page."
         ],
         "bestFor": [
           "learning",
-          "enterprise",
-          "prototyping"
+          "enterprise"
         ],
         "usage": {
-          "input": 10328,
-          "output": 597,
+          "input": 10365,
+          "output": 654,
           "cacheRead": 5120,
-          "totalTokens": 16045,
+          "totalTokens": 16139,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -118834,7 +118834,7 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Google AI developer documentation for the Gemini API, covering SDKs, REST, models, and agent workflows. High-value canonical resource for any Gemini developer directory.",
+        "summary": "Official Google AI for Developers documentation for the Gemini API, with SDK samples, model catalog, and capability guides. Canonical primary resource for implementers.",
         "relevanceScore": 1,
         "qualityScore": 0.95,
         "riskScore": 0.05,
@@ -118842,37 +118842,36 @@
           "gemini",
           "google-ai",
           "api",
-          "aistudio",
-          "agents"
+          "tutorial",
+          "ai-studio"
         ],
         "evidence": [
-          "canonicalUrl https://ai.google.dev/gemini-api/docs with meta-description Gemini API Docs and API Reference",
-          "Code samples for google-genai Python, @google/genai JS, Java, Go, and REST to generativelanguage.googleapis.com",
-          "Sections for models, image/video generation, function calling, tools, Live API, and Create agents",
-          "Get API key links to aistudio.google.com/apikey; no malware or unofficial scrape risk flags"
+          "canonicalUrl https://ai.google.dev/gemini-api/docs with meta-description “Gemini API Docs and API Reference”.",
+          "Official site_name Google AI for Developers; Get API key points to aistudio.google.com/apikey.",
+          "confidenceReasons include bucket:official-web and bucket:approve; riskFlags empty."
         ],
         "uncertainty": [
-          "Exact commercial pricing tiers and SLA were not fully enumerated on the landing page",
-          "Preview agent identifiers (e.g. antigravity-preview) may be short-lived"
+          "Exact commercial API pricing tiers are not specified on the docs landing excerpt.",
+          "Long-term stability of preview agent names (e.g. antigravity-preview-09-2026) is not verified."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:19:07.439Z",
+        "reviewedAt": "2026-10-11T01:07:13.801Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official API docs, SDKs, and model reference",
-        "description": "Integrate Google generative models with Python, JS, Java, Go, and REST. Covers multimodal APIs, tools, structured output, and managed agents.",
+        "tagline": "Official guides and API reference for Google generative mode",
+        "description": "Official developer docs covering models, SDKs, agents, and multimodal capabilities with code samples in Python, JavaScript, Java, Go, and REST.",
         "pros": [
-          "Hosted on ai.google.dev as the canonical Gemini API documentation hub.",
-          "Includes get-started paths, API key creation via AI Studio, and multi-language client examples.",
-          "Documents models, function calling, tools, Live API, long context, and managed agents.",
-          "Links to cookbook and community; content is actively updated (current Flash model callouts)."
+          "Hosted on ai.google.dev as the canonical Gemini API docs and API reference.",
+          "Landing page includes working client samples for Python, JavaScript, Java, Go, and REST.",
+          "Covers models, image/video generation, function calling, Live API, tools, and managed agents.",
+          "Links to Get Started, API keys in AI Studio, and the cookbook repository."
         ],
         "cons": [
-          "Landing page is marketing-plus-quickstart; deeper API details live on nested doc pages.",
-          "Some agent and model names are preview-labeled and may change."
+          "Page title in the directory listing is only “Docs”, which is generic without the URL.",
+          "API usage itself is billed separately from the free documentation site."
         ],
-        "pricingModel": "freemium",
+        "pricingModel": "free",
         "bestFor": [
           "learning",
           "prototyping",
@@ -118881,10 +118880,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 9678,
-          "output": 734,
-          "cacheRead": 5120,
-          "totalTokens": 15532,
+          "input": 14800,
+          "output": 628,
+          "cacheRead": 0,
+          "totalTokens": 15428,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -119434,53 +119433,50 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Gemini API docs page stating Imagen is shut down and directing developers to Nano Banana / generate_content image models. Useful as a deprecation notice, not as live Imagen documentation.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.55,
-        "riskScore": 0.12,
+        "summary": "Official Gemini API page that only documents Imagen shutdown and a brief migrate-to-Nano-Banana pointer. High authenticity, but the listed capability is gone, so it is a weak directory entry unless you want deprecation notices.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.45,
+        "riskScore": 0.1,
         "suggestedTags": [
           "gemini",
           "google-ai",
-          "api",
-          "tutorial"
+          "api"
         ],
         "evidence": [
-          "canonical URL https://ai.google.dev/gemini-api/docs/imagen",
-          "Meta description: Imagen models are shut down; migrate to Nano Banana for image generation.",
-          "Body instructs using gemini-2.5-flash-image / gemini-3.1-flash-image and client.models.generate_content.",
-          "Last updated 2026-09-17 UTC on the official docs site."
+          "canonicalUrl https://ai.google.dev/gemini-api/docs/imagen",
+          "Page states Imagen is shut down and no longer available in the Gemini API.",
+          "Migration: gemini-2.5-flash-image / gemini-3.1-flash-image and client.models.generate_content.",
+          "Last updated 2026-09-17 UTC."
         ],
         "uncertainty": [
-          "Whether Nano Banana branding and listed model IDs remain current beyond this page.",
-          "Exact billing/availability of replacement image models is not specified here."
+          "Whether the directory should include deprecation stubs versus the live image-generation guide.",
+          "Future redirects or further model-name changes after this snapshot."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-10T17:19:28.384Z",
+        "reviewedAt": "2026-10-11T01:07:32.501Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official shutdown and migration notes for image APIs",
-        "description": "States legacy image generation is unavailable and points developers to current generate_content image models.",
+        "tagline": "Shutdown notice and migration path for image APIs",
+        "description": "Official Gemini API page stating legacy image models are shut down and how to switch to generate_content image models.",
         "pros": [
-          "Hosted on the official ai.google.dev Gemini API documentation site.",
-          "Clearly states the models are shut down and no longer available in the API.",
-          "Gives concrete migration hints: model names, generate_content vs generate_images, and response shape.",
-          "Links to the current image generation guide for examples."
+          "Hosted on official Google AI for Developers Gemini API docs.",
+          "States clearly that Imagen is shut down and no longer available.",
+          "Points to generate_content image models and the image generation guide."
         ],
         "cons": [
-          "The page is a short deprecation stub, not working Imagen API reference.",
-          "Candidate title is generic “Docs” and does not describe the shutdown content.",
-          "Listing it as a primary image-generation resource would mislead developers."
+          "Does not document a working Imagen API; the page is a deprecation stub.",
+          "Title in the candidate feed is only “Docs,” which is uninformative.",
+          "Little implementation detail beyond three migration bullets."
         ],
         "bestFor": [
-          "learning",
-          "prototyping"
+          "learning"
         ],
         "usage": {
-          "input": 12422,
-          "output": 828,
-          "cacheRead": 512,
-          "totalTokens": 13762,
+          "input": 7816,
+          "output": 617,
+          "cacheRead": 5120,
+          "totalTokens": 13553,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -120030,53 +120026,55 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Google AI for Developers hub that compares Gemini API video generation models and links to Omni Flash, Veo, and video-understanding guides. High-value, current documentation for implementers.",
+        "summary": "Official Google AI hub for Gemini API video generation, pointing developers to Omni Flash, Veo 3.1, and video understanding. Suitable as a first-party docs entry for a Gemini directory.",
         "relevanceScore": 0.95,
         "qualityScore": 0.9,
-        "riskScore": 0.05,
+        "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
           "google-ai",
           "api",
-          "aistudio"
+          "tutorial"
         ],
         "evidence": [
           "canonicalUrl https://ai.google.dev/gemini-api/docs/video",
           "Title: Video generation in the Gemini API | Google AI for Developers",
-          "Content describes Omni Flash, Veo 3.1, Interactions API, generateContent, and video understanding",
-          "No riskFlags on the candidate; official-web bucket"
+          "Content covers Omni Flash, Veo 3.1, Interactions/generateContent pointers, and video understanding",
+          "Last updated 2026-06-30 UTC; Creative Commons docs / Apache 2.0 samples"
         ],
         "uncertainty": [
-          "Exact API pricing and quotas are not on this overview page",
-          "Depth of code samples is not on this page"
+          "Exact current API quotas, model IDs, and pricing are not fully specified on this hub page",
+          "Whether Omni Flash vs Veo feature matrix stays current after further model launches"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:19:46.970Z",
+        "reviewedAt": "2026-10-11T01:07:50.037Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official hub for API video generation models",
-        "description": "Compare video generation models for conversational editing versus cinematic output, then follow linked API and understanding guides.",
+        "tagline": "Official guide to API video generation models",
+        "description": "Compare official video generation models, pick conversational editing or cinematic output, and follow links to understanding existing footage.",
         "pros": [
           "Hosted on ai.google.dev as first-party Gemini API documentation.",
           "Explains when to use Omni Flash versus Veo 3.1 and links to dedicated guides.",
-          "Points to video understanding for analysis rather than generation.",
-          "Page last updated 2026-06-30 with CC BY 4.0 content licensing."
+          "Separates generation from video understanding so readers are not sent down the wrong path.",
+          "Page metadata and last-updated stamp indicate maintained official content."
         ],
         "cons": [
-          "Landing page is an overview; implementation details live on linked pages.",
-          "Candidate title is only “Docs”, which is weaker than the actual page title."
+          "The listing title is only “Docs,” so directory copy needs a clearer name.",
+          "The page is a short overview rather than a full implementation walkthrough."
         ],
+        "pricingModel": "freemium",
         "bestFor": [
           "prototyping",
           "production",
-          "learning"
+          "learning",
+          "small team"
         ],
         "usage": {
-          "input": 1237,
-          "output": 670,
+          "input": 1226,
+          "output": 588,
           "cacheRead": 11904,
-          "totalTokens": 13811,
+          "totalTokens": 13718,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -120626,55 +120624,55 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Android Developers documentation for on-device Gemini Nano via AICore and ML Kit GenAI APIs, covering prompt, summarization, proofreading, rewriting, image description, and speech recognition. High relevance and quality for Gemini on Android; not the cloud Gemini API.",
+        "summary": "Official Android Developers documentation for on-device Gemini Nano via AICore and ML Kit GenAI APIs, covering architecture, privacy, and hybrid fallback. Suitable as a first-party implementation guide for Android generative AI.",
         "relevanceScore": 0.92,
-        "qualityScore": 0.95,
+        "qualityScore": 0.9,
         "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
           "google-ai",
-          "api",
-          "sdk"
+          "sdk",
+          "api"
         ],
         "evidence": [
-          "canonicalUrl https://developer.android.com/ai/gemini-nano",
-          "Meta description: ML Kit GenAI APIs powered by Gemini Nano and AICore",
-          "Page describes on-device execution, safety filters, and hybrid Firebase AI Logic fallback",
-          "Linked from ai.google.dev curated readme as Gemini Nano on Android"
+          "Canonical URL https://developer.android.com/ai/gemini-nano describes Gemini Nano running in AICore without network for on-device inference.",
+          "Meta description states ML Kit GenAI APIs powered by Gemini Nano for on-device tasks and user privacy.",
+          "Page lists Prompt, Summarization, Proofreading, Rewriting, Image Description, and Speech Recognition APIs.",
+          "Linked from ai.google.dev curated readme as Gemini Nano on Android with high discovery confidence."
         ],
         "uncertainty": [
-          "Device and OS version availability for Gemini Nano not verified beyond this page",
-          "Exact ML Kit GenAI pricing or quota if any is not stated here"
+          "Device availability and model capability limits are not enumerated on this overview page.",
+          "Licensing and quota for hybrid Firebase AI Logic cloud fallback are not specified here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:20:05.437Z",
+        "reviewedAt": "2026-10-11T01:08:10.795Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "On-device generative AI APIs for Android apps",
-        "description": "Use ML Kit GenAI APIs and AICore to run on-device generative tasks with privacy, offline support, and hybrid cloud fallback guidance.",
+        "description": "Learn on-device generative tasks via ML Kit GenAI, AICore, privacy safeguards, and hybrid cloud fallback for Android apps.",
         "pros": [
-          "Official Android Developers page last updated 2026-10-08 with architecture, privacy, and API overviews.",
-          "Documents ML Kit GenAI tasks: prompt, summarization, proofreading, rewriting, image description, and speech recognition.",
-          "Explains AICore, Private Compute Core isolation, and hybrid inference with Firebase AI Logic.",
-          "Links to ML Kit GenAI docs, GitHub Android skills, and related blogs."
+          "Hosted on developer.android.com with last-updated 2026-10-08 UTC.",
+          "Documents ML Kit GenAI tasks including prompt, summarization, proofreading, rewriting, image description, and speech recognition.",
+          "Explains AICore architecture, Private Compute Core constraints, and hybrid inference with Firebase AI Logic.",
+          "Links to ML Kit GenAI docs, Android skills CLI install, and related architecture diagrams."
         ],
         "cons": [
-          "Focuses on on-device Nano/ML Kit rather than the cloud Gemini Developer API.",
-          "Implementation details live on linked ML Kit pages, not fully on this hub page."
+          "On-device use is limited by hardware, token limits, and device support; cloud fallback is a separate path.",
+          "This page is an overview; implementation details live on linked ML Kit and hybrid docs."
         ],
         "pricingModel": "free",
         "bestFor": [
           "prototyping",
           "production",
-          "learning",
-          "small team"
+          "small team",
+          "learning"
         ],
         "usage": {
-          "input": 14014,
-          "output": 652,
-          "cacheRead": 512,
-          "totalTokens": 15178,
+          "input": 2370,
+          "output": 619,
+          "cacheRead": 12160,
+          "totalTokens": 15149,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -121224,42 +121222,43 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Android Developers hub for IDE-native Gemini/AI assistance: agent mode, Compose tooling, debugging, and model/key options. High-quality first-party docs; more Android Studio product than a standalone Gemini API SDK.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.93,
+        "summary": "Official Android Developers hub for the in-IDE AI agent (Gemini models, BYO keys, local LLMs) with feature docs and pricing. Strong official maintenance; it is Android Studio assistance more than a Gemini API SDK.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.92,
         "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
           "google-ai",
           "agents",
-          "aistudio"
+          "ai-studio",
+          "api"
         ],
         "evidence": [
-          "Canonical page redirected to https://developer.android.com/ai-in-android with title AI in Android Studio.",
-          "Linked from ai.google.dev curated list as Android Studio.",
-          "Pricing section lists no-cost individual access with limited quota plus Google AI Pro/Ultra and Gemini Enterprise.",
-          "Docs links include /studio/gemini/overview, agent-mode, and get-started."
+          "Page title and canonical: AI in Android Studio at developer.android.com/ai-in-android.",
+          "Meta description and body cover Android Studio AI agent for build, debug, and scale.",
+          "Compare offerings: no-cost Gemini/Gemma with limited quota; Google AI Pro/Ultra; Gemini Enterprise.",
+          "Linked from ai.google.dev curated readme as Android Studio."
         ],
         "uncertainty": [
-          "Exact current quota numbers and regional availability were not fully extracted.",
-          "Whether Gemini Nano/on-device app APIs are covered beyond Studio agent features."
+          "Exact current quota numbers and enterprise rollout status.",
+          "How much of the agent uses Gemini API versus other model backends in practice."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:20:30.033Z",
+        "reviewedAt": "2026-10-11T01:08:35.719Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "IDE-native AI agent for Android app development",
-        "description": "Official docs for building, debugging, and testing Android apps with an IDE agent, Compose tools, and optional Gemini or BYO models.",
+        "tagline": "In-IDE agent for Android build, debug, and UI work",
+        "description": "Use a native IDE agent to plan edits, debug, and generate Compose UIs with included models, your own API keys, or local LLMs.",
         "pros": [
-          "Hosted on developer.android.com with structured feature pages and get-started links.",
-          "Documents Gemini-included access plus BYO keys (including Google AI Studio) and local models via Gemma, Ollama, or LM Studio.",
-          "Covers agent mode, Android skills, Compose UI generation, Journeys, and emulator-integrated debugging.",
-          "States enterprise privacy: source and prompts not used for training when using Google Cloud enterprise login."
+          "Official developer.android.com documentation with links to agent mode, skills, Compose tools, and get-started guides.",
+          "Describes Gemini included, bring-your-own keys (including Google AI Studio), and local models via Gemma/Ollama/LM Studio.",
+          "Lists concrete IDE features such as Next Edit Prediction, emulator validation, Journeys, and App Quality Insights.",
+          "Documents individual no-cost quota plus Google AI Pro/Ultra and Gemini Enterprise options."
         ],
         "cons": [
-          "Focus is Android Studio workflow, not a general Gemini API client library.",
-          "Included Gemini usage is quota-limited; higher limits require paid Google AI or Cloud plans."
+          "Canonical URL redirects to an AI-in-Android Studio product page rather than Gemini API reference.",
+          "Feature availability and quotas depend on Android Studio version, login, and paid plans."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -121267,13 +121266,13 @@
           "prototyping",
           "production",
           "enterprise",
-          "learning"
+          "small team"
         ],
         "usage": {
-          "input": 9813,
-          "output": 629,
+          "input": 9814,
+          "output": 700,
           "cacheRead": 5120,
-          "totalTokens": 15562,
+          "totalTokens": 15634,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -121823,53 +121822,56 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Gemini API page for academic researchers covering model capabilities, SDK/REST samples, and the Gemini Academic Program for credits and higher rate limits.",
-        "relevanceScore": 0.95,
-        "qualityScore": 0.9,
+        "summary": "Official Google AI docs page covering research-oriented Gemini API usage, starter snippets, and the Gemini Academic Program for API credits. Suitable as a directory resource; application eligibility and credit amounts are not fully specified on-page.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.88,
         "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
           "google-ai",
           "api",
-          "aistudio",
+          "ai-studio",
           "tutorial"
         ],
         "evidence": [
-          "canonical URL https://ai.google.dev/gemini-api/docs/gemini-for-research",
-          "Sections on analyzing outputs, multimodal inputs, long context, Get started code samples, Featured academics, and Gemini Academic Program",
-          "Apply now links to Google Form; regions linked from available-regions docs",
-          "No malware or exploit content; standard Google developer licensing (CC BY 4.0 / Apache 2.0)"
+          "canonicalUrl https://ai.google.dev/gemini-api/docs/gemini-for-research",
+          "Content describes Gemini Academic Program application via Google Form and supported-countries eligibility",
+          "Code samples call gemini-3.8-flash via google-genai / generativelanguage.googleapis.com",
+          "Links to generate-content, vision, and long-context docs plus aistudio.google.com/apikey"
         ],
         "uncertainty": [
-          "Current Academic Program acceptance rates, credit amounts, and rate-limit values are not specified on the page",
-          "Whether Java/Go sample APIs shown (interactions) match every SDK version in the wild"
+          "Whether Academic Program credits are currently being granted and typical award size",
+          "Whether featured academic quotes reflect ongoing funded work"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:20:50.240Z",
+        "reviewedAt": "2026-10-11T01:08:50.606Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official research guide, API samples, and academic credits",
-        "description": "Learn research-oriented API usage, multimodal and long-context options, SDK samples, and how qualified academics can apply for API credits.",
+        "tagline": "Official docs for academic API research and credits",
+        "description": "Learn research-oriented API usage, multimodal and long-context features, and how academics can apply for API credits.",
         "pros": [
-          "Hosted on ai.google.dev under Gemini API docs with last updated date 2026-09-23 UTC.",
-          "Documents research-relevant API features including CitationMetadata, responseSchema, multimodal inputs, and a 1-million-token context window.",
-          "Includes working-style generate-content examples for Python, JavaScript, Java, Go, and REST.",
-          "Describes eligibility, review cadence, and an application form for academic API credits and higher rate limits."
+          "Hosted on official Google AI for Developers Gemini API documentation.",
+          "Lists research-relevant capabilities such as CitationMetadata, generation controls, multimodal inputs, and a 1-million-token context window.",
+          "Includes generate-content examples in Python, JavaScript, Java, Go, and REST.",
+          "Describes the Gemini Academic Program for qualified researchers, including eligibility notes and a monthly review cadence.",
+          "Page last updated 2026-09-23 UTC with links to related API docs and AI Studio keys."
         ],
         "cons": [
-          "Academic credits are limited to affiliated researchers in supported countries and granted or revoked at Google’s discretion.",
-          "The page is a research overview rather than a full implementation tutorial or production ops guide."
+          "Credit amounts, rate-limit details, and acceptance criteria for the academic program are not specified on the page.",
+          "Java and Go snippets use an interactions-style API that differs from the Python/JS generate_content examples."
         ],
+        "pricingModel": "freemium",
         "bestFor": [
           "learning",
-          "prototyping"
+          "prototyping",
+          "enterprise"
         ],
         "usage": {
-          "input": 2429,
-          "output": 747,
+          "input": 2414,
+          "output": 542,
           "cacheRead": 12416,
-          "totalTokens": 15592,
+          "totalTokens": 15372,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -122419,41 +122421,42 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Google AI Studio Apps destination, linked from ai.google.dev as a place to build with Gemini (including Gemini 3 Flash). The URL currently redirects to Google sign-in, so in-page feature details could not be verified without an account.",
+        "summary": "Official Google AI Studio Apps destination, repeatedly linked from ai.google.dev for building with Gemini. The live URL currently redirects to Google sign-in, so gallery details cannot be verified without an account.",
         "relevanceScore": 0.92,
         "qualityScore": 0.75,
         "riskScore": 0.15,
         "suggestedTags": [
-          "aistudio",
           "gemini",
           "google-ai",
+          "ai-studio",
           "api"
         ],
         "evidence": [
-          "canonicalUrl https://aistudio.google.com/apps",
-          "sourceEvidence from https://ai.google.dev/ with anchor about Gemini 3 Flash",
-          "confidenceReasons include bucket:official-web and bucket:approve",
-          "live fetch redirected to accounts.google.com sign-in"
+          "canonicalUrl is https://aistudio.google.com/apps",
+          "sourceEvidence repeatedly points from https://ai.google.dev/ with Gemini Flash build messaging",
+          "HTTP fetch of the URL redirects to accounts.google.com sign-in"
         ],
         "uncertainty": [
-          "Exact app-builder features, rate limits, and pricing on /apps after login",
-          "Whether Gemini 3 Flash is still the featured model on the live page"
+          "Exact app gallery contents, APIs, and docs behind login",
+          "Current availability of Gemini 3 Flash versus marketing copy",
+          "Precise pricing and quota terms for Apps vs API"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:21:07.285Z",
+        "reviewedAt": "2026-10-11T01:09:10.414Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
-        "suggestedCategory": "Apps",
-        "tagline": "Official web workspace to build Gemini-powered apps",
-        "description": "Opens Google AI Studio Apps to prototype Gemini-backed applications after signing in with a Google account.",
+        "suggestedCategory": "Tools",
+        "tagline": "Official web workspace to prototype Gemini-powered apps",
+        "description": "Sign in to Google’s official studio to build and try Gemini-backed apps. Linked from developer docs; account required.",
         "pros": [
-          "Canonical URL is on aistudio.google.com, Google’s official Gemini developer surface.",
-          "Repeatedly linked from ai.google.dev with copy about building using Gemini 3 Flash.",
-          "No third-party malware or unofficial-clone signals in the candidate metadata."
+          "Hosted on aistudio.google.com, Google’s official Gemini developer console.",
+          "Repeatedly cited from ai.google.dev as a build destination for Gemini models.",
+          "Directly relevant to Gemini API experimentation rather than third-party wrappers."
         ],
         "cons": [
-          "Unauthenticated fetch only shows Google Account sign-in, so UI, APIs, and docs on the page were not inspectable.",
-          "The listing title is promotional marketing copy rather than a durable product name."
+          "Unauthenticated fetch only shows a Google Account login wall, not app docs or examples.",
+          "Candidate title is promotional copy about Gemini 3 Flash rather than a stable resource name.",
+          "No public README or excerpt was provided to confirm feature list or pricing."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -122463,10 +122466,10 @@
           "small team"
         ],
         "usage": {
-          "input": 447,
-          "output": 475,
-          "cacheRead": 13440,
-          "totalTokens": 14362,
+          "input": 8788,
+          "output": 646,
+          "cacheRead": 5120,
+          "totalTokens": 14554,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -123016,9 +123019,9 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Chrome documentation hub for on-device built-in AI APIs powered by Gemini Nano, covering get-started requirements, API availability, origin trials, polyfills, and implementation guides. Strong fit for a Gemini developer directory as first-party web platform docs, with origin-trial/preview caveats for some APIs.",
-        "relevanceScore": 0.92,
-        "qualityScore": 0.9,
+        "summary": "Official Chrome documentation hub for browser-managed on-device AI (Gemini Nano) and related web platform APIs. High-quality, maintained Google docs with API status, get-started guidance, and safety/UX notes; not a cloud Gemini API SDK.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.92,
         "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
@@ -123027,46 +123030,44 @@
           "tutorial"
         ],
         "evidence": [
-          "canonicalUrl https://developer.chrome.com/docs/ai/built-in is official Chrome docs titled Built-in AI.",
-          "Page states browser provides/manages foundation and expert models and lists Gemini Nano APIs.",
-          "Source evidence repeatedly cites ai.google.dev curated_readme linking this URL.",
-          "Join the preview program and origin trials are called out on the page."
+          "Canonical URL https://developer.chrome.com/docs/ai/built-in titled Built-in AI | AI in Chrome.",
+          "Page states the browser provides and manages foundation and expert models for websites.",
+          "Linked from ai.google.dev curated readme as integrating Gemini Nano via Chrome built-in APIs.",
+          "Documents Prompt, Summarizer, Translator, Language Detector, Writer, Rewriter, and Proofreader APIs plus best-practice guides."
         ],
         "uncertainty": [
-          "Exact current origin-trial status of each API without checking subpages.",
-          "Whether all listed APIs are stable in the latest Chrome release."
+          "Current origin-trial and production availability of each API was not independently verified beyond the hub page.",
+          "Pricing of related cloud fallback (Firebase AI Logic) is not specified on this page."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:21:24.757Z",
+        "reviewedAt": "2026-10-11T01:09:29.109Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "On-device Gemini Nano APIs in Chrome for web apps",
-        "description": "Build client-side AI in Chrome with browser-managed models and APIs for prompting, summarization, writing, translation, and more.",
+        "tagline": "On-device web AI APIs managed by the browser",
+        "description": "Build web features with browser-managed models and task APIs for writing, translation, summarization, and prompting.",
         "pros": [
-          "Official Chrome for Developers hub with structured overviews, get-started, and per-API guides.",
-          "Documents Gemini Nano usage in the browser plus related APIs such as Prompt, Summarizer, Writer, Rewriter, Translator, Language Detector, and Proofreader.",
-          "Includes origin-trial/production notes, polyfills, hybrid Firebase fallback, debugging, and UX best practices.",
-          "Linked from ai.google.dev curated resources as Chrome built-in web AI.",
-          "Low safety risk: documentation only, no malware or credential harvesting."
+          "Published on developer.chrome.com as official Built-in AI documentation.",
+          "Covers task APIs (Writer, Rewriter, Translator, Summarizer, Prompt, and others) and availability status.",
+          "Includes get-started requirements, origin-trial notes, polyfills, hybrid fallback, and debugging guidance.",
+          "Links ethics, model-download UX, and do/don't guidance for on-device AI."
         ],
         "cons": [
-          "Several APIs remain in preview or origin trials, so production availability varies.",
-          "Requires Chrome and on-device model download; not a general Gemini cloud API SDK.",
-          "Landing page is a hub rather than a single complete tutorial."
+          "Targets Chrome built-in/on-device APIs rather than the cloud Gemini Developer API.",
+          "Several APIs depend on preview or origin-trial availability and browser support."
         ],
         "pricingModel": "free",
         "bestFor": [
           "prototyping",
-          "production",
           "learning",
+          "production",
           "small team"
         ],
         "usage": {
-          "input": 2816,
-          "output": 546,
+          "input": 2818,
+          "output": 773,
           "cacheRead": 15104,
-          "totalTokens": 18466,
+          "totalTokens": 18695,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -123616,40 +123617,39 @@
       "createdAt": "2026-08-25T01:20:00.152Z",
       "updatedAt": "2026-10-10T09:20:00.077Z",
       "aiReview": {
-        "summary": "Official Google Cloud Code plugin for JetBrains IDEs, listed from ai.google.dev as a Gemini/IDE integration; it is primarily GCP Kubernetes, Cloud Run, and related tooling rather than a Gemini API SDK.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.88,
-        "riskScore": 0.15,
+        "summary": "Official Google Cloud Code plugin for JetBrains IDEs, listed from ai.google.dev as the JetBrains path. Marketplace copy is GCP Kubernetes/Cloud Run/SQL tooling rather than Gemini API usage.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.86,
+        "riskScore": 0.12,
         "suggestedTags": [
           "gemini",
-          "google-ai",
-          "cli"
+          "google-ai"
         ],
         "evidence": [
-          "Canonical URL is JetBrains plugin 8079 Gemini / Google Cloud Code, vendor Google.",
-          "Repeated discovery from https://ai.google.dev/ with anchor JetBrains IDEs.",
-          "Plugin page lists Cloud Code features, privacy/terms links, and recent 26.8.5 release."
+          "canonicalUrl plugins.jetbrains.com/plugin/8079-gemini--google-cloud-code",
+          "Marketplace: Vendor Google, 1.3M downloads, version 26.8.5_233-api-version-223",
+          "sourceEvidence repeatedly from https://ai.google.dev/ with anchor JetBrains IDEs"
         ],
         "uncertainty": [
-          "Exact Gemini-in-IDE feature set versus Cloud Code-only features is not fully specified on the fetched page.",
-          "Whether the plugin is open source is not stated on the marketplace listing."
+          "How much of the plugin is Gemini Code Assist vs classic Cloud Code is not spelled out on the fetched listing.",
+          "Plugin license/pricing beyond Marketplace free install not verified."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-10T17:22:25.606Z",
+        "reviewedAt": "2026-10-11T01:09:45.120Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "Google Cloud and Gemini assistance inside JetBrains IDEs",
-        "description": "Install Google’s JetBrains plugin to develop, debug, and deploy GCP apps with Cloud Code and Gemini features in the IDE.",
+        "tagline": "GCP app development, debug, and deploy inside JetBrains IDEs",
+        "description": "Install Google’s Cloud Code plugin to build, debug, and deploy Kubernetes, Cloud Run, and other GCP services from JetBrains IDEs.",
         "pros": [
-          "Published by Google on the JetBrains Marketplace with about 1.3 million downloads.",
-          "Actively released (version 26.8.5) and compatible with current JetBrains IDEs.",
-          "Linked from ai.google.dev as the JetBrains IDEs Gemini/Cloud Code integration.",
-          "Documents Kubernetes, Cloud Run, Cloud SQL, Secret Manager, and related GCP workflows."
+          "Vendor is Google; plugin ID 8079 is published on JetBrains Marketplace.",
+          "Listed from ai.google.dev under JetBrains IDEs.",
+          "About 1.3M downloads and a recent 26.8.5 release with broad IDE compatibility.",
+          "Documents Kubernetes, Cloud Run, Cloud SQL, Secret Manager, and Cloud API client libraries."
         ],
         "cons": [
-          "Marketplace copy focuses on Cloud Code and GCP, not Gemini API client usage.",
-          "Requires JetBrains IDEs and Google Cloud authentication rather than being a standalone API resource."
+          "Plugin description focuses on Cloud Code/GCP workflows, not Gemini API or AI Studio.",
+          "Requires a JetBrains IDE and Google Cloud authentication via gcloud."
         ],
         "pricingModel": "free",
         "bestFor": [
@@ -123659,10 +123659,10 @@
           "prototyping"
         ],
         "usage": {
-          "input": 8977,
-          "output": 534,
-          "cacheRead": 5120,
-          "totalTokens": 14631,
+          "input": 1427,
+          "output": 647,
+          "cacheRead": 12672,
+          "totalTokens": 14746,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
