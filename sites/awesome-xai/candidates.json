@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T23:43:51.975Z",
+  "generatedAt": "2026-10-11T10:30:00.122Z",
   "appId": "awesome-xai",
   "items": [
     {
       "id": "web:440be1901f39a8d2",
       "type": "web_url",
       "canonicalUrl": "https://docs.x.ai",
-      "title": "Grok API Documentation | SpaceXAI Docs",
+      "title": "Grok API Documentation | SpaceXSI Docs",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1289,6 +1289,25 @@
           "surroundingText": "Grok API Documentation | SpaceXAI Docs",
           "targetUrl": "https://docs.x.ai",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Developer Docs",
+          "surroundingText": "Developer Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok API Documentation | SpaceXSI Docs",
+          "surroundingText": "Grok API Documentation | SpaceXSI Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -1306,7 +1325,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
         "summary": "Official developer documentation for the xAI API, covering models, pricing, REST reference, tools, and multimodal capabilities. Primary source of truth for integrating Grok and related platform APIs.",
         "relevanceScore": 1,
@@ -1366,8 +1385,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://docs.x.ai",
-        "contentHash": "e2f8e7cbc713d8035553cf51f3319fb859f2f23e8eb4908d5b06b130a4a2f111",
-        "excerpt": "Title: Grok API Documentation | SpaceXAI Docs\n\nURL Source: https://docs.x.ai/\n\nMarkdown Content:\n[](https://docs.x.ai/)\n\n[API](https://docs.x.ai/overview)\n\n[Grok Build](https://docs.x.ai/build/overview)[Grok Bot](https://docs.x.ai/grok-bot/overview)[Grok](https://docs.x.ai/grok/overview)\n\nSearch\n\n⌘K\n\n[API Console](https://console.x.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=header-api-console)\n\nProducts\n\n[Grok](https://grok.com/?referrer=docs)\n\nStatus\n\n[Loading...](https://status.x.ai/)\n\nResources\n\n[llms.txt](https://docs.x.ai/llms.txt)[Discord](https://discord.gg/x-ai)[Email support](mailto:support@x.ai)[Terms and Policies](https://x.ai/legal)\n\nGet Started\n\n*   [Overview](https://docs.x.ai/overview)\n*   [Quickstart](https://docs.x.ai/developers/quickstart)\n*   [Grok 4.7 Latest](https://docs.x.ai/developers/grok-4-7)\n*   [Models](https://docs.x.ai/developers/models)\n*   [Pricing](https://docs.x.ai/developers/pricing)\n*   [Release Notes](https://docs.x.ai"
+        "contentHash": "d39cf27bb9299be800b830ff760d959c9f86e135944300bd0baf9a408b7a90ed",
+        "excerpt": "Title: Grok API Documentation\n\nURL Source: https://docs.x.ai/\n\nPublished Time: 2026-10-05T00:00:00Z\n\nMarkdown Content:\n[](https://docs.x.ai/)\n\n[API](https://docs.x.ai/overview)\n\n[Grok Build](https://docs.x.ai/build/overview)[Grok Bot](https://docs.x.ai/grok-bot/overview)[Grok](https://docs.x.ai/grok/overview)\n\nSearch\n\nCtrl+K\n\n[API Console](https://console.x.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=header-api-console)\n\nProducts\n\n[Grok](https://grok.com/?referrer=docs)\n\nStatus\n\n[Available](https://status.x.ai/)\n\nResources\n\n[llms.txt](https://docs.x.ai/llms.txt)[Discord](https://discord.gg/x-ai)[Email support](mailto:support@x.ai)[Terms and Policies](https://x.ai/legal)\n\nGet Started\n\n*   [Overview](https://docs.x.ai/overview)\n*   [Quickstart](https://docs.x.ai/developers/quickstart)\n*   [Grok 4.7 Latest](https://docs.x.ai/developers/grok-4-7)\n*   [Models](https://docs.x.ai/developers/models)\n*   [Pricing](https://docs.x.ai/developers/pricing)\n*   [Release"
       }
     },
     {
@@ -2667,6 +2686,35 @@
           "surroundingText": "awesome-xai",
           "targetUrl": "https://x.ai",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xAI Aurora / Grok Imagine",
+          "surroundingText": "xAI Aurora / Grok Imagine",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SpaceXAI / xAI",
+          "surroundingText": "SpaceXAI / xAI",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://x.ai/",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -2682,7 +2730,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
         "summary": "Official company homepage for Grok products, API console, docs, and pricing. High-value entry point for developers, though it is a marketing site rather than a GitHub SDK.",
         "relevanceScore": 1,
@@ -3405,6 +3453,16 @@
           "surroundingText": "Grok",
           "targetUrl": "https://x.ai/grok",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://x.ai/grok",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -3418,7 +3476,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official xAI consumer landing page for the Grok chatbot on web, iOS, and Android, with SuperGrok upgrades and links to the API console and docs.",
         "relevanceScore": 0.95,
@@ -4141,6 +4199,16 @@
           "surroundingText": "Grok-1 (Open Weights)",
           "targetUrl": "https://github.com/xai-org/grok-1",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok-1 (Open Weights)",
+          "surroundingText": "Grok-1 (Open Weights)",
+          "targetUrl": "https://github.com/xai-org/grok-1",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -4156,7 +4224,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official xAI Apache-2.0 JAX example for loading and sampling the 314B Grok-1 open weights; useful as a historical open-weight artifact, not as a current Grok API/SDK.",
         "relevanceScore": 0.92,
@@ -4875,6 +4943,16 @@
           "surroundingText": "iOS App",
           "targetUrl": "https://apps.apple.com/us/app/grok/id6670324846",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "iOS App",
+          "surroundingText": "iOS App",
+          "targetUrl": "https://apps.apple.com/us/app/grok/id6670324846",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -4888,7 +4966,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official Apple App Store listing for xAI’s consumer iOS client. Strong platform relevance as an end-user app, but little GitHub, API, or SDK value for developers.",
         "relevanceScore": 0.82,
@@ -5606,6 +5684,16 @@
           "surroundingText": "Android App",
           "targetUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Android App",
+          "surroundingText": "Android App",
+          "targetUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -5619,7 +5707,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official Android client for xAI’s Grok assistant (Play package ai.x.grok), useful as an end-user app listing rather than an API or SDK resource.",
         "relevanceScore": 0.82,
@@ -6340,6 +6428,16 @@
           "surroundingText": "Plans & Pricing",
           "targetUrl": "https://grok.com/plans",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Plans & Pricing",
+          "surroundingText": "Plans & Pricing",
+          "targetUrl": "https://grok.com/plans",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -6353,7 +6451,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official consumer subscription and pricing page on grok.com. Useful as a product reference, but it is not developer documentation, an API, or an SDK.",
         "relevanceScore": 0.45,
@@ -7071,6 +7169,16 @@
           "surroundingText": "Hitchhiker's Guide to Grok",
           "targetUrl": "https://docs.x.ai/docs/tutorial",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hitchhiker's Guide to Grok",
+          "surroundingText": "Hitchhiker's Guide to Grok",
+          "targetUrl": "https://docs.x.ai/docs/tutorial",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -7084,7 +7192,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official xAI developer quickstart covering account setup, API keys, SDK install, first chat/image requests, and links to further capability guides. Canonical URL now redirects from /docs/tutorial to /developers/quickstart.",
         "relevanceScore": 0.95,
@@ -7805,6 +7913,16 @@
           "surroundingText": "Getting Started with the Grok API",
           "targetUrl": "https://lablab.ai/t/xai-beginner-tutorial",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Getting Started with the Grok API",
+          "surroundingText": "Getting Started with the Grok API",
+          "targetUrl": "https://lablab.ai/t/xai-beginner-tutorial",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -7818,7 +7936,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Third-party LabLab.ai beginner tutorial (Dec 2024) showing Colab setup and four Grok API call styles. Useful for newcomers but unofficial, dated (grok-beta), and it shows putting an API key in source as an option.",
         "relevanceScore": 0.72,
@@ -8814,6 +8932,16 @@
           "surroundingText": "r/grok Subreddit",
           "targetUrl": "https://www.reddit.com/r/grok",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/grok Subreddit",
+          "surroundingText": "r/grok Subreddit",
+          "targetUrl": "https://www.reddit.com/r/grok",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -8827,7 +8955,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Unofficial Reddit community about Grok; useful for informal discussion, not as a developer platform, API, or docs source.",
         "relevanceScore": 0.35,
@@ -9992,6 +10120,16 @@
           "surroundingText": "PyPI",
           "targetUrl": "https://pypi.org/project/xai-sdk",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PyPI",
+          "surroundingText": "PyPI",
+          "targetUrl": "https://pypi.org/project/xai-sdk",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -10005,7 +10143,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official Python SDK for the xAI API (gRPC, sync/async) published on PyPI with GitHub source, docs.x.ai, and high download volume. Strong directory fit as a first-party Grok/xAI integration library.",
         "relevanceScore": 0.98,
@@ -10729,6 +10867,16 @@
           "surroundingText": "xAI Python SDK",
           "targetUrl": "https://github.com/xai-org/xai-sdk-python",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xAI Python SDK",
+          "surroundingText": "xAI Python SDK",
+          "targetUrl": "https://github.com/xai-org/xai-sdk-python",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -10745,7 +10893,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official Apache-2.0 Python client for the xAI API (sync/async gRPC) with chat, images, video, tools, and examples. Strong directory fit as the first-party SDK; API usage still requires a paid xAI key.",
         "relevanceScore": 0.98,
@@ -11472,6 +11620,16 @@
           "surroundingText": "xai_grok_sdk",
           "targetUrl": "https://github.com/moesmufti/xai_grok_sdk",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xai_grok_sdk",
+          "surroundingText": "xai_grok_sdk",
+          "targetUrl": "https://github.com/moesmufti/xai_grok_sdk",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -11487,7 +11645,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Unofficial, MIT-licensed Python client for the xAI chat API with streaming, tools, and JSON schema examples. README states it is not actively maintained and only lists grok-2-1212 and grok-beta.",
         "relevanceScore": 0.72,
@@ -12208,6 +12366,16 @@
           "surroundingText": "LangChain xAI Provider",
           "targetUrl": "https://python.langchain.com/docs/integrations/providers/xai",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "LangChain xAI Provider",
+          "surroundingText": "LangChain xAI Provider",
+          "targetUrl": "https://python.langchain.com/docs/integrations/providers/xai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -12221,7 +12389,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official LangChain Python docs for the xAI/Grok provider: install langchain-xai, set XAI_API_KEY, and use ChatXAI. Useful integration page, not a standalone SDK.",
         "relevanceScore": 0.88,
@@ -13500,6 +13668,25 @@
           "surroundingText": "xai",
           "targetUrl": "https://huggingface.co/xai",
           "discoveredAt": "2026-10-10T10:00:00.171Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hugging Face: xAI",
+          "surroundingText": "Hugging Face: xAI",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "xai",
+          "sectionPath": [],
+          "anchorText": "xai",
+          "surroundingText": "xai",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-10-11T10:00:00.175Z"
         }
       ],
       "globalFactRefs": [],
@@ -13514,7 +13701,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T10:00:00.171Z",
+      "updatedAt": "2026-10-11T10:00:00.175Z",
       "aiReview": {
         "summary": "https://huggingface.co/xai resolves to an unrelated university org (explainable AI), not xAI/Grok. Official Hub models live under huggingface.co/xai-org.",
         "relevanceScore": 0.05,
@@ -14227,6 +14414,16 @@
           "surroundingText": "SuperGrok Mac",
           "targetUrl": "https://supergrokmac.com",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SuperGrok Mac",
+          "surroundingText": "SuperGrok Mac",
+          "targetUrl": "https://supergrokmac.com",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -14240,7 +14437,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Independent free Mac desktop client for Grok with split sessions, local folders, and shell tools. Useful for Grok users on Apple Silicon, but unofficial, requires your own xAI access, and YOLO/shell execution warrants caution.",
         "relevanceScore": 0.72,
@@ -14964,6 +15161,16 @@
           "surroundingText": "grok-cli",
           "targetUrl": "https://github.com/superagent-ai/grok-cli",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "grok-cli",
+          "surroundingText": "grok-cli",
+          "targetUrl": "https://github.com/superagent-ai/grok-cli",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -14980,7 +15187,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Community MIT TypeScript CLI that talks to the public Grok API as a terminal coding agent (OpenTUI, headless/CI, MCP/LSP). Useful and well-starred, but unofficial; install via curl|bash plus Telegram/desktop automation raise typical agent-tool risk.",
         "relevanceScore": 0.92,
@@ -15703,6 +15910,16 @@
           "surroundingText": "x-cli / grok-one-shot",
           "targetUrl": "https://github.com/x-cli-team/x-cli",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "x-cli / grok-one-shot",
+          "surroundingText": "x-cli / grok-one-shot",
+          "targetUrl": "https://github.com/x-cli-team/x-cli",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -15716,7 +15933,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Unofficial TypeScript CLI that wraps Grok for conversational coding in the terminal, with low stars and docs that closely follow Claude Code patterns rather than official xAI APIs.",
         "relevanceScore": 0.62,
@@ -16705,6 +16922,16 @@
           "surroundingText": "What's in Grok?",
           "targetUrl": "https://lifearchitect.ai/whats-in-grok",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "What's in Grok?",
+          "surroundingText": "What's in Grok?",
+          "targetUrl": "https://lifearchitect.ai/whats-in-grok",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -16718,7 +16945,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Independent LifeArchitect.ai analysis of xAI Grok models (architecture, datasets, hardware estimates). Landing page is public; the 30+ page report is gated to The Memo subscribers.",
         "relevanceScore": 0.52,
@@ -17437,6 +17664,16 @@
           "surroundingText": "Grok 4 Announcement",
           "targetUrl": "https://x.ai/news/grok-4",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4 Announcement",
+          "surroundingText": "Grok 4 Announcement",
+          "targetUrl": "https://x.ai/news/grok-4",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -17450,7 +17687,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official xAI news post announcing Grok 4 capabilities, availability (SuperGrok, Premium+, API), and Heavy tier. Useful as a primary product reference, but it is marketing/news rather than API docs or a GitHub SDK.",
         "relevanceScore": 0.78,
@@ -18447,6 +18684,16 @@
           "surroundingText": "Wikipedia: Grok (chatbot)",
           "targetUrl": "https://en.wikipedia.org/wiki/Grok_%28chatbot%29",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Wikipedia: Grok (chatbot)",
+          "surroundingText": "Wikipedia: Grok (chatbot)",
+          "targetUrl": "https://en.wikipedia.org/wiki/Grok_%28chatbot%29",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -18460,7 +18707,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "English Wikipedia encyclopedia article on xAI’s Grok chatbot family. Useful background, but it is tertiary commentary rather than official docs, an API, or a GitHub-backed developer resource.",
         "relevanceScore": 0.38,
@@ -19990,6 +20237,16 @@
           "surroundingText": "milisp/awesome-grok",
           "targetUrl": "https://github.com/milisp/awesome-grok",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "milisp/awesome-grok",
+          "surroundingText": "milisp/awesome-grok",
+          "targetUrl": "https://github.com/milisp/awesome-grok",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -20005,7 +20262,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Community awesome-list of Grok/xAI links (official docs, SDKs, CLIs, apps). Useful as a directory, not an official SDK; small repo and mixed third-party quality warrant a human pass.",
         "relevanceScore": 0.72,
@@ -20553,6 +20810,15 @@
           "surroundingText": "Grok",
           "targetUrl": "https://grok.com",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://grok.com",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -20567,7 +20833,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
         "summary": "Official consumer web app for xAI’s assistant, linked from docs.x.ai. High platform relevance as an end-user product, not an SDK or API reference.",
         "relevanceScore": 0.95,
@@ -21390,6 +21656,16 @@
           "surroundingText": "Introducing Grok 4.6",
           "targetUrl": "https://docs.x.ai/developers/grok-4-6",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Introducing Grok 4.6",
+          "surroundingText": "Introducing Grok 4.6",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-6",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -21404,7 +21680,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
         "summary": "Official xAI developer docs for the latest Grok frontier model (canonical grok-4-6 URL now serves Grok 4.7). Covers API usage, pricing, tools, and reasoning; suitable as a primary platform resource.",
         "relevanceScore": 0.95,
@@ -21951,6 +22227,15 @@
           "surroundingText": "Grok Bot",
           "targetUrl": "https://docs.x.ai/grok-bot/overview",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://docs.x.ai/grok-bot/overview",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -21965,7 +22250,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
         "summary": "Official docs.x.ai overview of persistent cloud Bots with computer use, connectors, skills, and team rollout. Direct xAI/Grok platform documentation, not a third-party repo.",
         "relevanceScore": 0.95,
@@ -22515,6 +22800,15 @@
           "surroundingText": "Grok",
           "targetUrl": "https://docs.x.ai/grok/overview",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://docs.x.ai/grok/overview",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -22529,7 +22823,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
         "summary": "Official xAI documentation overview for the consumer Grok assistant (web and mobile), covering chat, media, connectors, and plans. Useful as a first-party docs entry, not an API or SDK.",
         "relevanceScore": 0.92,
@@ -23810,6 +24104,16 @@
           "surroundingText": "Grok Bot",
           "targetUrl": "https://x.ai/news/grok-bot-more-plans",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://x.ai/news/grok-bot-more-plans",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -23819,58 +24123,61 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Official xAI news post expanding Grok Bot access to SuperGrok and Cursor paid plans; useful product context, not a developer API, SDK, or maintained repo.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.7,
-        "riskScore": 0.12,
+        "summary": "Official xAI news post expanding Grok Bot access on paid SuperGrok and Cursor plans; product announcement, not API/SDK docs or a GitHub project.",
+        "relevanceScore": 0.38,
+        "qualityScore": 0.72,
+        "riskScore": 0.15,
         "suggestedTags": [
           "grok",
           "xai",
           "agents"
         ],
         "evidence": [
-          "canonicalUrl https://x.ai/news/grok-bot-more-plans title: Grok Bot is now included with more plans",
-          "Page states availability for SuperGrok, SuperGrok Plus/Heavy, Cursor Pro/Pro+/Ultra, and Cursor Teams Standard/Premium",
-          "Download CTA points to Cursor updater URL; enterprise CTA is a Cursor sales waitlist"
+          "canonicalUrl https://x.ai/news/grok-bot-more-plans dated Aug 26, 2026.",
+          "Meta and body: included with SuperGrok, SuperGrok Plus/Heavy, Cursor Pro/Pro+/Ultra, and Cursor Teams.",
+          "macOS download via api2.cursor.sh; Cursor contact-sales for enterprise.",
+          "Listed from milisp/awesome-grok README as Grok Bot, not as docs or SDK."
         ],
         "uncertainty": [
-          "Current live availability and pricing of each listed plan cannot be verified beyond this article",
-          "Security and data-access model for bots signing into user apps is not specified on this page"
+          "Current availability and plan bundling after the article date.",
+          "Windows/Linux clients and public API surface not described here.",
+          "Security of bot app sign-in and cloud computer not independently verified."
         ],
-        "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T20:47:39.255Z",
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-11T11:21:23.861Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Cloud AI teammates included with more paid plans",
-        "description": "Announces wider plan access for cloud agents that work across apps with separate usage from existing Grok and Cursor quotas.",
+        "tagline": "Cloud AI teammates with browser and terminal access",
+        "description": "Official announcement that agent teammates are included on SuperGrok and Cursor paid plans, with separate usage and macOS download.",
         "pros": [
-          "Hosted on the official x.ai news domain with a dated announcement (Aug 26, 2026).",
-          "Lists which SuperGrok and Cursor plans include the product and notes Bot usage is billed separately.",
-          "Describes intended agent workflows (messaging UX, parallel bots, cloud computer with browser and terminal)."
+          "Hosted on x.ai with a dated official news article and related product links.",
+          "States Grok Bot is included on named SuperGrok and Cursor paid plans with usage separate from Grok and Cursor quotas.",
+          "Describes agent features such as text-thread UX, parallel bots, and a cloud computer with browser and terminal access."
         ],
         "cons": [
-          "It is a marketing/news article, not API docs, an SDK, or a GitHub repository.",
-          "macOS download is served from api2.cursor.sh rather than a documented open-source client.",
-          "Enterprise access is waitlist-only; no integration code or maintenance signals for developers."
+          "It is a marketing news post, not developer documentation, an SDK, or a maintained repository.",
+          "Download is macOS-only in the article; enterprise access is waitlist/sales.",
+          "No API reference, integration samples, or GitHub maintenance signals."
         ],
         "pricingModel": "paid",
         "bestFor": [
+          "solo founder",
           "small team",
           "agentic coding",
           "prototyping"
         ],
         "usage": {
-          "input": 1417,
-          "output": 680,
-          "cacheRead": 11392,
-          "totalTokens": 13489,
+          "input": 7908,
+          "output": 690,
+          "cacheRead": 5120,
+          "totalTokens": 13718,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -24342,6 +24649,16 @@
           "surroundingText": "@ai-sdk/xai",
           "targetUrl": "https://sdk.vercel.ai/providers/ai-sdk-providers/xai",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@ai-sdk/xai",
+          "surroundingText": "@ai-sdk/xai",
+          "targetUrl": "https://sdk.vercel.ai/providers/ai-sdk-providers/xai",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -24355,9 +24672,9 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Official Vercel AI SDK provider docs for @ai-sdk/xai, covering Grok language, Responses/agentic tools, realtime, and xAI API setup. Strong developer integration value with clear install and usage examples.",
+        "summary": "Official Vercel AI SDK docs for the @ai-sdk/xai provider, covering Grok language models, env-based API keys, Responses/agentic tools, and experimental realtime. Strong developer fit for integrating the xAI API in TypeScript apps.",
         "relevanceScore": 0.95,
         "qualityScore": 0.9,
         "riskScore": 0.1,
@@ -24369,30 +24686,30 @@
           "docs"
         ],
         "evidence": [
-          "Page title xAI Grok; package @ai-sdk/xai; default API prefix https://api.x.ai/v1.",
-          "Examples use xai('grok-4.7'), xai.responses, web_search and other server tools.",
-          "Source listed as official provider docs, not news or commentary."
+          "Canonical docs at ai-sdk.dev/providers/ai-sdk-providers/xai (redirect from sdk.vercel.ai).",
+          "Install command pnpm add @ai-sdk/xai and import { xai } from '@ai-sdk/xai'.",
+          "Default API prefix https://api.x.ai/v1 and model example grok-4.7."
         ],
         "uncertainty": [
-          "npm download counts, GitHub stars, and package license were not fetched from the registry.",
-          "Current model IDs and reasoning option support may change faster than this review."
+          "npm download/star signals and package license were not fetched.",
+          "Exact current model list may change faster than this page snapshot."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T20:49:10.806Z",
+        "reviewedAt": "2026-10-11T11:21:41.953Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "SDKs",
-        "tagline": "Vercel AI SDK provider for Grok and the xAI API",
-        "description": "Install @ai-sdk/xai to call Grok models, Responses tools, reasoning options, and realtime from the Vercel AI SDK.",
+        "tagline": "TypeScript provider for Grok via Vercel AI SDK",
+        "description": "Install @ai-sdk/xai to call Grok models, streaming, tools, and optional realtime from the Vercel AI SDK.",
         "pros": [
-          "Official AI SDK documentation for the @ai-sdk/xai npm package and xAI API.",
-          "Documents generateText/streamText, reasoningEffort, serviceTier, Responses tools, vision, and experimental realtime.",
-          "Shows env-based XAI_API_KEY, createXai customization, and links to xAI model and capability docs."
+          "Official Vercel AI SDK documentation for the @ai-sdk/xai npm package.",
+          "Documents provider setup with XAI_API_KEY, createXai, generateText, and streamText.",
+          "Covers Responses API server-side tools such as web_search, x_search, and code_execution.",
+          "Includes reasoning effort, priority processing, vision, and experimental realtime APIs."
         ],
         "cons": [
-          "Requires a separate xAI API key and paid xAI usage; the SDK itself is not a standalone Grok product.",
           "Realtime is marked experimental and needs a server-issued short-lived token.",
-          "Canonical URL redirects to ai-sdk.dev rather than remaining on sdk.vercel.ai."
+          "xAI API usage is billed separately from the open-source SDK package."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -24402,10 +24719,10 @@
           "small team"
         ],
         "usage": {
-          "input": 2668,
-          "output": 537,
-          "cacheRead": 11648,
-          "totalTokens": 14853,
+          "input": 9462,
+          "output": 525,
+          "cacheRead": 5120,
+          "totalTokens": 15107,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -24878,6 +25195,16 @@
           "surroundingText": "HyperGrok Trading Desk",
           "targetUrl": "https://github.com/galleonlabs/hypergrok-trading-desk",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HyperGrok Trading Desk",
+          "surroundingText": "HyperGrok Trading Desk",
+          "targetUrl": "https://github.com/galleonlabs/hypergrok-trading-desk",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -24893,60 +25220,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Community MIT pack of seven Grok Bot roles, seventeen skills, and read-only Python helpers for a Hyperliquid trading workflow; useful for Grok agent setups but unofficial and involves optional live trading keys.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.72,
-        "riskScore": 0.52,
+        "summary": "Community MIT pack of seven Grok Bot roles and seventeen skills plus read-only Python helpers for a Hyperliquid desk; useful for agent prototyping but unofficial and involves optional live trading keys.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.7,
+        "riskScore": 0.48,
         "suggestedTags": [
           "grok",
           "agents",
           "open-source",
-          "cli",
-          "api"
+          "cli"
         ],
         "evidence": [
-          "GitHub description and README: 7-agent Hyperliquid desk for Grok Bot with roles, prompts, and skills.",
-          "License MIT; topics include grok-bot, hyperliquid, agent-skills.",
-          "README install paths: x.ai bot template, grok plugin install, /plugin marketplace for Claude Code.",
-          "Facts: not archived, default branch main, pushed_at 2026-08-31; live page also reports stars/forks and Python language."
+          "GitHub description and README: Grok Bot 7-agent Hyperliquid desk with roles, system prompts, and skills.",
+          "Facts: MIT license, not archived, default branch main, topics include grok-bot and hyperliquid.",
+          "README documents Grok Bot template, grok plugin install, Claude Code marketplace, Cursor plugin, and npm skill pack.",
+          "Repo contains agents/, skills/, scripts/opening_bell.py, scripts/desk_doctor.py, and docs/ARCHITECTURE.md."
         ],
         "uncertainty": [
-          "Exact current star/fork counts differ between facts snapshot (39/5) and live GitHub view (85/22).",
-          "Whether Grok Bot Require Approval and secret store behave as documented was not executed.",
-          "Security of user API wallets and order execution was not audited."
+          "Live security of Grok Bot secret store and Require Approval cannot be verified from the repo listing.",
+          "Star/fork counts in facts (39/5) differ from the GitHub page snapshot (89/24).",
+          "Whether rules/ load correctly in Grok Build is explicitly unverified in the README."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T20:49:34.202Z",
+        "reviewedAt": "2026-10-11T11:22:03.042Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
         "tagline": "Seven-agent Hyperliquid desk prompts and skills",
-        "description": "Install role prompts and skills so Grok, Claude Code, or Cursor agents research, size, and review Hyperliquid trades with opt-in execution.",
+        "description": "Install Grok Bot roles and skills to research, size, execute, and review Hyperliquid trades with human ticket approval.",
         "pros": [
-          "MIT repository documents seven role files, seventeen SKILL.md packs, Grok Bot bootstrap, and plugins for Grok Build, Claude Code, and Cursor.",
-          "Read-only Opening Bell and desk_doctor scripts query public Hyperliquid market data without a wallet.",
-          "README describes ticket-based human approval, testnet-first practice, and a trade-only API wallet that cannot withdraw.",
-          "Includes SETUP.md, architecture/FAQ docs, CI scripts, and versioned v1.5.0 install pins."
+          "MIT repository includes seven agent profiles, seventeen SKILL.md files, SETUP.md, architecture docs, and Grok/Claude/Cursor plugin manifests.",
+          "Read-only Opening Bell and desk_doctor scripts use public Hyperliquid data and standard-library Python.",
+          "README describes ticket-id approval, trade-only API wallets, testnet-first practice, and a single execution writer.",
+          "Release is version-pinned (v1.5.0) with check scripts, tests, SECURITY.md, and CI workflow files."
         ],
         "cons": [
-          "Not an official xAI or Grok product; third-party Galleon Labs content.",
-          "Live trading still requires user-provisioned API wallets and can lose money on perpetuals.",
-          "GitHub popularity is modest and maintenance beyond the documented 2026-08 push is not independently verified here."
+          "Not an official xAI or Grok SDK; it is a third-party Hyperliquid trading template.",
+          "Optional mainnet execution still requires user API wallets and plugin --trust install paths.",
+          "Perpetual futures can liquidate accounts; the project itself is documentation and agent instructions, not a managed trading product."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "solo founder",
-          "agentic coding",
           "prototyping",
-          "learning"
+          "agentic coding",
+          "solo founder"
         ],
         "usage": {
-          "input": 10742,
-          "output": 862,
-          "cacheRead": 5120,
-          "totalTokens": 16724,
+          "input": 15596,
+          "output": 832,
+          "cacheRead": 512,
+          "totalTokens": 16940,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -25419,6 +25744,16 @@
           "surroundingText": "grok-build",
           "targetUrl": "https://github.com/xai-org/grok-build",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "grok-build",
+          "surroundingText": "grok-build",
+          "targetUrl": "https://github.com/xai-org/grok-build",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [
@@ -25435,9 +25770,9 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Official xAI/SpaceXAI Rust source for the grok CLI/TUI coding agent, with install docs, user guide, and Apache-2.0 license; high GitHub traction but the tree is a periodic monorepo sync and does not accept external PRs.",
+        "summary": "Official xAI/SpaceXAI Rust source for the grok coding-agent CLI/TUI, with install docs, ACP/headless modes, and Apache-2.0 licensing. High GitHub-backed relevance; note it is a periodic monorepo sync and does not accept external PRs.",
         "relevanceScore": 0.95,
         "qualityScore": 0.88,
         "riskScore": 0.28,
@@ -25449,33 +25784,33 @@
           "open-source"
         ],
         "evidence": [
-          "canonicalUrl github.com/xai-org/grok-build; facts license apache-2.0, not archived, pushed_at 2026-08-23.",
-          "README: Grok Build is SpaceXAI's terminal-based AI coding agent; install via x.ai/cli; docs at docs.x.ai/build/overview.",
-          "CONTRIBUTING note: External contributions are not accepted.",
-          "GitHub metadata: ~27k stars, ~5k forks, language Rust, 0 issues listed on the API snapshot."
+          "canonicalUrl https://github.com/xai-org/grok-build",
+          "README: Grok Build is SpaceXAI's terminal-based AI coding agent; docs.x.ai/build/overview",
+          "Facts: license apache-2.0, archived false, pushed_at 2026-08-23, stargazers_count 25920+",
+          "Install via x.ai/cli/install.sh; binary package xai-grok-pager-bin"
         ],
         "uncertainty": [
-          "Exact product pricing for API/auth behind the CLI is not in the repo facts.",
-          "Issue tracker showing 0 issues may reflect GitHub settings rather than project health.",
-          "Security of the remote install scripts was not independently audited."
+          "Exact API/model coupling and auth product terms beyond first-launch browser login",
+          "Windows from-source support is described as best-effort",
+          "Issue count reported as 0 may reflect tracker settings rather than inactivity"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T20:49:49.989Z",
+        "reviewedAt": "2026-10-11T11:22:20.765Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "Official terminal coding agent with TUI, ACP, and headless m",
-        "description": "Run a fullscreen coding agent that edits files, runs commands, and supports ACP, CI, and MCP from an official Apache-2.0 Rust tree.",
+        "tagline": "Official terminal coding agent with TUI and headless modes",
+        "description": "Run an official fullscreen coding agent that edits files, runs commands, and supports headless CI or editor ACP embedding.",
         "pros": [
-          "Hosted under xai-org with Apache-2.0, SECURITY.md, and published installers plus docs.x.ai/build.",
-          "README documents TUI, headless/CI, ACP embedding, MCP, sandboxing, and crate layout.",
-          "Large maintained Rust workspace with recent push activity and tens of thousands of stars.",
-          "License and third-party notices are explicit, including vendored tool ports."
+          "Hosted under xai-org with Apache-2.0 first-party code and SECURITY.md.",
+          "README documents install, source build, user-guide paths, and official docs at docs.x.ai/build.",
+          "Supports interactive TUI, headless/scripting, and Agent Client Protocol embedding.",
+          "Large public star/fork counts and a recent default-branch push signal active interest."
         ],
         "cons": [
-          "External contributions are not accepted; the public tree is a periodic monorepo snapshot.",
-          "Install path uses a remote curl|bash / PowerShell script; the agent can execute shell commands.",
-          "Windows from-source builds are best-effort and not tested in this tree."
+          "CONTRIBUTING.md states external contributions are not accepted.",
+          "The tree is a periodic sync from a private monorepo, so GitHub history may lag releases.",
+          "The agent executes shell commands and file edits, which is inherent tool risk for users."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -25486,10 +25821,10 @@
           "production"
         ],
         "usage": {
-          "input": 3467,
-          "output": 653,
-          "cacheRead": 11520,
-          "totalTokens": 15640,
+          "input": 3461,
+          "output": 617,
+          "cacheRead": 11776,
+          "totalTokens": 15854,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -25961,6 +26296,16 @@
           "surroundingText": "Grok 4.5 Announcement",
           "targetUrl": "https://x.ai/news/grok-4-5",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4.5 Announcement",
+          "surroundingText": "Grok 4.5 Announcement",
+          "targetUrl": "https://x.ai/news/grok-4-5",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -25974,9 +26319,9 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Official xAI news post announcing Grok 4.5 with coding/agentic claims, API pricing, and console/docs links. Useful as a primary source, not as a developer SDK or maintained repo.",
+        "summary": "Official xAI news post announcing Grok 4.5 for coding, agentic work, and knowledge tasks, with API pricing, console access, and a short curl example. Useful as a primary source, but it is a product announcement rather than a maintained SDK or docs site.",
         "relevanceScore": 0.86,
         "qualityScore": 0.72,
         "riskScore": 0.12,
@@ -25987,45 +26332,43 @@
           "docs"
         ],
         "evidence": [
-          "canonicalUrl https://x.ai/news/grok-4-5 titled Introducing Grok 4.5",
-          "Pricing listed as $2 per million input tokens and $6 per million output tokens",
-          "Getting started shows curl to https://api.x.ai/v1/responses with model grok-4.5",
-          "CTAs to console.x.ai and docs.x.ai"
+          "canonicalUrl https://x.ai/news/grok-4-5 titles Introducing Grok 4.5 on the official x.ai news site.",
+          "Page includes curl to https://api.x.ai/v1/responses with model grok-4.5 and links to console.x.ai and docs.x.ai.",
+          "Pricing section lists $2 per million input tokens and $6 per million output tokens."
         ],
         "uncertainty": [
-          "Whether Grok 4.5 remains current versus later models",
-          "Accuracy of published benchmarks vs third-party harnesses",
-          "Duration of free Grok Build/Cursor usage"
+          "Whether Grok 4.5 remains current versus later models.",
+          "Duration of the advertised free Grok Build/Cursor trial.",
+          "Independent verification of cited SWE and Terminal Bench scores."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T20:50:04.518Z",
+        "reviewedAt": "2026-10-11T11:22:40.088Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "Official model launch notes, pricing, and API start",
-        "description": "Official announcement covering capabilities, benchmarks, $2/$6 token pricing, and how to call the API from console and Grok Build.",
+        "description": "Read the official launch post covering coding and agentic benchmarks, token pricing, console access, and a sample API call.",
         "pros": [
-          "Hosted on the official x.ai news domain with API, console, and docs.x.ai links.",
-          "States model id grok-4.5, curl example against api.x.ai, and input/output token prices.",
-          "Describes availability in Grok Build, Cursor, and the SpaceXAI console."
+          "Hosted on x.ai as an official product announcement dated Jul 16, 2026.",
+          "Documents API availability via api.x.ai with model id grok-4.5 and a curl example.",
+          "States list pricing of $2/M input and $6/M output tokens plus limited free use in Grok Build and Cursor."
         ],
         "cons": [
-          "News article rather than API reference, SDK, or GitHub-backed integration code.",
-          "Benchmark and competitor figures are marketing-oriented and not independently verified here.",
-          "Limited-time free usage claims may expire and are not a durable integration contract."
+          "It is a news/marketing page, not a repository or full API reference.",
+          "Benchmark and competitor claims are self-reported and not independently verified here.",
+          "Free usage is described as limited-time and does not replace paid API access."
         ],
-        "pricingModel": "paid",
+        "pricingModel": "freemium",
         "bestFor": [
           "prototyping",
           "agentic coding",
-          "production",
           "learning"
         ],
         "usage": {
-          "input": 13609,
-          "output": 470,
-          "cacheRead": 512,
-          "totalTokens": 14591,
+          "input": 2484,
+          "output": 628,
+          "cacheRead": 11904,
+          "totalTokens": 15016,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -26497,6 +26840,16 @@
           "surroundingText": "Grok 4.1 Fast & Agent Tools",
           "targetUrl": "https://x.ai/news/grok-4-1-fast",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok 4.1 Fast & Agent Tools",
+          "surroundingText": "Grok 4.1 Fast & Agent Tools",
+          "targetUrl": "https://x.ai/news/grok-4-1-fast",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -26510,10 +26863,10 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-01T03:23:59.108Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Official xAI announcement of Grok 4.1 Fast (2M context, tool-calling) and the Agent Tools API, with model IDs, SDK snippet, pricing, and docs links. Useful as a primary product brief, not a substitute for API docs.",
-        "relevanceScore": 0.92,
+        "summary": "Official xAI announcement of Grok 4.1 Fast (2M context, tool-calling) and the Agent Tools API, with model IDs, pricing, and Python SDK examples. Useful as a primary product/news resource, not a standalone SDK or repo.",
+        "relevanceScore": 0.86,
         "qualityScore": 0.78,
         "riskScore": 0.12,
         "suggestedTags": [
@@ -26524,47 +26877,42 @@
           "docs"
         ],
         "evidence": [
-          "canonicalUrl https://x.ai/news/grok-4-1-fast titled Grok 4.1 Fast and Agent Tools API (Nov 19, 2025).",
-          "Meta description: Bringing the next generation of tool-calling agents to the xAI API.",
-          "Page states 2M context, Agent Tools (X/web search, code execution, collections, MCP), and $0.20/$0.05/$0.50 per 1M tokens.",
-          "Linked from milisp/awesome-grok as Grok 4.1 Fast & Agent Tools."
+          "canonicalUrl https://x.ai/news/grok-4-1-fast titled Grok 4.1 Fast and Agent Tools API",
+          "Meta description: Bringing the next generation of tool-calling agents to the xAI API",
+          "Page states 2M context, tool-calling focus, Agent Tools API, and $0.20/$0.05/$0.5 per 1M token pricing"
         ],
         "uncertainty": [
-          "Current live accuracy of every benchmark table versus later model revisions.",
-          "Whether Agent Tools usage has extra fees beyond listed token prices (page truncated at tool-call pricing).",
-          "Free-tier or credit eligibility not verified from this page."
+          "Long-term availability of this news URL versus docs.x.ai as the canonical developer entry",
+          "Independent verification of all listed benchmarks beyond the Artificial Analysis footnote"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T20:50:32.107Z",
+        "reviewedAt": "2026-10-11T11:22:52.001Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official API launch for fast tool-calling agents",
-        "description": "Announces a 2M-context tool-calling model and server-side agent tools (search, code, MCP) on the xAI API, with pricing and SDK usage.",
+        "tagline": "Official launch notes for tool-calling agents on xAI API",
+        "description": "Announces a 2M-context tool-calling model and server-side agent tools with SDK snippets, benchmarks, and API pricing.",
         "pros": [
-          "Hosted on x.ai and describes Grok 4.1 Fast plus Agent Tools for the xAI API.",
-          "Gives concrete model IDs grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning.",
-          "Shows xai_sdk usage for web_search, x_search, code_execution, collections_search, and MCP.",
-          "Lists input/output token prices and links to developer tool docs."
+          "Hosted on x.ai news with model names grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning.",
+          "Documents Agent Tools API capabilities: web search, X search, code execution, collections search, and MCP.",
+          "Includes xai_sdk Python example, input/output token prices, and links to developer tool docs."
         ],
         "cons": [
-          "It is a news/marketing post, not full API reference or a GitHub SDK.",
-          "Benchmark claims are vendor-presented and some scores are marked as estimates or internal.",
-          "Long-term availability of this URL versus docs.x.ai is not guaranteed."
+          "It is a marketing/news post, not a maintained GitHub SDK or full reference docs.",
+          "Benchmark claims and charts are vendor-reported and may go stale as models change."
         ],
         "pricingModel": "paid",
         "bestFor": [
           "agentic coding",
-          "production",
           "prototyping",
-          "enterprise",
-          "small team"
+          "production",
+          "learning"
         ],
         "usage": {
-          "input": 2334,
-          "output": 817,
-          "cacheRead": 12032,
-          "totalTokens": 15183,
+          "input": 2321,
+          "output": 555,
+          "cacheRead": 12288,
+          "totalTokens": 15164,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -26909,6 +27257,15 @@
           "surroundingText": "Grok Build",
           "targetUrl": "https://docs.x.ai/build/overview",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Build",
+          "surroundingText": "Grok Build",
+          "targetUrl": "https://docs.x.ai/build/overview",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -26923,12 +27280,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-08T01:53:06.583Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
-        "summary": "Official xAI docs for a coding agent usable as an interactive TUI, headless CLI, or ACP client, with install steps, API-key auth, custom models, and grok-4.7 API examples.",
-        "relevanceScore": 1,
-        "qualityScore": 0.9,
-        "riskScore": 0.1,
+        "summary": "Official xAI documentation for the Grok Build coding agent CLI, covering install, TUI and headless use, config, and API examples. High-value primary docs for developers integrating Grok in coding workflows.",
+        "relevanceScore": 0.98,
+        "qualityScore": 0.92,
+        "riskScore": 0.12,
         "suggestedTags": [
           "grok",
           "xai",
@@ -26937,44 +27294,44 @@
           "docs"
         ],
         "evidence": [
-          "Canonical URL https://docs.x.ai/build/overview is official xAI documentation.",
-          "Content describes Grok Build as a coding agent via TUI, headless CLI, and ACP.",
-          "Install uses curl https://x.ai/cli/install.sh and PowerShell irm https://x.ai/cli/install.ps1.",
-          "Headless examples include grok -p and --output-format streaming-json; custom models use config.toml and grok inspect."
+          "canonicalUrl https://docs.x.ai/build/overview is official xAI docs.",
+          "Content describes Grok Build as a coding agent with TUI, headless -p mode, ACP, and ~/.grok/config.toml custom models.",
+          "Shows grok CLI install from x.ai/cli and XAI_API_KEY auth.",
+          "Includes grok-4.7 Responses API snippets against https://api.x.ai/v1."
         ],
         "uncertainty": [
-          "CLI license, open-source status, and exact pricing for agent usage are not stated on the overview.",
-          "Maintenance cadence of the CLI binary itself is not visible from the docs page alone."
+          "CLI license and pricing (API vs local) are not fully specified on this overview.",
+          "Runtime security of the agent (file access, MCP, plugins) is not detailed on this page."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T21:28:50.031Z",
+        "reviewedAt": "2026-10-11T11:47:57.754Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official coding-agent TUI, CLI, and ACP docs",
-        "description": "Install and run a coding agent in a TUI or headless scripts, configure custom models, and call grok-4.7 on the xAI API.",
+        "tagline": "Official docs for an extensible coding agent CLI",
+        "description": "Install and run a coding agent via TUI, scripts, or ACP, with headless mode, custom models, and xAI API examples.",
         "pros": [
-          "Hosted on official docs.x.ai with install commands for macOS/Linux and Windows.",
-          "Documents interactive TUI, headless/scripted runs, Agent Client Protocol, and inspect/config workflows.",
-          "Shows authentication via browser login or XAI_API_KEY and custom models in ~/.grok/config.toml.",
-          "Includes grok-4.7 API samples for JavaScript, Python, curl, and the xAI SDK."
+          "Hosted on docs.x.ai as official Getting Started material for the coding agent.",
+          "Documents install, interactive TUI, headless/script usage, inspect, and custom model config.",
+          "Includes concrete API examples for grok-4.7 via JavaScript, Python, curl, and the xAI SDK.",
+          "Links onward to headless scripting, enterprise deployments, skills/plugins, and related product pages."
         ],
         "cons": [
-          "Usage depends on an xAI API key or browser auth; pricing is not specified on this page.",
-          "The page is an overview; deeper CLI, enterprise, and feature details live on linked pages."
+          "Install uses a remote curl|bash / irm|iex script, which is a typical supply-chain caution.",
+          "Page is an overview; deeper CLI flags and security hardening live on linked pages."
         ],
         "bestFor": [
           "agentic coding",
           "prototyping",
           "production",
-          "learning",
-          "solo founder"
+          "solo founder",
+          "small team"
         ],
         "usage": {
-          "input": 1226,
-          "output": 718,
-          "cacheRead": 9728,
-          "totalTokens": 11672,
+          "input": 1301,
+          "output": 646,
+          "cacheRead": 9856,
+          "totalTokens": 11803,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27166,6 +27523,15 @@
           "surroundingText": "Grok 4.7 Latest",
           "targetUrl": "https://docs.x.ai/developers/grok-4-7",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok 4.7 Latest",
+          "surroundingText": "Grok 4.7 Latest",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-7",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -27180,9 +27546,9 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-22T01:20:00.082Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
-        "summary": "Official xAI developer docs for the grok-4.7 model ID, covering API usage, pricing, tools, reasoning, and where it runs. Suitable as a primary platform reference for Grok API integration.",
+        "summary": "Official xAI developer page for the grok-4.7 model, covering API usage, context limits, pricing, tools, and caching notes. Suitable as a primary docs entry for Grok API integrators.",
         "relevanceScore": 1,
         "qualityScore": 0.92,
         "riskScore": 0.08,
@@ -27190,46 +27556,44 @@
           "grok",
           "xai",
           "api",
-          "docs",
-          "agents"
+          "docs"
         ],
         "evidence": [
-          "Canonical URL https://docs.x.ai/developers/grok-4-7 is official xAI developer documentation.",
-          "Page specifies model name grok-4.7, 500,000-token context, $2/$6 per 1M tokens, and tools including function calling and code execution.",
-          "Includes working request examples against https://api.x.ai/v1."
+          "Page title and content describe Grok 4.7 as SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
+          "Code samples use model grok-4.7 with @ai-sdk/xai, OpenAI-compatible client at https://api.x.ai/v1, curl, and xai_sdk.",
+          "At-a-glance table lists 500,000-token context, $2/$6 per 1M tokens, Responses API, and tools including function calling, web search, X search, and code execution."
         ],
         "uncertainty": [
-          "Live rate limits and team-specific pricing were not independently verified.",
-          "Cannot verify long-term URL stability of this model page."
+          "Could not independently verify live console rate limits or whether the Fast variant availability has changed since the page was fetched."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T22:28:31.680Z",
+        "reviewedAt": "2026-10-11T12:28:07.389Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official frontier-model API docs for coding and agents",
-        "description": "Official developer docs for calling grok-4.7 via the xAI API, with pricing, tools, reasoning, and integration notes.",
+        "tagline": "Official model guide for coding and agentic API use",
+        "description": "Official developer docs for calling grok-4.7 via the xAI API, with examples, limits, tools, and pricing.",
         "pros": [
-          "Hosted on official docs.x.ai with concrete model ID grok-4.7 and code samples for JS, OpenAI SDK, curl, and Python.",
-          "Documents context window, modalities, token prices, reasoning effort levels, and supported tools.",
-          "Points to Responses API, regional endpoints, prompt caching, and related capability pages."
+          "Hosted on official docs.x.ai with model id grok-4.7 and working SDK/cURL examples.",
+          "Documents context window, modalities, token prices, reasoning levels, and supported tools.",
+          "Calls out prompt caching, encrypted reasoning, and regional endpoints that affect production use."
         ],
         "cons": [
-          "Fast variant is documented as unavailable on the public xAI API.",
-          "Page is model-specific documentation, not a full SDK or tutorial course."
+          "Fast variant is only available in Cursor and Grok Build, not the public xAI API.",
+          "Live rate limits and team-specific pricing require the console rather than this page alone."
         ],
         "pricingModel": "paid",
         "bestFor": [
           "agentic coding",
           "production",
           "prototyping",
-          "learning"
+          "small team"
         ],
         "usage": {
-          "input": 1728,
-          "output": 459,
-          "cacheRead": 8192,
-          "totalTokens": 10379,
+          "input": 1701,
+          "output": 580,
+          "cacheRead": 8448,
+          "totalTokens": 10729,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27421,6 +27785,15 @@
           "surroundingText": "View model",
           "targetUrl": "https://docs.x.ai/developers/models/grok-4.7",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "View model",
+          "surroundingText": "View model",
+          "targetUrl": "https://docs.x.ai/developers/models/grok-4.7",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -27435,12 +27808,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-22T01:20:00.082Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
-        "summary": "Official xAI developer page documenting the grok-4.7 model ID, modalities, 500k context, reasoning/function-calling support, pricing, rate limits, and regions.",
+        "summary": "Official xAI developer docs for the grok-4.7 model, covering modalities, context window, capabilities, pricing, rate limits, and regions. Appropriate as a primary reference for API integration.",
         "relevanceScore": 1,
-        "qualityScore": 0.92,
-        "riskScore": 0.08,
+        "qualityScore": 0.9,
+        "riskScore": 0.05,
         "suggestedTags": [
           "grok",
           "xai",
@@ -27449,43 +27822,44 @@
           "agents"
         ],
         "evidence": [
-          "Canonical URL https://docs.x.ai/developers/models/grok-4.7",
-          "Documented context window 500,000 tokens and modalities text, image → text",
-          "Pricing table with $2/$4 input and $6/$12 output per 1M tokens around 200k prompt threshold"
+          "URL https://docs.x.ai/developers/models/grok-4.7 is official xAI documentation.",
+          "Page specifies model name grok-4.7, 500k context, reasoning efforts low/medium/high/xhigh.",
+          "Pricing table lists input/cached/output rates with a 200k prompt token threshold.",
+          "Rate limits given as 150 RPS and 50M tokens per minute; regions us-east-1, us-west-2, us-central-1."
         ],
         "uncertainty": [
-          "Live availability and limit numbers may change without this snapshot updating",
-          "No GitHub repository or SDK source was attached to this candidate"
+          "Cannot verify long-term model availability or SLA beyond this page.",
+          "No independent GitHub maintenance signals for a docs URL."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T22:28:47.769Z",
+        "reviewedAt": "2026-10-11T12:28:21.559Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official frontier model specs for coding and agents",
-        "description": "Official docs cover modalities, 500k context, reasoning efforts, function calling, pricing tiers, rate limits, and regions.",
+        "tagline": "Official model card for frontier coding and agent APIs",
+        "description": "Documents grok-4.7 modalities, 500k context, reasoning, function calling, structured outputs, pricing, and rate limits.",
         "pros": [
-          "Hosted on official docs.x.ai with a stable model ID grok-4.7.",
-          "Lists capabilities including function calling, structured outputs, and reasoning effort levels.",
-          "Publishes input/cached/output pricing, RPS/TPM limits, and AWS region availability."
+          "Hosted on official docs.x.ai with a stable model identifier grok-4.7.",
+          "Lists function calling, structured outputs, reasoning efforts, pricing tiers, and rate limits.",
+          "States 500,000-token context and text/image-to-text modalities for implementers."
         ],
         "cons": [
-          "Batch API is explicitly not supported.",
-          "Page is a model card rather than full integration tutorials or SDK samples."
+          "Page is a model spec, not SDK code or a GitHub repository.",
+          "Batch API is explicitly not supported."
         ],
         "pricingModel": "paid",
         "bestFor": [
+          "production",
           "agentic coding",
           "prototyping",
-          "production",
           "small team",
           "enterprise"
         ],
         "usage": {
-          "input": 490,
-          "output": 482,
-          "cacheRead": 8064,
-          "totalTokens": 9036,
+          "input": 448,
+          "output": 501,
+          "cacheRead": 8320,
+          "totalTokens": 9269,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27561,59 +27935,58 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-22T01:20:00.082Z",
       "updatedAt": "2026-09-26T01:20:00.091Z",
       "aiReview": {
-        "summary": "Official xAI console chat playground preselected to grok-4.7, linked from docs as a hands-on try-it surface rather than an SDK or tutorial.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.78,
-        "riskScore": 0.12,
+        "summary": "Official xAI Console chat playground linked from docs, useful for trying Grok in-browser after login. The candidate URL is HTML-encoded with UTM params and a team-scoped path, so it is a weak directory listing versus a clean console entry point.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.55,
+        "riskScore": 0.15,
         "suggestedTags": [
           "grok",
           "xai",
           "api"
         ],
         "evidence": [
-          "canonicalUrl is https://console.x.ai/team/default/chat?model=grok-4.7 with docs UTM parameters.",
-          "sourceEvidence repeatedly cites https://docs.x.ai/ anchor Try in playground.",
-          "docs.x.ai overview describes grok-4.7 as the coding model on API and CLI."
+          "sourceEvidence repeatedly cites docs.x.ai anchor “Try in playground” targeting console.x.ai chat.",
+          "Web results describe xAI Cloud Console as the signed-in gateway for Grok API and developer tools.",
+          "Candidate type is web_url with title only “Try in playground”, not a repository."
         ],
         "uncertainty": [
-          "Whether the team/default path works for all users or only logged-in default teams.",
-          "Exact console pricing, rate limits, and whether grok-4.7 remains the default model.",
-          "Login wall and regional availability were not verified by loading the console UI."
+          "Whether grok-4.7 remains the default model on that deep link.",
+          "Exact playground features, rate limits, and whether console usage is billed like the API.",
+          "Whether team/default/chat still resolves for new users."
         ],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T22:29:08.913Z",
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-11T12:28:42.150Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
-        "suggestedCategory": "Tools",
-        "tagline": "Browser chat to try the latest coding model",
-        "description": "Open the official console chat with grok-4.7 preselected to try prompts before wiring the API.",
+        "suggestedCategory": "Apps",
+        "tagline": "Official in-browser chat to try Grok models",
+        "description": "Sign in to the xAI Console chat UI to try Grok models in a playground linked from developer docs.",
         "pros": [
-          "Hosted on console.x.ai and repeatedly linked from official docs as Try in playground.",
-          "Deep-links a specific model (grok-4.7) for interactive testing.",
-          "Complements API/docs workflows without being a third-party wrapper."
+          "Hosted on console.x.ai and repeatedly linked from official docs as “Try in playground”.",
+          "Points at the Grok chat UI with a specific model query parameter for interactive trials.",
+          "Official vendor surface, not a third-party wrapper or commentary page."
         ],
         "cons": [
-          "Requires console login and is not a standalone library or documented API surface.",
-          "UTM-heavy team/default URL may be session-specific and less durable as a directory permalink.",
-          "No README or public source; quality of the UI itself is not inspectable from this candidate."
+          "URL is HTML-entity encoded (&amp;) and includes marketing UTM parameters.",
+          "Path is team/default-scoped and typically requires sign-in, so it is not a stable public docs page.",
+          "Provides no GitHub source, SDK, or API reference of its own."
         ],
         "pricingModel": "freemium",
         "bestFor": [
           "prototyping",
-          "learning",
-          "agentic coding"
+          "learning"
         ],
         "usage": {
-          "input": 2770,
-          "output": 719,
+          "input": 3819,
+          "output": 583,
           "cacheRead": 5120,
-          "totalTokens": 8609,
+          "totalTokens": 9522,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27751,6 +28124,15 @@
           "surroundingText": "Try in playground",
           "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.7&utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=highlights-grok-47",
           "discoveredAt": "2026-10-10T09:20:00.077Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Try in playground",
+          "surroundingText": "Try in playground",
+          "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.7&utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=highlights-grok-47",
+          "discoveredAt": "2026-10-11T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -27765,42 +28147,41 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-27T01:20:00.067Z",
-      "updatedAt": "2026-10-10T09:20:00.077Z",
+      "updatedAt": "2026-10-11T09:20:00.102Z",
       "aiReview": {
-        "summary": "Official xAI console chat playground deep-link (Grok 4.7) from docs. Useful as an interactive trial, not an SDK or repo; URL is campaign-tagged and team-scoped.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.72,
-        "riskScore": 0.12,
+        "summary": "Official xAI console chat playground linked from docs, preselecting grok-4.7 for interactive trials. Useful as an official try-it surface, not as an SDK or API reference.",
+        "relevanceScore": 0.85,
+        "qualityScore": 0.75,
+        "riskScore": 0.15,
         "suggestedTags": [
           "grok",
           "xai",
           "api"
         ],
         "evidence": [
-          "canonicalUrl is https://console.x.ai/team/default/chat?model=grok-4.7 with docs UTM parameters.",
-          "sourceEvidence repeatedly cites docs.x.ai curated_readme anchor Try in playground.",
-          "confidenceReasons include bucket:official-web."
+          "canonicalUrl is https://console.x.ai/team/default/chat?model=grok-4.7 with docs UTM params.",
+          "sourceEvidence repeatedly cites docs.x.ai anchor Try in playground.",
+          "docs.x.ai overview documents grok-4.7 and API usage separately from this playground link."
         ],
         "uncertainty": [
-          "Exact console auth, quota, and pricing for playground usage were not verified in facts.",
-          "Whether grok-4.7 remains the current default model over time."
+          "Could not inspect authenticated console UI, usage limits, or exact billing for playground traffic.",
+          "Whether grok-4.7 remains the default model in the URL over time."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T22:52:49.659Z",
+        "reviewedAt": "2026-10-11T12:46:45.872Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
         "tagline": "Official console chat to try Grok models",
-        "description": "Open the xAI console chat playground with a Grok 4.7 preset to try models from official docs.",
+        "description": "Open the xAI console chat playground with grok-4.7 selected to try models from official docs.",
         "pros": [
           "Hosted on console.x.ai and repeatedly linked from official docs as Try in playground.",
-          "Presets the grok-4.7 model for interactive API-style chat.",
-          "Points developers at the live product rather than third-party commentary."
+          "Preselects grok-4.7, matching current docs and API examples.",
+          "Gives developers a first-party interactive surface without installing an SDK."
         ],
         "cons": [
-          "UTM and /team/default path make the link campaign-specific rather than a stable docs page.",
-          "Requires console login; not a GitHub SDK, CLI, or documented integration library.",
-          "Directory value is limited compared with API reference or client libraries."
+          "Requires console login and is not a standalone library, CLI, or documentation page.",
+          "UTM campaign parameters and team/default path may change; model id in the URL can go stale."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -27809,10 +28190,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 8219,
-          "output": 537,
-          "cacheRead": 512,
-          "totalTokens": 9268,
+          "input": 829,
+          "output": 480,
+          "cacheRead": 8320,
+          "totalTokens": 9629,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27914,6 +28295,16 @@
           "surroundingText": "Grok Bot Wiki (unofficial)",
           "targetUrl": "https://www.grokbotwiki.com",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "milisp/awesome-grok",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok Bot Wiki (unofficial)",
+          "surroundingText": "Grok Bot Wiki (unofficial)",
+          "targetUrl": "https://www.grokbotwiki.com",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -27927,12 +28318,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-03T01:00:00.145Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z",
+      "updatedAt": "2026-10-11T09:00:00.145Z",
       "aiReview": {
-        "summary": "Unofficial community wiki cataloging public Grok Bot templates, workflows, and setup guides. Useful as a field guide, but not official xAI docs and share links should be treated as third-party.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.58,
-        "riskScore": 0.38,
+        "summary": "Unofficial community wiki and bot-template directory for xAI Grok Bot, not official API/SDK docs. Useful as a field guide if you need Grok Bot setups, but verify against xAI sources.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.55,
+        "riskScore": 0.42,
         "suggestedTags": [
           "grok",
           "xai",
@@ -27940,43 +28331,43 @@
           "docs"
         ],
         "evidence": [
-          "awesome-grok lists the site as Grok Bot Wiki (unofficial) at https://www.grokbotwiki.com.",
-          "Search snippets describe bots, workflows, teams, guides, and an unofficial community guide with a large public bot directory.",
-          "About page copy states it helps pick a Grok Bot, set boundaries, and check results rather than acting as a fan page."
+          "awesome-grok lists it as Grok Bot Wiki (unofficial) at https://www.grokbotwiki.com",
+          "Site copy: Unofficial community guide; directory of public Bots; about page is a field guide not a fan page",
+          "Guides include What is Grok Bot and getting-started content"
         ],
         "uncertainty": [
-          "Could not independently verify bot-count claims, last link-sweep date, or editorial process from a full page load.",
-          "No GitHub repo, license, or maintainer identity confirmed in the candidate facts.",
-          "Security of individual shared bots and whether they require xAI paid access is unverified."
+          "Maintenance ownership, editorial process, and how often share links are rechecked",
+          "Whether template content is safe or current relative to official Grok Bot",
+          "Full homepage content was not reliably extractable from the live HTML"
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-09T23:08:56.699Z",
+        "reviewedAt": "2026-10-11T13:00:46.559Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Unofficial field guide to public Grok Bot templates",
-        "description": "Browse community Grok Bot templates, workflows, and practical setup guides without relying on official docs.",
+        "tagline": "Unofficial field guide and directory for Grok Bot templates",
+        "description": "Community wiki listing Grok Bot templates, workflows, and practical setup guides. Unofficial; not xAI documentation.",
         "pros": [
-          "Site presents itself as an unofficial community field guide for Grok Bot templates, workflows, and setup.",
-          "Includes a public bot directory with many share links plus guides on access, pricing, and first tasks.",
-          "Content distinguishes Grok Bot from the Grok chatbot and related products."
+          "Self-describes as an unofficial community field guide with bots, workflows, teams, and guides.",
+          "Includes a public bot directory with share links and getting-started / pricing-access style articles.",
+          "Clarifies that Grok Bot is distinct from the Grok chatbot and other products."
         ],
         "cons": [
-          "Not official xAI documentation; accuracy and link safety depend on community maintenance.",
-          "Public share links and third-party bots may include unvetted prompts or tool access.",
-          "Homepage fetch returned little structured content, so freshness and completeness are hard to verify from the live HTML."
+          "Not official xAI documentation and can be confused with the Grok API or chatbot.",
+          "No GitHub-backed SDK or API integration value for developers.",
+          "Homepage fetch returned little structured content; accuracy of thousands of listed templates is unverified."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning",
           "prototyping",
-          "solo founder"
+          "agentic coding"
         ],
         "usage": {
-          "input": 1021,
-          "output": 559,
-          "cacheRead": 7296,
-          "totalTokens": 8876,
+          "input": 8093,
+          "output": 549,
+          "cacheRead": 512,
+          "totalTokens": 9154,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -27998,6 +28389,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://x.ai/news/grok-imagine-api",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://x.ai/news/grok-imagine-api",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28011,7 +28412,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "web:ed49fce9cc522c3c",
@@ -28029,6 +28430,16 @@
           "surroundingText": "ngrok",
           "targetUrl": "https://ngrok.com",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "agarrharr/awesome-cli-apps",
+          "sourcePath": "readme.md",
+          "sectionPath": [],
+          "anchorText": "ngrok",
+          "surroundingText": "ngrok",
+          "targetUrl": "https://ngrok.com",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28042,7 +28453,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "github:frankieli123/grok-skill",
@@ -28060,6 +28471,16 @@
           "surroundingText": "Frankieli123/grok-skill",
           "targetUrl": "https://github.com/frankieli123/grok-skill",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Frankieli123/grok-skill",
+          "surroundingText": "Frankieli123/grok-skill",
+          "targetUrl": "https://github.com/frankieli123/grok-skill",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28073,7 +28494,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "github:linespottingorg/grokbuildremote-agents",
@@ -28091,6 +28512,16 @@
           "surroundingText": "Build Remote Agent",
           "targetUrl": "https://github.com/linespottingorg/grokbuildremote-agents",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Build Remote Agent",
+          "surroundingText": "Build Remote Agent",
+          "targetUrl": "https://github.com/linespottingorg/grokbuildremote-agents",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28104,7 +28535,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "web:821b935f6ff0fc5b",
@@ -28122,6 +28553,16 @@
           "surroundingText": "**xAI**",
           "targetUrl": "https://getdesign.md/x.ai/design-md",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-design-md",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**xAI**",
+          "surroundingText": "**xAI**",
+          "targetUrl": "https://getdesign.md/x.ai/design-md",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28135,7 +28576,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "web:5f70844e0723fe75",
@@ -28153,6 +28594,16 @@
           "surroundingText": "Chatbox",
           "targetUrl": "https://chatboxai.app",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Chatbox",
+          "surroundingText": "Chatbox",
+          "targetUrl": "https://chatboxai.app",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28166,7 +28617,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     },
     {
       "id": "web:8651e3b9e31f3bb7",
@@ -28184,6 +28635,16 @@
           "surroundingText": "Grux",
           "targetUrl": "https://gruxai.com",
           "discoveredAt": "2026-10-10T09:00:00.152Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grux",
+          "surroundingText": "Grux",
+          "targetUrl": "https://gruxai.com",
+          "discoveredAt": "2026-10-11T09:00:00.145Z"
         }
       ],
       "globalFactRefs": [],
@@ -28197,7 +28658,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-10T09:00:00.152Z"
+      "updatedAt": "2026-10-11T09:00:00.145Z"
     }
   ]
 }
