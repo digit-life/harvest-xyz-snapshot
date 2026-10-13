@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:30:00.202Z",
+  "generatedAt": "2026-10-13T04:23:19.873Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -792,11 +792,68 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "video-generation",
+          "google",
+          "official-docs",
+          "gemini-api",
+          "text-to-video"
+        ],
+        "evidence": [
+          "Page title and meta describe Veo 3.1 as the leading video generation model with Veo 2 capabilities.",
+          "CTA 'Build with Veo' points to https://ai.google.dev/gemini-api/docs/video.",
+          "Prompt guide at /models/veo/prompt-guide; sections include Capabilities, Performance, Safety, Showcase.",
+          "Rubric prefers official Veo docs over news recaps or closed landings without API."
+        ],
+        "uncertainty": [
+          "Current commercial pricing and availability by region/account.",
+          "Exact SDK surface and rate limits without fetching the Gemini video API doc.",
+          "Whether watermarking and safety filters apply uniformly across Gemini vs Flow."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-13T05:43:56.040Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Official video model docs with Gemini API access",
+        "description": "Official video generation model hub with native audio, prompt guidance, and links to Gemini API video docs.",
+        "pros": [
+          "Official DeepMind page for Veo 3.1 with capabilities, safety, showcase, and prompt-guide sections.",
+          "Links to Gemini API video documentation for programmatic use.",
+          "Documents native audio (SFX, ambience, dialogue), prompt adherence, and physics/realism claims.",
+          "Consumer and builder paths are listed (Gemini, Google Flow, Build with Veo).",
+          "Canonical URL redirected to deepmind.google/models/veo/ and is actively maintained."
+        ],
+        "cons": [
+          "Landing page is marketing-heavy; request/response API details live on a separate Gemini API doc.",
+          "Pricing, quotas, and model IDs are not specified on this page.",
+          "Candidate title still says Veo 2 / Veo 3 while the site features Veo 3.1."
+        ],
+        "bestFor": [
+          "prototyping",
+          "production",
+          "small team",
+          "learning"
+        ],
+        "usage": {
+          "input": 12935,
+          "output": 775,
+          "cacheRead": 512,
+          "totalTokens": 14222,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:cfa0e5b0829d9711",
@@ -853,11 +910,65 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.72,
+        "riskScore": 0.28,
+        "suggestedTags": [
+          "video-generation",
+          "text-to-video",
+          "image-to-video",
+          "api",
+          "kuaishou"
+        ],
+        "evidence": [
+          "klingai.com homepage describes image/video generation, Canvas, and commercial case studies.",
+          "Developer paths such as klingai.com/dev and document-api cover text2video/image2video/omni-video and prepaid units.",
+          "Listed in awesome-video-generation as Kling AI pointing at https://klingai.com."
+        ],
+        "uncertainty": [
+          "Live package prices, trial availability, and whether the newest models are on standard API packages without login.",
+          "Exact watermark and content-moderation policy on API outputs."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-13T05:45:05.207Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Text/image-to-video API with Omni, audio, and 4K modes",
+        "description": "Generate video from text, images, and multimodal references via a prepaid REST API with polling, callbacks, and regional endpoints.",
+        "pros": [
+          "Official developer docs cover authentication, async task APIs, model capability maps, and pricing units.",
+          "API supports text-to-video, image-to-video, Omni multimodal references, native audio, lip-sync, avatars, and extension.",
+          "Regional endpoints (e.g. Singapore/Beijing) and Bearer API keys are documented for production calls."
+        ],
+        "cons": [
+          "The listed homepage is a consumer/marketing site; API access requires a separate prepaid resource package.",
+          "Concurrency, duration, resolution, and newest-model availability are package- and region-dependent.",
+          "No first-party full SDK is the primary path; integrations often use cURL plus polling or third-party wrappers."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "prototyping",
+          "production",
+          "small team",
+          "enterprise"
+        ],
+        "usage": {
+          "input": 8496,
+          "output": 716,
+          "cacheRead": 6400,
+          "totalTokens": 15612,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:cbccf253cb1efa68",
@@ -914,11 +1025,68 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
+        "relevanceScore": 0.88,
+        "qualityScore": 0.82,
+        "riskScore": 0.22,
+        "suggestedTags": [
+          "text-to-video",
+          "api",
+          "inference",
+          "python",
+          "javascript"
+        ],
+        "evidence": [
+          "llms.txt model ID fal-ai/pika/v2.2/text-to-video and POST https://fal.run/fal-ai/pika/v2.2/text-to-video",
+          "Input schema with prompt required; resolution 720p/1080p; duration 5 or 10",
+          "Output schema returns a video File URL",
+          "Candidate URL is the official API docs page linked from awesome-video-generation"
+        ],
+        "uncertainty": [
+          "Current uptime, queue latency, and whether v2.2 remains the latest Pika endpoint",
+          "Auth, rate limits, and commercial terms beyond the posted clip prices",
+          "HTML playground page loaded little content without JS"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-13T05:45:26.156Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "SDKs",
+        "tagline": "Paid text-to-video inference API with client SDKs",
+        "description": "Call a 720p/1080p text-to-video endpoint via HTTP or Python/JS clients; set prompt, duration, aspect ratio, and resolution.",
+        "pros": [
+          "Documents endpoint ID, HTTP URL, OpenAPI schema, and llms.txt for agents.",
+          "Lists required prompt plus optional seed, negative prompt, aspect ratio, resolution, duration, and safety checker.",
+          "Includes cURL, Python fal-client, and JavaScript @fal-ai/client subscribe examples.",
+          "States usage prices: $0.20 for 5s 720p and $0.45 for 5s 1080p."
+        ],
+        "cons": [
+          "Commercial hosted inference, not an open-source model or self-hostable weights.",
+          "Duration is limited to 5 or 10 seconds in the documented schema.",
+          "Safety checker can be disabled for authorized callers, which is a policy consideration."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "prototyping",
+          "production",
+          "agentic coding",
+          "small team"
+        ],
+        "usage": {
+          "input": 2343,
+          "output": 702,
+          "cacheRead": 6912,
+          "totalTokens": 9957,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:050f72087c077040",
@@ -979,7 +1147,61 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.72,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "leaderboard",
+          "text-to-video",
+          "benchmarks",
+          "model-comparison"
+        ],
+        "evidence": [
+          "Page title and meta: AA-Video-T2V v2.0 Leaderboard comparing quality, speed, and price.",
+          "Table includes Elo, samples, release dates, and API pricing footnote.",
+          "FAQ states ranking from blind pairwise human votes and links to Video Arena."
+        ],
+        "uncertainty": [
+          "Whether leaderboard data is independently audited.",
+          "Exact access/paywall for full Artificial Analysis features beyond this public page.",
+          "Stability of 2026-dated model names and prices on a live board."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-13T05:46:28.670Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Human-vote Elo rankings for text-to-video models",
+        "description": "Compare text-to-video models by blind-vote Elo, open weights, audio, and API price per minute of 1080p video.",
+        "pros": [
+          "Ranks models with Elo from pairwise blind human preference votes.",
+          "Lists sample counts, release dates, and creator API pricing per minute of 1080p video.",
+          "Supports filters such as with/without audio and open weights.",
+          "Methodology is documented in FAQ (same prompt, unknown model, recruited panel)."
+        ],
+        "cons": [
+          "Source README labeled the link as Docs; it is a comparison site, not vendor documentation.",
+          "Not an API, SDK, or model card; rankings and prices can change and depend on AA’s panel.",
+          "Some listed models have no public API or pricing marked coming soon."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "prototyping",
+          "learning",
+          "production"
+        ],
+        "usage": {
+          "input": 3746,
+          "output": 549,
+          "cacheRead": 6528,
+          "totalTokens": 10823,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:7ae81b057128b271",

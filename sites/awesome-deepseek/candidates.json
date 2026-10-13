@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:30:00.202Z",
+  "generatedAt": "2026-10-13T04:23:19.873Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -84071,7 +84071,57 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Community n8n node that wraps DeepSeek chat-style calls in workflows; useful for automation users, not official DeepSeek docs or an SDK.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.62,
+        "riskScore": 0.22,
+        "suggestedTags": [
+          "deepseek",
+          "api",
+          "llm",
+          "open-source"
+        ],
+        "evidence": [
+          "npm: n8n-nodes-deepseek 1.0.6, MIT, ~63K weekly downloads, maintainer rubickecho.",
+          "Repository listed as https://github.com/rubickecho/n8n-deepseek.",
+          "Readme positions it as a user-friendly DeepSeek AI node similar to OpenAI for n8n."
+        ],
+        "uncertainty": [
+          "Maintenance quality, security review, and API coverage of the GitHub project were not audited beyond the npm listing.",
+          "Whether the node tracks current DeepSeek API features is unverified."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-13T06:13:32.027Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Tools",
+        "tagline": "Community n8n node for DeepSeek chat workflows",
+        "description": "Install this MIT-licensed n8n community node to call DeepSeek models in workflows, similar to the OpenAI node.",
+        "pros": [
+          "MIT-licensed community package with a public GitHub repository (rubickecho/n8n-deepseek).",
+          "npm reports version 1.0.6 and about 63K weekly downloads.",
+          "Described as an OpenAI-like DeepSeek node for n8n workflows."
+        ],
+        "cons": [
+          "Third-party n8n community node, not official DeepSeek documentation, model cards, or a first-party SDK.",
+          "Package homepage points at npm rather than dedicated docs or a model card."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 407,
+          "output": 556,
+          "cacheRead": 6528,
+          "totalTokens": 7491,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:hccccc01333/codex-deepseek-mini-router",

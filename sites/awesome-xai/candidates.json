@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:30:00.202Z",
+  "generatedAt": "2026-10-13T04:23:19.873Z",
   "appId": "awesome-xai",
   "items": [
     {
@@ -30005,7 +30005,59 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Official xAI announcement for the Grok Imagine video generation and editing API, with console and docs links. Useful as a product pointer, but it is a news post rather than developer documentation.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.62,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "grok",
+          "xai",
+          "api",
+          "docs"
+        ],
+        "evidence": [
+          "canonicalUrl https://x.ai/news/grok-imagine-api titled Grok Imagine API dated Jan 28, 2026.",
+          "Page links to https://docs.x.ai/developers/model-capabilities/video/generation and console.x.ai video explore.",
+          "Describes unified video generation and editing APIs with Artificial Analysis and LMArena ranking tables."
+        ],
+        "uncertainty": [
+          "Exact commercial pricing, SLA, and current API surface were not verified on this page.",
+          "Whether the linked docs remain the canonical integration source over time."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-13T05:45:51.675Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Resources",
+        "tagline": "Official video generation and editing API announcement",
+        "description": "Announces xAI video-audio generation and editing APIs, with console access and links to developer video-generation docs.",
+        "pros": [
+          "Hosted on x.ai and describes the official Grok Imagine API for text/image-to-video and video editing.",
+          "Links to xAI console video flows and docs.x.ai video generation documentation.",
+          "Includes benchmark comparisons and capability claims dated January 2026."
+        ],
+        "cons": [
+          "The listed title is “Docs” but the URL is a news/marketing article, not the API reference.",
+          "Does not itself contain SDK, auth, or request/response integration details.",
+          "Pricing and rate limits are not specified on this page."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "prototyping",
+          "production",
+          "small team"
+        ],
+        "usage": {
+          "input": 4669,
+          "output": 623,
+          "cacheRead": 5120,
+          "totalTokens": 10412,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:ed49fce9cc522c3c",

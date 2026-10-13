@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:30:00.202Z",
+  "generatedAt": "2026-10-13T04:23:19.873Z",
   "appId": "awesome-gemini",
   "items": [
     {
@@ -135599,11 +135599,68 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "aiReview": {
+        "summary": "Official Google Cloud sample notebooks and apps for Gemini on Vertex AI/Agent Platform, including RAG, agents, and Cloud Run demos. Highly relevant for Gemini developers; listing title over-narrows the repo to Streamlit+Cloud Run.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.92,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "gemini",
+          "google-ai",
+          "rag",
+          "agents",
+          "open-source"
+        ],
+        "evidence": [
+          "GitHub description: Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform.",
+          "README documents gemini/, rag-grounding/, agents/, sample-apps, and setup-env.",
+          "Apache-2.0, CODE_OF_CONDUCT, CONTRIBUTING, SECURITY.md present.",
+          "Stars 17.8k, forks 4.5k, 2268 commits."
+        ],
+        "uncertainty": [
+          "Exact freshness of every notebook vs latest model IDs was not audited file-by-file.",
+          "Whether a dedicated Streamlit+Cloud Run sample is still the primary path vs Quart/Mesop samples."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-13T05:47:07.711Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Resources",
+        "tagline": "Official GCP notebooks and apps for generative AI",
+        "description": "Sample notebooks, agents, RAG, and Cloud Run apps for building generative AI workflows on Google Cloud Vertex AI.",
+        "pros": [
+          "Official GoogleCloudPlatform repo with Apache-2.0 license, security policy, and contributing docs.",
+          "Large, actively maintained tree: gemini notebooks, sample-apps, rag-grounding, agents, and setup-env.",
+          "~17.8k stars, ~4.5k forks, and 2,268 commits on main.",
+          "Covers Vertex AI Gemini API topics plus Cloud Run sample apps referenced by the listing."
+        ],
+        "cons": [
+          "Requires a Google Cloud project, Vertex AI, and billing rather than consumer AI Studio-only usage.",
+          "Discovery title points at Streamlit+Cloud Run while the repo is a broad sample collection.",
+          "Some samples depend on GCP-specific Agent Platform/Vertex services."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "production",
+          "enterprise",
+          "data engineering"
+        ],
+        "usage": {
+          "input": 12035,
+          "output": 652,
+          "cacheRead": 6528,
+          "totalTokens": 19215,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:google-gemini/gemini-skills",
