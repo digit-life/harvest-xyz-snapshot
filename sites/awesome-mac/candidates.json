@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T04:23:19.873Z",
+  "generatedAt": "2026-10-13T10:30:00.137Z",
   "appId": "awesome-mac",
   "items": [
     {
@@ -48,6 +48,16 @@
           "surroundingText": "flutter/flutter-setting-up-on-macos",
           "targetUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "flutter/flutter-setting-up-on-macos",
+          "surroundingText": "flutter/flutter-setting-up-on-macos",
+          "targetUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -61,7 +71,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z",
+      "updatedAt": "2026-10-13T09:00:00.091Z",
       "aiReview": {
         "summary": "Agent skill that checklists Flutter macOS toolchain setup (Xcode, CocoaPods, flutter doctor). Not a Mac-native app; listing quality depends on an unverified GitHub skill path.",
         "relevanceScore": 0.35,
@@ -162,6 +172,16 @@
           "surroundingText": "connerkward/macos-screen-recorder-system-audio",
           "targetUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "connerkward/macos-screen-recorder-system-audio",
+          "surroundingText": "connerkward/macos-screen-recorder-system-audio",
+          "targetUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -175,7 +195,65 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z",
+      "aiReview": {
+        "summary": "Mac-native Swift CLI that records the main display plus system audio via ScreenCaptureKit without a virtual audio driver. Small MIT repo with limited adoption and a few hard-coded capture limits.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.62,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "macos",
+          "screen-recording",
+          "cli",
+          "screencapturekit",
+          "swift"
+        ],
+        "evidence": [
+          "Repo description and README: sck-record CLI, ScreenCaptureKit, no driver/no sudo, Claude Code skill.",
+          "README comparison table vs screencapture, virtual audio drivers, OBS, QuickTime.",
+          "Topics include macos, screencapturekit, swift, screen-recording.",
+          "About page: 3 stars, 0 forks, MIT license, 11 commits on main."
+        ],
+        "uncertainty": [
+          "Cannot verify binary quality, permission UX, or audio/video sync beyond README claims.",
+          "Cannot verify commit recency or CI health from the page snapshot.",
+          "Sponsor Recall.ai block is marketing, not part of the tool itself."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-13T10:51:23.375Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Headless macOS capture with native system audio",
+        "description": "Record the main Mac display and speaker audio to MP4 via ScreenCaptureKit CLI—no driver, sudo, or mic routing.",
+        "pros": [
+          "Uses Apple ScreenCaptureKit on macOS 13+ so system audio is captured without BlackHole, Loopback, or sudo.",
+          "Single Swift source file builds with swiftc and writes H.264/AAC MP4.",
+          "MIT-licensed with documented CLI flags, permissions, and limitations.",
+          "Includes a Claude Code skill/plugin for agent-driven recording."
+        ],
+        "cons": [
+          "GitHub shows only 3 stars, 0 forks, and 11 commits.",
+          "Captures the main display only with fixed duration and hardcoded bitrate/codec.",
+          "Ctrl-C aborts without finalizing the file.",
+          "Not listed in jaywcjlove/awesome-mac; popularity and long-term maintenance are unproven."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "agentic coding",
+          "learning"
+        ],
+        "usage": {
+          "input": 7899,
+          "output": 610,
+          "cacheRead": 5120,
+          "totalTokens": 13629,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:liewcf/codex-notify-macos",
@@ -223,6 +301,16 @@
           "surroundingText": "liewcf/codex-notify-macos",
           "targetUrl": "https://github.com/liewcf/codex-notify-macos",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "liewcf/codex-notify-macos",
+          "surroundingText": "liewcf/codex-notify-macos",
+          "targetUrl": "https://github.com/liewcf/codex-notify-macos",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -236,7 +324,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:jaywcjlove/awesome-mac",
@@ -284,6 +372,16 @@
           "surroundingText": "HERE",
           "targetUrl": "https://github.com/jaywcjlove/awesome-mac",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HERE",
+          "surroundingText": "HERE",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-mac",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -297,7 +395,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:jaywcjlove/awesome-swift-macos-apps",
@@ -345,6 +443,16 @@
           "surroundingText": "Awesome Swift macOS Apps",
           "targetUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Awesome Swift macOS Apps",
+          "surroundingText": "Awesome Swift macOS Apps",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -358,7 +466,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "web:01bd2551b0bbb0d6",
@@ -406,6 +514,16 @@
           "surroundingText": "Emacs",
           "targetUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Emacs",
+          "surroundingText": "Emacs",
+          "targetUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -419,7 +537,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "web:28fbbcd58fd3cc53",
@@ -467,6 +585,16 @@
           "surroundingText": "PDF Auditor",
           "targetUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PDF Auditor",
+          "surroundingText": "PDF Auditor",
+          "targetUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -480,7 +608,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:nickustinov/itsyconnect-macos",
@@ -528,6 +656,16 @@
           "surroundingText": "Itsyconnect",
           "targetUrl": "https://github.com/nickustinov/itsyconnect-macos",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Itsyconnect",
+          "surroundingText": "Itsyconnect",
+          "targetUrl": "https://github.com/nickustinov/itsyconnect-macos",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -541,7 +679,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:stmol/ssh-keys-manager-macos-app",
@@ -589,6 +727,16 @@
           "surroundingText": "SSH Keys Manager",
           "targetUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SSH Keys Manager",
+          "surroundingText": "SSH Keys Manager",
+          "targetUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -602,7 +750,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:ptmt/react-native-desktop",
@@ -650,6 +798,16 @@
           "surroundingText": "React Native macOS",
           "targetUrl": "https://github.com/ptmt/react-native-desktop",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "React Native macOS",
+          "surroundingText": "React Native macOS",
+          "targetUrl": "https://github.com/ptmt/react-native-desktop",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -663,7 +821,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:vchewing/vchewing-macos",
@@ -711,6 +869,16 @@
           "surroundingText": "vChewing 唯音",
           "targetUrl": "https://github.com/vchewing/vchewing-macos",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "vChewing 唯音",
+          "surroundingText": "vChewing 唯音",
+          "targetUrl": "https://github.com/vchewing/vchewing-macos",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -724,7 +892,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "github:alextkdev/macoscleaner",
@@ -772,6 +940,16 @@
           "surroundingText": "MacOSCleaner",
           "targetUrl": "https://github.com/alextkdev/macoscleaner",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "MacOSCleaner",
+          "surroundingText": "MacOSCleaner",
+          "targetUrl": "https://github.com/alextkdev/macoscleaner",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -785,7 +963,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "web:2a0b0c6dd1017cc4",
@@ -833,6 +1011,16 @@
           "surroundingText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
           "targetUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "surroundingText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "targetUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -846,7 +1034,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "web:61e12675826cc3e3",
@@ -894,6 +1082,16 @@
           "surroundingText": "AltTab",
           "targetUrl": "https://alt-tab-macos.netlify.app",
           "discoveredAt": "2026-10-12T09:00:00.126Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AltTab",
+          "surroundingText": "AltTab",
+          "targetUrl": "https://alt-tab-macos.netlify.app",
+          "discoveredAt": "2026-10-13T09:00:00.091Z"
         }
       ],
       "globalFactRefs": [],
@@ -907,7 +1105,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-12T09:00:00.126Z"
+      "updatedAt": "2026-10-13T09:00:00.091Z"
     },
     {
       "id": "web:a1cf0ac5dbe14999",
@@ -951,6 +1149,15 @@
           "surroundingText": "OS - macOS 27 Golden Gate - Apple",
           "targetUrl": "https://www.apple.com/macos",
           "discoveredAt": "2026-10-12T09:20:00.036Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "OS - macOS 27 Golden Gate - Apple",
+          "surroundingText": "OS - macOS 27 Golden Gate - Apple",
+          "targetUrl": "https://www.apple.com/macos",
+          "discoveredAt": "2026-10-13T09:20:00.082Z"
         }
       ],
       "globalFactRefs": [
@@ -968,7 +1175,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-12T09:20:00.036Z",
+      "updatedAt": "2026-10-13T09:20:00.082Z",
       "reference": {
         "source": "official-web",
         "url": "https://www.apple.com/macos",
@@ -1018,6 +1225,15 @@
           "surroundingText": "Learn more about developing for macOS",
           "targetUrl": "https://developer.apple.com/macos",
           "discoveredAt": "2026-10-12T09:20:00.036Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "Learn more about developing for macOS",
+          "surroundingText": "Learn more about developing for macOS",
+          "targetUrl": "https://developer.apple.com/macos",
+          "discoveredAt": "2026-10-13T09:20:00.082Z"
         }
       ],
       "globalFactRefs": [],
@@ -1032,7 +1248,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-12T09:20:00.036Z"
+      "updatedAt": "2026-10-13T09:20:00.082Z"
     }
   ]
 }
