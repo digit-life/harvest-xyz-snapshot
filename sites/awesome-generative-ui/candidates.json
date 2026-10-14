@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:30:00.137Z",
+  "generatedAt": "2026-10-14T10:30:00.130Z",
   "appId": "awesome-generative-ui",
   "items": [
     {
@@ -58,6 +58,16 @@
           "surroundingText": "Generative UI: LLMs are Effective UI Generators",
           "targetUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
           "discoveredAt": "2026-10-13T09:00:00.091Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: LLMs are Effective UI Generators",
+          "surroundingText": "Generative UI: LLMs are Effective UI Generators",
+          "targetUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
         }
       ],
       "globalFactRefs": [],
@@ -67,11 +77,67 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:00:00.091Z"
+      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "aiReview": {
+        "summary": "Google Research preprint on prompt-to-full-web-page Generative UI, with human preference results, the PAGEN expert-page dataset, and interactive demos. Useful as a primary paper, not a product or SDK you can run yourself.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.78,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "research-paper",
+          "generative-ui",
+          "llm",
+          "evaluation",
+          "dataset"
+        ],
+        "evidence": [
+          "Abstract and §2 describe HTML page generation plus tools, system instructions, and post-processors.",
+          "Tables 1–2: Generative UI ELO 1710.7 vs markdown 1459.6; 82.8% preference over markdown on LMArena sample.",
+          "§4 and discussion state PAGEN and demos are released for evaluation.",
+          "Listed from narrowin/awesome-generative-ui README as a paper PDF."
+        ],
+        "uncertainty": [
+          "Whether PAGEN files and the live demo remain available and complete.",
+          "Reproducibility of the Google-internal tool server and Gemini backbone outside the paper.",
+          "Venue acceptance status (preprint under review)."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-14T11:47:47.479Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Research on LLMs generating full interactive web UIs",
+        "description": "Google Research paper showing LLMs can emit custom interactive pages, with preference studies, PAGEN, and public demo examples.",
+        "pros": [
+          "Peer-style Google Research preprint with method, ablations, and human preference ELOs versus markdown, search, and expert sites.",
+          "Reports PAGEN, an expert-crafted prompt-to-website set intended for public comparison.",
+          "Points to interactive examples at generativeui.github.io rather than screenshots alone.",
+          "Documents limitations including slow generation and occasional HTML/JS/CSS errors."
+        ],
+        "cons": [
+          "The listed URL is a PDF preprint under review, not a maintained generator, CLI, or library.",
+          "System prompts, tools, and PAGEN download mechanics are not fully specified in the candidate listing.",
+          "Preference results ignore generation latency, which the paper says can take a minute or two."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "agentic coding"
+        ],
+        "usage": {
+          "input": 13105,
+          "output": 654,
+          "cacheRead": 512,
+          "totalTokens": 14271,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:2dd0df298eb47898",
@@ -174,6 +240,25 @@
           "surroundingText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
           "targetUrl": "https://v0.app",
           "discoveredAt": "2026-10-13T09:20:00.082Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "v0",
+          "surroundingText": "v0",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://v0.app/",
+          "sectionPath": [],
+          "anchorText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "surroundingText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-10-14T09:20:00.043Z"
         }
       ],
       "globalFactRefs": [
@@ -191,12 +276,70 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:20:00.082Z",
+      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "aiReview": {
+        "summary": "Vercel’s official prompt-to-app product: a chat-based generator with templates for components, dashboards, and landing pages. Strong fit for a generative-UI directory; commercial SaaS with login, paid tiers, and enterprise options.",
+        "relevanceScore": 0.96,
+        "qualityScore": 0.88,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "generative-ui",
+          "prompt-to-ui",
+          "templates",
+          "vercel",
+          "web-apps"
+        ],
+        "evidence": [
+          "canonicalUrl https://v0.app titled as AI full-stack web app builder with New Chat.",
+          "Template hubs: apps-and-games, landing-pages, components, dashboards.",
+          "Links for Enterprise, Pricing, iOS, Students, FAQ, and ChatGPT-plan login.",
+          "Listed in narrowin/awesome-generative-ui README as v0."
+        ],
+        "uncertainty": [
+          "Exact free vs paid limits and whether ChatGPT-plan usage is billed separately.",
+          "Whether generated code is Next.js-only or multi-framework.",
+          "Maintenance of individual community templates versus the core product."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-14T11:48:37.110Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Chat-based generator for full-stack web UIs",
+        "description": "Generate web apps and UI from chat, then start from templates for components, dashboards, landing pages, and games.",
+        "pros": [
+          "Official product site offers a new-chat flow plus template categories for apps, landing pages, components, and dashboards.",
+          "Homepage lists working template gallery entries with view counts and authors.",
+          "Navigation includes pricing, enterprise, iOS, students, and FAQ, indicating an active commercial product.",
+          "Supports attaching files in chat and example starters such as contact forms and calculators."
+        ],
+        "cons": [
+          "Requires login or signup; generation is not a self-hosted open-source library.",
+          "Pricing details are not in the homepage excerpt, only a pricing link.",
+          "Output quality and stack constraints are not documented on the captured landing page."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "agentic coding",
+          "enterprise"
+        ],
+        "usage": {
+          "input": 12145,
+          "output": 742,
+          "cacheRead": 512,
+          "totalTokens": 13399,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
       "reference": {
         "source": "official-web",
         "url": "https://v0.app",
-        "contentHash": "007669988a43592db8f0664460e79a74a2862661ffd841e2b10d919077322c13",
-        "excerpt": "Title: v0 by Vercel - Build Full-Stack Web Apps with AI\n\nURL Source: https://v0.app/\n\nMarkdown Content:\n[New Chat](https://v0.app/chat)\n\n*   Templates\n*   [Enterprise](https://v0.app/enterprise)\n*   [Pricing](https://v0.app/pricing)\n*   [iOS](https://v0.app/ios)\n*   [Students](https://v0.app/students)\n*   [FAQ](https://v0.app/faq)\n\n[Log In](https://v0.app/api/auth/login?next=%2F)[Sign Up](https://v0.app/api/auth/login?next=%2F&action=signup)\n\n[Use your **ChatGPT plan** in v0](https://v0.app/api/auth/login?next=%2F)\n\n# What do you want to create?\n\nv0 Max\n\nContact Form Image Editor Mini Game Finance Calculator\n\n## Start with a template\n\n[Apps and Games](https://v0.app/templates/apps-and-games)[Landing Pages](https://v0.app/templates/landing-pages)[Components](https://v0.app/templates/components)[Dashboards](https://v0.app/templates/dashboards)[Browse all](https://v0.app/templates)\n\n[Browse all](https://v0.app/templates)\n\n### Prompt.  \nBuild. Publish.\n\nGenerate working applications in min"
+        "contentHash": "006930ccd122f7500884fb7b68c1022044d1b5268f92393b89860ff7cf2462de",
+        "excerpt": "Title: v0 by Vercel - Build Full-Stack Web Apps with AI\n\nURL Source: https://v0.app/\n\nMarkdown Content:\n[New Chat](https://v0.app/chat)\n\n*   Templates\n*   [Enterprise](https://v0.app/enterprise)\n*   [Pricing](https://v0.app/pricing)\n*   [iOS](https://v0.app/ios)\n*   [Students](https://v0.app/students)\n*   [FAQ](https://v0.app/faq)\n\n[Log In](https://v0.app/api/auth/login?next=%2F)[Sign Up](https://v0.app/api/auth/login?next=%2F&action=signup)\n\n[Use your **ChatGPT plan** in v0](https://v0.app/api/auth/login?next=%2F)\n\n# What do you want to create?\n\nv0 Max\n\nDrop to attach\n\nContact Form Image Editor Mini Game Finance Calculator\n\n## Start with a template\n\n[Apps and Games](https://v0.app/templates/apps-and-games)[Landing Pages](https://v0.app/templates/landing-pages)[Components](https://v0.app/templates/components)[Dashboards](https://v0.app/templates/dashboards)[Browse all](https://v0.app/templates)\n\n[](https://v0.app/templates/hkRpZoLOrJC)[](https://v0.app/templates/hkRpZoLOrJC)\n\n[View Det"
       }
     },
     {
@@ -255,6 +398,16 @@
           "surroundingText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
           "targetUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
           "discoveredAt": "2026-10-13T09:00:00.091Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "surroundingText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "targetUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
         }
       ],
       "globalFactRefs": [],
@@ -264,11 +417,67 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:00:00.091Z"
+      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "aiReview": {
+        "summary": "Official March 2024 Vercel post announcing AI SDK 3.0 streaming of React Server Components from LLMs, with code, FAQ, and demo/docs links. Strong primary source for generative UI, but it is an announcement article rather than a living generator or kit.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.82,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "generative-ui",
+          "react-server-components",
+          "ai-sdk",
+          "vercel",
+          "announcement"
+        ],
+        "evidence": [
+          "Canonical Vercel blog dated March 1, 2024 titled Introducing AI SDK 3.0 with Generative UI support.",
+          "Code samples use `render` from `ai/rsc` with `text` and `tools` mapping to RSC, including async generator yields.",
+          "FAQ states RSC APIs currently work in Next.js App Router and full `render` tool mapping with OpenAI, Mistral, and Fireworks firefunction-v1 at time of writing.",
+          "Discovered repeatedly from awesome-generative-ui README as a curated primary link."
+        ],
+        "uncertainty": [
+          "Whether current AI SDK still exposes the same `render` API as shown in 2024 samples.",
+          "Long-term maintenance of sdk.vercel.ai demo and docs URLs."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-14T11:49:17.383Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Stream React components from LLMs via RSC APIs",
+        "description": "Learn how to map LLM tool calls to streaming React Server Components for richer, interactive AI UIs beyond markdown chat.",
+        "pros": [
+          "Explains associating LLM responses and OpenAI-compatible tools with streaming React Server Components, including a weather-tool example.",
+          "Links to a live demo and AI SDK documentation for the RSC generative UI APIs.",
+          "FAQ covers Next.js App Router requirements, LLM/function-calling support, and use with LangChain or LlamaIndex via streamable UI primitives."
+        ],
+        "cons": [
+          "The URL is a dated blog post; APIs such as `ai/rsc` `render` may have changed since March 2024.",
+          "Generative UI APIs described here depend on React Server Components and Server Actions, not Pages Router.",
+          "It is documentation/announcement content, not a standalone UI generator or design-system kit."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "prototyping",
+          "production",
+          "agentic coding",
+          "small team",
+          "learning"
+        ],
+        "usage": {
+          "input": 2043,
+          "output": 729,
+          "cacheRead": 6912,
+          "totalTokens": 9684,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:38547c70639ac5a9",
@@ -326,6 +535,16 @@
           "surroundingText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
           "targetUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
           "discoveredAt": "2026-10-13T09:00:00.091Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "surroundingText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "targetUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
         }
       ],
       "globalFactRefs": [],
@@ -335,11 +554,66 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:00:00.091Z"
+      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "aiReview": {
+        "summary": "Primary Google Research post on prompt-to-interactive UI (HTML/CSS/JS), with paper, demos, and product experiments in Gemini and Search AI Mode. Strong source for the generative-UI space, but it is research/product documentation rather than a standalone generator or design kit.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.84,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "generative-ui",
+          "research",
+          "llm",
+          "interactive-ui",
+          "google"
+        ],
+        "evidence": [
+          "Blog dated November 18, 2025; paper title “Generative UI: LLMs are Effective UI Generators”; project page generativeui.github.io.",
+          "Rubric match: generative UI / prompt-to-UI research with working demos, not a Figma plugin listicle.",
+          "Canonical URL is research.google/blog; low malware/spam risk."
+        ],
+        "uncertainty": [
+          "Whether PAGEN has been released since the post.",
+          "Current availability and quality of Gemini dynamic view / Search AI Mode outside the U.S.",
+          "Long-term maintenance of demo pages versus the blog itself."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-14T11:49:38.311Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Research on on-the-fly interactive UIs from any prompt",
+        "description": "Explains how LLMs generate custom interactive pages, tools, and simulations, with a paper, demos, and product experiments.",
+        "pros": [
+          "Official Google Research write-up with a linked paper and project page of demos.",
+          "Describes a concrete pipeline: Gemini 3 Pro, tools, system instructions, and post-processing to HTML/CSS/JS.",
+          "Reports human preference evaluations versus markdown LLM output, search results, and expert-made sites, plus a planned PAGEN dataset.",
+          "Tied to shipped experiments (dynamic view in Gemini; AI Mode in Search for some subscribers)."
+        ],
+        "cons": [
+          "Not an open generator, SDK, or design-system kit you can run independently.",
+          "Authors note generation can take a minute or more and outputs can be inaccurate.",
+          "Search AI Mode generative UI is limited to Google AI Pro/Ultra in the U.S. at publication."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "agentic coding"
+        ],
+        "usage": {
+          "input": 4068,
+          "output": 691,
+          "cacheRead": 7040,
+          "totalTokens": 11799,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:9a68e948c26f7b48",
@@ -397,6 +671,16 @@
           "surroundingText": "Enabling teachers to create learning interactives with generative UI",
           "targetUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
           "discoveredAt": "2026-10-13T09:00:00.091Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Enabling teachers to create learning interactives with generative UI",
+          "surroundingText": "Enabling teachers to create learning interactives with generative UI",
+          "targetUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
         }
       ],
       "globalFactRefs": [],
@@ -406,11 +690,66 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:00:00.091Z"
+      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "aiReview": {
+        "summary": "Google Research post on generating teacher-vetted STEM practice simulations with generative UI, pedagogical guardrails, a public sample library, and a classroom pilot. Strong GenUI research evidence, but it is an education experiment rather than a general-purpose generator or design-system kit.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.86,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "generative-ui",
+          "education",
+          "research",
+          "simulations",
+          "stem"
+        ],
+        "evidence": [
+          "Canonical Google Research blog dated September 17, 2026 with authors Gal Elidan and Yael Haramaty.",
+          "Quick links to arXiv 2609.20738, research.google.com/p/learning-interactives, and edu.google.com/pilot.",
+          "States 30+ English STEM interactives generated by AI and reviewed by teachers; UK STEM teacher ratings and a 12-teacher US study (avg 8/10).",
+          "Generation uses self-correcting loops including agentic solvability checks in Chrome."
+        ],
+        "uncertainty": [
+          "Long-term availability and maintenance of the sample library and pilot.",
+          "Whether custom generation will become publicly available outside Workspace for Education schools.",
+          "Independent reproduction of teacher ratings beyond the blog and tech report."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-14T11:50:01.531Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Teacher-vetted GenUI STEM simulations from research",
+        "description": "Explains generating guided STEM simulations with pedagogical guardrails, a public sample library, arXiv report, and a Google for Education pilot.",
+        "pros": [
+          "Describes a GenUI pipeline with instructional-design requirements, scaffolding, and iterative pedagogical guardrails.",
+          "Links a public sample library of 30+ teacher-reviewed STEM simulations and an arXiv tech report.",
+          "Includes teacher evaluation results and a Google for Education pilot path for custom generation.",
+          "Provides demo media and annotated interface examples of generated simulations."
+        ],
+        "cons": [
+          "Public generation of arbitrary topics is limited to a pilot rather than an open self-serve generator.",
+          "Scope is education STEM simulations, not a reusable developer SDK or design-system kit.",
+          "Classroom learning-gain studies are described as forthcoming, not completed in the post."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 5010,
+          "output": 844,
+          "cacheRead": 6912,
+          "totalTokens": 12766,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:475278496d3a2ec6",
@@ -468,6 +807,16 @@
           "surroundingText": "The Developer's Guide to Generative UI in 2026",
           "targetUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
           "discoveredAt": "2026-10-13T09:00:00.091Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "The Developer's Guide to Generative UI in 2026",
+          "surroundingText": "The Developer's Guide to Generative UI in 2026",
+          "targetUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
+          "discoveredAt": "2026-10-14T09:00:00.151Z"
         }
       ],
       "globalFactRefs": [],
@@ -481,7 +830,61 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-13T09:00:00.091Z"
+      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "aiReview": {
+        "summary": "Vendor blog that explains three generative-UI patterns (static AG-UI, declarative A2UI/Open-JSON-UI, open-ended MCP Apps) with code and a playground repo. Useful as a concept article, not a standalone generator or kit.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.68,
+        "riskScore": 0.22,
+        "suggestedTags": [
+          "generative-ui",
+          "ag-ui",
+          "a2ui",
+          "mcp-apps",
+          "tutorial"
+        ],
+        "evidence": [
+          "Canonical URL is a CopilotKit blog dated January 29, 2026 by Anmol Baranwal and Nathan Tarbert.",
+          "Meta and body define generative UI as runtime agent influence via A2UI, Open-JSON-UI, or MCP Apps, using AG-UI.",
+          "Links https://github.com/CopilotKit/generative-ui-playground and notes hosted playground retirement."
+        ],
+        "uncertainty": [
+          "Could not fully verify remaining article sections after the first ~300 lines of the fetch.",
+          "Playground repo quality, license, and maintenance were not inspected.",
+          "CopilotKit commercial terms vs open-source AG-UI were not verified from this page."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-14T11:50:28.581Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "2026 guide to agent-driven UI patterns and specs",
+        "description": "Explains static, declarative, and open-ended generative UI, with AG-UI, A2UI, Open-JSON-UI, MCP Apps, and a playground.",
+        "pros": [
+          "Covers three control-vs-freedom patterns with named specs (AG-UI, A2UI, Open-JSON-UI, MCP Apps).",
+          "Includes concrete CopilotKit code (useFrontendTool) and links a GitHub playground implementing all three.",
+          "States the hosted playground is retiring and points readers to local code."
+        ],
+        "cons": [
+          "Primary CTA is CopilotKit product/docs, so it is not a vendor-neutral survey.",
+          "Hosted demo is being retired; readers must run the playground locally.",
+          "Not a working generator or design-system kit by itself."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "agentic coding",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 4562,
+          "output": 493,
+          "cacheRead": 6912,
+          "totalTokens": 11967,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     }
   ]
 }
