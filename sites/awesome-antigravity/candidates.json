@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:30:00.130Z",
+  "generatedAt": "2026-10-15T10:30:00.061Z",
   "appId": "awesome-antigravity",
   "items": [
     {
@@ -182,6 +182,35 @@
           "surroundingText": "Agent skills",
           "targetUrl": "https://antigravity.google/docs/skills",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity Skills",
+          "surroundingText": "Antigravity Skills",
+          "targetUrl": "https://antigravity.google/docs/skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "heilcheng/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "official documentation",
+          "surroundingText": "official documentation",
+          "targetUrl": "https://antigravity.google/docs/skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Agent skills",
+          "surroundingText": "Agent skills",
+          "targetUrl": "https://antigravity.google/docs/skills",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -196,7 +225,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official Antigravity documentation for Agent Skills: SKILL.md layout, discovery paths, and how the agent loads workspace, global, and plugin skills.",
         "relevanceScore": 0.98,
@@ -257,6 +286,7 @@
       "type": "github_repo",
       "canonicalUrl": "https://github.com/pranav-nexus/antigravity-skill-porter",
       "title": "Pranav-Nexus/antigravity-skill-porter",
+      "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -318,9 +348,21 @@
           "surroundingText": "Pranav-Nexus/antigravity-skill-porter",
           "targetUrl": "https://github.com/pranav-nexus/antigravity-skill-porter",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Pranav-Nexus/antigravity-skill-porter",
+          "surroundingText": "Pranav-Nexus/antigravity-skill-porter",
+          "targetUrl": "https://github.com/pranav-nexus/antigravity-skill-porter",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
-      "globalFactRefs": [],
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/pranav-nexus/antigravity-skill-porter"
+      ],
       "confidenceScore": 0.5,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
@@ -331,11 +373,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
-        "summary": "Community Python CLI and Antigravity skill that maps Claude/Cursor SKILL.md workflows to Antigravity tools, plugin.json, and subagent patterns. Useful but unofficial, small, and not an official Google skill.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.58,
+        "summary": "Community Python CLI that maps Claude Code/Cursor SKILL.md files to Antigravity plugins (tool names, GEMINI.md/AGENTS.md, plugin.json). Useful for skill migration, but it is unofficial, lightly starred, and writes into ~/.gemini config.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.55,
         "riskScore": 0.28,
         "suggestedTags": [
           "antigravity",
@@ -345,48 +387,55 @@
           "multi-agent"
         ],
         "evidence": [
-          "GitHub description: Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
-          "README documents CLI usage, tool translation table, dual packaging, and native skill install under ~/.gemini/config/plugins/.",
-          "Repo layout: plugin.json, port_skill.py, skills/skill-porter, examples/, MIT LICENSE.",
-          "Rubric prefers official docs and maintained GitHub skills over unofficial converters; this is a community porter."
+          "Repo description and README describe porting Claude Code/Cursor skills to Antigravity plugins.",
+          "Quickstart uses python port_skill.py with --dry-run and GitHub skill URLs.",
+          "Facts: MIT, not archived, 5 stars, pushed_at 2026-09-12.",
+          "Topics include google-antigravity, claude-skills, multi-agent."
         ],
         "uncertainty": [
-          "Runtime correctness of tool mapping and invoke_subagent injection not executed.",
-          "Maintenance cadence and Antigravity API compatibility over time.",
-          "Whether ingested GitHub skills are licensed/safe to redistribute."
+          "Actual correctness of tool remapping and invoke_subagent injection was not executed.",
+          "Maintenance beyond the single 2026-09-12 push and example quality were not audited.",
+          "Security of ingesting arbitrary GitHub skill trees into user config was not reviewed."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T10:44:19.950Z",
+        "reviewedAt": "2026-10-15T10:38:14.704Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
         "tagline": "Convert Claude/Cursor skills into Antigravity plugins",
-        "description": "Ports GitHub or local SKILL.md workflows to Antigravity with tool remapping, plugin manifests, and optional workspace or global install.",
+        "description": "CLI that ingests SKILL.md sources, remaps tools and context files, and emits Antigravity plugin.json plus optional subagent wiring.",
         "pros": [
-          "MIT-licensed Python 3.8+ CLI (port_skill.py) plus an installable skills/skill-porter package.",
-          "Documents deterministic Claude-to-Antigravity tool mapping, plugin.json generation, dry-run diffs, and workspace vs global install.",
-          "Includes examples/ ports (llm-council, frontend-design, minimalist-entrepreneur) and translation_rules.md.",
-          "Listed in a curated Antigravity skills README, indicating community discovery."
+          "Documents deterministic mappings from Claude tools and CLAUDE.md to Antigravity equivalents.",
+          "Supports GitHub URL, local SKILL.md, dry-run diffs, and global or workspace install paths.",
+          "MIT-licensed with example ports (llm-council, frontend-design, multi-skill bundle).",
+          "Can be cloned as a plugin under ~/.gemini/config/plugins for in-IDE use."
         ],
         "cons": [
-          "Not official antigravity.google documentation; community-maintained with 5 stars, 2 forks, and 6 commits.",
-          "Marketing-heavy README claims (OpenAI ingestion, “ultimate transpiler”) exceed what is clearly evidenced.",
-          "Porting quality and safety of ingested third-party skills cannot be verified from the listing alone."
+          "Not official Google Antigravity documentation; five stars and two forks.",
+          "README is promotional and claims optimizer/transpiler behavior that is not independently verified.",
+          "Installs into global ~/.gemini/config unless --workspace is used."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
           "prototyping",
-          "solo founder"
+          "solo founder",
+          "learning"
         ],
         "usage": {
-          "input": 5505,
-          "output": 613,
-          "cacheRead": 6784,
-          "totalTokens": 12902,
+          "input": 8695,
+          "output": 760,
+          "cacheRead": 512,
+          "totalTokens": 9967,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/pranav-nexus/antigravity-skill-porter",
+        "contentHash": "f139a5e831e79af95f710e44bb6d417af11706f2d6397b94559fd664c261bbec",
+        "excerpt": "# 🚀 Antigravity Skill Porter & Optimizer\n\n> **Bridge the AI Agent Ecosystem:** The ultimate transpiler and optimizer that imports, converts, and elevates agent skills from **Claude Code**, **Cursor**, and **OpenAI** into high-performance, native **Google Antigravity (AGY)** plugins and multi-agent workflows.\n\n---\n\n## 💡 Why This Exists\n\nThe AI agent community is experiencing rapid innovation, with developers publishing thousands of open-standard `SKILL.md` workflows for Claude Code and Cursor.\n\nHowever, running external skills inside Google Antigravity naively creates severe friction:\n- ❌ **Tool Hallucinations**: External skills hardcode Claude-specific tools (`Bash`, `Glob`, `Read`, `Edit`, `StrReplaceEditor`) which fail or cause confusion in Antigravity.\n- ❌ **Context Blindness**: They search for `CLAUDE.md`, ignoring Antigravity's `GEMINI.md`, `AGENTS.md`, and hierarchical `.agents/rules/`.\n- ❌ **Single-Agent Bottlenecks**: Claude skills are serialized for linear chat loops. They f"
       }
     },
     {
@@ -455,6 +504,16 @@
           "surroundingText": "Kench001/antigravity-awesome-skills",
           "targetUrl": "https://github.com/kench001/antigravity-awesome-skills",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kench001/antigravity-awesome-skills",
+          "surroundingText": "Kench001/antigravity-awesome-skills",
+          "targetUrl": "https://github.com/kench001/antigravity-awesome-skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -468,7 +527,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "This is a low-star fork of sickn33/agentic-awesome-skills (also branded as an Antigravity skills catalog), not official Google Antigravity docs. Prefer the upstream catalog or official skill sources over this clone.",
         "relevanceScore": 0.45,
@@ -591,6 +650,16 @@
           "surroundingText": "rmyndharis/antigravity-skills",
           "targetUrl": "https://github.com/rmyndharis/antigravity-skills",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "rmyndharis/antigravity-skills",
+          "surroundingText": "rmyndharis/antigravity-skills",
+          "targetUrl": "https://github.com/rmyndharis/antigravity-skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -604,7 +673,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community MIT vault of 300+ Google Antigravity agent skills ported from Claude Code, with CLI, catalog, and bundles. Not official antigravity.google docs, but a maintained GitHub skills collection rather than a generic clone or search result.",
         "relevanceScore": 0.86,
@@ -727,6 +796,16 @@
           "surroundingText": "amartelr/antigravity-workspace-manager",
           "targetUrl": "https://github.com/amartelr/antigravity-workspace-manager",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "amartelr/antigravity-workspace-manager",
+          "surroundingText": "amartelr/antigravity-workspace-manager",
+          "targetUrl": "https://github.com/amartelr/antigravity-workspace-manager",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -740,7 +819,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community Python CLI that orchestrates workspaces and injects skills from antigravity-awesome-skills via wizard, symlinks, and sync. Useful companion tooling, not official Google Antigravity docs.",
         "relevanceScore": 0.62,
@@ -864,6 +943,16 @@
           "surroundingText": "guanyang/antigravity-skills",
           "targetUrl": "https://github.com/guanyang/antigravity-skills",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "guanyang/antigravity-skills",
+          "surroundingText": "guanyang/antigravity-skills",
+          "targetUrl": "https://github.com/guanyang/antigravity-skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -877,7 +966,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community CLI and skill/agent/command pack that lists Antigravity among many assistants; not official Google Antigravity docs. Canonical URL redirects to guanyang/open-agent-hub.",
         "relevanceScore": 0.55,
@@ -1000,6 +1089,16 @@
           "surroundingText": "iradoweck/antigravity-awesome-skills",
           "targetUrl": "https://github.com/iradoweck/antigravity-awesome-skills",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "iradoweck/antigravity-awesome-skills",
+          "surroundingText": "iradoweck/antigravity-awesome-skills",
+          "targetUrl": "https://github.com/iradoweck/antigravity-awesome-skills",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1013,7 +1112,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community fork of sickn33/agentic-awesome-skills: a large SKILL.md catalog plus installer CLI aimed at many agent IDEs, including Antigravity. Not official Google Antigravity docs; treat as a third-party clone of a multi-tool skills library.",
         "relevanceScore": 0.42,
@@ -1137,6 +1236,16 @@
           "surroundingText": "vudovn/antigravity-kit",
           "targetUrl": "https://github.com/vudovn/antigravity-kit",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "vudovn/antigravity-kit",
+          "surroundingText": "vudovn/antigravity-kit",
+          "targetUrl": "https://github.com/vudovn/antigravity-kit",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1150,7 +1259,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community Antigravity-first kit of rules, skills, specialist agents, workflows, and a CLI installer; popular and documented but not official Google docs.",
         "relevanceScore": 0.86,
@@ -1275,6 +1384,16 @@
           "surroundingText": "**Antigravity IDE**",
           "targetUrl": "https://www.google.com/search?q=https://antigravity.google%20%22null%22",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Antigravity IDE**",
+          "surroundingText": "**Antigravity IDE**",
+          "targetUrl": "https://www.google.com/search?q=https://antigravity.google%20%22null%22",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1288,7 +1407,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "This candidate is a Google Search URL wrapping antigravity.google plus the query \"null\", not official Antigravity docs, skills, or IDE tooling. It should not be listed as a directory resource.",
         "relevanceScore": 0.05,
@@ -1403,6 +1522,16 @@
           "surroundingText": "**Go to Website**",
           "targetUrl": "https://www.google.com/url?sa=E&source=gmail&q=https://awesome-antigravity.com/%20%22null%22",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Go to Website**",
+          "surroundingText": "**Go to Website**",
+          "targetUrl": "https://www.google.com/url?sa=E&source=gmail&q=https://awesome-antigravity.com/%20%22null%22",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1416,7 +1545,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Third-party community site of Antigravity agent personas, mission templates, and troubleshooting posts, discovered via a broken Gmail redirect titled “Go to Website.” Not official Google docs; treat as a low-trust clone/aggregator.",
         "relevanceScore": 0.42,
@@ -1534,6 +1663,16 @@
           "surroundingText": "**Back to Top**",
           "targetUrl": "https://www.google.com/search?q=%23awesome-antigravity%20%22null%22",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Back to Top**",
+          "surroundingText": "**Back to Top**",
+          "targetUrl": "https://www.google.com/search?q=%23awesome-antigravity%20%22null%22",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1547,7 +1686,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "This candidate is a Google Search query URL scraped from a README “Back to Top” link, not an Antigravity skill, template, or official resource.",
         "relevanceScore": 0,
@@ -1663,6 +1802,16 @@
           "surroundingText": "Antigravity Workspace Template",
           "targetUrl": "https://github.com/study8677/antigravity-workspace-template",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity Workspace Template",
+          "surroundingText": "Antigravity Workspace Template",
+          "targetUrl": "https://github.com/study8677/antigravity-workspace-template",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1676,7 +1825,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Third-party MIT Python CLI/MCP that builds a local .repobrain knowledge layer and answers codebase questions with file citations; it was renamed from Antigravity Workspace Template and is not official Google Antigravity docs or skills.",
         "relevanceScore": 0.35,
@@ -1799,6 +1948,16 @@
           "surroundingText": "Antigravity 2.0",
           "targetUrl": "https://github.com/comprono/antigravity-2-codex-plugin",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity 2.0",
+          "surroundingText": "Antigravity 2.0",
+          "targetUrl": "https://github.com/comprono/antigravity-2-codex-plugin",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1812,7 +1971,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community Windows Codex MCP plugin that bridges OpenAI Codex (including ChatGPT mobile) to a local Antigravity 2.0 desktop app via CLI, DevTools, and PowerShell helpers. Related to Antigravity workflows but unofficial, Windows-only, and low-star; not official antigravity.google docs or a maintained Google skill pack.",
         "relevanceScore": 0.42,
@@ -1982,6 +2141,24 @@
           "surroundingText": "Google Antigravity Docs",
           "targetUrl": "https://antigravity.google",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "https://antigravity.google/",
+          "surroundingText": "https://antigravity.google/",
+          "targetUrl": "https://antigravity.google",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Google Antigravity Docs",
+          "surroundingText": "Google Antigravity Docs",
+          "targetUrl": "https://antigravity.google",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -1999,7 +2176,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://antigravity.google",
@@ -2067,6 +2244,15 @@
           "surroundingText": "Press Guidelines",
           "targetUrl": "https://antigravity.google/press",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Press Guidelines",
+          "surroundingText": "Press Guidelines",
+          "targetUrl": "https://antigravity.google/press",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2081,7 +2267,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:1a5c75e8bc996e9c",
@@ -2143,6 +2329,15 @@
           "surroundingText": "Pricing",
           "targetUrl": "https://antigravity.google/pricing",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Pricing",
+          "surroundingText": "Pricing",
+          "targetUrl": "https://antigravity.google/pricing",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2157,7 +2352,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:f31e0ab46d84b34e",
@@ -2219,6 +2414,15 @@
           "surroundingText": "Enterprise",
           "targetUrl": "https://antigravity.google/use-cases/enterprise",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Enterprise",
+          "surroundingText": "Enterprise",
+          "targetUrl": "https://antigravity.google/use-cases/enterprise",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2233,7 +2437,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:d5fc9e6b33837043",
@@ -2349,6 +2553,24 @@
           "surroundingText": "🚀 Remote Control",
           "targetUrl": "https://antigravity.google.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "🚀 Launch Remote Control",
+          "surroundingText": "🚀 Launch Remote Control",
+          "targetUrl": "https://antigravity.google.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "🚀 Remote Control",
+          "surroundingText": "🚀 Remote Control",
+          "targetUrl": "https://antigravity.google.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2363,7 +2585,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:a50e197cb0d72a23",
@@ -2479,6 +2701,24 @@
           "surroundingText": "Download",
           "targetUrl": "https://antigravity.google/download",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Download",
+          "surroundingText": "Download",
+          "targetUrl": "https://antigravity.google/download",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Download",
+          "surroundingText": "Download",
+          "targetUrl": "https://antigravity.google/download",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2493,7 +2733,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:60464116bbf5446c",
@@ -2555,6 +2795,15 @@
           "surroundingText": "See overview",
           "targetUrl": "https://antigravity.google/product",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "See overview",
+          "surroundingText": "See overview",
+          "targetUrl": "https://antigravity.google/product",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2569,7 +2818,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:1f11d8118bc3aeb9",
@@ -2631,6 +2880,15 @@
           "surroundingText": "Antigravity app",
           "targetUrl": "https://antigravity.google/product/antigravity-2",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity app",
+          "surroundingText": "Antigravity app",
+          "targetUrl": "https://antigravity.google/product/antigravity-2",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2645,7 +2903,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:b7f8e680ad40a8bb",
@@ -2707,6 +2965,15 @@
           "surroundingText": "Antigravity CLI",
           "targetUrl": "https://antigravity.google/product/antigravity-cli",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity CLI",
+          "surroundingText": "Antigravity CLI",
+          "targetUrl": "https://antigravity.google/product/antigravity-cli",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2721,7 +2988,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:bfd3c8440025d924",
@@ -2837,6 +3104,24 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/ide/extensions",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity Extensions",
+          "surroundingText": "Antigravity Extensions",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2851,7 +3136,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:dc27adbf407887b1",
@@ -2913,6 +3198,15 @@
           "surroundingText": "Antigravity IDE",
           "targetUrl": "https://antigravity.google/product/antigravity-ide",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity IDE",
+          "surroundingText": "Antigravity IDE",
+          "targetUrl": "https://antigravity.google/product/antigravity-ide",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -2927,7 +3221,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:251b6bee8b55efea",
@@ -2989,6 +3283,15 @@
           "surroundingText": "Antigravity SDK",
           "targetUrl": "https://antigravity.google/product/antigravity-sdk",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity SDK",
+          "surroundingText": "Antigravity SDK",
+          "targetUrl": "https://antigravity.google/product/antigravity-sdk",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3003,7 +3306,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:f7b2808542b730ae",
@@ -3065,6 +3368,15 @@
           "surroundingText": "See overview",
           "targetUrl": "https://antigravity.google/use-cases",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "See overview",
+          "surroundingText": "See overview",
+          "targetUrl": "https://antigravity.google/use-cases",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3079,7 +3391,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:359a366d7c70cbdf",
@@ -3141,6 +3453,15 @@
           "surroundingText": "Frontend",
           "targetUrl": "https://antigravity.google/use-cases/frontend",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Frontend",
+          "surroundingText": "Frontend",
+          "targetUrl": "https://antigravity.google/use-cases/frontend",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3155,7 +3476,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:f5f35f1998525e44",
@@ -3217,6 +3538,15 @@
           "surroundingText": "Fullstack",
           "targetUrl": "https://antigravity.google/use-cases/fullstack",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Fullstack",
+          "surroundingText": "Fullstack",
+          "targetUrl": "https://antigravity.google/use-cases/fullstack",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3231,7 +3561,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:cd00d985f2d8d916",
@@ -3293,6 +3623,15 @@
           "surroundingText": "Science",
           "targetUrl": "https://antigravity.google/use-cases/science",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Science",
+          "surroundingText": "Science",
+          "targetUrl": "https://antigravity.google/use-cases/science",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3307,7 +3646,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5a6738d0a5829a3e",
@@ -3369,6 +3708,15 @@
           "surroundingText": "Marketer",
           "targetUrl": "https://antigravity.google/use-cases/marketer",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Marketer",
+          "surroundingText": "Marketer",
+          "targetUrl": "https://antigravity.google/use-cases/marketer",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3383,7 +3731,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:d3ae2025082386f9",
@@ -3499,6 +3847,24 @@
           "surroundingText": "Getting started guide",
           "targetUrl": "https://antigravity.google/docs/getting-started",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Documentation",
+          "surroundingText": "Documentation",
+          "targetUrl": "https://antigravity.google/docs/getting-started",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Getting started guide",
+          "surroundingText": "Getting started guide",
+          "targetUrl": "https://antigravity.google/docs/getting-started",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3513,7 +3879,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:764477c1893c9c6d",
@@ -3629,6 +3995,24 @@
           "surroundingText": "Blog ↗",
           "targetUrl": "https://antigravity.google/blog",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Blog",
+          "surroundingText": "Blog",
+          "targetUrl": "https://antigravity.google/blog",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Blog ↗",
+          "surroundingText": "Blog ↗",
+          "targetUrl": "https://antigravity.google/blog",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3643,7 +4027,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2157357401aeae2b",
@@ -3759,6 +4143,24 @@
           "surroundingText": "Changelog",
           "targetUrl": "https://antigravity.google/docs/changelog",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Changelog",
+          "surroundingText": "Changelog",
+          "targetUrl": "https://antigravity.google/docs/changelog",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Changelog",
+          "surroundingText": "Changelog",
+          "targetUrl": "https://antigravity.google/docs/changelog",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3773,7 +4175,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:9a235dabefe2977e",
@@ -3835,6 +4237,15 @@
           "surroundingText": "Releases",
           "targetUrl": "https://antigravity.google/releases",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Releases",
+          "surroundingText": "Releases",
+          "targetUrl": "https://antigravity.google/releases",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3849,7 +4260,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2175edaf1250e77d",
@@ -3965,6 +4376,24 @@
           "surroundingText": "Enterprise overview",
           "targetUrl": "https://antigravity.google/docs/enterprise",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Read More",
+          "surroundingText": "Read More",
+          "targetUrl": "https://antigravity.google/docs/enterprise",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Enterprise overview",
+          "surroundingText": "Enterprise overview",
+          "targetUrl": "https://antigravity.google/docs/enterprise",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -3979,7 +4408,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:c9dcdce6c786df94",
@@ -4041,6 +4470,15 @@
           "surroundingText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/custom-agents-in-google-plugins",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
+          "surroundingText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/custom-agents-in-google-plugins",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4055,7 +4493,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4bfda8d7a9255152",
@@ -4117,6 +4555,15 @@
           "surroundingText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
           "targetUrl": "https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
+          "surroundingText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
+          "targetUrl": "https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4131,7 +4578,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:6b0f99ec695480ad",
@@ -4193,6 +4640,15 @@
           "surroundingText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
           "targetUrl": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
+          "surroundingText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4207,7 +4663,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:8a15695f2ffbc8a5",
@@ -4269,6 +4725,15 @@
           "surroundingText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/visualizing-with-the-help-of-antigravity",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
+          "surroundingText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/visualizing-with-the-help-of-antigravity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4283,7 +4748,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4f53f9286c5f8a76",
@@ -4345,6 +4810,15 @@
           "surroundingText": "Improving the version control experience Aug 24, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/vcs-and-terminal",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Improving the version control experience Aug 24, 2026 Product Read blog",
+          "surroundingText": "Improving the version control experience Aug 24, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/vcs-and-terminal",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4359,7 +4833,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:090075e45264ddc5",
@@ -4421,6 +4895,15 @@
           "surroundingText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/remote-control-for-antigravity",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
+          "surroundingText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/remote-control-for-antigravity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4435,7 +4918,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:51b6521f4a585c04",
@@ -4497,6 +4980,15 @@
           "surroundingText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
           "targetUrl": "https://antigravity.google/blog/antigravity-enterprise",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
+          "surroundingText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
+          "targetUrl": "https://antigravity.google/blog/antigravity-enterprise",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4511,7 +5003,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:06c16aefee812227",
@@ -4573,6 +5065,15 @@
           "surroundingText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/antigravity-ide-extensions",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
+          "surroundingText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/antigravity-ide-extensions",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4587,7 +5088,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:c19ea215e9d4e010",
@@ -4716,6 +5217,15 @@
           "surroundingText": "Home",
           "targetUrl": "https://antigravity.google/docs/home",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Home",
+          "surroundingText": "Home",
+          "targetUrl": "https://antigravity.google/docs/home",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -4733,12 +5243,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://antigravity.google/docs/home",
-        "contentHash": "45142b0ac5d9291ea87354581891a8da7f3114a74d31c89ad589d32d32d809e3",
-        "excerpt": "Title: Home | Google Antigravity Docs\n\nURL Source: https://antigravity.google/docs/home/\n\nMarkdown Content:\n[Skip to content](https://antigravity.google/docs/home/#_top)\n\n[Google Antigravity Docs](https://antigravity.google/)\n\nSearch Ctrl K\n\nCancel\n\n[🚀 Remote Control](https://antigravity.google.com/ \"Launch Remote Control\")[Download](https://antigravity.google/download)\n\nSelect theme \n\nEN\n\n[Get Started](https://antigravity.google/docs/getting-started/)[Features](https://antigravity.google/docs/features/)[SDK](https://antigravity.google/docs/sdk/overview/)\n\n[Changelog](https://antigravity.google/docs/changelog/)[Blog ↗](https://antigravity.google/blog/)\n\n[New Gemini 4 Argon available in Google Antigravity Learn more](https://antigravity.google/blog/gemini-4-argon-in-google-antigravity)\n\n## GET STARTED\n\n*   [Home](https://antigravity.google/docs/home/)\n*   [Getting started](https://antigravity.google/docs/getting-started/)\n\n## ANTIGRAVITY APP\n\n*   [Overview](https://antigravity.google/d"
+        "contentHash": "fae9b38c54dd01797287236c6df6594a842e39566e7d0c842c8dd43f7502ef93",
+        "excerpt": "Title: Home\n\nURL Source: https://antigravity.google/docs/home/\n\nMarkdown Content:\n[Skip to content](https://antigravity.google/docs/home/#_top)\n\n[Google Antigravity Docs](https://antigravity.google/)\n\nSearch Ctrl K\n\nCancel\n\n[🚀 Remote Control](https://antigravity.google.com/ \"Launch Remote Control\")[Download](https://antigravity.google/download)\n\nSelect theme Auto \n\nDark Light Auto\n\nEN\n\nEnglish (United States)EN Bahasa Indonesia (Indonesia)ID Deutsch (Deutschland)DE English (Canada)EN-CA English (United Kingdom)EN-GB Español (España)ES Español (México)ES-MX Français (France)FR Italiano (Italia)IT Polski (Polska)PL Português (Brasil)PT हिन्दी (भारत)HI ไทย (ประเทศไทย)TH 日本語 (日本)JA 简体中文 (中国)ZH-CN 繁體中文 (台灣)ZH-TW 한국어 (대한민국)KO\n\n[Get Started](https://antigravity.google/docs/getting-started/)[Features](https://antigravity.google/docs/features/)[SDK](https://antigravity.google/docs/sdk/overview/)\n\n[Changelog](https://antigravity.google/docs/changelog/)[Blog ↗](https://antigravity.google/blog/)\n"
       }
     },
     {
@@ -4801,6 +5311,15 @@
           "surroundingText": "Features",
           "targetUrl": "https://antigravity.google/docs/features",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Features",
+          "surroundingText": "Features",
+          "targetUrl": "https://antigravity.google/docs/features",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4815,7 +5334,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:ab248e9371e6c93f",
@@ -4877,6 +5396,15 @@
           "surroundingText": "SDK overview",
           "targetUrl": "https://antigravity.google/docs/sdk/overview",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "SDK overview",
+          "surroundingText": "SDK overview",
+          "targetUrl": "https://antigravity.google/docs/sdk/overview",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4891,7 +5419,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5c0b4f616fbca6fe",
@@ -4953,6 +5481,15 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/overview",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/overview",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -4967,7 +5504,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:49d3eb7282e21e10",
@@ -5029,6 +5566,15 @@
           "surroundingText": "Google integrations",
           "targetUrl": "https://antigravity.google/docs/build-with-google",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Google integrations",
+          "surroundingText": "Google integrations",
+          "targetUrl": "https://antigravity.google/docs/build-with-google",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5043,7 +5589,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:97e16e07fc487c58",
@@ -5105,6 +5651,15 @@
           "surroundingText": "Models",
           "targetUrl": "https://antigravity.google/docs/models",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Models",
+          "surroundingText": "Models",
+          "targetUrl": "https://antigravity.google/docs/models",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5119,7 +5674,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:30f0895048847959",
@@ -5181,6 +5736,15 @@
           "surroundingText": "CLI quick overview",
           "targetUrl": "https://antigravity.google/docs/cli/overview",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "CLI quick overview",
+          "surroundingText": "CLI quick overview",
+          "targetUrl": "https://antigravity.google/docs/cli/overview",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5195,7 +5759,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:530707d6183fa0a0",
@@ -5257,6 +5821,15 @@
           "surroundingText": "Installation and auth",
           "targetUrl": "https://antigravity.google/docs/cli/install",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Installation and auth",
+          "surroundingText": "Installation and auth",
+          "targetUrl": "https://antigravity.google/docs/cli/install",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5271,7 +5844,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:87d057e9cf996079",
@@ -5333,6 +5906,15 @@
           "surroundingText": "Tutorial",
           "targetUrl": "https://antigravity.google/docs/cli/tutorial",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Tutorial",
+          "surroundingText": "Tutorial",
+          "targetUrl": "https://antigravity.google/docs/cli/tutorial",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5347,7 +5929,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:1e86d7f20579697e",
@@ -5409,6 +5991,15 @@
           "surroundingText": "Using Antigravity CLI",
           "targetUrl": "https://antigravity.google/docs/cli/using",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Using Antigravity CLI",
+          "surroundingText": "Using Antigravity CLI",
+          "targetUrl": "https://antigravity.google/docs/cli/using",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5423,7 +6014,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:08e8ba176d0d56b0",
@@ -5485,6 +6076,15 @@
           "surroundingText": "Features",
           "targetUrl": "https://antigravity.google/docs/cli/features",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Features",
+          "surroundingText": "Features",
+          "targetUrl": "https://antigravity.google/docs/cli/features",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5499,7 +6099,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:e4f34f00f28f53c0",
@@ -5561,6 +6161,15 @@
           "surroundingText": "Best practices",
           "targetUrl": "https://antigravity.google/docs/cli/best-practices",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Best practices",
+          "surroundingText": "Best practices",
+          "targetUrl": "https://antigravity.google/docs/cli/best-practices",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5575,7 +6184,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:199071be12d83d55",
@@ -5637,6 +6246,15 @@
           "surroundingText": "Troubleshooting",
           "targetUrl": "https://antigravity.google/docs/cli/troubleshooting",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Troubleshooting",
+          "surroundingText": "Troubleshooting",
+          "targetUrl": "https://antigravity.google/docs/cli/troubleshooting",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5651,7 +6269,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:f8ec28d5fc051de0",
@@ -5713,6 +6331,15 @@
           "surroundingText": "CLI reference",
           "targetUrl": "https://antigravity.google/docs/cli/reference",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "CLI reference",
+          "surroundingText": "CLI reference",
+          "targetUrl": "https://antigravity.google/docs/cli/reference",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5727,7 +6354,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:272a365f8e8ff03c",
@@ -5789,6 +6416,15 @@
           "surroundingText": "Antigravity IDE",
           "targetUrl": "https://antigravity.google/docs/ide/overview",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Antigravity IDE",
+          "surroundingText": "Antigravity IDE",
+          "targetUrl": "https://antigravity.google/docs/ide/overview",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5803,7 +6439,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:e46bec602fb1868c",
@@ -5865,6 +6501,15 @@
           "surroundingText": "Visual Studio Code",
           "targetUrl": "https://antigravity.google/docs/ide/extensions/vscode",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Visual Studio Code",
+          "surroundingText": "Visual Studio Code",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions/vscode",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5879,7 +6524,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:27f25bf06955650a",
@@ -5941,6 +6586,15 @@
           "surroundingText": "Visual Studio",
           "targetUrl": "https://antigravity.google/docs/ide/extensions/visual-studio",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Visual Studio",
+          "surroundingText": "Visual Studio",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions/visual-studio",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -5955,7 +6609,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:497338c7c18eaea9",
@@ -6017,6 +6671,15 @@
           "surroundingText": "JetBrains",
           "targetUrl": "https://antigravity.google/docs/ide/extensions/jetbrains",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "JetBrains",
+          "surroundingText": "JetBrains",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions/jetbrains",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6031,7 +6694,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:976bc64d66ee7a85",
@@ -6093,6 +6756,15 @@
           "surroundingText": "Zed",
           "targetUrl": "https://antigravity.google/docs/ide/extensions/zed",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Zed",
+          "surroundingText": "Zed",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions/zed",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6107,7 +6779,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:439845ba787b2a1d",
@@ -6169,6 +6841,15 @@
           "surroundingText": "Xcode",
           "targetUrl": "https://antigravity.google/docs/ide/extensions/xcode",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Xcode",
+          "surroundingText": "Xcode",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions/xcode",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6183,7 +6864,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:08466d0b735b8804",
@@ -6245,6 +6926,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://antigravity.google/docs/faq",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://antigravity.google/docs/faq",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6259,7 +6949,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:41d3f681ed41f846",
@@ -6321,6 +7011,15 @@
           "surroundingText": "Plans and AI credits",
           "targetUrl": "https://antigravity.google/docs/plans",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Plans and AI credits",
+          "surroundingText": "Plans and AI credits",
+          "targetUrl": "https://antigravity.google/docs/plans",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6335,7 +7034,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5a0c03d0852dc39b",
@@ -6397,6 +7096,15 @@
           "surroundingText": "Firebase Studio migration",
           "targetUrl": "https://antigravity.google/docs/firebase-studio-migration",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Firebase Studio migration",
+          "surroundingText": "Firebase Studio migration",
+          "targetUrl": "https://antigravity.google/docs/firebase-studio-migration",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6411,7 +7119,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:dc2ae2b55ee14b3c",
@@ -6473,6 +7181,15 @@
           "surroundingText": "Workflows to skills migration",
           "targetUrl": "https://antigravity.google/docs/migration/workflows-to-skills",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Workflows to skills migration",
+          "surroundingText": "Workflows to skills migration",
+          "targetUrl": "https://antigravity.google/docs/migration/workflows-to-skills",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6487,7 +7204,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2d74fe6fdb5c39d9",
@@ -6549,6 +7266,15 @@
           "surroundingText": "GCLI migration",
           "targetUrl": "https://antigravity.google/docs/cli/gcli-migration",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "GCLI migration",
+          "surroundingText": "GCLI migration",
+          "targetUrl": "https://antigravity.google/docs/cli/gcli-migration",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6563,7 +7289,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:6285f53ecbba56b7",
@@ -6625,6 +7351,15 @@
           "surroundingText": "Remote Control",
           "targetUrl": "https://antigravity.google/docs/remote-control",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Remote Control",
+          "surroundingText": "Remote Control",
+          "targetUrl": "https://antigravity.google/docs/remote-control",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6639,7 +7374,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:7278f4ec31a77e1a",
@@ -6701,6 +7436,15 @@
           "surroundingText": "Marketplace",
           "targetUrl": "https://antigravity.google/docs/marketplace",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Marketplace",
+          "surroundingText": "Marketplace",
+          "targetUrl": "https://antigravity.google/docs/marketplace",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6715,7 +7459,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5066ef8d7c31c30f",
@@ -6777,6 +7521,15 @@
           "surroundingText": "Plugins",
           "targetUrl": "https://antigravity.google/docs/plugins",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Plugins",
+          "surroundingText": "Plugins",
+          "targetUrl": "https://antigravity.google/docs/plugins",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6791,7 +7544,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:9d2b5ae49e7fc563",
@@ -6853,6 +7606,15 @@
           "surroundingText": "Terminal sandbox",
           "targetUrl": "https://antigravity.google/docs/sandbox",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Terminal sandbox",
+          "surroundingText": "Terminal sandbox",
+          "targetUrl": "https://antigravity.google/docs/sandbox",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6867,7 +7629,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:fffebf3b22fa9a79",
@@ -6929,6 +7691,15 @@
           "surroundingText": "Review changes",
           "targetUrl": "https://antigravity.google/docs/ide/review-changes-editor",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Review changes",
+          "surroundingText": "Review changes",
+          "targetUrl": "https://antigravity.google/docs/ide/review-changes-editor",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -6943,7 +7714,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4f23c25cd9389003",
@@ -7005,6 +7776,15 @@
           "surroundingText": "Execution modes",
           "targetUrl": "https://antigravity.google/docs/cli/modes",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Execution modes",
+          "surroundingText": "Execution modes",
+          "targetUrl": "https://antigravity.google/docs/cli/modes",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7019,7 +7799,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:778f7397d59e7e24",
@@ -7081,6 +7861,15 @@
           "surroundingText": "Headless mode",
           "targetUrl": "https://antigravity.google/docs/cli/headless",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Headless mode",
+          "surroundingText": "Headless mode",
+          "targetUrl": "https://antigravity.google/docs/cli/headless",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7095,7 +7884,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:51ed4c17d68973cf",
@@ -7157,6 +7946,15 @@
           "surroundingText": "Status line customization",
           "targetUrl": "https://antigravity.google/docs/cli/statusline",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Status line customization",
+          "surroundingText": "Status line customization",
+          "targetUrl": "https://antigravity.google/docs/cli/statusline",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7171,7 +7969,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:a5dbaf904d7b8ffa",
@@ -7233,6 +8031,15 @@
           "surroundingText": "Terminal title customization",
           "targetUrl": "https://antigravity.google/docs/cli/title",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Terminal title customization",
+          "surroundingText": "Terminal title customization",
+          "targetUrl": "https://antigravity.google/docs/cli/title",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7247,7 +8054,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:133068f423adf742",
@@ -7309,6 +8116,15 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/ide/browser",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/ide/browser",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7323,7 +8139,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:768902949e52ad9a",
@@ -7385,6 +8201,15 @@
           "surroundingText": "Browser recordings",
           "targetUrl": "https://antigravity.google/docs/ide/browser-recordings",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Browser recordings",
+          "surroundingText": "Browser recordings",
+          "targetUrl": "https://antigravity.google/docs/ide/browser-recordings",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7399,7 +8224,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5fd34045a0eeeefe",
@@ -7461,6 +8286,15 @@
           "surroundingText": "Allowlist and denylist",
           "targetUrl": "https://antigravity.google/docs/ide/allowlist-denylist",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Allowlist and denylist",
+          "surroundingText": "Allowlist and denylist",
+          "targetUrl": "https://antigravity.google/docs/ide/allowlist-denylist",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7475,7 +8309,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:c8113eaf0d683c33",
@@ -7537,6 +8371,15 @@
           "surroundingText": "Separate Chrome profile",
           "targetUrl": "https://antigravity.google/docs/ide/separate-chrome-profile",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Separate Chrome profile",
+          "surroundingText": "Separate Chrome profile",
+          "targetUrl": "https://antigravity.google/docs/ide/separate-chrome-profile",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7551,7 +8394,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:c9e6e17320524fa3",
@@ -7613,6 +8456,15 @@
           "surroundingText": "Visual artifacts",
           "targetUrl": "https://antigravity.google/docs/artifacts",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Visual artifacts",
+          "surroundingText": "Visual artifacts",
+          "targetUrl": "https://antigravity.google/docs/artifacts",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7627,7 +8479,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:f0391b7aecfbfb79",
@@ -7689,6 +8541,15 @@
           "surroundingText": "Implementation plan",
           "targetUrl": "https://antigravity.google/docs/implementation-plan",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Implementation plan",
+          "surroundingText": "Implementation plan",
+          "targetUrl": "https://antigravity.google/docs/implementation-plan",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7703,7 +8564,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:084ab3d43bc33373",
@@ -7765,6 +8626,15 @@
           "surroundingText": "Walkthrough",
           "targetUrl": "https://antigravity.google/docs/walkthrough",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Walkthrough",
+          "surroundingText": "Walkthrough",
+          "targetUrl": "https://antigravity.google/docs/walkthrough",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7779,7 +8649,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:6d3a99592683cf48",
@@ -7841,6 +8711,15 @@
           "surroundingText": "Visual screenshots",
           "targetUrl": "https://antigravity.google/docs/screenshots",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Visual screenshots",
+          "surroundingText": "Visual screenshots",
+          "targetUrl": "https://antigravity.google/docs/screenshots",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7855,7 +8734,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4efbe5c00f3fd867",
@@ -7917,6 +8796,15 @@
           "surroundingText": "Reviewing artifacts (CLI)",
           "targetUrl": "https://antigravity.google/docs/cli/artifacts",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Reviewing artifacts (CLI)",
+          "surroundingText": "Reviewing artifacts (CLI)",
+          "targetUrl": "https://antigravity.google/docs/cli/artifacts",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -7931,7 +8819,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:b7c7171f9f8d2c38",
@@ -7993,6 +8881,15 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/projects",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/projects",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8007,7 +8904,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:719926714f8a30d8",
@@ -8069,6 +8966,15 @@
           "surroundingText": "Prompting and interaction",
           "targetUrl": "https://antigravity.google/docs/cli/prompting",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Prompting and interaction",
+          "surroundingText": "Prompting and interaction",
+          "targetUrl": "https://antigravity.google/docs/cli/prompting",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8083,7 +8989,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:6b514578043bfb51",
@@ -8145,6 +9051,15 @@
           "surroundingText": "Managing conversations",
           "targetUrl": "https://antigravity.google/docs/cli/conversations",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Managing conversations",
+          "surroundingText": "Managing conversations",
+          "targetUrl": "https://antigravity.google/docs/cli/conversations",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8159,7 +9074,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:494b6e9c5cb3c90e",
@@ -8221,6 +9136,15 @@
           "surroundingText": "Security by design",
           "targetUrl": "https://antigravity.google/docs/permissions",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Security by design",
+          "surroundingText": "Security by design",
+          "targetUrl": "https://antigravity.google/docs/permissions",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8235,7 +9159,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:bd72d23a2c7855c7",
@@ -8297,6 +9221,15 @@
           "surroundingText": "AI credits",
           "targetUrl": "https://antigravity.google/docs/cli/credits",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "AI credits",
+          "surroundingText": "AI credits",
+          "targetUrl": "https://antigravity.google/docs/cli/credits",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8311,7 +9244,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:3f91ac28885adde0",
@@ -8373,6 +9306,15 @@
           "surroundingText": "Tab completion",
           "targetUrl": "https://antigravity.google/docs/ide/tab",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Tab completion",
+          "surroundingText": "Tab completion",
+          "targetUrl": "https://antigravity.google/docs/ide/tab",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8387,7 +9329,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:79e96771259b1227",
@@ -8449,6 +9391,15 @@
           "surroundingText": "Agent side panel",
           "targetUrl": "https://antigravity.google/docs/ide/agent-side-panel",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Agent side panel",
+          "surroundingText": "Agent side panel",
+          "targetUrl": "https://antigravity.google/docs/ide/agent-side-panel",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8463,7 +9414,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4d605a2ae2e8f73d",
@@ -8525,6 +9476,15 @@
           "surroundingText": "Agent overview",
           "targetUrl": "https://antigravity.google/docs/agent",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Agent overview",
+          "surroundingText": "Agent overview",
+          "targetUrl": "https://antigravity.google/docs/agent",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8539,7 +9499,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:8b414707d04141ef",
@@ -8601,6 +9561,15 @@
           "surroundingText": "Task groups",
           "targetUrl": "https://antigravity.google/docs/tools",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Task groups",
+          "surroundingText": "Task groups",
+          "targetUrl": "https://antigravity.google/docs/tools",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8615,7 +9584,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:805bd5446156a023",
@@ -8677,6 +9646,15 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/settings",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/settings",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8691,7 +9669,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:ee94cec8941074eb",
@@ -8753,6 +9731,15 @@
           "surroundingText": "Agent settings",
           "targetUrl": "https://antigravity.google/docs/agent-settings",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Agent settings",
+          "surroundingText": "Agent settings",
+          "targetUrl": "https://antigravity.google/docs/agent-settings",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8767,7 +9754,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:0797d0fb1563fb31",
@@ -8829,6 +9816,15 @@
           "surroundingText": "Artifact review",
           "targetUrl": "https://antigravity.google/docs/artifact-review",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Artifact review",
+          "surroundingText": "Artifact review",
+          "targetUrl": "https://antigravity.google/docs/artifact-review",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8843,7 +9839,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5ccca0cf822b39af",
@@ -8905,6 +9901,15 @@
           "surroundingText": "Vim editor mode",
           "targetUrl": "https://antigravity.google/docs/cli/vim-editor-mode",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Vim editor mode",
+          "surroundingText": "Vim editor mode",
+          "targetUrl": "https://antigravity.google/docs/cli/vim-editor-mode",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8919,7 +9924,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:bb98dfcbce7143c1",
@@ -8981,6 +9986,15 @@
           "surroundingText": "Overview",
           "targetUrl": "https://antigravity.google/docs/slash-commands",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Overview",
+          "surroundingText": "Overview",
+          "targetUrl": "https://antigravity.google/docs/slash-commands",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -8995,7 +10009,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:5a61a328110f4c65",
@@ -9057,6 +10071,15 @@
           "surroundingText": "Boost (/boost)",
           "targetUrl": "https://antigravity.google/docs/boost",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Boost (/boost)",
+          "surroundingText": "Boost (/boost)",
+          "targetUrl": "https://antigravity.google/docs/boost",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9071,7 +10094,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:adddfe3ababe1cd2",
@@ -9133,6 +10156,15 @@
           "surroundingText": "Plan (/plan)",
           "targetUrl": "https://antigravity.google/docs/plan",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Plan (/plan)",
+          "surroundingText": "Plan (/plan)",
+          "targetUrl": "https://antigravity.google/docs/plan",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9147,7 +10179,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:ea5fe46adf6930f4",
@@ -9209,6 +10241,15 @@
           "surroundingText": "Teamwork (/teamwork-preview)",
           "targetUrl": "https://antigravity.google/docs/teamwork",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Teamwork (/teamwork-preview)",
+          "surroundingText": "Teamwork (/teamwork-preview)",
+          "targetUrl": "https://antigravity.google/docs/teamwork",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9223,7 +10264,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:7224be25002f2fd0",
@@ -9285,6 +10326,15 @@
           "surroundingText": "Agents (/agents)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/agents",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Agents (/agents)",
+          "surroundingText": "Agents (/agents)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/agents",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9299,7 +10349,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:6ee7cb01c09af3c3",
@@ -9361,6 +10411,15 @@
           "surroundingText": "Code search (/codesearch)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/codesearch",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Code search (/codesearch)",
+          "surroundingText": "Code search (/codesearch)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/codesearch",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9375,7 +10434,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:9531bc5cbdce8004",
@@ -9437,6 +10496,15 @@
           "surroundingText": "AI credits (/credits)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/credits",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "AI credits (/credits)",
+          "surroundingText": "AI credits (/credits)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/credits",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9451,7 +10519,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4566beaf0d822f85",
@@ -9513,6 +10581,15 @@
           "surroundingText": "Diff (/diff)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/diff",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Diff (/diff)",
+          "surroundingText": "Diff (/diff)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/diff",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9527,7 +10604,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:0ea50320ae8e81f5",
@@ -9589,6 +10666,15 @@
           "surroundingText": "Permissions (/permissions)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/permissions",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Permissions (/permissions)",
+          "surroundingText": "Permissions (/permissions)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/permissions",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9603,7 +10689,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:de47c6ef3fdc209e",
@@ -9665,6 +10751,15 @@
           "surroundingText": "Resume (/resume)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/resume",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Resume (/resume)",
+          "surroundingText": "Resume (/resume)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/resume",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9679,7 +10774,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:3e5cb04b1e87a451",
@@ -9741,6 +10836,15 @@
           "surroundingText": "Status line (/statusline)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/statusline",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Status line (/statusline)",
+          "surroundingText": "Status line (/statusline)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/statusline",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9755,7 +10859,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:9f7fe43000ecaeb6",
@@ -9817,6 +10921,15 @@
           "surroundingText": "Window title (/title)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/title",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Window title (/title)",
+          "surroundingText": "Window title (/title)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/title",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9831,7 +10944,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:cc885f4bb6450901",
@@ -9893,6 +11006,15 @@
           "surroundingText": "Model quotas (/usage)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/usage",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Model quotas (/usage)",
+          "surroundingText": "Model quotas (/usage)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/usage",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9907,7 +11029,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:4112da676a04f273",
@@ -9969,6 +11091,15 @@
           "surroundingText": "Voice dictation (/voice)",
           "targetUrl": "https://antigravity.google/docs/cli/commands/voice",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Voice dictation (/voice)",
+          "surroundingText": "Voice dictation (/voice)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/voice",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -9983,7 +11114,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:1f6a6826df631945",
@@ -10045,6 +11176,15 @@
           "surroundingText": "MCP",
           "targetUrl": "https://antigravity.google/docs/mcp",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "MCP",
+          "surroundingText": "MCP",
+          "targetUrl": "https://antigravity.google/docs/mcp",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10059,7 +11199,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:3b68320b9fd03efe",
@@ -10121,6 +11261,15 @@
           "surroundingText": "Rules",
           "targetUrl": "https://antigravity.google/docs/rules",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Rules",
+          "surroundingText": "Rules",
+          "targetUrl": "https://antigravity.google/docs/rules",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10135,7 +11284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:76adf155c7ee410c",
@@ -10197,6 +11346,15 @@
           "surroundingText": "IDE workflows",
           "targetUrl": "https://antigravity.google/docs/ide/workflows",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "IDE workflows",
+          "surroundingText": "IDE workflows",
+          "targetUrl": "https://antigravity.google/docs/ide/workflows",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10211,7 +11369,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2620b2c67aba0f24",
@@ -10273,6 +11431,15 @@
           "surroundingText": "Asynchronous subagents",
           "targetUrl": "https://antigravity.google/docs/subagents",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Asynchronous subagents",
+          "surroundingText": "Asynchronous subagents",
+          "targetUrl": "https://antigravity.google/docs/subagents",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10287,7 +11454,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:8d4d79b137497198",
@@ -10349,6 +11516,15 @@
           "surroundingText": "Lifecycle hooks",
           "targetUrl": "https://antigravity.google/docs/hooks",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Lifecycle hooks",
+          "surroundingText": "Lifecycle hooks",
+          "targetUrl": "https://antigravity.google/docs/hooks",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10363,7 +11539,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:427e9708d5a2861b",
@@ -10425,6 +11601,15 @@
           "surroundingText": "Sidecars",
           "targetUrl": "https://antigravity.google/docs/sidecars",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Sidecars",
+          "surroundingText": "Sidecars",
+          "targetUrl": "https://antigravity.google/docs/sidecars",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10439,7 +11624,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2ed0bb648862a6fd",
@@ -10501,6 +11686,15 @@
           "surroundingText": "Local models",
           "targetUrl": "https://antigravity.google/docs/sdk/local-models",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Local models",
+          "surroundingText": "Local models",
+          "targetUrl": "https://antigravity.google/docs/sdk/local-models",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10515,7 +11709,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:733e56b18929369a",
@@ -10577,6 +11771,15 @@
           "surroundingText": "Personas",
           "targetUrl": "https://antigravity.google/docs/sdk/personas",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Personas",
+          "surroundingText": "Personas",
+          "targetUrl": "https://antigravity.google/docs/sdk/personas",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10591,7 +11794,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:d5f8214a8882e8c5",
@@ -10653,6 +11856,15 @@
           "surroundingText": "Tools and skills",
           "targetUrl": "https://antigravity.google/docs/sdk/tools",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Tools and skills",
+          "surroundingText": "Tools and skills",
+          "targetUrl": "https://antigravity.google/docs/sdk/tools",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10667,7 +11879,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:3542dfc6742eaa49",
@@ -10729,6 +11941,15 @@
           "surroundingText": "MCP",
           "targetUrl": "https://antigravity.google/docs/sdk/mcp",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "MCP",
+          "surroundingText": "MCP",
+          "targetUrl": "https://antigravity.google/docs/sdk/mcp",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10743,7 +11964,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:193fd40b2059d18c",
@@ -10805,6 +12026,15 @@
           "surroundingText": "Policies",
           "targetUrl": "https://antigravity.google/docs/sdk/policies",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Policies",
+          "surroundingText": "Policies",
+          "targetUrl": "https://antigravity.google/docs/sdk/policies",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10819,7 +12049,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:a5cde7476871522f",
@@ -10881,6 +12111,15 @@
           "surroundingText": "Subagents",
           "targetUrl": "https://antigravity.google/docs/sdk/subagents",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Subagents",
+          "surroundingText": "Subagents",
+          "targetUrl": "https://antigravity.google/docs/sdk/subagents",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10895,7 +12134,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:c96134236eef80fc",
@@ -10957,6 +12196,15 @@
           "surroundingText": "Structured output",
           "targetUrl": "https://antigravity.google/docs/sdk/structured-output",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Structured output",
+          "surroundingText": "Structured output",
+          "targetUrl": "https://antigravity.google/docs/sdk/structured-output",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -10971,7 +12219,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:674a87952e069941",
@@ -11033,6 +12281,15 @@
           "surroundingText": "Lifecycle and hooks",
           "targetUrl": "https://antigravity.google/docs/sdk/lifecycle",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Lifecycle and hooks",
+          "surroundingText": "Lifecycle and hooks",
+          "targetUrl": "https://antigravity.google/docs/sdk/lifecycle",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -11047,7 +12304,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:2bf6fe43bb6d3096",
@@ -11109,6 +12366,15 @@
           "surroundingText": "IDE getting started guide",
           "targetUrl": "https://antigravity.google/docs/ide/getting-started",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "IDE getting started guide",
+          "surroundingText": "IDE getting started guide",
+          "targetUrl": "https://antigravity.google/docs/ide/getting-started",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -11123,7 +12389,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:ykdojo/antigravity-cli-tips",
@@ -11171,6 +12437,16 @@
           "surroundingText": "Antigravity CLI Tips",
           "targetUrl": "https://github.com/ykdojo/antigravity-cli-tips",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity CLI Tips",
+          "surroundingText": "Antigravity CLI Tips",
+          "targetUrl": "https://github.com/ykdojo/antigravity-cli-tips",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -11184,7 +12460,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:32:00.131Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:bf694c30da566160",
@@ -11210,6 +12486,24 @@
           "surroundingText": "New Gemini 4 Argon available in Google Antigravity Learn more",
           "targetUrl": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "New Gemini 4 Argon available in Google Antigravity Learn more",
+          "surroundingText": "New Gemini 4 Argon available in Google Antigravity Learn more",
+          "targetUrl": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "New Gemini 4 Argon available in Google Antigravity Learn more",
+          "surroundingText": "New Gemini 4 Argon available in Google Antigravity Learn more",
+          "targetUrl": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -11224,7 +12518,162 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:20:00.043Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
+    },
+    {
+      "id": "github:ashenjyy/antigravity-browser-bridge",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/ashenjyy/antigravity-browser-bridge",
+      "title": "AshenJyy/antigravity-browser-bridge",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AshenJyy/antigravity-browser-bridge",
+          "surroundingText": "AshenJyy/antigravity-browser-bridge",
+          "targetUrl": "https://github.com/ashenjyy/antigravity-browser-bridge",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z"
+    },
+    {
+      "id": "web:73b4d43f374df252",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/docs/cli/commands/btw",
+      "title": "Side question (/btw)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Side question (/btw)",
+          "surroundingText": "Side question (/btw)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/btw",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-15T09:20:00.135Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z"
+    },
+    {
+      "id": "web:9ab8d572f2c4e0c7",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/docs/cli/commands/changelog",
+      "title": "Changelog (/changelog)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Changelog (/changelog)",
+          "surroundingText": "Changelog (/changelog)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/changelog",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-15T09:20:00.135Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z"
+    },
+    {
+      "id": "web:e22a43495ceaf529",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/docs/cli/commands/context",
+      "title": "Context (/context)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Context (/context)",
+          "surroundingText": "Context (/context)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/context",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-15T09:20:00.135Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z"
+    },
+    {
+      "id": "web:47ad82bef2538654",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/docs/cli/commands/effort",
+      "title": "Reasoning effort (/effort)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Reasoning effort (/effort)",
+          "surroundingText": "Reasoning effort (/effort)",
+          "targetUrl": "https://antigravity.google/docs/cli/commands/effort",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-15T09:20:00.135Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     }
   ]
 }

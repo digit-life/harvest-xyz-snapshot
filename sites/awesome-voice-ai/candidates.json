@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:30:00.130Z",
+  "generatedAt": "2026-10-15T10:30:00.061Z",
   "appId": "awesome-voice-ai",
   "items": [
     {
@@ -122,6 +122,25 @@
           "surroundingText": "awesome-voice-ai",
           "targetUrl": "https://suno.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno",
+          "surroundingText": "Suno",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "awesome-voice-ai",
+          "surroundingText": "awesome-voice-ai",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -139,7 +158,64 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
+      "aiReview": {
+        "summary": "Official Suno web app for prompt-to-song generation, Studio DAW, voice cloning, stems, remix, and custom models, with a free daily tier and paid commercial-rights plans.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.9,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "music-generation",
+          "tts-vocals",
+          "voice-cloning",
+          "stems",
+          "web-app"
+        ],
+        "evidence": [
+          "canonicalUrl https://suno.com matches official-web seed and rubric preference for Suno.",
+          "Excerpt lists Products, Pricing, Create, v6, Studio, Voices, stem separation, remix, custom models, music library.",
+          "Plan cards: Free $0, Pro $8/mo, Premier $24/mo with credits, downloads, and commercial-use bullets.",
+          "riskFlags empty; source is official homepage excerpt."
+        ],
+        "uncertainty": [
+          "Public developer API/SDK is not described in the excerpt.",
+          "Exact credit-to-song rates, ToS, and training-data/licensing details are not fully specified.",
+          "FAQ prices ($10/$30) disagree with the pricing table."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T15:03:23.030Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Prompt-to-song AI with Studio, voices, and stems",
+        "description": "Generate full songs from prompts, then edit in a browser DAW, clone vocals, separate stems, remix, and train custom models.",
+        "pros": [
+          "Official site documents prompt-based full-song creation plus v6, Studio, Voices, stem separation, remix, and custom models.",
+          "Free plan includes daily credits; Pro and Premier add better models, downloads, commercial rights, and extra tools.",
+          "Paid subscribers are stated to receive commercial rights to generated songs.",
+          "Mobile presence is advertised with high App Store/Play review counts."
+        ],
+        "cons": [
+          "Free tier has no commercial rights, no monthly downloads, and no stem separation.",
+          "Pricing copy in the FAQ conflicts with the listed $8/$24 monthly plan cards.",
+          "Voice cloning and custom models raise typical likeness and training-data concerns not detailed on the splash page."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "learning",
+          "production"
+        ],
+        "usage": {
+          "input": 10869,
+          "output": 629,
+          "cacheRead": 512,
+          "totalTokens": 12010,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
       "reference": {
         "source": "official-web",
         "url": "https://suno.com",
@@ -258,6 +334,16 @@
           "surroundingText": "Suno Help Center",
           "targetUrl": "https://help.suno.com",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Help Center",
+          "surroundingText": "Suno Help Center",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -272,7 +358,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Official knowledge base covering music generation, accounts, mobile, rights, Studio, and community FAQs. Usable as the canonical support/docs surface rather than a model or API.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.78,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "docs",
+          "faq",
+          "music-generation",
+          "support"
+        ],
+        "evidence": [
+          "canonicalUrl https://help.suno.com redirects to https://help.suno.com/en/ titled Knowledge Base.",
+          "Page lists category counts such as Making Music (53 articles), Accounts & Billing (20), Rights & Ownership (17), Studio (26).",
+          "Rubric prefers official Suno surfaces; candidate is the official help center, not ringtone or clone spam."
+        ],
+        "uncertainty": [
+          "Article freshness and completeness were not audited article-by-article.",
+          "Help-center CMS (Front) cookie/privacy handling is standard but not a product-security review."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T15:03:39.139Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Official FAQs for AI music creation and account use",
+        "description": "Browse official articles on making music, billing, mobile apps, rights, Studio, and community support.",
+        "pros": [
+          "Hosted on the official help.suno.com domain and linked from the product site.",
+          "Organized categories include Making Music, Accounts & Billing, Mobile App, Rights & Ownership, Studio, and Community Resources.",
+          "Article volume is substantial (dozens of articles across categories) rather than a single landing page."
+        ],
+        "cons": [
+          "It is support documentation, not an API, SDK, or generation product.",
+          "Search on the fetched page returned no inline results, so discoverability depends on category browsing."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 839,
+          "output": 518,
+          "cacheRead": 7296,
+          "totalTokens": 8653,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:2c3f0035ae09a8ae",
@@ -340,6 +477,16 @@
           "surroundingText": "Suno Blog",
           "targetUrl": "https://suno.com/blog",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Blog",
+          "surroundingText": "Suno Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -349,11 +496,63 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Official Suno company blog with product updates, model launches, Studio/DAW tips, partnerships, and creator spotlights. Useful as a primary news/docs surface, not an API or tool itself.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.78,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "suno",
+          "music-generation",
+          "blog",
+          "product-updates",
+          "tutorials"
+        ],
+        "evidence": [
+          "Page title and OG metadata identify Suno | Blog with description of announcements, product updates, partnerships, and spotlights.",
+          "Listed posts include Introducing v6, Studio 2.0, Speech beta, stem separation, and ToS/download policy updates.",
+          "Candidate was discovered as Suno Blog in awesome-suno README."
+        ],
+        "uncertainty": [
+          "Could not verify full article quality beyond listing and metadata.",
+          "Pricing of the underlying Suno product is not specified on the blog index."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T15:03:54.353Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Official news, model launches, and music-creation tips",
+        "description": "Read announcements, product updates, partnerships, and creator guides from the music-generation company.",
+        "pros": [
+          "Hosted on the official suno.com domain with ongoing 2024–2026 posts.",
+          "Covers model versions, Studio features, stems, voices, speech beta, and policy changes.",
+          "Includes practical essays on mixing tools such as EQ, compression, and sidechaining."
+        ],
+        "cons": [
+          "It is a marketing and editorial blog, not an SDK, CLI, or developer API.",
+          "No structured API reference or downloadable models on this URL."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 5324,
+          "output": 531,
+          "cacheRead": 5120,
+          "totalTokens": 10975,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:96e3d4f9bbb1d8c2",
@@ -421,6 +620,16 @@
           "surroundingText": "Suno on YouTube",
           "targetUrl": "https://www.youtube.com/@SunoMusic",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on YouTube",
+          "surroundingText": "Suno on YouTube",
+          "targetUrl": "https://www.youtube.com/@SunoMusic",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -430,11 +639,60 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "YouTube handle @SunoMusic is a social channel, not an API, SDK, or product surface. Officiality versus similarly named music channels is unverified, so it is a weak fit for a tools directory.",
+        "relevanceScore": 0.22,
+        "qualityScore": 0.28,
+        "riskScore": 0.41,
+        "suggestedTags": [
+          "suno",
+          "youtube",
+          "music-generation",
+          "community"
+        ],
+        "evidence": [
+          "Candidate canonicalUrl is https://www.youtube.com/@SunoMusic.",
+          "Discovery is repeated README anchors titled only “Suno on YouTube” with no feature or API description.",
+          "Rubric prefers official Suno product surfaces and maintained stacks over social/news links without APIs."
+        ],
+        "uncertainty": [
+          "Whether @SunoMusic is the official Suno AI company channel versus unrelated “Suno Music” channels.",
+          "Channel activity, subscriber quality, and content usefulness were not verified from primary page content."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:04:13.198Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Video channel for AI music company updates",
+        "description": "YouTube presence listed as Suno on YouTube; no API, model, or developer docs at this URL.",
+        "pros": [
+          "Linked from a curated Suno-related README as a community/social pointer.",
+          "YouTube is a common place for product demos and announcements if the handle is official."
+        ],
+        "cons": [
+          "The URL is a video channel, not a usable music API, model, or official product docs.",
+          "Multiple similarly named YouTube channels exist, so official branding is not confirmed from the URL alone.",
+          "No README, pricing, or technical surface is available at the candidate URL."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 1099,
+          "output": 619,
+          "cacheRead": 6784,
+          "totalTokens": 8502,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:cd5b22f511cfb3ca",
@@ -502,6 +760,16 @@
           "surroundingText": "Suno Prompt Builder at usesuno.com",
           "targetUrl": "https://usesuno.com/tools",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Prompt Builder at usesuno.com",
+          "surroundingText": "Suno Prompt Builder at usesuno.com",
+          "targetUrl": "https://usesuno.com/tools",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -515,7 +783,63 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party catalog of 16 free in-browser helpers for Suno Style prompts, lyrics, and public-link downloads—not an official Suno API or model. Useful for creators; downloaders depend on public Suno URLs and a fetch service.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
+        "riskScore": 0.38,
+        "suggestedTags": [
+          "suno",
+          "music-generation",
+          "prompt-builder",
+          "lyrics",
+          "browser-tools"
+        ],
+        "evidence": [
+          "Page title and meta describe 16 free browser tools for prompts, lyrics, metadata, downloads, and lyric MVs.",
+          "Featured tools include Prompt Builder, song/playlist/profile downloaders, and Lyrics MV Studio.",
+          "FAQ states text-only tools run locally; public-link tools retrieve public page or asset data.",
+          "Candidate was listed in awesome-suno as “Suno Prompt Builder at usesuno.com” pointing at /tools."
+        ],
+        "uncertainty": [
+          "Cannot verify fetch-service security, rate limits, or compliance with Suno terms of use.",
+          "Cannot verify that every listed tool currently works as described.",
+          "Monetization beyond “free / no account” is not specified on this page."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:04:33.118Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Free in-browser Suno prompt, lyric, and download helpers",
+        "description": "Build Style prompts, clean lyrics, inspect public songs, and save available audio, art, or lyric MVs in the browser.",
+        "pros": [
+          "Lists 16 free browser tools covering Style prompts, lyrics tags, inspection, downloads, and lyric MV export.",
+          "Prompt and lyrics utilities are described as processing text locally in the tab.",
+          "Site documents which tools fetch public Suno links versus staying local, with a privacy page.",
+          "No usesuno account is required according to the tools FAQ."
+        ],
+        "cons": [
+          "This is an unofficial companion site, not Suno’s official product or API.",
+          "Downloaders and inspectors send public song/playlist/profile URLs to a network fetch service.",
+          "Public-link tools cannot access private or login-only Suno content."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "prototyping",
+          "learning",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 3393,
+          "output": 699,
+          "cacheRead": 6912,
+          "totalTokens": 11004,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:f0641163bbb29508",
@@ -583,6 +907,16 @@
           "surroundingText": "Suno AI Wiki",
           "targetUrl": "https://sunoaiwiki.com",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Wiki",
+          "surroundingText": "Suno AI Wiki",
+          "targetUrl": "https://sunoaiwiki.com",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -592,11 +926,65 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party unofficial Suno guide site with prompt/meta-tag tips plus a lyric censorship-bypass tool and unrelated outbound links; not an official API or maintained voice stack.",
+        "relevanceScore": 0.35,
+        "qualityScore": 0.28,
+        "riskScore": 0.55,
+        "suggestedTags": [
+          "suno",
+          "music-generation",
+          "prompts",
+          "unofficial-wiki",
+          "tutorials"
+        ],
+        "evidence": [
+          "Homepage self-describes as Suno Wiki for text-to-song guides, meta tags, genres, and copyright tips.",
+          "Explicit “Censorship Bypass Tool” for modifying sensitive lyrics.",
+          "Footer/related links include unrelated products (Flux Pro, Sprunki games, DeepSeek news).",
+          "Rubric prefers official Suno/ElevenLabs and maintained stacks over unofficial roundups."
+        ],
+        "uncertainty": [
+          "Cannot verify article depth, update cadence, or authorship beyond the homepage.",
+          "Cannot confirm whether the bypass tool is functional or merely advertised.",
+          "Ownership and affiliation with Suno Inc. are not stated."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:04:51.521Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Unofficial Suno prompt and production guides",
+        "description": "Collects unofficial Suno music-generation tips, genre lists, meta tags, and copyright notes, plus a lyric censorship workaround.",
+        "pros": [
+          "Covers Suno prompt structure, genres/styles, and meta tags for music generation.",
+          "Includes production and copyright-distribution notes aimed at Suno users.",
+          "Listed repeatedly in a Suno-related curated README."
+        ],
+        "cons": [
+          "Not an official Suno surface, API, SDK, or open-source voice stack.",
+          "Homepage is thin marketing copy with unrelated site links and little usable technical depth.",
+          "Promotes a censorship-bypass tool for content-guideline evasion."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 2652,
+          "output": 419,
+          "cacheRead": 5120,
+          "totalTokens": 8191,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:812b2c30807a9c3b",
@@ -664,6 +1052,16 @@
           "surroundingText": "Learn Prompting: Suno Guide",
           "targetUrl": "https://learnprompting.org/blog/guide-suno",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Learn Prompting: Suno Guide",
+          "surroundingText": "Learn Prompting: Suno Guide",
+          "targetUrl": "https://learnprompting.org/blog/guide-suno",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -677,7 +1075,59 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party Learn Prompting how-to on using Suno (prompts, custom lyrics, metatags, pricing/use cases). Useful as a beginner tutorial, not an official product, API, or maintained voice stack.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.62,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "suno",
+          "prompting",
+          "tutorial",
+          "ai-music"
+        ],
+        "evidence": [
+          "URL is learnprompting.org/blog/guide-suno titled as a complete how-to (Feb 2025).",
+          "Content includes get-started steps, prompt templates, metatag table, features/pricing/use-case sections.",
+          "Rubric deprioritizes news/guides without a usable API or model; this is educational only."
+        ],
+        "uncertainty": [
+          "Whether Suno UI, Persona beta, and pricing in the article still match current product.",
+          "Accuracy of commercial/royalty-free statements vs Suno terms."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:05:11.304Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Beginner how-to for prompting Suno music generation",
+        "description": "Explains Suno workflows, prompt structure, metatags, and common use cases for generating songs from text.",
+        "pros": [
+          "Covers easy vs custom Suno flows, prompt components, and metatags with examples.",
+          "Links example tracks on suno.com and unofficial wiki genre/metatag lists.",
+          "States limits (iteration, not always production-ready) rather than only hype."
+        ],
+        "cons": [
+          "Blog roundup/tutorial, not an official Suno surface, SDK, or audio API.",
+          "Marketing copy and course upsells sit around the guide; details can go stale vs Suno’s UI.",
+          "Royalty-free/commercial claims are restated without primary-license citations."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 4209,
+          "output": 552,
+          "cacheRead": 6912,
+          "totalTokens": 11673,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:577ccb7488f6f024",
@@ -745,6 +1195,16 @@
           "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
           "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -758,7 +1218,59 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Blog guide on Suno Style vs Lyrics fields, tag order, and 5–8-tag limits, with examples; it is marketing for AceTagGen, not an official Suno API or model.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.55,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "suno",
+          "prompting",
+          "ai-music",
+          "tutorial"
+        ],
+        "evidence": [
+          "Page title and meta describe left-to-right priority, 5–8 tags, and 1000-character Style field.",
+          "Article dated April 8, 2026; ~9 min read with bad/good prompt examples.",
+          "Listed from shaizadok92/awesome-suno README as a blog link, not a tool.",
+          "Rubric prefers official ElevenLabs/Suno surfaces and OSS stacks over prompt roundups."
+        ],
+        "uncertainty": [
+          "Cannot verify community research, 3200-tag database, or weighting formula against Suno internals.",
+          "AceTagGen product quality and whether the article stays updated with Suno versions are unknown."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:05:31.751Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Community-style guide to weighting Suno style tags",
+        "description": "Explains Suno Style vs Lyrics inputs, left-to-right tag weight, 5–8 tag limits, and prompt examples; promotes a tag builder.",
+        "pros": [
+          "Covers Style vs Lyrics roles, tag order, per-category limits, and before/after prompt examples.",
+          "States Style field length (1000 characters on V4.5+) and bracket-tag placement rules in lyrics.",
+          "Readable 9-minute article with structured sections rather than a link dump."
+        ],
+        "cons": [
+          "Weight formula and 10x lyrics claim are presented as fact without cited official Suno docs.",
+          "Repeated CTAs funnel readers to AceTagGen questionnaire, chat, and support.",
+          "Not an official Suno surface, API, SDK, or maintained open-source voice stack."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 3404,
+          "output": 610,
+          "cacheRead": 7040,
+          "totalTokens": 11054,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:49484bfaacf913f2",
@@ -826,6 +1338,16 @@
           "surroundingText": "\"Why Most Suno Prompts Fail\"",
           "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Why Most Suno Prompts Fail\"",
+          "surroundingText": "\"Why Most Suno Prompts Fail\"",
+          "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -839,7 +1361,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Vendor blog post explaining three Suno Style-prompt failure patterns (overfilled tags, collisions, feeling vs mechanism tags) and pitching AceTagGen. Useful prompting notes, not an official Suno surface or API.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.55,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "suno",
+          "prompting",
+          "ai-music",
+          "tutorial"
+        ],
+        "evidence": [
+          "Canonical URL is acetaggen.com/blog with meta description matching the three failure patterns.",
+          "Body cites Style 1,000-character limit, left-to-right weighting, and example colliding tag pairs.",
+          "Rubric prefers official Suno/ElevenLabs/Suno APIs over roundups; this is a third-party tutorial plus product pitch."
+        ],
+        "uncertainty": [
+          "Cannot verify claimed tag weights, collision list, or “thousands of test generations.”",
+          "AceTagGen tool quality, signup claims, and comment/auth stack not independently audited."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:05:50.905Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Suno prompt failure patterns and a short checklist",
+        "description": "Explains overfilled Style tags, tag collisions, and intent-gap mistakes, then offers a 5–8 tag checklist for Suno generations.",
+        "pros": [
+          "Gives three concrete Suno Style-field failure modes with example prompts and a short pre-generate checklist.",
+          "States Style field length (up to 1,000 characters in V4.5+) and a 5–8 tag trim rule.",
+          "Article is readable without requiring the author’s builder; checklist can be applied by hand."
+        ],
+        "cons": [
+          "Weighting and collision claims are framed as community observation, not official Suno documentation.",
+          "Repeated CTAs to AceTagGen’s free questionnaire; not an official Suno or open-source stack.",
+          "No API, SDK, or model—prompt essay only."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 9037,
+          "output": 684,
+          "cacheRead": 512,
+          "totalTokens": 10233,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:427eea53e4fbe707",
@@ -907,6 +1480,16 @@
           "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
           "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -916,11 +1499,63 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party AceTagGen blog comparing Suno V3.5–V5.5 prompt styles and use cases; useful as a short guide, not an official Suno surface, API, or model.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.55,
+        "riskScore": 0.28,
+        "suggestedTags": [
+          "suno",
+          "comparison",
+          "prompting",
+          "blog"
+        ],
+        "evidence": [
+          "Page title and body are a Suno version comparison dated April 5, 2026, ~8 min read.",
+          "Meta description lists V3.5, V4.5, V5, V5.5 audio quality, prompt behavior, and migration tips.",
+          "Repeated AceTagGen questionnaire/tag-builder CTAs; login-gated comments.",
+          "Rubric prefers official Suno surfaces and APIs over unofficial roundups."
+        ],
+        "uncertainty": [
+          "Accuracy of technical claims versus current official Suno product behavior.",
+          "Whether AceTagGen’s tool itself is independently useful beyond this post."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:06:20.536Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Unofficial Suno version comparison and prompt migration note",
+        "description": "Compares Suno V3.5, V4.5, V5, and V5.5 on quality, genres, and prompt style, with a decision matrix and version-migration tips.",
+        "pros": [
+          "Gives version-specific when-to-use notes and a simple decision matrix.",
+          "Includes concrete prompt-shortening and migration examples between versions.",
+          "Covers practical topics like negative prompting, song length, and voice cloning at a high level."
+        ],
+        "cons": [
+          "Hosted on AceTagGen as marketing content with CTAs to their tag builder, not Suno’s official docs.",
+          "Claims such as 48kHz, 10x speed, and ‘pop-washing’ are unsourced community-style assertions.",
+          "No API, SDK, or maintained open-source stack—only an article."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 9900,
+          "output": 658,
+          "cacheRead": 512,
+          "totalTokens": 11070,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:bdaf1811d0c5e609",
@@ -988,6 +1623,16 @@
           "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
           "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1001,7 +1646,60 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party AceTagGen blog listing 17 community-tested Suno prompt/syntax tricks (melisma, tags, style sandwich). Useful as a tips article, not an official API, SDK, or maintained voice stack.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.55,
+        "riskScore": 0.28,
+        "suggestedTags": [
+          "suno",
+          "prompting",
+          "ai-music",
+          "tutorial"
+        ],
+        "evidence": [
+          "Canonical URL is acetaggen.com/blog with published_time 2026-04-07 and meta description listing tricks and exact syntax.",
+          "Body covers vowel stretching, phonetic effects, empty-line instrumentals, crescendo tags, side-chain, genre arrows, sandwich method, and instrumental blocking.",
+          "CTA text: AceTagGen builds optimized SUNO prompts; Try Free links to /questionnaire.",
+          "Discovered only as a README link in shaizadok92/awesome-suno, not as a product homepage."
+        ],
+        "uncertainty": [
+          "Whether each trick still works on current Suno versions.",
+          "Independence of “verified by the community” claims.",
+          "Quality and data practices of the AceTagGen tool behind the CTA."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:06:41.028Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Prompt syntax tips for AI music generation",
+        "description": "Documents tested Suno lyric and style tricks with example syntax, plus a pitch for a related prompt builder.",
+        "pros": [
+          "Gives specific lyric/style syntax examples (hyphens, tags, sandwich method, exclude styles).",
+          "Structured as what-it-does, syntax, result, and a short pro tip per trick.",
+          "On-topic for Suno music generation rather than celebrity cloning or ringtone packs."
+        ],
+        "cons": [
+          "Not an official Suno surface, API, SDK, or open-source model stack.",
+          "Claims of community verification across thousands of songs are not independently evidenced on the page.",
+          "Interrupts the article with promotion of AceTagGen’s free questionnaire/tool."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 3048,
+          "output": 696,
+          "cacheRead": 7040,
+          "totalTokens": 10784,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:811343c0be5789fb",
@@ -1069,6 +1767,16 @@
           "surroundingText": "r/SunoAI",
           "targetUrl": "https://www.reddit.com/r/SunoAI",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/SunoAI",
+          "surroundingText": "r/SunoAI",
+          "targetUrl": "https://www.reddit.com/r/SunoAI",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1082,7 +1790,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Unofficial Reddit community for Suno AI music generation; useful for prompts and product chatter, but it is not an API, model, or official product surface.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.55,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "suno",
+          "community",
+          "ai-music",
+          "forum"
+        ],
+        "evidence": [
+          "canonicalUrl is https://www.reddit.com/r/SunoAI",
+          "Listed in awesome-suno README as r/SunoAI with no extra feature description",
+          "Public sources describe it as the main unofficial Suno discussion hub, not affiliated with the company"
+        ],
+        "uncertainty": [
+          "Exact subscriber count and current moderation quality were not verified from the live subreddit page",
+          "No facts.readme or facts.excerpt were provided"
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:08:14.895Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Unofficial forum for Suno AI music discussion",
+        "description": "Hosts user tracks, prompt tips, and model-update talk for Suno. Not affiliated with the vendor and offers no API or SDK.",
+        "pros": [
+          "Active public discussion of Suno prompts, styles, and model updates.",
+          "Users share tracks and workflow feedback with some moderation against spam.",
+          "Suno staff have occasionally posted there, though the subreddit is unofficial."
+        ],
+        "cons": [
+          "No usable API, SDK, or maintained open-source stack.",
+          "Content quality varies like any large Reddit community.",
+          "Not an official Suno support or documentation channel."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 3548,
+          "output": 480,
+          "cacheRead": 6784,
+          "totalTokens": 10812,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:ffad4c16afd129e7",
@@ -1150,6 +1909,16 @@
           "surroundingText": "Suno AI Reviews on Futurepedia",
           "targetUrl": "https://www.futurepedia.io/tool/suno",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Reviews on Futurepedia",
+          "surroundingText": "Suno AI Reviews on Futurepedia",
+          "targetUrl": "https://www.futurepedia.io/tool/suno",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1159,11 +1928,60 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Futurepedia aggregator listing for Suno with marketing copy, two user reviews, and outbound links—not an official product, API, or maintained voice/music stack.",
+        "relevanceScore": 0.25,
+        "qualityScore": 0.35,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "directory",
+          "reviews",
+          "music-generation",
+          "aggregator"
+        ],
+        "evidence": [
+          "canonicalUrl is futurepedia.io/tool/suno, titled Suno AI Reviews: Use Cases, Pricing & Alternatives.",
+          "Rubric prefers official Suno surfaces over news/directory roundups with no API.",
+          "Content is a tool listing with Visit Site UTM links, Discord follow, and Skillleap ads."
+        ],
+        "uncertainty": [
+          "Accuracy of Futurepedia pricing (listed Free) versus current Suno plans.",
+          "Whether reviews are authentic or representative."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:08:58.267Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Third-party AI tool directory page with reviews",
+        "description": "Directory listing covering music-generation use cases, pricing notes, and alternatives with links to the vendor site.",
+        "pros": [
+          "Page identifies the music-generation category and links to suno.com.",
+          "Includes a small reviews section and last-updated date (09/28/2026)."
+        ],
+        "cons": [
+          "It is a third-party catalog/review page, not an official Suno surface or SDK.",
+          "No usable API, model, or integration docs for builders.",
+          "Only two user reviews and heavy marketplace/affiliate framing."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 8356,
+          "output": 455,
+          "cacheRead": 512,
+          "totalTokens": 9323,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:2c6de9e24ab01dea",
@@ -1231,6 +2049,16 @@
           "surroundingText": "Suno on Wikipedia",
           "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on Wikipedia",
+          "surroundingText": "Suno on Wikipedia",
+          "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1240,11 +2068,60 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Wikipedia encyclopedia article about the Suno music-generation company/platform, not an official product, API, or model surface. Weak fit for a tools directory versus suno.com or platform.suno.com.",
+        "relevanceScore": 0.22,
+        "qualityScore": 0.72,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "suno",
+          "wikipedia",
+          "music-generation",
+          "encyclopedia"
+        ],
+        "evidence": [
+          "Candidate title and source anchors are 'Suno on Wikipedia' from awesome-suno README.",
+          "URL points at en.wikipedia.org/wiki/Suno_(platform with a malformed path.",
+          "Rubric prefers official Suno surfaces over articles with no API or model."
+        ],
+        "uncertainty": [
+          "Could not fully load live Wikipedia content in this pass.",
+          "Article completeness and current controversy sections not independently verified."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:09:12.529Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Encyclopedia article on an AI music-generation company",
+        "description": "Wikipedia documents Suno, a generative AI music platform that creates songs from text prompts, including history and controversy.",
+        "pros": [
+          "Third-party encyclopedia page with history, controversy, and references.",
+          "Useful as background reading, not as a product entry."
+        ],
+        "cons": [
+          "Canonical URL is truncated and missing a closing parenthesis.",
+          "No usable API, SDK, or official product surface.",
+          "Does not meet preference for official Suno surfaces over encyclopedia roundups."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 1075,
+          "output": 450,
+          "cacheRead": 6784,
+          "totalTokens": 8309,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:shaizadok92/suno-prompt-scorer",
@@ -1312,6 +2189,16 @@
           "surroundingText": "**suno-prompt-scorer**",
           "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**suno-prompt-scorer**",
+          "surroundingText": "**suno-prompt-scorer**",
+          "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1325,7 +2212,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Small MIT TypeScript library that heuristically scores Suno style prompts (length, collisions, specificity, density). Useful as a niche helper, not an official Suno surface or audio model/API.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.48,
+        "riskScore": 0.22,
+        "suggestedTags": [
+          "suno",
+          "prompt-scoring",
+          "typescript",
+          "music-generation"
+        ],
+        "evidence": [
+          "Repo README: npm package suno-prompt-scorer, MIT, zero-dependency TypeScript, metrics length/collisions/specificity/density.",
+          "GitHub metadata: TypeScript, 0 stars, 1 fork, 0 issues; files include src/index.ts and test/scorer.test.js.",
+          "Rubric prefers official Suno/ElevenLabs surfaces and maintained voice stacks over prompt utilities."
+        ],
+        "uncertainty": [
+          "Could not independently verify npm downloads, test coverage, or that the algorithm matches AceTagGen’s live scorer.",
+          "Collision rules claimed from ‘real generation testing’ are not evidenced beyond the README."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:09:29.273Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "SDKs",
+        "tagline": "Heuristic 100-point scorer for Suno style prompts",
+        "description": "Score Suno music prompts on length, tag collisions, specificity, and density with a zero-dependency TypeScript function.",
+        "pros": [
+          "MIT-licensed TypeScript package with a documented scorePrompt API and four explicit metrics.",
+          "Zero runtime dependencies and a small test file are present in the repo.",
+          "README states scoring is aligned with Suno’s ~200-character Style field and v4/v4.5 collision notes."
+        ],
+        "cons": [
+          "GitHub shows 0 stars and 1 fork; maintenance and community validation are unproven.",
+          "It does not generate audio or wrap Suno’s official API; it only scores prompt text.",
+          "The project funnels users to AceTagGen’s commercial site, API, and tag builder."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "prototyping",
+          "learning"
+        ],
+        "usage": {
+          "input": 2933,
+          "output": 545,
+          "cacheRead": 5120,
+          "totalTokens": 8598,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:23b7c2edddcd1a63",
@@ -1393,6 +2331,16 @@
           "surroundingText": "AceTagGen Public Scorer API",
           "targetUrl": "https://acetaggen.com/api/suno-score",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AceTagGen Public Scorer API",
+          "surroundingText": "AceTagGen Public Scorer API",
+          "targetUrl": "https://acetaggen.com/api/suno-score",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1406,7 +2354,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Third-party HTTP endpoint listed as a Suno tag/score helper; the documented URL returns HTTP 400 and the site has no usable public docs, so it is a weak directory listing until the API is verified.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.25,
+        "riskScore": 0.4,
+        "suggestedTags": [
+          "suno",
+          "api",
+          "music-generation",
+          "unofficial"
+        ],
+        "evidence": [
+          "awesome-suno README repeatedly links AceTagGen Public Scorer API to https://acetaggen.com/api/suno-score.",
+          "Direct fetch of that URL failed with HTTP 400.",
+          "Homepage fetch yielded an empty RSS-style page without API documentation."
+        ],
+        "uncertainty": [
+          "Whether the scorer works with a specific query/body schema.",
+          "Pricing, ToS, data retention, and affiliation with AceTagGen.",
+          "Whether scores relate to Suno music quality, tags, or something else."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:09:49.488Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Unofficial Suno prompt/tag scoring HTTP endpoint",
+        "description": "Exposes a public scorer for Suno-related tags via a web API path; currently unauthenticated and poorly documented.",
+        "pros": [
+          "Appears in a curated Suno resource list as a public scorer API.",
+          "URL path suggests a focused scoring endpoint rather than a news roundup."
+        ],
+        "cons": [
+          "Canonical URL returns HTTP 400 with no documented request contract.",
+          "No official Suno affiliation, README, or SDK surface was available.",
+          "Site content did not describe inputs, outputs, auth, or rate limits."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "prototyping",
+          "learning"
+        ],
+        "usage": {
+          "input": 6681,
+          "output": 399,
+          "cacheRead": 512,
+          "totalTokens": 7592,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:suno-ai/bark",
@@ -1474,6 +2473,16 @@
           "surroundingText": "Bark",
           "targetUrl": "https://github.com/suno-ai/bark",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bark",
+          "surroundingText": "Bark",
+          "targetUrl": "https://github.com/suno-ai/bark",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1487,13 +2496,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:54209856214d147e",
       "type": "web_url",
       "canonicalUrl": "https://elevenlabs.io",
-      "title": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+      "title": "awesome-voice-ai",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1609,6 +2618,25 @@
           "surroundingText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
           "targetUrl": "https://elevenlabs.io",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "awesome-voice-ai",
+          "surroundingText": "awesome-voice-ai",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -1626,7 +2654,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://elevenlabs.io",
@@ -1700,6 +2728,16 @@
           "surroundingText": "OpenAI TTS",
           "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "OpenAI TTS",
+          "surroundingText": "OpenAI TTS",
+          "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1713,7 +2751,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:d44d32f684e19d00",
@@ -1781,6 +2819,16 @@
           "surroundingText": "Azure Speech Services",
           "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Azure Speech Services",
+          "surroundingText": "Azure Speech Services",
+          "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1794,7 +2842,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:72a88ec293cff5a8",
@@ -1862,6 +2910,16 @@
           "surroundingText": "Deepgram Aura-2",
           "targetUrl": "https://deepgram.com/product/text-to-speech",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Deepgram Aura-2",
+          "surroundingText": "Deepgram Aura-2",
+          "targetUrl": "https://deepgram.com/product/text-to-speech",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1875,7 +2933,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:b2469c20eb5b174d",
@@ -1943,6 +3001,16 @@
           "surroundingText": "Voice AI & Voice Agents Primer",
           "targetUrl": "https://voiceaiandvoiceagents.com",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Voice AI & Voice Agents Primer",
+          "surroundingText": "Voice AI & Voice Agents Primer",
+          "targetUrl": "https://voiceaiandvoiceagents.com",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1956,7 +3024,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:485de56402c66851",
@@ -2024,6 +3092,16 @@
           "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
           "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "wildminder/awesome-ai-voice",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -2037,7 +3115,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z"
     },
     {
       "id": "web:6c2580bc3b773688",

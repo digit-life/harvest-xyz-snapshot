@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:30:00.130Z",
+  "generatedAt": "2026-10-15T10:30:00.061Z",
   "appId": "awesome-selfhosted",
   "items": [
     {
@@ -122,6 +122,16 @@
           "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -132,17 +142,69 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "This candidate points at the well-known awesome-selfhosted GitHub list, but the extracted title is the CC BY-SA 3.0 license string rather than the project name, so metadata needs a fix before listing.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.85,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "self-hosted",
+          "awesome-list",
+          "catalog",
+          "foss"
+        ],
+        "evidence": [
+          "canonicalUrl is https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "sourceEvidence repeatedly cites CC BY-SA 3.0 from README.md and awesome-selfhosted.net",
+          "type is github_repo with high confidence on the official repo"
+        ],
+        "uncertainty": [
+          "No facts.readme or excerpt was provided in this review payload",
+          "Current star counts, last commit date, and exact README wording were not re-fetched here"
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T13:44:22.658Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Curated list of free software you can host yourself",
+        "description": "Browse a community-maintained catalog of self-hosted server software with licenses, source links, and category groupings.",
+        "pros": [
+          "The canonical URL is the official awesome-selfhosted/awesome-selfhosted repository.",
+          "The list is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported.",
+          "It is a widely used, actively curated catalog of self-hosted FOSS rather than a SaaS landing page."
+        ],
+        "cons": [
+          "The proposed title is the license name, not the project name.",
+          "It is a directory of apps, not a deployable server application itself."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "homelab",
+          "learning"
+        ],
+        "usage": {
+          "input": 7262,
+          "output": 798,
+          "cacheRead": 512,
+          "totalTokens": 8572,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:cac37ca3ee2f5139",
       "type": "web_url",
       "canonicalUrl": "https://awesome-selfhosted.net",
-      "title": "HTML version",
+      "title": "awesome-selfhosted",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -258,6 +320,25 @@
           "surroundingText": "HTML version",
           "targetUrl": "https://awesome-selfhosted.net",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "awesome-selfhosted",
+          "surroundingText": "awesome-selfhosted",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -275,7 +356,63 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
+      "aiReview": {
+        "summary": "Official HTML catalog of Free Software network services and web apps you can host yourself, grouped by category with licenses and source links. It is a directory, not a deployable application.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.92,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "self-hosted",
+          "awesome-list",
+          "foss",
+          "catalog",
+          "homelab"
+        ],
+        "evidence": [
+          "canonicalUrl https://awesome-selfhosted.net matches the official HTML version cited in awesome-selfhosted/awesome-selfhosted README.",
+          "Excerpt states self-hosting definition and that the list covers Free Software network services; Non-Free is on a separate page.",
+          "Sample entries show licenses (MIT, AGPL-3.0, GPL-3.0), Docker/K8S tags, and dates into 2026.",
+          "riskFlags empty; confidenceReasons include bucket:official-web and bucket:approve."
+        ],
+        "uncertainty": [
+          "Full contributing/license text of the list itself is not in the excerpt.",
+          "Uptime and exact generation pipeline of awesome-selfhosted.net versus GitHub markdown were not independently verified in this pass."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T13:44:41.480Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Curated catalog of FOSS self-hostable network services",
+        "description": "Browse Free Software you can run on your own servers, organized by category with licenses, demos, and source links.",
+        "pros": [
+          "Official HTML version of the awesome-selfhosted list, linked from the GitHub README.",
+          "Entries include website, source, license, stack, and often Docker/demo metadata.",
+          "Separates Free Software listings from a dedicated Non-Free page.",
+          "Category coverage is broad (email, CMS, backup, DNS, media, and more) with recent activity dates in the excerpt."
+        ],
+        "cons": [
+          "The site is a discovery index, not software you deploy.",
+          "Excerpt quality of individual listed projects varies and is not guaranteed by the catalog."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "learning",
+          "production"
+        ],
+        "usage": {
+          "input": 10462,
+          "output": 665,
+          "cacheRead": 512,
+          "totalTokens": 11639,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
       "reference": {
         "source": "official-web",
         "url": "https://awesome-selfhosted.net",
@@ -287,7 +424,7 @@
       "id": "github:yourselfhosted/slash",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/yourselfhosted/slash",
-      "title": "Website",
+      "title": "Slash",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -403,6 +540,16 @@
           "surroundingText": "Website",
           "targetUrl": "https://github.com/yourselfhosted/slash",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Slash",
+          "surroundingText": "Slash",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -417,7 +564,64 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "FOSS AGPL-3.0 self-hosted short-link and bookmark manager with Docker deploy, docs, and browser extensions; listed in awesome-selfhosted.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "self-hosted",
+          "bookmarks",
+          "url-shortener",
+          "docker",
+          "agpl"
+        ],
+        "evidence": [
+          "GitHub yourselfhosted/slash: AGPL-3.0, TypeScript, 3185 stars, 148 forks, Docker image yourselfhosted/slash.",
+          "README: docker run -p 5231:5231 with volume ~/.slash/, plus docs/install.md and getting-started guides.",
+          "Chrome Web Store and Firefox Add-ons links for the extension.",
+          "awesome-selfhosted sourceEvidence points at this repo."
+        ],
+        "uncertainty": [
+          "Cannot verify last commit date or whether subscription is required for core self-hosting.",
+          "Security posture and production hardening not independently audited."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T13:45:40.567Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Self-hosted short links, collections, and traffic analytics",
+        "description": "Create human-readable s/ shortcuts, share privately or publicly, view traffic analytics, and use a browser extension on your own server.",
+        "pros": [
+          "AGPL-3.0 license is stated on the repository.",
+          "README documents a one-command Docker run plus docker-compose and install docs.",
+          "Features include shortcuts, collections, analytics, SSO docs, and Chromium/Firefox extensions.",
+          "CI workflows, Dockerfile, and ~3.2k stars indicate a maintained public project.",
+          "Already appears in awesome-selfhosted as a curated listing."
+        ],
+        "cons": [
+          "Docs include a subscription page, so some features may not be fully free.",
+          "Open issue and PR counts are non-trivial relative to a small-team project."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "homelab",
+          "production",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 2835,
+          "output": 560,
+          "cacheRead": 7296,
+          "totalTokens": 10691,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:stoatchat/self-hosted",
@@ -539,6 +743,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://github.com/stoatchat/self-hosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -553,13 +767,69 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Official Docker Compose stack for self-hosting Stoat (chat backend, web client, file server, and proxies) under AGPL-3.0, with documented domain, Caddy, and update steps.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "self-hosted",
+          "docker-compose",
+          "chat",
+          "agpl"
+        ],
+        "evidence": [
+          "https://github.com/stoatchat/self-hosted: AGPL-3.0, compose.yml, Caddyfile, generate_config.sh",
+          "README: full instance (backend, web, file server, metadata/image proxy); 2 vCPU / 2 GB recommendation",
+          "awesome-selfhosted source link to this repo",
+          "Stars 2675, forks 295, issues 19; migrations dated 20240929 and 20260218"
+        ],
+        "uncertainty": [
+          "Exact last commit date and CI health beyond listed files",
+          "Runtime stability of voice (ports 7881 and 50000-50100/udp) on arbitrary hosts",
+          "Brand/licensing constraints beyond the linked developer FAQ"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T14:12:18.508Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Docker Compose stack to run a full chat instance",
+        "description": "Deploy backend, web frontend, file server, and proxies with Compose, config generation, and domain/Caddy setup.",
+        "pros": [
+          "Repository is AGPL-3.0 licensed and provides compose.yml plus generate_config.sh.",
+          "README covers firewall, DNS, Docker install, secrets backup, and updates.",
+          "GitHub shows 2675 stars, 295 forks, 19 open issues, and recent migration files.",
+          "Listed as source in awesome-selfhosted rather than a SaaS-only landing page."
+        ],
+        "cons": [
+          "README states most official clients do not support self-hosted instances; web/PWA is the main path.",
+          "Hostinger partnership and VPS screenshots sit in the primary install path.",
+          "Updates can overwrite Revolt.toml via generate_config.sh --overwrite and require matching secrets.env."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "small team",
+          "homelab",
+          "production",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 10078,
+          "output": 591,
+          "cacheRead": 512,
+          "totalTokens": 11181,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:webtor-io/self-hosted",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/webtor-io/self-hosted",
-      "title": "Website",
+      "title": "Webtor",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -675,6 +945,16 @@
           "surroundingText": "Website",
           "targetUrl": "https://github.com/webtor-io/self-hosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Webtor",
+          "surroundingText": "Webtor",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -689,13 +969,68 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "MIT-licensed all-in-one Docker image for self-hosting torrent streaming, library, and related web UI, with documented env/volume setup and GHCR images for amd64/arm64.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.38,
+        "suggestedTags": [
+          "self-hosted",
+          "docker",
+          "torrents",
+          "streaming",
+          "media"
+        ],
+        "evidence": [
+          "Repo webtor-io/self-hosted: MIT, ~701 stars, Shell/Docker, README describes all-in-one image ghcr.io/webtor-io/self-hosted:latest.",
+          "Features include DDL, instant A/V streaming, ZIP download, library, Stremio, embed SDK.",
+          "CI workflows present (docker-image.yml, test.yml, renovate)."
+        ],
+        "uncertainty": [
+          "Exact last-commit recency and issue health not fully verified beyond file list and star counts.",
+          "Whether core services are fully FOSS vs proprietary webtor.io bits inside the image is not independently audited."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T14:20:48.054Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Self-host torrent streaming and library in one Docker image",
+        "description": "Run torrent streaming, downloads, library, and Stremio add-on locally via a single Docker image with optional auth and storage volumes.",
+        "pros": [
+          "MIT license and a documented docker run with named volumes for data, Postgres, and storage.",
+          "Published multi-arch images on GHCR for linux/amd64 and linux/arm64.",
+          "README covers admin password, API keys, domain/port, autocleaner, and storage layout.",
+          "Listed in awesome-selfhosted as Webtor."
+        ],
+        "cons": [
+          "Default install is open to anyone who can reach the port until ADMIN_PASSWORD is set.",
+          "AI subtitles and OpenSubtitles need third-party API keys.",
+          "Embedded S3 storage requires named volumes with xattr support, not bind mounts on some hosts."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "homelab",
+          "solo founder",
+          "small team",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 4269,
+          "output": 558,
+          "cacheRead": 7424,
+          "totalTokens": 12251,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:7db682e0660dc27a",
       "type": "web_url",
       "canonicalUrl": "https://homelabos.com",
-      "title": "Website",
+      "title": "HomelabOS",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -811,6 +1146,16 @@
           "surroundingText": "Website",
           "targetUrl": "https://homelabos.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HomelabOS",
+          "surroundingText": "HomelabOS",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -821,11 +1166,66 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Ansible/Docker toolkit to deploy many self-hosted apps on your own hardware, with docs and a public GitLab repo. Pipe-to-bash install and license file were not verified here, so treat it as a homelab stack rather than a polished product.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.62,
+        "riskScore": 0.38,
+        "suggestedTags": [
+          "self-hosted",
+          "homelab",
+          "ansible",
+          "docker",
+          "privacy"
+        ],
+        "evidence": [
+          "https://homelabos.com describes an offline-first personal data center with 100+ services, restic, Tor, and Ansible/Terraform deploy options.",
+          "https://gitlab.com/NickBusey/HomelabOS is public, created 2018, last activity 2026-09-28, topics ansible/docker/homelab/selfhosted.",
+          "Discovered from awesome-selfhosted README linking https://homelabos.com."
+        ],
+        "uncertainty": [
+          "SPDX license string and recent release cadence were not read from a LICENSE/changelog file.",
+          "Whether the 100+ packaged apps stay current and secure was not verified."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T14:49:37.380Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Ansible stack to self-host 100+ home-lab services",
+        "description": "Deploy, back up, and run many self-hosted apps on your LAN with Ansible, Docker, optional Tor, and restic backups.",
+        "pros": [
+          "Listed on awesome-selfhosted and ships public docs plus a GitLab repository.",
+          "Describes deploying 100+ services with restic backups, optional Tor hidden services, and Terraform bastion support.",
+          "GitLab project shows ~1.3k stars and last activity in September 2026.",
+          "Site states the project is open source and free-as-in-speech."
+        ],
+        "cons": [
+          "Homepage advertises a curl|bash one-line installer from GitLab.",
+          "Exact SPDX license file was not confirmed in this review.",
+          "Marketing site is a dated Hugo theme; maintenance depth of individual services is unclear."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "learning"
+        ],
+        "usage": {
+          "input": 20804,
+          "output": 644,
+          "cacheRead": 5120,
+          "totalTokens": 26568,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:1130c3bd41ecc13c",
@@ -947,6 +1347,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -961,7 +1371,64 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Ansible-and-Docker toolkit for deploying a catalog of self-hosted services on your own hardware; public GitLab project with recent activity and a clear FOSS homelab focus.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.78,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "self-hosted",
+          "homelab",
+          "ansible",
+          "docker",
+          "automation"
+        ],
+        "evidence": [
+          "canonicalUrl https://gitlab.com/NickBusey/HomelabOS",
+          "Project description: offline-first privacy-centric open-source data-center; topics include ansible, docker, homelab, selfhosted",
+          "Stars 1.3K, forks 288, created 2018-06-06, last activity 2026-09-28",
+          "Discovered from awesome-selfhosted curated README as Source Code"
+        ],
+        "uncertainty": [
+          "Exact SPDX license file contents",
+          "Release cadence and current default-branch health beyond last-activity date",
+          "Operational complexity and service catalog freshness"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T14:49:56.779Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Ansible/Docker stack for an offline-first homelab",
+        "description": "Deploy a catalog of self-hosted services with Ansible and Docker on your own hardware for an offline-first, privacy-focused lab.",
+        "pros": [
+          "Public GitLab repo with ~1.3k stars and Ansible/Docker-based self-hosting.",
+          "Listed in awesome-selfhosted as a source-code project.",
+          "Last recorded activity in 2026, not a dead landing page.",
+          "Described as offline-first and privacy-centric with no hosted-account requirement."
+        ],
+        "cons": [
+          "README fetch from GitLab returned page chrome rather than a clean docs excerpt.",
+          "License text was not verified in this pass.",
+          "Issue counts on GitLab were not available from the API snapshot."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "learning"
+        ],
+        "usage": {
+          "input": 1267,
+          "output": 464,
+          "cacheRead": 25728,
+          "totalTokens": 27459,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:ab93ffaab797bf33",
@@ -1083,6 +1550,16 @@
           "surroundingText": "awesomehub.web.app",
           "targetUrl": "https://awesomehub.js.org/list/selfhosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "awesomehub.web.app",
+          "surroundingText": "awesomehub.web.app",
+          "targetUrl": "https://awesomehub.js.org/list/selfhosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1093,11 +1570,63 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Web UI that browses GitHub awesome lists, including a selfhosted view linked from awesome-selfhosted. It is a directory frontend, not a deployable self-hosted server app.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.45,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "awesome-list",
+          "directory",
+          "self-hosted",
+          "github"
+        ],
+        "evidence": [
+          "canonicalUrl https://awesomehub.js.org/list/selfhosted returns title AwesomeHub and meta description Hub for awesome github repositories.",
+          "Candidate sourceEvidence repeatedly cites awesome-selfhosted README anchor awesomehub.web.app.",
+          "Rubric prefers FOSS server apps; this candidate is a web directory UI."
+        ],
+        "uncertainty": [
+          "License, GitHub source, last commit, and whether the app can be self-hosted.",
+          "Relationship between awesomehub.web.app and awesomehub.js.org.",
+          "Whether the list data is mirrored or fetched live from GitHub."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T14:58:00.178Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Browse GitHub awesome lists in a hub UI",
+        "description": "Browse curated GitHub awesome repositories, including a self-hosted software list, in a static web interface.",
+        "pros": [
+          "Linked from the official awesome-selfhosted README as awesomehub.web.app.",
+          "Meta description states it is a hub for awesome GitHub repositories.",
+          "Serves a dedicated /list/selfhosted path for that catalog."
+        ],
+        "cons": [
+          "The site is a SPA with almost no extractable docs, license, or deploy instructions.",
+          "It is not itself a FOSS self-hosted server application.",
+          "Maintenance, source repo, and pricing cannot be confirmed from the page HTML."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 397,
+          "output": 496,
+          "cacheRead": 7424,
+          "totalTokens": 8317,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:c0e7a8d88f444fce",
@@ -1219,6 +1748,16 @@
           "surroundingText": "/c/selfhosted on lemmy.world",
           "targetUrl": "https://lemmy.world/c/selfhosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1233,7 +1772,60 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Active Lemmy community for discussing self-hosted software alternatives, already linked from awesome-selfhosted. It is a forum, not a deployable app.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "self-hosting",
+          "community",
+          "forum",
+          "fediverse"
+        ],
+        "evidence": [
+          "Page title Selfhosted - Lemmy.World and description about sharing self-hosted alternatives.",
+          "Pinned welcome post and multiple posts dated within 13 hours to 2 days.",
+          "Candidate sourced repeatedly from awesome-selfhosted README.",
+          "RSS feed and detailed community rules are present."
+        ],
+        "uncertainty": [
+          "Exact subscriber count and moderation quality over time were not measured.",
+          "Instance uptime and account policy of lemmy.world were not verified."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T14:58:42.999Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Fediverse forum for self-hosting software discussion",
+        "description": "Share and discuss self-hosted alternatives to popular online services, with community rules against spam and off-topic posts.",
+        "pros": [
+          "Listed in awesome-selfhosted as a related community link.",
+          "Sidebar describes the topic as self-hosted alternatives that avoid lock-in.",
+          "Posts from the last day show ongoing discussion.",
+          "Published rules cover civility, spam, and promotional posts."
+        ],
+        "cons": [
+          "This is a hosted discussion community, not software you deploy.",
+          "Depends on a third-party Lemmy instance and user-generated content."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 5670,
+          "output": 594,
+          "cacheRead": 5120,
+          "totalTokens": 11384,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:0f7250a6a39add6f",
@@ -1355,6 +1947,16 @@
           "surroundingText": "/r/selfhosted on reddit",
           "targetUrl": "https://old.reddit.com/r/selfhosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1369,7 +1971,60 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Public Reddit community for self-hosting discussion, not a deployable FOSS server app. Useful as a related resource; depends on Reddit’s hosted platform and may require an account for full participation.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.7,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "community",
+          "self-hosted",
+          "forum",
+          "reddit"
+        ],
+        "evidence": [
+          "Candidate title and sourceEvidence anchor: /r/selfhosted on reddit from awesome-selfhosted README.",
+          "canonicalUrl is https://old.reddit.com/r/selfhosted.",
+          "Page fetch returned Reddit login/welcome HTML rather than a project README or software docs."
+        ],
+        "uncertainty": [
+          "Current subscriber count, moderation quality, and posting activity were not verified.",
+          "Whether old.reddit.com remains a stable public URL without login was not confirmed."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T14:59:25.452Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Community forum for self-hosting discussion",
+        "description": "Join a public Reddit community where people share self-hosted software, setups, and troubleshooting.",
+        "pros": [
+          "Listed in awesome-selfhosted as /r/selfhosted on Reddit.",
+          "Serves as a discussion hub rather than a product landing page.",
+          "Canonical URL points at the old.reddit.com subreddit."
+        ],
+        "cons": [
+          "Not a self-hosted application, license, or deployable stack.",
+          "Hosted on Reddit; some features require a Reddit account.",
+          "Direct fetch of the subreddit URL redirected to a Reddit login page."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "homelab",
+          "learning"
+        ],
+        "usage": {
+          "input": 319,
+          "output": 557,
+          "cacheRead": 7552,
+          "totalTokens": 8428,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:293f230f74bc7426",
@@ -1491,6 +2146,16 @@
           "surroundingText": "/r/selfhosted Matrix Channel",
           "targetUrl": "https://matrix.to",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1501,11 +2166,61 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "matrix.to is an invite landing page for Matrix rooms, not a self-hosted server app. The listing is a community chat link, so it does not belong in a tools/apps directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.7,
+        "riskScore": 0.1,
+        "suggestedTags": [
+          "matrix",
+          "community",
+          "chat",
+          "invite"
+        ],
+        "evidence": [
+          "Page title and meta describe an invite to talk on Matrix and client selection.",
+          "Source evidence is README anchor '/r/selfhosted Matrix Channel', not a software project.",
+          "canonicalUrl is https://matrix.to with no self-host docs in the fetched page."
+        ],
+        "uncertainty": [
+          "Exact room ID behind the listing was not in the fetched homepage HTML.",
+          "Could not verify whether the listed channel is still active."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T14:59:45.423Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Open Matrix rooms in a client of your choice",
+        "description": "Opens Matrix conversation invites and helps you pick a client if you do not already have one.",
+        "pros": [
+          "Official Matrix.org invite helper with a clear purpose.",
+          "Helps users join a room without needing a homeserver URL in the listing.",
+          "No malware or scam signals on the public landing page."
+        ],
+        "cons": [
+          "It is not deployable self-hosted software.",
+          "awesome-selfhosted uses the URL only as a community channel link, not as an app entry.",
+          "No license, install path, or maintenance model for operators."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 287,
+          "output": 527,
+          "cacheRead": 7424,
+          "totalTokens": 8238,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:19949d13d27f2d9a",
@@ -1627,6 +2342,16 @@
           "surroundingText": "/r/homelab on reddit",
           "targetUrl": "https://old.reddit.com/r/homelab",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1641,13 +2366,65 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "Public Reddit community for homelab hardware, racks, and self-hosted projects; useful as a discussion resource, not a deployable app.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
+        "riskScore": 0.28,
+        "suggestedTags": [
+          "homelab",
+          "community",
+          "forum",
+          "self-hosted"
+        ],
+        "evidence": [
+          "awesome-selfhosted README links to https://old.reddit.com/r/homelab as /r/homelab on reddit.",
+          "Subreddit description: welcome to share labs, projects, builds; created Jun 19, 2012; public.",
+          "Search shows recent activity including Oct 2026 posts and large subscriber counts."
+        ],
+        "uncertainty": [
+          "Exact current subscriber count varies across search snippets.",
+          "Could not load old.reddit.com without a login wall in this environment."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-15T15:00:21.892Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Community forum for home labs and self-hosted setups",
+        "description": "Share and discuss home lab hardware, networking, and self-hosted projects with sysadmins and hobbyists.",
+        "pros": [
+          "Listed in awesome-selfhosted as the /r/homelab Reddit community.",
+          "Public subreddit created in 2012 with hundreds of thousands of members and ongoing posts.",
+          "Sidebar/wiki describe it as a place to share labs, projects, and builds."
+        ],
+        "cons": [
+          "It is user-generated discussion on Reddit, not software you can self-host.",
+          "old.reddit.com/r/homelab may redirect unauthenticated users to Reddit login.",
+          "Content quality and advice vary by post; no license or deployable artifact."
+        ],
+        "pricingModel": "free",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 1193,
+          "output": 547,
+          "cacheRead": 7808,
+          "totalTokens": 9548,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:awesome-selfhosted/awesome-selfhosted-data",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
-      "title": "raw data",
+      "title": "AUTHORS",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1763,6 +2540,16 @@
           "surroundingText": "raw data",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AUTHORS",
+          "surroundingText": "AUTHORS",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1773,11 +2560,63 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "This is the machine-readable dataset that generates awesome-selfhosted, not a deployable server app. Listing it as a directory entry is circular and a poor fit for a self-hosted software catalog.",
+        "relevanceScore": 0.25,
+        "qualityScore": 0.85,
+        "riskScore": 0.1,
+        "suggestedTags": [
+          "awesome-list",
+          "self-hosted",
+          "open-data",
+          "metadata"
+        ],
+        "evidence": [
+          "README: machine-readable data for https://awesome-selfhosted.net",
+          "GitHub: 1171 stars, 1424 forks, Makefile, CC-BY-SA 3.0 in README",
+          "Workflows include build.yml, daily-update-metadata.yml, check-dead-links.yml",
+          "Source evidence is AUTHORS and raw data links from awesome-selfhosted itself"
+        ],
+        "uncertainty": [
+          "Cannot verify live CI status or last commit date beyond README badges.",
+          "Exact YAML schema and software.yaml quality not inspected file-by-file."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:00:43.401Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "YAML/data source that builds the awesome-selfhosted list",
+        "description": "Holds structured listings, icons, and CI used to generate awesome-selfhosted.net and the related GitHub markdown list.",
+        "pros": [
+          "README states it holds data used to generate awesome-selfhosted.net and the awesome-selfhosted GitHub list.",
+          "License is Creative Commons Attribution-ShareAlike 3.0 Unported, with AUTHORS listed.",
+          "Repository shows active GitHub Actions for build, metadata updates, dead-link checks, and unmaintained-project checks.",
+          "Public GitHub project with substantial stars and forks."
+        ],
+        "cons": [
+          "It is a list-generation data repo, not a self-hosted application users can deploy.",
+          "Candidate title AUTHOR comes from a README link, not the project name.",
+          "GitHub reports license as Other, so consumers must read LICENSE for CC-BY-SA terms."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "learning"
+        ],
+        "usage": {
+          "input": 3788,
+          "output": 738,
+          "cacheRead": 5120,
+          "totalTokens": 9646,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:ccbikai/awesome-homelab",
@@ -1845,6 +2684,16 @@
           "surroundingText": "Submit App",
           "targetUrl": "https://github.com/ccbikai/awesome-homelab",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Submit App",
+          "surroundingText": "Submit App",
+          "targetUrl": "https://github.com/ccbikai/awesome-homelab",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1854,11 +2703,64 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "This is a curated GitHub awesome-list of third-party homelab apps, not a deployable self-hosted server. Discovery used a mislabeled “Submit App” issue link; license is unset on GitHub.",
+        "relevanceScore": 0.28,
+        "qualityScore": 0.62,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "awesome-list",
+          "homelab",
+          "self-hosted",
+          "directory"
+        ],
+        "evidence": [
+          "README: “Curating Top Open Source Apps for Homelab Enthusiasts” plus categorized tables (Ollama, Metabase, authentik, etc.).",
+          "API: AwesomeHomelab/awesome-homelab, 2585 stars, license null, updated_at 2026-10-15, not archived.",
+          "sourceEvidence repeatedly maps README “Submit App” to github.com/ccbikai/awesome-homelab."
+        ],
+        "uncertainty": [
+          "Whether listed apps are screened for true self-hostability vs SaaS dual-license.",
+          "Exact SPDX license and quality of listed descriptions (some appear copy-paste/marketing).",
+          "Relationship between ccbikai and AwesomeHomelab org."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-15T15:01:10.020Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Curated catalog of open-source homelab apps",
+        "description": "Browse categorized GitHub links to open-source homelab software. YAML-backed list with badges; not software you install.",
+        "pros": [
+          "Repository is actively updated (pushed 2026-10-14) with ~2585 stars.",
+          "Apps are grouped by category in YAML and rendered as a large README table with GitHub badges.",
+          "Topics include homelab and self-hosted; homepage points at awesome-homelab.com."
+        ],
+        "cons": [
+          "It is a directory of other projects, not a FOSS server you can deploy.",
+          "GitHub reports license as null.",
+          "Candidate title “Submit App” is the issue-submission link, not the project name.",
+          "Issues/PRs are disabled on the repo API flags while open_issues_count is 114."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "learning",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 2917,
+          "output": 739,
+          "cacheRead": 16256,
+          "totalTokens": 19912,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "github:selfhostedpro/yacht",
@@ -1926,6 +2828,16 @@
           "surroundingText": "Yacht",
           "targetUrl": "https://github.com/selfhostedpro/yacht",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Yacht",
+          "surroundingText": "Yacht",
+          "targetUrl": "https://github.com/selfhostedpro/yacht",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -1939,7 +2851,64 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z"
+      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "aiReview": {
+        "summary": "MIT-licensed Docker container UI with templates and compose support, but the README states it is largely unmaintained and points users to incomplete rewrite/forks.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.38,
+        "riskScore": 0.55,
+        "suggestedTags": [
+          "docker",
+          "self-hosted",
+          "homelab",
+          "container-management"
+        ],
+        "evidence": [
+          "GitHub description: web UI for Docker with templating/1-click deploys; MIT License.",
+          "README: 'This application has not been updated in a while' plus links to wicked-testdeploy and Yacht-Docker-Container.",
+          "README lists Vuetify UI, templates, compose, and advanced container edit; planned monitoring/users.",
+          "Requires docker.sock and optional DISABLE_AUTH; SECRET_KEY/ADMIN_EMAIL documented.",
+          "CI workflows include build.yml, codeql-analysis.yml, and ghcr-mirror.yml."
+        ],
+        "uncertainty": [
+          "Exact last commit/release dates and whether Docker Hub images still receive security patches.",
+          "Status and completeness of yacht-nuxt rewrite and github.com/Yacht-Docker-Container.",
+          "Whether 61 stars reflects this fork vs the historically larger SelfhostedPro/Yacht project."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-15T15:02:08.538Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Self-hosted Docker UI with template-based 1-click deploys",
+        "description": "Manage Docker containers from a web UI with Portainer-style templates, compose projects, and volume settings. Alpha-quality and not actively maintained.",
+        "pros": [
+          "MIT-licensed server app with Dockerfile, compose files, and documented env vars.",
+          "Supports Portainer-compatible templates, compose, and basic/advanced container management.",
+          "Install docs exist at dev.yacht.sh and images are published on Docker Hub.",
+          "SECURITY.md, CodeQL workflow, and issue templates are present in the repo."
+        ],
+        "cons": [
+          "README states the app has not been updated in a while and a testdeploy branch will not fully build.",
+          "Authors mark it as alpha with real data-loss risk and outdated yacht.sh install instructions.",
+          "Planned features (monitoring, user management, scheduled jobs) remain unimplemented in this tree.",
+          "Low GitHub activity signal (61 stars) and development redirected to other repos."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "homelab",
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 2807,
+          "output": 737,
+          "cacheRead": 6784,
+          "totalTokens": 10328,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:208ed0dd3d1a7f85",

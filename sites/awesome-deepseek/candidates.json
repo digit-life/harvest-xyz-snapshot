@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:30:00.130Z",
+  "generatedAt": "2026-10-15T10:30:00.061Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -674,6 +674,15 @@
           "surroundingText": "DeepSeek API Docs",
           "targetUrl": "https://api-docs.deepseek.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek API Docs",
+          "surroundingText": "DeepSeek API Docs",
+          "targetUrl": "https://api-docs.deepseek.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -691,7 +700,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API documentation covering first calls, OpenAI/Anthropic-compatible endpoints, models, pricing, and agent integrations. Primary developer reference for the hosted API.",
         "relevanceScore": 1,
@@ -750,8 +759,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://api-docs.deepseek.com",
-        "contentHash": "5ae1c7505d941d3abe0a1c47caaf99bca2f2d7a51c83c2f9928eeeb9765bfbd6",
-        "excerpt": "Title: Your First API Call | DeepSeek API Docs\n\nURL Source: https://api-docs.deepseek.com/\n\nPublished Time: Thu, 24 Sep 2026 09:35:13 GMT\n\nMarkdown Content:\n[Skip to main content](https://api-docs.deepseek.com/#__docusaurus_skipToContent_fallback)\n\n[ **DeepSeek API Docs**](https://api-docs.deepseek.com/)\n\nctrl K\n\n[Resources](https://api-docs.deepseek.com/#)\n*   [Integrations](https://github.com/deepseek-ai/awesome-deepseek-integration/tree/main)\n*   [API Status](https://status.deepseek.com/)\n*   [FAQ](https://static.deepseek.com/faq/index.html?lang=en#/category/4)\n\n[English](https://api-docs.deepseek.com/#)\n*   [English](https://api-docs.deepseek.com/)\n*   [中文（中国）](https://api-docs.deepseek.com/zh-cn/)\n\n[DeepSeek Platform](https://platform.deepseek.com/)[中](https://api-docs.deepseek.com/zh-cn/ \"中文（中国）\")\n\n[Quick Start](https://api-docs.deepseek.com/)[API Guides](https://api-docs.deepseek.com/guides/vision)[API Reference](https://api-docs.deepseek.com/api/create-chat-completion)[News](ht"
+        "contentHash": "85c53e6f898402cf47c6743bfc4876fcf3de36f5ebed8f63f87ea4d462598256",
+        "excerpt": "Title: Your First API Call | DeepSeek API Docs\n\nURL Source: https://api-docs.deepseek.com/\n\nMarkdown Content:\n[Skip to main content](https://api-docs.deepseek.com/#__docusaurus_skipToContent_fallback)\n\n[ **DeepSeek API Docs**](https://api-docs.deepseek.com/)\n\nctrl K\n\n[Resources](https://api-docs.deepseek.com/#)\n*   [Integrations](https://github.com/deepseek-ai/awesome-deepseek-integration/tree/main)\n*   [API Status](https://status.deepseek.com/)\n*   [FAQ](https://static.deepseek.com/faq/index.html?lang=en#/category/4)\n\n[English](https://api-docs.deepseek.com/#)\n*   [English](https://api-docs.deepseek.com/)\n*   [中文（中国）](https://api-docs.deepseek.com/zh-cn/)\n\n[DeepSeek Platform](https://platform.deepseek.com/)[中](https://api-docs.deepseek.com/zh-cn/ \"中文（中国）\")\n\n[Quick Start](https://api-docs.deepseek.com/)[API Guides](https://api-docs.deepseek.com/guides/vision)[API Reference](https://api-docs.deepseek.com/api/create-chat-completion)[News](https://api-docs.deepseek.com/news/news260910)[Ch"
       }
     },
     {
@@ -1993,6 +2002,24 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Platform",
+          "surroundingText": "DeepSeek Platform",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://platform.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -2010,7 +2037,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API console for account signup/login and access to V4-series API docs; the captured page is mostly auth and cookies, with documentation hosted separately.",
         "relevanceScore": 0.95,
@@ -2943,6 +2970,15 @@
           "surroundingText": "deepseek-ai",
           "targetUrl": "https://huggingface.co/deepseek-ai",
           "discoveredAt": "2026-10-14T10:00:01.969Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai",
+          "surroundingText": "deepseek-ai",
+          "targetUrl": "https://huggingface.co/deepseek-ai",
+          "discoveredAt": "2026-10-15T10:00:01.483Z"
         }
       ],
       "globalFactRefs": [],
@@ -2957,7 +2993,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-14T10:00:01.969Z",
+      "updatedAt": "2026-10-15T10:00:01.483Z",
       "aiReview": {
         "summary": "Official verified Hugging Face organization for DeepSeek, hosting 100+ models, collections, and model cards. High-value hub listing for developers who need weights and cards rather than news.",
         "relevanceScore": 0.95,
@@ -69043,6 +69079,15 @@
           "surroundingText": "中文（中国）",
           "targetUrl": "https://api-docs.deepseek.com/zh-cn",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "中文（中国）",
+          "surroundingText": "中文（中国）",
+          "targetUrl": "https://api-docs.deepseek.com/zh-cn",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -69057,7 +69102,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official Simplified Chinese API docs covering first calls, OpenAI/Anthropic-compatible endpoints, models, and agent-tool setup. Prefer this over news; English docs remain the default listing unless a Chinese-language section is intended.",
         "relevanceScore": 0.95,
@@ -69683,6 +69728,15 @@
           "surroundingText": "Models &amp; Pricing",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Models &amp; Pricing",
+          "surroundingText": "Models &amp; Pricing",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -69697,7 +69751,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing current models, token pricing (peak/off-peak, cache hit/miss), context limits, and billing rules. Useful for developers comparing costs before calling the API.",
         "relevanceScore": 0.95,
@@ -70325,6 +70379,15 @@
           "surroundingText": "Token &amp; Token Usage",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Token &amp; Token Usage",
+          "surroundingText": "Token &amp; Token Usage",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -70339,7 +70402,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official API docs page explaining how tokens are defined, billed, and estimated for text and images, including an offline tokenizer download.",
         "relevanceScore": 0.92,
@@ -70967,6 +71030,15 @@
           "surroundingText": "Rate Limit &amp; Isolation",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Rate Limit &amp; Isolation",
+          "surroundingText": "Rate Limit &amp; Isolation",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -70981,7 +71053,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official API docs covering account-level concurrency limits, user_id isolation for safety/KVCache/scheduling, and HTTP keep-alive behavior including 429 handling.",
         "relevanceScore": 0.95,
@@ -71609,6 +71681,15 @@
           "surroundingText": "Error Codes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Error Codes",
+          "surroundingText": "Error Codes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -71623,7 +71704,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing HTTP error codes with causes and suggested fixes. Useful reference for integrators, though it is a short table rather than a full SDK or tutorial.",
         "relevanceScore": 0.92,
@@ -72248,6 +72329,15 @@
           "surroundingText": "DeepSeek Harness",
           "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness",
+          "surroundingText": "DeepSeek Harness",
+          "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -72262,7 +72352,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official English quickstart for DeepSeek Harness covering Web UI setup, API key/model config, workspace selection, and a first agent task. Linked from DeepSeek API docs as agent integration material.",
         "relevanceScore": 0.92,
@@ -72892,6 +72982,15 @@
           "surroundingText": "API Guides",
           "targetUrl": "https://api-docs.deepseek.com/guides/vision",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Guides",
+          "surroundingText": "API Guides",
+          "targetUrl": "https://api-docs.deepseek.com/guides/vision",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -72906,7 +73005,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for sending images to deepseek-flash (OpenAI, Anthropic, and Responses APIs), including formats, size/token limits, and code samples.",
         "relevanceScore": 0.95,
@@ -77529,6 +77628,15 @@
           "surroundingText": "Anthropic API",
           "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Anthropic API",
+          "surroundingText": "Anthropic API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -77543,7 +77651,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs guide for Anthropic-format compatibility, including base URL, SDK setup, Claude model mapping, and field-level support notes.",
         "relevanceScore": 0.95,
@@ -78173,6 +78281,15 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -78187,7 +78304,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official Chat Completions API reference for POST /chat/completions, covering request parameters, thinking mode, tools, streaming, and response schema.",
         "relevanceScore": 0.95,
@@ -79118,6 +79235,15 @@
           "surroundingText": "Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Integrations",
+          "surroundingText": "Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -79135,7 +79261,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official deepseek-ai GitHub list of apps, plugins, and frameworks that call the DeepSeek API. Useful discovery catalog, not an SDK or primary API docs.",
         "relevanceScore": 0.86,
@@ -79767,6 +79893,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -79781,7 +79916,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official English FAQ hosted on static.deepseek.com and linked from the API docs. Content is a client-rendered SPA, so the page itself is thin without JavaScript.",
         "relevanceScore": 0.82,
@@ -80407,6 +80542,15 @@
           "surroundingText": "Change Log",
           "targetUrl": "https://api-docs.deepseek.com/updates",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Change Log",
+          "surroundingText": "Change Log",
+          "targetUrl": "https://api-docs.deepseek.com/updates",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -80421,7 +80565,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs changelog listing dated model releases, model-name routing, pricing changes, and deprecations. Useful for tracking API compatibility, not a tutorial or SDK.",
         "relevanceScore": 0.86,
@@ -81047,6 +81191,15 @@
           "surroundingText": "API key",
           "targetUrl": "https://platform.deepseek.com/api_keys",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API key",
+          "surroundingText": "API key",
+          "targetUrl": "https://platform.deepseek.com/api_keys",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -81061,7 +81214,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek platform page for creating and managing API keys, linked from the API docs. It is developer tooling, not a model card or SDK, and the live page could not be fetched (HTTP 429).",
         "relevanceScore": 0.72,
@@ -81687,6 +81840,15 @@
           "surroundingText": "Claude Code",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Claude Code",
+          "surroundingText": "Claude Code",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -81701,7 +81863,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing Anthropic’s terminal coding CLI at DeepSeek via Anthropic-compatible env vars, plus install steps, web search notes, and Claude model-name mapping.",
         "relevanceScore": 0.92,
@@ -82328,6 +82490,15 @@
           "surroundingText": "Twitter",
           "targetUrl": "https://twitter.com/deepseek_ai",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Twitter",
+          "surroundingText": "Twitter",
+          "targetUrl": "https://twitter.com/deepseek_ai",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -82342,7 +82513,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek X/Twitter handle linked from API docs; it is a social feed, not developer documentation, model cards, or SDKs, so it is a weak fit for this directory.",
         "relevanceScore": 0.25,
@@ -83256,6 +83427,15 @@
           "surroundingText": "News",
           "targetUrl": "https://api-docs.deepseek.com/news/news260910",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "News",
+          "surroundingText": "News",
+          "targetUrl": "https://api-docs.deepseek.com/news/news260910",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -83270,7 +83450,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-11T01:20:00.121Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs news post announcing DeepSeek-V4.1-Flash, API alias `deepseek-flash`, pricing/routing changes, and Hugging Face/paper links. Useful as a changelog, not a standing developer reference.",
         "relevanceScore": 0.45,
@@ -84077,6 +84257,15 @@
           "surroundingText": "API Status",
           "targetUrl": "https://status.deepseek.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Status",
+          "surroundingText": "API Status",
+          "targetUrl": "https://status.deepseek.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -84091,7 +84280,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API status page linked from the API docs; useful operational reference, not model docs or an SDK.",
         "relevanceScore": 0.72,
@@ -84347,6 +84536,15 @@
           "surroundingText": "Codex",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Codex",
+          "surroundingText": "Codex",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -84361,7 +84559,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing OpenAI Codex clients (CLI, desktop, VS Code) at DeepSeek models via the Responses API, with a setup script and manual config.toml/models.json steps.",
         "relevanceScore": 0.92,
@@ -84620,6 +84818,15 @@
           "surroundingText": "OpenCode",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenCode",
+          "surroundingText": "OpenCode",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -84634,7 +84841,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to connect OpenCode to the DeepSeek provider with an API key and DeepSeek-V4-Flash. Short setup guide with screenshots; install details are deferred to the third-party download page.",
         "relevanceScore": 0.86,
@@ -84895,6 +85102,15 @@
           "surroundingText": "OpenClaw",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenClaw",
+          "surroundingText": "OpenClaw",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -84909,7 +85125,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install or reconfigure an open-source chat assistant to use DeepSeek as the model provider.",
         "relevanceScore": 0.86,
@@ -85170,6 +85386,15 @@
           "surroundingText": "Hermes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Hermes",
+          "surroundingText": "Hermes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -85184,7 +85409,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install Hermes Agent and point it at DeepSeek via API key, base URL, and model selection.",
         "relevanceScore": 0.86,
@@ -85441,6 +85666,15 @@
           "surroundingText": "Reasonix",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Reasonix",
+          "surroundingText": "Reasonix",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -85455,7 +85689,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page for wiring a terminal coding agent to DeepSeek keys and models. Short setup guide (Node, API key, npx) rather than a full SDK or model card.",
         "relevanceScore": 0.82,
@@ -85713,6 +85947,15 @@
           "surroundingText": "WorkBuddy/CodeBuddy",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "WorkBuddy/CodeBuddy",
+          "surroundingText": "WorkBuddy/CodeBuddy",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -85727,7 +85970,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs page showing how to point WorkBuddy/CodeBuddy at DeepSeek via an OpenAI-compatible Chat Completions endpoint and local models.json.",
         "relevanceScore": 0.85,
@@ -85986,6 +86229,15 @@
           "surroundingText": "Qoder",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Qoder",
+          "surroundingText": "Qoder",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -86000,7 +86252,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for connecting custom DeepSeek models in Qoder’s IDE, CLI, and JetBrains plugin, including install, API-key setup, and troubleshooting.",
         "relevanceScore": 0.86,
@@ -86260,6 +86512,15 @@
           "surroundingText": "Contribute Your Agent Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Contribute Your Agent Integrations",
+          "surroundingText": "Contribute Your Agent Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -86277,7 +86538,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "aiReview": {
         "summary": "Official DeepSeek GitHub list of how-to guides for wiring DeepSeek models into agent and coding tools. Useful directory of integrations, not an SDK or runtime.",
         "relevanceScore": 0.86,
@@ -86400,6 +86661,16 @@
           "surroundingText": "n8n-nodes-deepseek",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-deepseek",
+          "surroundingText": "n8n-nodes-deepseek",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -86413,7 +86684,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community n8n node that wraps DeepSeek chat-style calls in workflows; useful for automation users, not official DeepSeek docs or an SDK.",
         "relevanceScore": 0.45,
@@ -86531,6 +86802,16 @@
           "surroundingText": "DeepSeek Mini-Router",
           "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Mini-Router",
+          "surroundingText": "DeepSeek Mini-Router",
+          "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -86544,7 +86825,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community Codex plugin that injects task-aware prompts for DeepSeek v4 Pro/Flash; not official DeepSeek docs, model cards, or an SDK. Small-sample BigCodeBench notes and MIT source exist, but it is a niche Codex hook rather than core developer tooling.",
         "relevanceScore": 0.38,
@@ -86664,6 +86945,16 @@
           "surroundingText": "DeepSeek Harness GenUI",
           "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
           "discoveredAt": "2026-10-14T09:00:00.151Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness GenUI",
+          "surroundingText": "DeepSeek Harness GenUI",
+          "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+          "discoveredAt": "2026-10-15T09:00:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -86677,7 +86968,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-14T09:00:00.151Z",
+      "updatedAt": "2026-10-15T09:00:00.102Z",
       "aiReview": {
         "summary": "Community DeepSeek Harness plugin that generates task-specific React UIs with persisted state; useful agent tooling, not official docs or a model SDK.",
         "relevanceScore": 0.48,
@@ -86772,6 +87063,15 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://chat.deepseek.com",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://chat.deepseek.com",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://chat.deepseek.com",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -86788,7 +87088,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://chat.deepseek.com",
@@ -86838,6 +87138,15 @@
           "surroundingText": "awesome-deepseek",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -86852,13 +87161,13 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "web:8f8d5a5d2bdae13b",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
-      "title": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -86896,6 +87205,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -86912,7 +87230,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
@@ -86924,7 +87242,7 @@
       "id": "web:fdf18e54bd4dc819",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
-      "title": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -86962,6 +87280,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -86978,7 +87305,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
@@ -86990,7 +87317,7 @@
       "id": "web:54df4bfd5c7dca9d",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
-      "title": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -87028,6 +87355,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -87044,7 +87380,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
@@ -87056,7 +87392,7 @@
       "id": "web:c4c840d976967c97",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
-      "title": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -87094,6 +87430,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -87110,7 +87455,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
@@ -87160,10 +87505,19 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
-        "facts:jina:https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B"
+        "facts:official-web:https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B"
       ],
       "confidenceScore": 1,
       "confidenceReasons": [
@@ -87176,12 +87530,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
-        "contentHash": "8ee3db86c65c5925799f7c4a27d7edd64e60ad79a70c848548d2b9080c349c96",
-        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n "
+        "contentHash": "c8fe29b1048e9ca3ba00233717a9a4047e39faa450abf7e4e0cd0a4d864a3f4d",
+        "excerpt": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team &amp; Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up &quot;,&quot;chat_template&quot;:&quot;{% if not add_generation_prompt is defined %}\\n{% set add_generation_prompt = false %}\\n{% endif %}\\n{%- set ns = namespace(found=false) -%}\\n{%- for message in messages -%}\\n {%- if message['role'] == 'system' -%}\\n {%- set ns.found = true -%}\\n {%- endif -%}\\n{%- endfor -%}\\n{{bos_token}}{%- if not ns.found -%}\\n{{'You are an AI programming assistant, utilizing the Deepseek Coder model, developed by Deepseek Company, and you only answer questions related to computer science. For politically sensitive questions, security and privacy issues, and other non-compute"
       }
     },
     {
@@ -87226,6 +87580,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -87242,11 +87605,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
-        "contentHash": "2272ee4cf6cb377a71ac1f408574c2ba798a5c5526abb1d5529c6709ffdc46b5",
+        "contentHash": "f0d68f0e2962c5428d6ff3e591144b050d968ef9d698edc3a9fb782441be0756",
         "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n "
       }
     },
@@ -87254,7 +87617,7 @@
       "id": "web:e85b9fd557795988",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
-      "title": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -87292,6 +87655,15 @@
           "surroundingText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -87308,7 +87680,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
@@ -87320,7 +87692,7 @@
       "id": "web:158a068b501bbf9e",
       "type": "web_url",
       "canonicalUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
-      "title": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
+      "title": "awesome-deepseek",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -87358,6 +87730,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [
@@ -87374,7 +87755,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z",
+      "updatedAt": "2026-10-15T09:20:00.135Z",
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
@@ -87424,6 +87805,15 @@
           "surroundingText": "https://github.com/unit-mesh/auto-dev",
           "targetUrl": "https://github.com/unit-mesh/auto-dev",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/unit-mesh/auto-dev",
+          "sectionPath": [],
+          "anchorText": "https://github.com/unit-mesh/auto-dev",
+          "surroundingText": "https://github.com/unit-mesh/auto-dev",
+          "targetUrl": "https://github.com/unit-mesh/auto-dev",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87438,7 +87828,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:ai-ql/tuui",
@@ -87482,6 +87872,15 @@
           "surroundingText": "https://github.com/AI-QL/tuui",
           "targetUrl": "https://github.com/ai-ql/tuui",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/AI-QL/tuui",
+          "sectionPath": [],
+          "anchorText": "https://github.com/AI-QL/tuui",
+          "surroundingText": "https://github.com/AI-QL/tuui",
+          "targetUrl": "https://github.com/ai-ql/tuui",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87496,7 +87895,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:danilofalcao/cursor-deepseek",
@@ -87540,6 +87939,15 @@
           "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
           "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/danilofalcao/cursor-deepseek",
+          "sectionPath": [],
+          "anchorText": "https://github.com/danilofalcao/cursor-deepseek",
+          "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
+          "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87554,7 +87962,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:cohesion-org/deepseek-go",
@@ -87598,6 +88006,15 @@
           "surroundingText": "https://github.com/cohesion-org/deepseek-go",
           "targetUrl": "https://github.com/cohesion-org/deepseek-go",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/cohesion-org/deepseek-go",
+          "sectionPath": [],
+          "anchorText": "https://github.com/cohesion-org/deepseek-go",
+          "surroundingText": "https://github.com/cohesion-org/deepseek-go",
+          "targetUrl": "https://github.com/cohesion-org/deepseek-go",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87612,7 +88029,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:forgetmeai/freedeepseekapi",
@@ -87656,6 +88073,15 @@
           "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
           "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "sectionPath": [],
+          "anchorText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87670,7 +88096,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:tensorchord/deepseek-api-arena",
@@ -87714,6 +88140,15 @@
           "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
           "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/tensorchord/deepseek-api-arena",
+          "sectionPath": [],
+          "anchorText": "https://github.com/tensorchord/deepseek-api-arena",
+          "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
+          "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87728,7 +88163,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:hollisho/deepseek-ai-translate-for-translatepress",
@@ -87772,6 +88207,15 @@
           "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "sectionPath": [],
+          "anchorText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87786,7 +88230,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:deepseek-php/deepseek-php-client",
@@ -87830,6 +88274,15 @@
           "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
           "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/deepseek-php/deepseek-php-client",
+          "sectionPath": [],
+          "anchorText": "https://github.com/deepseek-php/deepseek-php-client",
+          "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
+          "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87844,7 +88297,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:yagizeraslan/deepseek-unity",
@@ -87888,6 +88341,15 @@
           "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
           "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "sectionPath": [],
+          "anchorText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87902,7 +88364,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     },
     {
       "id": "github:xxxkkw/deepseek-atlas-chat",
@@ -87946,6 +88408,15 @@
           "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
           "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "sectionPath": [],
+          "anchorText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
+          "discoveredAt": "2026-10-15T09:20:00.135Z"
         }
       ],
       "globalFactRefs": [],
@@ -87960,7 +88431,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-15T09:20:00.135Z"
     }
   ]
 }
