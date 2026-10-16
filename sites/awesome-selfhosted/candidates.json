@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:30:00.061Z",
+  "generatedAt": "2026-10-16T11:32:58.407Z",
   "appId": "awesome-selfhosted",
   "items": [
     {
@@ -132,6 +132,25 @@
           "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -146,7 +165,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "This candidate points at the well-known awesome-selfhosted GitHub list, but the extracted title is the CC BY-SA 3.0 license string rather than the project name, so metadata needs a fix before listing.",
         "relevanceScore": 0.95,
@@ -204,7 +223,7 @@
       "id": "web:cac37ca3ee2f5139",
       "type": "web_url",
       "canonicalUrl": "https://awesome-selfhosted.net",
-      "title": "awesome-selfhosted",
+      "title": "HTML version",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -339,6 +358,25 @@
           "surroundingText": "awesome-selfhosted",
           "targetUrl": "https://awesome-selfhosted.net",
           "discoveredAt": "2026-10-15T09:20:00.135Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [
@@ -356,7 +394,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:20:00.135Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Official HTML catalog of Free Software network services and web apps you can host yourself, grouped by category with licenses and source links. It is a directory, not a deployable application.",
         "relevanceScore": 0.95,
@@ -416,7 +454,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://awesome-selfhosted.net",
-        "contentHash": "7673dbbba1192a08ecc60e5bbb6b954d4ebfdc5f578ed9dea384a2f7d163b247",
+        "contentHash": "c3af5c46c0ca80c66b2887b10aef6ccd4ad427e31664e38a3250d2535fbe3849",
         "excerpt": "Title: awesome-selfhosted\n\nURL Source: https://awesome-selfhosted.net/\n\nMarkdown Content:\nHide navigation sidebar\nHide table of contents sidebar\nawesome-selfhosted\nAnalytics\nArchiving and Digital Preservation (DP)\nAutomation\nBackup\nBlogging Platforms\nBooking and Scheduling\nBookmarks and Link Sharing\nCalendar & Contacts\nCommunication - Custom Communication Systems\nCommunication - Email - Complete Solutions\nCommunication - Email - Mail Delivery Agents\nCommunication - Email - Mail Transfer Agents\nCommunication - Email - Mailing Lists and Newsletters\nCommunication - Email - Webmail Clients\nCommunication - IRC\nCommunication - SIP\nCommunication - Social Networks and Forums\nCommunication - Video Conferencing\nCommunication - XMPP - Servers\nCommunication - XMPP - Web Clients\nCommunity-Supported Agriculture (CSA)\nConference Management\nContent Management Systems (CMS)\nCustomer Relationship Management (CRM)\nDatabase Management\nDNS\nDocument Management\nDocument Management - E-books\nDocument Manageme"
       }
     },
@@ -424,7 +462,7 @@
       "id": "github:yourselfhosted/slash",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/yourselfhosted/slash",
-      "title": "Slash",
+      "title": "Website",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -550,6 +588,25 @@
           "surroundingText": "Slash",
           "targetUrl": "https://github.com/yourselfhosted/slash",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Slash",
+          "surroundingText": "Slash",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -564,7 +621,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "FOSS AGPL-3.0 self-hosted short-link and bookmark manager with Docker deploy, docs, and browser extensions; listed in awesome-selfhosted.",
         "relevanceScore": 0.92,
@@ -753,6 +810,25 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://github.com/stoatchat/self-hosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -767,7 +843,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Official Docker Compose stack for self-hosting Stoat (chat backend, web client, file server, and proxies) under AGPL-3.0, with documented domain, Caddy, and update steps.",
         "relevanceScore": 0.92,
@@ -829,7 +905,7 @@
       "id": "github:webtor-io/self-hosted",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/webtor-io/self-hosted",
-      "title": "Webtor",
+      "title": "Website",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -955,6 +1031,25 @@
           "surroundingText": "Webtor",
           "targetUrl": "https://github.com/webtor-io/self-hosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Webtor",
+          "surroundingText": "Webtor",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -969,7 +1064,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "MIT-licensed all-in-one Docker image for self-hosting torrent streaming, library, and related web UI, with documented env/volume setup and GHCR images for amd64/arm64.",
         "relevanceScore": 0.92,
@@ -1030,7 +1125,7 @@
       "id": "web:7db682e0660dc27a",
       "type": "web_url",
       "canonicalUrl": "https://homelabos.com",
-      "title": "HomelabOS",
+      "title": "Website",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1156,6 +1251,25 @@
           "surroundingText": "HomelabOS",
           "targetUrl": "https://homelabos.com",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HomelabOS",
+          "surroundingText": "HomelabOS",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -1170,7 +1284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Ansible/Docker toolkit to deploy many self-hosted apps on your own hardware, with docs and a public GitLab repo. Pipe-to-bash install and license file were not verified here, so treat it as a homelab stack rather than a polished product.",
         "relevanceScore": 0.82,
@@ -1357,6 +1471,25 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -1371,7 +1504,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Ansible-and-Docker toolkit for deploying a catalog of self-hosted services on your own hardware; public GitLab project with recent activity and a clear FOSS homelab focus.",
         "relevanceScore": 0.92,
@@ -1560,6 +1693,25 @@
           "surroundingText": "awesomehub.web.app",
           "targetUrl": "https://awesomehub.js.org/list/selfhosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "awesomehub.web.app",
+          "surroundingText": "awesomehub.web.app",
+          "targetUrl": "https://awesomehub.js.org/list/selfhosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "awesomehub.web.app",
+          "surroundingText": "awesomehub.web.app",
+          "targetUrl": "https://awesomehub.js.org/list/selfhosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -1574,7 +1726,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Web UI that browses GitHub awesome lists, including a selfhosted view linked from awesome-selfhosted. It is a directory frontend, not a deployable self-hosted server app.",
         "relevanceScore": 0.55,
@@ -1758,6 +1910,25 @@
           "surroundingText": "/c/selfhosted on lemmy.world",
           "targetUrl": "https://lemmy.world/c/selfhosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -1772,7 +1943,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Active Lemmy community for discussing self-hosted software alternatives, already linked from awesome-selfhosted. It is a forum, not a deployable app.",
         "relevanceScore": 0.72,
@@ -1957,6 +2128,25 @@
           "surroundingText": "/r/selfhosted on reddit",
           "targetUrl": "https://old.reddit.com/r/selfhosted",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -1971,7 +2161,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Public Reddit community for self-hosting discussion, not a deployable FOSS server app. Useful as a related resource; depends on Reddit’s hosted platform and may require an account for full participation.",
         "relevanceScore": 0.72,
@@ -2156,6 +2346,25 @@
           "surroundingText": "/r/selfhosted Matrix Channel",
           "targetUrl": "https://matrix.to",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -2170,7 +2379,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "matrix.to is an invite landing page for Matrix rooms, not a self-hosted server app. The listing is a community chat link, so it does not belong in a tools/apps directory.",
         "relevanceScore": 0.15,
@@ -2352,6 +2561,25 @@
           "surroundingText": "/r/homelab on reddit",
           "targetUrl": "https://old.reddit.com/r/homelab",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -2366,7 +2594,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "Public Reddit community for homelab hardware, racks, and self-hosted projects; useful as a discussion resource, not a deployable app.",
         "relevanceScore": 0.72,
@@ -2424,7 +2652,7 @@
       "id": "github:awesome-selfhosted/awesome-selfhosted-data",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
-      "title": "AUTHORS",
+      "title": "raw data",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2550,6 +2778,25 @@
           "surroundingText": "AUTHORS",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AUTHORS",
+          "surroundingText": "AUTHORS",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "raw data",
+          "surroundingText": "raw data",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -2564,7 +2811,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:20:00.059Z",
       "aiReview": {
         "summary": "This is the machine-readable dataset that generates awesome-selfhosted, not a deployable server app. Listing it as a directory entry is circular and a poor fit for a self-hosted software catalog.",
         "relevanceScore": 0.25,
@@ -2694,6 +2941,16 @@
           "surroundingText": "Submit App",
           "targetUrl": "https://github.com/ccbikai/awesome-homelab",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Submit App",
+          "surroundingText": "Submit App",
+          "targetUrl": "https://github.com/ccbikai/awesome-homelab",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
         }
       ],
       "globalFactRefs": [],
@@ -2707,7 +2964,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:00:00.080Z",
       "aiReview": {
         "summary": "This is a curated GitHub awesome-list of third-party homelab apps, not a deployable self-hosted server. Discovery used a mislabeled “Submit App” issue link; license is unset on GitHub.",
         "relevanceScore": 0.28,
@@ -2838,6 +3095,16 @@
           "surroundingText": "Yacht",
           "targetUrl": "https://github.com/selfhostedpro/yacht",
           "discoveredAt": "2026-10-15T09:00:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Yacht",
+          "surroundingText": "Yacht",
+          "targetUrl": "https://github.com/selfhostedpro/yacht",
+          "discoveredAt": "2026-10-16T09:00:00.080Z"
         }
       ],
       "globalFactRefs": [],
@@ -2851,7 +3118,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-15T09:00:00.102Z",
+      "updatedAt": "2026-10-16T09:00:00.080Z",
       "aiReview": {
         "summary": "MIT-licensed Docker container UI with templates and compose support, but the README states it is largely unmaintained and points users to incomplete rewrite/forks.",
         "relevanceScore": 0.72,
@@ -2970,6 +3237,15 @@
           "surroundingText": "Analytics",
           "targetUrl": "https://awesome-selfhosted.net/tags/analytics.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Analytics",
+          "surroundingText": "Analytics",
+          "targetUrl": "https://awesome-selfhosted.net/tags/analytics.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -2984,7 +3260,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e8ec48a7d2715af0",
@@ -3046,6 +3322,15 @@
           "surroundingText": "Archiving and Digital Preservation (DP)",
           "targetUrl": "https://awesome-selfhosted.net/tags/archiving-and-digital-preservation-dp.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Archiving and Digital Preservation (DP)",
+          "surroundingText": "Archiving and Digital Preservation (DP)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/archiving-and-digital-preservation-dp.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3060,7 +3345,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e96c4552452cd3c7",
@@ -3122,6 +3407,15 @@
           "surroundingText": "Automation",
           "targetUrl": "https://awesome-selfhosted.net/tags/automation.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Automation",
+          "surroundingText": "Automation",
+          "targetUrl": "https://awesome-selfhosted.net/tags/automation.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3136,7 +3430,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:2e7cf71765929a27",
@@ -3198,6 +3492,15 @@
           "surroundingText": "Backup",
           "targetUrl": "https://awesome-selfhosted.net/tags/backup.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Backup",
+          "surroundingText": "Backup",
+          "targetUrl": "https://awesome-selfhosted.net/tags/backup.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3212,7 +3515,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:206ca41c36d24390",
@@ -3274,6 +3577,15 @@
           "surroundingText": "Blogging Platforms",
           "targetUrl": "https://awesome-selfhosted.net/tags/blogging-platforms.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Blogging Platforms",
+          "surroundingText": "Blogging Platforms",
+          "targetUrl": "https://awesome-selfhosted.net/tags/blogging-platforms.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3288,7 +3600,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:3b217aa2b138e435",
@@ -3350,6 +3662,15 @@
           "surroundingText": "Booking and Scheduling",
           "targetUrl": "https://awesome-selfhosted.net/tags/booking-and-scheduling.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Booking and Scheduling",
+          "surroundingText": "Booking and Scheduling",
+          "targetUrl": "https://awesome-selfhosted.net/tags/booking-and-scheduling.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3364,7 +3685,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5eedbb6184844eae",
@@ -3426,6 +3747,15 @@
           "surroundingText": "Bookmarks and Link Sharing",
           "targetUrl": "https://awesome-selfhosted.net/tags/bookmarks-and-link-sharing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Bookmarks and Link Sharing",
+          "surroundingText": "Bookmarks and Link Sharing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/bookmarks-and-link-sharing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3440,7 +3770,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:7543fe82aa41d347",
@@ -3502,6 +3832,15 @@
           "surroundingText": "Calendar &amp; Contacts",
           "targetUrl": "https://awesome-selfhosted.net/tags/calendar--contacts.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Calendar &amp; Contacts",
+          "surroundingText": "Calendar &amp; Contacts",
+          "targetUrl": "https://awesome-selfhosted.net/tags/calendar--contacts.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3516,7 +3855,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:ed542735128413d8",
@@ -3578,6 +3917,15 @@
           "surroundingText": "Communication - Custom Communication Systems",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---custom-communication-systems.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Custom Communication Systems",
+          "surroundingText": "Communication - Custom Communication Systems",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---custom-communication-systems.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3592,7 +3940,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:c4d8cc0a27820c82",
@@ -3654,6 +4002,15 @@
           "surroundingText": "Communication - Email - Complete Solutions",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---complete-solutions.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Complete Solutions",
+          "surroundingText": "Communication - Email - Complete Solutions",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---complete-solutions.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3668,7 +4025,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:60fb3a948cd56e69",
@@ -3730,6 +4087,15 @@
           "surroundingText": "Communication - Email - Mail Delivery Agents",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-delivery-agents.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mail Delivery Agents",
+          "surroundingText": "Communication - Email - Mail Delivery Agents",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-delivery-agents.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3744,7 +4110,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:926ac35a5705ab7e",
@@ -3806,6 +4172,15 @@
           "surroundingText": "Communication - Email - Mail Transfer Agents",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-transfer-agents.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mail Transfer Agents",
+          "surroundingText": "Communication - Email - Mail Transfer Agents",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-transfer-agents.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3820,7 +4195,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5ad5d1dec564d255",
@@ -3882,6 +4257,15 @@
           "surroundingText": "Communication - Email - Mailing Lists and Newsletters",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mailing-lists-and-newsletters.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mailing Lists and Newsletters",
+          "surroundingText": "Communication - Email - Mailing Lists and Newsletters",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mailing-lists-and-newsletters.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3896,7 +4280,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:b1833d03218000c6",
@@ -3958,6 +4342,15 @@
           "surroundingText": "Communication - Email - Webmail Clients",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---webmail-clients.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Webmail Clients",
+          "surroundingText": "Communication - Email - Webmail Clients",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---webmail-clients.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -3972,7 +4365,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:cdb5e91a19de3ef5",
@@ -4034,6 +4427,15 @@
           "surroundingText": "Communication - IRC",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---irc.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - IRC",
+          "surroundingText": "Communication - IRC",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---irc.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4048,7 +4450,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:cd70f575af4e42db",
@@ -4110,6 +4512,15 @@
           "surroundingText": "Communication - SIP",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---sip.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - SIP",
+          "surroundingText": "Communication - SIP",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---sip.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4124,7 +4535,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:d2d7780ad26522c8",
@@ -4186,6 +4597,15 @@
           "surroundingText": "Communication - Social Networks and Forums",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---social-networks-and-forums.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Social Networks and Forums",
+          "surroundingText": "Communication - Social Networks and Forums",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---social-networks-and-forums.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4200,7 +4620,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:854f232dc4bab1f3",
@@ -4262,6 +4682,15 @@
           "surroundingText": "Communication - Video Conferencing",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---video-conferencing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Video Conferencing",
+          "surroundingText": "Communication - Video Conferencing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---video-conferencing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4276,7 +4705,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:301be9cd763eb4a4",
@@ -4338,6 +4767,15 @@
           "surroundingText": "Communication - XMPP - Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---servers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - XMPP - Servers",
+          "surroundingText": "Communication - XMPP - Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---servers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4352,7 +4790,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:60bbc2b3853c4c2d",
@@ -4414,6 +4852,15 @@
           "surroundingText": "Communication - XMPP - Web Clients",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---web-clients.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - XMPP - Web Clients",
+          "surroundingText": "Communication - XMPP - Web Clients",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---web-clients.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4428,7 +4875,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9836e3e7536b63e8",
@@ -4490,6 +4937,15 @@
           "surroundingText": "Community-Supported Agriculture (CSA)",
           "targetUrl": "https://awesome-selfhosted.net/tags/community-supported-agriculture-csa.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Community-Supported Agriculture (CSA)",
+          "surroundingText": "Community-Supported Agriculture (CSA)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/community-supported-agriculture-csa.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4504,7 +4960,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:4da03a07dbb58179",
@@ -4566,6 +5022,15 @@
           "surroundingText": "Conference Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/conference-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Conference Management",
+          "surroundingText": "Conference Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/conference-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4580,7 +5045,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:51dcb2e70515147d",
@@ -4642,6 +5107,15 @@
           "surroundingText": "Content Management Systems (CMS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/content-management-systems-cms.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Content Management Systems (CMS)",
+          "surroundingText": "Content Management Systems (CMS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/content-management-systems-cms.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4656,7 +5130,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:6b67c393a14292a5",
@@ -4718,6 +5192,15 @@
           "surroundingText": "Customer Relationship Management (CRM)",
           "targetUrl": "https://awesome-selfhosted.net/tags/customer-relationship-management-crm.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Customer Relationship Management (CRM)",
+          "surroundingText": "Customer Relationship Management (CRM)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/customer-relationship-management-crm.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4732,7 +5215,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:45f161b3cf95fa78",
@@ -4794,6 +5277,15 @@
           "surroundingText": "Database Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/database-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Database Management",
+          "surroundingText": "Database Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/database-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4808,7 +5300,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:4e92f7da895e579c",
@@ -4870,6 +5362,15 @@
           "surroundingText": "DNS",
           "targetUrl": "https://awesome-selfhosted.net/tags/dns.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "DNS",
+          "surroundingText": "DNS",
+          "targetUrl": "https://awesome-selfhosted.net/tags/dns.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4884,7 +5385,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e78cae8b492d86f5",
@@ -4946,6 +5447,15 @@
           "surroundingText": "Document Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management",
+          "surroundingText": "Document Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -4960,7 +5470,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:38f76b4f5ee5f1c1",
@@ -5022,6 +5532,15 @@
           "surroundingText": "Document Management - E-books",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---e-books.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - E-books",
+          "surroundingText": "Document Management - E-books",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---e-books.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5036,7 +5555,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:ae94a315b57cf65a",
@@ -5098,6 +5617,15 @@
           "surroundingText": "Document Management - Institutional Repository and Digital Library Software",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---institutional-repository-and-digital-library-software.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - Institutional Repository and Digital Library Software",
+          "surroundingText": "Document Management - Institutional Repository and Digital Library Software",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---institutional-repository-and-digital-library-software.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5112,7 +5640,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:35bbcc467b353557",
@@ -5174,6 +5702,15 @@
           "surroundingText": "Document Management - Integrated Library Systems (ILS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---integrated-library-systems-ils.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - Integrated Library Systems (ILS)",
+          "surroundingText": "Document Management - Integrated Library Systems (ILS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---integrated-library-systems-ils.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5188,7 +5725,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:833a9978a8cf14eb",
@@ -5250,6 +5787,15 @@
           "surroundingText": "E-commerce",
           "targetUrl": "https://awesome-selfhosted.net/tags/e-commerce.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "E-commerce",
+          "surroundingText": "E-commerce",
+          "targetUrl": "https://awesome-selfhosted.net/tags/e-commerce.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5264,7 +5810,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5f2f8def706c33e1",
@@ -5326,6 +5872,15 @@
           "surroundingText": "Federated Identity &amp; Authentication",
           "targetUrl": "https://awesome-selfhosted.net/tags/federated-identity--authentication.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Federated Identity &amp; Authentication",
+          "surroundingText": "Federated Identity &amp; Authentication",
+          "targetUrl": "https://awesome-selfhosted.net/tags/federated-identity--authentication.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5340,7 +5895,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:181ce92ed9781253",
@@ -5402,6 +5957,15 @@
           "surroundingText": "Feed Readers",
           "targetUrl": "https://awesome-selfhosted.net/tags/feed-readers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Feed Readers",
+          "surroundingText": "Feed Readers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/feed-readers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5416,7 +5980,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9f90eef7a6896ece",
@@ -5478,6 +6042,15 @@
           "surroundingText": "File Transfer &amp; Synchronization",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer--synchronization.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer &amp; Synchronization",
+          "surroundingText": "File Transfer &amp; Synchronization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer--synchronization.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5492,7 +6065,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:25543f774809fc43",
@@ -5554,6 +6127,15 @@
           "surroundingText": "File Transfer - Distributed Filesystems",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---distributed-filesystems.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Distributed Filesystems",
+          "surroundingText": "File Transfer - Distributed Filesystems",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---distributed-filesystems.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5568,7 +6150,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:965e705ce7ee7536",
@@ -5630,6 +6212,15 @@
           "surroundingText": "File Transfer - Object Storage &amp; File Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Object Storage &amp; File Servers",
+          "surroundingText": "File Transfer - Object Storage &amp; File Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5644,7 +6235,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:62f16db5c266ebd5",
@@ -5706,6 +6297,15 @@
           "surroundingText": "File Transfer - Peer-to-peer Filesharing",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---peer-to-peer-filesharing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Peer-to-peer Filesharing",
+          "surroundingText": "File Transfer - Peer-to-peer Filesharing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---peer-to-peer-filesharing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5720,7 +6320,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:4112a0e52f87b627",
@@ -5782,6 +6382,15 @@
           "surroundingText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---single-click--drag-n-drop-upload.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
+          "surroundingText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---single-click--drag-n-drop-upload.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5796,7 +6405,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fe61fe7fe7ca32a1",
@@ -5858,6 +6467,15 @@
           "surroundingText": "File Transfer - Web-based File Managers",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Web-based File Managers",
+          "surroundingText": "File Transfer - Web-based File Managers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5872,7 +6490,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5d3d7f2666a4da14",
@@ -5934,6 +6552,15 @@
           "surroundingText": "Games",
           "targetUrl": "https://awesome-selfhosted.net/tags/games.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Games",
+          "surroundingText": "Games",
+          "targetUrl": "https://awesome-selfhosted.net/tags/games.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -5948,7 +6575,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:aa519023a624858d",
@@ -6010,6 +6637,15 @@
           "surroundingText": "Games - Administrative Utilities &amp; Control Panels",
           "targetUrl": "https://awesome-selfhosted.net/tags/games---administrative-utilities--control-panels.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Games - Administrative Utilities &amp; Control Panels",
+          "surroundingText": "Games - Administrative Utilities &amp; Control Panels",
+          "targetUrl": "https://awesome-selfhosted.net/tags/games---administrative-utilities--control-panels.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6024,7 +6660,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:0713594acfeaa739",
@@ -6086,6 +6722,15 @@
           "surroundingText": "Genealogy",
           "targetUrl": "https://awesome-selfhosted.net/tags/genealogy.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Genealogy",
+          "surroundingText": "Genealogy",
+          "targetUrl": "https://awesome-selfhosted.net/tags/genealogy.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6100,7 +6745,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9451872986666fcf",
@@ -6162,6 +6807,15 @@
           "surroundingText": "Generative Artificial Intelligence (GenAI)",
           "targetUrl": "https://awesome-selfhosted.net/tags/generative-artificial-intelligence-genai.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Generative Artificial Intelligence (GenAI)",
+          "surroundingText": "Generative Artificial Intelligence (GenAI)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/generative-artificial-intelligence-genai.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6176,7 +6830,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:985ee4c4c386cb5a",
@@ -6238,6 +6892,15 @@
           "surroundingText": "Groupware",
           "targetUrl": "https://awesome-selfhosted.net/tags/groupware.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Groupware",
+          "surroundingText": "Groupware",
+          "targetUrl": "https://awesome-selfhosted.net/tags/groupware.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6252,7 +6915,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:ceab296e0d5a3e59",
@@ -6314,6 +6977,15 @@
           "surroundingText": "Health and Fitness",
           "targetUrl": "https://awesome-selfhosted.net/tags/health-and-fitness.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Health and Fitness",
+          "surroundingText": "Health and Fitness",
+          "targetUrl": "https://awesome-selfhosted.net/tags/health-and-fitness.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6328,7 +7000,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:57de8f3e55fb97ac",
@@ -6390,6 +7062,15 @@
           "surroundingText": "Human Resources Management (HRM)",
           "targetUrl": "https://awesome-selfhosted.net/tags/human-resources-management-hrm.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Human Resources Management (HRM)",
+          "surroundingText": "Human Resources Management (HRM)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/human-resources-management-hrm.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6404,7 +7085,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:d0551f58300a8ac8",
@@ -6466,6 +7147,15 @@
           "surroundingText": "Identity Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/identity-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Identity Management",
+          "surroundingText": "Identity Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/identity-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6480,7 +7170,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e5ee71417d9302bf",
@@ -6542,6 +7232,15 @@
           "surroundingText": "Internet of Things (IoT)",
           "targetUrl": "https://awesome-selfhosted.net/tags/internet-of-things-iot.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Internet of Things (IoT)",
+          "surroundingText": "Internet of Things (IoT)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/internet-of-things-iot.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6556,7 +7255,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9dd21d8b0b613d8d",
@@ -6618,6 +7317,15 @@
           "surroundingText": "Inventory Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/inventory-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Inventory Management",
+          "surroundingText": "Inventory Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/inventory-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6632,7 +7340,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:8077f463a883d750",
@@ -6694,6 +7402,15 @@
           "surroundingText": "Knowledge Management Tools",
           "targetUrl": "https://awesome-selfhosted.net/tags/knowledge-management-tools.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Knowledge Management Tools",
+          "surroundingText": "Knowledge Management Tools",
+          "targetUrl": "https://awesome-selfhosted.net/tags/knowledge-management-tools.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6708,7 +7425,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:84f6062697890e98",
@@ -6770,6 +7487,15 @@
           "surroundingText": "Learning and Courses",
           "targetUrl": "https://awesome-selfhosted.net/tags/learning-and-courses.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Learning and Courses",
+          "surroundingText": "Learning and Courses",
+          "targetUrl": "https://awesome-selfhosted.net/tags/learning-and-courses.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6784,7 +7510,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9afef0bc5a6b346c",
@@ -6846,6 +7572,15 @@
           "surroundingText": "Manufacturing",
           "targetUrl": "https://awesome-selfhosted.net/tags/manufacturing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Manufacturing",
+          "surroundingText": "Manufacturing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/manufacturing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6860,7 +7595,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:6a2903a84aa008e6",
@@ -6922,6 +7657,15 @@
           "surroundingText": "Maps and Global Positioning System (GPS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/maps-and-global-positioning-system-gps.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Maps and Global Positioning System (GPS)",
+          "surroundingText": "Maps and Global Positioning System (GPS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/maps-and-global-positioning-system-gps.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -6936,7 +7680,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:aa822b873f1b6f5b",
@@ -6998,6 +7742,15 @@
           "surroundingText": "Media Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Management",
+          "surroundingText": "Media Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7012,7 +7765,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e0555eeda2f64574",
@@ -7074,6 +7827,15 @@
           "surroundingText": "Media Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming",
+          "surroundingText": "Media Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7088,7 +7850,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:8b9111c3878ecc4e",
@@ -7150,6 +7912,15 @@
           "surroundingText": "Media Streaming - Audio Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---audio-streaming.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Audio Streaming",
+          "surroundingText": "Media Streaming - Audio Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---audio-streaming.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7164,7 +7935,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5a30f9f1a2c0696e",
@@ -7226,6 +7997,15 @@
           "surroundingText": "Media Streaming - Multimedia Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---multimedia-streaming.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Multimedia Streaming",
+          "surroundingText": "Media Streaming - Multimedia Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---multimedia-streaming.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7240,7 +8020,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:d30260b74e167eeb",
@@ -7302,6 +8082,15 @@
           "surroundingText": "Media Streaming - Video Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---video-streaming.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Video Streaming",
+          "surroundingText": "Media Streaming - Video Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---video-streaming.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7316,7 +8105,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:7e7c1720ba5d4d6a",
@@ -7378,6 +8167,15 @@
           "surroundingText": "Miscellaneous",
           "targetUrl": "https://awesome-selfhosted.net/tags/miscellaneous.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Miscellaneous",
+          "surroundingText": "Miscellaneous",
+          "targetUrl": "https://awesome-selfhosted.net/tags/miscellaneous.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7392,7 +8190,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5c5db01125b37898",
@@ -7454,6 +8252,15 @@
           "surroundingText": "Money, Budgeting &amp; Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/money-budgeting--management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Money, Budgeting &amp; Management",
+          "surroundingText": "Money, Budgeting &amp; Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/money-budgeting--management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7468,7 +8275,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:6e9e77890032eddd",
@@ -7530,6 +8337,15 @@
           "surroundingText": "Monitoring &amp; Status Pages",
           "targetUrl": "https://awesome-selfhosted.net/tags/monitoring--status-pages.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Monitoring &amp; Status Pages",
+          "surroundingText": "Monitoring &amp; Status Pages",
+          "targetUrl": "https://awesome-selfhosted.net/tags/monitoring--status-pages.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7544,7 +8360,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:bc2d01f961756f9d",
@@ -7606,6 +8422,15 @@
           "surroundingText": "Network Utilities",
           "targetUrl": "https://awesome-selfhosted.net/tags/network-utilities.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Network Utilities",
+          "surroundingText": "Network Utilities",
+          "targetUrl": "https://awesome-selfhosted.net/tags/network-utilities.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7620,7 +8445,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:b0c6912b1b07f51c",
@@ -7682,6 +8507,15 @@
           "surroundingText": "Note-taking &amp; Editors",
           "targetUrl": "https://awesome-selfhosted.net/tags/note-taking--editors.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Note-taking &amp; Editors",
+          "surroundingText": "Note-taking &amp; Editors",
+          "targetUrl": "https://awesome-selfhosted.net/tags/note-taking--editors.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7696,7 +8530,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:82ed67d5969c2aad",
@@ -7758,6 +8592,15 @@
           "surroundingText": "Office Suites",
           "targetUrl": "https://awesome-selfhosted.net/tags/office-suites.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Office Suites",
+          "surroundingText": "Office Suites",
+          "targetUrl": "https://awesome-selfhosted.net/tags/office-suites.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7772,7 +8615,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:68e3cd805dacb74a",
@@ -7834,6 +8677,15 @@
           "surroundingText": "Password Managers",
           "targetUrl": "https://awesome-selfhosted.net/tags/password-managers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Password Managers",
+          "surroundingText": "Password Managers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/password-managers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7848,7 +8700,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:94662518fdf59185",
@@ -7910,6 +8762,15 @@
           "surroundingText": "Pastebins",
           "targetUrl": "https://awesome-selfhosted.net/tags/pastebins.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Pastebins",
+          "surroundingText": "Pastebins",
+          "targetUrl": "https://awesome-selfhosted.net/tags/pastebins.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -7924,7 +8785,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:82f81fd519cb4e3f",
@@ -7986,6 +8847,15 @@
           "surroundingText": "Personal Dashboards",
           "targetUrl": "https://awesome-selfhosted.net/tags/personal-dashboards.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Personal Dashboards",
+          "surroundingText": "Personal Dashboards",
+          "targetUrl": "https://awesome-selfhosted.net/tags/personal-dashboards.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8000,7 +8870,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:99cce37effe640de",
@@ -8062,6 +8932,15 @@
           "surroundingText": "Photo Galleries",
           "targetUrl": "https://awesome-selfhosted.net/tags/photo-galleries.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Photo Galleries",
+          "surroundingText": "Photo Galleries",
+          "targetUrl": "https://awesome-selfhosted.net/tags/photo-galleries.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8076,7 +8955,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5139209ff4859e68",
@@ -8138,6 +9017,15 @@
           "surroundingText": "Polls and Events",
           "targetUrl": "https://awesome-selfhosted.net/tags/polls-and-events.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Polls and Events",
+          "surroundingText": "Polls and Events",
+          "targetUrl": "https://awesome-selfhosted.net/tags/polls-and-events.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8152,7 +9040,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9acd47bb5585b687",
@@ -8214,6 +9102,15 @@
           "surroundingText": "Proxy",
           "targetUrl": "https://awesome-selfhosted.net/tags/proxy.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Proxy",
+          "surroundingText": "Proxy",
+          "targetUrl": "https://awesome-selfhosted.net/tags/proxy.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8228,7 +9125,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fe496c9611a05d63",
@@ -8290,6 +9187,15 @@
           "surroundingText": "Recipe Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/recipe-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Recipe Management",
+          "surroundingText": "Recipe Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/recipe-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8304,7 +9210,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:8d57808ab6f8a473",
@@ -8366,6 +9272,15 @@
           "surroundingText": "Remote Access",
           "targetUrl": "https://awesome-selfhosted.net/tags/remote-access.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Remote Access",
+          "surroundingText": "Remote Access",
+          "targetUrl": "https://awesome-selfhosted.net/tags/remote-access.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8380,7 +9295,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:1d890ab7895772db",
@@ -8442,6 +9357,15 @@
           "surroundingText": "Resource Planning",
           "targetUrl": "https://awesome-selfhosted.net/tags/resource-planning.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Resource Planning",
+          "surroundingText": "Resource Planning",
+          "targetUrl": "https://awesome-selfhosted.net/tags/resource-planning.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8456,7 +9380,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:c84eee8f814c2267",
@@ -8518,6 +9442,15 @@
           "surroundingText": "Search Engines",
           "targetUrl": "https://awesome-selfhosted.net/tags/search-engines.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Search Engines",
+          "surroundingText": "Search Engines",
+          "targetUrl": "https://awesome-selfhosted.net/tags/search-engines.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8532,7 +9465,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e11e0b0ee6a310e0",
@@ -8594,6 +9527,15 @@
           "surroundingText": "Self-hosting Solutions",
           "targetUrl": "https://awesome-selfhosted.net/tags/self-hosting-solutions.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Self-hosting Solutions",
+          "surroundingText": "Self-hosting Solutions",
+          "targetUrl": "https://awesome-selfhosted.net/tags/self-hosting-solutions.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8608,7 +9550,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:f99f61c264958dd1",
@@ -8670,6 +9612,15 @@
           "surroundingText": "Software Development",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development",
+          "surroundingText": "Software Development",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8684,7 +9635,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:2644e5bd8f9241e1",
@@ -8746,6 +9697,15 @@
           "surroundingText": "Software Development - API Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---api-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - API Management",
+          "surroundingText": "Software Development - API Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---api-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8760,7 +9720,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:0447f620edb34587",
@@ -8822,6 +9782,15 @@
           "surroundingText": "Software Development - Continuous Integration &amp; Deployment",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---continuous-integration--deployment.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Continuous Integration &amp; Deployment",
+          "surroundingText": "Software Development - Continuous Integration &amp; Deployment",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---continuous-integration--deployment.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8836,7 +9805,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:617a72d2ce812c86",
@@ -8898,6 +9867,15 @@
           "surroundingText": "Software Development - FaaS &amp; Serverless",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---faas--serverless.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - FaaS &amp; Serverless",
+          "surroundingText": "Software Development - FaaS &amp; Serverless",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---faas--serverless.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8912,7 +9890,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9274af1e593dfea8",
@@ -8974,6 +9952,15 @@
           "surroundingText": "Software Development - Feature Toggle",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---feature-toggle.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Feature Toggle",
+          "surroundingText": "Software Development - Feature Toggle",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---feature-toggle.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -8988,7 +9975,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:a2b3cd9156d639bb",
@@ -9050,6 +10037,15 @@
           "surroundingText": "Software Development - IDE &amp; Tools",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---ide--tools.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - IDE &amp; Tools",
+          "surroundingText": "Software Development - IDE &amp; Tools",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---ide--tools.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9064,7 +10060,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9d46320e2c4e48ca",
@@ -9126,6 +10122,15 @@
           "surroundingText": "Software Development - Localization",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---localization.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Localization",
+          "surroundingText": "Software Development - Localization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---localization.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9140,7 +10145,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:1dbd356ed428e73b",
@@ -9202,6 +10207,15 @@
           "surroundingText": "Software Development - Low Code",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---low-code.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Low Code",
+          "surroundingText": "Software Development - Low Code",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---low-code.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9216,7 +10230,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:7373779e3b5fb358",
@@ -9278,6 +10292,15 @@
           "surroundingText": "Software Development - Project Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---project-management.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Project Management",
+          "surroundingText": "Software Development - Project Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---project-management.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9292,7 +10315,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:2006bfeeb925b83b",
@@ -9354,6 +10377,15 @@
           "surroundingText": "Software Development - Testing",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---testing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Testing",
+          "surroundingText": "Software Development - Testing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---testing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9368,7 +10400,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:ecdcfd623e8b0529",
@@ -9430,6 +10462,15 @@
           "surroundingText": "Static Site Generators",
           "targetUrl": "https://awesome-selfhosted.net/tags/static-site-generators.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Static Site Generators",
+          "surroundingText": "Static Site Generators",
+          "targetUrl": "https://awesome-selfhosted.net/tags/static-site-generators.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9444,7 +10485,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:99b22a08a15096af",
@@ -9506,6 +10547,15 @@
           "surroundingText": "Task Management &amp; To-do Lists",
           "targetUrl": "https://awesome-selfhosted.net/tags/task-management--to-do-lists.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Task Management &amp; To-do Lists",
+          "surroundingText": "Task Management &amp; To-do Lists",
+          "targetUrl": "https://awesome-selfhosted.net/tags/task-management--to-do-lists.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9520,7 +10570,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:988c851564d6408a",
@@ -9582,6 +10632,15 @@
           "surroundingText": "Ticketing",
           "targetUrl": "https://awesome-selfhosted.net/tags/ticketing.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ticketing",
+          "surroundingText": "Ticketing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/ticketing.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9596,7 +10655,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:210fa18e92f8b631",
@@ -9658,6 +10717,15 @@
           "surroundingText": "Time Tracking",
           "targetUrl": "https://awesome-selfhosted.net/tags/time-tracking.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Time Tracking",
+          "surroundingText": "Time Tracking",
+          "targetUrl": "https://awesome-selfhosted.net/tags/time-tracking.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9672,7 +10740,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:37b2f22a7eb43360",
@@ -9734,6 +10802,15 @@
           "surroundingText": "Travel Organization",
           "targetUrl": "https://awesome-selfhosted.net/tags/travel-organization.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Travel Organization",
+          "surroundingText": "Travel Organization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/travel-organization.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9748,7 +10825,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:e4351b63d499c4e3",
@@ -9810,6 +10887,15 @@
           "surroundingText": "URL Shorteners",
           "targetUrl": "https://awesome-selfhosted.net/tags/url-shorteners.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "URL Shorteners",
+          "surroundingText": "URL Shorteners",
+          "targetUrl": "https://awesome-selfhosted.net/tags/url-shorteners.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9824,7 +10910,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:08001ee3f53211ee",
@@ -9886,6 +10972,15 @@
           "surroundingText": "Video Surveillance",
           "targetUrl": "https://awesome-selfhosted.net/tags/video-surveillance.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Video Surveillance",
+          "surroundingText": "Video Surveillance",
+          "targetUrl": "https://awesome-selfhosted.net/tags/video-surveillance.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9900,7 +10995,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:087c129fd982bdff",
@@ -9962,6 +11057,15 @@
           "surroundingText": "VPN",
           "targetUrl": "https://awesome-selfhosted.net/tags/vpn.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "VPN",
+          "surroundingText": "VPN",
+          "targetUrl": "https://awesome-selfhosted.net/tags/vpn.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -9976,7 +11080,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:cc69b04338b61781",
@@ -10038,6 +11142,15 @@
           "surroundingText": "Web Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/web-servers.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Web Servers",
+          "surroundingText": "Web Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/web-servers.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10052,7 +11165,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:0106b28b98a347ac",
@@ -10114,6 +11227,15 @@
           "surroundingText": "Wikis",
           "targetUrl": "https://awesome-selfhosted.net/tags/wikis.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Wikis",
+          "surroundingText": "Wikis",
+          "targetUrl": "https://awesome-selfhosted.net/tags/wikis.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10128,7 +11250,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:73a88e6c54ed076f",
@@ -10190,6 +11312,15 @@
           "surroundingText": "https://liberapay.com/awesome-selfhosted/",
           "targetUrl": "https://liberapay.com/awesome-selfhosted",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "https://liberapay.com/awesome-selfhosted/",
+          "surroundingText": "https://liberapay.com/awesome-selfhosted/",
+          "targetUrl": "https://liberapay.com/awesome-selfhosted",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10204,7 +11335,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:28d78e1871b72604",
@@ -10266,6 +11397,15 @@
           "surroundingText": "C++",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c%2B%2B.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C++",
+          "surroundingText": "C++",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c%2B%2B.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10280,7 +11420,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:3dddbb8a4c631f42",
@@ -10342,6 +11482,15 @@
           "surroundingText": "C",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C",
+          "surroundingText": "C",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10356,7 +11505,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:f75fd1d17927de90",
@@ -10418,6 +11567,15 @@
           "surroundingText": "deb",
           "targetUrl": "https://awesome-selfhosted.net/platforms/deb.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "deb",
+          "surroundingText": "deb",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/deb.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10432,7 +11590,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:f327269ddf5ffae4",
@@ -10494,6 +11652,15 @@
           "surroundingText": "Docker",
           "targetUrl": "https://awesome-selfhosted.net/platforms/docker.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Docker",
+          "surroundingText": "Docker",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/docker.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10508,7 +11675,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:177975bc2fdd334b",
@@ -10570,6 +11737,15 @@
           "surroundingText": "PHP",
           "targetUrl": "https://awesome-selfhosted.net/platforms/php.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "PHP",
+          "surroundingText": "PHP",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/php.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10584,7 +11760,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:5ccb5fb2b1c5b759",
@@ -10646,6 +11822,15 @@
           "surroundingText": "Nodejs",
           "targetUrl": "https://awesome-selfhosted.net/platforms/nodejs.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Nodejs",
+          "surroundingText": "Nodejs",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/nodejs.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10660,7 +11845,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:55684f5b0b3b6659",
@@ -10722,6 +11907,15 @@
           "surroundingText": "K8S",
           "targetUrl": "https://awesome-selfhosted.net/platforms/k8s.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "K8S",
+          "surroundingText": "K8S",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/k8s.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10736,7 +11930,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:08cfd5e98e483452",
@@ -10798,6 +11992,15 @@
           "surroundingText": "Javascript",
           "targetUrl": "https://awesome-selfhosted.net/platforms/javascript.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Javascript",
+          "surroundingText": "Javascript",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/javascript.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10812,7 +12015,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fbcaeec68508e611",
@@ -10874,6 +12077,15 @@
           "surroundingText": "Go",
           "targetUrl": "https://awesome-selfhosted.net/platforms/go.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Go",
+          "surroundingText": "Go",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/go.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10888,7 +12100,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:9c2a04a45ea8b4d0",
@@ -10950,6 +12162,15 @@
           "surroundingText": "Elixir",
           "targetUrl": "https://awesome-selfhosted.net/platforms/elixir.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Elixir",
+          "surroundingText": "Elixir",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/elixir.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -10964,7 +12185,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:df68d3c6091ee812",
@@ -11026,6 +12247,15 @@
           "surroundingText": "Ruby",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ruby.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ruby",
+          "surroundingText": "Ruby",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ruby.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11040,7 +12270,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fbac19b16d0ac0c8",
@@ -11102,6 +12332,15 @@
           "surroundingText": "Python",
           "targetUrl": "https://awesome-selfhosted.net/platforms/python.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Python",
+          "surroundingText": "Python",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/python.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11116,7 +12355,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:8f890e6860182cfa",
@@ -11178,6 +12417,15 @@
           "surroundingText": "Java",
           "targetUrl": "https://awesome-selfhosted.net/platforms/java.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Java",
+          "surroundingText": "Java",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/java.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11192,7 +12440,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fc1ff9150e1f4b33",
@@ -11254,6 +12502,15 @@
           "surroundingText": "Perl",
           "targetUrl": "https://awesome-selfhosted.net/platforms/perl.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Perl",
+          "surroundingText": "Perl",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/perl.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11268,7 +12525,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:fd7aac30a2db3e72",
@@ -11330,6 +12587,15 @@
           "surroundingText": "Rust",
           "targetUrl": "https://awesome-selfhosted.net/platforms/rust.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Rust",
+          "surroundingText": "Rust",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/rust.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11344,7 +12610,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:2dfae724bfdbd759",
@@ -11406,6 +12672,15 @@
           "surroundingText": "Dart",
           "targetUrl": "https://awesome-selfhosted.net/platforms/dart.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Dart",
+          "surroundingText": "Dart",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/dart.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11420,7 +12695,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:1192f835bbebcc3d",
@@ -11482,6 +12757,15 @@
           "surroundingText": "Assembly",
           "targetUrl": "https://awesome-selfhosted.net/platforms/assembly.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Assembly",
+          "surroundingText": "Assembly",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/assembly.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11496,7 +12780,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:07ac974897cab3d2",
@@ -11558,6 +12842,15 @@
           "surroundingText": "Crystal",
           "targetUrl": "https://awesome-selfhosted.net/platforms/crystal.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Crystal",
+          "surroundingText": "Crystal",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/crystal.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11572,7 +12865,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:6d4bd11ac853ebcd",
@@ -11634,6 +12927,15 @@
           "surroundingText": "C#",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c%23.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C#",
+          "surroundingText": "C#",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c%23.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11648,7 +12950,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:d2c80735e1e6da0c",
@@ -11710,6 +13012,15 @@
           "surroundingText": "Shell",
           "targetUrl": "https://awesome-selfhosted.net/platforms/shell.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Shell",
+          "surroundingText": "Shell",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/shell.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11724,7 +13035,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:be56a8b6ee2a84da",
@@ -11786,6 +13097,15 @@
           "surroundingText": ".NET",
           "targetUrl": "https://awesome-selfhosted.net/platforms/.net.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": ".NET",
+          "surroundingText": ".NET",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/.net.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11800,7 +13120,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:20fc89d2679ffb03",
@@ -11862,6 +13182,15 @@
           "surroundingText": "Ansible",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ansible.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ansible",
+          "surroundingText": "Ansible",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ansible.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11876,7 +13205,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:c347522c55bbe193",
@@ -11938,6 +13267,15 @@
           "surroundingText": "Scala",
           "targetUrl": "https://awesome-selfhosted.net/platforms/scala.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Scala",
+          "surroundingText": "Scala",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/scala.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -11952,7 +13290,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:edef78d53eb558f4",
@@ -12014,6 +13352,15 @@
           "surroundingText": "Deno",
           "targetUrl": "https://awesome-selfhosted.net/platforms/deno.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Deno",
+          "surroundingText": "Deno",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/deno.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12028,7 +13375,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:d3d6b6f83937b001",
@@ -12090,6 +13437,15 @@
           "surroundingText": "Erlang",
           "targetUrl": "https://awesome-selfhosted.net/platforms/erlang.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Erlang",
+          "surroundingText": "Erlang",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/erlang.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12104,7 +13460,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:df15e79d3a178d2f",
@@ -12166,6 +13522,15 @@
           "surroundingText": "Haskell",
           "targetUrl": "https://awesome-selfhosted.net/platforms/haskell.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Haskell",
+          "surroundingText": "Haskell",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/haskell.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12180,7 +13545,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:c4c2700218085625",
@@ -12242,6 +13607,15 @@
           "surroundingText": "PLpgSQL",
           "targetUrl": "https://awesome-selfhosted.net/platforms/plpgsql.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "PLpgSQL",
+          "surroundingText": "PLpgSQL",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/plpgsql.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12256,7 +13630,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:811a283d3cb823a3",
@@ -12318,6 +13692,15 @@
           "surroundingText": "OCaml",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ocaml.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "OCaml",
+          "surroundingText": "OCaml",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ocaml.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12332,7 +13715,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:4ae8ae26d44e632c",
@@ -12394,6 +13777,15 @@
           "surroundingText": "Lua",
           "targetUrl": "https://awesome-selfhosted.net/platforms/lua.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Lua",
+          "surroundingText": "Lua",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/lua.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12408,7 +13800,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:6674840a1ae3a22f",
@@ -12470,6 +13862,15 @@
           "surroundingText": "Nix",
           "targetUrl": "https://awesome-selfhosted.net/platforms/nix.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Nix",
+          "surroundingText": "Nix",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/nix.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12484,7 +13885,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:af74a529dd757fd4",
@@ -12546,6 +13947,15 @@
           "surroundingText": "Objective-C",
           "targetUrl": "https://awesome-selfhosted.net/platforms/objective-c.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Objective-C",
+          "surroundingText": "Objective-C",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/objective-c.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12560,7 +13970,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:009fe0acc9eecf83",
@@ -12622,6 +14032,15 @@
           "surroundingText": "Haxe",
           "targetUrl": "https://awesome-selfhosted.net/platforms/haxe.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Haxe",
+          "surroundingText": "Haxe",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/haxe.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12636,7 +14055,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "web:816352a483668870",
@@ -12698,6 +14117,15 @@
           "surroundingText": "CommonLisp",
           "targetUrl": "https://awesome-selfhosted.net/platforms/commonlisp.html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "CommonLisp",
+          "surroundingText": "CommonLisp",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/commonlisp.html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12712,7 +14140,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     },
     {
       "id": "github:awesome-selfhosted/awesome-selfhosted-html",
@@ -12774,6 +14202,15 @@
           "surroundingText": "Source code",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-html",
           "discoveredAt": "2026-10-14T09:20:00.043Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source code",
+          "surroundingText": "Source code",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-html",
+          "discoveredAt": "2026-10-16T09:20:00.059Z"
         }
       ],
       "globalFactRefs": [],
@@ -12788,7 +14225,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-14T09:20:00.043Z"
+      "updatedAt": "2026-10-16T09:20:00.059Z"
     }
   ]
 }
