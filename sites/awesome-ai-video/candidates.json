@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:32:58.407Z",
+  "generatedAt": "2026-10-17T10:30:00.176Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -692,6 +692,15 @@
           "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [
@@ -709,7 +718,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google developer hub for Gemini API docs, Google AI Studio, Gemma open models, on-device Edge/Nano, and related APIs including Imagen and Veo. Strong maintained documentation entry point; not a video-only SDK or model card.",
         "relevanceScore": 0.86,
@@ -859,6 +868,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -872,7 +891,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -1017,6 +1036,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1030,7 +1059,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -1172,6 +1201,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1185,7 +1224,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -1330,6 +1369,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1343,7 +1392,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -1477,6 +1526,15 @@
           "surroundingText": "Runway | Building Real-World Intelligence",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Building Real-World Intelligence",
+          "surroundingText": "Runway | Building Real-World Intelligence",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [
@@ -1494,7 +1552,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Runway homepage, but the captured page is a cookie-consent wall with no product, model, or API documentation for developers.",
         "relevanceScore": 0.55,

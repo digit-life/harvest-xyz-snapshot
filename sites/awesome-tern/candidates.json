@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:32:58.407Z",
+  "generatedAt": "2026-10-17T10:30:00.176Z",
   "appId": "awesome-tern",
   "items": [
     {
@@ -65,6 +65,25 @@
           "surroundingText": "Tern · Stencil",
           "targetUrl": "https://stencil.so/tern",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern",
+          "surroundingText": "Tern",
+          "targetUrl": "https://stencil.so/tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://stencil.so/tern",
+          "sectionPath": [],
+          "anchorText": "Tern · Stencil",
+          "surroundingText": "Tern · Stencil",
+          "targetUrl": "https://stencil.so/tern",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [
@@ -82,7 +101,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "reference": {
         "source": "official-web",
         "url": "https://stencil.so/tern",
@@ -126,6 +145,16 @@
           "surroundingText": "Plugin CLI",
           "targetUrl": "https://docs.stencil.so/tern/reference/cli.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Plugin CLI",
+          "surroundingText": "Plugin CLI",
+          "targetUrl": "https://docs.stencil.so/tern/reference/cli.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -139,7 +168,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:contrafy/tern-kube",
@@ -177,6 +206,16 @@
           "surroundingText": "tern-kube",
           "targetUrl": "https://github.com/contrafy/tern-kube",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-kube",
+          "surroundingText": "tern-kube",
+          "targetUrl": "https://github.com/contrafy/tern-kube",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -190,7 +229,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:resyuto/tern-jj",
@@ -228,6 +267,16 @@
           "surroundingText": "tern-jj",
           "targetUrl": "https://github.com/resyuto/tern-jj",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-jj",
+          "surroundingText": "tern-jj",
+          "targetUrl": "https://github.com/resyuto/tern-jj",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -241,7 +290,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:zsxawerdu/tern-jj-diff",
@@ -279,6 +328,16 @@
           "surroundingText": "tern-jj-diff",
           "targetUrl": "https://github.com/zsxawerdu/tern-jj-diff",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-jj-diff",
+          "surroundingText": "tern-jj-diff",
+          "targetUrl": "https://github.com/zsxawerdu/tern-jj-diff",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -292,7 +351,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:contrafy/tern-grafana",
@@ -330,6 +389,16 @@
           "surroundingText": "tern-grafana",
           "targetUrl": "https://github.com/contrafy/tern-grafana",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-grafana",
+          "surroundingText": "tern-grafana",
+          "targetUrl": "https://github.com/contrafy/tern-grafana",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -343,7 +412,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:jubbydev/tern-pr-guide",
@@ -381,6 +450,16 @@
           "surroundingText": "PR Guide",
           "targetUrl": "https://github.com/jubbydev/tern-pr-guide",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PR Guide",
+          "surroundingText": "PR Guide",
+          "targetUrl": "https://github.com/jubbydev/tern-pr-guide",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -394,7 +473,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:contrafy/tern-netsuite",
@@ -432,6 +511,16 @@
           "surroundingText": "tern-netsuite",
           "targetUrl": "https://github.com/contrafy/tern-netsuite",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-netsuite",
+          "surroundingText": "tern-netsuite",
+          "targetUrl": "https://github.com/contrafy/tern-netsuite",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -445,7 +534,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:rico-vz/tern-spotify",
@@ -483,6 +572,16 @@
           "surroundingText": "tern-spotify",
           "targetUrl": "https://github.com/rico-vz/tern-spotify",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify",
+          "surroundingText": "tern-spotify",
+          "targetUrl": "https://github.com/rico-vz/tern-spotify",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -496,7 +595,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:nac-l/tern-spotify",
@@ -534,6 +633,16 @@
           "surroundingText": "tern-spotify (Windows)",
           "targetUrl": "https://github.com/nac-l/tern-spotify",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify (Windows)",
+          "surroundingText": "tern-spotify (Windows)",
+          "targetUrl": "https://github.com/nac-l/tern-spotify",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -547,7 +656,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:verticalrectangle/tern-video-block",
@@ -585,6 +694,16 @@
           "surroundingText": "tern-video-block",
           "targetUrl": "https://github.com/verticalrectangle/tern-video-block",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-video-block",
+          "surroundingText": "tern-video-block",
+          "targetUrl": "https://github.com/verticalrectangle/tern-video-block",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -598,7 +717,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:h4vc/tern-cdp-tidal",
@@ -636,6 +755,16 @@
           "surroundingText": "tern-CDP-tidal",
           "targetUrl": "https://github.com/h4vc/tern-cdp-tidal",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-CDP-tidal",
+          "surroundingText": "tern-CDP-tidal",
+          "targetUrl": "https://github.com/h4vc/tern-cdp-tidal",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -649,7 +778,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:tcstacks/tern-pomodoro",
@@ -687,6 +816,16 @@
           "surroundingText": "tern-pomodoro",
           "targetUrl": "https://github.com/tcstacks/tern-pomodoro",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pomodoro",
+          "surroundingText": "tern-pomodoro",
+          "targetUrl": "https://github.com/tcstacks/tern-pomodoro",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -700,7 +839,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:noctivoro/tern-margin",
@@ -738,6 +877,16 @@
           "surroundingText": "tern-margin",
           "targetUrl": "https://github.com/noctivoro/tern-margin",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-margin",
+          "surroundingText": "tern-margin",
+          "targetUrl": "https://github.com/noctivoro/tern-margin",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -751,7 +900,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:zerx-lab/tern-office-preview",
@@ -789,6 +938,16 @@
           "surroundingText": "tern-office-preview",
           "targetUrl": "https://github.com/zerx-lab/tern-office-preview",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-office-preview",
+          "surroundingText": "tern-office-preview",
+          "targetUrl": "https://github.com/zerx-lab/tern-office-preview",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -802,7 +961,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:itsyndicate25/tern-pokemon",
@@ -840,6 +999,16 @@
           "surroundingText": "tern-pokemon",
           "targetUrl": "https://github.com/itsyndicate25/tern-pokemon",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pokemon",
+          "surroundingText": "tern-pokemon",
+          "targetUrl": "https://github.com/itsyndicate25/tern-pokemon",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -853,7 +1022,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:bmanturner/tern-rss",
@@ -891,6 +1060,16 @@
           "surroundingText": "tern-rss",
           "targetUrl": "https://github.com/bmanturner/tern-rss",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-rss",
+          "surroundingText": "tern-rss",
+          "targetUrl": "https://github.com/bmanturner/tern-rss",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -904,7 +1083,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:aancw/tern-ssh",
@@ -942,6 +1121,16 @@
           "surroundingText": "tern-ssh",
           "targetUrl": "https://github.com/aancw/tern-ssh",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-ssh",
+          "surroundingText": "tern-ssh",
+          "targetUrl": "https://github.com/aancw/tern-ssh",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -955,7 +1144,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:segmentationf4u1t/tern-me-on",
@@ -993,6 +1182,16 @@
           "surroundingText": "TernMeOn",
           "targetUrl": "https://github.com/segmentationf4u1t/tern-me-on",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "TernMeOn",
+          "surroundingText": "TernMeOn",
+          "targetUrl": "https://github.com/segmentationf4u1t/tern-me-on",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1006,7 +1205,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:moti-velz/tern-forge",
@@ -1044,6 +1243,16 @@
           "surroundingText": "Forge Projects",
           "targetUrl": "https://github.com/moti-velz/tern-forge",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Forge Projects",
+          "surroundingText": "Forge Projects",
+          "targetUrl": "https://github.com/moti-velz/tern-forge",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1057,7 +1266,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:kedi-lang/kedi-tern",
@@ -1095,6 +1304,16 @@
           "surroundingText": "kedi-tern",
           "targetUrl": "https://github.com/kedi-lang/kedi-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "kedi-tern",
+          "surroundingText": "kedi-tern",
+          "targetUrl": "https://github.com/kedi-lang/kedi-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1108,7 +1327,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:mrskugla/omp-tiles-plugin",
@@ -1173,6 +1392,25 @@
           "surroundingText": "https://github.com/MrsKugla/omp-tiles-plugin",
           "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp Tiles",
+          "surroundingText": "omp Tiles",
+          "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "sectionPath": [],
+          "anchorText": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "surroundingText": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -1187,7 +1425,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:axelmrak/tern-reviewr",
@@ -1225,6 +1463,16 @@
           "surroundingText": "Tern Reviewr",
           "targetUrl": "https://github.com/axelmrak/tern-reviewr",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern Reviewr",
+          "surroundingText": "Tern Reviewr",
+          "targetUrl": "https://github.com/axelmrak/tern-reviewr",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1238,7 +1486,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:kyle-elliott/tern-spotify",
@@ -1276,6 +1524,16 @@
           "surroundingText": "tern-spotify (kyle-elliott)",
           "targetUrl": "https://github.com/kyle-elliott/tern-spotify",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify (kyle-elliott)",
+          "surroundingText": "tern-spotify (kyle-elliott)",
+          "targetUrl": "https://github.com/kyle-elliott/tern-spotify",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1289,7 +1547,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:foxzool/tern-tracker",
@@ -1327,6 +1585,16 @@
           "surroundingText": "tern-tracker",
           "targetUrl": "https://github.com/foxzool/tern-tracker",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-tracker",
+          "surroundingText": "tern-tracker",
+          "targetUrl": "https://github.com/foxzool/tern-tracker",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1340,7 +1608,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:bmanturner/tern-agent-scheduler",
@@ -1378,6 +1646,16 @@
           "surroundingText": "tern-agent-scheduler",
           "targetUrl": "https://github.com/bmanturner/tern-agent-scheduler",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agent-scheduler",
+          "surroundingText": "tern-agent-scheduler",
+          "targetUrl": "https://github.com/bmanturner/tern-agent-scheduler",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1391,7 +1669,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:mmnavarr/overseer",
@@ -1456,6 +1734,25 @@
           "surroundingText": "https://github.com/mmnavarr/overseer",
           "targetUrl": "https://github.com/mmnavarr/overseer",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Overseer",
+          "surroundingText": "Overseer",
+          "targetUrl": "https://github.com/mmnavarr/overseer",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/mmnavarr/overseer",
+          "sectionPath": [],
+          "anchorText": "https://github.com/mmnavarr/overseer",
+          "surroundingText": "https://github.com/mmnavarr/overseer",
+          "targetUrl": "https://github.com/mmnavarr/overseer",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -1470,7 +1767,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:gabrielmoreira/herdr-tern-plugin",
@@ -1508,6 +1805,16 @@
           "surroundingText": "herdr-tern-plugin",
           "targetUrl": "https://github.com/gabrielmoreira/herdr-tern-plugin",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "herdr-tern-plugin",
+          "surroundingText": "herdr-tern-plugin",
+          "targetUrl": "https://github.com/gabrielmoreira/herdr-tern-plugin",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1521,7 +1828,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:contrafy/tern-cat",
@@ -1559,6 +1866,16 @@
           "surroundingText": "tern-cat",
           "targetUrl": "https://github.com/contrafy/tern-cat",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-cat",
+          "surroundingText": "tern-cat",
+          "targetUrl": "https://github.com/contrafy/tern-cat",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1572,7 +1889,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:noctivoro/tern-chirp",
@@ -1610,6 +1927,16 @@
           "surroundingText": "tern-chirp",
           "targetUrl": "https://github.com/noctivoro/tern-chirp",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-chirp",
+          "surroundingText": "tern-chirp",
+          "targetUrl": "https://github.com/noctivoro/tern-chirp",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1623,7 +1950,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:rico-vz/tern-usage-monitor",
@@ -1661,6 +1988,16 @@
           "surroundingText": "tern-usage-monitor",
           "targetUrl": "https://github.com/rico-vz/tern-usage-monitor",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-usage-monitor",
+          "surroundingText": "tern-usage-monitor",
+          "targetUrl": "https://github.com/rico-vz/tern-usage-monitor",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1674,7 +2011,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:rezhajulio/workspaces-sidebar",
@@ -1739,6 +2076,25 @@
           "surroundingText": "https://github.com/rezhajulio/workspaces-sidebar",
           "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "workspaces-sidebar",
+          "surroundingText": "workspaces-sidebar",
+          "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/rezhajulio/workspaces-sidebar",
+          "sectionPath": [],
+          "anchorText": "https://github.com/rezhajulio/workspaces-sidebar",
+          "surroundingText": "https://github.com/rezhajulio/workspaces-sidebar",
+          "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -1753,7 +2109,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:safzanpirani/tern-herdr",
@@ -1791,6 +2147,16 @@
           "surroundingText": "tern-herdr",
           "targetUrl": "https://github.com/safzanpirani/tern-herdr",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-herdr",
+          "surroundingText": "tern-herdr",
+          "targetUrl": "https://github.com/safzanpirani/tern-herdr",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1804,7 +2170,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:plumj-am/nixos",
@@ -1869,6 +2235,25 @@
           "surroundingText": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
           "targetUrl": "https://github.com/plumj-am/nixos",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "plumj-am/nixos",
+          "surroundingText": "plumj-am/nixos",
+          "targetUrl": "https://github.com/plumj-am/nixos",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "sectionPath": [],
+          "anchorText": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "surroundingText": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "targetUrl": "https://github.com/plumj-am/nixos",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -1883,7 +2268,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:itsyndicate25/tern-mizu",
@@ -1921,6 +2306,16 @@
           "surroundingText": "tern-mizu",
           "targetUrl": "https://github.com/itsyndicate25/tern-mizu",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-mizu",
+          "surroundingText": "tern-mizu",
+          "targetUrl": "https://github.com/itsyndicate25/tern-mizu",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1934,7 +2329,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:nibblebot/tern-worktree",
@@ -1972,6 +2367,16 @@
           "surroundingText": "tern-worktree",
           "targetUrl": "https://github.com/nibblebot/tern-worktree",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktree",
+          "surroundingText": "tern-worktree",
+          "targetUrl": "https://github.com/nibblebot/tern-worktree",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1985,7 +2390,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:betizzel/omaterm",
@@ -2050,6 +2455,25 @@
           "surroundingText": "https://github.com/betizzel/omaterm",
           "targetUrl": "https://github.com/betizzel/omaterm",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omaterm",
+          "surroundingText": "omaterm",
+          "targetUrl": "https://github.com/betizzel/omaterm",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/betizzel/omaterm",
+          "sectionPath": [],
+          "anchorText": "https://github.com/betizzel/omaterm",
+          "surroundingText": "https://github.com/betizzel/omaterm",
+          "targetUrl": "https://github.com/betizzel/omaterm",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2064,7 +2488,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:olegpulatov/pane-highlight",
@@ -2129,6 +2553,25 @@
           "surroundingText": "https://github.com/olegpulatov/pane-highlight",
           "targetUrl": "https://github.com/olegpulatov/pane-highlight",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pane-highlight",
+          "surroundingText": "pane-highlight",
+          "targetUrl": "https://github.com/olegpulatov/pane-highlight",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/olegpulatov/pane-highlight",
+          "sectionPath": [],
+          "anchorText": "https://github.com/olegpulatov/pane-highlight",
+          "surroundingText": "https://github.com/olegpulatov/pane-highlight",
+          "targetUrl": "https://github.com/olegpulatov/pane-highlight",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2143,7 +2586,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:maxtuzz/tern-agents",
@@ -2181,6 +2624,16 @@
           "surroundingText": "tern-agents",
           "targetUrl": "https://github.com/maxtuzz/tern-agents",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agents",
+          "surroundingText": "tern-agents",
+          "targetUrl": "https://github.com/maxtuzz/tern-agents",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2194,7 +2647,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:h4vc/tern-chime",
@@ -2232,6 +2685,16 @@
           "surroundingText": "tern-chime",
           "targetUrl": "https://github.com/h4vc/tern-chime",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-chime",
+          "surroundingText": "tern-chime",
+          "targetUrl": "https://github.com/h4vc/tern-chime",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2245,7 +2708,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:azmifarih/tern-model-usage",
@@ -2283,6 +2746,16 @@
           "surroundingText": "tern-model-usage",
           "targetUrl": "https://github.com/azmifarih/tern-model-usage",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-model-usage",
+          "surroundingText": "tern-model-usage",
+          "targetUrl": "https://github.com/azmifarih/tern-model-usage",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2296,7 +2769,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:getpipher/tern-status",
@@ -2334,6 +2807,16 @@
           "surroundingText": "tern-status",
           "targetUrl": "https://github.com/getpipher/tern-status",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-status",
+          "surroundingText": "tern-status",
+          "targetUrl": "https://github.com/getpipher/tern-status",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2347,7 +2830,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:riicodespretty/tern-worktrees",
@@ -2385,6 +2868,16 @@
           "surroundingText": "tern-worktrees",
           "targetUrl": "https://github.com/riicodespretty/tern-worktrees",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktrees",
+          "surroundingText": "tern-worktrees",
+          "targetUrl": "https://github.com/riicodespretty/tern-worktrees",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2398,7 +2891,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:aliefe04/tern-worktrees",
@@ -2436,6 +2929,16 @@
           "surroundingText": "tern-worktrees (aliefe04)",
           "targetUrl": "https://github.com/aliefe04/tern-worktrees",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktrees (aliefe04)",
+          "surroundingText": "tern-worktrees (aliefe04)",
+          "targetUrl": "https://github.com/aliefe04/tern-worktrees",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2449,7 +2952,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:tazedib/toons-tern",
@@ -2487,6 +2990,16 @@
           "surroundingText": "Toons",
           "targetUrl": "https://github.com/tazedib/toons-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Toons",
+          "surroundingText": "Toons",
+          "targetUrl": "https://github.com/tazedib/toons-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2500,7 +3013,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:getpipher/font-default",
@@ -2565,6 +3078,25 @@
           "surroundingText": "https://github.com/getpipher/font-default",
           "targetUrl": "https://github.com/getpipher/font-default",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "font-default",
+          "surroundingText": "font-default",
+          "targetUrl": "https://github.com/getpipher/font-default",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/getpipher/font-default",
+          "sectionPath": [],
+          "anchorText": "https://github.com/getpipher/font-default",
+          "surroundingText": "https://github.com/getpipher/font-default",
+          "targetUrl": "https://github.com/getpipher/font-default",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2579,7 +3111,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:hanbong5938/jira-tern",
@@ -2617,6 +3149,16 @@
           "surroundingText": "jira-tern",
           "targetUrl": "https://github.com/hanbong5938/jira-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "jira-tern",
+          "surroundingText": "jira-tern",
+          "targetUrl": "https://github.com/hanbong5938/jira-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2630,7 +3172,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:dbydd/power-surge",
@@ -2695,6 +3237,25 @@
           "surroundingText": "https://github.com/dbydd/power-surge",
           "targetUrl": "https://github.com/dbydd/power-surge",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "power-surge",
+          "surroundingText": "power-surge",
+          "targetUrl": "https://github.com/dbydd/power-surge",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/dbydd/power-surge",
+          "sectionPath": [],
+          "anchorText": "https://github.com/dbydd/power-surge",
+          "surroundingText": "https://github.com/dbydd/power-surge",
+          "targetUrl": "https://github.com/dbydd/power-surge",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2709,7 +3270,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:cangiolo/remote-image-paste",
@@ -2774,6 +3335,25 @@
           "surroundingText": "https://github.com/cangiolo/remote-image-paste",
           "targetUrl": "https://github.com/cangiolo/remote-image-paste",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "remote-image-paste",
+          "surroundingText": "remote-image-paste",
+          "targetUrl": "https://github.com/cangiolo/remote-image-paste",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/cangiolo/remote-image-paste",
+          "sectionPath": [],
+          "anchorText": "https://github.com/cangiolo/remote-image-paste",
+          "surroundingText": "https://github.com/cangiolo/remote-image-paste",
+          "targetUrl": "https://github.com/cangiolo/remote-image-paste",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2788,7 +3368,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:qiaoqinyu/tern-bell",
@@ -2826,6 +3406,16 @@
           "surroundingText": "tern-bell",
           "targetUrl": "https://github.com/qiaoqinyu/tern-bell",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-bell",
+          "surroundingText": "tern-bell",
+          "targetUrl": "https://github.com/qiaoqinyu/tern-bell",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2839,7 +3429,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:zerx-lab/tern-claude-usage",
@@ -2877,6 +3467,16 @@
           "surroundingText": "tern-claude-usage",
           "targetUrl": "https://github.com/zerx-lab/tern-claude-usage",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-claude-usage",
+          "surroundingText": "tern-claude-usage",
+          "targetUrl": "https://github.com/zerx-lab/tern-claude-usage",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2890,7 +3490,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:yumosx/tern-close-plugin",
@@ -2928,6 +3528,16 @@
           "surroundingText": "tern-close-plugin",
           "targetUrl": "https://github.com/yumosx/tern-close-plugin",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-close-plugin",
+          "surroundingText": "tern-close-plugin",
+          "targetUrl": "https://github.com/yumosx/tern-close-plugin",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2941,7 +3551,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:vokativ/tern-file-paste",
@@ -2979,6 +3589,16 @@
           "surroundingText": "tern-file-paste",
           "targetUrl": "https://github.com/vokativ/tern-file-paste",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-file-paste",
+          "surroundingText": "tern-file-paste",
+          "targetUrl": "https://github.com/vokativ/tern-file-paste",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2992,7 +3612,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:lfsmoura/tern-haptic-alert",
@@ -3030,6 +3650,16 @@
           "surroundingText": "tern-haptic-alert",
           "targetUrl": "https://github.com/lfsmoura/tern-haptic-alert",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-haptic-alert",
+          "surroundingText": "tern-haptic-alert",
+          "targetUrl": "https://github.com/lfsmoura/tern-haptic-alert",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3043,7 +3673,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:0xgreg/tern-omp-layout-fixes",
@@ -3081,6 +3711,16 @@
           "surroundingText": "tern-omp-layout-fixes",
           "targetUrl": "https://github.com/0xgreg/tern-omp-layout-fixes",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-layout-fixes",
+          "surroundingText": "tern-omp-layout-fixes",
+          "targetUrl": "https://github.com/0xgreg/tern-omp-layout-fixes",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3094,7 +3734,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:microck/tern-paste-image",
@@ -3132,6 +3772,16 @@
           "surroundingText": "tern-paste-image",
           "targetUrl": "https://github.com/microck/tern-paste-image",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-paste-image",
+          "surroundingText": "tern-paste-image",
+          "targetUrl": "https://github.com/microck/tern-paste-image",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3145,7 +3795,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:loneexile/tern-remote-open",
@@ -3183,6 +3833,16 @@
           "surroundingText": "tern-remote-open",
           "targetUrl": "https://github.com/loneexile/tern-remote-open",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-remote-open",
+          "surroundingText": "tern-remote-open",
+          "targetUrl": "https://github.com/loneexile/tern-remote-open",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3196,7 +3856,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:bmanturner/tern-swarm",
@@ -3234,6 +3894,16 @@
           "surroundingText": "tern-swarm",
           "targetUrl": "https://github.com/bmanturner/tern-swarm",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-swarm",
+          "surroundingText": "tern-swarm",
+          "targetUrl": "https://github.com/bmanturner/tern-swarm",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3247,7 +3917,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:mayask/tern-vimnav",
@@ -3285,6 +3955,16 @@
           "surroundingText": "tern-vimnav",
           "targetUrl": "https://github.com/mayask/tern-vimnav",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-vimnav",
+          "surroundingText": "tern-vimnav",
+          "targetUrl": "https://github.com/mayask/tern-vimnav",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3298,7 +3978,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:edheltzel/butler-pane",
@@ -3363,6 +4043,25 @@
           "surroundingText": "https://github.com/edheltzel/Butler-Pane",
           "targetUrl": "https://github.com/edheltzel/butler-pane",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "TernGitButler",
+          "surroundingText": "TernGitButler",
+          "targetUrl": "https://github.com/edheltzel/butler-pane",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/edheltzel/Butler-Pane",
+          "sectionPath": [],
+          "anchorText": "https://github.com/edheltzel/Butler-Pane",
+          "surroundingText": "https://github.com/edheltzel/Butler-Pane",
+          "targetUrl": "https://github.com/edheltzel/butler-pane",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3377,7 +4076,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:stencil-hq/tern-sdk",
@@ -3415,6 +4114,16 @@
           "surroundingText": "tern-sdk",
           "targetUrl": "https://github.com/stencil-hq/tern-sdk",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-sdk",
+          "surroundingText": "tern-sdk",
+          "targetUrl": "https://github.com/stencil-hq/tern-sdk",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3428,7 +4137,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:67cc017c4841906a",
@@ -3466,6 +4175,16 @@
           "surroundingText": "Terraform Plans",
           "targetUrl": "https://docs.stencil.so/tern/examples/terraform.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Terraform Plans",
+          "surroundingText": "Terraform Plans",
+          "targetUrl": "https://docs.stencil.so/tern/examples/terraform.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3479,7 +4198,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:aae86f721e72ff67",
@@ -3517,6 +4236,16 @@
           "surroundingText": "Review Queue",
           "targetUrl": "https://docs.stencil.so/tern/examples/review-queue.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Review Queue",
+          "surroundingText": "Review Queue",
+          "targetUrl": "https://docs.stencil.so/tern/examples/review-queue.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3530,7 +4259,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:6866b679d41aa1cf",
@@ -3568,6 +4297,16 @@
           "surroundingText": "JSON Explorer",
           "targetUrl": "https://docs.stencil.so/tern/examples/jsonx.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "JSON Explorer",
+          "surroundingText": "JSON Explorer",
+          "targetUrl": "https://docs.stencil.so/tern/examples/jsonx.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3581,7 +4320,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:77f7ee655bc698d6",
@@ -3619,6 +4358,16 @@
           "surroundingText": "Long-Running Commands",
           "targetUrl": "https://docs.stencil.so/tern/examples/longrun.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Long-Running Commands",
+          "surroundingText": "Long-Running Commands",
+          "targetUrl": "https://docs.stencil.so/tern/examples/longrun.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3632,7 +4381,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:6b41cb7afa8de372",
@@ -3670,6 +4419,16 @@
           "surroundingText": "Directory Variables",
           "targetUrl": "https://docs.stencil.so/tern/examples/dirvars.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Directory Variables",
+          "surroundingText": "Directory Variables",
+          "targetUrl": "https://docs.stencil.so/tern/examples/dirvars.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3683,7 +4442,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:e10b120db9243c06",
@@ -3721,6 +4480,16 @@
           "surroundingText": "Project Workspaces",
           "targetUrl": "https://docs.stencil.so/tern/examples/workspaces.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Project Workspaces",
+          "surroundingText": "Project Workspaces",
+          "targetUrl": "https://docs.stencil.so/tern/examples/workspaces.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3734,7 +4503,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:bd0c8b7937497016",
@@ -3772,6 +4541,16 @@
           "surroundingText": "Canvas Dashboard",
           "targetUrl": "https://docs.stencil.so/tern/reference/api-window.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Canvas Dashboard",
+          "surroundingText": "Canvas Dashboard",
+          "targetUrl": "https://docs.stencil.so/tern/reference/api-window.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3785,7 +4564,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:can1357/oh-my-pi",
@@ -3904,6 +4683,43 @@
           "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
           "targetUrl": "https://github.com/can1357/oh-my-pi",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@oh-my-pi/pi-tui",
+          "surroundingText": "@oh-my-pi/pi-tui",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi",
+          "surroundingText": "https://github.com/can1357/oh-my-pi",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3918,7 +4734,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:thefullctx/hermes-for-tern",
@@ -3956,6 +4772,16 @@
           "surroundingText": "Hermes for Tern",
           "targetUrl": "https://github.com/thefullctx/hermes-for-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hermes for Tern",
+          "surroundingText": "Hermes for Tern",
+          "targetUrl": "https://github.com/thefullctx/hermes-for-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -3969,7 +4795,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:pgkt04/rmon",
@@ -4034,6 +4860,25 @@
           "surroundingText": "https://github.com/pgkt04/rmon",
           "targetUrl": "https://github.com/pgkt04/rmon",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "rmon",
+          "surroundingText": "rmon",
+          "targetUrl": "https://github.com/pgkt04/rmon",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/pgkt04/rmon",
+          "sectionPath": [],
+          "anchorText": "https://github.com/pgkt04/rmon",
+          "surroundingText": "https://github.com/pgkt04/rmon",
+          "targetUrl": "https://github.com/pgkt04/rmon",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4048,7 +4893,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:skaft-software/octet",
@@ -4086,6 +4931,16 @@
           "surroundingText": "octet-tern",
           "targetUrl": "https://github.com/skaft-software/octet",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "octet-tern",
+          "surroundingText": "octet-tern",
+          "targetUrl": "https://github.com/skaft-software/octet",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4099,7 +4954,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:theblazehen/mantern",
@@ -4164,6 +5019,25 @@
           "surroundingText": "https://github.com/theblazehen/mantern",
           "targetUrl": "https://github.com/theblazehen/mantern",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "mantern",
+          "surroundingText": "mantern",
+          "targetUrl": "https://github.com/theblazehen/mantern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/theblazehen/mantern",
+          "sectionPath": [],
+          "anchorText": "https://github.com/theblazehen/mantern",
+          "surroundingText": "https://github.com/theblazehen/mantern",
+          "targetUrl": "https://github.com/theblazehen/mantern",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4178,7 +5052,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:arg3t/neotern",
@@ -4243,6 +5117,25 @@
           "surroundingText": "https://github.com/arg3t/neotern",
           "targetUrl": "https://github.com/arg3t/neotern",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "neotern",
+          "surroundingText": "neotern",
+          "targetUrl": "https://github.com/arg3t/neotern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/arg3t/neotern",
+          "sectionPath": [],
+          "anchorText": "https://github.com/arg3t/neotern",
+          "surroundingText": "https://github.com/arg3t/neotern",
+          "targetUrl": "https://github.com/arg3t/neotern",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4257,7 +5150,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:verusferro/ternatro",
@@ -4322,6 +5215,25 @@
           "surroundingText": "https://github.com/verusferro/Ternatro",
           "targetUrl": "https://github.com/verusferro/ternatro",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Ternatro",
+          "surroundingText": "Ternatro",
+          "targetUrl": "https://github.com/verusferro/ternatro",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/verusferro/Ternatro",
+          "sectionPath": [],
+          "anchorText": "https://github.com/verusferro/Ternatro",
+          "surroundingText": "https://github.com/verusferro/Ternatro",
+          "targetUrl": "https://github.com/verusferro/ternatro",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4336,7 +5248,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:d3d0n/terngram",
@@ -4401,6 +5313,25 @@
           "surroundingText": "https://github.com/d3d0n/terngram",
           "targetUrl": "https://github.com/d3d0n/terngram",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Terngram",
+          "surroundingText": "Terngram",
+          "targetUrl": "https://github.com/d3d0n/terngram",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/d3d0n/terngram",
+          "sectionPath": [],
+          "anchorText": "https://github.com/d3d0n/terngram",
+          "surroundingText": "https://github.com/d3d0n/terngram",
+          "targetUrl": "https://github.com/d3d0n/terngram",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4415,7 +5346,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:saavy1/saavy_cloud",
@@ -4480,6 +5411,25 @@
           "surroundingText": "https://github.com/saavy1/saavy_cloud",
           "targetUrl": "https://github.com/saavy1/saavy_cloud",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "saavy",
+          "surroundingText": "saavy",
+          "targetUrl": "https://github.com/saavy1/saavy_cloud",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/saavy1/saavy_cloud",
+          "sectionPath": [],
+          "anchorText": "https://github.com/saavy1/saavy_cloud",
+          "surroundingText": "https://github.com/saavy1/saavy_cloud",
+          "targetUrl": "https://github.com/saavy1/saavy_cloud",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4494,7 +5444,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:wolfiesch/omp-side",
@@ -4559,6 +5509,25 @@
           "surroundingText": "https://github.com/wolfiesch/omp-side",
           "targetUrl": "https://github.com/wolfiesch/omp-side",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp-side",
+          "surroundingText": "omp-side",
+          "targetUrl": "https://github.com/wolfiesch/omp-side",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/wolfiesch/omp-side",
+          "sectionPath": [],
+          "anchorText": "https://github.com/wolfiesch/omp-side",
+          "surroundingText": "https://github.com/wolfiesch/omp-side",
+          "targetUrl": "https://github.com/wolfiesch/omp-side",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4573,7 +5542,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:ghost-9/pi-tern",
@@ -4611,6 +5580,16 @@
           "surroundingText": "pi-tern",
           "targetUrl": "https://github.com/ghost-9/pi-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pi-tern",
+          "surroundingText": "pi-tern",
+          "targetUrl": "https://github.com/ghost-9/pi-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4624,7 +5603,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:nac-l/tern-mcp",
@@ -4662,6 +5641,16 @@
           "surroundingText": "tern-mcp",
           "targetUrl": "https://github.com/nac-l/tern-mcp",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-mcp",
+          "surroundingText": "tern-mcp",
+          "targetUrl": "https://github.com/nac-l/tern-mcp",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4675,7 +5664,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:mouriya-emma/omp-thinking-translator",
@@ -4740,6 +5729,25 @@
           "surroundingText": "https://github.com/Mouriya-Emma/omp-thinking-translator",
           "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp-thinking-translator",
+          "surroundingText": "omp-thinking-translator",
+          "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "sectionPath": [],
+          "anchorText": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "surroundingText": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4754,7 +5762,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:wolfiesch/tern-control",
@@ -4792,6 +5800,16 @@
           "surroundingText": "tern-control",
           "targetUrl": "https://github.com/wolfiesch/tern-control",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-control",
+          "surroundingText": "tern-control",
+          "targetUrl": "https://github.com/wolfiesch/tern-control",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4805,7 +5823,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:dinmon/tern-omp-vimnav",
@@ -4843,6 +5861,16 @@
           "surroundingText": "tern-omp-vimnav",
           "targetUrl": "https://github.com/dinmon/tern-omp-vimnav",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-vimnav",
+          "surroundingText": "tern-omp-vimnav",
+          "targetUrl": "https://github.com/dinmon/tern-omp-vimnav",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4856,7 +5884,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:ad9fe1b2c9be8a8c",
@@ -4894,6 +5922,16 @@
           "surroundingText": "Beta builds",
           "targetUrl": "https://build.stencil.so/tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Beta builds",
+          "surroundingText": "Beta builds",
+          "targetUrl": "https://build.stencil.so/tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -4907,7 +5945,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:8fb9f2af8b539551",
@@ -4972,6 +6010,25 @@
           "surroundingText": "Plugin SDK",
           "targetUrl": "https://docs.stencil.so/tern",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern plugin book",
+          "surroundingText": "Tern plugin book",
+          "targetUrl": "https://docs.stencil.so/tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://stencil.so/tern",
+          "sectionPath": [],
+          "anchorText": "Plugin SDK",
+          "surroundingText": "Plugin SDK",
+          "targetUrl": "https://docs.stencil.so/tern",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4986,7 +6043,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "web:12e37202314a20aa",
@@ -5024,6 +6081,16 @@
           "surroundingText": "Getting Started",
           "targetUrl": "https://docs.stencil.so/tern/guides/getting-started.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Getting Started",
+          "surroundingText": "Getting Started",
+          "targetUrl": "https://docs.stencil.so/tern/guides/getting-started.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5037,7 +6104,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:dd58fa855eb6b313",
@@ -5075,6 +6142,16 @@
           "surroundingText": "Command Lenses",
           "targetUrl": "https://docs.stencil.so/tern/guides/lenses.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Command Lenses",
+          "surroundingText": "Command Lenses",
+          "targetUrl": "https://docs.stencil.so/tern/guides/lenses.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5088,7 +6165,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:e561d4df6222a6d0",
@@ -5126,6 +6203,16 @@
           "surroundingText": "Debugging",
           "targetUrl": "https://docs.stencil.so/tern/guides/debugging.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Debugging",
+          "surroundingText": "Debugging",
+          "targetUrl": "https://docs.stencil.so/tern/guides/debugging.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5139,7 +6226,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:4eea8a358473c9c9",
@@ -5177,6 +6264,16 @@
           "surroundingText": "Tern Surface Protocol",
           "targetUrl": "https://docs.stencil.so/tern/protocol/index.html",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern Surface Protocol",
+          "surroundingText": "Tern Surface Protocol",
+          "targetUrl": "https://docs.stencil.so/tern/protocol/index.html",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5190,7 +6287,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:pelikanade/flake",
@@ -5255,6 +6352,25 @@
           "surroundingText": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
           "targetUrl": "https://github.com/pelikanade/flake",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pelikanade/flake",
+          "surroundingText": "pelikanade/flake",
+          "targetUrl": "https://github.com/pelikanade/flake",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "sectionPath": [],
+          "anchorText": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "surroundingText": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "targetUrl": "https://github.com/pelikanade/flake",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5269,7 +6385,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:tdortman/dotfiles",
@@ -5334,6 +6450,25 @@
           "surroundingText": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
           "targetUrl": "https://github.com/tdortman/dotfiles",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tdortman/dotfiles",
+          "surroundingText": "tdortman/dotfiles",
+          "targetUrl": "https://github.com/tdortman/dotfiles",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "sectionPath": [],
+          "anchorText": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "surroundingText": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "targetUrl": "https://github.com/tdortman/dotfiles",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5348,7 +6483,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:theoparis/nix-tern",
@@ -5386,6 +6521,16 @@
           "surroundingText": "theoparis/nix-tern",
           "targetUrl": "https://github.com/theoparis/nix-tern",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "theoparis/nix-tern",
+          "surroundingText": "theoparis/nix-tern",
+          "targetUrl": "https://github.com/theoparis/nix-tern",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5399,7 +6544,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:samuelfontess/tern-pencil-preview",
@@ -5427,6 +6572,16 @@
           "surroundingText": "tern-pencil-preview",
           "targetUrl": "https://github.com/samuelfontess/tern-pencil-preview",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pencil-preview",
+          "surroundingText": "tern-pencil-preview",
+          "targetUrl": "https://github.com/samuelfontess/tern-pencil-preview",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5440,7 +6595,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:edcnogueira/tern-gpg-touch",
@@ -5468,6 +6623,16 @@
           "surroundingText": "tern-gpg-touch",
           "targetUrl": "https://github.com/edcnogueira/tern-gpg-touch",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-gpg-touch",
+          "surroundingText": "tern-gpg-touch",
+          "targetUrl": "https://github.com/edcnogueira/tern-gpg-touch",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5481,7 +6646,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:materemias/tern-awui",
@@ -5509,6 +6674,16 @@
           "surroundingText": "tern-awui",
           "targetUrl": "https://github.com/materemias/tern-awui",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-awui",
+          "surroundingText": "tern-awui",
+          "targetUrl": "https://github.com/materemias/tern-awui",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5522,7 +6697,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:joaodutra88/tern-omp-usage",
@@ -5540,6 +6715,16 @@
           "surroundingText": "tern-omp-usage",
           "targetUrl": "https://github.com/joaodutra88/tern-omp-usage",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-usage",
+          "surroundingText": "tern-omp-usage",
+          "targetUrl": "https://github.com/joaodutra88/tern-omp-usage",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5553,7 +6738,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:00:00.080Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "github:dangerboi/tern-kata",
@@ -5571,6 +6756,16 @@
           "surroundingText": "tern-kata",
           "targetUrl": "https://github.com/dangerboi/tern-kata",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-kata",
+          "surroundingText": "tern-kata",
+          "targetUrl": "https://github.com/dangerboi/tern-kata",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -5584,7 +6779,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:00:00.080Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     }
   ]
 }

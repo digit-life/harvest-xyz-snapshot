@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:32:58.407Z",
+  "generatedAt": "2026-10-17T10:30:00.176Z",
   "appId": "awesome-antigravity",
   "items": [
     {
@@ -231,6 +231,26 @@
           "surroundingText": "official documentation",
           "targetUrl": "https://antigravity.google/docs/skills",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity Skills",
+          "surroundingText": "Antigravity Skills",
+          "targetUrl": "https://antigravity.google/docs/skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "heilcheng/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "official documentation",
+          "surroundingText": "official documentation",
+          "targetUrl": "https://antigravity.google/docs/skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -245,7 +265,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Official Antigravity documentation for Agent Skills: SKILL.md layout, discovery paths, and how the agent loads workspace, global, and plugin skills.",
         "relevanceScore": 0.98,
@@ -388,6 +408,16 @@
           "surroundingText": "Pranav-Nexus/antigravity-skill-porter",
           "targetUrl": "https://github.com/pranav-nexus/antigravity-skill-porter",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Pranav-Nexus/antigravity-skill-porter",
+          "surroundingText": "Pranav-Nexus/antigravity-skill-porter",
+          "targetUrl": "https://github.com/pranav-nexus/antigravity-skill-porter",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [
@@ -403,7 +433,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Community Python CLI that maps Claude Code/Cursor SKILL.md files to Antigravity plugins (tool names, GEMINI.md/AGENTS.md, plugin.json). Useful for skill migration, but it is unofficial, lightly starred, and writes into ~/.gemini config.",
         "relevanceScore": 0.78,
@@ -473,6 +503,7 @@
       "type": "github_repo",
       "canonicalUrl": "https://github.com/kench001/antigravity-awesome-skills",
       "title": "Kench001/antigravity-awesome-skills",
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -554,20 +585,34 @@
           "surroundingText": "Kench001/antigravity-awesome-skills",
           "targetUrl": "https://github.com/kench001/antigravity-awesome-skills",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kench001/antigravity-awesome-skills",
+          "surroundingText": "Kench001/antigravity-awesome-skills",
+          "targetUrl": "https://github.com/kench001/antigravity-awesome-skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
-      "globalFactRefs": [],
-      "confidenceScore": 0.5,
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/kench001/antigravity-awesome-skills"
+      ],
+      "confidenceScore": 0,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
-        "bucket:review"
+        "gate:fork"
       ],
-      "riskFlags": [],
+      "riskFlags": [
+        "fork"
+      ],
       "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "This is a low-star fork of sickn33/agentic-awesome-skills (also branded as an Antigravity skills catalog), not official Google Antigravity docs. Prefer the upstream catalog or official skill sources over this clone.",
         "relevanceScore": 0.45,
@@ -622,6 +667,12 @@
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/kench001/antigravity-awesome-skills",
+        "contentHash": "232baa18ddde0f82bf63d37968f48a01624f723faaaa098b83a62093cdc0778f",
+        "excerpt": "# 🌌 Antigravity Awesome Skills: 1,443+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More\n\n> **Installable GitHub library of 1,443+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**\n\nAntigravity Awesome Skills is an installable GitHub library and npm installer for reusable `SKILL.md` playbooks. It is designed for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, Kiro, OpenCode, GitHub Copilot, and other AI coding assistants that benefit from structured operating instructions. Instead of collecting one-off prompt snippets, this repository gives you a searchable, installable catalog of skills, bundles, workflows, plugin-safe distributions, and practical docs that help agents perform recurring tasks with better context, stronger constraints, and clearer outputs.\n\nYou can use this repo to install a broad multi-tool skill library, start from role-based bundles, or jump into workflow-driven execution for plan"
       }
     },
     {
@@ -629,6 +680,7 @@
       "type": "github_repo",
       "canonicalUrl": "https://github.com/rmyndharis/antigravity-skills",
       "title": "rmyndharis/antigravity-skills",
+      "description": "A curated collection of Agent Skills for Google Antigravity",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -710,57 +762,73 @@
           "surroundingText": "rmyndharis/antigravity-skills",
           "targetUrl": "https://github.com/rmyndharis/antigravity-skills",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "rmyndharis/antigravity-skills",
+          "surroundingText": "rmyndharis/antigravity-skills",
+          "targetUrl": "https://github.com/rmyndharis/antigravity-skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
-      "globalFactRefs": [],
-      "confidenceScore": 0.5,
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/rmyndharis/antigravity-skills"
+      ],
+      "confidenceScore": 1,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
-        "bucket:review"
+        "bucket:github-maintained",
+        "bucket:approve"
       ],
       "riskFlags": [],
       "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
-        "summary": "Community MIT vault of 300+ Google Antigravity agent skills ported from Claude Code, with CLI, catalog, and bundles. Not official antigravity.google docs, but a maintained GitHub skills collection rather than a generic clone or search result.",
-        "relevanceScore": 0.86,
+        "summary": "Community MIT vault of 300+ Antigravity agent skills (domain packs, personas, workflows) ported from Claude Code, with an npm CLI, catalog, and targeted install guidance. Useful but unofficial; installing everything inflates tokens and may auto-activate unrelated skills.",
+        "relevanceScore": 0.88,
         "qualityScore": 0.78,
-        "riskScore": 0.22,
+        "riskScore": 0.28,
         "suggestedTags": [
           "antigravity",
           "agent-skills",
           "cli",
           "workflows",
-          "github"
+          "personas"
         ],
         "evidence": [
-          "GitHub description: curated Agent Skills for Google Antigravity; topics antigravity and antigravity-skills.",
-          "README: skills/ directory, npm run build:catalog, skills_cli.py, plugin.json.",
-          "Stars ~1.8k, forks 276, MIT license listed on the repo page."
+          "README states a curated collection of Agent Skills for Google Antigravity ported from wshobson/agents.",
+          "README lists Domain Skills, Specialist Agents, and Commands & Workflows plus category examples.",
+          "Facts: MIT license, not archived, default branch main, stargazers_count 1714, forks_count 277, pushed_at 2026-10-01.",
+          "README documents npx @rmyndharis/antigravity-skills and official skill location docs link."
         ],
         "uncertainty": [
-          "Skill quality and Antigravity compatibility of individual ports were not audited file-by-file.",
-          "Maintenance cadence beyond 40 commits on main was not verified in detail."
+          "Cannot verify completeness or correctness of every skill package versus current Antigravity skill spec.",
+          "Cannot verify npm package publish status or runtime behavior of the CLI from facts alone.",
+          "Cannot verify ongoing maintenance beyond pushed_at and star/fork counts."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T10:55:32.331Z",
+        "reviewedAt": "2026-10-17T10:33:24.088Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "300+ ported agent skills with CLI catalog and bundles",
-        "description": "Install curated Antigravity skills from a catalog and CLI, covering development, ops, security, and workflows without loading every skill at once.",
+        "tagline": "300+ ported agent skills with CLI install and catalog",
+        "description": "Install targeted Antigravity skills from a large Claude-ported catalog via npx, tags, or bundles; avoid install-all for token cost.",
         "pros": [
-          "Public GitHub repo with MIT license, README, CATALOG.md, tests, changelog, and security policy.",
-          "Documents 300+ skills plus catalog.json, bundles.json, aliases, and a Python/npm CLI for targeted install.",
-          "About 1.8k stars, 276 forks, and 40 commits indicate active community use.",
-          "Warns that installing all skills increases token use and prefers search, tags, or bundles."
+          "Documents 300+ directory-based skills covering development, ops, security, data, and workflows.",
+          "Ships CATALOG.md, catalog.json, bundles.json, aliases.json, and npm CLI commands for search, install, update, and doctor.",
+          "MIT-licensed GitHub repo with substantial stars/forks and install paths aligned to Antigravity skill locations.",
+          "Warns that loading all skills increases token use and recommends targeted installs by query, tag, or bundle."
         ],
         "cons": [
-          "Unofficial port of Claude Code agents, not Google Antigravity first-party docs.",
-          "Large skill surface can still cause irrelevant auto-activation if users ignore targeted install guidance."
+          "Content is ported from Claude Code agents, not official Google Antigravity documentation.",
+          "Skill quality and Antigravity-format fidelity for each of the 300+ packages is not independently verified here.",
+          "install --force and update overwrite local skill edits; install --all is discouraged."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -771,13 +839,19 @@
           "learning"
         ],
         "usage": {
-          "input": 5030,
-          "output": 564,
-          "cacheRead": 6656,
-          "totalTokens": 12250,
+          "input": 10204,
+          "output": 840,
+          "cacheRead": 512,
+          "totalTokens": 11556,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/rmyndharis/antigravity-skills",
+        "contentHash": "9c6cde1bbf7ad94517dab17a66e0297e9b13ee38975e0296ad8ffaeaab0a34da",
+        "excerpt": "# Antigravity Skill Vault\n\nA curated collection of **Agent Skills** for **Google Antigravity**, ported from the [Claude Code Agents](https://github.com/wshobson/agents) repository.\n\nThis vault transforms the extensive Claude Code ecosystem into **Antigravity Skills**, providing your agent with repeatable workflows, domain expertise, and specialized tools.\n\n---\n\n## 🚀 Overview\n\nThis repository contains **300+ specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.\n\n### What's Included?\n\nThe skills are derived from three types of Claude Code components, all unified into the Antigravity Skill format:\n\n1.  **Domain Skills** (e.g., `k8s-manifest-generator`, `async-python-patterns`): Specialized knowledge packages.\n2.  **Specialist Agents** (e.g., `backend-architect`, `security-auditor`): Persona-based instruction sets for complex reasoning.\n3.  **Comm"
       }
     },
     {
@@ -785,6 +859,7 @@
       "type": "github_repo",
       "canonicalUrl": "https://github.com/amartelr/antigravity-workspace-manager",
       "title": "amartelr/antigravity-workspace-manager",
+      "description": "A powerful CLI to orchestrate workspaces and dynamically inject specialized skills into AI coding agents.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -866,9 +941,21 @@
           "surroundingText": "amartelr/antigravity-workspace-manager",
           "targetUrl": "https://github.com/amartelr/antigravity-workspace-manager",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "amartelr/antigravity-workspace-manager",
+          "surroundingText": "amartelr/antigravity-workspace-manager",
+          "targetUrl": "https://github.com/amartelr/antigravity-workspace-manager",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
-      "globalFactRefs": [],
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/amartelr/antigravity-workspace-manager"
+      ],
       "confidenceScore": 0.5,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
@@ -879,46 +966,48 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
-        "summary": "Community Python CLI that orchestrates workspaces and injects skills from antigravity-awesome-skills via wizard, symlinks, and sync. Useful companion tooling, not official Google Antigravity docs.",
+        "summary": "Community Python CLI that scaffolds workspaces and injects subsets of the third-party antigravity-awesome-skills catalog via wizards, templates, and symlinks. Useful Antigravity-adjacent tooling, but not official Google docs and install uses curl|bash.",
         "relevanceScore": 0.62,
-        "qualityScore": 0.48,
-        "riskScore": 0.22,
+        "qualityScore": 0.58,
+        "riskScore": 0.38,
         "suggestedTags": [
           "cli",
-          "workspaces",
           "skills",
+          "workspaces",
           "antigravity",
-          "python"
+          "context-management"
         ],
         "evidence": [
-          "GitHub description and README: CLI to orchestrate workspaces and inject skills from sickn33/antigravity-awesome-skills.",
-          "Repo stats: public, MIT, 16 stars, 1 fork, 15 commits, files include workspace-manager.py and install.sh.",
-          "Discovered repeatedly from sickn33/antigravity-awesome-skills curated README, not official Google sources."
+          "README documents wsm CLI, workspace hierarchy under .agent/skills, and dependency on sickn33/antigravity-awesome-skills.",
+          "GitHub facts: license mit, archived false, stargazers_count 15, pushed_at 2026-02-28.",
+          "Install snippet: curl -sSL .../install.sh | bash.",
+          "Topics include cli-tool, ai-agents, context-management, python-cli."
         ],
         "uncertainty": [
-          "Runtime quality, test coverage, and safety of install.sh/sync clone behavior not independently verified.",
-          "Depth of actual Antigravity IDE integration versus generic .agent/skills layout is unclear."
+          "Code quality, test coverage, and security of install.sh were not audited.",
+          "Whether the CLI still matches current Google Antigravity skill/workspace formats is unverified.",
+          "Ongoing maintenance after 2026-02-28 is unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T10:55:51.298Z",
+        "reviewedAt": "2026-10-17T10:33:43.504Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "CLI to isolate workspaces and inject agent skills",
-        "description": "Create isolated workspaces and inject selected skills into Antigravity, Claude Code, and Cursor via a Python CLI wizard and sync.",
+        "tagline": "CLI to scaffold workspaces and inject agent skills",
+        "description": "Orchestrate project workspaces and inject selected coding-agent skills via wizard, templates, sync, and per-project config.",
         "pros": [
-          "MIT-licensed Python CLI with documented commands such as wsm init, wizard, enable, disable, and sync.",
-          "Documents workspace isolation via skill-config.json and per-project skill symlinks.",
-          "Includes English and Spanish READMEs, install.sh, and demo GIFs.",
-          "Targets Antigravity plus Claude Code and Cursor skill/context loading."
+          "MIT-licensed Python CLI with documented commands such as init, wizard, enable/disable, and sync --auto-fix.",
+          "README describes workspace isolation via skill-config.json and per-project skill symlinks.",
+          "Supports stack-based skill recommendations and bundle templates (frontend, backend, mobile).",
+          "Listed from the antigravity-awesome-skills curated README and targets Antigravity, Claude Code, and Cursor."
         ],
         "cons": [
-          "Third-party companion with 16 stars, 1 fork, and 15 commits, not official antigravity.google docs.",
-          "Recommended install pipes curl into bash.",
-          "Manual install docs mention wsm init before describing how the wsm alias is created.",
-          "Depends on the community antigravity-awesome-skills catalog rather than maintained Google skills."
+          "Not official antigravity.google documentation; it is a companion to a community skills library.",
+          "Recommended install pipes a remote install.sh into bash.",
+          "Low GitHub traction (about 15 stars, 1 fork) relative to a directory listing.",
+          "Windows symlink setup may need Developer Mode or admin privileges."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -928,13 +1017,19 @@
           "prototyping"
         ],
         "usage": {
-          "input": 5464,
-          "output": 599,
-          "cacheRead": 6656,
-          "totalTokens": 12719,
+          "input": 1277,
+          "output": 722,
+          "cacheRead": 11392,
+          "totalTokens": 13391,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/amartelr/antigravity-workspace-manager",
+        "contentHash": "c32c8e15391d3c5c9f6569711a79e1034d6c0d8094a551183f340c02c125c589",
+        "excerpt": "# 🚀 Antigravity Workspace Manager\n\n*Read this in other languages: [English](README.md), [Español](README-es.md)*\n\n> **⚡ The ultimate companion CLI for the viral [`antigravity-awesome-skills`](https://github.com/sickn33/antigravity-awesome-skills) library.**\n\nA complete management system to structure your projects (workspaces) and dynamically inject *skills* using the famous [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) repository. While the original repository provides specialized knowledge (+250 skills), this manager brings the orchestration needed for your AI assistants (Antigravity, Claude Code, Cursor) to load exclusively the necessary context into each project.\n\n![Workspace Manager Demo](demo-en.gif)\n\n---\n\n## ✨ Key Features\n\n* **Dynamic Location**: Intelligent detection of the base project path, allowing you to invoke the script from any subdirectory within your environment.\n* **Smart Wizard**: A step-by-step terminal interface to easily crea"
       }
     },
     {
@@ -1023,6 +1118,16 @@
           "surroundingText": "guanyang/antigravity-skills",
           "targetUrl": "https://github.com/guanyang/antigravity-skills",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "guanyang/antigravity-skills",
+          "surroundingText": "guanyang/antigravity-skills",
+          "targetUrl": "https://github.com/guanyang/antigravity-skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1036,7 +1141,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Community CLI and skill/agent/command pack that lists Antigravity among many assistants; not official Google Antigravity docs. Canonical URL redirects to guanyang/open-agent-hub.",
         "relevanceScore": 0.55,
@@ -1098,6 +1203,7 @@
       "type": "github_repo",
       "canonicalUrl": "https://github.com/iradoweck/antigravity-awesome-skills",
       "title": "iradoweck/antigravity-awesome-skills",
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1179,20 +1285,34 @@
           "surroundingText": "iradoweck/antigravity-awesome-skills",
           "targetUrl": "https://github.com/iradoweck/antigravity-awesome-skills",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "iradoweck/antigravity-awesome-skills",
+          "surroundingText": "iradoweck/antigravity-awesome-skills",
+          "targetUrl": "https://github.com/iradoweck/antigravity-awesome-skills",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
-      "globalFactRefs": [],
-      "confidenceScore": 0.5,
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/iradoweck/antigravity-awesome-skills"
+      ],
+      "confidenceScore": 0,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
-        "bucket:review"
+        "gate:fork"
       ],
-      "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "riskFlags": [
+        "fork"
+      ],
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Community fork of sickn33/agentic-awesome-skills: a large SKILL.md catalog plus installer CLI aimed at many agent IDEs, including Antigravity. Not official Google Antigravity docs; treat as a third-party clone of a multi-tool skills library.",
         "relevanceScore": 0.42,
@@ -1248,6 +1368,12 @@
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
+      },
+      "reference": {
+        "source": "readme",
+        "url": "https://github.com/iradoweck/antigravity-awesome-skills",
+        "contentHash": "c5b0ebbd449ece5993c49279584c736d0032ef6b1345662ca9e14d67cdad1f3d",
+        "excerpt": "# AAS Core — Agentic Awesome Skills\n\n> **Find reusable instructions for your project, inspect their complete files, and keep an exact skill set you can review and reuse.**\n\nAgentic Awesome Skills is a library of 2,690+ installable `SKILL.md` playbooks. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before changing a target. Core does not rank or recommend skills.\n\n**Current release: V19.7.0.** AAS Core supports local catalog inspection, agent-owned selection, stack validation, and plan preview. Apply and recovery remain experimental. [Read the AAS Core preview guide](https://github.com/sickn33/agentic-awesome-skills/blob/v19.7.0/docs/users/aas-core.md) for setup and exact trust boundaries.\n\nThis README tracks `main`. Features listed under [Unreleased](CHANGELOG.md#unreleased) require a later release; the versioned guide describes the published package.\n\nThis is an independent community project, n"
       }
     },
     {
@@ -1336,6 +1462,16 @@
           "surroundingText": "vudovn/antigravity-kit",
           "targetUrl": "https://github.com/vudovn/antigravity-kit",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "vudovn/antigravity-kit",
+          "surroundingText": "vudovn/antigravity-kit",
+          "targetUrl": "https://github.com/vudovn/antigravity-kit",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1349,7 +1485,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Community Antigravity-first kit of rules, skills, specialist agents, workflows, and a CLI installer; popular and documented but not official Google docs.",
         "relevanceScore": 0.86,
@@ -1494,6 +1630,16 @@
           "surroundingText": "**Antigravity IDE**",
           "targetUrl": "https://www.google.com/search?q=https://antigravity.google%20%22null%22",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Antigravity IDE**",
+          "surroundingText": "**Antigravity IDE**",
+          "targetUrl": "https://www.google.com/search?q=https://antigravity.google%20%22null%22",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1507,7 +1653,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "This candidate is a Google Search URL wrapping antigravity.google plus the query \"null\", not official Antigravity docs, skills, or IDE tooling. It should not be listed as a directory resource.",
         "relevanceScore": 0.05,
@@ -1642,6 +1788,16 @@
           "surroundingText": "**Go to Website**",
           "targetUrl": "https://www.google.com/url?sa=E&source=gmail&q=https://awesome-antigravity.com/%20%22null%22",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Go to Website**",
+          "surroundingText": "**Go to Website**",
+          "targetUrl": "https://www.google.com/url?sa=E&source=gmail&q=https://awesome-antigravity.com/%20%22null%22",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1655,7 +1811,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Third-party community site of Antigravity agent personas, mission templates, and troubleshooting posts, discovered via a broken Gmail redirect titled “Go to Website.” Not official Google docs; treat as a low-trust clone/aggregator.",
         "relevanceScore": 0.42,
@@ -1793,6 +1949,16 @@
           "surroundingText": "**Back to Top**",
           "targetUrl": "https://www.google.com/search?q=%23awesome-antigravity%20%22null%22",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ZhangYu-zjut/awesome-Antigravity",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**Back to Top**",
+          "surroundingText": "**Back to Top**",
+          "targetUrl": "https://www.google.com/search?q=%23awesome-antigravity%20%22null%22",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1806,7 +1972,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "This candidate is a Google Search query URL scraped from a README “Back to Top” link, not an Antigravity skill, template, or official resource.",
         "relevanceScore": 0,
@@ -1942,6 +2108,16 @@
           "surroundingText": "Antigravity Workspace Template",
           "targetUrl": "https://github.com/study8677/antigravity-workspace-template",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity Workspace Template",
+          "surroundingText": "Antigravity Workspace Template",
+          "targetUrl": "https://github.com/study8677/antigravity-workspace-template",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -1955,7 +2131,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Third-party MIT Python CLI/MCP that builds a local .repobrain knowledge layer and answers codebase questions with file citations; it was renamed from Antigravity Workspace Template and is not official Google Antigravity docs or skills.",
         "relevanceScore": 0.35,
@@ -2098,6 +2274,16 @@
           "surroundingText": "Antigravity 2.0",
           "targetUrl": "https://github.com/comprono/antigravity-2-codex-plugin",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity 2.0",
+          "surroundingText": "Antigravity 2.0",
+          "targetUrl": "https://github.com/comprono/antigravity-2-codex-plugin",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -2111,7 +2297,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z",
+      "updatedAt": "2026-10-17T09:00:00.101Z",
       "aiReview": {
         "summary": "Community Windows Codex MCP plugin that bridges OpenAI Codex (including ChatGPT mobile) to a local Antigravity 2.0 desktop app via CLI, DevTools, and PowerShell helpers. Related to Antigravity workflows but unofficial, Windows-only, and low-star; not official antigravity.google docs or a maintained Google skill pack.",
         "relevanceScore": 0.42,
@@ -2308,6 +2494,15 @@
           "surroundingText": "https://antigravity.google/",
           "targetUrl": "https://antigravity.google",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "https://antigravity.google/",
+          "surroundingText": "https://antigravity.google/",
+          "targetUrl": "https://antigravity.google",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [
@@ -2325,7 +2520,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google homepage for the Antigravity agentic development platform (App, CLI, IDE, SDK, extensions, docs, and downloads). Strong canonical seed for an Antigravity directory.",
         "relevanceScore": 1,
@@ -2386,7 +2581,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://antigravity.google",
-        "contentHash": "cdf866224ec192b8cad3253c7f82292c920a806e77e59b58c807c75a03949a23",
+        "contentHash": "69ce439d402a81e00330c70ba8e21c25aa46c0693b868b26124d35e6711888ab",
         "excerpt": "Title: Google Antigravity\n\nURL Source: https://antigravity.google/\n\nMarkdown Content:\n[](https://antigravity.google/)\n\nCopy Logo as SVG Copied\n\nProducts\n\nUse Cases\n\n[Pricing](https://antigravity.google/pricing)\n\n[Enterprise](https://antigravity.google/use-cases/enterprise)\n\nResources\n\n[🚀Launch Remote Control](https://antigravity.google.com/)[Download](https://antigravity.google/download)\n\n[🚀Launch Remote Control](https://antigravity.google.com/)\n\nEN\n\nEnglish (United States)EN Bahasa Indonesia (Indonesia)ID Deutsch (Deutschland)DE English (Canada)EN-CA English (United Kingdom)EN-GB Español (España)ES Español (México)ES-MX Français (France)FR Italiano (Italia)IT Polski (Polska)PL Português (Brasil)PT हिन्दी (भारत)HI ไทย (ประเทศไทย)TH 日本語 (日本)JA 简体中文 (中国)ZH-CN 繁體中文 (台灣)ZH-TW 한국어 (대한민국)KO\n\nExplore our next generation products\n\n[See overview](https://antigravity.google/product)\n\nProducts\n\n[Antigravity App](https://antigravity.google/product/antigravity-2)[Antigravity Extensions](https://a"
       }
     },
@@ -2468,6 +2663,15 @@
           "surroundingText": "Press Guidelines",
           "targetUrl": "https://antigravity.google/press",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Press Guidelines",
+          "surroundingText": "Press Guidelines",
+          "targetUrl": "https://antigravity.google/press",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2482,7 +2686,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official press kit with logos, icons, and wordmarks. Useful for media, not for agent personas, skills, workflows, or IDE tooling.",
         "relevanceScore": 0.15,
@@ -2611,6 +2815,15 @@
           "surroundingText": "Pricing",
           "targetUrl": "https://antigravity.google/pricing",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Pricing",
+          "surroundingText": "Pricing",
+          "targetUrl": "https://antigravity.google/pricing",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2625,7 +2838,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity plans page covering a $0 Individual tier, Google AI Pro/Ultra upgrades, and Google Cloud business access. Useful as a canonical pricing reference, not as agent skills or IDE workflow content.",
         "relevanceScore": 0.82,
@@ -2762,6 +2975,15 @@
           "surroundingText": "Enterprise",
           "targetUrl": "https://antigravity.google/use-cases/enterprise",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Enterprise",
+          "surroundingText": "Enterprise",
+          "targetUrl": "https://antigravity.google/use-cases/enterprise",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2776,7 +2998,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity enterprise use-case page covering Cloud login, sandboxing, and Gemini Enterprise availability. Useful as a product landing link, not a skills or workflow tutorial.",
         "relevanceScore": 0.82,
@@ -2972,6 +3194,15 @@
           "surroundingText": "🚀 Launch Remote Control",
           "targetUrl": "https://antigravity.google.com",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "🚀 Launch Remote Control",
+          "surroundingText": "🚀 Launch Remote Control",
+          "targetUrl": "https://antigravity.google.com",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -2986,7 +3217,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity site for the agentic development platform. Homepage is gated behind Google sign-in, so public feature detail is limited to marketing meta copy.",
         "relevanceScore": 0.95,
@@ -3179,6 +3410,15 @@
           "surroundingText": "Download",
           "targetUrl": "https://antigravity.google/download",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Download",
+          "surroundingText": "Download",
+          "targetUrl": "https://antigravity.google/download",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3193,7 +3433,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity download hub for the desktop app, CLI, IDE extensions, standalone IDE, and Python SDK. High-signal canonical entry for agent-first IDE tooling; keep as the install landing page rather than a skills/templates listing.",
         "relevanceScore": 0.95,
@@ -3330,6 +3570,15 @@
           "surroundingText": "See overview",
           "targetUrl": "https://antigravity.google/product",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "See overview",
+          "surroundingText": "See overview",
+          "targetUrl": "https://antigravity.google/product",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3344,7 +3593,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity product overview covering the agent-first suite (App, CLI, SDK, IDE) for orchestrating subagents, artifacts, and long-running workflows. Strong fit as a primary directory entry; the source title “See overview” should be replaced with the real product-page title.",
         "relevanceScore": 0.95,
@@ -3480,6 +3729,15 @@
           "surroundingText": "Antigravity App",
           "targetUrl": "https://antigravity.google/product/antigravity-2",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity App",
+          "surroundingText": "Antigravity App",
+          "targetUrl": "https://antigravity.google/product/antigravity-2",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3494,7 +3752,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity desktop app for orchestrating multiple autonomous agents in parallel, with projects, skills, scheduled tasks, and artifacts. Prefer this over unofficial clones as the primary product surface.",
         "relevanceScore": 0.95,
@@ -3629,6 +3887,15 @@
           "surroundingText": "Antigravity CLI",
           "targetUrl": "https://antigravity.google/product/antigravity-cli",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity CLI",
+          "surroundingText": "Antigravity CLI",
+          "targetUrl": "https://antigravity.google/product/antigravity-cli",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3643,7 +3910,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity terminal CLI for prompting, subagents, slash commands, and MCP/skills configuration. Prefer this over unofficial clones; confirm install and docs on antigravity.google.",
         "relevanceScore": 0.95,
@@ -3838,6 +4105,15 @@
           "surroundingText": "Antigravity Extensions",
           "targetUrl": "https://antigravity.google/docs/ide/extensions",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity Extensions",
+          "surroundingText": "Antigravity Extensions",
+          "targetUrl": "https://antigravity.google/docs/ide/extensions",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3852,7 +4128,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity docs for IDE extensions covering VS Code, Visual Studio, JetBrains, Zed, and Xcode, plus auth and licensing. Prefer this over unofficial clones.",
         "relevanceScore": 0.95,
@@ -3985,6 +4261,15 @@
           "surroundingText": "Antigravity IDE",
           "targetUrl": "https://antigravity.google/product/antigravity-ide",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity IDE",
+          "surroundingText": "Antigravity IDE",
+          "targetUrl": "https://antigravity.google/product/antigravity-ide",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -3999,7 +4284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity product page for the desktop IDE (macOS, Windows, Linux), covering editor, agents, artifacts, and feedback. Prefer this over unofficial clones or generic Gemini posts.",
         "relevanceScore": 0.95,
@@ -4137,6 +4422,15 @@
           "surroundingText": "Antigravity SDK",
           "targetUrl": "https://antigravity.google/product/antigravity-sdk",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity SDK",
+          "surroundingText": "Antigravity SDK",
+          "targetUrl": "https://antigravity.google/product/antigravity-sdk",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4151,7 +4445,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity SDK page describing a Python agent toolkit (PyPI: google-antigravity) that unifies custom callables, MCP servers, and skills over built-in filesystem/terminal tools. Requires platform wheels from PyPI; cloning a repo is not enough to run it.",
         "relevanceScore": 0.92,
@@ -4285,6 +4579,15 @@
           "surroundingText": "See overview",
           "targetUrl": "https://antigravity.google/use-cases",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "See overview",
+          "surroundingText": "See overview",
+          "targetUrl": "https://antigravity.google/use-cases",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4299,7 +4602,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity use-cases hub covering enterprise, frontend, fullstack, science, and marketer workflows for agent-first development.",
         "relevanceScore": 0.95,
@@ -4360,7 +4663,7 @@
       "id": "web:359a366d7c70cbdf",
       "type": "web_url",
       "canonicalUrl": "https://antigravity.google/use-cases/frontend",
-      "title": "Frontend",
+      "title": "Frontend Development",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -4434,6 +4737,15 @@
           "surroundingText": "Frontend",
           "targetUrl": "https://antigravity.google/use-cases/frontend",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Frontend Development",
+          "surroundingText": "Frontend Development",
+          "targetUrl": "https://antigravity.google/use-cases/frontend",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4448,7 +4760,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity frontend use-case page describing agent browser use, visual artifacts, and visual feedback for UI work. Suitable as a first-party use-case resource, not a skill or workflow repo.",
         "relevanceScore": 0.88,
@@ -4509,7 +4821,7 @@
       "id": "web:f5f35f1998525e44",
       "type": "web_url",
       "canonicalUrl": "https://antigravity.google/use-cases/fullstack",
-      "title": "Fullstack",
+      "title": "Full-Stack Development",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -4583,6 +4895,15 @@
           "surroundingText": "Fullstack",
           "targetUrl": "https://antigravity.google/use-cases/fullstack",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Full-Stack Development",
+          "surroundingText": "Full-Stack Development",
+          "targetUrl": "https://antigravity.google/use-cases/fullstack",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4597,7 +4918,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity fullstack use-case page covering agent verification, artifacts, feedback, and manager-to-editor handoffs. Useful as a product overview, not as reusable skills or templates.",
         "relevanceScore": 0.86,
@@ -4729,6 +5050,15 @@
           "surroundingText": "Science",
           "targetUrl": "https://antigravity.google/use-cases/science",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Science",
+          "surroundingText": "Science",
+          "targetUrl": "https://antigravity.google/use-cases/science",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4743,7 +5073,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity science use-case page covering domain plugins, DeepMind model/database access, and a free scientist-access program; suitable as an official use-case resource, not a standalone SDK.",
         "relevanceScore": 0.92,
@@ -4880,6 +5210,15 @@
           "surroundingText": "Marketer",
           "targetUrl": "https://antigravity.google/use-cases/marketer",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Marketer",
+          "surroundingText": "Marketer",
+          "targetUrl": "https://antigravity.google/use-cases/marketer",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -4894,7 +5233,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity use-case page for marketers covering collaborative steering, parallel subagents, scheduled tasks, and custom skills. Prefer this over unofficial clones as a maintained product landing, not a skills repo or tutorial.",
         "relevanceScore": 0.86,
@@ -5290,6 +5629,15 @@
           "surroundingText": "Blog",
           "targetUrl": "https://antigravity.google/blog",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Blog",
+          "surroundingText": "Blog",
+          "targetUrl": "https://antigravity.google/blog",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5304,7 +5652,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity team blog with RSS; useful for product news, not a skill, persona, or IDE workflow template.",
         "relevanceScore": 0.82,
@@ -5498,6 +5846,15 @@
           "surroundingText": "Changelog",
           "targetUrl": "https://antigravity.google/docs/changelog",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Changelog",
+          "surroundingText": "Changelog",
+          "targetUrl": "https://antigravity.google/docs/changelog",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5512,7 +5869,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity changelog covering App, CLI, SDK, and IDE releases, including dated version notes, improvements, and fixes. Prefer this over unofficial recaps for product change history.",
         "relevanceScore": 0.92,
@@ -5645,6 +6002,15 @@
           "surroundingText": "Releases",
           "targetUrl": "https://antigravity.google/releases",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Releases",
+          "surroundingText": "Releases",
+          "targetUrl": "https://antigravity.google/releases",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5659,7 +6025,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity releases page for downloading prior App and IDE builds, with changelog and notes on auto-update vs pinning. Prefer this over third-party mirrors; the listed Linux APT/RPM repos are documented as historical 1.x only.",
         "relevanceScore": 0.95,
@@ -5859,6 +6225,15 @@
           "surroundingText": "Read More",
           "targetUrl": "https://antigravity.google/docs/enterprise",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Read More",
+          "surroundingText": "Read More",
+          "targetUrl": "https://antigravity.google/docs/enterprise",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -5873,7 +6248,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google docs for deploying Antigravity through Gemini Enterprise, covering SSO/WIF/ADC auth, supported models, VPC-SC, regional endpoints, and admin network allowlists. High-value for org rollouts; not a skill or persona pack.",
         "relevanceScore": 0.92,
@@ -6008,6 +6383,15 @@
           "surroundingText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/custom-agents-in-google-plugins",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
+          "surroundingText": "Custom agents in Google plugins Sep 28, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/custom-agents-in-google-plugins",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6022,7 +6406,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity blog (Sep 28, 2026) showing how custom agents ship inside Google plugins, with Flutter accessibility, Firebase Security Rules, and a Google Play release-audit example plus agent definition.",
         "relevanceScore": 0.95,
@@ -6155,6 +6539,15 @@
           "surroundingText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
           "targetUrl": "https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
+          "surroundingText": "Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog",
+          "targetUrl": "https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6169,7 +6562,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Antigravity blog announcing Gemini 3.8 Flash as a daily agentic coding model with adjustable thinking, Flash pricing, and 3.7 Flash still available.",
         "relevanceScore": 0.92,
@@ -6301,6 +6694,15 @@
           "surroundingText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
           "targetUrl": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
+          "surroundingText": "Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6315,7 +6717,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity blog (Aug 27, 2026) describing the Teamwork multi-agent orchestration feature, patterns, and claimed research/engineering results, with links to docs.",
         "relevanceScore": 0.86,
@@ -6452,6 +6854,15 @@
           "surroundingText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/visualizing-with-the-help-of-antigravity",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
+          "surroundingText": "Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/visualizing-with-the-help-of-antigravity",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6466,7 +6877,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity product blog (26 Aug 2026) on Generative UI: agents creating and iterating visual components, dashboards, artifacts, and mockups from TUI-style workflows.",
         "relevanceScore": 0.86,
@@ -6597,6 +7008,15 @@
           "surroundingText": "Improving the version control experience Aug 24, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/vcs-and-terminal",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Improving the version control experience Aug 24, 2026 Product Read blog",
+          "surroundingText": "Improving the version control experience Aug 24, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/vcs-and-terminal",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6611,7 +7031,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity blog (Aug 24, 2026) describing Git VCS controls and an embedded terminal in the Antigravity 2.0 side panel so agent and non-agent workspace changes can be reviewed, staged, and committed without leaving the IDE.",
         "relevanceScore": 0.92,
@@ -6746,6 +7166,15 @@
           "surroundingText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/remote-control-for-antigravity",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
+          "surroundingText": "Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/remote-control-for-antigravity",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6760,7 +7189,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity blog (Aug 21, 2026) describing Remote Control: browser access to agent sessions on other machines, multi-instance management, retained local context, and push notifications, with a link to product docs.",
         "relevanceScore": 0.92,
@@ -6893,6 +7322,15 @@
           "surroundingText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
           "targetUrl": "https://antigravity.google/blog/antigravity-enterprise",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
+          "surroundingText": "Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog",
+          "targetUrl": "https://antigravity.google/blog/antigravity-enterprise",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -6907,7 +7345,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google blog announcing Antigravity inclusion in eligible Gemini Enterprise Standard/Plus plans, with enterprise identity, sandboxing, billing caps, and audit controls, plus pointers to IDE extensions and admin setup.",
         "relevanceScore": 0.92,
@@ -7043,6 +7481,15 @@
           "surroundingText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
           "targetUrl": "https://antigravity.google/blog/antigravity-ide-extensions",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
+          "surroundingText": "Introducing IDE extensions Aug 20, 2026 Product Read blog",
+          "targetUrl": "https://antigravity.google/blog/antigravity-ide-extensions",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -7057,7 +7504,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity blog announcing lightweight IDE extensions for VS Code, Visual Studio, JetBrains, Zed, and Xcode, with install paths and enterprise notes.",
         "relevanceScore": 0.95,
@@ -7315,6 +7762,15 @@
           "surroundingText": "Redirecting to: /docs/overview",
           "targetUrl": "https://antigravity.google/docs/home",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Redirecting to: /docs/overview",
+          "surroundingText": "Redirecting to: /docs/overview",
+          "targetUrl": "https://antigravity.google/docs/home",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [
@@ -7332,7 +7788,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity documentation hub covering app, CLI, IDE extensions, skills, subagents, SDK, and sandbox. Prefer this over unofficial Gemini posts; the listed title is a redirect artifact, not the page content.",
         "relevanceScore": 1,
@@ -7392,8 +7848,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://antigravity.google/docs/home",
-        "contentHash": "1880f4a3331b0c49d6d43b86658c7433f03b6ca2128dd4a85680c4b768e77950",
-        "excerpt": "Title: Choose your Antigravity\n\nURL Source: https://antigravity.google/docs/home/\n\nMarkdown Content:\n[Skip to content](https://antigravity.google/docs/home/#_top)\n\n[Google Antigravity Docs](https://antigravity.google/)\n\nSearch docs...⌘K\n\n?ESC Cancel\n\nAll App×CLI×IDE×Extensions×SDK×Blog×\n\nExplore Antigravity\n\n[Getting Started Install & launch your first agent→](https://antigravity.google/docs/getting-started/)[Remote Control Drive desktop & CLI sessions from any browser→](https://antigravity.google/docs/remote-control/)[Agent Skills & Rules Reusable workflows & workspace instructions→](https://antigravity.google/docs/skills/)[Subagents & Teamwork Parallel multi-agent orchestration→](https://antigravity.google/docs/subagents/)[Antigravity SDK Build custom Python agents & hooks→](https://antigravity.google/docs/sdk/overview/)[Permissions & Sandbox File access controls & safe execution→](https://antigravity.google/docs/permissions/)\n\nTry searching\n\nRemote Control Agent skills Custom subage"
+        "contentHash": "bffedecbbc15495e8bfe5892224a7b041c4fb7d3f80eece455583cff0324a17b",
+        "excerpt": "Title: Choose your Antigravity\n\nURL Source: https://antigravity.google/docs/home/\n\nMarkdown Content:\n[Skip to content](https://antigravity.google/docs/home/#_top)\n\n[Google Antigravity Docs](https://antigravity.google/)\n\nSearch docs...⌘K\n\n?ESC Cancel\n\nAll App×CLI×IDE×Extensions×SDK×Blog×Releases×\n\nExplore Antigravity\n\n[Getting Started Install & launch your first agent→](https://antigravity.google/docs/getting-started/)[Remote Control Drive desktop & CLI sessions from any browser→](https://antigravity.google/docs/remote-control/)[Agent Skills & Rules Reusable workflows & workspace instructions→](https://antigravity.google/docs/skills/)[Subagents & Teamwork Parallel multi-agent orchestration→](https://antigravity.google/docs/subagents/)[Antigravity SDK Build custom Python agents & hooks→](https://antigravity.google/docs/sdk/overview/)[Permissions & Sandbox File access controls & safe execution→](https://antigravity.google/docs/permissions/)\n\nTry searching\n\nRemote Control Agent skills Cust"
       }
     },
     {
@@ -7759,6 +8215,24 @@
           "surroundingText": "Redirecting from /docs/home/ to /docs/overview",
           "targetUrl": "https://antigravity.google/docs/overview",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Documentation",
+          "surroundingText": "Documentation",
+          "targetUrl": "https://antigravity.google/docs/overview",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/docs/home/",
+          "sectionPath": [],
+          "anchorText": "Redirecting from /docs/home/ to /docs/overview",
+          "surroundingText": "Redirecting from /docs/home/ to /docs/overview",
+          "targetUrl": "https://antigravity.google/docs/overview",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -7773,7 +8247,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z",
       "aiReview": {
         "summary": "Official Google Antigravity docs overview covering desktop, CLI, IDE extensions, and Python SDK surfaces plus shared agent capabilities. Canonical entry point for product docs, not a third-party clone.",
         "relevanceScore": 0.95,
@@ -19079,6 +19553,16 @@
           "surroundingText": "Antigravity CLI Tips",
           "targetUrl": "https://github.com/ykdojo/antigravity-cli-tips",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Antigravity CLI Tips",
+          "surroundingText": "Antigravity CLI Tips",
+          "targetUrl": "https://github.com/ykdojo/antigravity-cli-tips",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -19092,7 +19576,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:32:00.131Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:bf694c30da566160",
@@ -19145,6 +19629,15 @@
           "surroundingText": "New Gemini 4 Argon available for Google AI Pro and Ultra in Google Antigravity Learn more",
           "targetUrl": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "New Gemini 4 Argon available for Google AI Pro and Ultra in Google Antigravity Learn more",
+          "surroundingText": "New Gemini 4 Argon available for Google AI Pro and Ultra in Google Antigravity Learn more",
+          "targetUrl": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -19159,7 +19652,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:20:00.043Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     },
     {
       "id": "github:ashenjyy/antigravity-browser-bridge",
@@ -19187,6 +19680,16 @@
           "surroundingText": "AshenJyy/antigravity-browser-bridge",
           "targetUrl": "https://github.com/ashenjyy/antigravity-browser-bridge",
           "discoveredAt": "2026-10-16T09:00:00.080Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AshenJyy/antigravity-browser-bridge",
+          "surroundingText": "AshenJyy/antigravity-browser-bridge",
+          "targetUrl": "https://github.com/ashenjyy/antigravity-browser-bridge",
+          "discoveredAt": "2026-10-17T09:00:00.101Z"
         }
       ],
       "globalFactRefs": [],
@@ -19200,7 +19703,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-16T09:00:00.080Z"
+      "updatedAt": "2026-10-17T09:00:00.101Z"
     },
     {
       "id": "web:73b4d43f374df252",
@@ -19341,6 +19844,15 @@
           "surroundingText": "Newsletter",
           "targetUrl": "https://antigravity.google/newsletter",
           "discoveredAt": "2026-10-16T09:20:00.059Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Newsletter",
+          "surroundingText": "Newsletter",
+          "targetUrl": "https://antigravity.google/newsletter",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
         }
       ],
       "globalFactRefs": [],
@@ -19355,7 +19867,503 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:20:00.059Z",
-      "updatedAt": "2026-10-16T09:20:00.059Z"
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:88dd21e42af86019",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/legacy-migrations",
+      "title": "Legacy &amp; Codebase Migrations",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Legacy &amp; Codebase Migrations",
+          "surroundingText": "Legacy &amp; Codebase Migrations",
+          "targetUrl": "https://antigravity.google/use-cases/legacy-migrations",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:4aba77448f81f5f8",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/tech-debt",
+      "title": "Technical Debt &amp; Backlog Burndown",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Technical Debt &amp; Backlog Burndown",
+          "surroundingText": "Technical Debt &amp; Backlog Burndown",
+          "targetUrl": "https://antigravity.google/use-cases/tech-debt",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:94a02f52cb180ce6",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/automated-testing",
+      "title": "Automated Testing &amp; QA Verification",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Automated Testing &amp; QA Verification",
+          "surroundingText": "Automated Testing &amp; QA Verification",
+          "targetUrl": "https://antigravity.google/use-cases/automated-testing",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:47cfa3082da737a2",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/incident-triage",
+      "title": "Incident Triage &amp; Root Cause Analysis",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Incident Triage &amp; Root Cause Analysis",
+          "surroundingText": "Incident Triage &amp; Root Cause Analysis",
+          "targetUrl": "https://antigravity.google/use-cases/incident-triage",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:955dbbe08f24786d",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/data-pipelines",
+      "title": "Data Pipelines &amp; SQL Engineering",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Data Pipelines &amp; SQL Engineering",
+          "surroundingText": "Data Pipelines &amp; SQL Engineering",
+          "targetUrl": "https://antigravity.google/use-cases/data-pipelines",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:962446d902802bfc",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/onboarding-architecture",
+      "title": "Developer Onboarding &amp; Architecture",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Developer Onboarding &amp; Architecture",
+          "surroundingText": "Developer Onboarding &amp; Architecture",
+          "targetUrl": "https://antigravity.google/use-cases/onboarding-architecture",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:197f3cc5b1834f6e",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/fullstack-prototyping",
+      "title": "Full-Stack Prototyping",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Full-Stack Prototyping",
+          "surroundingText": "Full-Stack Prototyping",
+          "targetUrl": "https://antigravity.google/use-cases/fullstack-prototyping",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:b4444b2f6c83d15c",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/enterprise-architecture",
+      "title": "Enterprise Architecture &amp; Strategy",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Enterprise Architecture &amp; Strategy",
+          "surroundingText": "Enterprise Architecture &amp; Strategy",
+          "targetUrl": "https://antigravity.google/use-cases/enterprise-architecture",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:b9a50496b529c02f",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/daily-operations",
+      "title": "Daily Operations &amp; Code Reviews",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Daily Operations &amp; Code Reviews",
+          "surroundingText": "Daily Operations &amp; Code Reviews",
+          "targetUrl": "https://antigravity.google/use-cases/daily-operations",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:7c615b7c58feb2a4",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/specialized-engineering",
+      "title": "Specialized Systems Engineering",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Specialized Systems Engineering",
+          "surroundingText": "Specialized Systems Engineering",
+          "targetUrl": "https://antigravity.google/use-cases/specialized-engineering",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:3d6c4bb291c3f5d5",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/product-management",
+      "title": "Product Management",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Product Management",
+          "surroundingText": "Product Management",
+          "targetUrl": "https://antigravity.google/use-cases/product-management",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:ce9c51342d434d62",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/technical-program-management",
+      "title": "Technical Program Management",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Technical Program Management",
+          "surroundingText": "Technical Program Management",
+          "targetUrl": "https://antigravity.google/use-cases/technical-program-management",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:c19b1274bc0141a9",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/sales-gtm",
+      "title": "Sales &amp; GTM",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Sales &amp; GTM",
+          "surroundingText": "Sales &amp; GTM",
+          "targetUrl": "https://antigravity.google/use-cases/sales-gtm",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:454cac0857638ffa",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/finance",
+      "title": "Finance",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Finance",
+          "surroundingText": "Finance",
+          "targetUrl": "https://antigravity.google/use-cases/finance",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:8554b134ae9e3586",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/business-operations",
+      "title": "Business &amp; Operations",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Business &amp; Operations",
+          "surroundingText": "Business &amp; Operations",
+          "targetUrl": "https://antigravity.google/use-cases/business-operations",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
+    },
+    {
+      "id": "web:3d3621cc2262724c",
+      "type": "web_url",
+      "canonicalUrl": "https://antigravity.google/use-cases/design-ux",
+      "title": "Design &amp; UX",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://antigravity.google/",
+          "sectionPath": [],
+          "anchorText": "Design &amp; UX",
+          "surroundingText": "Design &amp; UX",
+          "targetUrl": "https://antigravity.google/use-cases/design-ux",
+          "discoveredAt": "2026-10-17T09:20:00.063Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-17T09:20:00.063Z",
+      "updatedAt": "2026-10-17T09:20:00.063Z"
     }
   ]
 }
