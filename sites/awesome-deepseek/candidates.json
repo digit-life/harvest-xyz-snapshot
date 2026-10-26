@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T10:30:00.067Z",
+  "generatedAt": "2026-10-26T10:30:00.083Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -746,6 +746,15 @@
           "surroundingText": "DeepSeek API Docs",
           "targetUrl": "https://api-docs.deepseek.com",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek API Docs",
+          "surroundingText": "DeepSeek API Docs",
+          "targetUrl": "https://api-docs.deepseek.com",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -763,7 +772,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API documentation covering first calls, OpenAI/Anthropic-compatible endpoints, models, pricing, and agent integrations. Primary developer reference for the hosted API.",
         "relevanceScore": 1,
@@ -1471,6 +1480,15 @@
           "surroundingText": "DeepSeek Platform",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Platform",
+          "surroundingText": "DeepSeek Platform",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         },
         {
           "sourceType": "curated_readme",
@@ -2209,6 +2227,15 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://platform.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -2226,7 +2253,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API console for account signup/login and access to V4-series API docs; the captured page is mostly auth and cookies, with documentation hosted separately.",
         "relevanceScore": 0.95,
@@ -3231,6 +3258,15 @@
           "surroundingText": "deepseek-ai",
           "targetUrl": "https://huggingface.co/deepseek-ai",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai",
+          "surroundingText": "deepseek-ai",
+          "targetUrl": "https://huggingface.co/deepseek-ai",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [],
@@ -3245,7 +3281,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official verified Hugging Face organization for DeepSeek, hosting 100+ models, collections, and model cards. High-value hub listing for developers who need weights and cards rather than news.",
         "relevanceScore": 0.95,
@@ -3957,6 +3993,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-0813",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-0813",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-0813",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -3972,7 +4017,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V4-Pro-0813: MIT-licensed text-generation weights with agentic evals, encoding scripts, and vLLM/SGLang/local run notes. Prefer this over news; confirm the repo stays populated before listing.",
         "relevanceScore": 0.95,
@@ -4680,6 +4725,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-0731",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -4695,7 +4749,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V4-Flash-0731: MIT-licensed text-generation weights with agentic-benchmark results and vLLM/SGLang/local run notes. Strong directory fit; confirm the listing stays on the official deepseek-ai repo.",
         "relevanceScore": 0.92,
@@ -5408,6 +5462,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -5423,7 +5486,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V4-Pro, a 1.6T-parameter MoE LLM (49B activated) with 1M-token context, MIT weights, and transformers-compatible inference notes.",
         "relevanceScore": 0.95,
@@ -6136,6 +6199,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -6151,7 +6223,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V4-Flash, a 284B MoE (13B active) instruct model with 1M context, MIT weights, and documented inference/encoding notes.",
         "relevanceScore": 0.95,
@@ -6862,6 +6934,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1",
+          "surroundingText": "deepseek-ai/DeepSeek-R1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -6877,7 +6958,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 671B MoE reasoning weights (MIT), with architecture notes, evals, distill links, and local-run caveats. Prefer this over news for listing model cards.",
         "relevanceScore": 0.98,
@@ -7587,6 +7668,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -7602,7 +7692,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face card for the DeepSeek-V4-Flash checkpoint with a DSpark speculative-decoding module; MIT-licensed MoE weights for 1M-token text generation, not a separate base model.",
         "relevanceScore": 0.92,
@@ -8313,6 +8403,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -8328,7 +8427,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 32B Qwen-based R1 distill, with license, evals, and local-run notes. Strong fit for a DeepSeek directory of official model cards.",
         "relevanceScore": 0.95,
@@ -9040,6 +9139,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-OCR",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-OCR",
+          "surroundingText": "deepseek-ai/DeepSeek-OCR",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -9055,7 +9163,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s OCR vision-language model (MIT, transformers/vLLM usage). High-signal listing for a DeepSeek directory.",
         "relevanceScore": 0.86,
@@ -9768,6 +9876,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-OCR-2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-OCR-2",
+          "surroundingText": "deepseek-ai/DeepSeek-OCR-2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -9783,7 +9900,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s Apache-2.0 OCR vision-language weights, with Transformers usage, prompts, and paper links.",
         "relevanceScore": 0.92,
@@ -10495,6 +10612,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -10510,7 +10636,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 16B-parameter (2.4B active) MoE code base checkpoint with Transformers usage, 128K context, and a custom model license that allows commercial use.",
         "relevanceScore": 0.92,
@@ -11220,6 +11346,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -11235,7 +11370,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face card for the DeepSeek-V4-Pro checkpoint with a DSpark speculative-decoding module (not a separate model). MIT-licensed MoE weights with 1M context, Transformers/vLLM notes, and a technical report.",
         "relevanceScore": 0.92,
@@ -11945,6 +12080,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -11960,7 +12104,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for a 14B Qwen2.5-based dense checkpoint distilled from R1 reasoning traces, with MIT weights, usage notes, and published math/code benchmarks.",
         "relevanceScore": 0.95,
@@ -12671,6 +12815,15 @@
           "surroundingText": "deepseek-ai/Janus-Pro-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-Pro-7B",
+          "surroundingText": "deepseek-ai/Janus-Pro-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -12686,7 +12839,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 7B unified multimodal understanding and generation model, with architecture notes, citation, and pointers to the Janus GitHub for inference.",
         "relevanceScore": 0.88,
@@ -13396,6 +13549,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -13411,7 +13573,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V3.2 (text-generation, MIT weights) with architecture notes, chat-template encoding, and local-run pointers. Prefer this over news for developer listing.",
         "relevanceScore": 0.95,
@@ -14123,6 +14285,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -14138,7 +14309,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek org Hugging Face weights for a V4 Flash base checkpoint (safetensors/fp8). High download volume, but the model card README is missing, so usage and license details are thin.",
         "relevanceScore": 0.88,
@@ -14845,6 +15016,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -14860,7 +15040,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 6.7B instruction-tuned DeepSeek Coder checkpoint, with transformers usage, training notes, and a custom commercial model license.",
         "relevanceScore": 0.92,
@@ -15572,6 +15752,15 @@
           "surroundingText": "deepseek-ai/deepseek-moe-16b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-moe-16b-base",
+          "surroundingText": "deepseek-ai/deepseek-moe-16b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -15587,7 +15776,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the DeepSeekMoE 16B base text-generation weights, with transformers usage, paper link, and a commercial model license. Older MoE checkpoint (not R1); still a valid developer artifact.",
         "relevanceScore": 0.82,
@@ -16296,6 +16485,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -16311,7 +16509,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeekMath-7B-Instruct with transformers usage, CoT prompting notes, and a custom model license that allows commercial use.",
         "relevanceScore": 0.86,
@@ -17021,6 +17219,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Lite",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -17036,7 +17243,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V2-Lite, a 16B MoE (2.4B active) text-generation checkpoint with MLA, Transformers/vLLM usage, and paper-backed evals. Suitable as a first-party model resource; license is a custom DeepSeek model agreement, not a standard OSI license.",
         "relevanceScore": 0.92,
@@ -17747,6 +17954,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -17762,7 +17978,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 16B MoE instruct coder (2.4B active, 128K context) with Transformers/vLLM usage notes and a custom commercial-use model license.",
         "relevanceScore": 0.92,
@@ -18476,6 +18692,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Zero",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Zero",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Zero",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -18491,7 +18716,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 671B MoE reasoning checkpoint trained with RL and no SFT; MIT-licensed weights with documented readability and language-mixing caveats versus the later R1 variant.",
         "relevanceScore": 0.95,
@@ -19203,6 +19428,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -19218,7 +19452,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 1.5B Qwen-based R1 distill, with MIT weights, usage notes, and published math/code benchmarks. Suitable as a canonical open-weight entry for local reasoning experiments.",
         "relevanceScore": 0.95,
@@ -19930,6 +20164,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -19945,7 +20188,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for an 8B Llama-3.1 distill of DeepSeek-R1, with license notes, usage settings, and published distill benchmarks. Suitable as a first-party weights/docs listing.",
         "relevanceScore": 0.95,
@@ -20659,6 +20902,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -20674,7 +20926,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V3.1 (671B MoE, 128K context) with hybrid thinking/non-thinking chat templates, tool-call formats, and local-run notes. Strong fit for a DeepSeek directory as maintained first-party weights and docs.",
         "relevanceScore": 0.95,
@@ -21385,6 +21637,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Pro-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Pro-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -21400,7 +21661,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face repo for DeepSeek-V4-Pro-Base with modest engagement, but the public card is essentially empty (no pipeline tag, license, or usage docs).",
         "relevanceScore": 0.82,
@@ -22107,6 +22368,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-llm-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -22122,7 +22392,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 7B English/Chinese base LLM trained from scratch on 2T tokens, with Transformers usage and a commercial-capable model license.",
         "relevanceScore": 0.86,
@@ -22833,6 +23103,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-67b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-67b-base",
+          "surroundingText": "deepseek-ai/deepseek-llm-67b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -22848,7 +23127,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 67B base LLM (GQA, 2T tokens, EN/ZH) with Transformers usage and a separate model license that allows commercial use. Older than R1-class models, so treat it as a historical open-weight checkpoint rather than current flagship tooling.",
         "relevanceScore": 0.82,
@@ -23559,6 +23838,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "surroundingText": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -23574,7 +23862,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 7B Instruct v1.5, with transformers usage and a custom model license that allows commercial use. Suitable as a listed developer resource; it is an older 7B coder checkpoint, not R1.",
         "relevanceScore": 0.88,
@@ -24286,6 +24574,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -24301,7 +24598,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face instruct checkpoint of DeepSeek-Coder-V2 (236B MoE, 21B active, 128K context) with transformers/vLLM usage notes. Large GPU footprint and a custom model license apply.",
         "relevanceScore": 0.92,
@@ -25012,6 +25309,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -25027,7 +25333,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 236B MoE instruct checkpoint (21B active, 128K context) with Transformers/vLLM usage notes, function-calling, and JSON/FIM examples. Custom DeepSeek model license, not a permissive OSS license.",
         "relevanceScore": 0.92,
@@ -25738,6 +26044,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -25753,7 +26068,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the DeepSeek-V3 base MoE checkpoint (671B total / 37B active, 128K context), with paper, benchmarks, and local-run notes. Prefer this over news; hardware and license constraints still apply.",
         "relevanceScore": 0.95,
@@ -26468,6 +26783,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -26483,7 +26807,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 70B Llama-based R1 distill, with paper, benchmarks, run notes, and license caveats. Prefer this over news; 70B local inference still needs substantial hardware.",
         "relevanceScore": 0.95,
@@ -27196,6 +27520,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -27211,7 +27544,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face card for the MIT-licensed 7B Qwen2.5-Math distill of DeepSeek-R1, with paper-backed evals and local run notes (vLLM/SGLang, temperature, no system prompt).",
         "relevanceScore": 0.95,
@@ -27923,6 +28256,15 @@
           "surroundingText": "deepseek-ai/Janus-Pro-1B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-1B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-Pro-1B",
+          "surroundingText": "deepseek-ai/Janus-Pro-1B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-Pro-1B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -27938,7 +28280,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 1B unified multimodal understanding/generation checkpoint, with MIT code license notes and a GitHub quick-start pointer.",
         "relevanceScore": 0.86,
@@ -28648,6 +28990,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -28663,7 +29014,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for an 8B Qwen3-based distillation of DeepSeek-R1-0528, with MIT weights, usage notes, and published math/code benchmarks.",
         "relevanceScore": 0.92,
@@ -29374,6 +29725,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -29389,7 +29749,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for an experimental MIT-licensed text-generation checkpoint with sparse attention, Transformers/SGLang/vLLM run notes, and a documented RoPE demo-code fix.",
         "relevanceScore": 0.92,
@@ -30210,6 +30570,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3",
+          "surroundingText": "deepseek-ai/DeepSeek-V3",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -30225,7 +30594,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for a 671B MoE text-generation model (37B active, 128K context) with weights, paper, and local-run notes. Strong primary listing for DeepSeek developer resources.",
         "relevanceScore": 0.95,
@@ -30936,6 +31305,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -30951,7 +31329,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B base, a 6.7B code LLM with Transformers usage for completion and infilling. Suitable as a first-party weights listing; license is custom (not standard OSS) despite commercial use being stated.",
         "relevanceScore": 0.92,
@@ -31665,6 +32043,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-1.3b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-1.3b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-1.3b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -31680,7 +32067,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 1.3B-parameter DeepSeek Coder base checkpoint, with transformers usage for completion and FIM. Suitable as a maintained open-weight coding LLM listing.",
         "relevanceScore": 0.86,
@@ -32393,6 +32780,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -32408,7 +32804,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 33B DeepSeek Coder base checkpoint, with transformers usage for completion and FIM. Prefer this over news; note the custom model license rather than a standard open-source license for the weights.",
         "relevanceScore": 0.86,
@@ -33120,6 +33516,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-1.3b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-1.3b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-1.3b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -33135,7 +33540,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 1.3B instruction-tuned DeepSeek Coder checkpoint, with training summary, Transformers usage, and license notes. Suitable as a primary listing for this small open coding model.",
         "relevanceScore": 0.92,
@@ -33846,6 +34251,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "surroundingText": "deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -33861,7 +34275,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for a 5.7B Multi-Query-Attention DeepSeek Coder base checkpoint with transformers usage for completion and FIM. Low download/like counts and an older coder line versus current DeepSeek models.",
         "relevanceScore": 0.82,
@@ -34571,6 +34985,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-instruct",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -34586,7 +35009,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 33B Instruct, a 33B code LLM fine-tuned on 2B instruction tokens. Useful as a primary listing for the Coder family, though the inference snippet incorrectly loads the 6.7B model and the custom model license needs a read before commercial use.",
         "relevanceScore": 0.88,
@@ -35298,6 +35721,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-7b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-7b-chat",
+          "surroundingText": "deepseek-ai/deepseek-llm-7b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -35313,7 +35745,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 7B instruction-tuned chat weights, with transformers usage, chat template notes, and a commercial-use model license. Older than R1-class models but still a valid primary listing for the 7B chat checkpoint.",
         "relevanceScore": 0.86,
@@ -36022,6 +36454,15 @@
           "surroundingText": "deepseek-ai/deepseek-llm-67b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-llm-67b-chat",
+          "surroundingText": "deepseek-ai/deepseek-llm-67b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -36037,7 +36478,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 67B chat LLM with transformers usage notes, chat template, and model-license terms. Useful as a canonical weight listing, though it is an older non-R1 generation with modest download volume.",
         "relevanceScore": 0.86,
@@ -36747,6 +37188,15 @@
           "surroundingText": "deepseek-ai/deepseek-moe-16b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-moe-16b-chat",
+          "surroundingText": "deepseek-ai/deepseek-moe-16b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -36762,7 +37212,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeekMoE 16B chat with Transformers usage, chat template notes, and a model license that allows commercial use. Prefer this over news; it is older MoE chat weights, not R1.",
         "relevanceScore": 0.86,
@@ -37473,6 +37923,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-base-v1.5",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "surroundingText": "deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-base-v1.5",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -37488,7 +37947,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 7B Base v1.5, a 7B code LLM continued from DeepSeek-LLM 7B with Transformers usage examples. Suitable as a listed model resource, though it is an older coder checkpoint with modest download volume and evaluation shown only as an image.",
         "relevanceScore": 0.86,
@@ -38202,6 +38661,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -38217,7 +38685,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeekMath-7B-base with transformers usage, paper link, and a custom model license that allows commercial use.",
         "relevanceScore": 0.86,
@@ -38925,6 +39393,15 @@
           "surroundingText": "deepseek-ai/deepseek-math-7b-rl",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-rl",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-math-7b-rl",
+          "surroundingText": "deepseek-ai/deepseek-math-7b-rl",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-math-7b-rl",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -38940,7 +39417,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 7B math RL checkpoint, with Transformers usage notes, CoT prompting guidance, and a custom commercial-capable model license.",
         "relevanceScore": 0.86,
@@ -39649,6 +40126,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-7b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-7b-chat",
+          "surroundingText": "deepseek-ai/deepseek-vl-7b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -39664,7 +40150,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 7B vision-language chat checkpoint, with architecture notes, inference snippets, GitHub, arXiv, and license pointers.",
         "relevanceScore": 0.86,
@@ -40376,6 +40862,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-1.3b-chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-1.3b-chat",
+          "surroundingText": "deepseek-ai/deepseek-vl-1.3b-chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -40391,7 +40886,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 1.3B instructed vision-language chat model, with architecture notes, install/inference examples, and license pointers. Prefer this over news; it is a smaller VL checkpoint, not R1.",
         "relevanceScore": 0.86,
@@ -41101,6 +41596,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-1.3b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-1.3b-base",
+          "surroundingText": "deepseek-ai/deepseek-vl-1.3b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-1.3b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -41116,7 +41620,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-VL-1.3B-base, a small open vision-language checkpoint with install and inference examples. Useful as a primary model listing, though downloads are modest and the license is DeepSeek’s custom terms rather than a standard OSI license.",
         "relevanceScore": 0.86,
@@ -41825,6 +42329,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl-7b-base",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl-7b-base",
+          "surroundingText": "deepseek-ai/deepseek-vl-7b-base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -41840,7 +42353,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 7B vision-language base weights, with architecture notes, GitHub install path, and inference snippets. Custom DeepSeek model license (commercial use claimed) rather than a standard OSI license.",
         "relevanceScore": 0.86,
@@ -42551,6 +43064,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2",
+          "surroundingText": "deepseek-ai/DeepSeek-V2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -42566,7 +43088,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V2, a 236B MoE (21B active) text-generation base model with 128K context, Transformers/vLLM usage, and published benchmarks. Weights use a custom DeepSeek model agreement, not a standard OSI license, and local BF16 inference needs 8×80GB GPUs.",
         "relevanceScore": 0.92,
@@ -43281,6 +43803,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Chat",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -43296,7 +43827,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face chat (RL) weights for DeepSeek-V2, a 236B MoE model with 21B active parameters, 128K context, Transformers/vLLM usage, and a custom model license.",
         "relevanceScore": 0.92,
@@ -44008,6 +44539,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -44023,7 +44563,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face chat weights for DeepSeek-V2-Lite (16B MoE, 2.4B active, 32k context) with architecture notes, benchmarks, and Transformers/vLLM run instructions. Prefer this over news; it is a maintained model card, not an SDK.",
         "relevanceScore": 0.92,
@@ -44737,6 +45277,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Coder-V2-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Coder-V2-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -44752,7 +45301,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 236B-parameter MoE base coder (21B active, 128K context). Suitable as a canonical DeepSeek coding-model listing; hardware and custom-code requirements are high.",
         "relevanceScore": 0.92,
@@ -45466,6 +46015,15 @@
           "surroundingText": "deepseek-ai/ESFT-vanilla-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-vanilla-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-vanilla-lite",
+          "surroundingText": "deepseek-ai/ESFT-vanilla-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-vanilla-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -45481,7 +46039,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face checkpoint for the ESFT (Expert-Specialized Fine-Tuning) paper’s vanilla lite model, with a short card pointing to the paper and GitHub scripts. Niche research weights rather than core API docs or a maintained SDK.",
         "relevanceScore": 0.55,
@@ -46188,6 +46746,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-intent-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-intent-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-intent-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-intent-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-intent-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -46203,7 +46770,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face checkpoint: a specialized ESFT expert set of ESFT-vanilla-lite for text generation, with usage pointed at the ESFT GitHub scripts. Niche research artifact with low engagement versus flagship model cards.",
         "relevanceScore": 0.62,
@@ -46910,6 +47477,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-intent-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-intent-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-intent-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-intent-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-intent-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -46925,7 +47501,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for a specialized ESFT expert set derived from ESFT-vanilla-lite; the card is a two-line pointer to GitHub scripts, so it is a weak directory listing versus flagship models or docs.",
         "relevanceScore": 0.45,
@@ -47633,6 +48209,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-code-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-code-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-code-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-code-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-code-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -47648,7 +48233,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face expert checkpoint for ESFT on code, with a thin model card that mainly points to the ESFT GitHub scripts and the vanilla-lite base.",
         "relevanceScore": 0.62,
@@ -48356,6 +48941,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-code-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-code-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-code-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-code-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-code-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -48371,7 +48965,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for a specialized ESFT expert set on the vanilla-lite base; the card is brief and points users to the ESFT GitHub scripts rather than documenting usage here.",
         "relevanceScore": 0.62,
@@ -49080,6 +49674,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-law-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-law-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-law-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-law-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-law-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -49095,7 +49698,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for an ESFT law-domain expert set on ESFT-vanilla-lite; the card is a short pointer to the ESFT GitHub scripts, not a full model card.",
         "relevanceScore": 0.62,
@@ -49802,6 +50405,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-law-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-law-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-law-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-law-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-law-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -49817,7 +50429,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face expert-set weights for DeepSeek ESFT (law-lite) with a thin model card that mainly points to the ESFT GitHub scripts. Niche research artifact with low engagement, not core docs or an SDK.",
         "relevanceScore": 0.55,
@@ -50525,6 +51137,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-math-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-math-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-math-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-math-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-math-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -50540,7 +51161,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo of math-domain expert gates for ESFT-vanilla-lite; niche research weights with a thin card that points to the ESFT GitHub scripts.",
         "relevanceScore": 0.62,
@@ -51248,6 +51869,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-math-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-math-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-math-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-math-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-math-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -51263,7 +51893,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face expert-set weights for ESFT math on a lite vanilla base; thin card that mainly points to the ESFT GitHub scripts. Niche research artifact, not core R1 docs or a general SDK.",
         "relevanceScore": 0.45,
@@ -51971,6 +52601,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-translation-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-translation-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-translation-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-translation-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-translation-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -51986,7 +52625,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face checkpoint: a specialized ESFT translation expert on ESFT-vanilla-lite, with a thin card that points to the ESFT GitHub scripts.",
         "relevanceScore": 0.62,
@@ -52694,6 +53333,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-translation-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-translation-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-translation-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-translation-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-translation-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -52709,7 +53357,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for a specialized ESFT expert set on a lite vanilla base; the card is thin and points users to the ESFT GitHub scripts rather than documenting usage on-page.",
         "relevanceScore": 0.62,
@@ -53416,6 +54064,15 @@
           "surroundingText": "deepseek-ai/ESFT-gate-summary-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-summary-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-gate-summary-lite",
+          "surroundingText": "deepseek-ai/ESFT-gate-summary-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-gate-summary-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -53431,7 +54088,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for a specialized ESFT expert set of ESFT-vanilla-lite; the card is thin and points to GitHub scripts rather than standalone usage docs.",
         "relevanceScore": 0.62,
@@ -54139,6 +54796,15 @@
           "surroundingText": "deepseek-ai/ESFT-token-summary-lite",
           "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-summary-lite",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/ESFT-token-summary-lite",
+          "surroundingText": "deepseek-ai/ESFT-token-summary-lite",
+          "targetUrl": "https://huggingface.co/deepseek-ai/ESFT-token-summary-lite",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -54154,7 +54820,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face expert-set weights for ESFT-vanilla-lite, with a one-line card that defers usage to the ESFT GitHub scripts. Niche research artifact, not a primary DeepSeek model card or SDK.",
         "relevanceScore": 0.42,
@@ -54862,6 +55528,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2-Chat-0628",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2-Chat-0628",
+          "surroundingText": "deepseek-ai/DeepSeek-V2-Chat-0628",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -54877,7 +55552,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 2024-06-28 DeepSeek-V2-Chat checkpoint, with benchmark deltas, Transformers/vLLM inference notes, and the DeepSeek model license. Prefer this over news; it is a V2 chat snapshot, not R1.",
         "relevanceScore": 0.88,
@@ -55589,6 +56264,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -55604,7 +56288,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 7B Lean 4 theorem-proving base checkpoint, with paper, eval tables, and sibling SFT/RL links. Specialized research weights, not a general LLM API or R1 stack.",
         "relevanceScore": 0.78,
@@ -56312,6 +56996,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-SFT",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -56327,7 +57020,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 7B supervised-finetune checkpoint of DeepSeek-Prover-V1.5, a Lean 4 theorem-proving LLM with paper, benchmarks, and license links.",
         "relevanceScore": 0.86,
@@ -57035,6 +57728,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -57050,7 +57752,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-Prover-V1.5-RL, a 7B Lean 4 theorem-proving checkpoint with paper, eval tables, and license links. Prefer this over news; it is research/specialist tooling rather than a general chat API.",
         "relevanceScore": 0.86,
@@ -57761,6 +58463,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V1",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V1",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V1",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -57776,7 +58487,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s Lean 4 theorem-proving 7B model (arXiv 2405.14333), with a companion synthetic dataset. Traction is low and this is V1, so later Prover releases may be a better primary listing.",
         "relevanceScore": 0.86,
@@ -58485,6 +59196,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2.5",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2.5",
+          "surroundingText": "deepseek-ai/DeepSeek-V2.5",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -58500,7 +59220,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-V2.5, merging chat and coder capabilities with Transformers/vLLM run instructions. Prefer this over news; note custom model license, 8×80GB BF16 requirement, and trust_remote_code.",
         "relevanceScore": 0.92,
@@ -59213,6 +59933,15 @@
           "surroundingText": "deepseek-ai/Janus-1.3B",
           "targetUrl": "https://huggingface.co/deepseek-ai/Janus-1.3B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/Janus-1.3B",
+          "surroundingText": "deepseek-ai/Janus-1.3B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/Janus-1.3B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -59228,7 +59957,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 1.3B Janus unified multimodal (understanding + generation) checkpoint, with paper, GitHub, and license notes. Suitable as a listed model resource; inference details live in the GitHub repo, not this card.",
         "relevanceScore": 0.86,
@@ -59937,6 +60666,15 @@
           "surroundingText": "deepseek-ai/JanusFlow-1.3B",
           "targetUrl": "https://huggingface.co/deepseek-ai/JanusFlow-1.3B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/JanusFlow-1.3B",
+          "surroundingText": "deepseek-ai/JanusFlow-1.3B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/JanusFlow-1.3B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -59952,7 +60690,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s 1.3B unified multimodal checkpoint (understanding plus generation). Prefer this over news; usage details live mainly in the linked Janus GitHub repo.",
         "relevanceScore": 0.82,
@@ -60659,6 +61397,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V2.5-1210",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V2.5-1210",
+          "surroundingText": "deepseek-ai/DeepSeek-V2.5-1210",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -60674,7 +61421,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the DeepSeek-V2.5-1210 text-generation checkpoint, with Transformers/vLLM usage, function calling, JSON mode, and FIM examples. Strong fit as a maintained DeepSeek model resource, not R1 or a hosted API.",
         "relevanceScore": 0.86,
@@ -61385,6 +62132,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2-tiny",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2-tiny",
+          "surroundingText": "deepseek-ai/deepseek-vl2-tiny",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -61400,7 +62156,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-VL2-Tiny, a 1.0B-activated MoE vision-language checkpoint with Transformers usage notes, paper, and GitHub. Suitable as a maintained official model listing, not R1/API docs.",
         "relevanceScore": 0.86,
@@ -62111,6 +62867,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2-small",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-small",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2-small",
+          "surroundingText": "deepseek-ai/deepseek-vl2-small",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2-small",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -62126,7 +62891,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-VL2-Small, a 2.8B-activated MoE vision-language model with inference examples, paper, and GitHub links. Suitable as a first-party multimodal resource; license is DeepSeek’s custom model license rather than a standard OSI SPDX id.",
         "relevanceScore": 0.86,
@@ -62839,6 +63604,15 @@
           "surroundingText": "deepseek-ai/deepseek-vl2",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-vl2",
+          "surroundingText": "deepseek-ai/deepseek-vl2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -62854,7 +63628,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-VL2, a MoE vision-language series with inference examples, paper, and GitHub links. Suitable as a primary model-card listing, not R1/API docs.",
         "relevanceScore": 0.86,
@@ -63563,6 +64337,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3-0324",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3-0324",
+          "surroundingText": "deepseek-ai/DeepSeek-V3-0324",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -63578,7 +64361,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the MIT-licensed DeepSeek-V3-0324 checkpoint, with usage notes, benchmarks vs prior V3, and pointers to the GitHub run instructions. Transformers is not yet directly supported.",
         "relevanceScore": 0.95,
@@ -64288,6 +65071,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-671B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V2-671B",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-671B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -64303,7 +65095,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for a 671B Lean 4 theorem-proving LLM with Transformers usage notes, reported MiniF2F/PutnamBench numbers, and a model-agreement license.",
         "relevanceScore": 0.92,
@@ -65014,6 +65806,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-7B",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-7B",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Prover-V2-7B",
+          "surroundingText": "deepseek-ai/DeepSeek-Prover-V2-7B",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-7B",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -65029,7 +65830,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for a 7B Lean 4 theorem-proving LLM from DeepSeek, with architecture notes, ProverBench context, and Transformers inference example.",
         "relevanceScore": 0.92,
@@ -65738,6 +66539,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-R1-0528",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-R1-0528",
+          "surroundingText": "deepseek-ai/DeepSeek-R1-0528",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -65753,7 +66563,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the May 2025 R1 upgrade, with MIT weights, benchmark tables, and local-run notes. Prefer this over news as a primary developer resource.",
         "relevanceScore": 0.95,
@@ -66463,6 +67273,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -66478,7 +67297,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the DeepSeek-V3.1-Base checkpoint (671B MoE, 128K context, MIT). Prefer this over news; it is the pre-post-train base, not the chat/thinking release.",
         "relevanceScore": 0.92,
@@ -67188,6 +68007,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.1-Terminus",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -67203,7 +68031,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for an MIT-licensed DeepSeek V3.1 update focused on language consistency and agent/tool-use improvements, with local-run pointers and a known FP8 checkpoint caveat.",
         "relevanceScore": 0.92,
@@ -67913,6 +68741,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -67928,7 +68765,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face weights for DeepSeek-V3.2-Exp-Base (text-generation, MIT, Transformers/safetensors). The model card is essentially empty beyond license metadata, so it is a weak docs resource despite being first-party.",
         "relevanceScore": 0.82,
@@ -68636,6 +69473,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-Math-V2",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-Math-V2",
+          "surroundingText": "deepseek-ai/DeepSeek-Math-V2",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -68651,7 +69497,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s math/theorem-proving weights (Apache 2.0), with evaluation notes and inference pointers to DeepSeek-V3.2-Exp. Suitable as a first-party model listing, not a general API or SDK.",
         "relevanceScore": 0.92,
@@ -69363,6 +70209,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V3.2-Speciale",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V3.2-Speciale",
+          "surroundingText": "deepseek-ai/DeepSeek-V3.2-Speciale",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -69378,7 +70233,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the MIT-licensed DeepSeek-V3.2-Speciale weights: a high-compute reasoning variant of V3.2 with transformers/safetensors artifacts. Use it for local deep-reasoning workloads; it does not support tool calling.",
         "relevanceScore": 0.92,
@@ -70087,6 +70942,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_4b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_4b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_4b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -70102,7 +70966,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face listing under deepseek-ai for a Qwen3-related 4B safetensors checkpoint with almost no model-card documentation; downloads and likes are modest, so it is a weak fit versus flagship DeepSeek cards.",
         "relevanceScore": 0.35,
@@ -70809,6 +71673,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_8b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_8b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_8b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_8b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_8b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -70824,7 +71697,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek Hugging Face repo for a Qwen3 8B safetensors checkpoint with almost no model-card documentation; too niche and under-specified for a general DeepSeek directory.",
         "relevanceScore": 0.35,
@@ -71532,6 +72405,15 @@
           "surroundingText": "deepseek-ai/dspark_qwen3_14b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_14b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_qwen3_14b_block7",
+          "surroundingText": "deepseek-ai/dspark_qwen3_14b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_qwen3_14b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -71547,7 +72429,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Hugging Face repo under deepseek-ai for a Qwen3 14B safetensors checkpoint with almost no model card, pipeline tag, or usage docs. Downloads exist, but it is a niche/internal-style block weight dump rather than official DeepSeek docs or a maintained SDK.",
         "relevanceScore": 0.35,
@@ -72255,6 +73137,15 @@
           "surroundingText": "deepseek-ai/dspark_gemma4_12b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dspark_gemma4_12b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dspark_gemma4_12b_block7",
+          "surroundingText": "deepseek-ai/dspark_gemma4_12b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dspark_gemma4_12b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -72270,7 +73161,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Hugging Face repo under deepseek-ai for dspark_gemma4_12b_block7 with almost no model card, pipeline tag, or usage docs. Treat as an obscure checkpoint, not flagship DeepSeek docs or tooling.",
         "relevanceScore": 0.25,
@@ -72950,6 +73841,15 @@
           "surroundingText": "deepseek-ai/dflash_qwen3_4b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_4b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dflash_qwen3_4b_block7",
+          "surroundingText": "deepseek-ai/dflash_qwen3_4b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_4b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -72965,7 +73865,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek org Hugging Face repo for a Qwen3 4B block variant, but the card has almost no documentation, pipeline metadata, or usage notes.",
         "relevanceScore": 0.55,
@@ -73672,6 +74572,15 @@
           "surroundingText": "deepseek-ai/dflash_qwen3_8b_block7",
           "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_8b_block7",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/dflash_qwen3_8b_block7",
+          "surroundingText": "deepseek-ai/dflash_qwen3_8b_block7",
+          "targetUrl": "https://huggingface.co/deepseek-ai/dflash_qwen3_8b_block7",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -73687,7 +74596,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face listing under deepseek-ai for a Qwen3-related safetensors checkpoint, but the card has no usage docs, pipeline tag, or model description—too thin for a directory of developer resources.",
         "relevanceScore": 0.35,
@@ -75487,6 +76396,15 @@
           "surroundingText": "中文（中国）",
           "targetUrl": "https://api-docs.deepseek.com/zh-cn",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "中文（中国）",
+          "surroundingText": "中文（中国）",
+          "targetUrl": "https://api-docs.deepseek.com/zh-cn",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -75501,7 +76419,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Simplified Chinese API docs covering first calls, OpenAI/Anthropic-compatible endpoints, models, and agent-tool setup. Prefer this over news; English docs remain the default listing unless a Chinese-language section is intended.",
         "relevanceScore": 0.95,
@@ -76199,6 +77117,15 @@
           "surroundingText": "Models &amp; Pricing",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Models &amp; Pricing",
+          "surroundingText": "Models &amp; Pricing",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -76213,7 +77140,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing current models, token pricing (peak/off-peak, cache hit/miss), context limits, and billing rules. Useful for developers comparing costs before calling the API.",
         "relevanceScore": 0.95,
@@ -76913,6 +77840,15 @@
           "surroundingText": "Token &amp; Token Usage",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Token &amp; Token Usage",
+          "surroundingText": "Token &amp; Token Usage",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -76927,7 +77863,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official API docs page explaining how tokens are defined, billed, and estimated for text and images, including an offline tokenizer download.",
         "relevanceScore": 0.92,
@@ -77627,6 +78563,15 @@
           "surroundingText": "Rate Limit &amp; Isolation",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Rate Limit &amp; Isolation",
+          "surroundingText": "Rate Limit &amp; Isolation",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -77641,7 +78586,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official API docs covering account-level concurrency limits, user_id isolation for safety/KVCache/scheduling, and HTTP keep-alive behavior including 429 handling.",
         "relevanceScore": 0.95,
@@ -78341,6 +79286,15 @@
           "surroundingText": "Error Codes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Error Codes",
+          "surroundingText": "Error Codes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -78355,7 +79309,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing HTTP error codes with causes and suggested fixes. Useful reference for integrators, though it is a short table rather than a full SDK or tutorial.",
         "relevanceScore": 0.92,
@@ -79052,6 +80006,15 @@
           "surroundingText": "DeepSeek Harness",
           "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness",
+          "surroundingText": "DeepSeek Harness",
+          "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -79066,7 +80029,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official English quickstart for DeepSeek Harness covering Web UI setup, API key/model config, workspace selection, and a first agent task. Linked from DeepSeek API docs as agent integration material.",
         "relevanceScore": 0.92,
@@ -79768,6 +80731,15 @@
           "surroundingText": "API Guides",
           "targetUrl": "https://api-docs.deepseek.com/guides/vision",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Guides",
+          "surroundingText": "API Guides",
+          "targetUrl": "https://api-docs.deepseek.com/guides/vision",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -79782,7 +80754,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for sending images to deepseek-flash (OpenAI, Anthropic, and Responses APIs), including formats, size/token limits, and code samples.",
         "relevanceScore": 0.95,
@@ -84477,6 +85449,15 @@
           "surroundingText": "Anthropic API",
           "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Anthropic API",
+          "surroundingText": "Anthropic API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -84491,7 +85472,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs guide for Anthropic-format compatibility, including base URL, SDK setup, Claude model mapping, and field-level support notes.",
         "relevanceScore": 0.95,
@@ -85193,6 +86174,15 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -85207,7 +86197,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Chat Completions API reference for POST /chat/completions, covering request parameters, thinking mode, tools, streaming, and response schema.",
         "relevanceScore": 0.95,
@@ -86210,6 +87200,15 @@
           "surroundingText": "Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Integrations",
+          "surroundingText": "Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -86227,7 +87226,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official deepseek-ai GitHub list of apps, plugins, and frameworks that call the DeepSeek API. Useful discovery catalog, not an SDK or primary API docs.",
         "relevanceScore": 0.86,
@@ -86931,6 +87930,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -86945,7 +87953,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official English FAQ hosted on static.deepseek.com and linked from the API docs. Content is a client-rendered SPA, so the page itself is thin without JavaScript.",
         "relevanceScore": 0.82,
@@ -87643,6 +88651,15 @@
           "surroundingText": "Change Log",
           "targetUrl": "https://api-docs.deepseek.com/updates",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Change Log",
+          "surroundingText": "Change Log",
+          "targetUrl": "https://api-docs.deepseek.com/updates",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -87657,7 +88674,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs changelog listing dated model releases, model-name routing, pricing changes, and deprecations. Useful for tracking API compatibility, not a tutorial or SDK.",
         "relevanceScore": 0.86,
@@ -88355,6 +89372,15 @@
           "surroundingText": "API key",
           "targetUrl": "https://platform.deepseek.com/api_keys",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API key",
+          "surroundingText": "API key",
+          "targetUrl": "https://platform.deepseek.com/api_keys",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -88369,7 +89395,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek platform page for creating and managing API keys, linked from the API docs. It is developer tooling, not a model card or SDK, and the live page could not be fetched (HTTP 429).",
         "relevanceScore": 0.72,
@@ -89067,6 +90093,15 @@
           "surroundingText": "Claude Code",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Claude Code",
+          "surroundingText": "Claude Code",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -89081,7 +90116,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing Anthropic’s terminal coding CLI at DeepSeek via Anthropic-compatible env vars, plus install steps, web search notes, and Claude model-name mapping.",
         "relevanceScore": 0.92,
@@ -89780,6 +90815,15 @@
           "surroundingText": "Twitter",
           "targetUrl": "https://twitter.com/deepseek_ai",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Twitter",
+          "surroundingText": "Twitter",
+          "targetUrl": "https://twitter.com/deepseek_ai",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -89794,7 +90838,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek X/Twitter handle linked from API docs; it is a social feed, not developer documentation, model cards, or SDKs, so it is a weak fit for this directory.",
         "relevanceScore": 0.25,
@@ -90351,6 +91395,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "surroundingText": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -90366,7 +91419,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-31T15:59:40.942Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek’s experimental V4 Flash vision multimodal checkpoint, with MIT weights, transformers metadata, and vLLM/SGLang run notes.",
         "relevanceScore": 0.92,
@@ -91243,6 +92296,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -91258,7 +92320,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-11T02:00:00.120Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official Hugging Face model card from deepseek-ai for a MIT-licensed multimodal MoE LLM with transformers tags, inference notes, and a technical report. Prefer this over news; confirm weights and encoding extras on the repo itself.",
         "relevanceScore": 0.95,
@@ -91781,6 +92843,15 @@
           "surroundingText": "API Status",
           "targetUrl": "https://status.deepseek.com",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Status",
+          "surroundingText": "API Status",
+          "targetUrl": "https://status.deepseek.com",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -91795,7 +92866,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API status page linked from the API docs; useful operational reference, not model docs or an SDK.",
         "relevanceScore": 0.72,
@@ -92123,6 +93194,15 @@
           "surroundingText": "Codex",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Codex",
+          "surroundingText": "Codex",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -92137,7 +93217,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing OpenAI Codex clients (CLI, desktop, VS Code) at DeepSeek models via the Responses API, with a setup script and manual config.toml/models.json steps.",
         "relevanceScore": 0.92,
@@ -92468,6 +93548,15 @@
           "surroundingText": "OpenCode",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenCode",
+          "surroundingText": "OpenCode",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -92482,7 +93571,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to connect OpenCode to the DeepSeek provider with an API key and DeepSeek-V4-Flash. Short setup guide with screenshots; install details are deferred to the third-party download page.",
         "relevanceScore": 0.86,
@@ -92815,6 +93904,15 @@
           "surroundingText": "OpenClaw",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenClaw",
+          "surroundingText": "OpenClaw",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -92829,7 +93927,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install or reconfigure an open-source chat assistant to use DeepSeek as the model provider.",
         "relevanceScore": 0.86,
@@ -93162,6 +94260,15 @@
           "surroundingText": "Hermes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Hermes",
+          "surroundingText": "Hermes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -93176,7 +94283,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install Hermes Agent and point it at DeepSeek via API key, base URL, and model selection.",
         "relevanceScore": 0.86,
@@ -93505,6 +94612,15 @@
           "surroundingText": "Reasonix",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Reasonix",
+          "surroundingText": "Reasonix",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -93519,7 +94635,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page for wiring a terminal coding agent to DeepSeek keys and models. Short setup guide (Node, API key, npx) rather than a full SDK or model card.",
         "relevanceScore": 0.82,
@@ -93849,6 +94965,15 @@
           "surroundingText": "WorkBuddy/CodeBuddy",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "WorkBuddy/CodeBuddy",
+          "surroundingText": "WorkBuddy/CodeBuddy",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -93863,7 +94988,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs page showing how to point WorkBuddy/CodeBuddy at DeepSeek via an OpenAI-compatible Chat Completions endpoint and local models.json.",
         "relevanceScore": 0.85,
@@ -94194,6 +95319,15 @@
           "surroundingText": "Qoder",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Qoder",
+          "surroundingText": "Qoder",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -94208,7 +95342,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for connecting custom DeepSeek models in Qoder’s IDE, CLI, and JetBrains plugin, including install, API-key setup, and troubleshooting.",
         "relevanceScore": 0.86,
@@ -94540,6 +95674,15 @@
           "surroundingText": "Contribute Your Agent Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Contribute Your Agent Integrations",
+          "surroundingText": "Contribute Your Agent Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -94557,7 +95700,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek GitHub list of how-to guides for wiring DeepSeek models into agent and coding tools. Useful directory of integrations, not an SDK or runtime.",
         "relevanceScore": 0.86,
@@ -94760,6 +95903,16 @@
           "surroundingText": "n8n-nodes-deepseek",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
           "discoveredAt": "2026-10-25T09:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-deepseek",
+          "surroundingText": "n8n-nodes-deepseek",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
+          "discoveredAt": "2026-10-26T09:00:04.100Z"
         }
       ],
       "globalFactRefs": [],
@@ -94773,7 +95926,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-25T09:00:00.120Z",
+      "updatedAt": "2026-10-26T09:00:04.100Z",
       "aiReview": {
         "summary": "Community n8n node that wraps DeepSeek chat-style calls in workflows; useful for automation users, not official DeepSeek docs or an SDK.",
         "relevanceScore": 0.45,
@@ -94971,6 +96124,16 @@
           "surroundingText": "DeepSeek Mini-Router",
           "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
           "discoveredAt": "2026-10-25T09:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Mini-Router",
+          "surroundingText": "DeepSeek Mini-Router",
+          "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
+          "discoveredAt": "2026-10-26T09:00:04.100Z"
         }
       ],
       "globalFactRefs": [],
@@ -94984,7 +96147,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-25T09:00:00.120Z",
+      "updatedAt": "2026-10-26T09:00:04.100Z",
       "aiReview": {
         "summary": "Community Codex plugin that injects task-aware prompts for DeepSeek v4 Pro/Flash; not official DeepSeek docs, model cards, or an SDK. Small-sample BigCodeBench notes and MIT source exist, but it is a niche Codex hook rather than core developer tooling.",
         "relevanceScore": 0.38,
@@ -95184,6 +96347,16 @@
           "surroundingText": "DeepSeek Harness GenUI",
           "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
           "discoveredAt": "2026-10-25T09:00:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness GenUI",
+          "surroundingText": "DeepSeek Harness GenUI",
+          "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+          "discoveredAt": "2026-10-26T09:00:04.100Z"
         }
       ],
       "globalFactRefs": [],
@@ -95197,7 +96370,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-25T09:00:00.120Z",
+      "updatedAt": "2026-10-26T09:00:04.100Z",
       "aiReview": {
         "summary": "Community DeepSeek Harness plugin that generates task-specific React UIs with persisted state; useful agent tooling, not official docs or a model SDK.",
         "relevanceScore": 0.48,
@@ -95364,6 +96537,15 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://chat.deepseek.com",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://chat.deepseek.com",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://chat.deepseek.com",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -95380,7 +96562,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek web chat login surface, not docs, model cards, or SDKs. Thin captured content (auth, terms, cookies) makes it a weak fit for a developer directory.",
         "relevanceScore": 0.45,
@@ -95432,8 +96614,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://chat.deepseek.com",
-        "contentHash": "4ccac1092c23c22124b82b46a701e7a333cf824e3eaf316c817271b8ace9baf3",
-        "excerpt": "Title: DeepSeek\n\nURL Source: https://chat.deepseek.com/\n\nMarkdown Content:\nBy signing up or logging in, you consent to DeepSeek's [Terms of Use](https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html?locale=en_US) and [Privacy Policy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html?locale=en_US).\n\nForgot password?\n\nSign up\n\nLog in\n\nLog in with Google Login with Apple\n\nLog in with Google\n\nLogin with Apple\n\n[浙ICP备2023025841号](https://beian.miit.gov.cn/)·[Contact us](https://trtgsjkv6r.feishu.cn/share/base/form/shrcnhcHE4A6lQaQ3v0raCXmBAg?hide_uid=1&hide_source=1&hide_app_version=1&hide_os_version=1&hide_device_brand=1&hide_device_model=1&hide_app_locale=1&hide_screen_resolution=1&prefill_source=web_auth&prefill_app_version=2.7.0&prefill_app_locale=en-US&prefill_screen_resolution=1280x1280)\n\nCookie Settings\n\nWe use cookies to provide and improve services and ensure security. Click to view our [cookie policy](https://cdn.deepseek.com/policies/en-US/cookies-"
+        "contentHash": "94743c9b634a7ff668ee3240aefa3e6ed3e87cad783eaab8f9871f4dc7a2db55",
+        "excerpt": "Title: \n\nURL Source: https://chat.deepseek.com/\n\nWarning: This page maybe not yet fully loaded, consider explicitly specify a timeout.\n\nMarkdown Content:"
       }
     },
     {
@@ -95550,6 +96732,15 @@
           "surroundingText": "awesome-deepseek",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -95564,7 +96755,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-Coder 5.7B MQA Instruct under the deepseek-ai org. Fits a DeepSeek directory as a first-party coding LLM checkpoint, though the listing title is mislabeled from discovery.",
         "relevanceScore": 0.86,
@@ -95734,6 +96925,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -95750,7 +96950,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B base, with Transformers usage, FIM/completion examples, and license notes. Suitable as a primary developer resource for this open-weight code model.",
         "relevanceScore": 0.92,
@@ -95811,7 +97011,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
-        "contentHash": "1eb05a98ad9e3cc7d4530ba8b78804f5e3ac2690e4d638f358d15b96b0600d06",
+        "contentHash": "bf4901e9ffb8b8e07a47a4dc5595894653bba08730770059259cafb500e7d7bd",
         "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/pap"
       }
     },
@@ -95929,6 +97129,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -95945,7 +97154,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B Instruct with Transformers usage, chat template, and serving examples. Weights are public under DeepSeek’s own license; the repo was last updated in early 2024, so it is an older coder line rather than R1-era models.",
         "relevanceScore": 0.88,
@@ -96005,7 +97214,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
-        "contentHash": "4967f99d5fe77944369949e71ca59cabc3d5174efa1e673c62a4abf7ebbfa59c",
+        "contentHash": "c3a704aecb7014f313c1219251b1ae355f4830ceb1e73f3e3cf2e3ede9b0f381",
         "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingfac"
       }
     },
@@ -96123,6 +97332,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -96139,7 +97357,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for the 33B DeepSeek Coder base checkpoint, with Transformers usage for completion and infilling. Weights last updated in 2024; license is DeepSeek’s custom model license rather than a standard OSI SPDX id on the hub.",
         "relevanceScore": 0.88,
@@ -96200,7 +97418,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
-        "contentHash": "30d9ece114123d86f5c2d86db9bac0a3b081b97679ffc0923b85d0f72d040184",
+        "contentHash": "9d41fafc4e9a7827be00f4740a963611f7f6368e99e676b29a8320af56af2e5d",
         "excerpt": "Title: deepseek-ai/deepseek-coder-33b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-base\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/paper"
       }
     },
@@ -96318,6 +97536,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -96334,7 +97561,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek Coder 33B Instruct: 33B code LLM with Transformers usage, 16K context, and a separate DeepSeek model license (not MIT). Last updated March 2024; card sample code still shows the 6.7B repo id.",
         "relevanceScore": 0.92,
@@ -96393,7 +97620,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
-        "contentHash": "7e98fe55f1239b10e4acd69b569213186b996285250c64c64b2d50521be521f3",
+        "contentHash": "fa016f124ea4d91ba4fabafd09ef8bd3cb9d1f324ea5e1f18a76f9b3e1244aac",
         "excerpt": "Title: deepseek-ai/deepseek-coder-33b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface."
       }
     },
@@ -96511,6 +97738,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -96527,7 +97763,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Hugging Face model card for a 1.3B OpenCodeInterpreter checkpoint based on DeepSeek Coder, with Transformers usage and Apache-2.0 weights. Last updated March 2024 and not an official DeepSeek model card.",
         "relevanceScore": 0.62,
@@ -96701,6 +97937,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -96717,7 +97962,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Hugging Face model card for a 6.7B code model fine-tuned from DeepSeek Coder with execution-and-refinement training; community research weights, not official DeepSeek docs or SDKs.",
         "relevanceScore": 0.72,
@@ -96892,6 +98137,15 @@
           "surroundingText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "sectionPath": [],
+          "anchorText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
+          "surroundingText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
+          "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -96908,7 +98162,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Hugging Face model card for a 33B code LLM QLoRA-finetuned on DeepSeek-Coder-33B, with Transformers/vLLM usage and HumanEval results. Third-party CodeFuse release with license tagged “other,” not an official DeepSeek org card.",
         "relevanceScore": 0.82,
@@ -97083,6 +98337,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [
@@ -97099,7 +98362,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Hugging Face model card for a 33B OpenCodeInterpreter checkpoint based on deepseek-coder-33b-base, with Apache-2.0 weights, Transformers usage, and HumanEval/MBPP numbers. Last repo update is 2024-03-03 and activity is modest, so treat it as a research/code-gen checkpoint rather than a maintained official DeepSeek product.",
         "relevanceScore": 0.82,
@@ -97273,6 +98536,15 @@
           "surroundingText": "https://github.com/unit-mesh/auto-dev",
           "targetUrl": "https://github.com/unit-mesh/auto-dev",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/unit-mesh/auto-dev",
+          "sectionPath": [],
+          "anchorText": "https://github.com/unit-mesh/auto-dev",
+          "surroundingText": "https://github.com/unit-mesh/auto-dev",
+          "targetUrl": "https://github.com/unit-mesh/auto-dev",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -97287,7 +98559,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Open-source Kotlin Multiplatform multi-agent coding platform (IDE plugins, CLI, desktop/mobile) that lists DeepSeek among many LLM backends. It is not official DeepSeek documentation, a model card, or a DeepSeek SDK.",
         "relevanceScore": 0.28,
@@ -97456,6 +98728,15 @@
           "surroundingText": "https://github.com/AI-QL/tuui",
           "targetUrl": "https://github.com/ai-ql/tuui",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/AI-QL/tuui",
+          "sectionPath": [],
+          "anchorText": "https://github.com/AI-QL/tuui",
+          "surroundingText": "https://github.com/AI-QL/tuui",
+          "targetUrl": "https://github.com/ai-ql/tuui",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -97470,7 +98751,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Open-source desktop MCP client for local LLM chat and cross-vendor API orchestration. Useful as a general LLM/MCP tool, not official DeepSeek docs, model cards, or SDKs.",
         "relevanceScore": 0.35,
@@ -97640,6 +98921,15 @@
           "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
           "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/danilofalcao/cursor-deepseek",
+          "sectionPath": [],
+          "anchorText": "https://github.com/danilofalcao/cursor-deepseek",
+          "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
+          "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -97654,7 +98944,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Unofficial Go HTTP/2 proxy that maps OpenAI-compatible Cursor Composer requests to DeepSeek, OpenRouter, or Ollama. Useful community tooling, but not official docs, model cards, or a maintained SDK.",
         "relevanceScore": 0.55,
@@ -97824,6 +99114,15 @@
           "surroundingText": "https://github.com/cohesion-org/deepseek-go",
           "targetUrl": "https://github.com/cohesion-org/deepseek-go",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/cohesion-org/deepseek-go",
+          "sectionPath": [],
+          "anchorText": "https://github.com/cohesion-org/deepseek-go",
+          "surroundingText": "https://github.com/cohesion-org/deepseek-go",
+          "targetUrl": "https://github.com/cohesion-org/deepseek-go",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -97838,7 +99137,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Community MIT-licensed Go client for DeepSeek’s API (chat, reasoning, tools, FIM, streaming) plus OpenAI-compatible providers. Useful developer tooling, but it is not an official DeepSeek SDK or model card.",
         "relevanceScore": 0.82,
@@ -98010,6 +99309,15 @@
           "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
           "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "sectionPath": [],
+          "anchorText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98024,7 +99332,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Unofficial Node.js local proxy that exposes DeepSeek Web Chat as OpenAI/Anthropic-compatible APIs via a logged-in browser session. Experimental and not official docs or SDKs; ToS and stability risk.",
         "relevanceScore": 0.45,
@@ -98193,6 +99501,15 @@
           "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
           "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/tensorchord/deepseek-api-arena",
+          "sectionPath": [],
+          "anchorText": "https://github.com/tensorchord/deepseek-api-arena",
+          "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
+          "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98207,7 +99524,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Community Python CLI that benchmarks TTFT/TBT across several DeepSeek API providers; useful for latency comparison, not official docs or an SDK.",
         "relevanceScore": 0.62,
@@ -98375,6 +99692,15 @@
           "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "sectionPath": [],
+          "anchorText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98389,7 +99715,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Third-party WordPress plugin that wires DeepSeek’s translation API into TranslatePress. Useful for WP sites, but it is not official DeepSeek docs, a model card, or a maintained SDK.",
         "relevanceScore": 0.28,
@@ -98556,6 +99882,15 @@
           "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
           "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/deepseek-php/deepseek-php-client",
+          "sectionPath": [],
+          "anchorText": "https://github.com/deepseek-php/deepseek-php-client",
+          "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
+          "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98570,7 +99905,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Community MIT PHP client for the DeepSeek API (Composer, PHP 8.1+), with fluent builders, PSR-18/Guzzle or Symfony HTTP, streaming, and V4 model support. Useful for PHP apps; it is not an official DeepSeek first-party SDK.",
         "relevanceScore": 0.82,
@@ -98741,6 +100076,15 @@
           "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
           "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "sectionPath": [],
+          "anchorText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98755,7 +100099,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Unofficial Unity UPM package that wraps the DeepSeek chat API with streaming, samples, and editor key storage. Community-maintained, not official docs or a Hugging Face model card.",
         "relevanceScore": 0.62,
@@ -98924,6 +100268,15 @@
           "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
           "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "sectionPath": [],
+          "anchorText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -98938,7 +100291,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Community scripts to export, INT8-quantize, and run DeepSeek-R1-Distill-Qwen-1.5B on Huawei Ascend Atlas 200I DK A2 (OM). Niche hardware demo, not official docs or a maintained SDK.",
         "relevanceScore": 0.42,
@@ -99051,6 +100404,15 @@
           "surroundingText": "Click here to view the guide.",
           "targetUrl": "https://api-docs.deepseek.com/guides/search",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Click here to view the guide.",
+          "surroundingText": "Click here to view the guide.",
+          "targetUrl": "https://api-docs.deepseek.com/guides/search",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -99065,7 +100427,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-17T09:20:00.063Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official API docs for Search and Fetch JSON endpoints that give agents and RAG apps live web results and Markdown page content, with auth, operators, errors, billing, and rate limits.",
         "relevanceScore": 0.95,
@@ -99179,6 +100541,15 @@
           "surroundingText": "News",
           "targetUrl": "https://api-docs.deepseek.com/news/news261017",
           "discoveredAt": "2026-10-25T09:20:00.068Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "News",
+          "surroundingText": "News",
+          "targetUrl": "https://api-docs.deepseek.com/news/news261017",
+          "discoveredAt": "2026-10-26T09:20:00.102Z"
         }
       ],
       "globalFactRefs": [],
@@ -99193,7 +100564,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-17T09:20:00.063Z",
-      "updatedAt": "2026-10-25T09:20:00.068Z",
+      "updatedAt": "2026-10-26T09:20:00.102Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs news post announcing DeepSeek-V4.1-Flash-1017, Search & Fetch pricing, and Hugging Face/ModelScope weights. Prefer the model card or API guides over this announcement page for a directory listing.",
         "relevanceScore": 0.45,
@@ -99308,6 +100679,15 @@
           "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
           "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
           "discoveredAt": "2026-10-25T10:01:00.076Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "deepseek-ai",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "surroundingText": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "targetUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "discoveredAt": "2026-10-26T10:00:32.027Z"
         }
       ],
       "globalFactRefs": [
@@ -99323,7 +100703,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-17T10:00:00.201Z",
-      "updatedAt": "2026-10-25T10:01:00.076Z",
+      "updatedAt": "2026-10-26T10:00:32.027Z",
       "aiReview": {
         "summary": "Official DeepSeek-AI Hugging Face model card for a MIT-licensed image-text-to-text checkpoint with transformers tags, local inference notes, and published benchmark tables. Suitable as a primary model listing; confirm weights and encoding extras on the repo.",
         "relevanceScore": 0.92,
