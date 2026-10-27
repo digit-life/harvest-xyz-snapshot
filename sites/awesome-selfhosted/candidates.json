@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:30:00.083Z",
+  "generatedAt": "2026-10-27T10:30:00.090Z",
   "appId": "awesome-selfhosted",
   "items": [
     {
@@ -134,6 +134,15 @@
           "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         },
         {
           "sourceType": "curated_readme",
@@ -284,6 +293,16 @@
           "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -298,7 +317,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This candidate points at the well-known awesome-selfhosted GitHub list, but the extracted title is the CC BY-SA 3.0 license string rather than the project name, so metadata needs a fix before listing.",
         "relevanceScore": 0.95,
@@ -496,6 +515,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -643,6 +671,16 @@
           "surroundingText": "HTML version",
           "targetUrl": "https://awesome-selfhosted.net",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [
@@ -660,7 +698,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official HTML catalog of Free Software network services and web apps you can host yourself, grouped by category with licenses and source links. It is a directory, not a deployable application.",
         "relevanceScore": 0.95,
@@ -859,6 +897,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1006,6 +1053,16 @@
           "surroundingText": "Slash",
           "targetUrl": "https://github.com/yourselfhosted/slash",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Slash",
+          "surroundingText": "Slash",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1020,7 +1077,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "FOSS AGPL-3.0 self-hosted short-link and bookmark manager with Docker deploy, docs, and browser extensions; listed in awesome-selfhosted.",
         "relevanceScore": 0.92,
@@ -1214,6 +1271,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1361,6 +1427,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://github.com/stoatchat/self-hosted",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1375,7 +1451,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official Docker Compose stack for self-hosting Stoat (chat backend, web client, file server, and proxies) under AGPL-3.0, with documented domain, Caddy, and update steps.",
         "relevanceScore": 0.92,
@@ -1568,6 +1644,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1715,6 +1800,16 @@
           "surroundingText": "Webtor",
           "targetUrl": "https://github.com/webtor-io/self-hosted",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Webtor",
+          "surroundingText": "Webtor",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1729,7 +1824,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "MIT-licensed all-in-one Docker image for self-hosting torrent streaming, library, and related web UI, with documented env/volume setup and GHCR images for amd64/arm64.",
         "relevanceScore": 0.92,
@@ -1921,6 +2016,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Website",
+          "surroundingText": "Website",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -2068,6 +2172,16 @@
           "surroundingText": "HomelabOS",
           "targetUrl": "https://homelabos.com",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HomelabOS",
+          "surroundingText": "HomelabOS",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -2082,7 +2196,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Ansible/Docker toolkit to deploy many self-hosted apps on your own hardware, with docs and a public GitLab repo. Pipe-to-bash install and license file were not verified here, so treat it as a homelab stack rather than a polished product.",
         "relevanceScore": 0.82,
@@ -2274,6 +2388,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -2421,6 +2544,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -2435,7 +2568,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Ansible-and-Docker toolkit for deploying a catalog of self-hosted services on your own hardware; public GitLab project with recent activity and a clear FOSS homelab focus.",
         "relevanceScore": 0.92,
@@ -2884,6 +3017,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3031,6 +3173,16 @@
           "surroundingText": "/c/selfhosted on lemmy.world",
           "targetUrl": "https://lemmy.world/c/selfhosted",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -3045,7 +3197,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Active Lemmy community for discussing self-hosted software alternatives, already linked from awesome-selfhosted. It is a forum, not a deployable app.",
         "relevanceScore": 0.72,
@@ -3235,6 +3387,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3382,6 +3543,16 @@
           "surroundingText": "/r/selfhosted on reddit",
           "targetUrl": "https://old.reddit.com/r/selfhosted",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -3396,7 +3567,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Public Reddit community for self-hosting discussion, not a deployable FOSS server app. Useful as a related resource; depends on Reddit’s hosted platform and may require an account for full participation.",
         "relevanceScore": 0.72,
@@ -3586,6 +3757,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3733,6 +3913,16 @@
           "surroundingText": "/r/selfhosted Matrix Channel",
           "targetUrl": "https://matrix.to",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -3747,7 +3937,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "matrix.to is an invite landing page for Matrix rooms, not a self-hosted server app. The listing is a community chat link, so it does not belong in a tools/apps directory.",
         "relevanceScore": 0.15,
@@ -3934,6 +4124,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -4081,6 +4280,16 @@
           "surroundingText": "/r/homelab on reddit",
           "targetUrl": "https://old.reddit.com/r/homelab",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -4095,7 +4304,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Public Reddit community for homelab hardware, racks, and self-hosted projects; useful as a discussion resource, not a deployable app.",
         "relevanceScore": 0.72,
@@ -4284,6 +4493,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "raw data",
+          "surroundingText": "raw data",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -4431,6 +4649,16 @@
           "surroundingText": "AUTHORS",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AUTHORS",
+          "surroundingText": "AUTHORS",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -4445,7 +4673,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is the machine-readable dataset that generates awesome-selfhosted, not a deployable server app. Listing it as a directory entry is circular and a poor fit for a self-hosted software catalog.",
         "relevanceScore": 0.25,
@@ -4655,6 +4883,16 @@
           "surroundingText": "Submit App",
           "targetUrl": "https://github.com/ccbikai/awesome-homelab",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Submit App",
+          "surroundingText": "Submit App",
+          "targetUrl": "https://github.com/ccbikai/awesome-homelab",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -4668,7 +4906,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "This is a curated GitHub awesome-list of third-party homelab apps, not a deployable self-hosted server. Discovery used a mislabeled “Submit App” issue link; license is unset on GitHub.",
         "relevanceScore": 0.28,
@@ -4879,6 +5117,16 @@
           "surroundingText": "Yacht",
           "targetUrl": "https://github.com/selfhostedpro/yacht",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Yacht",
+          "surroundingText": "Yacht",
+          "targetUrl": "https://github.com/selfhostedpro/yacht",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -4892,7 +5140,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "MIT-licensed Docker container UI with templates and compose support, but the README states it is largely unmaintained and points users to incomplete rewrite/forks.",
         "relevanceScore": 0.72,
@@ -5083,6 +5331,15 @@
           "surroundingText": "Analytics",
           "targetUrl": "https://awesome-selfhosted.net/tags/analytics.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Analytics",
+          "surroundingText": "Analytics",
+          "targetUrl": "https://awesome-selfhosted.net/tags/analytics.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -5097,7 +5354,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted Analytics tag page listing FOSS, self-hostable analytics and related tools with licenses, platforms, and source links. Useful as a curated directory, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -5284,6 +5541,15 @@
           "surroundingText": "Archiving and Digital Preservation (DP)",
           "targetUrl": "https://awesome-selfhosted.net/tags/archiving-and-digital-preservation-dp.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Archiving and Digital Preservation (DP)",
+          "surroundingText": "Archiving and Digital Preservation (DP)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/archiving-and-digital-preservation-dp.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -5298,7 +5564,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS digital archiving and preservation apps with licenses, platforms, and source links. Suitable as a curated Resources entry, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -5485,6 +5751,15 @@
           "surroundingText": "Automation",
           "targetUrl": "https://awesome-selfhosted.net/tags/automation.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Automation",
+          "surroundingText": "Automation",
+          "targetUrl": "https://awesome-selfhosted.net/tags/automation.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -5499,7 +5774,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS automation/self-hostable tools with licenses, platforms, and source links; suitable as a directory resource, not a deployable app.",
         "relevanceScore": 0.92,
@@ -5685,6 +5960,15 @@
           "surroundingText": "Backup",
           "targetUrl": "https://awesome-selfhosted.net/tags/backup.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Backup",
+          "surroundingText": "Backup",
+          "targetUrl": "https://awesome-selfhosted.net/tags/backup.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -5699,7 +5983,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an awesome-selfhosted tag page for Backup, not a deployable app. It contains no software listings and only redirects readers to awesome-sysadmin/Backups.",
         "relevanceScore": 0.25,
@@ -5883,6 +6167,15 @@
           "surroundingText": "Blogging Platforms",
           "targetUrl": "https://awesome-selfhosted.net/tags/blogging-platforms.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Blogging Platforms",
+          "surroundingText": "Blogging Platforms",
+          "targetUrl": "https://awesome-selfhosted.net/tags/blogging-platforms.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -5897,7 +6190,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS blogging platforms with licenses, source links, and last-update metadata. Suitable as a directory resource, not a deployable app.",
         "relevanceScore": 0.92,
@@ -6083,6 +6376,15 @@
           "surroundingText": "Booking and Scheduling",
           "targetUrl": "https://awesome-selfhosted.net/tags/booking-and-scheduling.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Booking and Scheduling",
+          "surroundingText": "Booking and Scheduling",
+          "targetUrl": "https://awesome-selfhosted.net/tags/booking-and-scheduling.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -6097,7 +6399,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Category page from awesome-selfhosted listing FOSS event, reservation, and appointment apps with licenses, source links, and recent activity. Useful as a curated index, not a deployable product.",
         "relevanceScore": 0.85,
@@ -6284,6 +6586,15 @@
           "surroundingText": "Bookmarks and Link Sharing",
           "targetUrl": "https://awesome-selfhosted.net/tags/bookmarks-and-link-sharing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Bookmarks and Link Sharing",
+          "surroundingText": "Bookmarks and Link Sharing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/bookmarks-and-link-sharing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -6298,7 +6609,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted category listing FOSS bookmark and link-sharing server apps with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -6486,6 +6797,15 @@
           "surroundingText": "Calendar &amp; Contacts",
           "targetUrl": "https://awesome-selfhosted.net/tags/calendar--contacts.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Calendar &amp; Contacts",
+          "surroundingText": "Calendar &amp; Contacts",
+          "targetUrl": "https://awesome-selfhosted.net/tags/calendar--contacts.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -6500,7 +6820,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS CalDAV/CardDAV servers and calendar/contact clients with licenses, platforms, and source links.",
         "relevanceScore": 0.95,
@@ -6687,6 +7007,15 @@
           "surroundingText": "Communication - Custom Communication Systems",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---custom-communication-systems.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Custom Communication Systems",
+          "surroundingText": "Communication - Custom Communication Systems",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---custom-communication-systems.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -6701,7 +7030,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Category listing from awesome-selfhosted of FOSS self-hosted custom communication systems (chat, realtime, notifications, Matrix, etc.), with licenses, source links, and recent activity dates.",
         "relevanceScore": 0.95,
@@ -6889,6 +7218,15 @@
           "surroundingText": "Communication - Email - Complete Solutions",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---complete-solutions.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Complete Solutions",
+          "surroundingText": "Communication - Email - Complete Solutions",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---complete-solutions.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -6903,7 +7241,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Awesome-selfhosted category page listing FOSS complete email server stacks with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.86,
@@ -7093,6 +7431,15 @@
           "surroundingText": "Communication - Email - Mail Delivery Agents",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-delivery-agents.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mail Delivery Agents",
+          "surroundingText": "Communication - Email - Mail Delivery Agents",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-delivery-agents.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -7107,7 +7454,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS IMAP/POP3 mail delivery agents with licenses, source links, and recent activity dates. Suitable as a directory resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -7294,6 +7641,15 @@
           "surroundingText": "Communication - Email - Mail Transfer Agents",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-transfer-agents.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mail Transfer Agents",
+          "surroundingText": "Communication - Email - Mail Transfer Agents",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mail-transfer-agents.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -7308,7 +7664,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS SMTP/MTA projects with licenses, platforms, and source links. Useful as a directory entry, not as a deployable application.",
         "relevanceScore": 0.92,
@@ -7498,6 +7854,15 @@
           "surroundingText": "Communication - Email - Mailing Lists and Newsletters",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mailing-lists-and-newsletters.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Mailing Lists and Newsletters",
+          "surroundingText": "Communication - Email - Mailing Lists and Newsletters",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---mailing-lists-and-newsletters.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -7512,7 +7877,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS mailing-list and newsletter servers with licenses, platforms, and source links. Suitable as a curated resource, not as a deployable product.",
         "relevanceScore": 0.92,
@@ -7699,6 +8064,15 @@
           "surroundingText": "Communication - Email - Webmail Clients",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---webmail-clients.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Email - Webmail Clients",
+          "surroundingText": "Communication - Email - Webmail Clients",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---email---webmail-clients.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -7713,7 +8087,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS webmail clients with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -7900,6 +8274,15 @@
           "surroundingText": "Communication - IRC",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---irc.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - IRC",
+          "surroundingText": "Communication - IRC",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---irc.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -7914,7 +8297,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS IRC servers, bouncers, and web clients with licenses, platforms, and recent activity dates. Suitable as a curated discovery resource rather than a deployable app.",
         "relevanceScore": 0.92,
@@ -8100,6 +8483,15 @@
           "surroundingText": "Communication - SIP",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---sip.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - SIP",
+          "surroundingText": "Communication - SIP",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---sip.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -8114,7 +8506,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS SIP/IPBX servers (Asterisk, Kamailio, FreeSWITCH, and others) with licenses and source links. Suitable as a curated directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -8301,6 +8693,15 @@
           "surroundingText": "Communication - Social Networks and Forums",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---social-networks-and-forums.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Social Networks and Forums",
+          "surroundingText": "Communication - Social Networks and Forums",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---social-networks-and-forums.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -8315,7 +8716,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS social-network, forum, and commenting servers with licenses, platforms, and source links. Suitable as a curated catalog, not a deployable app.",
         "relevanceScore": 0.92,
@@ -8503,6 +8904,15 @@
           "surroundingText": "Communication - Video Conferencing",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---video-conferencing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - Video Conferencing",
+          "surroundingText": "Communication - Video Conferencing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---video-conferencing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -8517,7 +8927,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS, self-hostable video conferencing projects with licenses, source links, and recent activity dates. Suitable as a curated directory resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -8703,6 +9113,15 @@
           "surroundingText": "Communication - XMPP - Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---servers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - XMPP - Servers",
+          "surroundingText": "Communication - XMPP - Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---servers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -8717,7 +9136,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS XMPP servers (ejabberd, MongooseIM, Openfire, Prosody, Snikket, Tigase) with licenses, source links, and recent activity. Useful as a curated index, not a deployable product.",
         "relevanceScore": 0.92,
@@ -8903,6 +9322,15 @@
           "surroundingText": "Communication - XMPP - Web Clients",
           "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---web-clients.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Communication - XMPP - Web Clients",
+          "surroundingText": "Communication - XMPP - Web Clients",
+          "targetUrl": "https://awesome-selfhosted.net/tags/communication---xmpp---web-clients.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -8917,7 +9345,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted category page listing FOSS XMPP web clients (Converse.js, Libervia, Salut à Toi) with licenses and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -9104,6 +9532,15 @@
           "surroundingText": "Community-Supported Agriculture (CSA)",
           "targetUrl": "https://awesome-selfhosted.net/tags/community-supported-agriculture-csa.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Community-Supported Agriculture (CSA)",
+          "surroundingText": "Community-Supported Agriculture (CSA)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/community-supported-agriculture-csa.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -9118,7 +9555,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Awesome-selfhosted tag page listing FOSS CSA and food-coop admin apps with licenses, source links, and recent activity. Useful as a directory, not a deployable product itself.",
         "relevanceScore": 0.85,
@@ -9305,6 +9742,15 @@
           "surroundingText": "Conference Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/conference-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Conference Management",
+          "surroundingText": "Conference Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/conference-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -9319,7 +9765,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS conference/event tools (Indico, pretalx, OSEM, OpenSlides, Antragsgrün) with licenses, source links, and recent activity. Suitable as a curated category resource, not a deployable app itself.",
         "relevanceScore": 0.86,
@@ -9505,6 +9951,15 @@
           "surroundingText": "Content Management Systems (CMS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/content-management-systems-cms.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Content Management Systems (CMS)",
+          "surroundingText": "Content Management Systems (CMS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/content-management-systems-cms.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -9519,7 +9974,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable CMS projects with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -9706,6 +10161,15 @@
           "surroundingText": "Customer Relationship Management (CRM)",
           "targetUrl": "https://awesome-selfhosted.net/tags/customer-relationship-management-crm.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Customer Relationship Management (CRM)",
+          "surroundingText": "Customer Relationship Management (CRM)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/customer-relationship-management-crm.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -9720,7 +10184,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted tag page listing FOSS, self-hostable CRM apps with licenses, source links, and recent activity. Useful as a discovery resource, not a deployable product itself.",
         "relevanceScore": 0.86,
@@ -9907,6 +10371,15 @@
           "surroundingText": "Database Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/database-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Database Management",
+          "surroundingText": "Database Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/database-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -9921,7 +10394,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS, self-hostable database management UIs and related tools with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -10107,6 +10580,15 @@
           "surroundingText": "DNS",
           "targetUrl": "https://awesome-selfhosted.net/tags/dns.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "DNS",
+          "surroundingText": "DNS",
+          "targetUrl": "https://awesome-selfhosted.net/tags/dns.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -10121,7 +10603,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS DNS servers and ad-blocking tools for home or small networks, with licenses, source links, and recent activity dates.",
         "relevanceScore": 0.92,
@@ -10308,6 +10790,15 @@
           "surroundingText": "Document Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management",
+          "surroundingText": "Document Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -10322,7 +10813,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS document management systems with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -10511,6 +11002,15 @@
           "surroundingText": "Document Management - E-books",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---e-books.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - E-books",
+          "surroundingText": "Document Management - E-books",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---e-books.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -10525,7 +11025,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS ebook, comic, and audiobook library servers with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -10713,6 +11213,15 @@
           "surroundingText": "Document Management - Institutional Repository and Digital Library Software",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---institutional-repository-and-digital-library-software.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - Institutional Repository and Digital Library Software",
+          "surroundingText": "Document Management - Institutional Repository and Digital Library Software",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---institutional-repository-and-digital-library-software.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -10727,7 +11236,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS institutional repository and digital library apps (DSpace, EPrints, Fedora, InvenioRDM, Islandora, Hyrax) with licenses and recent activity.",
         "relevanceScore": 0.92,
@@ -10913,6 +11422,15 @@
           "surroundingText": "Document Management - Integrated Library Systems (ILS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/document-management---integrated-library-systems-ils.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Document Management - Integrated Library Systems (ILS)",
+          "surroundingText": "Document Management - Integrated Library Systems (ILS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/document-management---integrated-library-systems-ils.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -10927,7 +11445,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS integrated library systems (Evergreen, Koha, RERO ILS) with licenses, source links, and recent activity. Useful as a curated category index, not a deployable app itself.",
         "relevanceScore": 0.86,
@@ -11117,6 +11635,15 @@
           "surroundingText": "E-commerce",
           "targetUrl": "https://awesome-selfhosted.net/tags/e-commerce.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "E-commerce",
+          "surroundingText": "E-commerce",
+          "targetUrl": "https://awesome-selfhosted.net/tags/e-commerce.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -11131,7 +11658,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable e-commerce platforms with licenses, source links, and recent activity dates.",
         "relevanceScore": 0.92,
@@ -11321,6 +11848,15 @@
           "surroundingText": "Federated Identity &amp; Authentication",
           "targetUrl": "https://awesome-selfhosted.net/tags/federated-identity--authentication.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Federated Identity &amp; Authentication",
+          "surroundingText": "Federated Identity &amp; Authentication",
+          "targetUrl": "https://awesome-selfhosted.net/tags/federated-identity--authentication.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -11335,7 +11871,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an empty awesome-selfhosted category page that only redirects readers to awesome-sysadmin Identity Management, not a deployable app or maintained software project.",
         "relevanceScore": 0.25,
@@ -11518,6 +12054,15 @@
           "surroundingText": "Feed Readers",
           "targetUrl": "https://awesome-selfhosted.net/tags/feed-readers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Feed Readers",
+          "surroundingText": "Feed Readers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/feed-readers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -11532,7 +12077,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable RSS/Atom readers and related aggregators with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.95,
@@ -11718,6 +12263,15 @@
           "surroundingText": "File Transfer &amp; Synchronization",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer--synchronization.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer &amp; Synchronization",
+          "surroundingText": "File Transfer &amp; Synchronization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer--synchronization.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -11732,7 +12286,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS file transfer, sharing, and sync server apps with licenses, platforms, and source links. Suitable as a curated directory resource, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -11922,6 +12476,15 @@
           "surroundingText": "File Transfer - Distributed Filesystems",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---distributed-filesystems.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Distributed Filesystems",
+          "surroundingText": "File Transfer - Distributed Filesystems",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---distributed-filesystems.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -11936,7 +12499,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page for network distributed filesystems, but it lists no software and only points to awesome-sysadmin. Weak as a standalone directory entry.",
         "relevanceScore": 0.35,
@@ -12120,6 +12683,15 @@
           "surroundingText": "File Transfer - Object Storage &amp; File Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Object Storage &amp; File Servers",
+          "surroundingText": "File Transfer - Object Storage &amp; File Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -12134,7 +12706,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS object storage and file-server projects with licenses, platforms, and source links. Suitable as a curated Resources entry, not as a deployable app.",
         "relevanceScore": 0.92,
@@ -12320,6 +12892,15 @@
           "surroundingText": "File Transfer - Peer-to-peer Filesharing",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---peer-to-peer-filesharing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Peer-to-peer Filesharing",
+          "surroundingText": "File Transfer - Peer-to-peer Filesharing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---peer-to-peer-filesharing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -12334,7 +12915,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS peer-to-peer file-sharing and BitTorrent-related server apps with licenses, platforms, and source links.",
         "relevanceScore": 0.95,
@@ -12521,6 +13102,15 @@
           "surroundingText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---single-click--drag-n-drop-upload.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
+          "surroundingText": "File Transfer - Single-click &amp; Drag-n-drop Upload",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---single-click--drag-n-drop-upload.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -12535,7 +13125,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted category listing FOSS servers for one-time or drag-and-drop file sharing, with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -12724,6 +13314,15 @@
           "surroundingText": "File Transfer - Web-based File Managers",
           "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "File Transfer - Web-based File Managers",
+          "surroundingText": "File Transfer - Web-based File Managers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -12738,7 +13337,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS web-based file managers with licenses, platforms, and source links. Suitable as a curated resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -12924,6 +13523,15 @@
           "surroundingText": "Games",
           "targetUrl": "https://awesome-selfhosted.net/tags/games.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Games",
+          "surroundingText": "Games",
+          "targetUrl": "https://awesome-selfhosted.net/tags/games.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -12938,7 +13546,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted Games tag page listing FOSS multiplayer servers and browser games with licenses, source links, and last-update metadata. Useful as a curated index, not a deployable product itself.",
         "relevanceScore": 0.85,
@@ -13127,6 +13735,15 @@
           "surroundingText": "Games - Administrative Utilities &amp; Control Panels",
           "targetUrl": "https://awesome-selfhosted.net/tags/games---administrative-utilities--control-panels.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Games - Administrative Utilities &amp; Control Panels",
+          "surroundingText": "Games - Administrative Utilities &amp; Control Panels",
+          "targetUrl": "https://awesome-selfhosted.net/tags/games---administrative-utilities--control-panels.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -13141,7 +13758,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS utilities for game-server and game-library management, with source links, licenses, and recent activity dates. Suitable as a category index, not as a single deployable app.",
         "relevanceScore": 0.85,
@@ -13329,6 +13946,15 @@
           "surroundingText": "Genealogy",
           "targetUrl": "https://awesome-selfhosted.net/tags/genealogy.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Genealogy",
+          "surroundingText": "Genealogy",
+          "targetUrl": "https://awesome-selfhosted.net/tags/genealogy.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -13343,7 +13969,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS genealogy servers (Genea.app, GeneWeb, Gramps Web, webtrees, and others) with licenses, source, and recency. Suitable as a Resources entry, not a single deployable app.",
         "relevanceScore": 0.85,
@@ -13529,6 +14155,15 @@
           "surroundingText": "Generative Artificial Intelligence (GenAI)",
           "targetUrl": "https://awesome-selfhosted.net/tags/generative-artificial-intelligence-genai.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Generative Artificial Intelligence (GenAI)",
+          "surroundingText": "Generative Artificial Intelligence (GenAI)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/generative-artificial-intelligence-genai.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -13543,7 +14178,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS, self-hostable GenAI apps (Ollama, LocalAI, Open-WebUI, etc.) with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -13732,6 +14367,15 @@
           "surroundingText": "Groupware",
           "targetUrl": "https://awesome-selfhosted.net/tags/groupware.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Groupware",
+          "surroundingText": "Groupware",
+          "targetUrl": "https://awesome-selfhosted.net/tags/groupware.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -13746,7 +14390,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS collaborative/groupware servers with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -13934,6 +14578,15 @@
           "surroundingText": "Health and Fitness",
           "targetUrl": "https://awesome-selfhosted.net/tags/health-and-fitness.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Health and Fitness",
+          "surroundingText": "Health and Fitness",
+          "targetUrl": "https://awesome-selfhosted.net/tags/health-and-fitness.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -13948,7 +14601,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS medical, health, and fitness server apps with licenses, platforms, and source links. Suitable as a directory resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -14134,6 +14787,15 @@
           "surroundingText": "Human Resources Management (HRM)",
           "targetUrl": "https://awesome-selfhosted.net/tags/human-resources-management-hrm.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Human Resources Management (HRM)",
+          "surroundingText": "Human Resources Management (HRM)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/human-resources-management-hrm.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -14148,7 +14810,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS HRM apps with licenses, source links, and recent activity dates—not a deployable product itself.",
         "relevanceScore": 0.86,
@@ -14337,6 +14999,15 @@
           "surroundingText": "Identity Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/identity-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Identity Management",
+          "surroundingText": "Identity Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/identity-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -14351,7 +15022,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page for identity management; it only defines IAM and redirects to awesome-sysadmin instead of listing deployable apps.",
         "relevanceScore": 0.45,
@@ -14535,6 +15206,15 @@
           "surroundingText": "Internet of Things (IoT)",
           "targetUrl": "https://awesome-selfhosted.net/tags/internet-of-things-iot.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Internet of Things (IoT)",
+          "surroundingText": "Internet of Things (IoT)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/internet-of-things-iot.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -14549,7 +15229,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted IoT tag page listing FOSS self-hostable home automation, MQTT, and device platforms with licenses and source links. Suitable as a directory resource, not a deployable app.",
         "relevanceScore": 0.92,
@@ -14737,6 +15417,15 @@
           "surroundingText": "Inventory Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/inventory-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Inventory Management",
+          "surroundingText": "Inventory Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/inventory-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -14751,7 +15440,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS inventory-management apps with licenses, source links, and recent activity dates. Useful as a curated index, not a deployable product itself.",
         "relevanceScore": 0.85,
@@ -14940,6 +15629,15 @@
           "surroundingText": "Knowledge Management Tools",
           "targetUrl": "https://awesome-selfhosted.net/tags/knowledge-management-tools.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Knowledge Management Tools",
+          "surroundingText": "Knowledge Management Tools",
+          "targetUrl": "https://awesome-selfhosted.net/tags/knowledge-management-tools.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -14954,7 +15652,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS knowledge-management apps with licenses, platforms, and source links. Useful as a curated index, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -15140,6 +15838,15 @@
           "surroundingText": "Learning and Courses",
           "targetUrl": "https://awesome-selfhosted.net/tags/learning-and-courses.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Learning and Courses",
+          "surroundingText": "Learning and Courses",
+          "targetUrl": "https://awesome-selfhosted.net/tags/learning-and-courses.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -15154,7 +15861,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category listing FOSS LMS, school, and classroom tools with licenses, source links, and last-update dates. Suitable as a curated resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -15341,6 +16048,15 @@
           "surroundingText": "Manufacturing",
           "targetUrl": "https://awesome-selfhosted.net/tags/manufacturing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Manufacturing",
+          "surroundingText": "Manufacturing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/manufacturing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -15355,7 +16071,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS apps for 3D printers, CNC, and related manufacturing tools, with licenses, platforms, and recent activity dates.",
         "relevanceScore": 0.86,
@@ -15545,6 +16261,15 @@
           "surroundingText": "Maps and Global Positioning System (GPS)",
           "targetUrl": "https://awesome-selfhosted.net/tags/maps-and-global-positioning-system-gps.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Maps and Global Positioning System (GPS)",
+          "surroundingText": "Maps and Global Positioning System (GPS)",
+          "targetUrl": "https://awesome-selfhosted.net/tags/maps-and-global-positioning-system-gps.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -15559,7 +16284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS maps, GIS, routing, and GPS apps with licenses, platforms, and source links. Suitable as a curated resource, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -15751,6 +16476,15 @@
           "surroundingText": "Media Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Management",
+          "surroundingText": "Media Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -15765,7 +16499,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS digital media managers (Radarr, Lidarr, downloaders, request tools) with licenses and Docker notes; several entries are marked anti-features.",
         "relevanceScore": 0.92,
@@ -15955,6 +16689,15 @@
           "surroundingText": "Media Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming",
+          "surroundingText": "Media Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -15969,7 +16712,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category hub that defines streaming media and routes readers to audio, multimedia, video, and media-management sublists rather than listing apps itself.",
         "relevanceScore": 0.86,
@@ -16155,6 +16898,15 @@
           "surroundingText": "Media Streaming - Audio Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---audio-streaming.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Audio Streaming",
+          "surroundingText": "Media Streaming - Audio Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---audio-streaming.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -16169,7 +16921,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS self-hosted audio streaming servers with licenses, source links, and recent activity. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -16355,6 +17107,15 @@
           "surroundingText": "Media Streaming - Multimedia Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---multimedia-streaming.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Multimedia Streaming",
+          "surroundingText": "Media Streaming - Multimedia Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---multimedia-streaming.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -16369,7 +17130,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted tag page listing FOSS multimedia streaming servers (Jellyfin, Icecast, MediaMTX, Gerbera, and others) with licenses, platforms, and source links. Useful as a directory, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -16559,6 +17320,15 @@
           "surroundingText": "Media Streaming - Video Streaming",
           "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---video-streaming.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Media Streaming - Video Streaming",
+          "surroundingText": "Media Streaming - Video Streaming",
+          "targetUrl": "https://awesome-selfhosted.net/tags/media-streaming---video-streaming.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -16573,7 +17343,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS self-hosted video streaming servers and front-ends with licenses, platforms, and source links. Suitable as a directory resource, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -16763,6 +17533,15 @@
           "surroundingText": "Miscellaneous",
           "targetUrl": "https://awesome-selfhosted.net/tags/miscellaneous.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Miscellaneous",
+          "surroundingText": "Miscellaneous",
+          "targetUrl": "https://awesome-selfhosted.net/tags/miscellaneous.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -16777,7 +17556,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS network services that do not fit other categories. Useful as a curated catalog, not a single deployable application.",
         "relevanceScore": 0.82,
@@ -16962,6 +17741,15 @@
           "surroundingText": "Money, Budgeting &amp; Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/money-budgeting--management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Money, Budgeting &amp; Management",
+          "surroundingText": "Money, Budgeting &amp; Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/money-budgeting--management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -16976,7 +17764,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS self-hosted money, budgeting, invoicing, and payment apps with licenses, platforms, and source links.",
         "relevanceScore": 0.92,
@@ -17164,6 +17952,15 @@
           "surroundingText": "Monitoring &amp; Status Pages",
           "targetUrl": "https://awesome-selfhosted.net/tags/monitoring--status-pages.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Monitoring &amp; Status Pages",
+          "surroundingText": "Monitoring &amp; Status Pages",
+          "targetUrl": "https://awesome-selfhosted.net/tags/monitoring--status-pages.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -17178,7 +17975,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page for monitoring and status pages; it is a stub that redirects readers to awesome-sysadmin rather than listing deployable apps.",
         "relevanceScore": 0.72,
@@ -17363,6 +18160,15 @@
           "surroundingText": "Network Utilities",
           "targetUrl": "https://awesome-selfhosted.net/tags/network-utilities.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Network Utilities",
+          "surroundingText": "Network Utilities",
+          "targetUrl": "https://awesome-selfhosted.net/tags/network-utilities.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -17377,7 +18183,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted category page listing FOSS self-hostable network tools (honeypots, speed tests, WOL, DNS helpers) with licenses, platforms, and source links—not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -17562,6 +18368,15 @@
           "surroundingText": "Note-taking &amp; Editors",
           "targetUrl": "https://awesome-selfhosted.net/tags/note-taking--editors.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Note-taking &amp; Editors",
+          "surroundingText": "Note-taking &amp; Editors",
+          "targetUrl": "https://awesome-selfhosted.net/tags/note-taking--editors.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -17576,7 +18391,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable note-taking and editor apps with licenses, platforms, and source links. Suitable as a curated directory resource, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -17765,6 +18580,15 @@
           "surroundingText": "Office Suites",
           "targetUrl": "https://awesome-selfhosted.net/tags/office-suites.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Office Suites",
+          "surroundingText": "Office Suites",
+          "targetUrl": "https://awesome-selfhosted.net/tags/office-suites.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -17779,7 +18603,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted tag page listing FOSS office-suite projects with licenses, platforms, and source links. Useful as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -17965,6 +18789,15 @@
           "surroundingText": "Password Managers",
           "targetUrl": "https://awesome-selfhosted.net/tags/password-managers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Password Managers",
+          "surroundingText": "Password Managers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/password-managers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -17979,7 +18812,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS self-hosted password managers with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -18165,6 +18998,15 @@
           "surroundingText": "Pastebins",
           "targetUrl": "https://awesome-selfhosted.net/tags/pastebins.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Pastebins",
+          "surroundingText": "Pastebins",
+          "targetUrl": "https://awesome-selfhosted.net/tags/pastebins.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -18179,7 +19021,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS pastebin and related self-hostable apps with licenses, platforms, and source links.",
         "relevanceScore": 0.95,
@@ -18365,6 +19207,15 @@
           "surroundingText": "Personal Dashboards",
           "targetUrl": "https://awesome-selfhosted.net/tags/personal-dashboards.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Personal Dashboards",
+          "surroundingText": "Personal Dashboards",
+          "targetUrl": "https://awesome-selfhosted.net/tags/personal-dashboards.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -18379,7 +19230,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS homelab/personal dashboard apps with licenses, platforms, and source links. Useful as a curated index, not a deployable product itself.",
         "relevanceScore": 0.85,
@@ -18568,6 +19419,15 @@
           "surroundingText": "Photo Galleries",
           "targetUrl": "https://awesome-selfhosted.net/tags/photo-galleries.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Photo Galleries",
+          "surroundingText": "Photo Galleries",
+          "targetUrl": "https://awesome-selfhosted.net/tags/photo-galleries.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -18582,7 +19442,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS photo/video gallery apps with licenses, platforms, and source links. Useful as a discovery resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -18768,6 +19628,15 @@
           "surroundingText": "Polls and Events",
           "targetUrl": "https://awesome-selfhosted.net/tags/polls-and-events.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Polls and Events",
+          "surroundingText": "Polls and Events",
+          "targetUrl": "https://awesome-selfhosted.net/tags/polls-and-events.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -18782,7 +19651,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS poll, survey, and event apps with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -18972,6 +19841,15 @@
           "surroundingText": "Proxy",
           "targetUrl": "https://awesome-selfhosted.net/tags/proxy.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Proxy",
+          "surroundingText": "Proxy",
+          "targetUrl": "https://awesome-selfhosted.net/tags/proxy.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -18986,7 +19864,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS forward-proxy and related server apps with licenses, platforms, and source links. Useful as a directory section, not a single deployable product.",
         "relevanceScore": 0.85,
@@ -19172,6 +20050,15 @@
           "surroundingText": "Recipe Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/recipe-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Recipe Management",
+          "surroundingText": "Recipe Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/recipe-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -19186,7 +20073,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS recipe managers (Mealie, RecipeSage, CookCLI, and others) with licenses, Docker/source links, and recent activity. Suitable as a curated directory resource, not a deployable app.",
         "relevanceScore": 0.85,
@@ -19374,6 +20261,15 @@
           "surroundingText": "Remote Access",
           "targetUrl": "https://awesome-selfhosted.net/tags/remote-access.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Remote Access",
+          "surroundingText": "Remote Access",
+          "targetUrl": "https://awesome-selfhosted.net/tags/remote-access.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -19388,7 +20284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS remote-desktop, SSH, and VPN-style self-hostable apps with licenses, platforms, and recent activity. Suitable as a curated directory resource, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -19575,6 +20471,15 @@
           "surroundingText": "Resource Planning",
           "targetUrl": "https://awesome-selfhosted.net/tags/resource-planning.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Resource Planning",
+          "surroundingText": "Resource Planning",
+          "targetUrl": "https://awesome-selfhosted.net/tags/resource-planning.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -19589,7 +20494,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted tag page listing FOSS ERP and resource-planning apps with licenses, platforms, and source links. Suitable as a directory category, not a deployable product.",
         "relevanceScore": 0.86,
@@ -19776,6 +20681,15 @@
           "surroundingText": "Search Engines",
           "targetUrl": "https://awesome-selfhosted.net/tags/search-engines.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Search Engines",
+          "surroundingText": "Search Engines",
+          "targetUrl": "https://awesome-selfhosted.net/tags/search-engines.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -19790,7 +20704,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable search engines with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -19976,6 +20890,15 @@
           "surroundingText": "Self-hosting Solutions",
           "targetUrl": "https://awesome-selfhosted.net/tags/self-hosting-solutions.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Self-hosting Solutions",
+          "surroundingText": "Self-hosting Solutions",
+          "targetUrl": "https://awesome-selfhosted.net/tags/self-hosting-solutions.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -19990,7 +20913,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS tools for installing and managing self-hosted services, with licenses, source links, and recency metadata.",
         "relevanceScore": 0.95,
@@ -20178,6 +21101,15 @@
           "surroundingText": "Software Development",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development",
+          "surroundingText": "Software Development",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -20192,7 +21124,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page for Software Development; it is a navigation stub that points to subcategories and lists no apps itself.",
         "relevanceScore": 0.55,
@@ -20377,6 +21309,15 @@
           "surroundingText": "Software Development - API Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---api-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - API Management",
+          "surroundingText": "Software Development - API Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---api-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -20391,7 +21332,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Category page on awesome-selfhosted listing FOSS API gateways, GraphQL engines, and related self-hostable projects with licenses, platforms, and source links. Useful as a curated index, not a deployable product.",
         "relevanceScore": 0.92,
@@ -20579,6 +21520,15 @@
           "surroundingText": "Software Development - Continuous Integration &amp; Deployment",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---continuous-integration--deployment.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Continuous Integration &amp; Deployment",
+          "surroundingText": "Software Development - Continuous Integration &amp; Deployment",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---continuous-integration--deployment.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -20593,7 +21543,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page for CI/CD that currently lists no apps and redirects readers to awesome-sysadmin. Useful as a category pointer, not as a standalone software catalog.",
         "relevanceScore": 0.72,
@@ -20779,6 +21729,15 @@
           "surroundingText": "Software Development - FaaS &amp; Serverless",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---faas--serverless.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - FaaS &amp; Serverless",
+          "surroundingText": "Software Development - FaaS &amp; Serverless",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---faas--serverless.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -20793,7 +21752,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page for FaaS/serverless that lists no software and tells readers to use awesome-sysadmin/PaaS instead. Weak as a standalone directory entry.",
         "relevanceScore": 0.25,
@@ -20976,6 +21935,15 @@
           "surroundingText": "Software Development - Feature Toggle",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---feature-toggle.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Feature Toggle",
+          "surroundingText": "Software Development - Feature Toggle",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---feature-toggle.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -20990,7 +21958,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS self-hostable feature-flag platforms with licenses, source links, and recent activity dates.",
         "relevanceScore": 0.95,
@@ -21176,6 +22144,15 @@
           "surroundingText": "Software Development - IDE &amp; Tools",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---ide--tools.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - IDE &amp; Tools",
+          "surroundingText": "Software Development - IDE &amp; Tools",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---ide--tools.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -21190,7 +22167,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS self-hosted IDEs and related tools with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -21376,6 +22353,15 @@
           "surroundingText": "Software Development - Localization",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---localization.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Localization",
+          "surroundingText": "Software Development - Localization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---localization.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -21390,7 +22376,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS, self-hostable localization platforms with licenses, Docker/K8s notes, and recent activity dates.",
         "relevanceScore": 0.92,
@@ -21580,6 +22566,15 @@
           "surroundingText": "Software Development - Low Code",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---low-code.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Low Code",
+          "surroundingText": "Software Development - Low Code",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---low-code.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -21594,7 +22589,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS low-code platforms with licenses, source links, and recent activity. Suitable as a curated directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -21782,6 +22777,15 @@
           "surroundingText": "Software Development - Project Management",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---project-management.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Project Management",
+          "surroundingText": "Software Development - Project Management",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---project-management.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -21796,7 +22800,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Curated awesome-selfhosted category listing FOSS, self-hostable software forges and project-management apps with licenses, platforms, and source links. Suitable as a directory resource, not a single product.",
         "relevanceScore": 0.95,
@@ -21983,6 +22987,15 @@
           "surroundingText": "Software Development - Testing",
           "targetUrl": "https://awesome-selfhosted.net/tags/software-development---testing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Software Development - Testing",
+          "surroundingText": "Software Development - Testing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/software-development---testing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -21997,7 +23010,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS self-hostable software-testing tools with licenses, platforms, and source links. Useful as a curated index, not a deployable product.",
         "relevanceScore": 0.85,
@@ -22183,6 +23196,15 @@
           "surroundingText": "Static Site Generators",
           "targetUrl": "https://awesome-selfhosted.net/tags/static-site-generators.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Static Site Generators",
+          "surroundingText": "Static Site Generators",
+          "targetUrl": "https://awesome-selfhosted.net/tags/static-site-generators.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -22197,7 +23219,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Awesome-selfhosted tag page that defines static site generators and points readers to staticsitegenerators.bevry.me and staticgen.com rather than listing deployable apps. Useful as a navigation stub, not as a self-hosted product.",
         "relevanceScore": 0.45,
@@ -22382,6 +23404,15 @@
           "surroundingText": "Task Management &amp; To-do Lists",
           "targetUrl": "https://awesome-selfhosted.net/tags/task-management--to-do-lists.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Task Management &amp; To-do Lists",
+          "surroundingText": "Task Management &amp; To-do Lists",
+          "targetUrl": "https://awesome-selfhosted.net/tags/task-management--to-do-lists.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -22396,7 +23427,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS, self-hostable task and to-do apps with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable product.",
         "relevanceScore": 0.92,
@@ -22587,6 +23618,15 @@
           "surroundingText": "Ticketing",
           "targetUrl": "https://awesome-selfhosted.net/tags/ticketing.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ticketing",
+          "surroundingText": "Ticketing",
+          "targetUrl": "https://awesome-selfhosted.net/tags/ticketing.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -22601,7 +23641,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS helpdesk, bug, and issue trackers with licenses, platforms, and source links. Suitable as a directory resource, not a single deployable app.",
         "relevanceScore": 0.92,
@@ -22789,6 +23829,15 @@
           "surroundingText": "Time Tracking",
           "targetUrl": "https://awesome-selfhosted.net/tags/time-tracking.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Time Tracking",
+          "surroundingText": "Time Tracking",
+          "targetUrl": "https://awesome-selfhosted.net/tags/time-tracking.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -22803,7 +23852,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS time-tracking apps with licenses, source links, and recent activity dates. Suitable as a directory resource, not a deployable product.",
         "relevanceScore": 0.92,
@@ -22992,6 +24041,15 @@
           "surroundingText": "Travel Organization",
           "targetUrl": "https://awesome-selfhosted.net/tags/travel-organization.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Travel Organization",
+          "surroundingText": "Travel Organization",
+          "targetUrl": "https://awesome-selfhosted.net/tags/travel-organization.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -23006,7 +24064,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS travel planners (bookings, itineraries, expenses) with licenses, Docker notes, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -23192,6 +24250,15 @@
           "surroundingText": "URL Shorteners",
           "targetUrl": "https://awesome-selfhosted.net/tags/url-shorteners.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "URL Shorteners",
+          "surroundingText": "URL Shorteners",
+          "targetUrl": "https://awesome-selfhosted.net/tags/url-shorteners.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -23206,7 +24273,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted category page listing FOSS self-hosted URL shorteners with licenses, platforms, and source links. Suitable as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.86,
@@ -23395,6 +24462,15 @@
           "surroundingText": "Video Surveillance",
           "targetUrl": "https://awesome-selfhosted.net/tags/video-surveillance.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Video Surveillance",
+          "surroundingText": "Video Surveillance",
+          "targetUrl": "https://awesome-selfhosted.net/tags/video-surveillance.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -23409,7 +24485,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS CCTV/NVR projects with licenses, platforms, and source links. Useful as a directory, not a deployable app.",
         "relevanceScore": 0.92,
@@ -23596,6 +24672,15 @@
           "surroundingText": "VPN",
           "targetUrl": "https://awesome-selfhosted.net/tags/vpn.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "VPN",
+          "surroundingText": "VPN",
+          "targetUrl": "https://awesome-selfhosted.net/tags/vpn.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -23610,7 +24695,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted VPN tag page that defines VPN and redirects to awesome-sysadmin rather than listing deployable apps. Useful as a category pointer, not as a self-hosted product.",
         "relevanceScore": 0.35,
@@ -23795,6 +24880,15 @@
           "surroundingText": "Web Servers",
           "targetUrl": "https://awesome-selfhosted.net/tags/web-servers.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Web Servers",
+          "surroundingText": "Web Servers",
+          "targetUrl": "https://awesome-selfhosted.net/tags/web-servers.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -23809,7 +24903,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted tag page listing FOSS web servers and reverse proxies with licenses, platforms, and source links. Useful as a curated index, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -24001,6 +25095,15 @@
           "surroundingText": "Wikis",
           "targetUrl": "https://awesome-selfhosted.net/tags/wikis.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Wikis",
+          "surroundingText": "Wikis",
+          "targetUrl": "https://awesome-selfhosted.net/tags/wikis.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -24015,7 +25118,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted Wikis tag page listing FOSS, self-hostable wiki engines with licenses, platforms, and source links. Useful as a directory, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -24201,6 +25304,15 @@
           "surroundingText": "https://liberapay.com/awesome-selfhosted/",
           "targetUrl": "https://liberapay.com/awesome-selfhosted",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "https://liberapay.com/awesome-selfhosted/",
+          "surroundingText": "https://liberapay.com/awesome-selfhosted/",
+          "targetUrl": "https://liberapay.com/awesome-selfhosted",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -24215,7 +25327,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is a Liberapay donation profile for the awesome-selfhosted list, not a self-hosted application. It should not be listed as a deployable server app.",
         "relevanceScore": 0.15,
@@ -24398,6 +25510,15 @@
           "surroundingText": "C++",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c%2B%2B.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C++",
+          "surroundingText": "C++",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c%2B%2B.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -24412,7 +25533,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS network services whose main server stack is C++. Useful as a curated catalog, not as a deployable app itself.",
         "relevanceScore": 0.86,
@@ -24600,6 +25721,15 @@
           "surroundingText": "C",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C",
+          "surroundingText": "C",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -24614,7 +25744,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This URL is an awesome-selfhosted language filter listing C-based projects, not a single self-hosted application you can deploy.",
         "relevanceScore": 0.25,
@@ -24798,6 +25928,15 @@
           "surroundingText": "deb",
           "targetUrl": "https://awesome-selfhosted.net/platforms/deb.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "deb",
+          "surroundingText": "deb",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/deb.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -24812,7 +25951,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Index page from awesome-selfhosted listing FOSS network services that ship Debian .deb packages, with licenses, source links, and tags. Useful as a discovery filter, not a standalone app.",
         "relevanceScore": 0.85,
@@ -25000,6 +26139,15 @@
           "surroundingText": "Docker",
           "targetUrl": "https://awesome-selfhosted.net/platforms/docker.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Docker",
+          "surroundingText": "Docker",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/docker.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -25014,7 +26162,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS network services that ship OCI/container images (including Podman). Useful as a curated catalog, not as Docker itself.",
         "relevanceScore": 0.92,
@@ -25201,6 +26349,15 @@
           "surroundingText": "PHP",
           "targetUrl": "https://awesome-selfhosted.net/platforms/php.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "PHP",
+          "surroundingText": "PHP",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/php.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -25215,7 +26372,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS PHP server apps with licenses, source links, and recent activity dates. Useful as a curated catalog, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -25401,6 +26558,15 @@
           "surroundingText": "Nodejs",
           "targetUrl": "https://awesome-selfhosted.net/platforms/nodejs.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Nodejs",
+          "surroundingText": "Nodejs",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/nodejs.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -25415,7 +26581,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS Node.js self-hostable apps with licenses, stars, and source links. Useful as a directory resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -25601,6 +26767,15 @@
           "surroundingText": "K8S",
           "targetUrl": "https://awesome-selfhosted.net/platforms/k8s.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "K8S",
+          "surroundingText": "K8S",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/k8s.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -25615,7 +26790,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS network services that declare Kubernetes as a packaging or deploy target. Useful as a curated catalog, not as a deployable app itself.",
         "relevanceScore": 0.86,
@@ -25801,6 +26976,15 @@
           "surroundingText": "Javascript",
           "targetUrl": "https://awesome-selfhosted.net/platforms/javascript.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Javascript",
+          "surroundingText": "Javascript",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/javascript.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -25815,7 +26999,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS apps that mainly need static HTML/JS. Useful as a curated catalog, not a deployable product.",
         "relevanceScore": 0.92,
@@ -26003,6 +27187,15 @@
           "surroundingText": "Go",
           "targetUrl": "https://awesome-selfhosted.net/platforms/go.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Go",
+          "surroundingText": "Go",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/go.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -26017,7 +27210,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted index of FOSS network services written in Go, with licenses, source links, and recent activity dates. Useful as a curated directory, not a deployable product itself.",
         "relevanceScore": 0.92,
@@ -26203,6 +27396,15 @@
           "surroundingText": "Elixir",
           "targetUrl": "https://awesome-selfhosted.net/platforms/elixir.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Elixir",
+          "surroundingText": "Elixir",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/elixir.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -26217,7 +27419,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted language index listing FOSS, self-hostable server apps with licenses, source links, and recent activity. Useful as a discovery resource, not a deployable product.",
         "relevanceScore": 0.86,
@@ -26405,6 +27607,15 @@
           "surroundingText": "Ruby",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ruby.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ruby",
+          "surroundingText": "Ruby",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ruby.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -26419,7 +27630,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS server apps that run on Ruby, with licenses, source links, and recent activity dates. Useful as a discovery resource, not a deployable app itself.",
         "relevanceScore": 0.92,
@@ -26605,6 +27816,15 @@
           "surroundingText": "Python",
           "targetUrl": "https://awesome-selfhosted.net/platforms/python.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Python",
+          "surroundingText": "Python",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/python.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -26619,7 +27839,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform page listing FOSS self-hosted network services whose main server stack is Python, with licenses, stars, and source links. Suitable as a directory resource, not as a deployable app itself.",
         "relevanceScore": 0.92,
@@ -26806,6 +28026,15 @@
           "surroundingText": "Java",
           "targetUrl": "https://awesome-selfhosted.net/platforms/java.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Java",
+          "surroundingText": "Java",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/java.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -26820,7 +28049,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted index of FOSS server apps that run on Java, with licenses, source links, and recent activity dates. Useful as a curated directory, not as a deployable application itself.",
         "relevanceScore": 0.92,
@@ -27005,6 +28234,15 @@
           "surroundingText": "Perl",
           "targetUrl": "https://awesome-selfhosted.net/platforms/perl.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Perl",
+          "surroundingText": "Perl",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/perl.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -27019,7 +28257,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS server apps deployable in Perl, with licenses, source links, and recency—not a product. Approve as a curated resource, not as a self-hosted app itself.",
         "relevanceScore": 0.85,
@@ -27208,6 +28446,15 @@
           "surroundingText": "Rust",
           "targetUrl": "https://awesome-selfhosted.net/platforms/rust.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Rust",
+          "surroundingText": "Rust",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/rust.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -27222,7 +28469,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS network services written in Rust, with licenses, source links, and last-updated dates. Useful as a curated discovery list, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -27412,6 +28659,15 @@
           "surroundingText": "Dart",
           "targetUrl": "https://awesome-selfhosted.net/platforms/dart.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Dart",
+          "surroundingText": "Dart",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/dart.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -27426,7 +28682,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This URL is an awesome-selfhosted language index for Dart, not a self-hosted app. It currently lists AppFlowy and is unsuitable as a directory entry for a product.",
         "relevanceScore": 0.15,
@@ -27608,6 +28864,15 @@
           "surroundingText": "Assembly",
           "targetUrl": "https://awesome-selfhosted.net/platforms/assembly.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Assembly",
+          "surroundingText": "Assembly",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/assembly.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -27622,7 +28887,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This URL is an awesome-selfhosted language/platform index for Assembly, not a self-hosted application. It currently lists only AsmBB and is unsuitable as a product entry.",
         "relevanceScore": 0.15,
@@ -27806,6 +29071,15 @@
           "surroundingText": "Crystal",
           "targetUrl": "https://awesome-selfhosted.net/platforms/crystal.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Crystal",
+          "surroundingText": "Crystal",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/crystal.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -27820,7 +29094,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Index of awesome-selfhosted projects written in Crystal (compiled, Ruby-inspired). It is a language/platform filter, not a deployable app.",
         "relevanceScore": 0.72,
@@ -28004,6 +29278,15 @@
           "surroundingText": "C#",
           "targetUrl": "https://awesome-selfhosted.net/platforms/c%23.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "C#",
+          "surroundingText": "C#",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/c%23.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -28018,7 +29301,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted language index of FOSS C#/.NET server apps with licenses, Docker tags, and last-update dates. Useful as a catalog, not a deployable product.",
         "relevanceScore": 0.86,
@@ -28204,6 +29487,15 @@
           "surroundingText": "Shell",
           "targetUrl": "https://awesome-selfhosted.net/platforms/shell.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Shell",
+          "surroundingText": "Shell",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/shell.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -28218,7 +29510,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS projects tagged as Shell, with licenses, source links, and last-updated dates. Useful as a directory filter, not a deployable app itself.",
         "relevanceScore": 0.85,
@@ -28405,6 +29697,15 @@
           "surroundingText": ".NET",
           "targetUrl": "https://awesome-selfhosted.net/platforms/.net.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": ".NET",
+          "surroundingText": ".NET",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/.net.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -28419,7 +29720,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an awesome-selfhosted platform index for software tagged .NET, not a deployable app. Treat it as a curated listing page; fetch failed so current contents could not be verified.",
         "relevanceScore": 0.45,
@@ -28605,6 +29906,15 @@
           "surroundingText": "Ansible",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ansible.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Ansible",
+          "surroundingText": "Ansible",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ansible.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -28619,7 +29929,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an awesome-selfhosted platform index of Ansible-based self-hosting projects, not Ansible itself. Useful as a curated pointer to FOSS playbooks and roles, but it is a list page rather than a deployable app.",
         "relevanceScore": 0.72,
@@ -28805,6 +30115,15 @@
           "surroundingText": "Scala",
           "targetUrl": "https://awesome-selfhosted.net/platforms/scala.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Scala",
+          "surroundingText": "Scala",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/scala.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -28819,7 +30138,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted language index listing FOSS server apps that run on Scala, with licenses, source links, and recent activity dates. Useful as a directory filter, not a deployable product.",
         "relevanceScore": 0.72,
@@ -29004,6 +30323,15 @@
           "surroundingText": "Deno",
           "targetUrl": "https://awesome-selfhosted.net/platforms/deno.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Deno",
+          "surroundingText": "Deno",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/deno.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -29018,7 +30346,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index of FOSS apps that run on Deno, not the Deno runtime itself. Useful as a curated filter page, not a deployable service.",
         "relevanceScore": 0.72,
@@ -29202,6 +30530,15 @@
           "surroundingText": "Erlang",
           "targetUrl": "https://awesome-selfhosted.net/platforms/erlang.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Erlang",
+          "surroundingText": "Erlang",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/erlang.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -29216,7 +30553,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform page listing Erlang-based FOSS server apps with licenses, source links, and recency. Useful as a curated index, not a deployable product.",
         "relevanceScore": 0.86,
@@ -29402,6 +30739,15 @@
           "surroundingText": "Haskell",
           "targetUrl": "https://awesome-selfhosted.net/platforms/haskell.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Haskell",
+          "surroundingText": "Haskell",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/haskell.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -29416,7 +30762,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Platform index from awesome-selfhosted listing FOSS Haskell server apps (Espial, Git Annex, Gitit, Hasura, SimpleX Chat) with licenses and source links—not a deployable product.",
         "relevanceScore": 0.72,
@@ -29602,6 +30948,15 @@
           "surroundingText": "PLpgSQL",
           "targetUrl": "https://awesome-selfhosted.net/platforms/plpgsql.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "PLpgSQL",
+          "surroundingText": "PLpgSQL",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/plpgsql.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -29616,7 +30971,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an awesome-selfhosted language/platform index for PLpgSQL, not a self-hosted application. It currently lists one FOSS ILS (Evergreen) and should not be catalogued as a product.",
         "relevanceScore": 0.25,
@@ -29798,6 +31153,15 @@
           "surroundingText": "OCaml",
           "targetUrl": "https://awesome-selfhosted.net/platforms/ocaml.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "OCaml",
+          "surroundingText": "OCaml",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/ocaml.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -29812,7 +31176,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted language filter listing two OCaml projects (GeneWeb, Unison) with licenses and source links. Useful as a browse page, not a deployable app itself.",
         "relevanceScore": 0.72,
@@ -29996,6 +31360,15 @@
           "surroundingText": "Lua",
           "targetUrl": "https://awesome-selfhosted.net/platforms/lua.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Lua",
+          "surroundingText": "Lua",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/lua.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -30010,7 +31383,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted language index listing FOSS network services that use this runtime; useful as a directory filter, not a deployable app itself.",
         "relevanceScore": 0.86,
@@ -30196,6 +31569,15 @@
           "surroundingText": "Nix",
           "targetUrl": "https://awesome-selfhosted.net/platforms/nix.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Nix",
+          "surroundingText": "Nix",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/nix.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -30210,7 +31592,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official awesome-selfhosted platform index listing FOSS server apps packaged or deployed with this package manager, with licenses, stars, and recent activity dates.",
         "relevanceScore": 0.86,
@@ -30395,6 +31777,15 @@
           "surroundingText": "Objective-C",
           "targetUrl": "https://awesome-selfhosted.net/platforms/objective-c.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Objective-C",
+          "surroundingText": "Objective-C",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/objective-c.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -30409,7 +31800,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Language-filtered listing from awesome-selfhosted showing FOSS server apps tagged Objective-C; currently only SOGo (groupware, LGPL-2.1) with source, demo, and recent activity. Useful as a directory slice, not a deployable app itself.",
         "relevanceScore": 0.72,
@@ -30595,6 +31986,15 @@
           "surroundingText": "Haxe",
           "targetUrl": "https://awesome-selfhosted.net/platforms/haxe.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Haxe",
+          "surroundingText": "Haxe",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/haxe.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -30609,7 +32009,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This URL is an awesome-selfhosted language/platform index for Haxe, not a deployable server app. It currently lists one MIT-licensed project (SyncTube) rather than a homelab product of its own.",
         "relevanceScore": 0.25,
@@ -30793,6 +32193,15 @@
           "surroundingText": "CommonLisp",
           "targetUrl": "https://awesome-selfhosted.net/platforms/commonlisp.html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "CommonLisp",
+          "surroundingText": "CommonLisp",
+          "targetUrl": "https://awesome-selfhosted.net/platforms/commonlisp.html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -30807,7 +32216,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "This is an awesome-selfhosted language filter page for Common Lisp, not a deployable server app. It currently lists a single project (Turtl) and is only useful as a catalog index.",
         "relevanceScore": 0.25,
@@ -30990,6 +32399,15 @@
           "surroundingText": "Source code",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-html",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://awesome-selfhosted.net/",
+          "sectionPath": [],
+          "anchorText": "Source code",
+          "surroundingText": "Source code",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-html",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [],
@@ -31004,7 +32422,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official static HTML for awesome-selfhosted.net, not a deployable self-hosted server app. Listing it as a product would duplicate the directory site rather than add software.",
         "relevanceScore": 0.25,

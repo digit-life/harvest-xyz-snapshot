@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:30:00.083Z",
+  "generatedAt": "2026-10-27T10:30:00.090Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -755,6 +755,15 @@
           "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [
@@ -772,7 +781,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official Google developer hub for Gemini API docs, Google AI Studio, Gemma open models, on-device Edge/Nano, and related APIs including Imagen and Veo. Strong maintained documentation entry point; not a video-only SDK or model card.",
         "relevanceScore": 0.86,
@@ -832,8 +841,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://ai.google.dev",
-        "contentHash": "4f96b1b5b58262f748cdd35e7dfa80deb232a98e86ee6549bf8297a08d3e048e",
-        "excerpt": "Title: Gemini Developer API | Gemma open models  |  Google AI for Developers\n\nURL Source: https://ai.google.dev/\n\nPublished Time: Thu, 22 Oct 2026 23:05:04 GMT\n\nMarkdown Content:\n[Skip to main content](https://ai.google.dev/#main-content)\n\n[](https://ai.google.dev/)\n\n Models \n\n*   Gemini\n*   [About](https://deepmind.google/gemini)\n*   [Docs](https://ai.google.dev/gemini-api/docs)\n*   [API reference](https://ai.google.dev/api)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Imagen\n*   [About](https://deepmind.google/technologies/imagen/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/imagen)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Veo\n*   [About](https://deepmind.google/technologies/veo/veo-2/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/video)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Gemma\n*   [About](https://deepmind.google/models/gemma)\n*   [Docs](https://ai.google.dev/gemma/docs)\n*   [Gemmaverse](https://ai.google.dev/gemma/gemmaverse)\n\n Solutions \n\n*   B"
+        "contentHash": "a091b6d89fc5e6ede64a91d88937ed5cf879fd4ded7ccdc19d8e3848bc71fccf",
+        "excerpt": "Title: Gemini Developer API | Gemma open models  |  Google AI for Developers\n\nURL Source: https://ai.google.dev/\n\nPublished Time: Mon, 26 Oct 2026 19:26:01 GMT\n\nMarkdown Content:\n[Skip to main content](https://ai.google.dev/#main-content)\n\n[](https://ai.google.dev/)\n\n Models \n\n*   Gemini\n*   [About](https://deepmind.google/gemini)\n*   [Docs](https://ai.google.dev/gemini-api/docs)\n*   [API reference](https://ai.google.dev/api)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Imagen\n*   [About](https://deepmind.google/technologies/imagen/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/imagen)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Veo\n*   [About](https://deepmind.google/technologies/veo/veo-2/)\n*   [Docs](https://ai.google.dev/gemini-api/docs/video)\n*   [Pricing](https://ai.google.dev/pricing)\n\n*   Gemma\n*   [About](https://deepmind.google/models/gemma)\n*   [Docs](https://ai.google.dev/gemma/docs)\n*   [Gemmaverse](https://ai.google.dev/gemma/gemmaverse)\n\n Solutions \n\n*   B"
       }
     },
     {
@@ -992,6 +1001,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1005,7 +1024,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -1220,6 +1239,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1233,7 +1262,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -1445,6 +1474,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1458,7 +1497,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -1673,6 +1712,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-10-26T09:00:04.100Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-10-27T09:00:00.129Z"
         }
       ],
       "globalFactRefs": [],
@@ -1686,7 +1735,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-26T09:00:04.100Z",
+      "updatedAt": "2026-10-27T09:00:00.129Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -1746,7 +1795,7 @@
       "id": "web:7ae81b057128b271",
       "type": "web_url",
       "canonicalUrl": "https://runway.com",
-      "title": "Runway | Building Real-World Intelligence",
+      "title": "Runway | Intelligent tools for scaling content and teams.",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1883,6 +1932,15 @@
           "surroundingText": "Runway | Building Real-World Intelligence",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-10-26T09:20:00.102Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Intelligent tools for scaling content and teams.",
+          "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-10-27T09:20:00.106Z"
         }
       ],
       "globalFactRefs": [
@@ -1900,7 +1958,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-26T09:20:00.102Z",
+      "updatedAt": "2026-10-27T09:20:00.106Z",
       "aiReview": {
         "summary": "Official Runway homepage, but the captured page is a cookie-consent wall with no product, model, or API documentation for developers.",
         "relevanceScore": 0.55,
@@ -1954,8 +2012,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://runway.com",
-        "contentHash": "86dddbeefb7ed5438349376fcd605d3c842d93be037975034399711771d326bf",
-        "excerpt": "Title: Runway | Building Real-World Intelligence\n\nURL Source: https://runway.com/\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/terms-of-use) and subject to your settings) and our [****Terms of Use****](https://runwayml.com/privacy-policy) (which contains important w"
+        "contentHash": "57a3122f1e8c4dff0fdfb47793e1cb1a494b94e62fd6bff3206d5c4a02c0abd5",
+        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/terms-of-use) and subject to your settings) and our [****Terms of Use****](https://runwayml.com/privacy-policy) (which cont"
       }
     }
   ]
