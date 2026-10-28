@@ -1,0 +1,2570 @@
+{
+  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "appId": "awesome-blackfriday",
+  "items": [
+    {
+      "id": "web:d10743197f04ba9e",
+      "type": "web_url",
+      "canonicalUrl": "https://surfshark.com/pricing",
+      "title": "Surfshark",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "Surfshark",
+          "surroundingText": "2-yr (27 mo) Starter or One $2.49/mo, $67.23 upfront (page labels One the Black Friday deal); One+ $3.99/mo ($107.73) · Live since Oct 12",
+          "targetUrl": "https://surfshark.com/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://surfshark.com/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Surfshark pricing page advertises a Black Friday VPN bundle sale, but VPN offers are out of scope for this directory and the page does not state a 2026 season window.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.72,
+        "riskScore": 0.35,
+        "suggestedTags": [
+          "black-friday",
+          "saas"
+        ],
+        "evidence": [
+          "Excerpt includes 'Hurry up! Grab our Black Friday deal here' and 'Black Friday deal' on Surfshark One.",
+          "Prices shown: Starter/One $2.49/mo ($67.23 for 27 months), One+ $3.99/mo ($107.73).",
+          "Rubric rejects VPN promotions; page is surfshark.com/pricing VPN plans."
+        ],
+        "uncertainty": [
+          "Whether the Black Friday label is specifically for the 2026 season versus evergreen promo copy.",
+          "Exact sale end date is not in the excerpt."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:48:11.916Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "VPN and security bundle with a labeled holiday sale",
+        "description": "Compare multi-year VPN and security plans with a Black Friday-labeled discount, extra months, and a 30-day money-back guarantee.",
+        "pros": [
+          "Vendor pricing page labels a Black Friday deal on the One plan.",
+          "Shows concrete sale prices, extra months, and a 30-day money-back guarantee.",
+          "Official product domain rather than a third-party roundup."
+        ],
+        "cons": [
+          "The listing is a VPN subscription, which the deal rubric excludes.",
+          "Copy does not name Cyber Monday or a 2026 sale window.",
+          "Long-term prepaid plans may differ from typical software SaaS deals in the directory."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 9659,
+          "output": 667,
+          "cacheRead": 512,
+          "totalTokens": 10838,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://surfshark.com/pricing",
+        "contentHash": "01adabdb96773207faf2131a3599474f722a297a0b872208be24e2fb9393e104",
+        "excerpt": "Title: How much does Surfshark cost? Check the pricing - Surfshark\n\nURL Source: https://surfshark.com/pricing\n\nMarkdown Content:\n[Skip to content](https://surfshark.com/pricing#main)\n\nHurry up! Grab our Black Friday deal here\n\n[](https://surfshark.com/ \"Surfshark\")\n*   Products\n\n    *   AWARD-WINNING SERVICE \n        *   [Surfshark VPN Privacy from online tracking & data collecting with a secure connection.](https://surfshark.com/vpn) \n            *   [What is a VPN?](https://surfshark.com/learn/what-is-vpn)\n            *   [VPN features](https://surfshark.com/features)\n            *   [VPN servers](https://surfshark.com/servers)\n            *   [Dedicated IP](https://surfshark.com/dedicated-ip)\n\n    *   ADDITIONAL PRODUCTS \n        *   [Surfshark Antivirus Lightweight yet powerful security to protect your devices from harm.](https://surfshark.com/antivirus) \n        *   [Surfshark Alert Detection of data breaches that involve your personal information.](https://surfshark.com/alert) \n "
+      }
+    },
+    {
+      "id": "web:0b009351bc230a1a",
+      "type": "web_url",
+      "canonicalUrl": "https://nordvpn.com/black-friday",
+      "title": "NordVPN",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "NordVPN",
+          "surroundingText": "Black Friday on the official page: 2-yr +3 mo Basic $3.49/mo ($94.23 first 27 mo), Complete $3.99/mo ($107.73), Prime $6.99/mo ($188.73). Last year's (2025): low $2.99/mo · Oct 21 – Dec 9 2026 (official FAQ)",
+          "targetUrl": "https://nordvpn.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official NordVPN Black Friday landing URL, but VPN deals are out of scope for this directory. Do not list it.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.4,
+        "riskScore": 0.35,
+        "suggestedTags": [
+          "black-friday",
+          "cyber-monday",
+          "2026"
+        ],
+        "evidence": [
+          "Rubric REJECT list includes VPN promotions.",
+          "canonicalUrl is https://nordvpn.com/black-friday.",
+          "Fetch of the URL returned HTTP 403."
+        ],
+        "uncertainty": [
+          "Whether the live page currently names Black Friday or Cyber Monday for the 2026 season.",
+          "Exact 2026 prices and coupon terms."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:48:24.382Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "VPN subscription sale on a vendor Black Friday page",
+        "description": "Vendor Black Friday page for a VPN subscription; this category is excluded from the deal directory.",
+        "pros": [
+          "Canonical URL is the vendor’s own /black-friday path.",
+          "Source notes mention a 2026 date window on an official FAQ."
+        ],
+        "cons": [
+          "VPN promotions are explicitly excluded by the directory rubric.",
+          "The live page could not be fetched (HTTP 403), so 2026 BF/CM wording on-page is unverified."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 364,
+          "output": 368,
+          "cacheRead": 6400,
+          "totalTokens": 7132,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "web:8d6d1c2ae6c11658",
+      "type": "web_url",
+      "canonicalUrl": "https://www.expressvpn.com/pricing",
+      "title": "ExpressVPN",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "ExpressVPN",
+          "surroundingText": "2-yr Basic $2.99/mo +4 mo ($83.72 upfront). Last year's (2025): $2.44/mo final week · Oct 2026, end not stated",
+          "targetUrl": "https://www.expressvpn.com/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.expressvpn.com/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official ExpressVPN pricing with long-term discounts, but the page does not mention Black Friday or Cyber Monday 2026, and VPN deals are out of scope for this directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.7,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "saas",
+          "2026"
+        ],
+        "evidence": [
+          "Excerpt title and URL are https://www.expressvpn.com/pricing with plan prices such as Basic $2.99/mo Save 80%.",
+          "No Black Friday or Cyber Monday string in the provided excerpt.",
+          "Rubric rejects VPN promotions; source note also frames this as a VPN listing."
+        ],
+        "uncertainty": [
+          "Whether a separate BF/CM 2026 landing page exists that was not captured.",
+          "Whether the 80% save is a limited-time 2026 holiday window or standing pricing."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:48:35.187Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Long-term VPN plans with advertised percentage savings",
+        "description": "Compare 2-year VPN tiers with advertised savings, money-back guarantee, and add-on privacy features. No seasonal BF/CM wording on the page.",
+        "pros": [
+          "Official vendor pricing page with current plan prices and savings percentages.",
+          "Lists 30-day money-back guarantee for new users and auto-renew terms.",
+          "Copyright year 2026 appears on the page footer."
+        ],
+        "cons": [
+          "The captured page does not mention Black Friday or Cyber Monday.",
+          "VPN products are excluded from this deal directory’s keep list.",
+          "Discounts appear to be evergreen long-term plan pricing rather than a dated 2026 sale window."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 10048,
+          "output": 581,
+          "cacheRead": 512,
+          "totalTokens": 11141,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.expressvpn.com/pricing",
+        "contentHash": "d6170a803f102aa6cf30ff6dbbab4c60af77155e66de2a06fab6542f087457f9",
+        "excerpt": "Title: Buy VPN With PayPal, Credit Card | ExpressVPN\n\nURL Source: https://www.expressvpn.com/pricing\n\nMarkdown Content:\n\nSave up to 80% on the scary fast   \nand wickedly private VPN\n\n# Choose your ExpressVPN plan\n\n2-year plans\n\n## [Basic $2.99 /mo Save 80% 2 Years + 4 Months Billed $419.72$83.72 for the first 28 Months. Then autorenews at $99.95 annually. Get Basic](https://www.expressvpn.com/payment?offer_id=pp_01kxqzj99jeh7r2b4adyds9ctd&cur=usd&pricing_table_id=pt_01ktv91n5tfevvmjgnan70535f&product_type=vpn)\n30-day money-back guarantee for new users\n\n30-day money-back guarantee for new users\n\n* * *\n\nHigh-speed VPN (up to 40Gbps)\n\n10 simultaneous devices\n\nLite Protection\n\nBlock ads, malicious sites, and adult sites\n\nDedicated IP available as add-on\n\n### See everything that's included\n\nExpressMailGuard\n\n10 MB/mo private email relay + 10 shared aliases\n\nMost Popular\n\n## [Advanced $4.49 /mo Save 73% 2 Years + 4 Months Billed $475.72$125.72 for the first 28 Months. Then autorenews at $119"
+      }
+    },
+    {
+      "id": "web:2e372f92da977c6c",
+      "type": "web_url",
+      "canonicalUrl": "https://protonvpn.com/black-friday",
+      "title": "Proton VPN",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "Proton VPN",
+          "surroundingText": "2-yr Plus $2.99/mo ($71.76 upfront, 70% off); Proton Unlimited $7.99/mo. Partner 75%/$2.49 claim not on official page (headline still up to -70% on Oct 28) · Oct 2026, end not stated",
+          "targetUrl": "https://protonvpn.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://protonvpn.com/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Proton VPN Black Friday landing page for the 2026 season, but VPN deals are out of scope for this directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.75,
+        "riskScore": 0.2,
+        "suggestedTags": [
+          "2026",
+          "black-friday",
+          "saas",
+          "mobile"
+        ],
+        "evidence": [
+          "Excerpt title and H1 countdown to Black Friday with up to -70%.",
+          "Published time Wed 28 Oct 2026 and © 2026 Proton AG.",
+          "FAQ: Who is eligible for Proton VPN Black Friday deals?",
+          "Rubric: REJECT VPN or hosting cashback promotions."
+        ],
+        "uncertainty": [
+          "Exact plan prices and sale window end date on the live page.",
+          "Whether discounts apply only to new users as FAQ states."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:48:49.902Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Official 2026 VPN sale page, excluded as VPN promo",
+        "description": "Vendor Black Friday VPN discount page for 2026; rejected because VPN promotions are not in scope.",
+        "pros": [
+          "Official vendor URL at protonvpn.com/black-friday.",
+          "Page copy mentions Black Friday and up to 70% off, with 2026 copyright and bf26 assets.",
+          "FAQ describes eligibility, discount basis, and renewal at standard price."
+        ],
+        "cons": [
+          "Directory rubric excludes VPN promotions.",
+          "Sale end date is not stated in the excerpt.",
+          "Partner 75% claims are not confirmed on this page."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder"
+        ],
+        "usage": {
+          "input": 1388,
+          "output": 339,
+          "cacheRead": 8576,
+          "totalTokens": 10303,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://protonvpn.com/black-friday",
+        "contentHash": "1fb0da4a606383ecaf0419de6c5c8c4adefd3c05e811f63fc1cf482032f7edc5",
+        "excerpt": "Title: VPN Black Friday deals: VPN discounts | Proton VPN\n\nURL Source: https://protonvpn.com/black-friday\n\nPublished Time: Wed, 28 Oct 2026 11:36:52 GMT\n\nMarkdown Content:\n\n[Get the deal](https://protonvpn.com/black-friday#pricing)\n\n# The countdown to Black Friday has begun.\n\nGet ready for our biggest sale of the year.\n\n[Video 1](https://res.cloudinary.com/dbulfrlrz/video/upload/v1792668618/static/black-friday/bf26-eclipse-compressed-av1.webm)up to -70%\n\n## Why choose Proton VPN\n\nSee how we compare to other VPN providers\n\nCompare with\n\n \n\nVPN vendors comparison table|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| Open-source VPN |  |  |  |  |  |\n| Openly published no-logs audit (1) |  |  |  |  |  |\n| Ad blocker (2) |  |  |  |  |  |\n| Malware blocker (2) |  |  |  |  |  |\n| VPN Accelerator |  |  |  |  |  |\n| Jurisdiction (3) | Switzerland | British Virgin Islands | Romania | Panama | Netherlands |\n| Owned by (4) | Proton AG | Kape | Kape | Nord Security | Nord Security |\n|  | [Get "
+      }
+    },
+    {
+      "id": "web:171bfa7bc2d04146",
+      "type": "web_url",
+      "canonicalUrl": "https://www.privateinternetaccess.com/buy-vpn-online",
+      "title": "Private Internet Access",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "Private Internet Access",
+          "surroundingText": "Halloween Price Slash: 3 yr + 3 mo $2.03/mo (renews $79 every 3 yrs); 2 yr + 2 mo $2.19/mo ($56.94). The earlier $34.58 offer is no longer shown · Halloween offer, Oct 2026; end not stated",
+          "targetUrl": "https://www.privateinternetaccess.com/buy-vpn-online",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.privateinternetaccess.com/buy-vpn-online"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official PIA pricing page promotes a Halloween subscription discount, not a 2026 Black Friday or Cyber Monday offer. Rubric excludes VPN promotions from this directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.55,
+        "riskScore": 0.35,
+        "suggestedTags": [
+          "saas",
+          "mobile"
+        ],
+        "evidence": [
+          "Excerpt title and URL are privateinternetaccess.com/buy-vpn-online.",
+          "Markdown repeatedly says Halloween Price Slash and Halloween Offer, not Black Friday or Cyber Monday.",
+          "Source surrounding text describes a Halloween offer, Oct 2026.",
+          "Rubric REJECT list includes VPN promotions."
+        ],
+        "uncertainty": [
+          "Exact percent-off figures are missing from the scraped excerpt.",
+          "Sale end date is not stated on the page excerpt."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:48:58.749Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Paid VPN plans with a seasonal Halloween discount",
+        "description": "Sells multi-year VPN subscriptions with a Halloween price cut, 30-day money-back terms, and optional antivirus and dedicated IP add-ons.",
+        "pros": [
+          "Vendor buy page lists concrete plan prices including a 3-year plus extra months offer at $2.03/mo.",
+          "Page states a 30-day money-back guarantee for new subscribers.",
+          "Checkout copy names antivirus and dedicated IP as optional add-ons."
+        ],
+        "cons": [
+          "The live promo is labeled Halloween Price Slash, not Black Friday or Cyber Monday 2026.",
+          "VPN deals are excluded by the directory rubric.",
+          "Discount percentages in the excerpt are incomplete or stripped."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder"
+        ],
+        "usage": {
+          "input": 9775,
+          "output": 532,
+          "cacheRead": 512,
+          "totalTokens": 10819,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.privateinternetaccess.com/buy-vpn-online",
+        "contentHash": "bf52f6a8a27a7b5b4d9e75d703fcf8d31f802e40ec82d8f3fa54f572043bca8d",
+        "excerpt": "Title: Buy VPN with Credit Card or PayPal | Private Internet Access\n\nURL Source: https://www.privateinternetaccess.com/buy-vpn-online\n\nMarkdown Content:\n\n**Halloween Price Slash:** Get up to  OFF for a limited time \n\n**Halloween Price Slash:**  \n Get up to  OFF **See offers**\n\n[**See offers**](https://www.privateinternetaccess.com/buy-vpn-online)\n\n[Get PIA VPN OFF](https://www.privateinternetaccess.com/buy-vpn-online)\n\n30-day money-back guarantee\n\n[](https://www.privateinternetaccess.com/)\n\n[](https://www.privateinternetaccess.com/)\n\n[ EN](https://www.privateinternetaccess.com/buy-vpn-online)\n\n[Bahasa Indonesia](https://www.privateinternetaccess.com/id/buy-vpn-online)[Česky](https://www.privateinternetaccess.com/cs/buy-vpn-online)[Dansk](https://www.privateinternetaccess.com/da/buy-vpn-online)[Deutsch](https://www.privateinternetaccess.com/de/buy-vpn-online)[Español](https://www.privateinternetaccess.com/es/buy-vpn-online)[Français](https://www.privateinternetaccess.com/fr/buy-vpn-onli"
+      }
+    },
+    {
+      "id": "web:31d1d6c001780421",
+      "type": "web_url",
+      "canonicalUrl": "https://www.ipvanish.com/black-friday",
+      "title": "IPVanish",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "IPVanish",
+          "surroundingText": "Official Black Friday: 2-yr Essential $2.19/mo ($52.56 first 24 mo, was $359.76, save 85%); Complete $2.79/mo ($66.96, save 82%); Advanced $3.29/mo ($78.96, save 81%, includes 1TB cloud + Secure Browser). Yearly Essential $3.89/mo · BF live Oct 2026; end not stated (JS countdown)",
+          "targetUrl": "https://www.ipvanish.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.ipvanish.com/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official IPVanish Black Friday landing page with plan discounts and a 2026 comparison date. VPN subscriptions sit at the edge of this directory’s software/SaaS scope; confirm it is a first-party sale, not cashback or a roundup.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.68,
+        "riskScore": 0.42,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "saas"
+        ],
+        "evidence": [
+          "Title and headings use BLACK FRIDAY and “Best Black Friday VPN deal”.",
+          "Prices: Essential $2.19/mo 2-year (Save 85%), $3.89/mo yearly; Complete $2.79/mo 2-year; Advanced $3.29/mo 2-year.",
+          "Footnote: “As of Oct 14, 2026 · Based on first-year lowest tier pricing.”",
+          "Published Time in facts is 2025-10-19; source note says BF live Oct 2026."
+        ],
+        "uncertainty": [
+          "Whether VPN deals are in-scope versus the reject rule for VPN/hosting cashback promotions",
+          "Exact 2026 sale end date beyond the countdown",
+          "Whether the live page still matches this excerpt",
+          "cyber-monday not mentioned on the page"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:49:16.636Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "VPN plans discounted on a first-party Black Friday page",
+        "description": "Official Black Friday VPN pricing with Essential, Complete, and Advanced tiers, countdown, and checkout links.",
+        "pros": [
+          "Vendor URL is an official /black-friday page that labels the offer as Black Friday.",
+          "Excerpt lists concrete plan prices (for example Essential 2-year from $2.19/mo with stated percent off).",
+          "Page copy includes a comparison footnote dated Oct 14, 2026.",
+          "Plans include a 30-day money-back guarantee in the captured copy."
+        ],
+        "cons": [
+          "Product is a VPN, which the deal rubric treats cautiously versus typical software/SaaS tools.",
+          "Offer end is a JS countdown, not a stated calendar window.",
+          "Some checkout links in the excerpt are malformed (http://https//)."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 10420,
+          "output": 1049,
+          "cacheRead": 512,
+          "totalTokens": 11981,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.ipvanish.com/black-friday",
+        "contentHash": "4742478459d01f60757017feb4ab7480b5f61b86c67b8261761ea8f257554e15",
+        "excerpt": "Title: Special Offer | Increase Online Privacy | IPVanish VPN\n\nURL Source: https://www.ipvanish.com/black-friday\n\nPublished Time: 2025-10-19T23:11:30+00:00\n\nMarkdown Content:\n[Skip to content](https://www.ipvanish.com/black-friday#content)\n\n[Get Started](https://www.ipvanish.com/black-friday#ipvanish-plans)\n\n# BLACK\n\n## FRIDAY\n\nOffer Ends:**6 hrs : 20 mins : 05 secs**\n\nBest Black Friday\n\nVPN deal\n\nSave on every plan\n\nFrom $2.19/mo\n\n[Get Started](https://www.ipvanish.com/black-friday#ipvanish-plans)\n\nFast VPN for browsing & streaming\n\nProtect unlimited devices at once\n\nNext-gen antivirus system protection\n\nFrom $2.19/mo\n\n[Get Started](https://www.ipvanish.com/black-friday#ipvanish-plans)\n\nOffer Ends:**6 hrs : 20 mins : 05 secs**\n\nAs seen in\n\n## Choose a plan that’s right for you\n\nIf you’re looking for something simple, or an extended plan that lets you save in the long run, we’ve got you covered.\n\n**Essential**\n\n**Complete**\n\n**Advanced**\n\nMonthly\n\n+**3 GB eSIM data**\n\n$14.99/ mo\n\n**Sav"
+      }
+    },
+    {
+      "id": "web:809bcfa355cd9a81",
+      "type": "web_url",
+      "canonicalUrl": "https://www.hostinger.com/black-friday",
+      "title": "Hostinger",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPS"
+          ],
+          "anchorText": "Hostinger",
+          "surroundingText": "Web hosting from $2.49/mo (80% off); VPS from $6.49/mo (67% off); .com $0.01 1st yr; business email from $0.39/mo; Reach email marketing from $0.99/mo (75% off); no code · Oct 19 – Dec 14, 2026",
+          "targetUrl": "https://www.hostinger.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.hostinger.com/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Hostinger Black Friday 2026 page listing time-limited discounts on hosting, domains, email, ecommerce, and related AI apps. Fits a 2026-season software/SaaS deal directory as a vendor deal page, not a roundup or affiliate hop.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.78,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "saas",
+          "ai"
+        ],
+        "evidence": [
+          "Title: Hostinger Black Friday Deals 2026",
+          "Heading: Hostinger Black Friday deals 2026; subhead Build more, pay less this Black Friday",
+          "Listed offers include web hosting from $2.49/month (80% off), VPS from $6.49/month (67% off), .com $0.01 first year, business email from $0.39/month",
+          "canonicalUrl is https://www.hostinger.com/black-friday (official vendor path)"
+        ],
+        "uncertainty": [
+          "Exact Oct 19–Dec 14, 2026 window appears in source list text, not clearly in the truncated page excerpt",
+          "Whether coupon codes are required beyond the listed prices"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:49:31.394Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "2026 Black Friday discounts on hosting and related plans",
+        "description": "Shop limited-time 2026 Black Friday prices on web and VPS hosting, domains, email, ecommerce, and AI builder plans with a 30-day money-back guarantee.",
+        "pros": [
+          "Vendor /black-friday page title and H1 explicitly say Black Friday deals 2026.",
+          "Page lists concrete percent-off tiers and from-prices for hosting, domains, VPS, email, ecommerce, and AI products.",
+          "Mentions a 30-day money-back guarantee and links to product-specific deal URLs."
+        ],
+        "cons": [
+          "Excerpt is marketing-heavy and repeats boilerplate, so sale end dates are not fully verified in the captured body.",
+          "Core offering is web hosting, which some directories treat as adjacent to software/SaaS."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 9547,
+          "output": 888,
+          "cacheRead": 512,
+          "totalTokens": 10947,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.hostinger.com/black-friday",
+        "contentHash": "2e1627f9bf2f5cd91917a59735ef91d3ee12e8a7f8d8655a7c8c56d676ab9708",
+        "excerpt": "Title: Hostinger Black Friday Deals 2026 | Save on hosting & more\n\nURL Source: https://www.hostinger.com/black-friday\n\nMarkdown Content:\nBiggest deals of the year. 30-day money-back guarantee. Limited time deals. 24/7 support. Don't miss out\n\nBiggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out\n\nBiggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guarantee Limited time deals 24/7 support Don't miss out Biggest deals of the year 30-day money-back guara"
+      }
+    },
+    {
+      "id": "web:458e79a47b96f21d",
+      "type": "web_url",
+      "canonicalUrl": "https://elevenlabs.io/pricing",
+      "title": "ElevenLabs",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "Starter first month $1 (83% off, then $6/mo) Until Nov 1; Creator first month $11 (50% off, then $22/mo). Last year's (2025): Starter $1 first month at BF · Starter to Nov 1 2026; Creator end not stated",
+          "targetUrl": "https://elevenlabs.io/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://elevenlabs.io/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official ElevenLabs pricing shows first-month discounts (Starter $1 until Nov 1; Creator 50% off) but the page text does not name Black Friday or Cyber Monday 2026.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.75,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "ai",
+          "saas",
+          "developer-tools"
+        ],
+        "evidence": [
+          "facts.excerpt title is ElevenLabs Pricing; URL https://elevenlabs.io/pricing",
+          "Starter: Until Nov 1, $6 first month 83% off, $1 per month; Creator first month 50% off $11 then $22",
+          "No Black Friday or Cyber Monday string in the provided excerpt",
+          "sourceEvidence notes last year 2025 BF and Starter to Nov 1 2026 from a curated deals file"
+        ],
+        "uncertainty": [
+          "Whether a later 2026 BF/CM banner will appear on this URL",
+          "Exact end date for Creator intro pricing (not stated on the page excerpt)",
+          "Whether Nov 1 window is calendar 2026 vs another year"
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:49:44.279Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "AI speech, voice, music, and studio credits by plan",
+        "description": "Compare free and paid AI audio plans with monthly credits, voice cloning, dubbing, and first-month intro pricing on selected tiers.",
+        "pros": [
+          "Vendor pricing page lists Free through Enterprise tiers with credit amounts and feature differences.",
+          "Starter is marked Until Nov 1 at $1 first month (83% off of $6).",
+          "Creator shows $11 first month (50% off of $22).",
+          "FAQ documents credit usage, rollover, annual billing, and cancellation."
+        ],
+        "cons": [
+          "Captured page copy does not mention Black Friday or Cyber Monday 2026.",
+          "A $1 / 30k-credit banner is shown as ended (September 30 / 0d countdown).",
+          "Seasonal deal framing comes from an external list, not the pricing page itself."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "production"
+        ],
+        "usage": {
+          "input": 9845,
+          "output": 736,
+          "cacheRead": 512,
+          "totalTokens": 11093,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://elevenlabs.io/pricing",
+        "contentHash": "88675410a8f63e8e51a75adabef04af467f7b026a6a6a12a1399c1713ef299e1",
+        "excerpt": "Title: ElevenLabs Pricing for Creators & Businesses of All Sizes\n\nURL Source: https://elevenlabs.io/pricing\n\nMarkdown Content:\n30,000 credits for $1 Start with 30,000 credits for only $1 Ends in 0d 00h 00m 00s\n\n[Subscribe for $1](https://elevenlabs.io/app/sign-up?redirect=%2Fapp%2Fsubscription&platform=creative&mw_plan_tier=starter)\n\n[](https://elevenlabs.io/app/sign-up?redirect=%2Fapp%2Fsubscription&platform=creative&mw_plan_tier=starter)\n\n30,000 credits for $1 Start with 30,000 credits for only $1 Ends September 30\n\n[Subscribe for $1](https://elevenlabs.io/app/sign-up?redirect=%2Fapp%2Fsubscription&platform=creative&mw_plan_tier=starter)\n\n[](https://elevenlabs.io/app/sign-up?redirect=%2Fapp%2Fsubscription&platform=creative&mw_plan_tier=starter)\n\nIntroducing Eleven v4 Meet Eleven v4, our most emotive model yet.\n\n[Discover](https://elevenlabs.io/v4)\n\n[](https://elevenlabs.io/v4)\n\n[Skip to content](https://elevenlabs.io/pricing#content)\n\n*   [](https://elevenlabs.io/)\n*       *   Produc"
+      }
+    },
+    {
+      "id": "web:db51485b4aa7d393",
+      "type": "web_url",
+      "canonicalUrl": "https://www.capcut.com/tools/capcut-black-friday-sale",
+      "title": "CapCut (Desktop)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "CapCut (Desktop)",
+          "surroundingText": "Up to 60% off first year of Pro (new/non-members); 40% off first year of Ultra (eligible members). Desktop app only; final price depends on account and region · Oct 20 – Oct 30, 2026",
+          "targetUrl": "https://www.capcut.com/tools/capcut-black-friday-sale",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.capcut.com/tools/capcut-black-friday-sale"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official CapCut page advertises a 2026 Black Friday window (Oct 20–30) with first-year Pro/Ultra discounts on Desktop only; eligibility and final price vary by account and region.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "ai",
+          "saas",
+          "productivity"
+        ],
+        "evidence": [
+          "facts excerpt title: CapCut Black Friday Sale 2026",
+          "Heading: Save on Pro and Ultra up to 60%; 11-day sale Oct 20–30",
+          "Copy: Black Friday Deals on Desktop; annual term discount; renews at regular price",
+          "canonicalUrl is capcut.com official tools sale page"
+        ],
+        "uncertainty": [
+          "Whether the Oct 20–30 2026 window is still live at listing time",
+          "Exact personalized checkout price by region and member status"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:49:55.716Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Desktop Pro and Ultra first-year Black Friday discounts",
+        "description": "Claim first-year Pro or Ultra savings on the desktop editor during an Oct 20–30 Black Friday window; offers depend on account status.",
+        "pros": [
+          "Vendor page title and body name a 2026 Black Friday sale.",
+          "Sale dates are stated as October 20 to October 30.",
+          "Pro is marked up to 60% off and Ultra up to 40% off for a first-year annual term.",
+          "Page notes Desktop-only offers and that subscriptions renew at regular price unless canceled."
+        ],
+        "cons": [
+          "Final discount depends on subscription history, region, and account eligibility.",
+          "Displayed monthly/yearly list prices may not match the personalized Black Friday checkout amount."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "production"
+        ],
+        "usage": {
+          "input": 9992,
+          "output": 708,
+          "cacheRead": 512,
+          "totalTokens": 11212,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.capcut.com/tools/capcut-black-friday-sale",
+        "contentHash": "322ca901e5dc9d700127bf2c4c9a0af738a2ac98d3dae7998002d99e7b87c7e3",
+        "excerpt": "Title: CapCut Black Friday Sale 2026: Get CapCut Pro Deals & Discounts\n\nURL Source: https://www.capcut.com/tools/capcut-black-friday-sale\n\nMarkdown Content:\n[02:09:18:43 Claim your Black Friday deal on CapCut Desktop—limited spots!](https://www.capcut.com/tools/capcut-black-friday-sale)\n\n[](https://www.capcut.com/)\n*   Products\n    *   [ CapCut Desktop Powerful editing tool](https://www.capcut.com/tools/desktop-video-editor)\n    *   [ CapCut Online Online video editor](https://www.capcut.com/creative-suite)\n    *   [ CapCut Pad Edit anywhere, anytime](https://capcutpad.onelink.me/fNG5/vlcsovk6?utm_medium=ccweb&utm_source=article_page&utm_campaign=7567257098879516690)\n    *   [ CapCut Mobile Unlimited templates](https://www.capcut.com/tools/capcut-apk-latest-version-android-download)\n    *   [ Plugin CapCut × Codex](https://www.capcut.com/tools/capcut-x-codex)\n    *   [ Dreamina AI Image & video maker](https://dreamina.capcut.com/?utm_medium=ccweb&utm_source=article_page&utm_campaign=75"
+      }
+    },
+    {
+      "id": "web:37a96d01e57d6939",
+      "type": "web_url",
+      "canonicalUrl": "https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026",
+      "title": "Dreamina (CapCut AI)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "Dreamina (CapCut AI)",
+          "surroundingText": "US Basic first month $0.29 (98% off), then $15/mo (1,575 credits). Higher tiers 40–50% off intro; annual packages also discounted. Card/PayPal; prior 90%-off redeemers excluded · Oct 21 – Oct 30 2026",
+          "targetUrl": "https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official CapCut Dreamina FAQ for an October 21–30, 2026 intro-price campaign ($0.29 first month, then $15). It is a real 2026 SaaS discount page but does not mention Black Friday or Cyber Monday, so it should not be approved as a BF/CM listing without extra confirmation.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.72,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "ai",
+          "saas",
+          "2026"
+        ],
+        "evidence": [
+          "Title and H1: Dreamina October Discount FAQ; campaign dates October 21–30, 2026.",
+          "Published Time 2026-10-21; $0.29 first month and 98% off banners linking to pricing.",
+          "No Black Friday or Cyber Monday wording in the provided excerpt."
+        ],
+        "uncertainty": [
+          "Whether any BF/CM branding exists elsewhere on the live site after the excerpt cutoff.",
+          "Current availability of the $0.29 offer after October 30, 2026.",
+          "Exact higher-tier and annual discount percentages beyond the truncated FAQ."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:50:10.697Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "AI image and video membership with a timed intro price",
+        "description": "Documents an Oct 21–30 2026 membership campaign: $0.29 first month on Basic, credit allowances, renewals, and eligibility rules.",
+        "pros": [
+          "Vendor page on dreamina.capcut.com with dated October 21–30, 2026 campaign terms.",
+          "States US Basic first month $0.29, 1,575 credits, then $15/month renewal.",
+          "Notes payment methods, prior 90%-off exclusion, and that prices vary by region."
+        ],
+        "cons": [
+          "Page titles and body describe an October offer, not Black Friday or Cyber Monday 2026.",
+          "Window ends October 30, 2026, before typical BF/CM dates.",
+          "Excerpt is truncated; full eligibility and higher-tier discounts need the live page."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 9892,
+          "output": 735,
+          "cacheRead": 512,
+          "totalTokens": 11139,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026",
+        "contentHash": "58bff5162ca773514ba51d504dd283ccda5596a3460608f061935f7feb0eb885",
+        "excerpt": "Title: Dreamina October Discount FAQ — Seedance prices, video costs and the $0.29 first month\n\nURL Source: https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026\n\nPublished Time: 2026-10-21T06:38:39.000Z\n\nMarkdown Content:\n[98% OFF—Get started for just $0.29/month 98% OFF—Get started for just $0.29/month 98% OFF—Get started for just $0.29/month 98% OFF—Get started for just $0.29/month Try now Try now](https://dreamina.capcut.com/pricing/dreamina-price \"98% OFF—Get started for just $0.29/month Try now\")\n\n[](https://dreamina.capcut.com/)\n\n*   \n[AI image](https://dreamina.capcut.com/ai-tool/home?type=image)\n\nFeatures \n    *   [AI image generator](https://dreamina.capcut.com/tools/ai-image-generator)\n    *   [Image restyling](https://dreamina.capcut.com/tools/image-style-transfer)\n    *   [Art generator](https://dreamina.capcut.com/tools/ai-art-generator)\n    *   [Image remix](https://dreamina.capcut.com/tools/ai-image-to-image-generator)\n    *   [Text to image](https://dream"
+      }
+    },
+    {
+      "id": "web:20f9b1600087b395",
+      "type": "web_url",
+      "canonicalUrl": "https://www.kavel.ai/pricing",
+      "title": "Kavel",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "Kavel",
+          "surroundingText": "Early Black Friday: 2x credits on every new plan (first month on monthly, whole first year on yearly), normal price, no code · Oct 2026 to Dec 1",
+          "targetUrl": "https://www.kavel.ai/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.kavel.ai/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official pricing page advertises an Early Black Friday 2× credit promo on new plans through December 1, with listed monthly, yearly, and pay-once credit tiers for AI image and video generation.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "black-friday",
+          "ai",
+          "saas",
+          "2026"
+        ],
+        "evidence": [
+          "Excerpt banner: EARLY BLACK FRIDAY 2× credits on every new plan — extra year of credits on yearly. Ends December 1.",
+          "Plan cards repeat Early Black Friday 2× first-year credit amounts at listed yearly prices.",
+          "Source surrounding text: Early Black Friday 2x credits, Oct 2026 to Dec 1, pointing at https://www.kavel.ai/pricing.",
+          "Page is vendor pricing, not a roundup, plugin, course, or advertise slot."
+        ],
+        "uncertainty": [
+          "Whether the 50% first-purchase discount stacks with or is separate from the 2× Black Friday credit offer.",
+          "Exact remaining countdown vs calendar year beyond the listed December 1 end."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:50:22.016Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Credit-based AI image and video generation plans",
+        "description": "Buy or subscribe to a shared credit pool for multiple image and video models, with HD downloads and commercial-use terms on paid plans.",
+        "pros": [
+          "The pricing page itself labels EARLY BLACK FRIDAY with 2× credits on every new plan and an end date of December 1.",
+          "Paid plans list credit amounts, model access, HD watermark-free downloads, and commercial-use licensing.",
+          "Checkout is described as Stripe-processed; failed runs are stated as automatically refunded.",
+          "A free credit path is described (guest credits, login bonus, weekly check-ins)."
+        ],
+        "cons": [
+          "Promo is extra credits at normal price rather than a stated percent-off coupon on the subscription itself.",
+          "Yearly 2× credit bonus applies to the first year only, per the on-page copy."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 10381,
+          "output": 623,
+          "cacheRead": 512,
+          "totalTokens": 11516,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.kavel.ai/pricing",
+        "contentHash": "b3fce8e777a4616b8df6ca1cf8608d4f1c897f88ea347645fbf5735621a2cc81",
+        "excerpt": "Title: AI Video & Image Pricing, One Credit Pool | Kavel AI\n\nURL Source: https://www.kavel.ai/pricing\n\nMarkdown Content:\n[Kavel](https://www.kavel.ai/)\n\n*   [Home](https://www.kavel.ai/)\n*   [AI video trends](https://www.kavel.ai/ai-video-trends)\n*   [AI video templates](https://www.kavel.ai/ai-video-templates)\n*   [Examples](https://www.kavel.ai/showcases)\n*   [History](https://www.kavel.ai/history)\n*   [Pricing](https://www.kavel.ai/pricing)\n*   [Blog](https://www.kavel.ai/blog)\n\nAI generation\n\n*   [AI video generator](https://www.kavel.ai/video)\n*   [AI image generator](https://www.kavel.ai/image)\n*   [AI music generator](https://www.kavel.ai/music)\n*   [Prompt gallery](https://www.kavel.ai/prompts)\n\nAI video models 14\n*   [Seedance 2.5 NEW](https://www.kavel.ai/video/seedance-2-5)\n*   [Seedance 2.0](https://www.kavel.ai/video/seedance-2)\n*   [Veo 3.1](https://www.kavel.ai/video/veo-3-1)\n*   [Kling 3.0](https://www.kavel.ai/video/kling-3-0)\n*   [Kling 4.0 NEW](https://www.kavel.ai/v"
+      }
+    },
+    {
+      "id": "web:39c00f44c894c3cc",
+      "type": "web_url",
+      "canonicalUrl": "https://www.smoothrecorder.com",
+      "title": "Smooth Recorder",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "Mac/Dev"
+          ],
+          "anchorText": "Smooth Recorder",
+          "surroundingText": "$19 one-time instead of $49 (next 100 buyers; first 100 at $9 sold out) · Oct 2026, limited quantity",
+          "targetUrl": "https://www.smoothrecorder.com",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.smoothrecorder.com"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Native Mac screen recorder with auto-zoom, captions, and one-time lifetime pricing, but the official page does not mention Black Friday or Cyber Monday 2026.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.72,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "mac-apps",
+          "developer-tools",
+          "productivity",
+          "lifetime"
+        ],
+        "evidence": [
+          "Excerpt title and body: Mac screen recorder, no subscription, macOS 15+.",
+          "Pricing section: India $9, $19 one-time vs ~~$49~~, first 100 at $9 claimed, next 100 at $19.",
+          "Source list claims Oct 2026 limited quantity; that wording is not on the captured product page.",
+          "Checkout CTA is Get Lifetime Access at $19."
+        ],
+        "uncertainty": [
+          "Whether a 2026 Black Friday or Cyber Monday campaign will appear on the site later.",
+          "Whether the $19 remaining-quantity offer is still live at review time.",
+          "Full comparison claims versus Screen Studio beyond the truncated FAQ."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:50:35.060Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Native Mac recorder that auto-edits demos",
+        "description": "Record screen, camera, and voice on macOS; auto-zoom, captions, and redaction stay on-device with a one-time license.",
+        "pros": [
+          "Official site describes a native macOS 15+ app with auto-zoom, captions, webcam layouts, and on-device redaction.",
+          "Pricing is presented as a one-time license with a limited $19 tier versus a stated $49 regular price.",
+          "Feature list includes export to MP4, MOV, or GIF and screenshot/GIF capture in the same app."
+        ],
+        "cons": [
+          "Page copy does not mention Black Friday or Cyber Monday 2026.",
+          "Current promotions shown are regional or quantity-limited launch pricing, not a dated seasonal sale window."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 9617,
+          "output": 766,
+          "cacheRead": 512,
+          "totalTokens": 10895,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.smoothrecorder.com",
+        "contentHash": "16395d37d43fa9ee2cb510e7736407dae876db962d84494aef96bb4a5fc07973",
+        "excerpt": "Title: Smooth Recorder: The Mac Screen Recorder That Edits for You\n\nURL Source: https://www.smoothrecorder.com/\n\nMarkdown Content:\n**Namaste, India.**Smooth Recorder is yours for ~~$19~~**$9** once.[Claim $9→](https://www.smoothrecorder.com/#pricing)\n\n[Smooth Recorder](https://www.smoothrecorder.com/)[Recording](https://www.smoothrecorder.com/#recording)[Capture](https://www.smoothrecorder.com/#capture)[Compare](https://www.smoothrecorder.com/alternatives)[Pricing](https://www.smoothrecorder.com/#pricing)\n\n[Get it Get Lifetime Access$19](https://www.smoothrecorder.com/api/checkout)\n\n[Recording](https://www.smoothrecorder.com/#recording)[Capture](https://www.smoothrecorder.com/#capture)[Compare](https://www.smoothrecorder.com/alternatives)[Pricing](https://www.smoothrecorder.com/#pricing)\n\n[PRODUCT HUNT#3 Product of the Day](https://www.producthunt.com/products/smooth-recorder?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-smooth-recorder)\n# Record Beauti"
+      }
+    },
+    {
+      "id": "web:bdb77e0cf2f0a4e8",
+      "type": "web_url",
+      "canonicalUrl": "https://www.shotomatic.com/pricing?discount_code=BF2026",
+      "title": "Shotomatic",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "Mac/Dev"
+          ],
+          "anchorText": "Shotomatic",
+          "surroundingText": "40% off lifetime with code BF2026: 1 Mac $23.40 (was $39); up to 3 Macs $65.40 (was $109). One-time; subscriptions excluded; prices before tax · Live since Oct 18 2026 (maker); coupon has no stated end date",
+          "targetUrl": "https://www.shotomatic.com/pricing?discount_code=BF2026",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.shotomatic.com/pricing?discount_code=BF2026"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Mac pricing page applies coupon BF2026 to discounted lifetime licenses, but the captured copy never names Black Friday or Cyber Monday, so seasonal labeling is not confirmed on-page.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
+        "riskScore": 0.18,
+        "suggestedTags": [
+          "2026",
+          "black-friday",
+          "mac-apps",
+          "developer-tools",
+          "productivity"
+        ],
+        "evidence": [
+          "URL is https://www.shotomatic.com/pricing?discount_code=BF2026",
+          "Excerpt shows $23.4 ~~$39~~ and $65.4 ~~$109~~ with code:BF2026 and one-time purchase",
+          "License terms still cite undiscounted $39 / $109 lifetime prices",
+          "No Black Friday or Cyber Monday phrase in facts.excerpt"
+        ],
+        "uncertainty": [
+          "Whether BF2026 is officially a 2026 Black Friday / Cyber Monday promotion versus an undated coupon",
+          "Coupon expiry and whether the discount is still live after fetch",
+          "Whether a free download is a trial or a limited free tier"
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:50:49.660Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Mac screenshot automation with lifetime or subscription lice",
+        "description": "Buy one-time or subscription Pro licenses for Mac screenshot automation, keypress capture, and local image/PDF export.",
+        "pros": [
+          "Vendor pricing page shows code BF2026 with lifetime 1-Mac and 3-Mac prices marked down from $39 and $109.",
+          "Product is a Mac app for screenshot automation with one-time licenses and a subscription option.",
+          "Page states a 14-day money-back guarantee and Lemon Squeezy billing.",
+          "Copyright line on the page is 2026."
+        ],
+        "cons": [
+          "The excerpt never uses the words Black Friday or Cyber Monday.",
+          "No sale end date is stated on the pricing copy.",
+          "Subscriptions are listed at full monthly price and appear excluded from the coupon markdown."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "productivity"
+        ],
+        "usage": {
+          "input": 8680,
+          "output": 805,
+          "cacheRead": 512,
+          "totalTokens": 9997,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.shotomatic.com/pricing?discount_code=BF2026",
+        "contentHash": "600e6ca9f9f3021b307e982ce0fb65415f970edc18dce41bc51df5743c48f146",
+        "excerpt": "Title: Pricing for Screenshot Automation on Mac | Shotomatic\n\nURL Source: https://www.shotomatic.com/pricing?discount_code=BF2026\n\nMarkdown Content:\n[Shotomatic](https://www.shotomatic.com/?discount_code=BF2026)\n*   [Features](https://www.shotomatic.com/features?discount_code=BF2026)\n*   [Tools](https://www.shotomatic.com/tools?discount_code=BF2026)\n*   [Pricing](https://www.shotomatic.com/pricing?discount_code=BF2026)\n*   [Blog](https://www.shotomatic.com/blog?discount_code=BF2026)\n*   [Changelog](https://www.shotomatic.com/changelog?discount_code=BF2026)\n*   [Guide](https://www.shotomatic.com/guide/get-started/quick-start?discount_code=BF2026)\n*   [Extension](https://chromewebstore.google.com/detail/shotomatic/ffhdjehgamcgpkbbjgmmkhabgmgmokll)\n*   [Download](https://www.shotomatic.com/download?arch=arm64&cta_location=header&cta_type=download) \n\nToggle navigation\n\n# Pricing\n\n## Shotomatic Pro\n\nChoose a one-time license or a subscription.\n\n### Lifetime · 1 Mac\n\nPro for one Mac.\n\n$23.4~"
+      }
+    },
+    {
+      "id": "web:9c7b991bdc0a4f51",
+      "type": "web_url",
+      "canonicalUrl": "https://www.spacewisemac.in/pricing",
+      "title": "SpaceWise",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "Mac/Dev"
+          ],
+          "anchorText": "SpaceWise",
+          "surroundingText": "Pro lifetime $3.99 instead of $7.99 (launch deal, 3 devices) · Oct 2026, end not stated",
+          "targetUrl": "https://www.spacewisemac.in/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.spacewisemac.in/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official SpaceWise pricing page advertises a $3.99 lifetime launch discount with a coupon, but the page itself does not mention Black Friday or Cyber Monday 2026.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.72,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "mac-apps",
+          "developer-tools",
+          "lifetime",
+          "productivity"
+        ],
+        "evidence": [
+          "Excerpt title and body: launch deal, 50% off Pro lifetime, code 1FA9H3TI0E0G.",
+          "No Black Friday or Cyber Monday wording in the provided page excerpt.",
+          "Source list note says Oct 2026 launch deal with end not stated."
+        ],
+        "uncertainty": [
+          "Whether a 2026 BF/CM campaign will be added later.",
+          "Windows Pro availability beyond the FAQ claim of Mac and PC devices."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:51:01.426Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Lifetime Mac disk cleaner for developer caches",
+        "description": "Pay once for unlimited local cleanup of node_modules, Docker, Xcode, and toolchain caches; scan free with a 1.5 GB cap.",
+        "pros": [
+          "Vendor pricing page lists a $3.99 vs $7.99 one-time Pro license and checkout code.",
+          "Free tier includes scans and cleanup up to 1.5 GB; Pro lifts the cleanup cap.",
+          "Page states 14-day refunds via Dodo Payments and on-device scanning."
+        ],
+        "cons": [
+          "Copy frames a launch deal, not a Black Friday or Cyber Monday 2026 sale window.",
+          "End date for the $3.99 offer is not stated on the page."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "production"
+        ],
+        "usage": {
+          "input": 8634,
+          "output": 721,
+          "cacheRead": 512,
+          "totalTokens": 9867,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.spacewisemac.in/pricing",
+        "contentHash": "aa9cba342f23351bfc11c7e7cfe239607b37193003741cb7b6d4d96223d6e4df",
+        "excerpt": "Title: Pricing — SpaceWise Pro | Pay Once, Own Forever\n\nURL Source: https://www.spacewisemac.in/pricing\n\nMarkdown Content:\n[Skip to content](https://www.spacewisemac.in/pricing#main-content)\n\n[Space Wise](https://www.spacewisemac.in/)[Home](https://www.spacewisemac.in/)[Features](https://www.spacewisemac.in/#features)[Pricing](https://www.spacewisemac.in/pricing)[Blog](https://www.spacewisemac.in/blog)[Guides](https://www.spacewisemac.in/guides)[MCP](https://www.spacewisemac.in/mcp)\n\n[Download for Mac](https://github.com/Ojas13-git/spacewise-releases/releases/latest/download/SpaceWise-arm64.dmg)\n\n[Download for Mac](https://github.com/Ojas13-git/spacewise-releases/releases/latest/download/SpaceWise-arm64.dmg)\n\nTRANSPARENT PRICING · $3.99 LAUNCH DEAL\n\n# One payment.   \nLifetime cleanup.\n\nBuilt for developers who drown in `node_modules`, Docker layers, and IDE caches. Scan free. Clean without limits when you need it.\n\nPRO LIFETIME 50% OFF\n\nUp to 3 devices\n\n$3.99$7.99 once\n\nUse code`1FA9H3"
+      }
+    },
+    {
+      "id": "web:4918c2534e348827",
+      "type": "web_url",
+      "canonicalUrl": "https://skylum.com/luminar/pricing",
+      "title": "Skylum Luminar",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "Mac/Dev"
+          ],
+          "anchorText": "Skylum Luminar",
+          "surroundingText": "Official Black Friday: Desktop Only $99 (was $417, 77% off); All Platforms $139 (was $477, 71% off); Max $159 (was $546, 71% off). One-time perpetual; AI tools renew after 365 days · Black Friday offer live Oct 2026",
+          "targetUrl": "https://skylum.com/luminar/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Skylum Luminar pricing page currently advertises a Black Friday sale (up to 77% off) on photo-editing software; related vendor pages also reference Fall Upgrade 2026.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.78,
+        "riskScore": 0.2,
+        "suggestedTags": [
+          "black-friday",
+          "mac-apps",
+          "ai",
+          "saas"
+        ],
+        "evidence": [
+          "Search snippet for https://skylum.com/luminar/pricing: “Reveal more in every photo this Black Friday – up to 77% OFF”.",
+          "skylum.com/luminar and fall-upgrade-2026 pages also show Black Friday Sale and 2026 upgrade naming.",
+          "Candidate source text listed perpetual licenses and Oct 2026 Black Friday offer."
+        ],
+        "uncertainty": [
+          "Full live HTML of /luminar/pricing was blocked (403).",
+          "Coupon codes and exact plan prices were not independently verified on the page body."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:51:19.144Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Photo editor with a live Black Friday software sale",
+        "description": "Buy desktop and multi-platform photo editing licenses on the vendor pricing page during a Black Friday discount window.",
+        "pros": [
+          "Vendor pricing URL shows a Black Friday sale of up to 77% off.",
+          "Offer is for end-user photo editing software, not a roundup or listing slot.",
+          "Related official pages mention Luminar Fall Upgrade 2026 alongside Black Friday messaging."
+        ],
+        "cons": [
+          "The pricing HTML could not be fetched directly (HTTP 403), so exact 2026 wording on that URL was inferred from search snippets.",
+          "AI tools may require renewal after a year even on one-time licenses."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "production"
+        ],
+        "usage": {
+          "input": 1208,
+          "output": 674,
+          "cacheRead": 6528,
+          "totalTokens": 8410,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "web:503fba2b726867c9",
+      "type": "web_url",
+      "canonicalUrl": "https://picmal.app/pricing",
+      "title": "Picmal",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "Mac/Dev"
+          ],
+          "anchorText": "Picmal",
+          "surroundingText": "Official Black Friday: one-Mac license $14.50 instead of $29 (50% off). No code · Until Nov 30 2026",
+          "targetUrl": "https://picmal.app/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://picmal.app/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Picmal pricing page advertises a 50% Black Friday cut through 30 November, with a one-time Mac license at $14.50 instead of $29. Footer copyright is 2026, so this fits the current season sale window.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.86,
+        "riskScore": 0.12,
+        "suggestedTags": [
+          "black-friday",
+          "mac-apps",
+          "developer-tools",
+          "lifetime"
+        ],
+        "evidence": [
+          "Excerpt: Picmal is half price for Black Friday. Until 30 November.",
+          "Excerpt: Get Picmal for $29 $14.50 and one-Mac / ten-Mac pricing.",
+          "Page footer: © 2026 Picmal.",
+          "Official URL https://picmal.app/pricing with Stripe checkout."
+        ],
+        "uncertainty": [
+          "Page banner does not spell out the year 2026 next to Black Friday; year is inferred from © 2026 and crawl date.",
+          "Cannot independently verify checkout still applies the sale after 30 November."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:51:31.269Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "One-time Mac app for local media conversion",
+        "description": "Convert, compress, and edit images, video, audio, and PDFs on your Mac with a one-time license and no uploads.",
+        "pros": [
+          "Vendor pricing page states half price for Black Friday until 30 November.",
+          "Checkout shows $29 struck through to $14.50 for a one-Mac license.",
+          "License is a one-time payment with free updates and a 7-day trial.",
+          "Processing is described as local on the Mac with no file uploads."
+        ],
+        "cons": [
+          "Requires macOS 15 or later.",
+          "CLI, Shortcuts, Raycast, and watched folders are not included in the free trial."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "production"
+        ],
+        "usage": {
+          "input": 8877,
+          "output": 712,
+          "cacheRead": 512,
+          "totalTokens": 10101,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://picmal.app/pricing",
+        "contentHash": "0953f157e9de71af27c0e607f744f01a58935db0930323035d4307caa058153a",
+        "excerpt": "Title: Picmal pricing: one payment, no subscription\n\nURL Source: https://picmal.app/pricing\n\nMarkdown Content:\n**Picmal is half price for Black Friday.**Until 30 November.\n\n[See prices](https://picmal.app/#pricing)\n\n[ Picmal](https://picmal.app/)\n\n[Features](https://picmal.app/#features)[Pricing](https://picmal.app/pricing)[Tools](https://picmal.app/tools)[FAQ](https://picmal.app/#faq)[Blog](https://picmal.app/blog)[Docs](https://picmal.app/docs)\n\n[Try free](https://picmal.app/download)[Get Picmal for $29$14.50](https://licenses.albertogalca.com/api/checkout?product_slug=picmal&price_id=price_1U8z2i4RpfcAQYtyooQlXFGq)Open main menu\n\n[Features](https://picmal.app/#features)[Pricing](https://picmal.app/pricing)[Tools](https://picmal.app/tools)[FAQ](https://picmal.app/#faq)[Blog](https://picmal.app/blog)[Docs](https://picmal.app/docs)\n\n[Get Picmal for $29$14.50](https://licenses.albertogalca.com/api/checkout?product_slug=picmal&price_id=price_1U8z2i4RpfcAQYtyooQlXFGq)\n\n# Picmal pricing\n\nP"
+      }
+    },
+    {
+      "id": "web:04fe4d5dfbb527fd",
+      "type": "web_url",
+      "canonicalUrl": "https://1password.com/pricing/password-manager",
+      "title": "1Password",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "SaaS"
+          ],
+          "anchorText": "1Password",
+          "surroundingText": "New customers, first year, annual billing: Individual $2.99/mo (reg $3.99), Families $4.49/mo (reg $5.99). Not labelled Black Friday. Last year's (2025): 50% off annual · Oct 2026, end not stated",
+          "targetUrl": "https://1password.com/pricing/password-manager",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://1password.com/pricing/password-manager"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official 1Password Individual/Families pricing shows a first-year annual promo, but the page never names Black Friday, Cyber Monday, or a 2026 sale window.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.82,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "saas",
+          "productivity",
+          "developer-tools"
+        ],
+        "evidence": [
+          "Excerpt shows Individual $2.99 vs $3.99 and Families $4.49 vs $5.99 with additional 25% for first 12 months billed yearly.",
+          "FAQ states current promotions are first-year annual billing for new customers, not a named BF/CM campaign.",
+          "Source note: not labelled Black Friday; last-year 2025 deal referenced separately."
+        ],
+        "uncertainty": [
+          "Whether 1Password will later label this promo as Black Friday/Cyber Monday 2026.",
+          "Exact promo end date is not stated on the captured page."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:51:41.437Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Cross-device password manager with family sharing",
+        "description": "Store, autofill, and share credentials across devices. New customers can get first-year annual promo pricing plus a 14-day trial.",
+        "pros": [
+          "Vendor pricing page lists Individual and Families plans with regular vs promotional monthly rates on annual billing.",
+          "Promo is limited to new customers on 1Password.com for the first year with annual billing.",
+          "Page documents a 14-day free trial and core features such as autofill, Watchtower alerts, and family vault sharing."
+        ],
+        "cons": [
+          "Page content does not mention Black Friday, Cyber Monday, or a 2026 seasonal deal window.",
+          "Promotional pricing is not available via Apple App Store, Google Play, or other third-party stores."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "production"
+        ],
+        "usage": {
+          "input": 9437,
+          "output": 595,
+          "cacheRead": 512,
+          "totalTokens": 10544,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://1password.com/pricing/password-manager",
+        "contentHash": "093ef6528f9e2d7a87d69aabf72b3d9dc8570054675060db86fd5fa879d85d2b",
+        "excerpt": "Title: Password Manager Pricing for Individuals & Families | 1Password\n\nURL Source: https://1password.com/pricing/password-manager\n\nMarkdown Content:\n[Skip to Main Content](https://1password.com/pricing/password-manager#main)\n\n[1Password for Agents: Give AI Agents access, not your passwords. Learn more](https://1password.com/personal-ai-agent-integrations)\n\n[Sign in](https://start.1password.com/signin?l=en)\n\n[](https://1password.com/)\n\n*   Business   \n*   Personal   \n*   [Developers](https://1password.com/developer-security)\n*   Partners   \n*   Resources   \n*   [Pricing](https://1password.com/pricing/enterprise)\n\n[Talk to sales](https://1password.com/contact-sales)[Get started free](https://1password.com/pricing/enterprise)\n\n# Pricing and plans for Enterprise\n\nEnterprise\n\nEnterprise\n\nBusiness\n\nPersonal\n\nEnterprise\n\nBusiness\n\nPersonal\n\nEnterprise\n\nEnterprise\n\nBusiness\n\nPersonal\n\nMonthly \n\nYearly (Save up to 40%) \n\nUSD\n\nCAD\n\nEUR\n\nUSD\n\nTooltip: Data stored in your currency's region\n\n### I"
+      }
+    },
+    {
+      "id": "web:b81054a594a32b23",
+      "type": "web_url",
+      "canonicalUrl": "https://cliproxy.com",
+      "title": "Cliproxy",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "VPN"
+          ],
+          "anchorText": "Cliproxy",
+          "surroundingText": "Halloween promo card still live: Residential from $0.58/GB; Long-term Static $3.00/month; Static ISP from $1.8/IP. No Black Friday label · Promo seen Oct 2026; end not stated",
+          "targetUrl": "https://cliproxy.com",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://cliproxy.com"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official proxy product homepage with list prices and a free trial; it does not mention Black Friday or Cyber Monday 2026, and residential proxies sit in the VPN/proxy reject bucket.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.45,
+        "riskScore": 0.72,
+        "suggestedTags": [
+          "saas",
+          "developer-tools"
+        ],
+        "evidence": [
+          "Excerpt and title are a proxy marketing homepage (cliproxy.com), not a BF/CM deal page.",
+          "Prices cited include $0.58/GB enterprise, $0.72/GB standard, $3.00/month static, $0.04/IP short-term.",
+          "sourceEvidence surroundingText: no Black Friday label; Halloween promo still live Oct 2026.",
+          "Discovered under a VPN section of a deal list."
+        ],
+        "uncertainty": [
+          "Whether any separate 2026 BF/CM coupon page exists off-homepage.",
+          "Promo end date and whether listed prices are sale vs everyday rates.",
+          "Compliance and acceptable-use of the IP pool cannot be verified from the excerpt."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:51:57.235Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Residential and static IPs billed by traffic or IP",
+        "description": "Sells rotating residential, static ISP, and unlimited proxy plans for scraping and social use, with GB and per-IP billing.",
+        "pros": [
+          "Homepage lists concrete starting prices for traffic, static IP, and unlimited plans.",
+          "Offers a free-trial signup path and multiple billing models.",
+          "Describes rotating versus sticky sessions and regional targeting."
+        ],
+        "cons": [
+          "Page text does not mention Black Friday, Cyber Monday, or a 2026 sale window.",
+          "Source notes only an unlabeled Halloween-style promo with no stated end date.",
+          "Residential proxy/VPN-style access is outside the intended software-deal keep list."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "data engineering",
+          "production"
+        ],
+        "usage": {
+          "input": 9668,
+          "output": 991,
+          "cacheRead": 512,
+          "totalTokens": 11171,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://cliproxy.com",
+        "contentHash": "d2e89b47c41e61320c69c3b2c9508748cf726d1ccb8249d5ee62367017d67bd4",
+        "excerpt": "Title: Cliproxy - The world's best and fastest Dynamic Residential IP\n\nURL Source: https://cliproxy.com/\n\nPublished Time: Mon, 26 Oct 2026 10:10:45 GMT\n\nMarkdown Content:\n[Residential Proxies from $0.58/GB Static ISP from $1.8/IP Enjoy Now](https://cliproxy.com/pricing/residential-proxies/)\n\n[](https://cliproxy.com/)\n\nPricing\n\nIP Billing\n\n[Long-Term Static IP  Stable IPs for social media, e-commerce, and long-term use. Starts from $_3.00_/IP Long-term and stable](https://cliproxy.com/pricing/static-isp/)[Short-Term Residential IP Precise targeting for registration, verification, and testing. Starts from $_0.04_/IP](https://cliproxy.com/pricing/isp-socks5/)\n\nTraffic Billing\n\n[Dynamic Residential IP (Standard) Automatic IP rotation for market research and data collection. Starts from $_0.72_/GB Save 70%](https://cliproxy.com/pricing/residential-proxies/?type=gbstandard)[Dynamic Residential IP (Enterprise) Customized enterprise solutions with CDK support and better pricing. Starts from $_"
+      }
+    },
+    {
+      "id": "web:8ce8ea6733ea3e83",
+      "type": "web_url",
+      "canonicalUrl": "https://deepvue.com/black-friday-2026",
+      "title": "Deepvue",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "SaaS"
+          ],
+          "anchorText": "Deepvue",
+          "surroundingText": "Official BF page: Core + Journal $490/yr (was $990), rate locked while active. Masterclasses bonus if join by Nov 12; $490 lock ends Dec 4 (then $990/yr) · Live; $490 lock to Dec 4 2026",
+          "targetUrl": "https://deepvue.com/black-friday-2026",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Vendor URL is titled as a 2026 Black Friday page, but the live site returned HTTP 403 so the discount, lock dates, and BF/CM wording could not be verified on-page.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.35,
+        "riskScore": 0.45,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "saas"
+        ],
+        "evidence": [
+          "Candidate canonicalUrl is https://deepvue.com/black-friday-2026.",
+          "HTTP GET of that URL returned 403.",
+          "Source surroundingText claims Core + Journal $490/yr (was $990), lock to Dec 4 2026, masterclasses if join by Nov 12."
+        ],
+        "uncertainty": [
+          "Whether the live page mentions Black Friday or Cyber Monday for 2026.",
+          "Current prices, eligibility, and bonus terms.",
+          "What Deepvue actually sells beyond Core + Journal."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:52:22.222Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Discounted annual Core + Journal subscription lock",
+        "description": "Lists a 2026-season annual price lock for Core + Journal with a stated cutoff; confirm wording and dates on the official page.",
+        "pros": [
+          "Canonical URL path is /black-friday-2026, consistent with a 2026-season deal landing page.",
+          "Curated listing describes a Core + Journal annual rate of $490 versus $990 with a lock ending 4 Dec 2026."
+        ],
+        "cons": [
+          "Fetching the official page failed with HTTP 403, so Black Friday or Cyber Monday 2026 wording was not confirmed in page content.",
+          "Product scope, terms, and whether the offer is still live cannot be checked from the fetch."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 209,
+          "output": 599,
+          "cacheRead": 6400,
+          "totalTokens": 7208,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "web:4789b650d853172c",
+      "type": "web_url",
+      "canonicalUrl": "https://juxtacode.app",
+      "title": "JuxtaCode",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🧑‍💻 Developer Tools"
+          ],
+          "anchorText": "JuxtaCode",
+          "surroundingText": "[JuxtaCode](https://juxtacode.app) | Compare Git branches and resolve merge conflicts with ease on macOS | ♾️ **40% OFF** · code `BLACKFRIDAY26` (direct purchase only) | Nov 20, 2026 - Dec 1, 2026",
+          "targetUrl": "https://juxtacode.app",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://juxtacode.app"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official macOS Git diff and merge app page with trial and one-time purchase links; it does not mention a 2026 Black Friday or Cyber Monday sale, so the listed coupon and dates are unverified on-page.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.82,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "developer-tools",
+          "mac-apps",
+          "productivity"
+        ],
+        "evidence": [
+          "facts.excerpt is the product homepage with no BF/CM 2026 language.",
+          "sourceEvidence surroundingText claims 40% off, BLACKFRIDAY26, Nov 20–Dec 1 2026, direct purchase only.",
+          "Rubric requires on-page 2026 BF/CM mention for recommend_approve."
+        ],
+        "uncertainty": [
+          "Whether Lemon Squeezy checkout currently accepts BLACKFRIDAY26",
+          "Whether the 2026 sale dates are accurate",
+          "Current paid price after any discount"
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:52:34.922Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Mac Git diffs, history, and three-way merge editor",
+        "description": "Browse commits, compare branches, and resolve merge conflicts in a three-way editor on macOS, with a free trial and one-time buy.",
+        "pros": [
+          "Vendor site describes Git commit browsing, branch compare, file history, and a three-way merge editor.",
+          "Offers a fourteen-day trial, Mac App Store listing, and Lemon Squeezy checkout.",
+          "Documents CLI launch via juxta and integrations with Tower, Gitfox, and Fork.",
+          "States a one-time purchase with no subscription."
+        ],
+        "cons": [
+          "Homepage copy does not mention Black Friday, Cyber Monday, a 2026 window, or code BLACKFRIDAY26.",
+          "macOS-only; Mac App Store purchase may not honor a direct-checkout coupon."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "production"
+        ],
+        "usage": {
+          "input": 8170,
+          "output": 788,
+          "cacheRead": 512,
+          "totalTokens": 9470,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://juxtacode.app",
+        "contentHash": "c2b7d33b153ebb9e9b9ad6bc07eba77f04bf7ecb86ab75ed20fc441ebcb917d0",
+        "excerpt": "Title: JuxtaCode\n\nURL Source: https://juxtacode.app/\n\nMarkdown Content:\n[Skip to content](https://juxtacode.app/#main-content)[JuxtaCode](https://juxtacode.app/)\n\n*   [Releases](https://juxtacode.app/releases/)\n*   [Integrations](https://juxtacode.app/integrations/)\n*   [Contact](https://juxtacode.app/contact/)\n*   [Download](https://juxtacode.app/juxtacode.dmg)\n*   [Buy](https://juxtacode.lemonsqueezy.com/checkout/buy/c2420cbf-0a42-46c7-897d-25388f872002)\n\n# Git diffs & merges, but better.\n\nBrowse commits, compare branches, and see how a file changed over time. When a merge gets difficult, JuxtaCode surfaces the context and gives you a precise three-way editor to finish the job.\n\n[Download free trial](https://juxtacode.app/juxtacode.dmg)[Mac App Store](https://apps.apple.com/app/juxtacode/id1661588357)[Buy JuxtaCode](https://juxtacode.lemonsqueezy.com/checkout/buy/c2420cbf-0a42-46c7-897d-25388f872002)\n\nPictured code is from Gifu. Gifu adds protocol-based, performance-aware animated GI"
+      }
+    },
+    {
+      "id": "web:934ab1cce6b5d90d",
+      "type": "web_url",
+      "canonicalUrl": "https://seedeo.ai/black-friday",
+      "title": "Seedeo",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🤖 AI Tools"
+          ],
+          "anchorText": "Seedeo",
+          "surroundingText": "[Seedeo](https://seedeo.ai/black-friday) | All-in-one AI creative platform for video, image, music & voice (Kling 3.0, Seedance 2, Veo, GPT Image, Nano Banana Pro) on one shared credit balance | 💸 ♾️ **62% OFF** 20,000 never-expiring credits for $99 · **64% OFF** Pro annual ($129 first year) · auto-applied | Oct 27, 2026 - Nov 30, 2026",
+          "targetUrl": "https://seedeo.ai/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://seedeo.ai/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Seedeo Black Friday 2026 campaign page lists auto-applied discounts through Nov 30, 2026, including a one-time 20,000-credit pack and first-year annual/monthly cuts. Fits an end-user software deal directory.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.88,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "black-friday",
+          "cyber-monday",
+          "2026",
+          "ai",
+          "saas"
+        ],
+        "evidence": [
+          "Title and H1: AI Video Generator Black Friday Deals 2026.",
+          "FAQ: offer ends November 30, 2026; same prices through Cyber Monday.",
+          "$259.90 → $99 one-time 20,000 non-expiring credits; Pro $129 year one vs $358.80.",
+          "Official URL https://seedeo.ai/black-friday with checkout CTAs."
+        ],
+        "uncertainty": [
+          "Live checkout totals and model availability were not independently purchased.",
+          "Early-bird bonus end date is mentioned but not fully specified in the excerpt."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:52:45.404Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Shared-credit AI video, image, music, and voice studio",
+        "description": "Buy discounted never-expiring credits or first-year plans for AI video, image, music, and voice on one balance through Nov 30, 2026.",
+        "pros": [
+          "Vendor page titles and body state Black Friday 2026 and Cyber Monday at the same prices.",
+          "Offer window is specified as ending November 30, 2026 at 11:59 PM PT.",
+          "Lists concrete prices: 20,000 credits for $99 (62% off $259.90) and Pro annual $129 first year.",
+          "Discounts apply automatically in checkout; pack credits do not expire and are one per customer."
+        ],
+        "cons": [
+          "Annual Black Friday price is first year only; renewal is the regular annual rate.",
+          "Monthly 20% off lasts only the first three invoices.",
+          "Actual video/image yield depends on model, length, and resolution."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "production"
+        ],
+        "usage": {
+          "input": 5216,
+          "output": 621,
+          "cacheRead": 5120,
+          "totalTokens": 10957,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://seedeo.ai/black-friday",
+        "contentHash": "b682a10300eb03d36278b032b968f1524a02fa2b1abb42097ff31e6571fe77bc",
+        "excerpt": "Title: AI Video Generator Black Friday Deals 2026 | Seedeo\n\nURL Source: https://seedeo.ai/black-friday\n\nMarkdown Content:\nToggle Sidebar[Seedeo.ai](https://seedeo.ai/)\n\n🎁Get 60 Credits For Free Start for Free\n\nCreate\n\n*   [Image Generator](https://seedeo.ai/image-generator)\n*   [Video Generator](https://seedeo.ai/video-generator)\n*   [Video Editor](https://seedeo.ai/video-editor)\n*   [Music Generator](https://seedeo.ai/music-generator)\n*   [Voice Generator](https://seedeo.ai/voice-generator)\n*   [Effects](https://seedeo.ai/effects)\n*   [AI Tools](https://seedeo.ai/tools)\n\nModels\n\n*   [GPT Image 2.5 NEW](https://seedeo.ai/models/gpt-image-2-5)\n*   [MiniMax H3 NEW](https://seedeo.ai/models/minimax-h3)\n*   [Kling 3.0](https://seedeo.ai/models/kling-3-0)\n*   [Seedance 2.0 HOT](https://seedeo.ai/models/seedance-2-0)\n*   [GPT Image 2](https://seedeo.ai/models/gpt-image-2)\n*   [Nano Banana Pro](https://seedeo.ai/models/nano-banana-pro)\n\nExplore\n\n*   [Home](https://seedeo.ai/)\n*   [Black Frid"
+      }
+    },
+    {
+      "id": "web:1b0032522eeae6c1",
+      "type": "web_url",
+      "canonicalUrl": "https://newyougo.com/pricing",
+      "title": "NewYouGo",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🤖 AI Tools"
+          ],
+          "anchorText": "NewYouGo",
+          "surroundingText": "[NewYouGo](https://newyougo.com/pricing?promo=bf2026) | AI image, video and music generator in one studio (Nano Banana, Seedream, FLUX, LTX-2 video, AI music, bg remove, upscale, LoRA) · free users get 20 FLUX/day | **20% OFF** monthly & yearly subscriptions (credit packs excluded) · discounted price locked on renewals · auto-applied via link | Nov 20, 2026 - Dec 1, 2026",
+          "targetUrl": "https://newyougo.com/pricing",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://newyougo.com/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official pricing lists credit-based monthly and yearly plans with a ~20% yearly billing discount, but the captured page does not mention Black Friday or Cyber Monday 2026. Treat the seasonal 20% claim as unverified until the promo window appears on the vendor page.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.72,
+        "riskScore": 0.35,
+        "suggestedTags": [
+          "ai",
+          "saas",
+          "black-friday",
+          "2026"
+        ],
+        "evidence": [
+          "Excerpt title and H1 are NewYouGo Pricing | Plans & Generation Credits.",
+          "Page copy: Flexible options for everyone. Save 20% with yearly billing.",
+          "Plan prices shown: $95 / $287 / $767 per year with monthly credit refresh.",
+          "Source list claims 20% OFF Nov 20–Dec 1 2026 via ?promo=bf2026, which is not in the page excerpt.",
+          "Rubric requires BF/CM 2026 on the page itself for recommend_approve."
+        ],
+        "uncertainty": [
+          "Whether promo=bf2026 still auto-applies or shows BF/CM copy for logged-out crawlers.",
+          "Whether free-tier 20 FLUX/day exists; not in the pricing excerpt.",
+          "Whether discounted renewal lock is stated anywhere on-site."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:52:56.029Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Credit-based studio for AI images, video, and music",
+        "description": "Buy generation credits for image, video, and music models with monthly or yearly plans and a published per-feature credit table.",
+        "pros": [
+          "The vendor pricing page documents Starter, Professional, and Titan yearly plans with monthly credit allotments.",
+          "A credit cost table lists models such as Nano Banana, Flux, LTX-2 video, and ACE Step music.",
+          "Payments are listed as Stripe, PayPal, Alipay, WeChat Pay, and cards."
+        ],
+        "cons": [
+          "The fetched pricing content does not mention Black Friday, Cyber Monday, or a 2026 sale window.",
+          "Yearly 20% savings on the page is ordinary billing, not a confirmed seasonal promo.",
+          "Credit packs are not shown as part of any extra discount."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "prototyping",
+          "small team"
+        ],
+        "usage": {
+          "input": 9788,
+          "output": 662,
+          "cacheRead": 512,
+          "totalTokens": 10962,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://newyougo.com/pricing",
+        "contentHash": "f5719c2ce095e231244f4dc847bb630ba166401391cec28695422f3496b15c60",
+        "excerpt": "Title: NewYouGo Pricing | Plans & Generation Credits\n\nURL Source: https://newyougo.com/pricing\n\nMarkdown Content:\nMenu New[NewYouGo.](https://newyougo.com/)Create New For Explore Resources[Pricing](https://newyougo.com/pricing)\n\nSign In\n\nStart Creating Create\n\n[NewYouGo.](https://newyougo.com/)Close[New**Nano Banana 2.1**Create images or edit a reference, with output up to 4K.](https://newyougo.com/models/nano-banana-2-1)\n\nCreate[AI image generation](https://newyougo.com/models/gpt-image-2#gpt-image-2-generator)[AI video generation](https://newyougo.com/models/seedance-2-fast)[AI music generation](https://newyougo.com/ai-music-generator/ace-step-1-5)[Image editing](https://newyougo.com/models/nano-banana)[Background remover](https://newyougo.com/tools/remove-background)[Image upscaler](https://newyougo.com/tools/image-upscaler)[Batch background remover](https://newyougo.com/tools/batch-background-remover)[Custom LoRA styling](https://newyougo.com/klein)\n\nFor[Bring a brand into focus.]("
+      }
+    },
+    {
+      "id": "web:e43489110e9a026e",
+      "type": "web_url",
+      "canonicalUrl": "https://www.kensa.cc/deals/black-friday",
+      "title": "Kensa",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🤖 AI Tools"
+          ],
+          "anchorText": "Kensa",
+          "surroundingText": "[Kensa](https://www.kensa.cc/deals/black-friday?utm_source=twf-nikhila&utm_campaign=bf2026) | Multi-model AI video generator: Veo 3.1, Seedance 2.5, MiniMax H3 and more on one credit balance · turn text, images or a product link into videos | **25% OFF** first year of yearly plans · code shown on the deal page | Nov 20, 2026 - Dec 1, 2026",
+          "targetUrl": "https://www.kensa.cc/deals/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.kensa.cc/deals/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official Kensa deal page for Black Friday 2026: 25% off the first year of yearly AI video plans (Basic, Pro, Ultimate) from Nov 20–Dec 1 UTC. Code is not live yet; monthly plans and credit packs are excluded.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.85,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "black-friday",
+          "cyber-monday",
+          "2026",
+          "ai",
+          "saas"
+        ],
+        "evidence": [
+          "Title and H1: Kensa Black Friday 2026: 25% off yearly plans.",
+          "Window: Starts Nov 20, 2026; ends Dec 1 (UTC).",
+          "Canonical URL is vendor /deals/black-friday, not a roundup or affiliate hop.",
+          "FAQ and plan cards match the 25% first-year yearly-only terms."
+        ],
+        "uncertainty": [
+          "Code string not published yet; live checkout behavior unverified.",
+          "Product quality and model availability beyond listed names not independently verified."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:53:05.719Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "25% off first year of yearly AI video plans",
+        "description": "Save 25% on the first year of yearly AI video plans Nov 20–Dec 1 2026 UTC. Code appears on the deal page when the sale starts.",
+        "pros": [
+          "Vendor page states Black Friday 2026, 25% off first year of yearly Basic/Pro/Ultimate plans, Nov 20–Dec 1 2026 UTC.",
+          "Lists regular vs sale prices ($99→$74.25, $299→$224.25, $799→$599.25) and monthly credit allotments.",
+          "FAQ clarifies first-year-only discount, excluded monthly/credit packs, and new-subscription intent."
+        ],
+        "cons": [
+          "Discount code is not shown until Nov 20 2026 UTC, so the offer cannot be redeemed yet.",
+          "Renewals are at full yearly price; existing subscribers must contact support to switch."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "prototyping",
+          "marketing"
+        ],
+        "usage": {
+          "input": 8450,
+          "output": 572,
+          "cacheRead": 512,
+          "totalTokens": 9534,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.kensa.cc/deals/black-friday",
+        "contentHash": "9507e8ea2f94da24eded7e38289f12cc0aa129500d1b1dcc30029e1577edce56",
+        "excerpt": "Title: Kensa Black Friday 2026: 25% Off Yearly AI Video Plans\n\nURL Source: https://www.kensa.cc/deals/black-friday\n\nMarkdown Content:\nBlack Friday 25% off the first year of yearly plans · ends Dec 1 (UTC)[See the deal](https://www.kensa.cc/deals/black-friday?utm_source=kensa&utm_medium=site&utm_campaign=bf2026)\n\nStarts Nov 20, 2026\n# Kensa Black Friday 2026: 25% off yearly plans\n\nKensa's Black Friday 2026 deal takes 25% off the first year of any yearly plan (Basic, Pro or Ultimate). It runs Nov 20 – Dec 1, 2026 (UTC); the discount code appears on this page when the sale starts. Monthly plans and credit packs are not discounted.\n\nThe discount code will appear here on Nov 20, 2026 (UTC).\n\n*   ## Basic \nRegular yearly price: $99.00\n\n$74.25 Black Friday first year\n\n≈ $6.19 / month\n\n    *   280 credits every month, all year\n    *   ≈ 21 Quick clips a month\n\n[See yearly plans](https://www.kensa.cc/pricing)\n\n*   ## Pro\n\nMost popular \nRegular yearly price: $299.00\n\n$224.25 Black Friday first y"
+      }
+    },
+    {
+      "id": "web:ce7a055f6ab281ae",
+      "type": "web_url",
+      "canonicalUrl": "https://getyourfirstclient.freelancerpath.com",
+      "title": "Get Your First Client",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "📚 Books & Courses"
+          ],
+          "anchorText": "Get Your First Client",
+          "surroundingText": "[Get Your First Client](https://getyourfirstclient.freelancerpath.com/?ref=Awesome-Black-Friday-Cyber-Monday-deals) | Step-by-step guide plus Notion templates (proposal, contract, invoice, CRM) to land your first freelance client. | 💸 **50% OFF** · code `BLACK` ($49.99 → $24.99) | Oct 28, 2026 - Dec 31, 2026",
+          "targetUrl": "https://getyourfirstclient.freelancerpath.com",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://getyourfirstclient.freelancerpath.com"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Paid freelancer beginner guide with templates; the product page does not mention a 2026 Black Friday or Cyber Monday sale, and books/courses are out of scope for this directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.62,
+        "riskScore": 0.35,
+        "suggestedTags": [],
+        "evidence": [
+          "Excerpt title and body describe a step-by-step freelancer guide, not SaaS software.",
+          "Pricing section shows $39 guide-only and $49.99 guide+tools with no BF/CM copy.",
+          "Source listing is under Books & Courses with an affiliate-style ?ref= query."
+        ],
+        "uncertainty": [
+          "Whether Gumroad currently applies code BLACK or any 2026 seasonal discount.",
+          "Whether the listed Oct 28–Dec 31 2026 window is honored by the vendor."
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:53:16.816Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Resources",
+        "tagline": "Step-by-step freelancer starter guide with templates",
+        "description": "Teaches beginners how to start freelancing and land a first client, with optional proposal, contract, invoice, and CRM templates.",
+        "pros": [
+          "Official product page describes a paid guide plus optional Notion-style tools and templates.",
+          "Pricing is listed as two packages at $39 and $49.99 with Gumroad checkout links.",
+          "Author and copyright year 2026 are shown on the page."
+        ],
+        "cons": [
+          "The page itself does not mention Black Friday, Cyber Monday, a coupon code, or a 2026 sale window.",
+          "The item is a book/course-style guide, which the directory rubric excludes.",
+          "Deal details (50% off, code BLACK) appear only in a third-party list, not on the vendor page."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "learning"
+        ],
+        "usage": {
+          "input": 9138,
+          "output": 669,
+          "cacheRead": 512,
+          "totalTokens": 10319,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://getyourfirstclient.freelancerpath.com",
+        "contentHash": "ef1138b5d2043df56f85a5a8dae930474096004ea960c1d53a6e218d850f8819",
+        "excerpt": "Title: How to get your first client as a freelancer | Freelancers Beginner Guide\n\nURL Source: https://getyourfirstclient.freelancerpath.com/\n\nPublished Time: Tue, 20 Oct 2026 04:09:55 GMT\n\nMarkdown Content:\n\n> “This step by step is genius. I wish I had known this guide a lot sooner.”\n\n**Michael Montoya**, Freelance Designer\n\n# Get your first client.\n\nA complete step by step guide to get your first client as a freelancer from scratch.\n\n[Get free tools](https://getyourfirstclient.freelancerpath.com/#free-chapters)[Buy the guide](https://getyourfirstclient.freelancerpath.com/#pricing)\n\n## Introduction\n\n“How to get your first client” is a guide that prepares you to become a freelancer and get your first client.\n\nFreelancing can be hard, especially when you are starting. It requires skill, dedication, and a thick skin. If you want to become a successful freelancer, you have to be prepared to put in the hard work. You can’t just expect good things to happen if you put no effort into your fre"
+      }
+    },
+    {
+      "id": "web:acbf818f8a68add1",
+      "type": "web_url",
+      "canonicalUrl": "https://swifterm.com/black-friday",
+      "title": "SwiftERM",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🌈 Marketing Tools"
+          ],
+          "anchorText": "SwiftERM",
+          "surroundingText": "[SwiftERM](https://swifterm.com/black-friday/) | Autonomous individualisation for ecommerce email marketing · picks what each customer is most likely to buy next and sends it without campaigns | **40% OFF** first 12 paid monthly subscriptions after the free 30-day trial · new customers only · code `BLACKFRIDAY26` | Nov 20, 2026 - Dec 3, 2026",
+          "targetUrl": "https://swifterm.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://swifterm.com/black-friday"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official vendor Black Friday 2026 page offering 40% off the first year of this ecommerce email personalization SaaS. Discount and season are stated in the page title.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.78,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "marketing",
+          "saas"
+        ],
+        "evidence": [
+          "facts title: Black Friday 2026: 40% Off SwiftERM For Your First Year",
+          "canonicalUrl https://swifterm.com/black-friday is a vendor official deal URL",
+          "Not a course, plugin, hardware, or roundup article"
+        ],
+        "uncertainty": [
+          "Exact coupon, date window, and trial terms not fully present in the truncated facts excerpt",
+          "Ongoing list price after the first year not shown in the excerpt"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T18:53:38.885Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Personalized ecommerce emails without campaign busywork",
+        "description": "Sends each shopper emails tailored to what they are most likely to buy next, without running traditional campaign calendars.",
+        "pros": [
+          "Official /black-friday page title states Black Friday 2026 and 40% off the first year.",
+          "Product is a SaaS email marketing tool for ecommerce, which fits the deal directory scope.",
+          "Vendor site includes pricing, getting started, FAQ, and case-study sections."
+        ],
+        "cons": [
+          "Fetched excerpt is mostly site navigation, so coupon code, window dates, and eligibility are not fully visible in the captured body.",
+          "Offer appears aimed at new customers after a trial rather than existing subscribers."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "small team",
+          "production"
+        ],
+        "usage": {
+          "input": 10186,
+          "output": 584,
+          "cacheRead": 512,
+          "totalTokens": 11282,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://swifterm.com/black-friday",
+        "contentHash": "8a572dbb0e3b50a9ab8fcfc19ae40258fe4e051e10e4473f06f924227f0d6454",
+        "excerpt": "Title: Black Friday 2026: 40% Off SwiftERM For Your First Year\n\nURL Source: https://swifterm.com/black-friday\n\nMarkdown Content:\n[Skip to content](https://swifterm.com/black-friday#content)\n\n[](https://swifterm.com/)\n\n*   [Home](https://swifterm.com/)\n*   [How SwiftERM Works](https://swifterm.com/how-swifterm-works/)\n    *   [Pricing](https://swifterm.com/how-swifterm-works/hyper-personalisation-price/)\n    *   [Email Styling](https://swifterm.com/how-swifterm-works/email-styling-and-stylesheet-design-swifterm/)\n    *   [Getting Started](https://swifterm.com/how-swifterm-works/getting-started-with-swifterm/)\n    *   [Videos](https://swifterm.com/how-swifterm-works/videos/)\n    *   [FAQ](https://swifterm.com/swifterm-faq/)\n\n*   [Case Studies](https://swifterm.com/case-studies-showing-return-on-investment/)\n*   [Partners](https://swifterm.com/partnerships/)\n    *   [BIAS | People processes and technology](https://swifterm.com/partnerships/bias-people-processes-and-technology/)\n    *   [D"
+      }
+    },
+    {
+      "id": "web:b07fafa2be200502",
+      "type": "web_url",
+      "canonicalUrl": "https://tools.landin.page/advertise",
+      "title": "LandinTools",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🌈 Marketing Tools"
+          ],
+          "anchorText": "LandinTools",
+          "surroundingText": "[LandinTools](https://tools.landin.page/advertise?ref=Awesome-Black-Friday-Cyber-Monday-deals) | Directory of 1,000+ AI and SaaS tools. Get your tool featured for a full year. | 💸 **50% OFF** Featured listing for a full year · code `BF2026` ($49 → $24.50) | Oct 28, 2026 - Dec 31, 2026",
+          "targetUrl": "https://tools.landin.page/advertise",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://tools.landin.page/advertise"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "This is a paid-listing /advertise page for a tools directory, not an end-user SaaS product sale. The rubric excludes advertising slots even when a 2026 Black Friday coupon is shown.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.55,
+        "riskScore": 0.45,
+        "suggestedTags": [
+          "black-friday",
+          "2026",
+          "marketing",
+          "saas"
+        ],
+        "evidence": [
+          "canonicalUrl and facts excerpt are https://tools.landin.page/advertise",
+          "Excerpt heading: Promote your tool on LandinTools; Black Friday: 50% off a Featured listing; code BF2026",
+          "Rubric REJECT list includes advertising or paid listing slots (e.g. a /advertise page)"
+        ],
+        "uncertainty": [
+          "Whether BF2026 is limited to Black Friday week versus the stated Dec 31 window",
+          "Whether category sponsor pricing is included in the 50% offer"
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:53:51.619Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Paid directory featured listings, not a product discount",
+        "description": "Sells year-long featured and category-sponsor spots on a landing-page tools directory, with a BF2026 checkout code.",
+        "pros": [
+          "The advertise page itself states Black Friday 50% off featured listing with code BF2026 until December 31.",
+          "Featured listing and category sponsor prices are listed in dollars with durations."
+        ],
+        "cons": [
+          "The candidate URL is an advertising/paid-listing slot page, which the deal rubric rejects.",
+          "The offer is directory promotion, not a discount on a software or subscription product for end users.",
+          "The discovery link uses an affiliate-style ref query parameter."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "marketing"
+        ],
+        "usage": {
+          "input": 7673,
+          "output": 724,
+          "cacheRead": 512,
+          "totalTokens": 8909,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://tools.landin.page/advertise",
+        "contentHash": "c148547f82cfafc58038466f8fd3fb6e1b0ea2e2f2bd67c1f4b00e1ee4506fcb",
+        "excerpt": "Title: Landing Page Tools\n\nURL Source: https://tools.landin.page/advertise\n\nMarkdown Content:\n[](https://tools.landin.page/)\n\n*   [Home](https://tools.landin.page/)\n*   ## Categories\n\n \n    *   [Builders](https://tools.landin.page/category/builders)\n    *   [Copywriting](https://tools.landin.page/category/copywriting)\n    *   [Marketing & Growth](https://tools.landin.page/category/marketing-and-growth)\n    *   [Analytics & Tracking](https://tools.landin.page/category/analytics-and-tracking)\n    *   [Optimization](https://tools.landin.page/category/optimization)\n    *   [Image & Video](https://tools.landin.page/category/image-and-video)\n    *   [Design Assets](https://tools.landin.page/category/design-assets)\n    *   [Forms & Surveys](https://tools.landin.page/category/forms-and-surveys)\n    *   [Legal & Compliance](https://tools.landin.page/category/legal-and-compliance)\n    *   [Productivity](https://tools.landin.page/category/productivity)\n\n*   ## Use cases\n\n \n    *   [AI Visibility "
+      }
+    },
+    {
+      "id": "web:6468212591ccdec1",
+      "type": "web_url",
+      "canonicalUrl": "https://gutslider.com/black-friday",
+      "title": "GutSlider Pro",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🔌 Plugins"
+          ],
+          "anchorText": "GutSlider Pro",
+          "surroundingText": "[GutSlider Pro](https://gutslider.com/black-friday/?utm_source=github&utm_medium=deal-list&utm_campaign=bf2026) | Slider & carousel blocks for the WordPress block editor: 70+ designs, WooCommerce carousels, no jQuery | ♾️ **Up to 40% OFF** · lifetime from $69 · no code needed | Nov 24, 2026 - Dec 1, 2026",
+          "targetUrl": "https://gutslider.com/black-friday",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_reject",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Candidate is a WordPress block-editor slider plugin deal page; directory rules exclude WordPress plugins regardless of a 2026 sale window listed in third-party deal roundups.",
+        "relevanceScore": 0.2,
+        "qualityScore": 0.35,
+        "riskScore": 0.45,
+        "suggestedTags": [
+          "black-friday",
+          "cyber-monday",
+          "2026"
+        ],
+        "evidence": [
+          "Source surrounding text describes slider/carousel blocks for the WordPress block editor.",
+          "Section path in the source list is Plugins.",
+          "Live fetch of https://gutslider.com/black-friday failed with HTTP 403."
+        ],
+        "uncertainty": [
+          "Whether the live page currently mentions Black Friday or Cyber Monday 2026",
+          "Actual discount, lifetime pricing, and sale dates on the vendor site",
+          "Whether the UTM deal-list URL is affiliate-tracked"
+        ],
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T18:54:02.959Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "WordPress Gutenberg slider and carousel blocks",
+        "description": "Adds slider and carousel blocks for the WordPress block editor, including WooCommerce carousels and many preset designs.",
+        "pros": [
+          "Vendor URL is a dedicated /black-friday path rather than a generic homepage.",
+          "Third-party listing claims a Nov 24–Dec 1 2026 window and up to 40% off."
+        ],
+        "cons": [
+          "The product is a WordPress plugin, which this directory explicitly excludes.",
+          "The official page returned HTTP 403, so 2026 Black Friday wording on-page could not be verified.",
+          "Discovery is from an unlicensed deal-list README, not confirmed vendor copy."
+        ],
+        "pricingModel": "paid",
+        "bestFor": [
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 1605,
+          "output": 456,
+          "cacheRead": 5120,
+          "totalTokens": 7181,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "web:bc3157ed814e9d04",
+      "type": "web_url",
+      "canonicalUrl": "https://supasidebar.com",
+      "title": "SupaSidebar",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🔥 Productivity Tools"
+          ],
+          "anchorText": "SupaSidebar",
+          "surroundingText": "[SupaSidebar](https://supasidebar.com?r=twf) | Arc-like sidebar for all browsers · view or fuzzy search open tabs, bookmarks and Finder files, one shortcut away | 💸 ♾️ **70% OFF** Lifetime ($99 → $29.70) · first 100 buyers · code `SIDEBARBF70` | Nov 9, 2026 - Dec 7, 2026",
+          "targetUrl": "https://supasidebar.com",
+          "discoveredAt": "2026-10-28T18:40:05.162Z"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://supasidebar.com"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "aiReview": {
+        "summary": "Official site promotes a timed Believer license drop to $77 until November 11 (code BELIEVER77), not a stated 2026 Black Friday or Cyber Monday sale. List-sourced BF codes and dates are not confirmed on the page.",
+        "relevanceScore": 0.45,
+        "qualityScore": 0.75,
+        "riskScore": 0.25,
+        "suggestedTags": [
+          "mac-apps",
+          "productivity",
+          "developer-tools"
+        ],
+        "evidence": [
+          "Excerpt: Believer is $77 with a code until November 11, then $99; BELIEVER77.",
+          "Excerpt positions the product as an Arc-like sidebar for Safari, Chrome, and other Mac browsers.",
+          "Twf surrounding text claims SIDEBARBF70 and Nov 9–Dec 7 2026, which is not in the official excerpt."
+        ],
+        "uncertainty": [
+          "Whether a 2026 BF/CM campaign will appear on-page later.",
+          "Whether SIDEBARBF70 is valid.",
+          "Exact license terms beyond Believer pricing."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T18:54:14.061Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Arc-style sidebar for tabs across Mac browsers",
+        "description": "Mac app adds vertical tabs, spaces, command search, and Finder access across Safari, Chrome, and many other browsers.",
+        "pros": [
+          "Official page describes a Mac sidebar with spaces, fuzzy search, Arc import, and multi-browser tab listing.",
+          "Download is offered free, with Homebrew cask install documented.",
+          "Current promo is a Believer price of $77 until November 11, then $99, with code BELIEVER77."
+        ],
+        "cons": [
+          "Page copy does not mention Black Friday, Cyber Monday, or a 2026 seasonal window.",
+          "Claimed 70% lifetime BF pricing from the deal list is not visible on the vendor page.",
+          "Affiliate-style discovery URL in the source list is not independently verified."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "solo founder",
+          "productivity",
+          "prototyping"
+        ],
+        "usage": {
+          "input": 5166,
+          "output": 685,
+          "cacheRead": 5120,
+          "totalTokens": 10971,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      },
+      "reference": {
+        "source": "official-web",
+        "url": "https://supasidebar.com",
+        "contentHash": "12c903914374ea4ab1f1bdadedc632822bcd6d4a7962dde47acc5e4a5e9363e0",
+        "excerpt": "Title: SupaSidebar | Arc Sidebar for All Browsers\n\nURL Source: https://supasidebar.com/\n\nMarkdown Content:\n### Believer is $77 with a code until November 11, then $99.\n\nPrice increases in 12d 23h 46m BELIEVER77\n\n### Believer is $77 with a code until November 11, then $99.\n\nPrice increases in 12d 23h\n\n[ SupaSidebar $77 price ends in 12d 23h](https://supasidebar.com/)\n\n*   Docs\n*   [Pricing](https://supasidebar.com/#pricing)\n*   [Testimonials](https://supasidebar.com/#reviews)\n*   [Privacy](https://supasidebar.com/#privacy)\n*   Contact\n*   Download \n\n[ SupaSidebar $77 price ends in 12d 23h](https://supasidebar.com/)\n\n*   Docs\n*   [Pricing](https://supasidebar.com/#pricing)\n*   [Testimonials](https://supasidebar.com/#reviews)\n*   [Privacy](https://supasidebar.com/#privacy)\n*   Contact\n*   Download \n\n[Soon v 1.4.2: Live Tabs and Link Preview Fixes](https://supasidebar.com/releases/1-4-2-live-tabs-link-preview-fixes)\n\n[](https://supasidebar.com/)\n\n# Arc-like Sidebar for All Browsers\n\nA Mac "
+      }
+    }
+  ]
+}
