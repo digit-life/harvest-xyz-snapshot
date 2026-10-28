@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-cli-apps",
   "items": [
     {
@@ -856,55 +856,56 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Unofficial MIT PHP Composer client for Google Gemini with generate, chat, streaming, embeddings, and multimodal helpers. Last push is early 2025, so API coverage may lag official SDKs.",
+        "summary": "Community MIT PHP client for Google Gemini (generate, chat, stream, embeddings). Last push January 2025; not an official Google SDK and not a CLI.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.78,
+        "qualityScore": 0.68,
         "riskScore": 0.18,
         "suggestedTags": [
           "php",
           "gemini",
           "sdk",
-          "generative-ai",
-          "composer"
+          "generative-ai"
         ],
         "evidence": [
-          "GitHub: 223 stars, 49 forks, MIT license, topics include php/sdk/gemini-api.",
+          "GitHub: PHP, MIT, ~224 stars, 19 issues, not archived.",
           "README documents composer require gemini-api-php/client and Client/GenerativeModel usage.",
-          "Source tree has Client, ChatSession, EmbeddingModel, request/response types, and tests/Unit."
+          "src/ covers Client, ChatSession, EmbeddingModel, requests/responses; tests/Unit present.",
+          "pushed_at 2025-01-31T15:33:12Z."
         ],
         "uncertainty": [
-          "Packagist download volume and current Composer version were not verified beyond README badges.",
-          "Whether the client still works against the latest Gemini REST surface after 2025-01-31 was not tested."
+          "Packagist download counts and latest tagged version not verified numerically.",
+          "Whether the client still works against current Gemini REST endpoints after 2025 API changes.",
+          "Issue/PR activity quality beyond open issue count."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:23:39.743Z",
+        "reviewedAt": "2026-10-28T19:20:19.051Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "SDKs",
         "tagline": "Unofficial PHP client for Google Gemini APIs",
-        "description": "Call Gemini generate, chat, stream, count tokens, list models, and embeddings from PHP via Composer.",
+        "description": "Call Gemini text, vision, chat, streaming, and embeddings from PHP via Composer with PSR-18 HTTP clients.",
         "pros": [
-          "MIT-licensed Composer package with PSR-18 HTTP client usage and documented generate, chat, stream, token-count, and list-models APIs.",
-          "Repository includes unit tests, phpunit/phpstan/php-cs-fixer config, and GitHub Actions for tests and code quality.",
-          "Supports multimodal ImagePart input, safety/generation config, beta system instructions, and injecting a custom HTTP client."
+          "MIT-licensed Composer package with generate, chat, streaming, token count, and embeddings APIs documented in README.",
+          "Includes unit tests, PHPStan, php-cs-fixer, and GitHub Actions for tests and code quality.",
+          "Uses PSR-18 HTTP clients rather than bundling a transport.",
+          "About 224 stars and 49 forks on GitHub."
         ],
         "cons": [
-          "Not developed or endorsed by Google; README still highlights older model names such as Gemini Pro and Gemini Pro Vision.",
-          "Default branch last pushed 2025-01-31, so newer Gemini API features may be missing.",
-          "HTTP client is not bundled; projects must supply a PSR-18 client or enable php-http/discovery."
+          "Repository last pushed 2025-01-31, so it may lag newer Gemini models and official APIs.",
+          "Not developed or endorsed by Google; model names in docs still emphasize Gemini Pro / Pro Vision.",
+          "Requires a separate PSR-18 HTTP client and a Google AI Studio API key."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "production",
-          "small team",
-          "solo founder"
+          "small team"
         ],
         "usage": {
-          "input": 2508,
-          "output": 658,
-          "cacheRead": 15104,
-          "totalTokens": 18270,
+          "input": 14321,
+          "output": 648,
+          "cacheRead": 5120,
+          "totalTokens": 20089,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1705,9 +1706,9 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-20T09:00:00.158Z",
       "aiReview": {
-        "summary": "MIT-licensed TypeScript/Bun terminal coding agent for the xAI Grok API with interactive OpenTUI, headless/CI modes, and documented tools for search, sub-agents, and scheduling. Strong GitHub-backed CLI fit for the list; last push mid-2026 and third-party (not xAI) affiliation should be noted.",
+        "summary": "MIT-licensed TypeScript/Bun terminal coding agent for the xAI Grok API, with interactive OpenTUI, headless/CI modes, MCP, sub-agents, and recent activity. Fits a CLI directory; community project, not official xAI software, and needs a paid API key.",
         "relevanceScore": 0.92,
-        "qualityScore": 0.84,
+        "qualityScore": 0.86,
         "riskScore": 0.28,
         "suggestedTags": [
           "cli",
@@ -1717,44 +1718,45 @@
           "terminal"
         ],
         "evidence": [
-          "GitHub facts: not archived, MIT, ~3385–3491 stars, topics include cli and coding-agent.",
-          "README describes grok TUI, grok --prompt, grok models, install.sh and bun add -g grok-dev.",
-          "Discovered repeatedly from milisp/awesome-grok curated README."
+          "GitHub: MIT, not archived, ~3500 stars, TypeScript, topics include cli and coding-agent.",
+          "README: grok, grok --prompt, grok models, bun add -g grok-dev, disclaimer not affiliated with xAI.",
+          "Repo has src/agent, src/grok, tests, CHANGELOG, release/typecheck/security workflows."
         ],
         "uncertainty": [
-          "Exact current npm download volume and issue-response health were not verified.",
-          "Security of curl|bash install.sh and Telegram remote-control pairing were not audited."
+          "Exact last-commit recency after 2026-07-06 and npm download volume.",
+          "Production reliability of Telegram remote control and agent-desktop automation."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:23:57.146Z",
+        "reviewedAt": "2026-10-28T19:22:37.399Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
         "tagline": "Terminal coding agent for the xAI Grok API",
-        "description": "Run an open-source Grok coding agent in the terminal with interactive TUI, headless prompts, sessions, and API-backed tools.",
+        "description": "Run an interactive or headless coding agent against the Grok API with tools, sub-agents, and batch/CI modes.",
         "pros": [
-          "MIT-licensed TypeScript project with CI, tests, and npm/bun install paths.",
-          "Documents interactive OpenTUI, headless --prompt, JSON output, sessions, and xAI Batch API usage.",
-          "Thousands of stars and hundreds of forks; listed on a curated awesome-grok README.",
-          "README clearly states it is community-built and not affiliated with xAI."
+          "MIT-licensed TypeScript CLI with tests, CI, security workflow, and npm package grok-dev.",
+          "Supports interactive OpenTUI, headless --prompt, JSON event output, sessions, and xAI Batch API.",
+          "Documents MCP, LSP, sub-agents, scheduling daemon, and Grok search/media tools.",
+          "Thousands of stars, hundreds of forks, and a push on 2026-07-06."
         ],
         "cons": [
-          "Requires a paid/quotad Grok API key; the CLI itself is not a standalone model.",
-          "Repository last push is dated 2026-07-06, several months before this review.",
-          "Interactive UI is limited to recommended modern terminals; desktop computer sub-agent is macOS-only."
+          "Community project, not affiliated with xAI; requires a Grok API key.",
+          "Interactive UI recommends specific modern terminals; computer sub-agent is macOS-only.",
+          "curl | bash installer and desktop/Telegram remote control increase operational caution."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "agentic coding",
           "solo founder",
+          "small team",
+          "agentic coding",
           "prototyping",
           "learning"
         ],
         "usage": {
-          "input": 2874,
-          "output": 613,
-          "cacheRead": 14336,
-          "totalTokens": 17823,
+          "input": 2928,
+          "output": 605,
+          "cacheRead": 15232,
+          "totalTokens": 18765,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3970,58 +3972,57 @@
       "createdAt": "2026-09-16T01:00:00.154Z",
       "updatedAt": "2026-10-20T09:00:00.158Z",
       "aiReview": {
-        "summary": "MIT TypeScript app that runs parallel coding-agent CLIs in a local tmux-backed browser grid with state coloring, worktrees, and Web Push. Fit for an awesome list of developer terminal tools; not a pure CLI.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.84,
-        "riskScore": 0.12,
+        "summary": "Local, MIT-licensed browser terminal grid for parallel coding-agent CLIs (Claude Code, Codex, and others), with tmux-backed sessions and cell state so you can see which agent is waiting. Fits a developer-tools directory as a maintained GitHub TypeScript app, not a generic article.",
+        "relevanceScore": 0.88,
+        "qualityScore": 0.82,
+        "riskScore": 0.18,
         "suggestedTags": [
           "terminal",
           "tmux",
-          "ai-agents",
           "claude-code",
-          "parallel-sessions"
+          "parallel-agents",
+          "git-worktree"
         ],
         "evidence": [
-          "GitHub description and README: parallel Claude Code/Codex sessions, local, tmux-backed, MIT.",
-          "README documents npx mulmoterminal@latest, Node ≥ 22.12, xterm.js over WebSocket, worktrees, Web Push.",
-          "Facts: not archived, MIT, default branch main, pushed 2026-09-13, topics include tmux, terminal, claude-code.",
-          "Repo includes CI, CONTRIBUTING.md, LICENSE, and localized READMEs."
+          "Repo description and README: parallel Claude Code/Codex sessions, local tmux-backed MIT.",
+          "Facts: not archived, MIT, ~213 stars/30 forks, topics include tmux, xterm-js, parallel-agents.",
+          "README: npx mulmoterminal@latest, Node ≥22.12, color-coded working/done/needs-you cells."
         ],
         "uncertainty": [
-          "Exact current star/fork counts vs facts snapshot.",
-          "Production reliability of agent-state detection and RemoteHost phone control without running the app.",
-          "Whether default-agent install/login friction is documented as fully as runtime features."
+          "Exact current star count vs facts snapshot",
+          "Security of default bind address and auth",
+          "Ongoing maintenance after 2026-09-13 push_at in facts"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:25:25.360Z",
+        "reviewedAt": "2026-10-28T19:49:26.997Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Tools",
-        "tagline": "Browser grid to triage parallel coding-agent terminals",
-        "description": "Run several coding-agent CLIs in a local tmux-backed browser grid, color-coded by who needs you, with worktrees and phone push.",
+        "suggestedCategory": "Apps",
+        "tagline": "Browser grid of parallel agent terminals with wait-state cue",
+        "description": "Run multiple coding-agent CLIs side by side in a local browser grid; cells show working, done, or needs-you, with tmux persistence.",
         "pros": [
-          "MIT-licensed TypeScript repo with CI workflows, issue templates, and multi-language READMEs.",
-          "Starts via npx on localhost, streams real PTYs with xterm.js, and uses tmux for session persistence.",
-          "Supports Claude Code plus several other agent CLIs, git worktrees, cost/token readouts, and Web Push.",
-          "Recent push activity and hundreds of stars indicate an actively maintained project."
+          "MIT-licensed GitHub repo with tests, docs, and recent activity.",
+          "npX launch of a local browser UI over real PTYs, defaulting to Claude Code with other agent CLIs supported.",
+          "Uses tmux when present so sessions survive reload; git worktrees isolate agent work.",
+          "Documented Node ≥22.12 requirement and init checks for missing CLIs."
         ],
         "cons": [
-          "Requires Node ≥ 22.12 and a separately installed, authenticated agent CLI on PATH.",
-          "Primary UI is a browser grid rather than a classic command-line interface.",
-          "Full feature set depends on tmux, git worktrees, and optional phone/RemoteHost pieces."
+          "Depends on Node 22+ and separately installed, logged-in agent CLIs.",
+          "Local web terminal exposing PTYs implies typical self-host exposure if bound beyond localhost.",
+          "Last recorded push in facts is 2026-09-13; star/fork counts are modest."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
           "solo founder",
-          "small team",
-          "prototyping"
+          "prototyping",
+          "small team"
         ],
         "usage": {
-          "input": 4267,
-          "output": 721,
-          "cacheRead": 9728,
-          "totalTokens": 14716,
+          "input": 7855,
+          "output": 475,
+          "cacheRead": 10624,
+          "totalTokens": 18954,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4371,55 +4372,55 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official Go CLI for SerpApi search, account, archive, and location endpoints, with Homebrew/binaries, jq filtering, and agent-oriented flags. Thin client over a paid search API; repo is MIT and recently pushed but has low stars.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.72,
-        "riskScore": 0.18,
+        "summary": "Official MIT-licensed Go CLI for querying SerpApi search engines from the terminal, with Homebrew/binaries, jq filtering, and agent-oriented flags. Useful as a maintained CLI, but it is a thin client over a billed commercial API and has low GitHub popularity.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.68,
+        "riskScore": 0.22,
         "suggestedTags": [
           "cli",
           "search-api",
           "go",
-          "jq",
+          "web-search",
           "agents"
         ],
         "evidence": [
-          "facts.readme: HTTP client for structured web search via SerpApi; MIT license; not archived; pushed_at 2026-09-03.",
-          "Install and command examples for search, --fields, --jq, --all-pages, login, and SERPAPI_KEY.",
-          "Official listing at serpapi.com/integrations/cli and github.com/serpapi/serpapi-cli."
+          "README documents serpapi search/login/account/locations/archive and MIT license in facts.",
+          "facts: stargazers_count 14, forks_count 4, archived false, pushed_at 2026-09-03.",
+          "Curated from VoltAgent/awesome-agent-skills README; pkg.go.dev shows module versions through v0.5.0."
         ],
         "uncertainty": [
-          "Exact current release cadence and issue health beyond pushed_at.",
-          "Whether default SerpApi plans remain required for all engines."
+          "Exact API pricing tiers and free-quota size not in the CLI README.",
+          "Release cadence and binary signing beyond README/releases links not fully audited."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:25:56.150Z",
+        "reviewedAt": "2026-10-28T19:50:22.939Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Command-line client for structured web search APIs",
-        "description": "Run search, account, location, and archive queries from the terminal with key=value params, jq filters, and pagination.",
+        "tagline": "Terminal client for structured search-engine API results",
+        "description": "Run Google and other engine searches from the shell with login, field/jq filters, pagination, and JSON errors for scripts and agents.",
         "pros": [
-          "README documents install via Homebrew, GitHub Releases, and go install.",
-          "Commands cover search, account, locations, archive, and login with documented auth precedence.",
-          "Supports server-side --fields, embedded --jq, pagination, timeouts, and JSON errors for agents."
+          "MIT Go CLI with Homebrew, GitHub Releases, and go install documented in the README.",
+          "Supports search, account, locations, archive, login, --fields, --jq, and pagination flags.",
+          "Last push recorded 2026-09-03 on an unarchived official serpapi GitHub repo."
         ],
         "cons": [
-          "Only 14 stars and 4 forks, so community traction is limited.",
-          "Useful output requires a SerpApi API key and billed searches.",
-          "No GitHub topics; utility is tightly coupled to one commercial API."
+          "Only 14 stars and 4 forks, so community adoption is limited.",
+          "Requires a billed SerpApi key; timed-out requests may still be charged.",
+          "No GitHub topics; usefulness depends on the commercial API, not standalone scraping."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
           "prototyping",
-          "production",
+          "solo founder",
           "small team"
         ],
         "usage": {
-          "input": 1164,
-          "output": 608,
-          "cacheRead": 8960,
-          "totalTokens": 10732,
+          "input": 1504,
+          "output": 432,
+          "cacheRead": 10624,
+          "totalTokens": 12560,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8199,10 +8200,10 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "MIT Claude Code skill that downloads YouTube videos, semantically chapters them, clips with FFmpeg, and can translate/burn bilingual subtitles. Useful for agentic media workflows, but it is a Claude skill plus yt-dlp rather than a standalone CLI, with a very small commit history.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.72,
-        "riskScore": 0.28,
+        "summary": "MIT-licensed Claude Code skill that downloads YouTube videos with yt-dlp, uses Claude for semantic chapters, then FFmpeg-clips and optionally burns bilingual subtitles. Useful for agent workflows; depends on YouTube downloads and local media tooling.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
+        "riskScore": 0.42,
         "suggestedTags": [
           "claude-code",
           "youtube",
@@ -8211,44 +8212,43 @@
           "subtitles"
         ],
         "evidence": [
-          "README describes Claude Code skill install, yt-dlp/FFmpeg pipeline, semantic chapters, bilingual subtitles, and social-media summaries.",
-          "Facts: MIT license, not archived, pushed_at 2026-01-22, ~2k stars and ~300 forks.",
-          "Listed repeatedly in VoltAgent/awesome-agent-skills curated README.",
-          "Public GitHub metadata reports only 2 commits on a repo created 2026-01-22."
+          "README title and install paths target Claude Code (~/.claude/skills/youtube-clipper).",
+          "Features list AI chapters, FFmpeg clipping, bilingual translation, subtitle burning, social summaries.",
+          "Facts: license MIT, archived false, stargazers_count 2221, forks_count 319, pushed_at 2026-01-22."
         ],
         "uncertainty": [
-          "Cannot verify runtime correctness, API cost of Claude translation, or ongoing maintenance beyond push date.",
-          "GitHub description is null and topics are empty."
+          "GitHub description is null and topics are empty.",
+          "Claimed 95% API-call reduction and translation quality were not independently verified.",
+          "Maintenance after January 2026 and runtime reliability of yt-dlp against YouTube were not checked."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:31:42.908Z",
+        "reviewedAt": "2026-10-28T19:58:23.896Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Apps",
-        "tagline": "Claude skill to clip YouTube videos with FFmpeg",
-        "description": "Install a Claude Code skill that downloads YouTube videos, builds semantic chapters, clips segments, and burns bilingual subtitles.",
+        "suggestedCategory": "Tools",
+        "tagline": "Claude skill to clip YouTube videos with bilingual subs",
+        "description": "Install as a Claude Code skill to download videos, split semantic chapters, clip with FFmpeg, translate subtitles, and burn them in.",
         "pros": [
-          "MIT-licensed GitHub repo with a detailed README covering install, requirements, config, and troubleshooting.",
-          "Workflow uses yt-dlp and FFmpeg for download and frame-accurate clipping, with optional bilingual SRT and burned-in subtitles.",
-          "Installs as a Claude Code skill via npx skills or a shell installer into ~/.claude/skills/youtube-clipper/.",
-          "High star and fork counts relative to a single-purpose agent skill."
+          "README documents install via npx skills or a script into ~/.claude/skills, plus Python, yt-dlp, and FFmpeg/libass requirements.",
+          "Workflow covers download, subtitle-based chapter analysis, clipping, bilingual SRT, optional burn-in, and social-post markdown output.",
+          "Repository is MIT-licensed, not archived, has substantial stars/forks, and was pushed as of 2026-01-22."
         ],
         "cons": [
-          "Depends on Claude Code, Python 3.8+, yt-dlp, and FFmpeg with libass rather than being a standalone CLI.",
-          "Repository shows only a handful of commits despite popularity, so long-term maintenance is hard to judge.",
-          "YouTube downloading via yt-dlp can conflict with platform terms and regional access."
+          "It is a Claude Code skill, not a standalone CLI, so it only fits users already in that environment.",
+          "Downloading and clipping YouTube content can conflict with YouTube terms and copyright.",
+          "Subtitle burning needs FFmpeg with libass; Homebrew ffmpeg without ffmpeg-full is called out as broken."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
-          "prototyping",
-          "solo founder"
+          "solo founder",
+          "prototyping"
         ],
         "usage": {
-          "input": 1432,
-          "output": 612,
-          "cacheRead": 9728,
-          "totalTokens": 11772,
+          "input": 11646,
+          "output": 923,
+          "cacheRead": 0,
+          "totalTokens": 12569,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8465,42 +8465,44 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Maintained MIT skill pack that teaches agents how to drive App Store Connect workflows through the unofficial `asc` CLI, including TestFlight, signing, metadata, and Apple Ads. Unofficial and not Apple-affiliated; some flows use browser login or experimental commands.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.8,
+        "summary": "MIT-licensed unofficial agent skill pack for the App Store Connect CLI, covering builds, TestFlight, metadata, signing, submissions, and Apple Ads; useful for agentic iOS release work, with experimental/browser-automation paths that need caution.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.82,
         "riskScore": 0.28,
         "suggestedTags": [
-          "agent-skills",
-          "app-store-connect",
           "cli",
+          "app-store-connect",
+          "agent-skills",
           "ios",
           "cicd"
         ],
         "evidence": [
-          "facts.readme lists install commands and many named skills (asc-cli-usage, asc-workflow, asc-release-flow, etc.).",
-          "GitHub facts: not archived, MIT, pushed_at 2026-10-05, stargazers_count 1064, forks_count 63.",
-          "Discovered from VoltAgent/awesome-agent-skills curated README."
+          "facts.readme lists install via `asc install-skills`, `npx skills add`, and Claude/Codex plugin commands.",
+          "GitHub facts: license mit, archived false, stargazers_count 1064, forks_count 63, pushed_at 2026-10-05.",
+          "Topics include agent-skills, app-store-connect, cli, cicd, ios, testflight."
         ],
         "uncertainty": [
-          "Skill file quality and accuracy versus live Apple APIs were not executed or audited.",
-          "Security of credential handling in agent plugins was not reviewed beyond README claims."
+          "Skill correctness versus current App Store Connect API behavior was not executed.",
+          "Maintenance quality of individual skill files beyond README was not audited.",
+          "Exact star/fork recency vs listing date beyond provided facts was not re-counted live."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:32:21.315Z",
+        "reviewedAt": "2026-10-28T20:04:02.223Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Agent skills for App Store Connect CLI shipping workflows",
-        "description": "Install Agent Skills that guide builds, TestFlight, metadata, signing, submissions, and Apple Ads via the unofficial asc CLI.",
+        "tagline": "Agent skills for App Store Connect CLI workflows",
+        "description": "Installable agent skills that drive App Store Connect CLI for builds, TestFlight, metadata, signing, submissions, and Apple Ads.",
         "pros": [
-          "README documents many focused skills covering usage, workflows, signing, metadata, screenshots, releases, and Ads.",
-          "MIT-licensed GitHub repo with recent activity, 1000+ stars, and install paths for asc, npx skills, Claude Code, and Codex.",
-          "States it is community-maintained and unofficial, with dry-run/confirm-oriented examples for mutating workflows."
+          "README documents many concrete skills (usage, workflows, signing, screenshots, release, ads) with install paths for Agent Skills, Claude Code, and Codex.",
+          "Repository is MIT-licensed, not archived, and was pushed as of 2026-10-05.",
+          "Has 1064 stars and 63 forks, with topics matching iOS/CLI/DevOps automation.",
+          "Discovered repeatedly from a curated agent-skills list."
         ],
         "cons": [
-          "Depends on a separate unofficial `asc` CLI and Apple credentials rather than being a standalone tool.",
-          "Includes browser-automation app creation and experimental distribute/screenshot framing flows.",
-          "Codex marketplace listing is incomplete; README directs a workaround installer."
+          "Unofficial community pack, not affiliated with Apple.",
+          "Depends on a separate `asc` CLI and includes experimental or browser-login flows.",
+          "Some skills perform or plan live mutations (ads, signing, submissions) if an agent follows them."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -8510,10 +8512,10 @@
           "prototyping"
         ],
         "usage": {
-          "input": 9539,
-          "output": 854,
-          "cacheRead": 512,
-          "totalTokens": 10905,
+          "input": 1792,
+          "output": 691,
+          "cacheRead": 11904,
+          "totalTokens": 14387,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8729,41 +8731,44 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Experimental MIT-licensed GitHub CLI for d1v.ai deploy, local runtime, and Codex/Claude skills; thorough README but very low adoption and a curl|bash installer.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.55,
-        "riskScore": 0.42,
+        "summary": "GitHub-backed MIT CLI for deploying and inspecting D1V projects, including agent skills and local runtime; experimental, very low stars, and last push is older than typical “hot” listings.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.58,
+        "riskScore": 0.38,
         "suggestedTags": [
           "cli",
           "deploy",
           "agent-skills",
-          "local-runtime"
+          "local-runtime",
+          "rust"
         ],
         "evidence": [
-          "GitHub facts: not archived, MIT, stargazers_count 4, forks_count 0, pushed_at 2026-08-29.",
-          "README describes d1v auth/deploy, local runtime pairing, d1v expose, and skills/d1v/SKILL.md.",
+          "GitHub description: Experimental CLI for d1v.ai; license mit; stargazers_count 4; forks_count 0; archived false.",
+          "README quick start: curl install, d1v auth login --browser, d1v --preview / --prod.",
+          "README covers skills/d1v/SKILL.md, local runtime (opcode-api), d1v expose, and privacy limitations.",
           "Discovered from VoltAgent/awesome-agent-skills curated README."
         ],
         "uncertainty": [
-          "Cannot verify binary provenance of https://d1v.ai/install/d1v-cli.sh or ongoing maintenance quality.",
-          "Platform pricing and production stability of d1v.ai are not in the repo facts."
+          "Cannot verify binary integrity of the remote installer or current npm/crate release quality.",
+          "Cannot verify d1v.ai cloud pricing or whether the CLI is usable without a paid account.",
+          "Activity after 2026-08-29 and real-world adoption are unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T04:32:34.582Z",
+        "reviewedAt": "2026-10-28T20:07:49.740Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
         "tagline": "Terminal deploy, inspect, and local runtime for D1V",
-        "description": "Deploy, inspect, and run D1V projects from the terminal with cloud or local runtimes and optional coding-agent skills.",
+        "description": "Install and auth from the shell, deploy preview or production, pair local runtimes, and install Codex/Claude Code skills.",
         "pros": [
-          "README documents install, auth, project resolution, local runtime, expose, and agent skill paths.",
-          "MIT license with brew, cargo binstall, and cargo install options besides the curl installer.",
-          "Includes a versioned skill for Codex and Claude Code with backup-on-replace behavior."
+          "README documents install via curl, brew, and cargo, plus auth, project, deploy, expose, and local-runtime commands.",
+          "MIT-licensed GitHub repo with bilingual README and a versioned coding-agent skill for Codex and Claude Code.",
+          "Describes project resolution from .env, environment, and .d1v/project.json, plus cloud vs local runtime behavior."
         ],
         "cons": [
-          "Repository is labeled experimental with only 4 stars and 0 forks.",
-          "Primary install path is curl piped to bash from d1v.ai.",
-          "Privacy notes state relay traffic is not zero-knowledge."
+          "Repo is labeled experimental, has 4 stars and 0 forks, and no GitHub topics.",
+          "Last push recorded 2026-08-29, so maintenance cadence is unclear.",
+          "Default install is curl | bash from d1v.ai; relay traffic is not zero-knowledge per the privacy notes."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -8772,10 +8777,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 9671,
-          "output": 654,
-          "cacheRead": 512,
-          "totalTokens": 10837,
+          "input": 6813,
+          "output": 644,
+          "cacheRead": 5120,
+          "totalTokens": 12577,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8991,57 +8996,57 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "GitHub MIT collection of agent skill files that teach coding agents to invoke other vendors’ CLIs in headless mode with a shared-state handoff. Small, recently pushed repo; curl|bash installer and unproven 24-agent coverage warrant a human check.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.58,
-        "riskScore": 0.38,
+        "summary": "MIT GitHub collection of agent skills that teach coding agents to invoke other vendors’ headless CLIs as subagents, with a documented context-handoff protocol. Small (11 stars) and installable via curl|bash, so fit for agentic CLI lists after a maintenance/security glance.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.55,
+        "riskScore": 0.35,
         "suggestedTags": [
           "cli",
           "multi-agent",
           "subagents",
-          "skills",
-          "agentic-coding"
+          "agent-skills",
+          "headless"
         ],
         "evidence": [
-          "facts.readme describes skills that call other agents via terminal headless mode and lists many vendor names.",
-          "facts.license is mit; facts.archived is false; facts.pushed_at is 2026-09-21.",
-          "facts.stargazers_count is 11; facts.forks_count is 2.",
-          "README install snippet: curl raw install.sh | bash."
+          "facts.readme describes skills that invoke other agents in headless terminal mode.",
+          "facts.license is mit; topics include cli, multi-agent, subagents.",
+          "stargazers_count 11, forks_count 2, pushed_at 2026-09-21, not archived.",
+          "Discovered repeatedly from VoltAgent/awesome-agent-skills curated README."
         ],
         "uncertainty": [
-          "Whether each listed vendor CLI actually works as documented.",
-          "Security review of install.sh contents.",
-          "Ongoing maintenance beyond a single recent push."
+          "Actual skill quality and whether all listed vendors work as claimed.",
+          "Ongoing maintenance after 2026-09-21.",
+          "Safety of install.sh contents beyond the README snippet."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T04:32:51.587Z",
+        "reviewedAt": "2026-10-28T20:08:59.682Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Tools",
-        "tagline": "Skill files so coding agents invoke other CLIs as subagents",
-        "description": "Install SKILL.md files that teach a main agent to run other vendors’ headless CLIs with goal, decisions, and scope on each call.",
+        "suggestedCategory": "Resources",
+        "tagline": "Cross-vendor skills to run coding agents as CLI subagents",
+        "description": "Install skills so a main coding agent can call other vendors’ headless CLIs, passing goal, decisions, and scope each run.",
         "pros": [
-          "MIT-licensed GitHub repo with a README describing headless CLI delegation and a listed set of vendor agents.",
-          "Documents a stateless handoff that injects goal, decisions, and scope into each subagent command.",
-          "Offers installer, agentic install prompt, and per-vendor skill folders with SKILL.md and reference.md.",
-          "Default branch was pushed as recently as 2026-09-21 and is not archived."
+          "README documents headless CLI delegation plus a shared-state handoff protocol.",
+          "Lists support for many coding agents and MIT licensing.",
+          "Installation options include a local install.sh and copying skill folders from skills/<vendor>/."
         ],
         "cons": [
-          "Only 11 stars and 2 forks, so maintenance and real-world coverage of 24 agents are weakly evidenced.",
-          "Primary install path pipes a remote install.sh into bash.",
-          "Effectiveness depends on each third-party agent’s headless CLI, which this repo does not implement."
+          "Repository has only 11 stars and 2 forks, so adoption is limited.",
+          "Primary installer is curl piped to bash from raw GitHub.",
+          "Effectiveness of each vendor skill and claimed 24-agent support is not independently verified here."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
           "solo founder",
-          "prototyping"
+          "prototyping",
+          "learning"
         ],
         "usage": {
-          "input": 7797,
-          "output": 818,
+          "input": 9686,
+          "output": 756,
           "cacheRead": 512,
-          "totalTokens": 9127,
+          "totalTokens": 10954,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -9438,58 +9443,58 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Maintained MIT-licensed CLI that reads and writes local CapCut/JianYing draft JSON without an official API; useful for editors and agents, with documented security fixes in 0.17.1/0.18.0.",
-        "relevanceScore": 0.86,
+        "summary": "Unofficial MIT-licensed Node CLI that creates and edits local CapCut/JianYing drafts (JSON in/out, no official API). Recently maintained GitHub project with agent-oriented commands; upgrade past 0.17.x is required due to documented security issues.",
+        "relevanceScore": 0.88,
         "qualityScore": 0.82,
-        "riskScore": 0.28,
+        "riskScore": 0.38,
         "suggestedTags": [
           "cli",
           "video-editing",
           "capcut",
-          "subtitles",
-          "automation"
+          "automation",
+          "agent-skills"
         ],
         "evidence": [
-          "facts.license mit; stargazers_count 850; forks_count 89; pushed_at 2026-10-09; archived false.",
-          "README describes npm/npx install, doctor/quickstart, inspect/edit/compile/render, --jianying, and Python wrapper.",
-          "README IMPORTANT note cites #59 and injection/temp-file fixes in 0.17.1 and 0.18.0.",
-          "sourceEvidence includes agarrharr/awesome-cli-apps and VoltAgent/awesome-agent-skills."
+          "facts.readme describes npm install -g capcut-cli, JSON draft store, and commands such as quickstart, info, compile, and caption.",
+          "Repository facts: not archived, MIT license, pushed_at 2026-10-09, ~850 stars, 89 forks.",
+          "Discovered from agarrharr/awesome-cli-apps and VoltAgent/awesome-agent-skills.",
+          "README IMPORTANT block cites fixture PII and command-injection issues fixed in 0.17.1/0.18.0."
         ],
         "uncertainty": [
-          "Runtime compatibility with every CapCut/JianYing desktop build is not independently verified.",
-          "Current npm package version versus README-advertised 0.29.0 was not fetched from the registry.",
-          "Whether remaining command-injection or draft-corruption paths exist after 0.18.0 was not audited here."
+          "Cannot independently verify desktop CapCut/JianYing compatibility across versions.",
+          "Current npm latest vs README-claimed 0.29.0 not re-checked at review time.",
+          "Whether remaining security issues exist after 0.18.0 was not audited here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T04:33:10.256Z",
+        "reviewedAt": "2026-10-28T20:12:16.950Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Edit CapCut/JianYing drafts from the terminal, no API",
-        "description": "Create and edit local CapCut and JianYing drafts via JSON, covering captions, timing, templates, and long-to-short cuts without a server.",
+        "tagline": "Edit local CapCut/JianYing drafts from the terminal",
+        "description": "Create and edit local CapCut and JianYing drafts from the CLI or agents, writing JSON drafts you can open in the apps.",
         "pros": [
-          "MIT-licensed GitHub project with recent pushes and a detailed command surface in the README.",
-          "Works on local draft_content.json / draft_info.json with no CapCut API, upload, or HTTP daemon.",
-          "Installs via npm or pip and lists optional Whisper, FFmpeg, and translation tooling.",
-          "Appears on curated CLI and agent-skill lists and documents past security issues plus upgrades."
+          "MIT-licensed GitHub CLI with npm/npx install and an optional Python wrapper.",
+          "Operates on local draft JSON rather than a CapCut API or hosted daemon.",
+          "Listed on curated CLI/agent skill lists and shows recent push activity and hundreds of stars.",
+          "Documents inspect, create, caption, compile, and related commands plus agent skill install paths."
         ],
         "cons": [
-          "Unofficial and unaffiliated with ByteDance; draft format compatibility can break with app updates.",
-          "Versions through 0.17.2 had identifier leakage and injection issues; users must stay on current releases.",
-          "Some features (render, caption, translate, Wasm sandbox) are optional, experimental, or depend on extra tools."
+          "Unofficial and not affiliated with ByteDance; draft-format compatibility can break with app updates.",
+          "Caption, render, and translate features need optional Whisper, FFmpeg, or an Anthropic API key.",
+          "README warns versions through 0.17.x had injection and unsanitized identifier issues, so older installs are unsafe."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "solo founder",
           "agentic coding",
           "prototyping",
+          "solo founder",
           "production"
         ],
         "usage": {
-          "input": 10182,
-          "output": 835,
-          "cacheRead": 512,
-          "totalTokens": 11529,
+          "input": 9058,
+          "output": 633,
+          "cacheRead": 5120,
+          "totalTokens": 14811,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -10721,8 +10726,8 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Maintained npm CLI for Firecrawl web scrape/search/crawl plus agent-skill and MCP setup. Requires Firecrawl cloud or a self-hosted API; LICENSE is unset on the repo.",
-        "relevanceScore": 0.9,
+        "summary": "Maintained GitHub CLI for web scrape, search, crawl, map, and agent jobs, plus optional skill/MCP install into coding agents. Fits an awesome CLI list; note missing license and that most features need a cloud API key (self-host URL is supported).",
+        "relevanceScore": 0.92,
         "qualityScore": 0.82,
         "riskScore": 0.28,
         "suggestedTags": [
@@ -10730,48 +10735,49 @@
           "web-scraping",
           "agents",
           "mcp",
-          "npm"
+          "search"
         ],
         "evidence": [
-          "facts.readme: npm install -g firecrawl-cli; firecrawl scrape/search/setup skills/mcp.",
-          "facts: archived false, pushed_at 2026-10-09, stargazers_count 645, forks_count 113, license null.",
-          "Discovered from heilcheng/awesome-agent-skills as firecrawl-search."
+          "README documents npm i -g firecrawl-cli, scrape/search/crawl commands, skill groups, and MCP setup.",
+          "facts.pushed_at 2026-10-09, archived false, stargazers_count 645, forks_count 113.",
+          "facts.license is null; authentication and FIRECRAWL_API_KEY are required for the default API host."
         ],
         "uncertainty": [
-          "Exact OSS license text is not in GitHub license field.",
-          "Firecrawl cloud pricing and rate limits are not in the excerpt.",
-          "Runtime security of curl install.sh and global skill install was not audited."
+          "Exact npm package license and CLI source license terms.",
+          "Current Firecrawl API pricing tiers and rate limits.",
+          "Runtime security of install.sh and global skill injection into third-party editors."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-13T05:41:12.803Z",
+        "reviewedAt": "2026-10-28T20:14:37.833Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Terminal scrape, search, crawl, and agent-skill setup",
-        "description": "Install a global CLI to scrape, search, crawl, and map the web, plus skills and MCP for coding agents. Auth via API key or browser.",
+        "tagline": "Terminal scrape, search, crawl, and agent web jobs",
+        "description": "Scrape, search, crawl, and run agent jobs from the terminal; install coding-agent skills and MCP, with browser or API-key auth.",
         "pros": [
-          "README documents scrape, search, crawl, map, interact, auth, and self-hosted --api-url usage.",
-          "Repo is not archived and was pushed recently, with hundreds of stars and forks.",
-          "Supports installing agent skills, workflows, and MCP into several coding harnesses.",
-          "Local or custom API URL skips cloud auth so self-hosted instances can be used."
+          "npm-installable CLI with documented scrape, search, crawl, map, interact, and agent commands.",
+          "Supports browser login, API key, FIRECRAWL_API_KEY, and custom --api-url for local or self-hosted instances.",
+          "Recently pushed GitHub repo (645 stars, 113 forks) with a detailed README covering options, formats, and agent harness setup.",
+          "Discovered from a curated agent-skills list rather than a generic blog roundup."
         ],
         "cons": [
-          "GitHub license metadata is null.",
-          "Cloud usage needs a Firecrawl account or API key; init can open a browser and install skills into every detected agent.",
-          "setup defaults can disable native web fetch/search in supported agents."
+          "Repository license is unset in GitHub metadata.",
+          "Cloud usage requires account authentication; remote install.sh piped to bash is documented.",
+          "Init/setup can install skills globally across detected editors and optionally replace native web fetch/search."
         ],
         "pricingModel": "freemium",
         "bestFor": [
           "agentic coding",
           "prototyping",
           "solo founder",
-          "small team"
+          "small team",
+          "production"
         ],
         "usage": {
-          "input": 4599,
-          "output": 793,
+          "input": 6262,
+          "output": 991,
           "cacheRead": 5120,
-          "totalTokens": 10512,
+          "totalTokens": 12373,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -10981,48 +10987,52 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "MIT-licensed npm WebRTC client for Simli avatars with a short method/event list and a link to vendor docs. Thin README, few stars, and it is a product SDK rather than a general CLI or learning resource.",
-        "relevanceScore": 0.45,
+        "summary": "MIT-licensed npm WebRTC browser client for Simli talking avatars; thin README, 7 stars, and it is an SDK not a CLI, so it is a weak match for a command-line tooling list.",
+        "relevanceScore": 0.28,
         "qualityScore": 0.42,
-        "riskScore": 0.22,
+        "riskScore": 0.18,
         "suggestedTags": [
           "webrtc",
           "javascript",
           "npm",
           "avatar",
-          "audio"
+          "streaming"
         ],
         "evidence": [
-          "facts.readme lists npm install simli-client and methods Initialize/start/close/sendAudioData/listenToMediastreamTrack/ClearBuffer plus connected/disconnected/failed events.",
-          "facts: mit license, archived false, stargazers_count 7, forks_count 8, pushed_at 2026-06-18.",
-          "Discovered from backblaze-labs/awesome-video-generation as a JavaScript entry, not a CLI."
+          "facts.readme: npm install simli-client and WebRTC methods/events",
+          "stargazers_count 7, forks_count 8, license mit, archived false",
+          "Listed as JavaScript in backblaze-labs/awesome-video-generation",
+          "npm package 3.0.1 with docs.simli.com JavaScript SDK"
         ],
         "uncertainty": [
-          "Cannot verify npm package quality, TypeScript types, or runtime stability from the excerpt alone.",
-          "Simli hosted API pricing and auth requirements are not in the repo facts."
+          "Whether the Simli backend is free or paid",
+          "Maintenance quality beyond last push date",
+          "Runtime browser compatibility details"
         ],
-        "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T10:32:04.700Z",
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T20:15:21.925Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "SDKs",
-        "tagline": "npm WebRTC client for live avatar audio streaming",
-        "description": "Install via npm to init, start, and close a WebRTC session, send audio or MediaStreamTrack data, and handle connection events.",
+        "tagline": "Browser WebRTC client for lip-synced avatar streaming",
+        "description": "Install via npm to initialize WebRTC, send audio or MediaStream tracks, and drive a talking avatar with connect events.",
         "pros": [
-          "README documents install, core methods, events, and a link to the setup guide.",
-          "Repository is MIT-licensed, not archived, and has a recent push on the default branch.",
-          "API surface covers initialize, start/close, audio send, MediaStreamTrack listen, and buffer clear."
+          "Published as simli-client on npm with MIT license.",
+          "README lists Initialize, start, close, sendAudioData, listenToMediastreamTrack, and ClearBuffer plus connected/disconnected/failed events.",
+          "Official setup docs exist at docs.simli.com.",
+          "Repository is not archived and was pushed as recently as 2026-06-18."
         ],
         "cons": [
-          "Very small community signal (single-digit stars) and no GitHub topics.",
-          "README is minimal and defers setup to an external vendor docs site.",
-          "Client is tied to a commercial Simli backend rather than a standalone tool."
+          "Only 7 stars and 8 forks, with an empty topics list.",
+          "README is a short method list without examples or error handling.",
+          "Requires the vendor streaming API, so the library is not a standalone tool.",
+          "Not a command-line or terminal utility."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -11030,10 +11040,10 @@
           "small team"
         ],
         "usage": {
-          "input": 6890,
-          "output": 745,
-          "cacheRead": 512,
-          "totalTokens": 8147,
+          "input": 1422,
+          "output": 499,
+          "cacheRead": 8832,
+          "totalTokens": 10753,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -11360,10 +11370,10 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "MIT-licensed Agent Skill that dispatches coding tasks to Cline CLI, monitors git/test evidence, and logs per-project preferences. Fits agentic-coding directories; it is a skill pack plus a small Python monitor, not a standalone CLI product.",
+        "summary": "MIT-licensed Agent Skill that dispatches coding tasks to Cline CLI, monitors session files plus git/test evidence, and relays decisions in a fixed format. Suitable for agentic workflows; it is a skill package plus a small Python monitor, not a standalone general-purpose CLI.",
         "relevanceScore": 0.78,
         "qualityScore": 0.82,
-        "riskScore": 0.15,
+        "riskScore": 0.12,
         "suggestedTags": [
           "agent-skills",
           "cline",
@@ -11371,33 +11381,30 @@
           "coding-agents"
         ],
         "evidence": [
-          "GitHub facts: not archived, MIT, pushed_at 2026-10-03, 102 stars, 3 forks.",
-          "README describes dispatch → Cline run → session/git/test monitoring → 4-part decision relay → 6-item checklist.",
-          "Layout lists SKILL.md, scripts/session_report.py, and references templates.",
-          "Discovered repeatedly from sickn33/antigravity-awesome-skills curated README."
+          "GitHub: MIT, archived false, stars 102, forks 3, pushed_at 2026-10-03.",
+          "README describes dispatch, interactive/non-interactive Cline runs, 4-part decision relay, 6-item checklist, and scripts/session_report.py.",
+          "Appears on curated awesome-agent-skills lists; topics include agent-skill, cline-cli, orchestration."
         ],
         "uncertainty": [
-          "Runtime quality of SKILL.md prompts and preference distillation is unverified.",
-          "Whether session_report.py works across all Cline session formats is unverified.",
-          "Security of executing the skill inside arbitrary agent environments was not audited."
+          "Runtime quality of Cline orchestration and preference learning was not executed here.",
+          "Maintenance beyond the last push date and issue/PR health were not inspected."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:36:03.249Z",
+        "reviewedAt": "2026-10-28T20:19:46.578Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Proxy Cline CLI tasks with evidence-based checks",
-        "description": "Dispatch coding tasks to Cline CLI, monitor session files and git/test evidence, and relay decisions in a fixed format while learning project preferences.",
+        "tagline": "Proxy Cline CLI tasks with evidence-based monitoring",
+        "description": "Dispatch coding tasks to Cline CLI, monitor git and test evidence, relay decisions, and learn per-project preferences via the Agent Skills spec.",
         "pros": [
-          "README documents install paths for Hermes, Cline, Claude Code, and Codex and follows the Agent Skills specification.",
-          "Includes a stdlib-only session_report.py monitor and example templates for local config, profiles, and decision logs.",
-          "MIT license, recent push on main, and an explicit does/does-not table for hard constraints such as push, delete, and spend.",
-          "Private user state is described as git-ignored; public skill files are intended to hold no secrets."
+          "README documents a clear does/does-not split, install via npx skills or copy, and a stdlib-only session_report.py monitor.",
+          "Follows the Agent Skills open specification and lists compatible agents.",
+          "MIT license, not archived, with recent push activity and bilingual README.",
+          "Private local config and decision logs are described as git-ignored templates."
         ],
         "cons": [
-          "Depends on Cline CLI and a host agent that loads Agent Skills; it is not a general-purpose terminal utility.",
-          "Star and fork counts are modest, so community adoption is still limited.",
-          "Effectiveness of preference learning and checklist verification cannot be judged from the README alone."
+          "Depends on Cline CLI and an Agent Skills-compatible host; it is not a standalone terminal utility.",
+          "Star and fork counts are modest, so community adoption is still limited."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -11407,10 +11414,10 @@
           "learning"
         ],
         "usage": {
-          "input": 8745,
-          "output": 919,
-          "cacheRead": 512,
-          "totalTokens": 10176,
+          "input": 7000,
+          "output": 834,
+          "cacheRead": 5120,
+          "totalTokens": 12954,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -11967,55 +11974,57 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Maintained Apache-2.0 GitHub CLI that installs a local MCP bridge so coding agents can discover, inspect, and run a large catalog of models and data APIs after OAuth. Fits CLI/agent directories; model usage is billed while discovery and many data APIs are free.",
-        "relevanceScore": 0.92,
-        "qualityScore": 0.84,
-        "riskScore": 0.28,
+        "summary": "GitHub-backed CLI and local MCP bridge that connects multiple AI coding clients to a large catalog of models and data APIs, with OAuth, inspect-before-run pricing, and rollback. Models are billed through SandBase while data APIs are described as free.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.78,
+        "riskScore": 0.22,
         "suggestedTags": [
           "cli",
           "mcp",
           "ai-agents",
-          "model-gateway",
-          "oauth"
+          "llm-gateway"
         ],
         "evidence": [
-          "GitHub metadata: apache-2.0, not archived, pushed 2026-10-11, 188 stars, 17 forks.",
-          "README covers npx/Homebrew connect, MCP registry listing, 25-client catalog, free data APIs vs paid models.",
-          "Appears in multiple curated awesome READMEs (Codex CLI, Gemini CLI, agent skills)."
+          "facts.license apache-2.0; not archived; topics include cli and mcp-server",
+          "readme: npx @sandbaseai/cli connect, brew install, catalog --json, MCP registry badge",
+          "readme pricing table: data APIs free; models paid per call/tokens",
+          "stargazers_count 188, forks_count 17, discovered on curated awesome lists"
         ],
         "uncertainty": [
-          "Cannot independently verify the 2,000+ model/API count or all 25 client integrations.",
-          "Live pricing, OAuth security posture, and long-term maintenance beyond recent push are not audited here."
+          "Exact count of 25 clients and 2,000+ models not independently verified",
+          "OAuth/security posture of the remote API not audited from this snapshot",
+          "Current release freshness beyond pushed_at 2026-10-11"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:36:37.600Z",
+        "reviewedAt": "2026-10-28T20:20:09.294Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Local MCP CLI bridging agents to thousands of APIs",
-        "description": "Install a local MCP server that connects coding agents to a large model and data-API catalog, with inspect-before-run pricing and rollback.",
+        "tagline": "CLI MCP bridge from coding agents to 2,000+ APIs",
+        "description": "Connects coding agents via a local MCP server to thousands of models and data APIs, with OAuth, catalog inspect, and rollback.",
         "pros": [
           "Apache-2.0 GitHub repo with CI, releases, Homebrew, and npx install paths.",
-          "Documents a local MCP bridge for many AI coding clients plus a read-only catalog command.",
-          "Inspect-before-run pricing, SHA-256 release artifacts, and rollback/doctor checks are described in the README."
+          "Documents a local MCP bridge for many AI clients plus read-only catalog and doctor checks.",
+          "Inspect-before-run pricing and SHA-256 release tarballs are documented.",
+          "Listed in the official MCP Registry and multiple curated CLI lists."
         ],
         "cons": [
-          "Model, image, video, and audio calls are paid; the CLI depends on a remote catalog and account.",
-          "Setup requires a browser OAuth sign-in and client configuration rather than a fully offline tool."
+          "Paid model usage depends on the SandBase commercial API, not only the open-source CLI.",
+          "Star and fork counts are modest relative to the marketing claims.",
+          "Last documented push is 2026-10-11, so ongoing cadence is not fully verified here."
         ],
         "pricingModel": "freemium",
         "bestFor": [
           "agentic coding",
           "solo founder",
-          "small team",
           "prototyping",
-          "production"
+          "small team"
         ],
         "usage": {
-          "input": 11428,
-          "output": 654,
-          "cacheRead": 512,
-          "totalTokens": 12594,
+          "input": 11090,
+          "output": 574,
+          "cacheRead": 5120,
+          "totalTokens": 16784,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12232,44 +12241,44 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official Node.js CLI (mmx-cli) for MiniMax APIs: text, image, video, speech, vision, and search from the terminal or agents. Needs a MiniMax token plan; GitHub license metadata is unset despite an MIT badge.",
-        "relevanceScore": 0.92,
-        "qualityScore": 0.86,
+        "summary": "Official Node.js CLI (mmx-cli) for MiniMax platform APIs: text, image, video, speech, vision, and search, plus agent setup. Useful if you already use MiniMax; generation requires a paid Token Plan and Node 18+.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.82,
         "riskScore": 0.22,
         "suggestedTags": [
           "cli",
           "ai",
           "multimodal",
-          "nodejs",
+          "npm",
           "agents"
         ],
         "evidence": [
-          "README: official CLI, npm mmx-cli, MIT badge, Node >=18, feature list and command examples.",
-          "Repo facts: not archived, not a fork, 2183 stars, 190 forks, pushed_at 2026-10-12.",
-          "README states Token Plan is required and documents dual-region endpoints."
+          "README: official CLI, npm mmx-cli, Node >= 18, MIT badge, Token Plan required.",
+          "Facts: not archived, default_branch main, stargazers_count 2183, forks_count 190, pushed_at 2026-10-12.",
+          "README documents mmx auth, text/image/video/speech/vision/search, dual region, and mmx agent setup."
         ],
         "uncertainty": [
-          "SPDX/license file presence versus null GitHub license API field.",
-          "Exact commercial API pricing and rate limits.",
-          "Security of OAuth tokens stored in ~/.mmx/config.json not independently audited."
+          "SPDX license not detected on GitHub (license: null).",
+          "npm weekly downloads and vulnerability status not verified from live npm metadata in this review.",
+          "API pricing and model availability beyond README notes were not independently audited."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:38:49.827Z",
+        "reviewedAt": "2026-10-28T20:21:40.216Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Terminal and agent CLI for multimodal generation APIs",
-        "description": "Call text, image, video, speech, vision, and search from the terminal or agents, with OAuth/API-key auth and dual-region support.",
+        "tagline": "Terminal CLI for multimodal generation and agent setup",
+        "description": "Generate text, images, video, and speech from the terminal or agents, with OAuth/API-key auth and dual-region endpoints.",
         "pros": [
-          "Official GitHub CLI with recent activity (pushed 2026-10-12) and ~2.1k stars.",
-          "Documents concrete commands for chat, image, video, TTS/STT, vision, search, auth, quota, and agent setup.",
-          "Published on npm as mmx-cli; Node 18+; agent install via npx skills add.",
-          "Supports Global and CN API regions plus OAuth (RFC 8628) or API keys."
+          "Documented commands cover text, image, video, speech (TTS/STT), vision, search, auth, quota, and agent setup.",
+          "Published on npm as mmx-cli, requires Node.js 18+, and README shows MIT.",
+          "Repository is active (pushed 2026-10-12) with about 2.2k stars and 190 forks.",
+          "Supports Global and CN API regions, OAuth device flow, and non-interactive API-key login."
         ],
         "cons": [
-          "API usage requires a MiniMax Token Plan; the CLI is not a standalone local model.",
-          "GitHub license field is null even though the README badges MIT.",
-          "Default preview text models may require specific subscription tiers."
+          "Platform generation requires a MiniMax Token Plan; the CLI is not a standalone model runtime.",
+          "GitHub metadata reports license as null despite the MIT badge in the README.",
+          "Default preview text models may require specific subscription plans rather than pay-as-you-go keys."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -12279,10 +12288,10 @@
           "small team"
         ],
         "usage": {
-          "input": 1367,
-          "output": 487,
-          "cacheRead": 10496,
-          "totalTokens": 12350,
+          "input": 1494,
+          "output": 724,
+          "cacheRead": 12032,
+          "totalTokens": 14250,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12498,44 +12507,43 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official MIT-licensed Go CLI that maps HasData’s paid scraping/SERP APIs to subcommands with JSON-friendly scripting. Useful for agent/RAG shell workflows, but it is a thin client over a commercial key-gated service with little GitHub traction.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.72,
-        "riskScore": 0.38,
+        "summary": "Official MIT-licensed Go CLI that maps HasData’s paid scraping/SERP APIs to subcommands with JSON output, checksummed installs, and agent-oriented scripting. Thin wrapper around a commercial API (API key required); repo is small (few stars) but recently maintained.",
+        "relevanceScore": 0.86,
+        "qualityScore": 0.68,
+        "riskScore": 0.32,
         "suggestedTags": [
           "cli",
           "web-scraping",
           "serp",
-          "json",
-          "agents"
+          "go",
+          "llm-agents"
         ],
         "evidence": [
-          "facts.readme: official CLI, static binary, HASDATA_API_KEY, google-serp/web-scraping/amazon/zillow examples.",
-          "facts.license mit; stargazers_count 7; forks_count 0; archived false; pushed_at 2026-10-09.",
-          "topics include serp-api, web-scraping, amazon/zillow/indeed scrapers."
+          "README: static binary, HASDATA_API_KEY, google-serp/web-scraping/amazon/zillow examples, MIT license.",
+          "GitHub facts: not archived, MIT, pushed 2026-10-09, 7 stars, 0 forks, Go generate from api.hasdata.com.",
+          "install.sh described as SHA-256 verified against checksums.txt."
         ],
         "uncertainty": [
-          "Cannot verify binary releases, checksums, or generator GitHub Action from provided facts alone.",
-          "HasData dashboard pricing, rate limits, and ToS compliance of wrapped sites not verified.",
-          "Runtime quality and API stability not independently tested."
+          "HasData API pricing, free-tier existence, and ToS of scraped sites.",
+          "Binary supply-chain and install.sh contents not independently audited here.",
+          "Real-world reliability, rate limits, and issue-tracker activity beyond README claims."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-15T10:34:46.105Z",
+        "reviewedAt": "2026-10-28T20:23:36.380Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Static binary for SERP, scrape, and marketplace APIs",
-        "description": "Call Google SERP, Amazon, Zillow, and web-scrape endpoints from a static binary; pipe JSON to jq, agents, or RAG jobs.",
+        "tagline": "Terminal client for SERP, scrape, and marketplace APIs",
+        "description": "Call SERP, Maps, Amazon, Zillow, and web-scrape APIs from a static binary; pipe JSON into scripts, agents, or RAG jobs.",
         "pros": [
-          "README documents install, config precedence, exit codes, completions, and many API subcommands.",
-          "MIT-licensed Go CLI with install.sh SHA-256 checks, go install, and generated commands from a live API schema.",
-          "Designed for piping JSON into jq, cron/RAG loops, and LLM tool wrappers.",
-          "Repository is not archived and was pushed recently (2026-10-09)."
+          "Official Go CLI exposing HasData APIs as subcommands with JSON stdout, exit codes, and shell completion.",
+          "Install options include checksum-verified install.sh, GitHub Releases, and go install; MIT license.",
+          "README documents agent/RAG usage, flag patterns, and schema-generated commands kept in sync via GitHub Actions."
         ],
         "cons": [
-          "Requires a paid HasData API key; the CLI does not provide data without that service.",
-          "Only 7 stars and 0 forks, so community adoption is unproven.",
-          "Default install is curl-pipe-to-sh; APIs wrap third-party scraping that may conflict with site terms."
+          "Requires a HasData API key; the CLI itself does not provide data without the paid/commercial service.",
+          "Very low GitHub traction (single-digit stars, no forks).",
+          "curl|sh install and third-party scraping APIs may conflict with target-site terms of use."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -12545,10 +12553,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 9982,
-          "output": 871,
-          "cacheRead": 512,
-          "totalTokens": 11365,
+          "input": 6760,
+          "output": 902,
+          "cacheRead": 5120,
+          "totalTokens": 12782,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12764,10 +12772,10 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "GitHub-backed agent skill that documents installing and using the RunAPI CLI for one-off model jobs; thin companion to a commercial CLI, not a standalone terminal app.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.58,
-        "riskScore": 0.22,
+        "summary": "Apache-2.0 GitHub skill that teaches coding agents to install and drive the RunAPI CLI for one-off model jobs. It is documentation for a commercial multi-model CLI, not a standalone terminal utility, and has very little community traction.",
+        "relevanceScore": 0.52,
+        "qualityScore": 0.48,
+        "riskScore": 0.28,
         "suggestedTags": [
           "cli",
           "agent-skills",
@@ -12775,42 +12783,41 @@
           "runapi"
         ],
         "evidence": [
-          "facts.readme: skills/runapi-cli/SKILL.md, npx skills add, brew/curl CLI install.",
-          "license apache-2.0; stargazers_count 2; forks_count 0; not archived.",
-          "Discovered from curated_readme sickn33/antigravity-awesome-skills."
+          "GitHub description and README: skill for Claude Code, Codex, Gemini CLI, Cursor, and other agents.",
+          "facts.license apache-2.0; stargazers_count 2; forks_count 0; archived false.",
+          "README examples: runapi suno/kling/files/listen; npx skills add runapi-ai/cli-skill -g."
         ],
         "uncertainty": [
-          "Cannot verify CLI maintenance quality, model coverage, or commercial pricing from this skill repo alone.",
-          "Cannot verify '50+ agents' compatibility."
+          "Cannot verify SKILL.md completeness, CLI binary quality, or runapi.ai pricing from this repo alone.",
+          "\"50+ agents\" claim is marketing copy, not independently verified."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-15T10:34:57.074Z",
+        "reviewedAt": "2026-10-28T20:23:49.173Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Agent skill for installing and driving a model CLI",
-        "description": "Teaches coding agents to install and run a unified CLI for model APIs, files, async tasks, and local callbacks.",
+        "tagline": "Agent skill for a multi-model CLI client",
+        "description": "Install a SKILL.md so agents can run a single binary for model jobs, files, async waits, and local webhook listeners.",
         "pros": [
-          "Apache-2.0 skill repo with SKILL.md and install paths for Claude Code, Codex, and similar agents.",
-          "README includes concrete CLI examples, listener/auth rules, and agent safety notes (no pasting keys).",
-          "Points to a separate CLI repo, brew/curl install, and official docs."
+          "README documents brew/curl CLI install, skill install via npx skills, and agent copy paths.",
+          "Covers auth, JSON I/O, async wait, files, and local callback listener rules for agents.",
+          "Licensed Apache-2.0 with a canonical skills/runapi-cli/SKILL.md path."
         ],
         "cons": [
-          "This listing is a skill wrapper, not the CLI itself; 2 stars and 0 forks.",
-          "Last push is 2026-07-28; usage depends on the paid/hosted RunAPI service and binary.",
-          "Claims of 50+ agents are marketing language without independent verification here."
+          "This repository is an agent skill, not the CLI implementation (linked separately).",
+          "Only 2 stars and 0 forks; last push dated 2026-07-28.",
+          "Install path includes piping a remote install.sh to sh; the underlying service is a commercial API."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
-          "prototyping",
-          "solo founder"
+          "prototyping"
         ],
         "usage": {
-          "input": 9438,
-          "output": 518,
-          "cacheRead": 512,
-          "totalTokens": 10468,
+          "input": 6248,
+          "output": 762,
+          "cacheRead": 5120,
+          "totalTokens": 12130,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

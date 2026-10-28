@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-codex",
   "items": [
     {
@@ -847,43 +847,43 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Third-party Claude Code skill plus CLI that talks to OpenAI Codex over the app-server JSON-RPC protocol for tasks, reviews, and two-way peer messaging. Relevant to Codex users, but not official OpenAI tooling and needs a human check of install/update paths.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.74,
-        "riskScore": 0.34,
+        "summary": "Community Claude Code skill that drives OpenAI Codex over JSON-RPC (threads, reviews, approvals, peer messaging). Relevant Codex tooling, but unofficial, modest stars, and last push mid-August 2026.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.72,
+        "riskScore": 0.28,
         "suggestedTags": [
           "codex",
           "claude-code",
+          "skill",
           "cli",
-          "json-rpc",
-          "code-review"
+          "json-rpc"
         ],
         "evidence": [
-          "Repo description and README: Claude Code skill driving Codex app-server JSON-RPC.",
-          "Topics include codex, claude-code, claude-skills; license MIT; ~95 stars; not archived.",
-          "Install requires Bun >= 1.0 and @openai/codex on PATH; last push 2026-08-13."
+          "README describes a Claude Code skill using Codex app-server JSON-RPC over stdio.",
+          "GitHub: MIT, not archived, topics include claude-code, claude-skills, codex.",
+          "stargazers_count 95; pushed_at 2026-08-13T03:40:04.000Z."
         ],
         "uncertainty": [
-          "Runtime security of the installer, broker, and auto-approval/Guardian paths was not audited.",
-          "Compatibility with current Codex app-server protocol versions is unverified.",
-          "Maintenance beyond the stated last push date is unknown."
+          "Runtime quality against current Codex CLI/app-server protocol versions.",
+          "Security of install scripts writing outside the repo.",
+          "Maintenance cadence after August 2026."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T11:48:05.548Z",
+        "reviewedAt": "2026-10-28T20:05:21.314Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
         "tagline": "Drive Codex from Claude Code via JSON-RPC",
-        "description": "Install a Claude Code skill and CLI that runs Codex tasks, reviews, threads, and peer messaging over stdio JSON-RPC.",
+        "description": "Claude Code skill that runs Codex over stdio JSON-RPC for tasks, reviews, thread resume, and peer messaging without leaving the session.",
         "pros": [
-          "README documents JSON-RPC stdio integration, thread resume, review in a read-only sandbox, and approval policies.",
-          "MIT-licensed GitHub repo with install scripts for Linux, macOS, and Windows plus a health check.",
-          "CLI surface covers run, review, follow, peer messaging, ask/answer, and self-update with confirmation."
+          "Documented install for Linux, macOS, and Windows with Bun and Codex CLI as dependencies.",
+          "Exposes a CLI for run, review, threads, follow, approvals, health, and self-update.",
+          "MIT-licensed GitHub repo with bilingual README and explicit JSON-RPC/app-server integration details."
         ],
         "cons": [
-          "Not an official OpenAI or developers.openai.com Codex project.",
-          "Requires Bun, global Codex CLI, and writing into ~/.claude/skills and PATH shims.",
-          "Modest stars and a third-party installer/update path that can overwrite the installed skill bundle."
+          "Not an official OpenAI Codex project; third-party Claude Code skill.",
+          "Only 95 stars and 8 forks; last push 2026-08-13.",
+          "Requires writing into ~/.claude/skills and ~/.local/bin, so install trust is non-trivial."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -893,10 +893,10 @@
           "small team"
         ],
         "usage": {
-          "input": 9407,
-          "output": 711,
-          "cacheRead": 512,
-          "totalTokens": 10630,
+          "input": 6605,
+          "output": 579,
+          "cacheRead": 5120,
+          "totalTokens": 12304,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1293,46 +1293,43 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Community Codex plugin that adds inspect-first, evidence-gated goals and findings workflows via @codex-fable5. Installable with Codex plugin marketplace commands, versioned releases, and local CLI helpers; not official OpenAI tooling.",
+        "summary": "Community Codex plugin/skill that installs via `codex plugin` and adds inspect-first planning, local goal/findings ledgers, and a findings gate. Strong Codex relevance and docs, but it is not official OpenAI tooling and last push is older than current listing activity.",
         "relevanceScore": 0.88,
-        "qualityScore": 0.82,
-        "riskScore": 0.22,
+        "qualityScore": 0.78,
+        "riskScore": 0.28,
         "suggestedTags": [
           "codex",
-          "plugin",
           "skills",
           "workflow",
+          "plugins",
           "agentic-coding"
         ],
         "evidence": [
-          "README: Evidence-based workflow gates for Codex; codex plugin marketplace add baskduf/FableCodex --ref v0.5.1; plugin add codex-fable5@fablecodex.",
-          "GitHub facts: 437 stars, 58 forks, license agpl-3.0, not archived, topics include codex and skills.",
-          "README describes .codex-fable5/goals.json, findings.json, ledger.jsonl and findings gate CLI.",
-          "Disclaimer that it does not clone/unlock/replace Fable 5; source notes cite adapted workflow ideas."
+          "facts.readme: Codex Skill badge, plugin install commands, skill workflow steps, `.codex-fable5/` local state, command table.",
+          "facts: license agpl-3.0, not archived, 437 stars, 58 forks, topics include codex and skills.",
+          "Source listings in VoltAgent/awesome-agent-skills and sickn33/antigravity-awesome-skills with mismatched listing name baskduf/codex-fable5 vs repo fablecodex."
         ],
         "uncertainty": [
-          "Cannot verify current CI status or code quality beyond README claims.",
-          "Cannot verify plugin compatibility with latest official Codex CLI.",
-          "Cannot independently verify contributor activity after 2026-07-26 push_at."
+          "Cannot verify live CI status or whether v0.5.1 still matches current Codex plugin APIs.",
+          "Cannot verify runtime behavior of the skill inside Codex beyond README claims.",
+          "Cannot verify whether the optional provider-bridge path is safe or commonly used."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T11:49:28.253Z",
+        "reviewedAt": "2026-10-28T20:06:26.094Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Evidence-gated Codex skill for multi-step agent work",
-        "description": "Adds inspect-first planning, local goal/findings ledgers, and verification gates to Codex plugin workflows.",
+        "tagline": "Evidence gates and goal ledgers for Codex work",
+        "description": "Install a Codex skill that classifies tasks, tracks goals with evidence, and blocks completion while review findings remain open.",
         "pros": [
-          "Documents Codex marketplace install, skill invocation, and a CLI for goals/findings gates.",
-          "Includes CI badge, stdlib unittest suite, versioned v0.5.1 install, and multilingual README.",
-          "States it is workflow guidance only and does not clone or replace Fable 5 model weights.",
-          "AGPL-3.0-or-later with provenance notes and local state under .codex-fable5/."
+          "Documents Codex marketplace install (`codex plugin marketplace add` / `codex plugin add`) and prompt invocation via `@codex-fable5`.",
+          "Includes CLI helpers for goals, findings, status, and a findings gate, plus a stdlib unittest suite and CI badge.",
+          "README states it does not clone or replace Fable 5 model weights and only supplies workflow guidance and local ledgers."
         ],
         "cons": [
-          "Third-party community plugin, not from developers.openai.com/codex.",
-          "Last push recorded 2026-07-26; ongoing maintenance after that date is not shown here.",
-          "AGPL-3.0-or-later may constrain proprietary reuse of the plugin.",
-          "Optional provider-bridge docs assume external Anthropic/LiteLLM access not provided by the repo."
+          "Not from developers.openai.com; third-party plugin with AGPL-3.0-or-later.",
+          "Repository last push recorded 2026-07-26, so maintenance recency is weaker than listing recency.",
+          "Optional provider-bridge docs assume separate Anthropic access and an OpenAI-compatible gateway; this repo does not supply model access."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -1343,10 +1340,10 @@
           "prototyping"
         ],
         "usage": {
-          "input": 10518,
-          "output": 745,
-          "cacheRead": 512,
-          "totalTokens": 11775,
+          "input": 9618,
+          "output": 914,
+          "cacheRead": 5120,
+          "totalTokens": 15652,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2356,55 +2353,55 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Third-party Shipvela plugin pack with Codex marketplace install, MCP OAuth, and a publish skill; useful for agent-driven static hosting but not official Codex docs and the repo has no community traction.",
-        "relevanceScore": 0.72,
-        "qualityScore": 0.55,
+        "summary": "Third-party Shipvela plugin/MCP pack that includes a Codex marketplace install path plus many other assistant configs. Useful if you already host on Shipvela; not official Codex tooling and the repo has no stars or community signal.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.48,
         "riskScore": 0.42,
         "suggestedTags": [
           "codex-plugin",
           "mcp",
           "deployment",
-          "static-sites"
+          "static-site",
+          "oauth"
         ],
         "evidence": [
           "facts.readme includes `codex plugin marketplace add stefanautomateed/shipvela-codex` and `codex mcp login shipvela`.",
-          "GitHub description and topics include codex, mcp-server, and website-hosting.",
-          "stargazers_count 0, forks_count 0, license mit, pushed_at 2026-10-05.",
-          "README states Hobby includes 3 projects and 20 publishes per month and that publishing can replace a live website."
+          "GitHub facts: license MIT, stargazers_count 0, forks_count 0, not archived, pushed_at 2026-10-05.",
+          "README states Hobby includes 3 projects and 20 publishes per month; paid plans for Next.js SSR."
         ],
         "uncertainty": [
-          "Whether the Codex plugin marketplace listing is approved or only a direct GitHub install.",
-          "Actual MCP server security, OAuth scopes, and production reliability of shipvela.com.",
-          "Ongoing maintenance given no stars or forks."
+          "Whether the Codex marketplace listing is actually registered and installable today.",
+          "Security review of the remote MCP and OAuth token handling.",
+          "Long-term maintenance of plugin schemas across Codex versions."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-15T10:37:10.675Z",
+        "reviewedAt": "2026-10-28T20:26:18.017Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "MCP plugin pack to publish sites from coding assistants",
-        "description": "Install a Codex marketplace plugin and MCP OAuth connector to publish static sites through a Shipvela account from many AI CLIs.",
+        "tagline": "MCP plugin pack to publish static sites from coding agents",
+        "description": "Install a Codex/Claude/Copilot plugin and remote MCP so assistants can publish static sites via OAuth to a Shipvela account.",
         "pros": [
-          "README documents Codex-specific marketplace add, plugin install, and mcp login commands.",
-          "MIT-licensed GitHub repo with MCP configs, a publishing skill, and a template/course kit.",
-          "Install notes cover OAuth, confirmations, request IDs, and that connections cannot change subscriptions or read env values."
+          "README documents Codex plugin marketplace add, plugin install, and mcp login commands.",
+          "MIT-licensed GitHub repo with configs and skills for multiple assistants, including Codex.",
+          "Publishing skill notes target confirmation, owner review, and job success checks."
         ],
         "cons": [
-          "Not official OpenAI Codex documentation; it is a vendor connector for Shipvela hosting.",
-          "Zero stars and zero forks, so maintenance and review quality are unverified.",
-          "Publishing can replace a live site and depends on a remote MCP at shipvela.com plus a paid/hobby account."
+          "Zero stars and forks; maintenance and adoption are unproven.",
+          "Not official OpenAI Codex documentation or first-party plugins.",
+          "Depends on a remote commercial MCP (shipvela.com) and a Shipvela account/plan."
         ],
         "pricingModel": "freemium",
         "bestFor": [
           "prototyping",
-          "agentic coding",
-          "solo founder"
+          "solo founder",
+          "agentic coding"
         ],
         "usage": {
-          "input": 9856,
-          "output": 814,
-          "cacheRead": 512,
-          "totalTokens": 11182,
+          "input": 6732,
+          "output": 618,
+          "cacheRead": 5120,
+          "totalTokens": 12470,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

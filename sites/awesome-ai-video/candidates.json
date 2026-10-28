@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -801,43 +801,43 @@
       "createdAt": "2026-08-17T19:38:04.437Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Official Google developer hub for Gemini API docs, Google AI Studio, Gemma open models, on-device Edge/Nano, and related APIs including Imagen and Veo. Strong maintained documentation entry point; not a video-only SDK or model card.",
-        "relevanceScore": 0.86,
+        "summary": "Official Google developer hub with Gemini API docs, Veo video generation docs, Imagen, Gemma, and pricing/API reference. Strong fit as a maintained entry point for video and multimodal APIs rather than a demo reel or news recap.",
+        "relevanceScore": 0.95,
         "qualityScore": 0.92,
-        "riskScore": 0.12,
+        "riskScore": 0.08,
         "suggestedTags": [
           "gemini-api",
-          "docs",
           "veo",
-          "open-models",
-          "ai-studio"
+          "imagen",
+          "gemma",
+          "official-docs"
         ],
         "evidence": [
-          "canonicalUrl https://ai.google.dev is Google’s official AI for Developers site.",
-          "Meta description and body reference Gemini API, AI Studio, Gemma, Imagen, and Veo.",
-          "Links to /gemini-api/docs, /gemma, /edge, /responsible/, and aistudio.google.com.",
-          "Rubric prefers official maintained docs over news recaps or closed demo reels."
+          "Excerpt lists Veo About, Docs (gemini-api/docs/video), and Pricing.",
+          "Source is official-web https://ai.google.dev with Gemini API docs and API reference.",
+          "Rubric prefers official Veo/Runway docs over news recaps; this matches.",
+          "No riskFlags on the candidate."
         ],
         "uncertainty": [
-          "Current Veo API surface, pricing, and availability were not verified beyond the hub mention.",
-          "Free-tier vs paid Gemini API terms were not fetched from billing pages."
+          "Exact Veo API capabilities, rate limits, and watermark policy not in the excerpt.",
+          "Current Gemini 4 Argon availability and billing details not verified beyond marketing links."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T16:47:56.272Z",
+        "reviewedAt": "2026-10-28T19:17:58.710Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Official docs and APIs for Google generative models",
-        "description": "Access official API docs, AI Studio, open models, and on-device tools to build apps with Google’s generative models.",
+        "tagline": "Official docs for Gemini, Veo, Imagen, and Gemma APIs",
+        "description": "Access official API docs, video generation guides, pricing, and open-model resources for Google DeepMind models.",
         "pros": [
-          "Official Google developer site with Gemini API documentation and Google AI Studio.",
-          "Landing page links Gemma open models, Google AI Edge, and responsible-AI guidance.",
-          "Explicitly lists building with models including Imagen and Veo via an API key.",
-          "Includes showcases, community forum, and multilingual documentation."
+          "Official ai.google.dev portal with docs and API reference for Gemini, Imagen, and Veo.",
+          "Dedicated Veo video docs at gemini-api/docs/video plus a pricing page.",
+          "Includes Gemma open-model docs and Gemmaverse alongside paid APIs.",
+          "Links Google AI Studio for prompting and API-key integration."
         ],
         "cons": [
-          "Hub page is marketing-heavy; API and video-generation details live on nested doc routes.",
-          "Commercial API usage, quotas, and Veo-specific limits are not specified on this landing page."
+          "Landing page is a broad developer hub, not a video-only SDK or model card.",
+          "Paid API usage and quotas are not specified in the excerpt beyond a pricing link."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -848,10 +848,10 @@
           "production"
         ],
         "usage": {
-          "input": 1902,
+          "input": 20217,
           "output": 699,
-          "cacheRead": 14464,
-          "totalTokens": 17065,
+          "cacheRead": 512,
+          "totalTokens": 21428,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

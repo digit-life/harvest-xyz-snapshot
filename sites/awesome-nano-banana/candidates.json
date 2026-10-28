@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-nano-banana",
   "items": [
     {
@@ -801,43 +801,43 @@
       "createdAt": "2026-08-17T19:38:04.437Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Official Google developer hub for Gemini API, AI Studio, Gemma, and on-device/edge tooling. High-value primary docs for generation and API work; not a Nano Banana prompt pack or ComfyUI node.",
-        "relevanceScore": 0.92,
-        "qualityScore": 0.95,
-        "riskScore": 0.08,
+        "summary": "Official Google AI for Developers hub covering Gemini API, Imagen, Veo, Gemma, AI Studio, and related docs. Prefer this over unofficial UIs as the canonical developer entry point.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.92,
+        "riskScore": 0.05,
         "suggestedTags": [
           "gemini-api",
+          "imagen",
           "ai-studio",
-          "official-docs",
           "gemma",
-          "imagen"
+          "official-docs"
         ],
         "evidence": [
-          "canonicalUrl https://ai.google.dev with title Gemini Developer API | Gemma open models | Google AI for Developers",
-          "meta-description: Build with Gemini 2.0 Flash, 2.5 Pro, and Gemma using the Gemini API and Google AI Studio",
-          "Page sections: Gemini API docs, Google AI Studio, Gemma, Google AI Edge, Responsible AI",
-          "confidenceReasons include bucket:official-web and bucket:approve; riskFlags empty"
+          "canonicalUrl https://ai.google.dev is Google’s official developer site.",
+          "Excerpt lists Gemini, Imagen, Veo, Gemma docs, API reference, pricing, and AI Studio.",
+          "Rubric prefers official Gemini / AI Studio docs over closed web UIs and meme sites.",
+          "riskFlags empty; source official-web with high confidence."
         ],
         "uncertainty": [
-          "Current paid-tier quotas and Nano Banana / Imagen model names on this hub were not fully enumerated beyond landing copy",
-          "facts.readme was empty; review used live homepage extraction"
+          "Exact current pricing tiers and free-quota limits not fully specified in the excerpt.",
+          "Nano Banana–specific image workflows are not named on the homepage excerpt."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T16:48:38.760Z",
+        "reviewedAt": "2026-10-28T19:18:22.490Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Official docs, API keys, and Studio for Google models",
-        "description": "Build with Google multimodal models via API and AI Studio, plus open weights, on-device edge tools, and responsible-AI guidance.",
+        "tagline": "Official docs for Gemini, Imagen, Veo, and Gemma APIs",
+        "description": "Access official Gemini API docs, Imagen and Veo guides, Gemma open models, AI Studio, pricing, and on-device Edge tooling.",
         "pros": [
-          "Canonical Google AI for Developers site covering Gemini API docs, AI Studio, Gemma, and AI Edge.",
-          "Meta description and landing copy document API-key integration, prompt evaluation in Studio, and models including Imagen and Veo.",
-          "Includes responsible-AI guidance and links to community forum and showcases.",
-          "Rubric explicitly prefers official Gemini / AI Studio documentation over meme or closed-UI listings."
+          "Official Google hub with Gemini API docs, API reference, and pricing.",
+          "Documents Imagen image generation and Veo video APIs alongside Gemini.",
+          "Links Google AI Studio for prompt evaluation and code export.",
+          "Covers Gemma open models, on-device Edge/Nano, and responsible-AI guidance."
         ],
         "cons": [
-          "Hub is general Google AI docs, not a Nano Banana prompt library or ComfyUI node pack.",
-          "Landing page mixes marketing CTAs and many product surfaces, so image-generation specifics sit deeper in docs."
+          "Portal homepage is a navigation hub, not a prompt library or ComfyUI node pack.",
+          "API usage is usage-based; Gemma is open while Gemini/Imagen/Veo are commercial APIs."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -848,10 +848,10 @@
           "production"
         ],
         "usage": {
-          "input": 11246,
-          "output": 683,
-          "cacheRead": 5120,
-          "totalTokens": 17049,
+          "input": 20218,
+          "output": 548,
+          "cacheRead": 512,
+          "totalTokens": 21278,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1880,41 +1880,41 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Official Google web studio for prompting Gemini and moving experiments toward API use; high-value first-party entry, not a prompt library or ComfyUI node.",
-        "relevanceScore": 0.95,
-        "qualityScore": 0.9,
-        "riskScore": 0.1,
+        "summary": "Official Google web playground for the Gemini API, including image generation; the captured page is only a sign-in wall, so product details are not in the excerpt.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.78,
+        "riskScore": 0.08,
         "suggestedTags": [
           "gemini",
           "ai-studio",
-          "prompting",
-          "google"
+          "image-generation",
+          "official"
         ],
         "evidence": [
-          "canonicalUrl https://aistudio.google.com with og:title Google AI Studio",
-          "meta-description: The fastest path from prompt to production with Gemini",
-          "Rubric prefers official Gemini / AI Studio docs over closed unrelated UIs",
-          "Discovered from ZeroLu/awesome-gemini-ai README as Google AI Studio"
+          "canonicalUrl https://aistudio.google.com with source official-web",
+          "title Google AI Studio | Build with the Gemini API",
+          "curated_readme links from ZeroLu/awesome-gemini-ai and related lists",
+          "facts excerpt is Sign in - Google Accounts"
         ],
         "uncertainty": [
-          "Could not verify current Nano Banana / image-generation UI surface from the welcome page HTML",
-          "Exact free vs paid quota and terms not captured in this fetch"
+          "Current Nano Banana / Gemini image model names and UI capabilities are not in the excerpt",
+          "Exact free vs paid quotas cannot be verified from the provided facts"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-09T16:49:55.509Z",
+        "reviewedAt": "2026-10-28T19:18:57.897Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Official Gemini prompt-to-API playground",
-        "description": "Build and test Gemini prompts in a browser, then take working setups toward production APIs.",
+        "tagline": "Official web playground for Gemini models and APIs",
+        "description": "Sign in with a Google account to prototype Gemini prompts, generate images, and export API usage from Google’s official studio.",
         "pros": [
-          "First-party Google site for Gemini prompting and API onboarding.",
-          "Public meta description frames it as a path from prompt to production with Gemini.",
-          "Repeatedly listed in curated Gemini awesome lists as a core official resource."
+          "Canonical aistudio.google.com URL is Google’s official Gemini developer studio.",
+          "Repeatedly listed in curated Gemini READMEs as Google AI Studio.",
+          "Title and source evidence describe building with the Gemini API, matching the Nano Banana / Gemini image rubric preference for official docs and UIs."
         ],
         "cons": [
-          "Browser UI, not a ComfyUI node, SDK, or standalone prompt collection.",
-          "Requires Google account and usage is subject to Google product and quota changes."
+          "Fetched excerpt is a Google Accounts sign-in page, not product documentation.",
+          "Requires a Google account; unauthenticated visitors cannot inspect features from the scrape."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -1925,10 +1925,10 @@
           "agentic coding"
         ],
         "usage": {
-          "input": 13101,
-          "output": 491,
+          "input": 18078,
+          "output": 633,
           "cacheRead": 512,
-          "totalTokens": 14104,
+          "totalTokens": 19223,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -2145,48 +2145,45 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Python CLI and Claude Code skill that turns documents into 16:9 PPT stills via Gemini image (Nano Banana Pro) plus optional Kling transitions and FFmpeg export. Strong fit for Nano Banana tooling, but it has no SPDX license and install prompts ask users to paste API keys into chat.",
+        "summary": "Claude Code skill and Python CLI that plans PPT decks from documents, generates 16:9 slides via Gemini image (Nano Banana Pro), and optionally builds Kling/FFmpeg transition videos. Useful for agentic slide workflows, but it depends on paid third-party APIs and has no declared license.",
         "relevanceScore": 0.86,
         "qualityScore": 0.72,
-        "riskScore": 0.38,
+        "riskScore": 0.28,
         "suggestedTags": [
-          "nano-banana",
           "gemini-image",
           "ppt",
           "claude-code-skill",
-          "kling"
+          "kling",
+          "prompt-engineering"
         ],
         "evidence": [
-          "README states image generation via Google Nano Banana Pro (Gemini 3 Pro Image Preview) and google-genai.",
-          "README lists document analysis, two built-in styles, Kling transitions, interactive player, and FFmpeg export.",
-          "facts.license is null; stargazers_count 3248; forks_count 343; archived false.",
-          "Install section includes Claude Code prompts with GEMINI_API_KEY / KLING_* placeholders."
+          "README states image generation via Google Nano Banana Pro (Gemini 3 Pro Image Preview) and optional Kling AI transitions.",
+          "Install docs require GEMINI_API_KEY and optional KLING_ACCESS_KEY/KLING_SECRET_KEY; video path uses FFmpeg.",
+          "GitHub facts: stargazers_count 3248, forks_count 343, archived false, license null, pushed_at 2026-01-19."
         ],
         "uncertainty": [
-          "Cannot verify generation quality, prompt-library completeness, or Kling integration from README alone.",
-          "Cannot confirm SKILL.md / ARCHITECTURE.md accuracy or current API model names.",
-          "License intent and commercial reuse remain unverified."
+          "Actual slide/image quality versus marketing claims cannot be verified from the README alone.",
+          "Maintenance quality after 2026-01-19 and completeness of truncated usage docs are unknown.",
+          "Legal reuse terms are unknown because no license is declared."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T11:40:01.073Z",
+        "reviewedAt": "2026-10-28T19:57:54.330Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Gemini image PPT slides with optional Kling transitions",
-        "description": "Analyze documents, generate styled 16:9 slides with Gemini image APIs, and optionally add Kling transitions plus FFmpeg video export.",
+        "tagline": "Gemini-image PPT slides plus optional Kling transitions",
+        "description": "Analyze docs, generate 16:9 Gemini slide images, and optionally add Kling transitions and FFmpeg video export as a CLI or Claude Code skill.",
         "pros": [
-          "Uses Google Gemini image generation (Nano Banana Pro / Gemini 3 Pro Image Preview) for 16:9 2K/4K slides.",
-          "Documents two visual prompt styles, JSON slide planning, and a generate_ppt.py CLI plus SKILL.md for Claude Code.",
-          "Optional Kling AI transitions, interactive player, and FFmpeg full-video export are described in the README.",
-          "Repository shows substantial adoption (about 3.2k stars and 340 forks) with a demo video and architecture notes."
+          "Uses Google Nano Banana Pro (Gemini 3 Pro Image Preview) to generate 16:9 PPT images at 2K/4K.",
+          "Ships as both generate_ppt.py CLI and a Claude Code skill with SKILL.md and install scripts.",
+          "Documents two visual styles, JSON slide planning, optional Kling transitions, and FFmpeg export.",
+          "Repository shows substantial community interest (thousands of stars and hundreds of forks) and a non-archived main branch."
         ],
         "cons": [
-          "GitHub reports no license, so reuse terms are unclear.",
-          "One-click install copy-paste blocks tell users to put live GEMINI and Kling keys into a Claude Code prompt.",
-          "Image generation depends on paid/third-party Gemini and Kling keys; video features also need FFmpeg.",
-          "Last recorded push is 2026-01-19, so maintenance recency is modest relative to late 2026."
+          "No SPDX/license field is set on the GitHub repository.",
+          "Image and video features require external Gemini and optional Kling API keys; generation quality is not independently measured here.",
+          "Install prompts encourage pasting live API keys into a chat agent, which is a credential-handling risk."
         ],
-        "pricingModel": "free",
         "bestFor": [
           "agentic coding",
           "prototyping",
@@ -2194,10 +2191,10 @@
           "learning"
         ],
         "usage": {
-          "input": 10589,
-          "output": 973,
+          "input": 12449,
+          "output": 847,
           "cacheRead": 512,
-          "totalTokens": 12074,
+          "totalTokens": 13808,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

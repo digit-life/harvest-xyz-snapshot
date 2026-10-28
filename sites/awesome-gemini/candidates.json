@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-gemini",
   "items": [
     {
@@ -801,7 +801,7 @@
       "createdAt": "2026-08-17T19:38:04.437Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Official Google developer hub for Gemini API docs, pricing, AI Studio, Gemma, and related tools. High relevance as the canonical entry point for Gemini API implementation.",
+        "summary": "Official Google AI for Developers hub linking Gemini API docs, API reference, pricing, AI Studio, Gemma, and related tools. High-confidence primary documentation entry for Gemini developers.",
         "relevanceScore": 1,
         "qualityScore": 0.95,
         "riskScore": 0.05,
@@ -813,31 +813,31 @@
           "open-source"
         ],
         "evidence": [
-          "canonicalUrl https://ai.google.dev with official-web source and confidenceScore 1",
-          "Excerpt lists Gemini Docs, API reference, Pricing, AI Studio, Gemma docs",
-          "No riskFlags on the candidate",
-          "Content hash and published time indicate a live maintained site"
+          "canonicalUrl and excerpt URL are https://ai.google.dev",
+          "Nav lists Gemini Docs, API reference, and Pricing at /gemini-api/docs, /api, /pricing",
+          "Solutions include Gemini API, Google AI Studio, Gemma, Google AI Edge, Responsible GenAI Toolkit",
+          "sourceType official-web, riskFlags empty, confidenceScore 1"
         ],
         "uncertainty": [
-          "Exact current free-tier limits and SLA not in the homepage excerpt",
-          "Full API surface quality judged from hub page, not every nested doc"
+          "Exact free-tier vs paid API limits not in the excerpt",
+          "Full page body beyond nav and start-building sections was truncated"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T00:32:46.778Z",
+        "reviewedAt": "2026-10-28T19:18:11.781Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official docs, API, and tools for Google AI models",
-        "description": "Find API docs, pricing, on-device options, and responsible-AI guidance for Google’s generative models and developer tools.",
+        "tagline": "Official docs hub for API, models, and on-device tools",
+        "description": "Access official API docs, reference, pricing, AI Studio, open models, and on-device guidance for building with Google AI.",
         "pros": [
-          "Canonical official site linking Gemini API docs, API reference, and pricing.",
-          "Covers related models (Imagen, Veo) and Gemma open-model docs.",
-          "Points to Google AI Studio, on-device Edge/Nano paths, and responsible-AI resources.",
-          "Published and maintained as Google’s primary developer documentation portal."
+          "Canonical ai.google.dev site with Gemini API docs, API reference, and pricing links.",
+          "Covers Imagen, Veo, Gemma, Google AI Studio, and Google AI Edge from the same hub.",
+          "Includes responsible-AI and Secure AI Framework links.",
+          "Published content is current (excerpt timestamp 26 Oct 2026) with multilingual navigation."
         ],
         "cons": [
-          "Homepage is a navigation hub rather than a self-contained tutorial.",
-          "API usage still depends on Google account, keys, and paid usage beyond free quotas."
+          "Landing page is a navigation hub rather than a single self-contained tutorial.",
+          "Usage costs depend on the linked API pricing, which is not fully specified in the excerpt."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -848,10 +848,10 @@
           "learning"
         ],
         "usage": {
-          "input": 18271,
-          "output": 575,
+          "input": 20280,
+          "output": 774,
           "cacheRead": 512,
-          "totalTokens": 19358,
+          "totalTokens": 21566,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1879,9 +1879,9 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Official Google web app for building with the Gemini API; the captured page is a Google Account sign-in wall, so listing copy should rely on the known official destination rather than the excerpt.",
+        "summary": "Official Google AI Studio web entry for building with the Gemini API; the captured page is only a Google Account sign-in wall, so product docs and features are not in the excerpt.",
         "relevanceScore": 0.95,
-        "qualityScore": 0.7,
+        "qualityScore": 0.55,
         "riskScore": 0.15,
         "suggestedTags": [
           "ai-studio",
@@ -1890,30 +1890,31 @@
           "api"
         ],
         "evidence": [
-          "canonicalUrl and sourceEvidence target https://aistudio.google.com",
-          "title: Google AI Studio | Build with the Gemini API",
-          "bucket:official-web with confidenceScore 1 and empty riskFlags",
-          "facts excerpt title is Sign in - Google Accounts"
+          "Candidate title: Google AI Studio | Build with the Gemini API",
+          "canonicalUrl and reference.url are https://aistudio.google.com",
+          "Excerpt title is Sign in - Google Accounts with Google Account login UI",
+          "Repeated curated_readme anchors label the link Google AI Studio"
         ],
         "uncertainty": [
-          "Current UI, quotas, and Gemini model lineup behind login",
-          "Exact free vs paid API billing terms not in the excerpt"
+          "Studio feature set, API key workflow, and pricing tiers are not in the excerpt",
+          "Whether unauthenticated visitors always hit this login wall",
+          "Current product quality beyond the official domain and title"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-27T10:30:14.990Z",
+        "reviewedAt": "2026-10-28T19:18:46.460Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "Official web workspace to prototype Gemini API apps",
-        "description": "Sign in with a Google Account to prototype prompts and apps against the Gemini API in Google’s official studio.",
+        "tagline": "Official web console to build with the Gemini API",
+        "description": "Sign in with a Google Account to reach the official Gemini API builder console at aistudio.google.com.",
         "pros": [
-          "Canonical URL is https://aistudio.google.com, the official Google AI Studio host.",
-          "Title and listing anchors identify it as the place to build with the Gemini API.",
-          "Repeated curated_readme citations treat it as a primary official destination."
+          "Canonical URL is https://aistudio.google.com, listed as official-web.",
+          "Page title states it is for building with the Gemini API.",
+          "Access is gated through standard Google Account sign-in."
         ],
         "cons": [
-          "Fetched excerpt is a Google Accounts sign-in page, not product documentation.",
-          "Unauthenticated crawls cannot verify in-product features or current API surface."
+          "The fetched excerpt is only a Google Accounts sign-in page, not product documentation.",
+          "Implementation details, APIs, and maintenance of the studio UI cannot be verified from the scrape."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -1923,10 +1924,10 @@
           "small team"
         ],
         "usage": {
-          "input": 17710,
-          "output": 527,
+          "input": 18134,
+          "output": 588,
           "cacheRead": 512,
-          "totalTokens": 18749,
+          "totalTokens": 19234,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4666,56 +4667,55 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Self-hosted multi-provider chat UI with Gemini/Vertex among many backends; strong maintenance and docs, but Gemini is one provider among many rather than a focused Gemini API resource.",
-        "relevanceScore": 0.62,
+        "summary": "Self-hosted MIT chat UI that lists Gemini and Vertex AI among many providers. Strong maintenance and docs for a multi-model app, but it is not a Gemini-first SDK or tutorial.",
+        "relevanceScore": 0.72,
         "qualityScore": 0.9,
-        "riskScore": 0.28,
+        "riskScore": 0.22,
         "suggestedTags": [
           "gemini",
           "google-ai",
-          "open-source",
           "agents",
-          "api"
+          "open-source"
         ],
         "evidence": [
-          "facts.license mit; stargazers_count 41965; forks_count 8673; archived false; pushed_at 2026-08-12.",
-          "facts.topics include gemini, google, mcp; description lists Vertex AI and Gemini.",
-          "canonicalUrl https://github.com/danny-avila/librechat"
+          "facts.description and topics include gemini, google, mcp, and chatgpt-clone.",
+          "license mit; archived false; pushed_at 2026-08-12; stargazers_count 41965; forks_count 8673.",
+          "No riskFlags on the candidate; type github_repo."
         ],
         "uncertainty": [
-          "Depth and correctness of Gemini/Vertex integration versus other providers not verified from source.",
-          "Exact production-hardening of auth, MCP, and code interpreter not audited here."
+          "Depth and correctness of the Gemini/Vertex integration versus other providers.",
+          "Whether every listed model (e.g. GPT-5) is actually implemented.",
+          "Security posture of default self-host configs was not audited here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T00:34:01.092Z",
+        "reviewedAt": "2026-10-28T19:19:11.222Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Self-host a multi-model chat UI with Gemini support",
-        "description": "Run a ChatGPT-style web UI with agents, MCP, auth, and Gemini or Vertex AI among many other providers.",
+        "tagline": "Self-host a multi-provider chat UI with Gemini support",
+        "description": "Self-host a multi-user chat app with agents, MCP, and Gemini or Vertex AI among other model backends.",
         "pros": [
-          "MIT-licensed GitHub project with tens of thousands of stars and thousands of forks.",
-          "Repository topics and description explicitly include Gemini, Google, and Vertex AI.",
-          "Default branch is active (pushed_at 2026-08-12) and the repo is not archived.",
-          "Advertised features include agents, MCP, model switching, auth, and self-hosting."
+          "MIT-licensed GitHub repo with Gemini and Vertex AI listed among supported providers.",
+          "Large, actively pushed codebase (tens of thousands of stars, recent default-branch activity).",
+          "README describes agents, MCP, auth, and self-hosting rather than a thin demo."
         ],
         "cons": [
-          "Gemini is one of many listed providers, so this is not a Gemini-first SDK or tutorial.",
-          "Self-hosting agents, code interpreter, and MCP increases operational and security surface versus a simple API sample."
+          "Gemini is one of many backends, not a dedicated Gemini API guide or client library.",
+          "Self-hosting plus code interpreter and multi-user auth increase operational complexity.",
+          "Candidate copy claims model names that may outpace what you can independently verify."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "solo founder",
           "small team",
           "prototyping",
           "production",
           "agentic coding"
         ],
         "usage": {
-          "input": 14024,
-          "output": 643,
-          "cacheRead": 512,
-          "totalTokens": 15179,
+          "input": 13360,
+          "output": 670,
+          "cacheRead": 5120,
+          "totalTokens": 19150,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -6773,10 +6773,10 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Self-hosted Telegram bot that can call Gemini via google-generative-ai alongside ChatGPT, Copilot, and Groq. Last GitHub push was May 2024, README says docs are unfinished, and some backends rely on unofficial APIs.",
+        "summary": "Self-hostable Python Telegram bot that includes a Gemini Pro module (images + chat history) among ChatGPT, Copilot, and Groq backends. Last push was May 2024, docs are incomplete, and it uses unofficial LLM APIs plus conversation logging.",
         "relevanceScore": 0.45,
         "qualityScore": 0.52,
-        "riskScore": 0.48,
+        "riskScore": 0.58,
         "suggestedTags": [
           "gemini",
           "google-ai",
@@ -6784,32 +6784,31 @@
           "api"
         ],
         "evidence": [
-          "GitHub description and README list Gemini plus ChatGPT, Copilot, Groq.",
-          "Files include google_ai_module.py and module_configs/gemini.json.",
-          "facts.pushed_at 2024-05-16; stars ~348–354; license agpl-3.0.",
-          "README: documentation under development; Microsoft Copilot Designer marked deprecated."
+          "Facts: 348 stars, AGPL-3.0, topics include gemini and google, pushed_at 2024-05-16.",
+          "README lists Gemini Pro, image requests, google/generative-ai-python, google_ai_module.py and module_configs/gemini.json.",
+          "README warns documentation is incomplete and author has limited time; unpaid ChatGPT/DALL-E unsupported."
         ],
         "uncertainty": [
           "Whether Gemini integration still works against current Google AI APIs.",
-          "Security of config/secrets handling and conversation logging in production.",
+          "How conversation logs are stored and whether they meet privacy expectations.",
           "Current health of unofficial ChatGPT/Copilot backends."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:34:49.076Z",
+        "reviewedAt": "2026-10-28T19:19:24.243Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Self-host a multi-model Telegram AI bot",
-        "description": "Run a Python Telegram bot with Gemini, Groq, ChatGPT, and Copilot, streaming replies, image prompts, and admin controls.",
+        "tagline": "Self-host Telegram bot wrapping Gemini and other LLMs",
+        "description": "Run a Python Telegram bot that talks to Gemini Pro with image prompts, chat history, streaming, and admin controls.",
         "pros": [
-          "Includes a dedicated Gemini module using google/generative-ai-python with chat history and image requests.",
-          "AGPL-3.0 Python project with Docker, systemd, AUR packaging, and language JSON files.",
-          "README documents install, config.json, and module_configs including gemini.json."
+          "Includes a dedicated Gemini module using google-generative-ai with chat history and image requests.",
+          "Open-source AGPL-3.0 Python project with Docker, systemd, and AUR packaging notes.",
+          "README documents setup, multiple language files, and contributor credits including Gemini work."
         ],
         "cons": [
-          "Repository last pushed 2024-05-16 and the author notes limited time and unfinished documentation.",
-          "Gemini is one of several providers; ChatGPT/Copilot paths use unofficial LMAO/EdgeGPT-style APIs.",
-          "README advertises data logging and a public demo bot, which raises privacy and ToS concerns."
+          "Repository last pushed 2024-05-16; README states the project and documentation are under development.",
+          "Gemini is one of several backends; ChatGPT/Copilot paths rely on unofficial APIs.",
+          "Description advertises data logging; production safety and ToS compliance are not clearly documented."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -6818,10 +6817,10 @@
           "learning"
         ],
         "usage": {
-          "input": 13309,
-          "output": 630,
-          "cacheRead": 5120,
-          "totalTokens": 19059,
+          "input": 3652,
+          "output": 580,
+          "cacheRead": 18944,
+          "totalTokens": 23176,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8729,9 +8728,9 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Kotlin Compose Multiplatform sample chat app that calls Google Gemini via a companion Generative AI KMP SDK, with setup docs, CI, and prebuilt Android/desktop/web artifacts. Last push is April 2025, so treat it as a learning/demo rather than a maintained product.",
+        "summary": "Open-source Kotlin Multiplatform chat sample that calls Gemini via a Generative AI KMP SDK, with Android, iOS, desktop, and web targets. Useful as a Compose Multiplatform reference; last push was April 2025 so API/SDK versions may be dated.",
         "relevanceScore": 0.86,
-        "qualityScore": 0.72,
+        "qualityScore": 0.78,
         "riskScore": 0.18,
         "suggestedTags": [
           "gemini",
@@ -8740,43 +8739,43 @@
           "sdk"
         ],
         "evidence": [
-          "GitHub description and README: multiplatform chat powered by Google Gemini API and generative-ai-kmp.",
-          "MIT license, topics include gemini and sample, ~174–185 stars.",
-          "CI badge for build.yml; CONTRIBUTING.md and setup for JDK 17+ and Android Studio."
+          "GitHub description and README state the app is powered by Google Gemini via Generative AI Multiplatform SDK.",
+          "Facts: MIT license, not archived, topics include gemini and kotlin-multiplatform, ~174–184 stars.",
+          "README lists makersuite.google.com API key, BuildKonfig, and composeApp run targets."
         ],
         "uncertainty": [
-          "Whether generative-ai-kmp still matches current Gemini API versions.",
-          "Runtime quality of iOS/web targets and whether releases still work.",
-          "No independent security audit of API-key handling in the app."
+          "Whether generative-ai-kmp still tracks current Gemini API surfaces.",
+          "Exact handling of API keys in release binaries was not audited line-by-line."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T00:35:47.766Z",
+        "reviewedAt": "2026-10-28T19:19:37.442Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "KMP Gemini chat sample for Android, iOS, desktop, web",
-        "description": "Build a Compose Multiplatform chat UI that talks to Gemini using a Kotlin Generative AI SDK, with local API-key setup and multi-target run instructions.",
+        "tagline": "Kotlin Multiplatform Gemini chat sample across mobile, deskt",
+        "description": "Build a Gemini chat UI with Kotlin and Compose Multiplatform for Android, iOS, desktop, and web using a local API key.",
         "pros": [
-          "README documents Gemini API key setup via local.properties and how to run Android, iOS, desktop, and wasm web targets.",
-          "MIT-licensed Kotlin Multiplatform Compose app with CI build workflow and GitHub releases for APK/JAR/web.",
-          "Source includes a GenerativeAiService layer and chat UI/ViewModel, demonstrating Gemini-backed prompting including image picker utilities."
+          "README documents Gemini API key setup via local.properties and run commands for Android, iOS, desktop, and web.",
+          "MIT-licensed Compose Multiplatform sample with CI badges and prebuilt APK/JAR/web links.",
+          "Uses a dedicated Generative AI Kotlin Multiplatform SDK rather than a generic HTTP wrapper.",
+          "Includes chat UI, image picker, and API key validation in the source tree."
         ],
         "cons": [
-          "Repository last push is 2025-04-16, so SDK and model usage may lag current Gemini APIs.",
-          "It is a sample chat client, not a production SDK or hosted service.",
-          "Users must supply their own Gemini API key; makersuite.google.com is cited as the key source."
+          "Repository last push was 2025-04-16, so Gemini models and SDK usage may lag current APIs.",
+          "It is a sample app, not a maintained production SDK or official Google client.",
+          "Users must supply their own Gemini API key; client-side key handling is a typical sample-app risk."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "learning",
           "prototyping",
+          "learning",
           "solo founder"
         ],
         "usage": {
-          "input": 3298,
-          "output": 661,
-          "cacheRead": 14976,
-          "totalTokens": 18935,
+          "input": 3315,
+          "output": 502,
+          "cacheRead": 19328,
+          "totalTokens": 23145,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -9636,10 +9635,10 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Unofficial TypeScript/JavaScript client that wraps the Gemini REST API with a shorter ask/chat/embed surface than Google’s official SDK. Last push was June 2024, so treat it as a convenience wrapper that may lag current Gemini models and APIs.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.62,
-        "riskScore": 0.28,
+        "summary": "Third-party TypeScript/JS wrapper around the Gemini REST API with a short ask/chat/stream/embed API. Last push was mid-2024 and it is not Google’s official client, so treat it as a convenience layer that may lag the current Gemini API.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.55,
+        "riskScore": 0.42,
         "suggestedTags": [
           "gemini",
           "sdk",
@@ -9648,30 +9647,31 @@
           "google-ai"
         ],
         "evidence": [
-          "GitHub description: The simpler JavaScript Gemini SDK; topics ai, gemini, google.",
-          "README compares against @google/generative-ai and shows Gemini.ask / createChat / embed.",
-          "Facts: 115 stars, 19 forks, license gpl-3.0, pushed_at 2024-06-24, not archived."
+          "GitHub description: The simpler JavaScript Gemini SDK; ~115 stars, 19 forks, not archived.",
+          "README compares itself to @google/generative-ai and shows Gemini(API_KEY).ask().",
+          "Facts: license gpl-3.0, pushed_at 2024-06-24T22:48:23.000Z."
         ],
         "uncertainty": [
-          "Current npm download volume and whether published versions still work against live Gemini endpoints.",
-          "Whether default models in the library match today’s Gemini model IDs."
+          "Whether npm gemini-ai still works against current Gemini endpoints.",
+          "Security of API-key handling and File API upload path beyond README claims.",
+          "Issue/PR activity quality (4 issues noted, not reviewed in depth)."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:35:59.092Z",
+        "reviewedAt": "2026-10-28T19:19:49.907Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "SDKs",
-        "tagline": "Shorter TypeScript client for Gemini REST calls",
-        "description": "Wraps Gemini REST with ask, chat, embed, streaming, and automatic file uploads in a small TypeScript package.",
+        "tagline": "Thin JS wrapper for Gemini ask, chat, and files",
+        "description": "Call Gemini with ask, streaming, chat, embeds, and auto file uploads via a small TypeScript ES module.",
         "pros": [
-          "Documents a thin Gemini REST wrapper with ask, createChat, count, embed, and streaming.",
-          "Includes TypeScript types, MIME detection, and File API routing for larger uploads.",
-          "Published on npm under gemini-ai with tests and a detailed README."
+          "README documents ask, streaming, createChat, count, embed, multimodal files, and AI Studio API keys.",
+          "TypeScript source, tests, and an npm package (gemini-ai) are present.",
+          "GPL-3.0 license and GitHub topics include gemini and google."
         ],
         "cons": [
-          "Repository last pushed 2024-06-24, so it may not track current Gemini models or official SDK changes.",
-          "GPL-3.0 can be restrictive compared with typical Apache/MIT SDK licenses.",
-          "Unofficial wrapper; Google’s @google/generative-ai (or successor) is the maintained baseline."
+          "Repository last push is 2024-06-24, so it is likely behind current Gemini models and official SDK features.",
+          "GPL-3.0 can conflict with typical commercial app licensing.",
+          "Unofficial wrapper; maintenance and API compatibility are not guaranteed versus @google/generative-ai."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -9680,10 +9680,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 2389,
-          "output": 483,
-          "cacheRead": 14336,
-          "totalTokens": 17208,
+          "input": 13527,
+          "output": 549,
+          "cacheRead": 5120,
+          "totalTokens": 19196,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -10688,54 +10688,57 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Open-source local agent CLI that can chat and run device-side tasks via multiple backends, including Gemini/Vertex through AgentMake. Relevant but not Gemini-first, with last push in March 2025 and inherent code-execution risk.",
+        "summary": "Open-source Python CLI agent that can call Gemini among other backends and run local device tasks; Gemini is one of many backends and last push is March 2025, with inherent risk from automated local file/system changes.",
         "relevanceScore": 0.55,
-        "qualityScore": 0.58,
-        "riskScore": 0.62,
+        "qualityScore": 0.62,
+        "riskScore": 0.58,
         "suggestedTags": [
           "cli",
-          "agents",
           "gemini",
+          "agents",
           "open-source",
-          "google-ai"
+          "rag"
         ],
         "evidence": [
-          "Repo description and topics include gemini, google, autogen, rag, openai.",
-          "README documents pip install letmedoit, genai extra for Vertex, and local task execution.",
-          "Facts: gpl-3.0, not archived, pushed_at 2025-03-08, 134–135 stars."
+          "Repo description and README name ChatGPT API, Gemini Pro, AutoGen, and open-source LLMs plus local task execution.",
+          "Facts: 134 stars, 25 forks, license gpl-3.0, not archived, pushed_at 2025-03-08.",
+          "Installation: pip install letmedoit; optional letmedoit[genai] for Vertex AI via google-genai.",
+          "Disclaimer states it can generate files or make device changes at user risk."
         ],
         "uncertainty": [
-          "Current quality of Gemini API usage in AgentMake dependency not audited in this pass.",
-          "Whether v3 remains compatible with latest Gemini models after March 2025."
+          "How current Gemini API (models, auth, safety) integration is versus Gemini Pro-era code.",
+          "Runtime security of tool execution (confirmation/sandbox) was not audited.",
+          "Whether the PyPI package matches the GitHub v3 AgentMake rewrite."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:36:11.512Z",
+        "reviewedAt": "2026-10-28T19:20:04.445Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "Local agent CLI that chats and runs device tasks",
-        "description": "Install a Python CLI agent that automates multi-step tasks on your machine using Gemini, ChatGPT, Ollama, and other backends.",
+        "tagline": "CLI agent that chats and runs local tasks via many backends",
+        "description": "Install a Python CLI that automates multi-step tasks using Gemini, ChatGPT, AutoGen, or local LLMs, with tools that can change files on your device.",
         "pros": [
-          "GPL-3.0 Python project with pip install, CLI aliases, and wiki/docs for older versions.",
-          "Topics and README document Gemini Pro plus Vertex via optional google-genai extra.",
-          "v3 is a thin AgentMake wrapper supporting multiple backends including Ollama by default."
+          "GPL-3.0 Python project with pip install, CLI aliases, and wiki/docs covering setup and usage.",
+          "README documents Gemini Pro/Vertex via extra package genai plus ChatGPT, AutoGen, Ollama, and other backends.",
+          "Topics include gemini, rag, autogen, and multimodal; v3 is built on the AgentMake AI SDK."
         ],
         "cons": [
-          "Last GitHub push was 2025-03-08; modest activity (~135 stars, 25 forks).",
-          "Gemini is one of many backends, not a focused Gemini API sample.",
-          "Disclaimer and design allow generating files and changing the local device, raising safety risk."
+          "Gemini is one of many backends; default in v3 is Ollama, so it is not a Gemini-first SDK.",
+          "Last GitHub push was 2025-03-08, so maintenance relative to current Gemini APIs is uncertain.",
+          "The assistant can generate files and change the local device, which the README flags as user-risk."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "agentic coding",
-          "solo founder"
+          "solo founder",
+          "learning"
         ],
         "usage": {
-          "input": 4431,
-          "output": 543,
-          "cacheRead": 14464,
-          "totalTokens": 19438,
+          "input": 4432,
+          "output": 626,
+          "cacheRead": 18432,
+          "totalTokens": 23490,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -11595,43 +11598,43 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Community MIT PHP client for the Gemini API covering generateContent, chat, streaming, embeddings, and safety settings. Last GitHub push was 2025-01-31, so confirm model names and API coverage before production use.",
+        "summary": "Community MIT PHP client for the Gemini API covering generateContent, chat, streaming, embeddings, tokens, and safety settings. Last push was 2025-01-31, so model coverage may lag official SDKs.",
         "relevanceScore": 0.88,
         "qualityScore": 0.72,
-        "riskScore": 0.22,
+        "riskScore": 0.18,
         "suggestedTags": [
-          "gemini",
           "sdk",
+          "gemini",
           "api",
-          "open-source",
-          "google-ai"
+          "google-ai",
+          "open-source"
         ],
         "evidence": [
-          "GitHub description and README: Google Gemini API PHP Client; composer require gemini-api-php/client.",
-          "Facts: MIT, not archived, 223 stars, topics include gemini-api and sdk, pushed_at 2025-01-31.",
-          "Tree shows Client.php, GenerativeModel, ChatSession, embedding/streaming request types, tests, phpstan, php-cs-fixer."
+          "GitHub description and topics: gemini-api, php, sdk; 223 stars, MIT, not archived.",
+          "README covers Client, GenerativeModel, ChatSession, ImagePart, safety settings, v1beta system instruction.",
+          "src/ includes GenerateContentRequest, EmbedContentRequest, ListModelsRequest, and safety enums."
         ],
         "uncertainty": [
-          "Whether Packagist latest version tracks current Gemini API as of 2026.",
-          "Issue/PR health beyond open issue count of 19.",
-          "Security of API-key handling in typical usage."
+          "Whether Packagist latest still tracks current Gemini model IDs.",
+          "Issue backlog quality and security review of HTTP/auth handling.",
+          "Exact download counts and PHP version support from composer.json not fully verified."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T00:36:26.605Z",
+        "reviewedAt": "2026-10-28T19:20:31.385Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "SDKs",
-        "tagline": "Unofficial PHP client for Google Gemini generate/chat APIs",
-        "description": "Install a Composer PHP client for Gemini generateContent, multimodal, chat, streaming, tokens, and embeddings with PSR-18 HTTP.",
+        "tagline": "Community PHP client for Gemini generate, chat, and embed",
+        "description": "Call Gemini generateContent, chat, streaming, embeddings, and token counting from PHP with Composer and a PSR-18 HTTP client.",
         "pros": [
-          "README documents Composer install plus generateContent, chat, streaming, tokens, list models, and embeddings.",
-          "Source includes typed requests/responses, safety enums, PHPUnit tests, and GitHub CI workflows.",
-          "MIT-licensed Packagist package with 223 stars and 49 forks; explicitly not Google-endorsed."
+          "Typed PHP client with generateContent, multimodal parts, chat sessions, streaming, embeddings, and countTokens.",
+          "MIT-licensed Packagist package with unit tests, PHPStan, and GitHub Actions.",
+          "README documents API-key setup via Google AI Studio and PSR-18 HTTP client discovery."
         ],
         "cons": [
-          "Repository last push is 2025-01-31, so newer Gemini models and API changes may be missing.",
-          "HTTP client is not bundled; callers must supply or discover a PSR-18 client.",
-          "Examples still center on GEMINI_PRO / Pro Vision naming that may be outdated."
+          "Repository last pushed 2025-01-31, so newer Gemini models and APIs may be missing.",
+          "Not developed or endorsed by Google.",
+          "Requires a separate PSR-18 HTTP client; examples still cite Gemini Pro / Pro Vision names."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -11640,10 +11643,10 @@
           "small team"
         ],
         "usage": {
-          "input": 2589,
-          "output": 474,
-          "cacheRead": 14848,
-          "totalTokens": 17911,
+          "input": 2588,
+          "output": 453,
+          "cacheRead": 16896,
+          "totalTokens": 19937,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12503,55 +12506,57 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Community MIT Ruby client for Gemini via Generative Language API, AI Studio, and Vertex AI, with documented streaming, embeddings, tools, and safety settings. Last push was mid-2025, so confirm model coverage before production use.",
+        "summary": "Community MIT Ruby client for Gemini via Generative Language API, Vertex AI, and AI Studio, with documented streaming, embeddings, tools, and safety settings. Last push was July 2025, so check model coverage before production use.",
         "relevanceScore": 0.88,
         "qualityScore": 0.78,
-        "riskScore": 0.18,
+        "riskScore": 0.22,
         "suggestedTags": [
-          "sdk",
           "gemini",
           "google-ai",
+          "sdk",
           "api",
           "open-source"
         ],
         "evidence": [
-          "README describes Gemini via Vertex AI, Generative Language API, and AI Studio.",
-          "Facts: MIT license, not archived, 190 stars, topics include gemini and google-vertex-ai.",
-          "Gem install examples use gemini-ai ~> 4.3.0; repo includes rspec and client code."
+          "GitHub description and README: Ruby gem for Gemini via Vertex AI, Generative Language API, or AI Studio.",
+          "Facts: MIT, not archived, 190 stars, 32 forks, topics include gemini and google-vertex-ai.",
+          "pushed_at 2025-07-09T12:35:04.000Z versus review date 2026-10-28.",
+          "README shows gem 'gemini-ai', '~> 4.3.0' and client methods with SSE streaming."
         ],
         "uncertainty": [
-          "Whether 4.3.0 tracks current Gemini model names and endpoints.",
-          "Runtime security of credential handling beyond README disclaimers."
+          "Whether 4.3.0 still matches current Gemini REST/Vertex endpoints without a live gem or changelog check.",
+          "Issue backlog quality (19 issues listed on GitHub overview) and response time."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-12T00:36:40.954Z",
+        "reviewedAt": "2026-10-28T19:20:45.601Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "SDKs",
-        "tagline": "Low-level Ruby client for Vertex and Gemini APIs",
-        "description": "Call Gemini via Vertex AI or the Generative Language API from Ruby, with streaming, embeddings, tools, and safety settings.",
+        "tagline": "Ruby client for Vertex AI and Generative Language APIs",
+        "description": "Call Gemini from Ruby with API keys or Vertex credentials, including streaming, embeddings, tools, JSON, and safety settings.",
         "pros": [
-          "Documents API-key, service-account, and Application Default Credentials for Generative Language and Vertex AI.",
-          "Covers stream/generate content, embeddings, token counting, JSON responses, function calling, and safety settings.",
-          "MIT-licensed Ruby gem with specs and a detailed README including credential security warnings."
+          "README documents Vertex AI, Generative Language API, and AI Studio credential flows with working examples.",
+          "Covers stream_generate_content, generate_content, embeddings, tools/functions, token counting, JSON schema, and safety settings.",
+          "MIT license, tests under spec/, and published gem version 4.3.0 in the quick start.",
+          "Includes security disclaimers around Google Cloud credentials and IAM roles."
         ],
         "cons": [
-          "Last repository push was 2025-07-09, so newer Gemini models may not be fully covered.",
-          "Community wrapper, not an official Google SDK.",
-          "Open GitHub issues remain (about 19 at fetch time)."
+          "Repository last push was 2025-07-09, so newer Gemini models and API changes may be missing.",
+          "Unofficial community gem, not a Google-maintained SDK.",
+          "Default examples still use gemini-pro rather than current flagship model names."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "production",
           "small team",
-          "solo founder"
+          "learning"
         ],
         "usage": {
-          "input": 3366,
-          "output": 506,
-          "cacheRead": 14592,
-          "totalTokens": 18464,
+          "input": 14817,
+          "output": 608,
+          "cacheRead": 5120,
+          "totalTokens": 20545,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -13411,38 +13416,40 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Hobby demo that recreates a Gemini-style camera Q&A loop with GPT-4 Vision, Whisper, and Resemble AI—not the Gemini API. Stale (last push 2023), tiny community, and a committed .env file make it a poor fit for a Gemini developer directory.",
-        "relevanceScore": 0.12,
+        "summary": "Hobby demo that mimics a Gemini-style camera Q&A loop using OpenAI GPT-4 Vision, Whisper, and Resemble AI—not the Gemini API. Last push was 2023-12, so it is a poor fit for a Gemini developer directory.",
+        "relevanceScore": 0.15,
         "qualityScore": 0.35,
-        "riskScore": 0.55,
+        "riskScore": 0.45,
         "suggestedTags": [
           "open-source"
         ],
         "evidence": [
-          "GitHub description and README: Google's Gemini implemented with GPT-4 Vision, Whisper and Resemble AI.",
-          "Acknowledgements credit OpenAI and Resemble, not Gemini.",
-          "Facts: pushed_at 2023-12-09, 26 stars, MIT, archived false.",
-          "File listing includes .env, run.py, Streamer.py, StreamDecoder.py."
+          "GitHub description and README: \"Google's Gemini implemented with GPT-4 Vision, Whisper and Resemble AI\".",
+          "Acknowledgements credit OpenAI GPT-4/Whisper and Resemble AI only.",
+          "Facts: license MIT, stars 26, forks 3, pushed_at 2023-12-09, not archived.",
+          "File listing includes .env, run.py, Streamer.py, StreamDecoder.py, requirements.txt."
         ],
         "uncertainty": [
           "Whether the committed .env contains live secrets.",
-          "Whether the demo still runs against current OpenAI/Resemble APIs."
+          "Whether requirements and OpenAI/Resemble APIs still run as written.",
+          "Issue quality beyond a reported count of 1."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-10-12T00:36:52.955Z",
+        "reviewedAt": "2026-10-28T19:21:00.535Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Camera Q&A demo using GPT-4 Vision, Whisper, TTS",
-        "description": "Python app that answers spoken questions about a camera feed using GPT-4 Vision, Whisper, and Resemble AI voice synthesis.",
+        "tagline": "Camera Q&A demo using OpenAI vision and speech APIs",
+        "description": "Python app answers spoken questions about a camera feed via GPT-4 Vision, Whisper, and Resemble AI voice synthesis.",
         "pros": [
-          "MIT-licensed Python demo with a short README covering install and run.py usage.",
-          "Combines camera frames, Whisper STT, GPT-4 Vision, and Resemble TTS as described in the README."
+          "MIT-licensed Python demo with a short README covering clone, pip install, and run.py usage.",
+          "States a clear pipeline: camera frames plus Whisper STT into GPT-4 Vision, then Resemble AI TTS.",
+          "Lists hardware needs (camera, mic, speakers) and third-party API credentials in .env."
         ],
         "cons": [
-          "Does not use Google Gemini APIs; it imitates a Gemini demo with OpenAI and Resemble.",
-          "Repository last pushed 2023-12-09 with 26 stars and 3 forks.",
-          "A .env file is present in the repo listing, which is a credential-handling concern."
+          "Does not call Google Gemini or any Google AI SDK; it only imitates a Gemini-style demo with OpenAI and Resemble.",
+          "Repository last pushed 2023-12-09 with 26 stars, 3 forks, no topics, and a committed .env file listed in the tree.",
+          "README environment setup is incomplete (credentials mentioned without documented variable names)."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -13450,10 +13457,10 @@
           "learning"
         ],
         "usage": {
-          "input": 730,
-          "output": 425,
-          "cacheRead": 14976,
-          "totalTokens": 16131,
+          "input": 721,
+          "output": 566,
+          "cacheRead": 17152,
+          "totalTokens": 18439,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -14313,41 +14320,43 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Small MIT-licensed Python project that wraps Gemini Pro and Gemini Pro Vision behind a self-hosted Telegram bot, with Docker and shell install scripts. Last push was 2024-10-18 and it still targets older Gemini Pro APIs, so treat it as a dated hobby demo rather than a maintained integration.",
-        "relevanceScore": 0.62,
-        "qualityScore": 0.38,
-        "riskScore": 0.28,
+        "summary": "Small MIT-licensed Telegram bot that wraps Gemini Pro and Gemini Pro Vision with Docker/shell setup. Useful as a hobby demo, but last push is 2024-10 and docs still point at makersuite and Pro/Pro Vision models.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.45,
+        "riskScore": 0.38,
         "suggestedTags": [
           "gemini",
-          "api",
-          "open-source"
+          "google-ai",
+          "open-source",
+          "api"
         ],
         "evidence": [
-          "GitHub description and README: deploys Google Gemini API as a Telegram bot.",
-          "Facts: MIT license, not archived, topics include gemini, gemini-pro, gemini-pro-vision, telegram-bot, docker.",
-          "pushed_at 2024-10-18T06:17:20.000Z; language Python; files include script.py, Dockerfile, setup.sh.",
-          "API key link points to makersuite.google.com/app/apikey."
+          "Repo description and README: deploys Gemini API as a Telegram bot.",
+          "Topics: gemini, gemini-pro, gemini-pro-vision, telegram-bot, docker.",
+          "License MIT; pushed_at 2024-10-18; ~29–31 stars.",
+          "README install uses wget of setup.sh/gemini2tg.sh and docker run with config.json volume."
         ],
         "uncertainty": [
-          "Exact current API client version, safety filters, and secret handling in script.py were not fully audited.",
-          "Whether the bot still works against today’s Gemini endpoints is unverified."
+          "Whether script.py uses current Gemini API/SDK vs legacy google-generativeai Pro endpoints.",
+          "Key handling quality in config.json and runtime scripts not fully audited.",
+          "Exact current star/fork counts vs facts snapshot."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:37:09.111Z",
+        "reviewedAt": "2026-10-28T19:21:14.063Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Self-host Gemini Pro chat and vision in Telegram",
-        "description": "Run a Telegram bot that routes text to Gemini Pro and images to Gemini Pro Vision, with Docker and shell setup.",
+        "tagline": "Self-hosted Telegram bot wrapping Gemini text and vision",
+        "description": "Deploy a personal Telegram bot that routes text to Gemini Pro and images to Pro Vision, with chat context and Docker setup.",
         "pros": [
-          "README documents Gemini API key and Telegram BotFather setup plus Docker and Ubuntu install paths.",
-          "Codebase is MIT-licensed and includes Dockerfile, requirements, and bilingual READMEs.",
-          "Described behavior routes text to Gemini Pro, image-plus-text to Gemini Pro Vision, and /start to reset chat."
+          "Open-source MIT Python project that calls the Gemini API from a Telegram bot.",
+          "README documents text vs image routing (Gemini Pro / Pro Vision), /start for new chats, and Docker plus Ubuntu install scripts.",
+          "Includes Dockerfile, requirements, and bilingual README files."
         ],
         "cons": [
-          "Repository last pushed 2024-10-18 and still names Gemini Pro / Pro Vision rather than current Gemini models.",
-          "Stars (~30) and forks (~11–13) are low with zero open issues listed on the GitHub snapshot.",
-          "Install flow relies on wget of remote shell scripts and a sudo kill snippet, with limited production guidance."
+          "Last push was 2024-10-18; models and makersuite.google.com links are outdated.",
+          "Low activity (~30 stars, few forks) and no issues listed.",
+          "Install path wget-runs remote shell scripts and bind-mounts config.json, which is a weak security/ops story."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -14356,10 +14365,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 801,
-          "output": 591,
-          "cacheRead": 14464,
-          "totalTokens": 15856,
+          "input": 12109,
+          "output": 476,
+          "cacheRead": 5120,
+          "totalTokens": 17705,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -15364,7 +15373,7 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Open-source Next.js chatbot that calls Google Gemini Pro, with chat UI, auth, and history. Last push was January 2024, so treat it as an unmaintained demo rather than a current Gemini integration sample.",
+        "summary": "Next.js Gemini Pro chatbot demo with chat UI, auth, and sharing; last push January 2024 so it is likely stale versus current Gemini APIs.",
         "relevanceScore": 0.62,
         "qualityScore": 0.45,
         "riskScore": 0.28,
@@ -15374,32 +15383,32 @@
           "api"
         ],
         "evidence": [
-          "GitHub description and README: AI chatbot powered by Gemini Pro.",
-          "Topics include gemini, gemini-api, gemini-pro, gemini-pro-vision.",
-          "pushed_at 2024-01-13; license MIT; language TypeScript; ~20 stars.",
-          "File tree shows app/api/chat/route.ts and NextAuth routes."
+          "GitHub description: An AI chatbot powered by Google's Gemini Pro.",
+          "License MIT; stars 21; forks ~13–15; not archived.",
+          "pushed_at 2024-01-13T06:47:12.000Z.",
+          "Code layout: app/api/chat, NextAuth, chat UI components."
         ],
         "uncertainty": [
-          "Whether GOOGLE_API_KEY handling is server-side only and current SDK usage.",
-          "Live demo availability and Discord bot quality were not verified.",
-          "Issue/PR activity beyond one listed issue."
+          "Whether the live demo still works and which Gemini model/SDK version is used.",
+          "How API keys are handled in production.",
+          "Issue content (2 open issues) not reviewed in depth."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:37:47.423Z",
+        "reviewedAt": "2026-10-28T19:21:25.432Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Next.js chat UI wrapping Gemini Pro with auth and history",
-        "description": "Run a TypeScript Next.js chatbot that talks to Gemini Pro, with signed-in sessions, chat history, and a shareable web app.",
+        "tagline": "Next.js chatbot UI using Gemini Pro",
+        "description": "Open-source Next.js chatbot that calls Gemini Pro, with chat history, auth, and a live web demo.",
         "pros": [
-          "MIT-licensed TypeScript Next.js app that targets Gemini Pro.",
-          "Includes chat routes, NextAuth, sidebar history, and share pages.",
-          "Public web demo and related Discord bot repo are linked from the README."
+          "MIT-licensed TypeScript Next.js app that uses Google Gemini Pro.",
+          "Includes chat routes, NextAuth, history, and share pages.",
+          "README links a live web app and a related Discord bot repo."
         ],
         "cons": [
-          "Repository last pushed in January 2024, so the Gemini integration is likely outdated.",
-          "README is a short pitch with no setup, API, or model-version guidance.",
-          "Small star/fork counts and keyword stuffing (Bard, Bing, ChatGPT) weaken maintenance and focus signals."
+          "Repository last pushed 2024-01-13, so Gemini API usage may be outdated.",
+          "README is a short description with little setup or API documentation.",
+          "Topic tags mix Bard, Bing, and ChatGPT, which reduces signal of a focused Gemini sample."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -15407,10 +15416,10 @@
           "learning"
         ],
         "usage": {
-          "input": 1179,
-          "output": 436,
-          "cacheRead": 14208,
-          "totalTokens": 15823,
+          "input": 1211,
+          "output": 478,
+          "cacheRead": 18048,
+          "totalTokens": 19737,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -17270,44 +17279,44 @@
       "createdAt": "2026-08-17T19:38:40.370Z",
       "updatedAt": "2026-10-28T18:40:05.174Z",
       "aiReview": {
-        "summary": "Streamlit demo that chats over uploaded PDFs using LangChain, FAISS, and Google Gemini Pro. Useful as a learning example, but the repo is stale, README/code names disagree, and feature claims look overstated.",
+        "summary": "Streamlit demo that chats over uploaded PDFs via LangChain, FAISS, and Google Gemini Pro. Relevant as a Gemini RAG example, but last updated in 2024, README/code names disagree, and feature claims look broader than a typical tutorial app.",
         "relevanceScore": 0.72,
         "qualityScore": 0.42,
-        "riskScore": 0.28,
+        "riskScore": 0.18,
         "suggestedTags": [
           "gemini",
           "rag",
           "open-source",
-          "google-ai",
-          "tutorial"
+          "agents",
+          "google-ai"
         ],
         "evidence": [
-          "GitHub description and topics include gemini, gemini-api, langchain, streamlit.",
-          "README installation uses makersuite.google.com API keys and google-generativeai.",
-          "Repo layout is small: chatapp.py, requirements.txt, sample PDFs; pushed_at 2024-04-23.",
-          "~110–136 stars, MIT license, not archived."
+          "GitHub description and README name Langchain, Google Gemini Pro, FAISS, and Streamlit.",
+          "Topics include gemini, gemini-api, gemini-pro, langchain.",
+          "Facts: MIT, not archived, ~110–138 stars, pushed_at 2024-04-23.",
+          "File list is a small demo: chatapp.py, requirements.txt, sample PDFs, images."
         ],
         "uncertainty": [
-          "Whether chatapp.py actually implements multi-LLM support or sliding-window chunking.",
-          "Whether the Streamlit Cloud demo still works.",
-          "Current security of API key handling in source."
+          "Whether chatapp.py actually supports non-Gemini models advertised in the README.",
+          "Current status of the Streamlit Cloud demo.",
+          "Code quality, secret handling, and RAG correctness without a full source review."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T00:38:02.150Z",
+        "reviewedAt": "2026-10-28T19:21:41.415Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Streamlit RAG chat over multiple PDFs with Gemini",
-        "description": "Upload PDFs, embed chunks with FAISS, and ask questions via LangChain and Google Gemini in a Streamlit UI.",
+        "tagline": "Streamlit RAG chat over PDFs with Gemini and FAISS",
+        "description": "Upload PDFs, chunk and embed text, then ask questions with LangChain, FAISS, and Gemini Pro in a Streamlit UI.",
         "pros": [
-          "Uses Google Gemini via langchain_google_genai and a GOOGLE_API_KEY from AI Studio.",
-          "MIT-licensed Python Streamlit app with a documented PDF-chunk-embed-retrieve flow.",
-          "Includes requirements.txt, architecture notes, and a Streamlit Cloud demo link."
+          "Uses LangChain with langchain_google_genai and a Google API key from AI Studio/MakerSuite.",
+          "Implements a standard PDF load, chunk, FAISS retrieve, then LLM answer flow.",
+          "MIT-licensed Python Streamlit app with a public demo link and requirements listed."
         ],
         "cons": [
-          "Last push is April 2024, so Gemini/LangChain usage is likely outdated.",
-          "README tells users to run app.py while the repo file is chatapp.py.",
-          "Key features claim GPT-3, Claude, Llama2 and adaptive chunking without matching evidence in the listed files."
+          "Repository last push is 2024-04-23, so dependencies and Gemini APIs may be outdated.",
+          "README tells users to run app.py while the tree lists chatapp.py.",
+          "Key-feature claims (sliding-window chunking, GPT/Claude/Llama) are not evidenced as first-class implementations in the listed files."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -17315,10 +17324,10 @@
           "prototyping"
         ],
         "usage": {
-          "input": 1907,
-          "output": 485,
-          "cacheRead": 15872,
-          "totalTokens": 18264,
+          "input": 1972,
+          "output": 685,
+          "cacheRead": 20992,
+          "totalTokens": 23649,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -160928,49 +160937,52 @@
       "createdAt": "2026-10-10T04:37:34.860Z",
       "updatedAt": "2026-10-10T04:37:34.860Z",
       "aiReview": {
-        "summary": "macOS menubar app for Cloudflare Pages with no Gemini API connection; stars, license, and README are missing, so it does not belong in a Gemini developer directory.",
+        "summary": "macOS menubar app for Cloudflare Pages with no Gemini API, Google AI, or related developer content. It is off-topic for a Gemini resource directory.",
         "relevanceScore": 0.05,
-        "qualityScore": 0.2,
-        "riskScore": 0.35,
+        "qualityScore": 0.25,
+        "riskScore": 0.15,
         "suggestedTags": [
-          "open-source",
-          "cli"
+          "cli",
+          "open-source"
         ],
         "evidence": [
           "GitHub description: Cloudflare Pages menubar for macOS: project health, deployment timeline, direct upload.",
-          "facts: stargazers_count 0, forks_count 0, license null, topics empty, readmeAttempted true with no README body.",
+          "stargazers_count 0, forks_count 0, license null, topics empty.",
           "canonicalUrl https://github.com/thomaszdxsn/flarebar returned HTTP 404 on fetch.",
-          "Candidate type github_repo; source is awesome-gemini smoke submission with backlink."
+          "sourceEvidence title: [Submit] awesome-gemini smoke: with backlink (#175)."
         ],
         "uncertainty": [
-          "Could not verify current repo contents, license, or maintenance because the GitHub page 404ed.",
-          "cli tag is a weak fit; menubar app may not be a CLI."
+          "Full README, license, and implementation quality cannot be verified because the repo page 404s.",
+          "Whether the project is open source beyond being a GitHub listing is unverified without a license.",
+          "Actual product behavior and maintenance beyond pushed_at cannot be confirmed."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-10-12T11:04:35.763Z",
+        "reviewedAt": "2026-10-28T19:50:05.682Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
         "tagline": "macOS menubar for Cloudflare Pages deployments",
-        "description": "Shows Cloudflare Pages project health, deployment timeline, and direct upload from a macOS menubar.",
+        "description": "Monitor Cloudflare Pages project health, view deployment timelines, and upload from a macOS menubar.",
         "pros": [
-          "Repository description states a focused Cloudflare Pages menubar for macOS.",
-          "Default branch is main and the project is not marked archived."
+          "Repository description states a focused Cloudflare Pages menubar use case.",
+          "Not archived and had a recent push on the default branch.",
+          "No risk flags were recorded in the candidate record."
         ],
         "cons": [
-          "No Gemini, Google AI, or related topics, README, or documentation were available.",
-          "Zero stars and forks, no license, and the public GitHub page returned 404 during review.",
-          "Discovered via an awesome-gemini smoke submission despite unrelated subject matter."
+          "Zero documented connection to Gemini, Google AI, or related APIs.",
+          "No stars, forks, topics, or license listed.",
+          "README could not be retrieved; GitHub page returned 404.",
+          "Submission title indicates a smoke/backlink test rather than a genuine Gemini resource."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping"
         ],
         "usage": {
-          "input": 6015,
-          "output": 485,
-          "cacheRead": 512,
-          "totalTokens": 7012,
+          "input": 137,
+          "output": 498,
+          "cacheRead": 6400,
+          "totalTokens": 7035,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -161179,53 +161191,54 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official Zero agent plugins including a Gemini CLI overlay that lets agents discover and pay for third-party capabilities via a CLI, skill, hooks, and MCP. Relevant to Gemini CLI rather than the Gemini API; wallet/auth and paid capability calls warrant a human review.",
-        "relevanceScore": 0.42,
-        "qualityScore": 0.58,
-        "riskScore": 0.62,
+        "summary": "Third-party agent plugin/CLI for discovering and paying for extra capabilities; Gemini CLI is one host overlay, not a Gemini API client or official Google resource.",
+        "relevanceScore": 0.28,
+        "qualityScore": 0.45,
+        "riskScore": 0.42,
         "suggestedTags": [
           "cli",
           "agents",
-          "open-source"
+          "open-source",
+          "gemini"
         ],
         "evidence": [
-          "README lists plugins/zero-gemini and guides/gemini-cli.md and states Gemini CLI plugins ship today.",
-          "facts.stargazers_count is 18, forks_count 1, license null, pushed_at 2026-08-06.",
-          "README describes Zero as a search engine and payment layer with npm i -g @zeroxyz/cli, zero auth login, and ~/.zero/config.json."
+          "README: Zero is a search engine and payment layer; agents pay per use from a single wallet.",
+          "README lists guides/gemini-cli.md and plugins/zero-gemini as a thin Gemini-only overlay.",
+          "Facts: 18 stars, 1 fork, license null, pushed_at 2026-08-06, not archived.",
+          "Discovered as zero/zero-gemini in VoltAgent/awesome-agent-skills, not as Gemini API docs."
         ],
         "uncertainty": [
-          "Cannot verify security of the payment wallet, npm CLI, or MCP endpoint from the README alone.",
-          "License terms are unknown despite an open GitHub repo.",
-          "Depth and correctness of the Gemini CLI overlay versus other hosts were not independently audited."
+          "Cannot verify code quality, wallet security, or npm package contents from facts alone.",
+          "Cannot confirm whether Gemini support uses the Gemini API versus Gemini CLI only.",
+          "License and commercial terms of paid capabilities are not in the excerpt."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-12T11:05:22.257Z",
+        "reviewedAt": "2026-10-28T19:52:21.400Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "Agent plugins to search and pay for extra capabilities",
-        "description": "Install a skill, hooks, and CLI so agents can find third-party tools, call them, and pay per use from one wallet.",
+        "tagline": "Agent plugin to search and pay for extra capabilities",
+        "description": "Install a skill, hooks, and MCP so agents can find, call, and pay for extra services from one wallet.",
         "pros": [
-          "README documents Gemini CLI as a first-class host with plugins/zero-gemini and a dedicated install guide.",
-          "Shared skill/hooks live in one tree with per-host manifests so packaging does not drift.",
-          "Install, uninstall, and per-agent guides are listed for many harnesses including Gemini CLI."
+          "README documents a Gemini CLI overlay under plugins/zero-gemini plus a dedicated install guide.",
+          "Repo layout and per-host install guides are described, including shared skill and hooks.",
+          "Status section names Claude Code, Codex, Droid, and Gemini CLI as shipped plugins."
         ],
         "cons": [
-          "This is a multi-host payment/capability marketplace plugin, not a Gemini API SDK or sample.",
-          "No license is recorded on the repository metadata.",
-          "Install path is a global npm CLI plus login/wallet config under ~/.zero, and capability calls spend real money."
+          "It is a Zero payment/search layer for agents, not a Gemini API SDK or Google-maintained library.",
+          "No license is declared; stars are low (18) and GitHub description is empty.",
+          "Setup asks users to let an agent run a global npm CLI and wallet auth, which is a trust and safety concern."
         ],
-        "pricingModel": "freemium",
+        "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
-          "prototyping",
-          "solo founder"
+          "prototyping"
         ],
         "usage": {
-          "input": 11049,
-          "output": 672,
-          "cacheRead": 512,
-          "totalTokens": 12233,
+          "input": 5037,
+          "output": 671,
+          "cacheRead": 5120,
+          "totalTokens": 10828,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -163468,58 +163481,59 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official Google Cloud sample notebooks and apps for Gemini, RAG, search, vision, audio, and Agent Platform. Strong Gemini relevance and maintenance; listing title “Streamlit + Cloud Run” does not match the full repository.",
+        "summary": "Official Google Cloud sample notebooks and apps for Gemini, Vertex AI, RAG, and Agent Platform. Strong maintenance and documentation; samples are demonstrative and not a supported product.",
         "relevanceScore": 0.95,
         "qualityScore": 0.9,
-        "riskScore": 0.15,
+        "riskScore": 0.12,
         "suggestedTags": [
           "gemini",
           "google-ai",
-          "rag",
+          "open-source",
           "agents",
-          "open-source"
+          "rag"
         ],
         "evidence": [
           "canonicalUrl https://github.com/googlecloudplatform/generative-ai",
-          "facts.license apache-2.0; stargazers_count 17794; pushed_at 2026-10-09; archived false",
-          "readme describes gemini/, search/, rag-grounding/, vision/, audio/, setup-env/, RESOURCES.md",
-          "topics include gemini, gemini-api, vertex-ai, agents, langchain"
+          "license apache-2.0, archived false, pushed_at 2026-10-09",
+          "stargazers_count 17794, forks_count 4488",
+          "readme describes notebooks, code samples, sample apps for Generative AI and Agent Platform",
+          "disclaimer: not an officially supported Google product"
         ],
         "uncertainty": [
-          "Notebook execution quality and Cloud Run/Streamlit sample health were not run in this review",
-          "Whether every sample tracks the latest Gemini 4 Argon APIs beyond the README pointer"
+          "Whether a specific Streamlit + Cloud Run sample is the primary entry vs the whole repo",
+          "Runtime quality of individual notebooks not audited here"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:31:21.887Z",
+        "reviewedAt": "2026-10-28T20:15:34.292Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
-        "suggestedCategory": "Resources",
-        "tagline": "GCP notebooks and samples for Gemini and agents",
-        "description": "Notebooks, code samples, and sample apps covering Gemini, RAG, search, vision, audio, and agent workflows on Google Cloud.",
+        "suggestedCategory": "Apps",
+        "tagline": "GCP notebooks and samples for Gemini, RAG, and agents",
+        "description": "Browse starter notebooks, function-calling samples, RAG/grounding indexes, and sample apps for generative AI workflows on Google Cloud.",
         "pros": [
-          "README organizes Gemini starters, function calling, sample apps, RAG/grounding, search, vision, audio, and setup.",
-          "Apache-2.0 license, ~17.8k stars, ~4.5k forks, and a push dated 2026-10-09.",
-          "Topics include gemini-api, vertex-ai, and agents; CONTRIBUTING and issues are documented.",
-          "Links related ADK samples, Gemini Cookbook, and Vertex AI repos for further implementation."
+          "Apache-2.0 repo under GoogleCloudPlatform with ~18k stars and recent pushes.",
+          "README indexes gemini, search, rag-grounding, vision, audio, and setup-env samples.",
+          "Topics include gemini-api, vertex-ai-gemini-api, agents, and related GCP services.",
+          "Includes contributing guide, issues, and links to related official sample repos."
         ],
         "cons": [
-          "README states the repository is not an officially supported Google product and is for demonstration only.",
-          "Curated listing title refers only to Streamlit + Cloud Run, not the whole sample collection.",
-          "Samples typically need a Google Cloud project and billed Vertex/Gemini usage."
+          "README states the repository is not an officially supported Google product.",
+          "Code is for demonstrative purposes and may lag production APIs.",
+          "Discovery title mislabels the whole repo as a Streamlit + Cloud Run demo."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "learning",
           "prototyping",
           "small team",
-          "agentic coding",
-          "production"
+          "enterprise",
+          "agentic coding"
         ],
         "usage": {
-          "input": 10973,
-          "output": 561,
-          "cacheRead": 512,
-          "totalTokens": 12046,
+          "input": 6315,
+          "output": 747,
+          "cacheRead": 5120,
+          "totalTokens": 12182,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -163846,42 +163860,45 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official google-gemini repo of Agent Skills that inject Gemini API/SDK best-practice context into coding agents. Apache-2.0, recently pushed, with install paths for several assistants; not an officially supported Google product.",
+        "summary": "Official google-gemini repo of agent skills that inject Gemini API/SDK best-practice context for coding assistants. Apache-2.0, recently pushed, and clearly scoped to Interactions/Live/Omni APIs; not an official Google product.",
         "relevanceScore": 0.95,
         "qualityScore": 0.88,
         "riskScore": 0.12,
         "suggestedTags": [
           "gemini",
           "google-ai",
-          "sdk",
           "agents",
+          "sdk",
           "open-source"
         ],
         "evidence": [
-          "canonicalUrl https://github.com/google-gemini/gemini-skills; facts.license apache-2.0; topics gemini, gemini-api, skills.",
-          "readme excerpt describes skills for Gemini API, Live API, Omni Flash and installation CLIs.",
-          "stargazers_count 4263, forks_count 452, pushed_at 2026-10-06, archived false."
+          "canonicalUrl https://github.com/google-gemini/gemini-skills under org google-gemini",
+          "facts.readme describes gemini-api-dev, gemini-live-api-dev, gemini-omni-flash-api",
+          "license apache-2.0; stargazers_count 4263; pushed_at 2026-10-06; archived false",
+          "Disclaimer: not an officially supported Google product"
         ],
         "uncertainty": [
-          "Could not independently verify evaluation methodology or live plugin marketplace health.",
-          "Skill file contents and maintenance of each skill folder were not inspected beyond README."
+          "Independent verification of the 87%/96% evaluation numbers",
+          "Ongoing maintenance cadence after 2026-10-06",
+          "Exact skill file quality beyond README table"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-15T10:32:15.203Z",
+        "reviewedAt": "2026-10-28T20:22:05.206Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Agent skills for current Gemini API and SDK usage",
-        "description": "Adds Gemini API, Live API, and Omni Flash skills so coding agents generate up-to-date SDK code and follow current best practices.",
+        "tagline": "Agent skills that teach current Gemini API and SDK usage",
+        "description": "Install agent skills that add Gemini API, Live, and Omni context so coding agents generate current SDK code and follow documented best practices.",
         "pros": [
-          "README lists three skills covering Gemini API (Interactions), Live API, and Omni Flash video workflows including Python and TypeScript SDKs.",
-          "Apache-2.0 license, 4263 stars, 452 forks, and last push 2026-10-06 on default branch main.",
-          "Documents install via skills.sh, Context7, Antigravity, Claude Code, Cursor, and Codex, plus a link to ai.google.dev coding-agent docs.",
-          "States evaluation results (87% Gemini 3 Flash, 96% Gemini 3.1 Pro) and links a Google Developers Blog post."
+          "Repo documents skills for Gemini API (Interactions), Live API, and Omni Flash video workflows with Python and TypeScript SDK coverage.",
+          "README includes install paths for multiple assistants (skills.sh, Context7, Antigravity, Claude Code, Cursor, Codex) and links to ai.google.dev coding-agent docs.",
+          "Apache-2.0 license, 4263 stars, 452 forks, and last push 2026-10-06 on an unarchived google-gemini repository.",
+          "Evaluations cited in the README claim improved correct API-code generation (87% Gemini 3 Flash, 96% Gemini 3.1 Pro) with a linked Google Developers blog post."
         ],
         "cons": [
-          "README disclaimer says it is not an officially supported Google product and is ineligible for Google OSS vulnerability rewards.",
-          "vertex-ai-api-dev was moved out of this repo to google/skills, so Vertex coverage is no longer here."
+          "README states this is not an officially supported Google product and is ineligible for Google OSS vulnerability rewards.",
+          "The vertex-ai-api-dev skill has moved to a different google/skills tree, so Vertex coverage is no longer in this repo.",
+          "Performance claims depend on unpublished evaluation details beyond the blog link."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -163892,10 +163909,10 @@
           "small team"
         ],
         "usage": {
-          "input": 8220,
-          "output": 603,
-          "cacheRead": 512,
-          "totalTokens": 9335,
+          "input": 6394,
+          "output": 557,
+          "cacheRead": 5120,
+          "totalTokens": 12071,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

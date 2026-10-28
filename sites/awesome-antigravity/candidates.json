@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-antigravity",
   "items": [
     {
@@ -705,10 +705,10 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Community Python CLI that maps Claude Code/Cursor SKILL.md files to Antigravity plugins (tool names, GEMINI.md/AGENTS.md, plugin.json). Useful for skill migration, but it is unofficial, lightly starred, and writes into ~/.gemini config.",
+        "summary": "Third-party MIT CLI that maps Claude/Cursor SKILL.md tools and context files into Antigravity plugins; relevant but unofficial, lightly starred, and README-heavy, so it needs a maintainer/code check before listing.",
         "relevanceScore": 0.78,
-        "qualityScore": 0.55,
-        "riskScore": 0.28,
+        "qualityScore": 0.48,
+        "riskScore": 0.32,
         "suggestedTags": [
           "antigravity",
           "skills",
@@ -717,46 +717,43 @@
           "multi-agent"
         ],
         "evidence": [
-          "Repo description and README describe porting Claude Code/Cursor skills to Antigravity plugins.",
-          "Quickstart uses python port_skill.py with --dry-run and GitHub skill URLs.",
-          "Facts: MIT, not archived, 5 stars, pushed_at 2026-09-12.",
+          "README describes port_skill.py usage, tool translation table, dual packaging, and examples/llm-council, frontend-design, minimalist-entrepreneur.",
+          "GitHub facts: MIT, not archived, not a fork, stargazers_count 5, forks_count 2, pushed_at 2026-09-12.",
           "Topics include google-antigravity, claude-skills, multi-agent."
         ],
         "uncertainty": [
-          "Actual correctness of tool remapping and invoke_subagent injection was not executed.",
-          "Maintenance beyond the single 2026-09-12 push and example quality were not audited.",
-          "Security of ingesting arbitrary GitHub skill trees into user config was not reviewed."
+          "Actual conversion quality and whether invoke_subagent injection is correct were not verified by running the CLI.",
+          "Repository health beyond metadata and README (tests, code review, security of URL ingestion) is unverified."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-15T10:38:14.704Z",
+        "reviewedAt": "2026-10-28T20:29:20.615Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
         "tagline": "Convert Claude/Cursor skills into Antigravity plugins",
-        "description": "CLI that ingests SKILL.md sources, remaps tools and context files, and emits Antigravity plugin.json plus optional subagent wiring.",
+        "description": "CLI maps Claude tools and CLAUDE.md to Antigravity natives, writes plugin.json, and can install globally or into .agents/skills.",
         "pros": [
-          "Documents deterministic mappings from Claude tools and CLAUDE.md to Antigravity equivalents.",
-          "Supports GitHub URL, local SKILL.md, dry-run diffs, and global or workspace install paths.",
-          "MIT-licensed with example ports (llm-council, frontend-design, multi-skill bundle).",
-          "Can be cloned as a plugin under ~/.gemini/config/plugins for in-IDE use."
+          "Documents deterministic mappings from Claude tools and CLAUDE.md to Antigravity equivalents and plugin.json packaging.",
+          "Provides a Python CLI with dry-run, GitHub URL ingestion, and optional workspace vs global install paths.",
+          "Ships MIT license plus an examples/ set of claimed pre-ported skills.",
+          "Can also be copied under ~/.gemini/config/plugins as a native skill."
         ],
         "cons": [
-          "Not official Google Antigravity documentation; five stars and two forks.",
-          "README is promotional and claims optimizer/transpiler behavior that is not independently verified.",
-          "Installs into global ~/.gemini/config unless --workspace is used."
+          "Not official Google Antigravity documentation or a first-party skill.",
+          "GitHub activity is thin (about 5 stars, 2 forks) and the README is marketing-heavy.",
+          "Installing into global ~/.gemini/config is documented and should be treated as a trust boundary."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "agentic coding",
           "prototyping",
-          "solo founder",
-          "learning"
+          "solo founder"
         ],
         "usage": {
-          "input": 8695,
-          "output": 760,
-          "cacheRead": 512,
-          "totalTokens": 9967,
+          "input": 5691,
+          "output": 750,
+          "cacheRead": 5120,
+          "totalTokens": 11561,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:47:55.426Z",
+  "generatedAt": "2026-10-28T19:17:16.413Z",
   "appId": "awesome-ai-workflow",
   "items": [
     {
@@ -205,55 +205,54 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Official-style n8n community node wrapping Crawlbase’s Crawling API with native credentials, an importable example workflow, and MIT-licensed source. Low GitHub traction and a commercial Crawlbase token requirement warrant a human check before listing.",
-        "relevanceScore": 0.82,
+        "summary": "Official Crawlbase community node for n8n with native credentials, Crawling API options, and an importable example workflow. Useful as a maintained n8n integration, but the repo has no stars and GitHub reports no license file despite an MIT notice in the README.",
+        "relevanceScore": 0.78,
         "qualityScore": 0.58,
         "riskScore": 0.22,
         "suggestedTags": [
           "n8n",
           "crawlbase",
-          "web-crawling",
           "community-node",
-          "workflow"
+          "web-crawling"
         ],
         "evidence": [
-          "README: n8n community node n8n-nodes-crawlbase with Crawling API, Test connection, example-workflow.json.",
-          "Facts: not archived, pushed_at 2026-07-13, stargazers_count 0, forks_count 1, license null.",
-          "Rubric prefers importable n8n integrations over listicles; this is a node plus sample workflow, not a template gallery."
+          "README describes n8n-nodes-crawlbase with native Crawlbase credentials and Crawling API GET/POST/PUT.",
+          "Installation via n8n Community nodes package name n8n-nodes-crawlbase.",
+          "example-workflow.json referenced for Workflows → Import from file.",
+          "Facts: archived false, pushed_at 2026-07-13, stargazers_count 0, license null."
         ],
         "uncertainty": [
-          "Whether the package is published on npm / n8n Creator Portal as claimed.",
-          "Actual maintenance quality and test coverage beyond README.",
-          "Crawlbase commercial pricing and ToS for scraping use."
+          "Cannot verify npm package health, n8n Creator Portal listing, or example-workflow.json contents from facts alone.",
+          "Cannot verify Crawlbase commercial pricing or whether GitHub LICENSE file exists despite README MIT claim."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-10T10:41:38.823Z",
+        "reviewedAt": "2026-10-28T19:50:36.127Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "SDKs",
         "tagline": "n8n community node for Crawlbase Crawling API",
-        "description": "Install the community node, add an API token, and crawl URLs with GET/POST/PUT plus normalized status, headers, body, and metadata.",
+        "description": "Install an n8n community node that crawls URLs via Crawlbase credentials, optional API parameters, and normalized status/body output.",
         "pros": [
-          "README documents community-node install, credentials, item-list mode, retries, and an example-workflow.json import.",
-          "Node exposes Crawling API options and returns statusCode, headers, body, and metadata.",
-          "README states MIT license and copyright 2026 Crawlbase."
+          "README documents community-node install, credentials, item-list crawling, retries, and links to Crawlbase API docs.",
+          "Includes example-workflow.json for importing a single-URL crawl in n8n.",
+          "README states MIT license and Copyright 2026 Crawlbase."
         ],
         "cons": [
-          "Repository has zero stars, one fork, no GitHub license field, and no description or topics.",
-          "Using the node requires a Crawlbase dashboard API token subject to plan rate limits."
+          "GitHub metadata shows 0 stars, 1 fork, null license field, and no topics.",
+          "Usage depends on a Crawlbase API token and plan rate limits, not a standalone free crawler.",
+          "Not a large template library; it is a single vendor node plus one example workflow."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "small team",
           "agentic coding",
-          "data engineering"
+          "small team"
         ],
         "usage": {
-          "input": 6816,
-          "output": 848,
+          "input": 9466,
+          "output": 773,
           "cacheRead": 512,
-          "totalTokens": 8176,
+          "totalTokens": 10751,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -649,61 +648,6 @@
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
-      "aiReview": {
-        "summary": "MIT-licensed Claude Code skill pack that teaches n8n-mcp usage, workflow patterns, validation, node config, and self-hosting. Strong for agentic n8n building, not a library of importable n8n JSON templates.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.86,
-        "riskScore": 0.12,
-        "suggestedTags": [
-          "n8n",
-          "claude-code",
-          "mcp",
-          "workflow-automation",
-          "ai-agents"
-        ],
-        "evidence": [
-          "README lists 14 skills, a SessionStart router, and hooks for n8n-mcp workflow construction.",
-          "GitHub facts: MIT, not a fork, not archived, stargazers_count 6370, forks_count 1052, topics n8n/ai-agents/workflow-automation.",
-          "Rubric fit: n8n automation guidance with maintained GitHub presence, not a Zapier listicle."
-        ],
-        "uncertainty": [
-          "Skill file completeness and hook behavior were not inspected beyond the README excerpt.",
-          "Ongoing compatibility with current n8n Cloud vs 2.x Python sandbox was not runtime-tested."
-        ],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-15T10:30:54.185Z",
-        "modelId": "xai-oauth/grok-4.6:low",
-        "promptVersion": "1",
-        "suggestedCategory": "Resources",
-        "tagline": "Claude Code skills for production n8n via n8n-mcp",
-        "description": "Fourteen Claude Code skills plus a router and hooks teach n8n-mcp, expressions, patterns, validation, and self-hosted deploy.",
-        "pros": [
-          "Documents 14 complementary skills covering expressions, MCP tools, patterns, validation, Code nodes, AI agents, and self-hosting.",
-          "MIT license, ~6370 stars, ~1052 forks, and a push dated 2026-09-16 on an unarchived main branch.",
-          "Ties workflow building to the companion n8n-mcp MCP server and cites patterns drawn from thousands of templates."
-        ],
-        "cons": [
-          "Requires Claude Code plus n8n-mcp rather than shipping standalone importable n8n workflow JSON.",
-          "README promotes the author’s paid AiAdvisors consultancy.",
-          "Effectiveness of skills depends on Claude Code skill/plugin loading, which is not independently verified here."
-        ],
-        "pricingModel": "open-source",
-        "bestFor": [
-          "agentic coding",
-          "prototyping",
-          "production",
-          "solo founder",
-          "small team"
-        ],
-        "usage": {
-          "input": 1541,
-          "output": 780,
-          "cacheRead": 11136,
-          "totalTokens": 13457,
-          "provider": "xai-oauth",
-          "model": "grok-4.6"
-        }
-      },
       "reference": {
         "source": "readme",
         "url": "https://github.com/czlonkowski/n8n-skills",
@@ -28840,54 +28784,57 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Unofficial Dify sandbox Docker image that matches official sandbox API calls but loosens isolation so more Python/Node packages can run. Useful for self-hosted code nodes; weaker sandboxing than the official image.",
-        "relevanceScore": 0.58,
-        "qualityScore": 0.68,
-        "riskScore": 0.62,
+        "summary": "Unofficial Dify code-node sandbox drop-in that trades isolation for extra Python/Node deps. Useful for self-hosted personal stacks, not a workflow template and weaker than the official sandbox.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.62,
+        "riskScore": 0.68,
         "suggestedTags": [
           "dify",
           "sandbox",
           "docker",
-          "python"
+          "python",
+          "self-hosted"
         ],
         "evidence": [
-          "README purpose: personal self-edited code nodes, more deps (numpy>2, matplotlib, scikit-learn), official sandbox is described as a better sandboxing solution.",
-          "Usage: swap langgenius/dify-sandbox for svcvit/dify-sandbox-py:0.1.4.",
-          "GitHub facts: 377 stars, 79 forks, MIT, topics dify/sandbox, not archived."
+          "README describes drop-in replacement of langgenius/dify-sandbox with svcvit/dify-sandbox-py:0.1.4.",
+          "Facts: MIT license, 377 stars, 79 forks, topics dify/sandbox, not archived.",
+          "README notes official sandbox is a better sandboxing solution and this is for self-edited personal use.",
+          "Docker Hub image listed with 50K+ pulls but updated over a year ago."
         ],
         "uncertainty": [
-          "Whether the image stays API-compatible with current official Dify sandbox versions.",
-          "Runtime security of the FastAPI executor versus official sandbox isolation.",
-          "Ongoing maintenance after April 2025."
+          "Current security review of the image vs official sandbox.",
+          "Compatibility with latest Dify sandbox API versions after 2025-04.",
+          "Whether dependency install behavior matches current official volumes."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:31:36.572Z",
+        "reviewedAt": "2026-10-28T20:15:48.590Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Looser Dify code-node sandbox with extra Python deps",
-        "description": "Replace the official Dify sandbox image to run Python 3.12 and Node 20 with broader permissions and extra packages.",
+        "tagline": "Permissive Dify code-node executor with extra packages",
+        "description": "Replace Dify’s official sandbox image with a compatible executor that allows more Python and Node.js libraries and default network access.",
         "pros": [
-          "README documents drop-in replacement of the sandbox service in docker-compose.",
-          "Claims compatibility with official sandbox API calls and python-requirements.txt installs.",
-          "MIT-licensed GitHub project with Python 3.12 and Node.js 20 support noted in the README."
+          "MIT-licensed GitHub project with documented docker-compose image swap.",
+          "Compatible with official sandbox API calls and python-requirements.txt installs.",
+          "Supports Python 3.12 and Node.js 20 and extra scientific packages.",
+          "Published Docker image exists and README covers self-build."
         ],
         "cons": [
-          "It is a sandbox replacement, not an importable n8n/Dify/Flowise workflow template.",
-          "Author states network restrictions are removed and permissions are broader than the official sandbox.",
-          "Last recorded push is 2025-04-28, so maintenance recency is uncertain."
+          "Not an n8n/Dify/Flowise workflow template; it is a sandbox replacement.",
+          "Author states network restrictions are removed and permissions are broader than official sandbox.",
+          "Last documented push is 2025-04-28, so maintenance lag is possible."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "prototyping",
           "solo founder",
+          "prototyping",
           "learning"
         ],
         "usage": {
-          "input": 7390,
-          "output": 739,
-          "cacheRead": 512,
-          "totalTokens": 8641,
+          "input": 1929,
+          "output": 431,
+          "cacheRead": 9344,
+          "totalTokens": 11704,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -29103,7 +29050,7 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Unofficial GitHub mirror of Dify marketplace .difypkg installers for offline use and source inspection; last snapshot is 2025-06-07 and packages omit dependencies.",
+        "summary": "Unofficial GitHub mirror of Dify marketplace .difypkg installers for offline use and source inspection. Useful for Dify plugin discovery, but last updated 2025-06-07, omits dependencies, and is not official marketplace or docs.",
         "relevanceScore": 0.72,
         "qualityScore": 0.55,
         "riskScore": 0.42,
@@ -29112,46 +29059,48 @@
           "plugins",
           "marketplace",
           "offline",
-          "integrations"
+          "github"
         ],
         "evidence": [
-          "facts.readme: collection of official marketplace plugin installation packages for offline users.",
-          "facts.readme: last updated 2025/06/07; packages do not include dependencies.",
-          "GitHub facts: MIT license, 325 stars, 47 forks, pushed_at 2025-06-07, not archived."
+          "README: packages from https://marketplace.dify.ai/ for offline users; last updated 2025/06/07.",
+          "facts.pushed_at 2025-06-07; license mit; stargazers_count 325; forks_count 47.",
+          "Note that collection contains install packages only, not dependencies."
         ],
         "uncertainty": [
-          "Whether redistributed .difypkg files match current marketplace versions and licenses of each plugin.",
-          "Integrity or malware scanning of binary packages was not verified.",
-          "Ongoing maintenance after June 2025 is unknown."
+          "Whether packaged binaries match current official marketplace versions.",
+          "Integrity/signing of redistributed .difypkg files versus marketplace.",
+          "Ongoing maintenance after June 2025."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:31:51.995Z",
+        "reviewedAt": "2026-10-28T20:16:00.473Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
         "tagline": "Offline Dify marketplace plugin packages and source",
-        "description": "Mirrors official Dify marketplace .difypkg files so you can install offline or unzip packages to inspect plugin source.",
+        "description": "Mirrors official Dify marketplace .difypkg files for offline install and unzip-to-source inspection. Packages lack bundled dependencies.",
         "pros": [
-          "Hosts downloadable .difypkg files listed from marketplace.dify.ai, including many langgenius model providers.",
+          "Hosts downloadable .difypkg packages listed from marketplace.dify.ai with IDs, names, and descriptions.",
           "Documents renaming .difypkg to .zip to inspect plugin source.",
-          "MIT-licensed repository with a bilingual catalog of plugin IDs, names, and download links."
+          "MIT-licensed repository with 325 stars and 47 forks.",
+          "Covers many model providers such as Ollama, OpenAI, Gemini, and Anthropic."
         ],
         "cons": [
-          "README last updated 2025/06/07, so packages may lag the live marketplace.",
-          "States plugins still need their own dependencies and may require network access to install.",
-          "This is a third-party redistributed snapshot, not official Dify docs or maintained workflow templates."
+          "README last updated 2025/06/07 and git push matches that date, so packages may be stale.",
+          "States plugins have dependencies and install may still need the network; dependencies are not included.",
+          "Third-party redistributor, not official Dify product documentation.",
+          "Repo description has typos and topics are empty."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "small team",
           "prototyping",
-          "learning"
+          "learning",
+          "small team"
         ],
         "usage": {
-          "input": 10589,
-          "output": 718,
-          "cacheRead": 512,
-          "totalTokens": 11819,
+          "input": 7493,
+          "output": 688,
+          "cacheRead": 5120,
+          "totalTokens": 13301,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -29783,53 +29732,53 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Small MIT Dify plugin wrapping Google Translate with content/dest parameters and no API key. Early (0.0.1), lightly starred, and unofficial translation access is a maintenance and ToS risk versus official Dify integrations.",
+        "summary": "Small unofficial Dify plugin (v0.0.1) that wraps Google Translate with content and dest parameters; listed in Awesome-Dify-Workflow but is a plugin, not an importable workflow template.",
         "relevanceScore": 0.68,
-        "qualityScore": 0.48,
-        "riskScore": 0.42,
+        "qualityScore": 0.42,
+        "riskScore": 0.48,
         "suggestedTags": [
           "dify",
-          "google-translate",
           "plugin",
-          "translation"
+          "translation",
+          "google-translate"
         ],
         "evidence": [
-          "facts.readme: Type plugin, Version 0.0.1, features include no API key and dest language codes.",
-          "GitHub: stargazers_count 10, forks_count 4, license mit, pushed_at 2025-03-06.",
+          "Facts: stargazers_count 10, forks_count 4, license mit, pushed_at 2025-03-06.",
+          "README version 0.0.1, type plugin, features auto detect, multi target, no API key.",
           "Discovered from svcvit/Awesome-Dify-Workflow as google翻译."
         ],
         "uncertainty": [
-          "Cannot verify plugin install path, Dify marketplace listing, or actual Google Translate backend.",
-          "Runtime reliability and error handling beyond the truncated README are unverified."
+          "Whether the plugin still installs on current Dify plugin APIs.",
+          "How translation is implemented (unofficial client vs official API).",
+          "Maintenance beyond the last push date."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:32:06.574Z",
+        "reviewedAt": "2026-10-28T20:16:11.366Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "SDKs",
-        "tagline": "Dify plugin for multi-language Google Translate",
-        "description": "Install a Dify plugin that translates text via Google Translate with auto source detection and language codes.",
+        "suggestedCategory": "Tools",
+        "tagline": "Dify plugin for multi-language text via Google Translate",
+        "description": "Adds a Dify plugin that translates text with auto source detection and many target language codes, claiming no API key.",
         "pros": [
-          "README documents a Dify plugin with required content and dest parameters and many language codes.",
-          "Repository is MIT-licensed, not archived, and last pushed in March 2025.",
-          "Claims automatic source-language detection and no API key."
+          "README documents required parameters content and dest plus a list of language codes.",
+          "Repository is MIT-licensed, not archived, and is a Dify plugin type rather than a marketing page.",
+          "Linked from the Awesome-Dify-Workflow curated list as a Google Translate plugin."
         ],
         "cons": [
-          "Version is 0.0.1 with only about 10 stars and 4 forks.",
-          "No-API-key Google Translate usage is unofficial and may break or violate Google terms.",
-          "It is a single plugin, not an importable n8n/Dify/Flowise workflow template."
+          "Version is 0.0.1 with only 10 stars and last push in March 2025.",
+          "It is a plugin, not an importable n8n/Dify/Flowise workflow template.",
+          "No API key required implies unofficial Google Translate access, which can break or violate ToS."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "learning",
-          "solo founder"
+          "learning"
         ],
         "usage": {
-          "input": 7215,
-          "output": 706,
-          "cacheRead": 512,
-          "totalTokens": 8433,
+          "input": 4043,
+          "output": 672,
+          "cacheRead": 5120,
+          "totalTokens": 9835,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -30039,61 +29988,61 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "MIT-licensed Dify plugin (v0.0.4) for task-oriented and multi-turn dialogue with schema-driven field collection and conversation state keys. Small GitHub footprint and last push in April 2025, but it is a real importable Dify agent plugin with documented parameters rather than a listicle.",
-        "relevanceScore": 0.86,
-        "qualityScore": 0.68,
+        "summary": "MIT-licensed Dify plugin (v0.0.4) for task-oriented and multi-turn dialogue with schema-based collection and state keys. Early version, modest stars, last push April 2025—review before listing.",
+        "relevanceScore": 0.78,
+        "qualityScore": 0.58,
         "riskScore": 0.18,
         "suggestedTags": [
           "dify",
           "plugin",
           "dialogue",
-          "forms",
-          "multi-turn"
+          "task-oriented",
+          "open-source"
         ],
         "evidence": [
-          "facts.readme: TOD/MTD features, information_schema, query, model, storage_key.",
-          "facts.license mit; stargazers_count 37; forks_count 11; pushed_at 2025-04-24.",
-          "Marketplace listing https://marketplace.dify.ai/plugin/svcvit/agent for the same author/plugin version."
+          "GitHub facts: MIT, 37 stars, 11 forks, pushed_at 2025-04-24, not archived.",
+          "README features TOD/MTD, information_schema, storage_key, and AgentModelConfig.",
+          "Candidate type is github_repo linked from svcvit/Awesome-Dify-Workflow."
         ],
         "uncertainty": [
-          "Install count and marketplace quality cannot be fully audited from GitHub facts alone.",
-          "No independent test of plugin install against current Dify.",
-          "Security of agent/tool execution in user tenants was not reviewed."
+          "Whether the plugin still installs against current Dify plugin APIs.",
+          "Runtime quality of validation and state persistence beyond README claims.",
+          "Marketplace listing or official Dify endorsement."
         ],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:32:24.912Z",
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T20:16:22.811Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Dify plugin for schema-driven multi-turn form filling",
-        "description": "Collects structured fields via TOD or open multi-turn dialogue in Dify, with JSON schemas, LLM config, and storage keys.",
+        "tagline": "Dify plugin for schema-driven multi-turn info collection",
+        "description": "Collects structured fields via TOD or open multi-turn chat, with validation, extraction, and conversation state keyed by storage_key.",
         "pros": [
-          "README documents TOD and MTD strategies, required parameters, and JSON field schema examples.",
-          "MIT license with a changelog through v0.0.4 including Dify plugin SDK version bounds.",
-          "Listed from Awesome-Dify-Workflow and appears on the Dify Marketplace as Dialogue Agent 0.0.4."
+          "README documents TOD and MTD strategies with required parameters and JSON schema examples.",
+          "Changelog lists versions through 0.0.4, including a dify_plugin dependency pin.",
+          "Repository is MIT-licensed and not archived."
         ],
         "cons": [
-          "GitHub shows only 37 stars and last push 2025-04-24, so maintenance recency is modest.",
-          "Version is still 0.0.4 and topics are empty.",
-          "Quality of runtime behavior and Dify version compatibility beyond the documented SDK range is not verified here."
+          "Version is 0.0.4 with only 37 stars and 11 forks.",
+          "Last push is dated 2025-04-24, so maintenance recency is weak.",
+          "Discovered mainly from the author’s own Awesome-Dify-Workflow list, not official Dify docs."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "small team",
-          "agentic coding"
+          "agentic coding",
+          "small team"
         ],
         "usage": {
-          "input": 1437,
-          "output": 710,
-          "cacheRead": 8320,
-          "totalTokens": 10467,
+          "input": 9356,
+          "output": 651,
+          "cacheRead": 512,
+          "totalTokens": 10519,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -30309,55 +30258,53 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "MIT-licensed Dify plugin that exposes a chat UI to render LLM-generated HTML (and canvas). Small, early-version project with screenshot-based docs and last push in April 2025.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.52,
+        "summary": "MIT Dify plugin that exposes a chat UI to render LLM-generated HTML (plus canvas) via a chatflow endpoint; small, early (v0.0.x) and last pushed April 2025.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.55,
         "riskScore": 0.28,
         "suggestedTags": [
           "dify",
           "plugin",
-          "html-rendering",
-          "chat-ui"
+          "html-preview",
+          "chatflow"
         ],
         "evidence": [
-          "GitHub description: A DIFY plugin used to render the HTML code output of LLM.",
-          "README usage: configure chatflow, add endpoint, open first URL.",
-          "license: mit; stargazers_count: 90; pushed_at: 2025-04-24.",
+          "facts.readme Feature Description: web chat that auto-renders LLM HTML.",
+          "GitHub: license mit, stars 90, forks 14, pushed_at 2025-04-24, not archived.",
           "Discovered from svcvit/Awesome-Dify-Workflow curated README."
         ],
         "uncertainty": [
-          "Whether the plugin still works with current Dify plugin APIs.",
-          "Security of rendering untrusted LLM HTML in the browser.",
-          "Maintenance after April 2025."
+          "Plugin marketplace listing, Dify version compatibility, and sandboxing of rendered HTML were not verified.",
+          "Maintenance after April 2025 is unknown."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:32:36.656Z",
+        "reviewedAt": "2026-10-28T20:16:31.563Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Apps",
-        "tagline": "Dify chat UI that renders LLM-generated HTML",
-        "description": "Install this Dify plugin, attach a chatflow endpoint, and open the UI to render HTML and canvas output from the model.",
+        "suggestedCategory": "Tools",
+        "tagline": "Dify chat UI that renders LLM HTML and canvas",
+        "description": "Install as a Dify plugin, wire a chatflow endpoint, and open the URL to preview LLM HTML output in a web chat.",
         "pros": [
-          "Targets Dify with a plugin that renders LLM HTML in a web chat UI.",
-          "MIT license and a public GitHub repository.",
-          "Changelog documents v0.0.1–v0.0.3 including Docker localhost and truncation fixes."
+          "README documents a three-step chatflow-plus-endpoint setup with screenshots.",
+          "Changelog through v0.0.3 covers HTML rendering, canvas, truncation, and Docker localhost.",
+          "MIT license on a non-fork GitHub repo listed in Awesome-Dify-Workflow."
         ],
         "cons": [
-          "README is mostly screenshots; no importable workflow JSON or API reference.",
-          "Version is still 0.0.x with last push dated 2025-04-24.",
-          "Modest traction (90 stars, 14 forks) and no listed topics."
+          "Still v0.0.x with last push dated 2025-04-24.",
+          "No topics, modest stars (90), and usage is screenshot-heavy rather than importable workflow JSON.",
+          "Rendering untrusted LLM HTML implies XSS/sandbox risk not addressed in the README."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "learning",
-          "small team"
+          "agentic coding"
         ],
         "usage": {
-          "input": 7130,
-          "output": 483,
-          "cacheRead": 512,
-          "totalTokens": 8125,
+          "input": 4032,
+          "output": 508,
+          "cacheRead": 5120,
+          "totalTokens": 9660,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -32002,44 +31949,45 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Importable Dify workflow that recreates a multi-source deep-research pipeline (topic split, hybrid search, multi-model report). Listed in Awesome-Dify-Workflow; last push is 2025-02 and GitHub license metadata is empty despite an LGPL note in the README.",
+        "summary": "Importable Dify DSL workflow that recreates a multi-source deep-research report pipeline; listed in Awesome-Dify-Workflow with modest stars, last push Feb 2025, no SPDX license on GitHub.",
         "relevanceScore": 0.86,
         "qualityScore": 0.62,
-        "riskScore": 0.18,
+        "riskScore": 0.28,
         "suggestedTags": [
           "dify",
           "workflow",
-          "research",
           "dsl",
-          "llm"
+          "research",
+          "template"
         ],
         "evidence": [
-          "facts.readme outlines Dify-based Deep Research reproduction with Gemini 2.0 Flash, Wikipedia/Google/Bing, and deepseek-r1-distill.",
-          "stargazers_count 159, forks_count 31, pushed_at 2025-02-17, archived false, license null.",
-          "sourceEvidence repeatedly points from svcvit/Awesome-Dify-Workflow README to this repo."
+          "facts.readme documents Dify-based Deep Research reproduction and core features.",
+          "stargazers_count 159, forks_count 31, archived false, pushed_at 2025-02-17.",
+          "Discovered from svcvit/Awesome-Dify-Workflow curated README.",
+          "license null on GitHub API facts."
         ],
         "uncertainty": [
-          "Cannot verify YAML/DSL file contents or byte-identity with the Awesome-Dify-Workflow copy from facts alone.",
-          "Cannot confirm LGPL applicability without a LICENSE file.",
-          "Runtime quality, Dify version compatibility, and API cost/limits are unverified."
+          "Whether the YAML in-repo still matches the Awesome-Dify-Workflow copy byte-for-byte.",
+          "Runtime quality, API key requirements, and current Dify version compatibility.",
+          "Legal enforceability of LGPL claim without a LICENSE file."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:32:56.533Z",
+        "reviewedAt": "2026-10-28T20:16:42.375Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Apps",
-        "tagline": "Dify YAML for hybrid-search research reports",
-        "description": "Build long structured research reports on Dify with topic parsing, local plus web retrieval, and cascaded models. Import the DSL and swap models or sources.",
+        "suggestedCategory": "Resources",
+        "tagline": "Dify DSL for multi-source structured research reports",
+        "description": "Import a Dify workflow that splits topics, mixes knowledge-base and web search, and generates Markdown research reports.",
         "pros": [
-          "README describes an importable Dify workflow with topic parsing, hybrid retrieval, and Markdown report generation.",
-          "Claims inclusion in Awesome-Dify-Workflow with a matching DSL YAML and author attribution.",
-          "Includes architecture diagram, timeout/RPM caveats, and an open TODO list.",
-          "Repository has 159 stars and 31 forks and is not archived."
+          "README describes an importable Dify workflow with hybrid local-KB plus Wikipedia/Google/Bing retrieval and multi-model report generation.",
+          "Claims inclusion in Awesome-Dify-Workflow as DSL/Deep Researcher On Dify .yml with author attribution back to this repo.",
+          "Includes architecture diagram, timeout/RPM caveats, and an explicit to-do list.",
+          "159 stars and 31 forks as of the provided GitHub facts."
         ],
         "cons": [
-          "Last push is 2025-02-17, so maintenance is stale relative to current Dify versions.",
-          "GitHub license field is null; only a misspelled LGPL note appears in the README.",
-          "No repository description or topics; README is Chinese-first and still lists unfinished refactors."
+          "GitHub license field is null despite README stating LGPL3.0.",
+          "Last push is 2025-02-17; to-do items include logic bugs and a large refactor.",
+          "No repository description or topics; performance claims (5-minute 10k-character reports) are not independently verified."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -32049,10 +31997,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 8052,
-          "output": 902,
-          "cacheRead": 512,
-          "totalTokens": 9466,
+          "input": 4991,
+          "output": 582,
+          "cacheRead": 5120,
+          "totalTokens": 10693,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -32520,10 +32468,10 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Small GitHub collection of three Dify workflow YAML files with a two-line README and last recorded push in July 2024. Importable DSL is relevant, but documentation and maintenance signals are weak.",
-        "relevanceScore": 0.78,
-        "qualityScore": 0.35,
-        "riskScore": 0.18,
+        "summary": "Small GPL-licensed GitHub stash of importable Dify YAML DSL workflows (document Q&A and search-agent variants). README is one line, last push mid-2024, so treat as unmaintained starter templates rather than a documented catalog.",
+        "relevanceScore": 0.82,
+        "qualityScore": 0.38,
+        "riskScore": 0.12,
         "suggestedTags": [
           "dify",
           "dsl",
@@ -32532,31 +32480,32 @@
           "yaml"
         ],
         "evidence": [
-          "GitHub listing shows DifyDocumentQueryWorkflow.yml, SearchAgent.yml, SearchAgent2.0.yml plus LICENSE and README.",
-          "README excerpt: \"dify DSL files collections\".",
-          "Facts: license gpl-3.0, not archived, not a fork; candidate type github_repo."
+          "facts.readme: \"# dify-DSL\\ndify DSL files collections\"",
+          "facts: license gpl-3.0, stargazers_count 3, forks_count 0, pushed_at 2024-07-24",
+          "Repo holds DifyDocumentQueryWorkflow.yml and SearchAgent YAML files",
+          "Discovered from svcvit/Awesome-Dify-Workflow"
         ],
         "uncertainty": [
-          "Whether YAML still imports on current Dify versions.",
-          "Star/fork counts differ between cached facts (3/0) and live GitHub (34/4).",
-          "Quality and safety of the workflow graphs themselves were not executed."
+          "Whether YAML still imports cleanly on current Dify DSL versions",
+          "Exact file count and workflow quality without opening each YAML",
+          "Star/fork counts in facts vs later indexes"
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:33:15.039Z",
+        "reviewedAt": "2026-10-28T20:17:21.929Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Importable Dify workflow YAML templates",
-        "description": "Collects Dify DSL YAML workflows you can import, including document query and search-agent examples, with almost no docs.",
+        "tagline": "Importable Dify YAML workflows for search and docs",
+        "description": "Collects Dify DSL YAML files you can import as document-query and search-agent workflows; docs are minimal and the repo is stale.",
         "pros": [
-          "Contains three .yml Dify DSL files (DifyDocumentQueryWorkflow, SearchAgent, SearchAgent2.0) that can be imported.",
-          "Licensed under GPL-3.0.",
-          "Listed from Awesome-Dify-Workflow as a Dify DSL collection."
+          "Contains importable Dify DSL YAML files rather than a screenshot or listicle page.",
+          "License is GPL-3.0.",
+          "Cited from Awesome-Dify-Workflow as a workflow source."
         ],
         "cons": [
-          "README is only a one-line title and description with no usage or compatibility notes.",
-          "Repository facts show last push on 2024-07-24 and no topics or issue activity.",
-          "Only a handful of workflow files and no tests or changelog."
+          "README is only a one-line title with no usage or compatibility notes.",
+          "Facts show last push on 2024-07-24 and three stars.",
+          "No topics and almost no project documentation."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -32565,10 +32514,10 @@
           "agentic coding"
         ],
         "usage": {
-          "input": 316,
-          "output": 661,
-          "cacheRead": 7040,
-          "totalTokens": 8017,
+          "input": 2779,
+          "output": 468,
+          "cacheRead": 8448,
+          "totalTokens": 11695,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -32784,52 +32733,53 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Small Apache-2.0 GitHub repo of three Dify workflow YAML files with a two-line README and no usage notes. Importable templates exist, but documentation and maintenance signals are weak.",
-        "relevanceScore": 0.62,
+        "summary": "Small GitHub collection of Dify workflow DSLs with a two-line README, Apache-2.0 license, low stars, and last push in June 2024. Importable templates match the directory theme, but documentation and maintenance are too thin for a confident approve.",
+        "relevanceScore": 0.72,
         "qualityScore": 0.28,
         "riskScore": 0.22,
         "suggestedTags": [
           "dify",
           "workflows",
-          "yaml-templates",
-          "github"
+          "templates",
+          "dsl"
         ],
         "evidence": [
-          "Repo file list: how-to-write-a-good-title.yml, imitatingWriter.yml, translate_agent_dify_workflow.yml.",
-          "facts.readme and GitHub README are identical two-line stubs.",
-          "facts: apache-2.0, pushed_at 2024-06-27, ~17–24 stars."
+          "facts.readme is exactly “# dify-workflow\\ndify workflow”.",
+          "facts: license apache-2.0, stargazers_count 17, forks_count 3, pushed_at 2024-06-27.",
+          "sourceEvidence points at svcvit/Awesome-Dify-Workflow curated_readme."
         ],
         "uncertainty": [
-          "Whether the YAML files still import into current Dify.",
-          "Workflow quality and safety of node/tool configs without inspecting YAML internals."
+          "Exact YAML node graphs, Dify version compatibility, and whether files still import were not verified from the two-line README.",
+          "Current star count may differ from the 17 in facts."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:33:30.944Z",
+        "reviewedAt": "2026-10-28T20:18:06.200Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Three Dify workflow YAML files, almost no docs",
-        "description": "Hosts a handful of Dify workflow YAML files (titles, writer imitation, translation) with only a two-line README.",
+        "tagline": "Importable Dify YAML workflows for content tasks",
+        "description": "Share Apache-licensed Dify workflow DSL files you can import; README is only a title, so inspect YAML in the console after import.",
         "pros": [
-          "Contains three .yml files that look like Dify workflow exports.",
-          "Repository is Apache-2.0 licensed and not archived.",
-          "Linked from an Awesome-Dify-Workflow curated list."
+          "Repository name and description target Dify workflows, which this directory scores.",
+          "Apache-2.0 license is stated in repo facts.",
+          "Listed from a curated Awesome-Dify-Workflow readme rather than a marketing page."
         ],
         "cons": [
-          "README is only the title and the phrase “dify workflow.”",
-          "Last push was 2024-06-27; stars and forks are low.",
-          "No topics, issues, or import/usage instructions."
+          "README is only the heading “dify workflow” with no usage or version notes.",
+          "Last push is 2024-06-27, so Dify DSL compatibility may be stale.",
+          "Activity is low (facts show 17 stars and 3 forks)."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "learning"
+          "learning",
+          "agentic coding"
         ],
         "usage": {
-          "input": 337,
-          "output": 476,
-          "cacheRead": 6912,
-          "totalTokens": 7725,
+          "input": 2411,
+          "output": 514,
+          "cacheRead": 8448,
+          "totalTokens": 11373,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -33298,41 +33248,43 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "GitHub repo with an importable Dify YAML demo that auto-generates customized tutorial/course content; README is a demo plus paid full-version upsell, not official docs.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.48,
-        "riskScore": 0.28,
+        "summary": "GitHub demo of a Dify workflow that generates a custom tutorial; the public copy lacks sharding and parallel iteration, and the README mainly sells a paid full version.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.42,
+        "riskScore": 0.38,
         "suggestedTags": [
           "dify",
           "workflow",
-          "template",
-          "course-generation"
+          "course-generation",
+          "template"
         ],
         "evidence": [
-          "Repo files include dify/dify_course_demo.yml and a README describing a Dify course-generation workflow.",
-          "README states demo lacks data sharding, parallel iteration, and SEO vs paid 19.9 CNY / $2.99 full version.",
-          "GitHub facts: not archived, license null, ~33–36 stars, forks ~6–7."
+          "README: demo vs full version with sharding, parallel iteration, SEO; price 19.9 CNY / $2.99.",
+          "GitHub: 33 stars, 7 forks, no license, last push 2025-08-12, English description matches course generation.",
+          "Discovered from svcvit/Awesome-Dify-Workflow README."
         ],
         "uncertainty": [
-          "YAML quality, Dify version compatibility, and whether import works without extra setup were not executed.",
-          "Demo site tutorial.pekingmuge.top was not verified live."
+          "Whether a DSL/YAML import file is actually in the repo.",
+          "Workflow correctness, Dify version compatibility, and maintenance after Aug 2025.",
+          "Quality of the paid full version and the tutorial.pekingmuge.top demo."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-14T10:33:47.158Z",
+        "reviewedAt": "2026-10-28T20:18:17.986Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Resources",
-        "tagline": "Importable Dify YAML to generate custom tutorials",
-        "description": "Provides a Dify workflow YAML that generates a full custom course; demo omits sharding and parallel iteration sold separately.",
+        "suggestedCategory": "Apps",
+        "tagline": "Dify demo workflow that auto-builds a custom tutorial",
+        "description": "Import a beginner Dify workflow that generates a full custom tutorial; advanced sharding, parallel runs, and SEO live in a paid upgrade.",
         "pros": [
-          "Includes an importable Dify workflow file at dify/dify_course_demo.yml.",
-          "Demo is described as able to generate a complete tutorial for Dify beginners.",
-          "Linked from Awesome-Dify-Workflow and has a public result demo URL."
+          "It is a Dify-specific workflow for generating a full custom tutorial, which matches the directory’s automation-template focus.",
+          "The README states the public workflow can produce a complete tutorial and is intended as a Dify beginner demo.",
+          "A live demo URL for generated tutorials is provided.",
+          "It appears in Awesome-Dify-Workflow curated lists."
         ],
         "cons": [
-          "README presents the repo as a limited demo and sells a full version via Lemon Squeezy.",
-          "No license, no topics, and modest activity (dozens of stars, last push 2025-08).",
-          "Documentation is brief Chinese marketing plus contact QR, not usage or import steps."
+          "The repository is labeled a demo and omits data sharding, parallel iteration, and SEO fields reserved for a paid full version.",
+          "There is no license, few stars, and no English docs or import-file inventory in the provided facts.",
+          "The README is largely an upsell (Lemon Squeezy, WeChat) rather than official product documentation."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -33341,10 +33293,10 @@
           "solo founder"
         ],
         "usage": {
-          "input": 8084,
-          "output": 530,
-          "cacheRead": 512,
-          "totalTokens": 9126,
+          "input": 4366,
+          "output": 670,
+          "cacheRead": 5120,
+          "totalTokens": 10156,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -33560,62 +33512,59 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "AWS Samples repo of Dify plugins (Bedrock, SageMaker, AWS tools) plus importable YAML workflow DSLs and SageMaker notebooks. Strong fit for a Dify/n8n-style workflow directory; sample-code caveats and modest star count apply.",
+        "summary": "AWS Samples repo of Dify plugins (Bedrock, SageMaker, AWS tools), CloudFormation/EKS deploy links, and importable workflow DSL files. Relevant as maintained Dify templates plus AWS integrations, not a screenshot gallery.",
         "relevanceScore": 0.92,
         "qualityScore": 0.82,
         "riskScore": 0.12,
         "suggestedTags": [
           "dify",
           "aws",
-          "workflows",
           "bedrock",
-          "templates"
+          "workflows",
+          "sagemaker"
         ],
         "evidence": [
-          "facts.readme Introduction: source for Bedrock Model Provider, SageMaker Model Provider, AWS Tools, plus workflows/demos.",
-          "Workflows table with DSL links (e.g. term_based_translation_workflow.yml, basic_rag_sample.yml, apply_guardrails.yml).",
-          "license mit-0, archived false, pushed_at 2026-06-06, stargazers_count 178, forks_count 41.",
-          "Links to dify.yaml CloudFormation and solution-for-deploying-dify-on-aws.",
-          "Discovered from svcvit/Awesome-Dify-Workflow curated README."
+          "README introduction: source for Bedrock Model Provider, SageMaker Model Provider, AWS Tools, workflows and demos.",
+          "workflow/ table lists DSL links such as term_based_translation_workflow.yml and basic_rag_sample.yml.",
+          "facts: license mit-0, archived false, pushed_at 2026-06-06, stargazers 178.",
+          "Listed in svcvit/Awesome-Dify-Workflow curated README."
         ],
         "uncertainty": [
-          "Whether plugins still match current Dify plugin/marketplace APIs.",
-          "Runtime quality of each DSL without importing them.",
-          "How complete the 'Coming' tools actually are on main."
+          "Whether every DSL still imports on current Dify versions.",
+          "Maintenance cadence after June 2026 push.",
+          "Runtime cost and completeness of SageMaker notebooks."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-14T10:34:10.300Z",
+        "reviewedAt": "2026-10-28T20:18:26.920Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Dify plugins, YAML workflows, and AWS model tooling",
-        "description": "Provides Dify Bedrock/SageMaker providers, AWS tools, CloudFormation deploy, and importable workflow DSLs for RAG, translation, and agents.",
+        "tagline": "Dify AWS plugins, deploy templates, and importable workflows",
+        "description": "Provides Dify Bedrock/SageMaker providers, AWS tools, CloudFormation deploy, and DSL workflow demos for AWS-backed automation.",
         "pros": [
-          "README lists many importable Dify DSL workflows under workflow/ with owners and dependencies.",
-          "Includes Bedrock and SageMaker model providers plus AWS tools such as S3, Transcribe, Guardrails, and AgentCore.",
-          "MIT-0 license, aws-samples org, CloudFormation template, and bilingual READMEs.",
-          "Last push recorded in 2026 with 479 commits on GitHub metadata.",
-          "Some tools still marked Coming, but core workflows and notebooks are linked."
+          "Includes multiple importable Dify workflow DSL files with descriptions and owners.",
+          "Documents Bedrock, SageMaker, and AWS tool plugins plus CloudFormation and EKS deploy pointers.",
+          "MIT-0 license on aws-samples; last push recorded 2026-06-06; 178 stars and 41 forks.",
+          "Bilingual README (EN/ZH/JA) and tables for tools, model providers, and demos."
         ],
         "cons": [
-          "GitHub description is empty and topics are unset.",
-          "Several extension tools are listed as Coming without deployment docs.",
-          "Star count is modest (~178) relative to official AWS sample branding.",
-          "Requires an AWS account and Dify deployment; not a drop-in no-cloud template pack."
+          "Some listed tools are marked Coming with incomplete deployment docs.",
+          "Requires an AWS account and Dify environment; several demos depend on extra SageMaker or PAAS services.",
+          "GitHub description is empty and topics are unset."
         ],
         "pricingModel": "open-source",
         "bestFor": [
-          "small team",
           "prototyping",
           "production",
-          "agentic coding",
-          "learning"
+          "small team",
+          "enterprise",
+          "agentic coding"
         ],
         "usage": {
-          "input": 1484,
-          "output": 856,
-          "cacheRead": 10624,
-          "totalTokens": 12964,
+          "input": 7069,
+          "output": 499,
+          "cacheRead": 5120,
+          "totalTokens": 12688,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -33831,55 +33780,55 @@
       "createdAt": "2026-10-10T09:00:00.152Z",
       "updatedAt": "2026-10-28T18:40:05.162Z",
       "aiReview": {
-        "summary": "Unofficial archived Dify plugin that pairs with a companion mem0ai-api; relevant to Dify memory tooling but unmaintained, sparsely documented, and not an importable workflow template.",
+        "summary": "Unofficial Dify plugin that exposes add/query memory tools against a companion mem0ai-api service. Small, last-pushed mid-2024, no license, and not an importable workflow template.",
         "relevanceScore": 0.62,
-        "qualityScore": 0.28,
+        "qualityScore": 0.35,
         "riskScore": 0.42,
         "suggestedTags": [
           "dify",
           "mem0",
+          "memory",
           "plugin",
-          "python"
+          "unofficial"
         ],
         "evidence": [
-          "GitHub About: unofficial mem0ai provider used with https://github.com/tonori/mem0ai-api.",
-          "Repo marked Public archive; 49 stars, 5 forks, 3 commits.",
-          "Language Python; files include mem0ai.py, mem0ai.yaml, tools/.",
-          "Discovered from svcvit/Awesome-Dify-Workflow README, not as a workflow JSON template."
+          "Repo description: unofficial mem0ai provider used with tonori/mem0ai-api.",
+          "Tree includes mem0ai.yaml and tools/add_memory plus query_memory.",
+          "Facts: license null, stargazers_count 1, forks_count 0, pushed_at 2024-07-25, archived false."
         ],
         "uncertainty": [
-          "License, install steps, and tool capabilities are not documented in a README.",
-          "Compatibility with current Dify plugin APIs after archive is unknown.",
-          "Health and status of the required companion mem0ai-api were not verified."
+          "Live GitHub page showed different owner/star counts than supplied facts.",
+          "Cannot verify plugin compatibility with current Dify versions.",
+          "Cannot verify mem0ai-api maintenance or security of the unofficial backend."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-13T06:31:49.887Z",
+        "reviewedAt": "2026-10-28T20:18:38.266Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "SDKs",
-        "tagline": "Unofficial Dify provider for a companion Mem0 API",
-        "description": "Python Dify plugin that exposes an unofficial mem0ai provider when used with a companion API service.",
+        "tagline": "Unofficial Dify tools to add and query Mem0 memory",
+        "description": "Install this Dify plugin to add and query memories via a companion unofficial mem0ai-api backend.",
         "pros": [
-          "Public Python Dify plugin layout includes provider YAML, tools, and Python entrypoints.",
-          "Repository description states it is an unofficial mem0ai provider meant to work with tonori/mem0ai-api.",
-          "Listed in Awesome-Dify-Workflow and has 49 GitHub stars."
+          "Contains Dify plugin YAML and Python tools for add_memory and query_memory.",
+          "Documented as a companion to the unofficial mem0ai-api backend.",
+          "Listed in Awesome-Dify-Workflow as a Dify-related resource."
         ],
         "cons": [
-          "The repository was archived on 2025-02-02 and is read-only.",
-          "History is only three commits and there is no README in the file listing.",
-          "It is unofficial and depends on a separate companion API rather than official Mem0 or Dify docs.",
-          "Canonical URL tonori/dify-plugin-mem0ai resolves to chisaki-takahashi/dify-plugin-mem0ai."
+          "GitHub facts show no license, 1 star, 0 forks, and last push in July 2024.",
+          "Unofficial provider, not official Mem0 or Dify documentation or templates.",
+          "Not an n8n/Dify/Flowise workflow template; it is a plugin plus separate API."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "agentic coding"
+          "agentic coding",
+          "learning"
         ],
         "usage": {
-          "input": 3267,
-          "output": 701,
-          "cacheRead": 6912,
-          "totalTokens": 10880,
+          "input": 281,
+          "output": 466,
+          "cacheRead": 8576,
+          "totalTokens": 9323,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
