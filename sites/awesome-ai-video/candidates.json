@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:30:00.090Z",
+  "generatedAt": "2026-10-28T10:30:00.103Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -764,6 +764,15 @@
           "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
         }
       ],
       "globalFactRefs": [
@@ -781,7 +790,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Official Google developer hub for Gemini API docs, Google AI Studio, Gemma open models, on-device Edge/Nano, and related APIs including Imagen and Veo. Strong maintained documentation entry point; not a video-only SDK or model card.",
         "relevanceScore": 0.86,
@@ -1011,6 +1020,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1024,7 +1043,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -1249,6 +1268,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1262,7 +1291,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -1484,6 +1513,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1497,7 +1536,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -1722,6 +1761,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1735,7 +1784,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -1941,6 +1990,15 @@
           "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Intelligent tools for scaling content and teams.",
+          "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
         }
       ],
       "globalFactRefs": [
@@ -1958,7 +2016,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Official Runway homepage, but the captured page is a cookie-consent wall with no product, model, or API documentation for developers.",
         "relevanceScore": 0.55,
@@ -2012,8 +2070,92 @@
       "reference": {
         "source": "official-web",
         "url": "https://runway.com",
-        "contentHash": "57a3122f1e8c4dff0fdfb47793e1cb1a494b94e62fd6bff3206d5c4a02c0abd5",
-        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/terms-of-use) and subject to your settings) and our [****Terms of Use****](https://runwayml.com/privacy-policy) (which cont"
+        "contentHash": "92d833a511fe1e4c58a68bf8451b6589f24d3c9278adc02609decff3f8683716",
+        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nMarkdown Content:\n\nRunway app for iPhone Runway app for Android\n\nCreate anything, anytime.\n\n[Try app](https://apps.apple.com/app/runway-ai-video-photo-maker/id1665024375)[Try app](https://play.google.com/store/apps/details?id=com.runwayml.prod)\n\n[](https://runway.com/)\n\n*   [Creative](https://runway.com/product)\n*   [Dev](https://dev.runwayml.com/)\n*   [Robotics](https://runway.com/product/robotics)\n*   [Research](https://runway.com/research)\n*   [Resources](https://runway.com/resources)\n*   [Enterprise](https://runway.com/enterprise)\n*   [Pricing](https://runway.com/pricing)\n\n[Enterprise Sales](https://runway.com/enterprise-contact)[Login](https://app.runwayml.com/login)[Try Runway](https://app.runwayml.com/)\n\nEnterprises get 2 months of usage free. Sign by 10/31.\n\n[See terms](https://runway.com/code-terms/enterprise-bonus-terms)[Contact sales](https://runway.com/enterprise-contact?utm_s"
+      }
+    },
+    {
+      "id": "github:brajendrak00068/agentic-ai-video-production",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+      "title": "Levea AI Video Editor",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea AI Video Editor",
+          "surroundingText": "Levea AI Video Editor",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T09:00:00.065Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
+      "aiReview": {
+        "summary": "MIT-licensed MCP/plugin wrapper that sends natural-language edits to a hosted Livecore/Levea cloud engine. Useful for agentic editing workflows, not a first-party video-generation model or official Veo/Runway SDK.",
+        "relevanceScore": 0.42,
+        "qualityScore": 0.48,
+        "riskScore": 0.28,
+        "suggestedTags": [
+          "mcp",
+          "video-editing",
+          "agentic",
+          "typescript",
+          "hosted-api"
+        ],
+        "evidence": [
+          "GitHub README: open-source MCP wrapper to https://api.livecore.ai with LEVEA_API_KEY.",
+          "Repo metadata: TypeScript, MIT, 4 stars, 0 forks.",
+          "File tree includes mcp-server, skills, hermes/openclaw plugins, and contract JSON."
+        ],
+        "uncertainty": [
+          "Cannot verify npm download volume, API uptime, free-credit terms, or whether Veo/Imagen paths actually run.",
+          "Cannot verify ChatGPT Store / ClawHub listings beyond README badges."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-28T10:33:24.097Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "SDKs",
+        "tagline": "MCP wrapper for cloud NL video editing and export",
+        "description": "Connects agents to a hosted editor for cuts, captions, reframe, and MP4 export via API key. Open-source client; production runs remotely.",
+        "pros": [
+          "README documents MCP install for Claude, Cursor, and related clients plus an npm package.",
+          "Client plugins and skills are MIT-licensed TypeScript with contract tests and leak-check CI.",
+          "Describes a typed edit contract and Scene IR rather than one-shot locked pixels."
+        ],
+        "cons": [
+          "Four stars, zero forks, and no issues; maintenance and production reliability are unproven.",
+          "Heavy lifting is a closed hosted GPU API requiring livecore.ai keys and credits.",
+          "Targets editing/export, not maintained video-generation model cards or official Veo/Runway docs."
+        ],
+        "pricingModel": "freemium",
+        "bestFor": [
+          "agentic coding",
+          "prototyping",
+          "solo founder"
+        ],
+        "usage": {
+          "input": 3936,
+          "output": 563,
+          "cacheRead": 6144,
+          "totalTokens": 10643,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
       }
     }
   ]

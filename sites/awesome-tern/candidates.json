@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:30:00.090Z",
+  "generatedAt": "2026-10-28T10:30:00.103Z",
   "appId": "awesome-tern",
   "items": [
     {
@@ -110,6 +110,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://stencil.so/tern",
+          "sectionPath": [],
+          "anchorText": "Tern · Stencil",
+          "surroundingText": "Tern · Stencil",
+          "targetUrl": "https://stencil.so/tern",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -217,6 +226,16 @@
           "surroundingText": "Tern",
           "targetUrl": "https://stencil.so/tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern",
+          "surroundingText": "Tern",
+          "targetUrl": "https://stencil.so/tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [
@@ -234,7 +253,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Official marketing page for a closed-beta Rust-native terminal workspace with a plugin SDK, TSP surfaces, persistent daemon, and remote/web clients. Directly on-rubric as the core Tern product, but access is waitlisted and implementation quality cannot be verified from the page alone.",
         "relevanceScore": 0.95,
@@ -414,6 +433,16 @@
           "surroundingText": "Plugin CLI",
           "targetUrl": "https://docs.stencil.so/tern/reference/cli.html",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Plugin CLI",
+          "surroundingText": "Plugin CLI",
+          "targetUrl": "https://docs.stencil.so/tern/reference/cli.html",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -427,7 +456,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Tern reference for the `tern plugin` CLI: install, link, list, reload, and related verbs that manage the machine plugins folder and session daemon without executing plugin Lua.",
         "relevanceScore": 0.95,
@@ -596,6 +625,16 @@
           "surroundingText": "tern-kube",
           "targetUrl": "https://github.com/contrafy/tern-kube",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-kube",
+          "surroundingText": "tern-kube",
+          "targetUrl": "https://github.com/contrafy/tern-kube",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -609,7 +648,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lenses kubectl into native tables, live Explore, previewed mutations, and GitOps drift; well-documented public beta with tests and MIT license, but small community and macOS-first verification.",
         "relevanceScore": 0.92,
@@ -783,6 +822,16 @@
           "surroundingText": "tern-jj",
           "targetUrl": "https://github.com/resyuto/tern-jj",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-jj",
+          "surroundingText": "tern-jj",
+          "targetUrl": "https://github.com/resyuto/tern-jj",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -796,7 +845,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern Luau plugin that renders jj status/st as themed native cards; macOS-only, display-only, with mise-based dev/smoke tooling and bilingual README.",
         "relevanceScore": 0.92,
@@ -968,6 +1017,16 @@
           "surroundingText": "tern-jj-diff",
           "targetUrl": "https://github.com/zsxawerdu/tern-jj-diff",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-jj-diff",
+          "surroundingText": "tern-jj-diff",
+          "targetUrl": "https://github.com/zsxawerdu/tern-jj-diff",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -981,7 +1040,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lenses jj diff/show git-style unified diffs into a native file list with badges and collapsible hunks. Small MIT repo (one commit, 1 star); requires --git output and is trusted plugin code.",
         "relevanceScore": 0.88,
@@ -1154,6 +1213,16 @@
           "surroundingText": "tern-grafana",
           "targetUrl": "https://github.com/contrafy/tern-grafana",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-grafana",
+          "surroundingText": "tern-grafana",
+          "targetUrl": "https://github.com/contrafy/tern-grafana",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1167,7 +1236,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that renders Grafana dashboards, PromQL, alerts, Loki logs, and related ops lenses in the terminal. Public beta with solid docs and CI but low adoption; worth listing after a quick maintainer check.",
         "relevanceScore": 0.92,
@@ -1339,6 +1408,16 @@
           "surroundingText": "PR Guide",
           "targetUrl": "https://github.com/jubbydev/tern-pr-guide",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PR Guide",
+          "surroundingText": "PR Guide",
+          "targetUrl": "https://github.com/jubbydev/tern-pr-guide",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1352,7 +1431,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lists GitHub PRs in a hub, supports in-terminal diffs/comments/reviews, optional agent guides/fixes via OMP, and merge/auto-land. Relevant for Stencil/Tern directories; still marked unstable and lightly starred.",
         "relevanceScore": 0.88,
@@ -1524,6 +1603,16 @@
           "surroundingText": "tern-netsuite",
           "targetUrl": "https://github.com/contrafy/tern-netsuite",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-netsuite",
+          "surroundingText": "tern-netsuite",
+          "targetUrl": "https://github.com/contrafy/tern-netsuite",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1537,7 +1626,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that wraps SuiteCloud SDF CLI with native views, an opt-in production deploy guard, SDF explorer, and read-only SuiteQL monitoring; public beta 0.1.0 with low GitHub traction.",
         "relevanceScore": 0.88,
@@ -1710,6 +1799,16 @@
           "surroundingText": "tern-spotify",
           "targetUrl": "https://github.com/rico-vz/tern-spotify",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify",
+          "surroundingText": "tern-spotify",
+          "targetUrl": "https://github.com/rico-vz/tern-spotify",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1723,7 +1822,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that drives the Spotify desktop app with a PiP/docked player UI, cover art, and playback/volume keys; install via tern plugin install and platform helpers (PowerShell, macOS automation, playerctl).",
         "relevanceScore": 0.92,
@@ -1891,6 +1990,16 @@
           "surroundingText": "tern-spotify (Windows)",
           "targetUrl": "https://github.com/nac-l/tern-spotify",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify (Windows)",
+          "surroundingText": "tern-spotify (Windows)",
+          "targetUrl": "https://github.com/nac-l/tern-spotify",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -1904,7 +2013,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Windows-only Tern plugin that embeds Spotify desktop playback with Web API control, PKCE sign-in, and a documented Node file-protocol bridge. Strong README and internals notes, but unofficial, Premium-gated, and without a clear redistribution license.",
         "relevanceScore": 0.92,
@@ -2078,6 +2187,16 @@
           "surroundingText": "tern-video-block",
           "targetUrl": "https://github.com/verticalrectangle/tern-video-block",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-video-block",
+          "surroundingText": "tern-video-block",
+          "targetUrl": "https://github.com/verticalrectangle/tern-video-block",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -2091,7 +2210,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin plus CLI player that opens videos in-terminal via the kitty graphics protocol, with ffmpeg decode, optional mpv audio, and multi-file synced playback. Small, well-documented repo with tests; still early (few stars) and Tern-only in practice.",
         "relevanceScore": 0.92,
@@ -2261,6 +2380,16 @@
           "surroundingText": "tern-CDP-tidal",
           "targetUrl": "https://github.com/h4vc/tern-cdp-tidal",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-CDP-tidal",
+          "surroundingText": "tern-CDP-tidal",
+          "targetUrl": "https://github.com/h4vc/tern-cdp-tidal",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -2274,7 +2403,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that controls the local TIDAL desktop app over Chrome DevTools Protocol, with a detailed player UI and no separate login. Strong docs and implementation notes; Windows-only verification and CDP inspector exposure are the main caveats.",
         "relevanceScore": 0.92,
@@ -2446,6 +2575,16 @@
           "surroundingText": "tern-pomodoro",
           "targetUrl": "https://github.com/tcstacks/tern-pomodoro",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pomodoro",
+          "surroundingText": "tern-pomodoro",
+          "targetUrl": "https://github.com/tcstacks/tern-pomodoro",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -2459,7 +2598,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern native Pomodoro block with solid README, Luau tests, and no network/subprocesses. Small GitHub footprint (2 stars) but a clear, relevant plugin for Tern 0.7.0.",
         "relevanceScore": 0.92,
@@ -2632,6 +2771,16 @@
           "surroundingText": "tern-margin",
           "targetUrl": "https://github.com/noctivoro/tern-margin",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-margin",
+          "surroundingText": "tern-margin",
+          "targetUrl": "https://github.com/noctivoro/tern-margin",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -2645,7 +2794,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern TSP plugin/CLI for block-by-block Markdown review that writes CriticMarkup comments in-place; well-documented, tested, MIT, but small and macOS-desktop-only in practice.",
         "relevanceScore": 0.92,
@@ -2817,6 +2966,16 @@
           "surroundingText": "tern-office-preview",
           "targetUrl": "https://github.com/zerx-lab/tern-office-preview",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-office-preview",
+          "surroundingText": "tern-office-preview",
+          "targetUrl": "https://github.com/zerx-lab/tern-office-preview",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -2830,7 +2989,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT Tern plugin that previews .docx/.xlsx in-terminal via a Rust renderer plus Luau views; well-documented with tests and known gaps (no pptx/legacy/encrypted).",
         "relevanceScore": 0.95,
@@ -3000,6 +3159,16 @@
           "surroundingText": "tern-pokemon",
           "targetUrl": "https://github.com/itsyndicate25/tern-pokemon",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pokemon",
+          "surroundingText": "tern-pokemon",
+          "targetUrl": "https://github.com/itsyndicate25/tern-pokemon",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3013,7 +3182,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that ports vscode-pokemon into a native pane with walk/idle sprites, scenes, and saved pane state; well documented but ships no art and pulls Pokémon sprites from another repo, so trademark/asset licensing is a listing concern.",
         "relevanceScore": 0.86,
@@ -3182,6 +3351,16 @@
           "surroundingText": "tern-rss",
           "targetUrl": "https://github.com/bmanturner/tern-rss",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-rss",
+          "surroundingText": "tern-rss",
+          "targetUrl": "https://github.com/bmanturner/tern-rss",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3195,7 +3374,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that presents RSS/Atom feeds as a terminal block with a docked native reader, filters, and optional Carly-assisted feed discovery. Strong docs and privacy notes; very new/low-star repo, so maintenance is unproven.",
         "relevanceScore": 0.92,
@@ -3369,6 +3548,16 @@
           "surroundingText": "tern-ssh",
           "targetUrl": "https://github.com/aancw/tern-ssh",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-ssh",
+          "surroundingText": "tern-ssh",
+          "targetUrl": "https://github.com/aancw/tern-ssh",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3382,7 +3571,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Go Tern plugin that lists, connects, and surgically edits SSH config hosts as a pane, with a plain-text fallback outside Tern. Relevant to the directory but very new (2 stars) with documented Include/Match limits and parked split/tab connect work.",
         "relevanceScore": 0.92,
@@ -3554,6 +3743,16 @@
           "surroundingText": "TernMeOn",
           "targetUrl": "https://github.com/segmentationf4u1t/tern-me-on",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "TernMeOn",
+          "surroundingText": "TernMeOn",
+          "targetUrl": "https://github.com/segmentationf4u1t/tern-me-on",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3567,7 +3766,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that drives Buttplug/Intiface toys from Tern, with a pattern DSL, local HTTP bridge, and command-done haptics. Well-documented and e2e-tested, but NSFW, niche, and lightly starred, so it needs a human call for an awesome list.",
         "relevanceScore": 0.82,
@@ -3742,6 +3941,16 @@
           "surroundingText": "Forge Meetings",
           "targetUrl": "https://github.com/moti-velz/tern-forge",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Forge Meetings",
+          "surroundingText": "Forge Meetings",
+          "targetUrl": "https://github.com/moti-velz/tern-forge",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3755,7 +3964,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed monorepo of composable Tern plugins (Projects, Meetings, Omarchy) for worktrees, tickets/PRs, meeting/email context, and Hyprland integration. Relevant to the Tern directory; young repo with no stars and limited public traction.",
         "relevanceScore": 0.92,
@@ -3931,6 +4140,16 @@
           "surroundingText": "kedi-tern",
           "targetUrl": "https://github.com/kedi-lang/kedi-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "kedi-tern",
+          "surroundingText": "kedi-tern",
+          "targetUrl": "https://github.com/kedi-lang/kedi-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -3944,7 +4163,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official read-only Tern plugin that highlights .kedi files via tree-sitter (Kedi and embedded Python) without executing source. Directly relevant as a Tern plugin, with install/dev docs and tests, but the repo is young (few commits, no stars).",
         "relevanceScore": 0.92,
@@ -4107,6 +4326,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "sectionPath": [],
+          "anchorText": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "surroundingText": "https://github.com/MrsKugla/omp-tiles-plugin",
+          "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -4214,6 +4442,16 @@
           "surroundingText": "omp Tiles",
           "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp Tiles",
+          "surroundingText": "omp Tiles",
+          "targetUrl": "https://github.com/mrskugla/omp-tiles-plugin",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -4228,7 +4466,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that shows a per-session tile grid for open omp agents, with status, path, model, context bar, compact, and color/order controls. Docs are clear and honest about polling and Tern API limits; the repo is small, lightly starred, and README-only on GitHub.",
         "relevanceScore": 0.92,
@@ -4402,6 +4640,16 @@
           "surroundingText": "Tern Reviewr",
           "targetUrl": "https://github.com/axelmrak/tern-reviewr",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern Reviewr",
+          "surroundingText": "Tern Reviewr",
+          "targetUrl": "https://github.com/axelmrak/tern-reviewr",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -4415,7 +4663,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Native Tern plugin for reviewing uncommitted Git diffs in a PiP UI and sending line-anchored comments to agents; relevant and well-documented, but the repo is a single-commit, low-adoption project.",
         "relevanceScore": 0.92,
@@ -4587,6 +4835,16 @@
           "surroundingText": "tern-spotify (kyle-elliott)",
           "targetUrl": "https://github.com/kyle-elliott/tern-spotify",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify (kyle-elliott)",
+          "surroundingText": "tern-spotify (kyle-elliott)",
+          "targetUrl": "https://github.com/kyle-elliott/tern-spotify",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -4600,7 +4858,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that remote-controls Spotify Premium (pane, queue/library/search/devices, floating player, status line). Docs are clear; the repo is very new (2 commits, 1 star), so treat community/maintenance as unproven.",
         "relevanceScore": 0.95,
@@ -4773,6 +5031,16 @@
           "surroundingText": "tern-tracker",
           "targetUrl": "https://github.com/foxzool/tern-tracker",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-tracker",
+          "surroundingText": "tern-tracker",
+          "targetUrl": "https://github.com/foxzool/tern-tracker",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -4786,7 +5054,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lists GitHub issues and PRs for the focused pane’s repo via the GitHub CLI; GitLab/Linear are not supported yet. Docs cover install, keys, i18n, and hook-budget troubleshooting.",
         "relevanceScore": 0.92,
@@ -4958,6 +5226,16 @@
           "surroundingText": "tern-agent-scheduler",
           "targetUrl": "https://github.com/bmanturner/tern-agent-scheduler",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agent-scheduler",
+          "surroundingText": "tern-agent-scheduler",
+          "targetUrl": "https://github.com/bmanturner/tern-agent-scheduler",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -4971,7 +5249,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that schedules unattended omp agent jobs (cron, presets, natural language, or one-shot) into background tabs, with conditions, tests, and MIT license. Directly relevant to the Tern plugin directory; small star count and macOS/Linux-only runtime are the main caveats.",
         "relevanceScore": 0.92,
@@ -5136,6 +5414,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/mmnavarr/overseer",
+          "sectionPath": [],
+          "anchorText": "https://github.com/mmnavarr/overseer",
+          "surroundingText": "https://github.com/mmnavarr/overseer",
+          "targetUrl": "https://github.com/mmnavarr/overseer",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -5243,6 +5530,16 @@
           "surroundingText": "Overseer",
           "targetUrl": "https://github.com/mmnavarr/overseer",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Overseer",
+          "surroundingText": "Overseer",
+          "targetUrl": "https://github.com/mmnavarr/overseer",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -5257,7 +5554,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern desktop plugin that lists git worktrees, sessions, agents, GitHub PRs, and Linear tickets in one panel, using Worktrunk for create/remove. Directly relevant, MIT-licensed, with clear docs but a small young repo (10 stars, 8 commits) and macOS-only install.",
         "relevanceScore": 0.95,
@@ -5432,6 +5729,16 @@
           "surroundingText": "herdr-tern-plugin",
           "targetUrl": "https://github.com/gabrielmoreira/herdr-tern-plugin",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "herdr-tern-plugin",
+          "surroundingText": "herdr-tern-plugin",
+          "targetUrl": "https://github.com/gabrielmoreira/herdr-tern-plugin",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -5445,7 +5752,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that copies running Herdr sessions into Tern (picker, workspace targeting, optional Herdr-in-tab). Small MIT repo with install docs, known Windows spawn limitation, and little public traction.",
         "relevanceScore": 0.85,
@@ -5617,6 +5924,16 @@
           "surroundingText": "tern-cat",
           "targetUrl": "https://github.com/contrafy/tern-cat",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-cat",
+          "surroundingText": "tern-cat",
+          "targetUrl": "https://github.com/contrafy/tern-cat",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -5630,7 +5947,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that adds a pixel-art housecat overlay and interactive block with documented install, privacy limits, and tests. Fun rather than production tooling; low stars but a complete plugin layout.",
         "relevanceScore": 0.86,
@@ -5799,6 +6116,16 @@
           "surroundingText": "tern-chirp",
           "targetUrl": "https://github.com/noctivoro/tern-chirp",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-chirp",
+          "surroundingText": "tern-chirp",
+          "targetUrl": "https://github.com/noctivoro/tern-chirp",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -5812,7 +6139,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that plays short synthesized beeps when an agent finishes or waits, using optional Jev mood analysis or a local fallback. Docs, tests, and CI are present; the repo is still very new with few stars and commits.",
         "relevanceScore": 0.92,
@@ -5985,6 +6312,16 @@
           "surroundingText": "tern-usage-monitor",
           "targetUrl": "https://github.com/rico-vz/tern-usage-monitor",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-usage-monitor",
+          "surroundingText": "tern-usage-monitor",
+          "targetUrl": "https://github.com/rico-vz/tern-usage-monitor",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -5998,7 +6335,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that shows OMP account usage in a floating or side panel via the omp CLI, with install and control docs. Small, young repo (few commits, 3 stars) so treat as an early community plugin.",
         "relevanceScore": 0.92,
@@ -6159,6 +6496,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/rezhajulio/workspaces-sidebar",
+          "sectionPath": [],
+          "anchorText": "https://github.com/rezhajulio/workspaces-sidebar",
+          "surroundingText": "https://github.com/rezhajulio/workspaces-sidebar",
+          "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -6266,6 +6612,16 @@
           "surroundingText": "workspaces-sidebar",
           "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "workspaces-sidebar",
+          "surroundingText": "workspaces-sidebar",
+          "targetUrl": "https://github.com/rezhajulio/workspaces-sidebar",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -6280,7 +6636,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that adds a pinned session/workspace tree with live agent and command status badges. Directly relevant to the Tern plugin catalog; small GitHub following but documented install, commands, and MIT license.",
         "relevanceScore": 0.92,
@@ -6453,6 +6809,16 @@
           "surroundingText": "tern-herdr",
           "targetUrl": "https://github.com/safzanpirani/tern-herdr",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-herdr",
+          "surroundingText": "tern-herdr",
+          "targetUrl": "https://github.com/safzanpirani/tern-herdr",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -6466,7 +6832,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that mirrors Herdr workspaces, tabs, and agent state as native Tern tabs, splits, and a sidebar, including prefix-key bindings and optional SSH machines. Small, well-documented plugin with a few commits and stars; requires both Tern plugins and Herdr attach support.",
         "relevanceScore": 0.92,
@@ -6631,6 +6997,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "sectionPath": [],
+          "anchorText": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "surroundingText": "https://github.com/plumj-am/nixos/blob/master/modules/tern.nix",
+          "targetUrl": "https://github.com/plumj-am/nixos",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -6738,6 +7113,16 @@
           "surroundingText": "plumj-am/nixos",
           "targetUrl": "https://github.com/plumj-am/nixos",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "plumj-am/nixos",
+          "surroundingText": "plumj-am/nixos",
+          "targetUrl": "https://github.com/plumj-am/nixos",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -6752,7 +7137,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Personal dendritic NixOS/darwin flake that includes a NixOS module wiring Tern (closed-beta, x86_64-linux tarball, BYO source) plus settings, login-shell shim, and keybinds. Useful as a reference config, not a standalone Tern plugin or SDK.",
         "relevanceScore": 0.62,
@@ -6924,6 +7309,16 @@
           "surroundingText": "tern-mizu",
           "targetUrl": "https://github.com/itsyndicate25/tern-mizu",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-mizu",
+          "surroundingText": "tern-mizu",
+          "targetUrl": "https://github.com/itsyndicate25/tern-mizu",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -6937,7 +7332,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that applies the Mizu Icons VS Code file-icon theme to Tern’s Files pane via a generated CSS sheet and SVGs; well-documented install/usage with MIT license and no runtime network use.",
         "relevanceScore": 0.92,
@@ -7107,6 +7502,16 @@
           "surroundingText": "tern-worktree",
           "targetUrl": "https://github.com/nibblebot/tern-worktree",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktree",
+          "surroundingText": "tern-worktree",
+          "targetUrl": "https://github.com/nibblebot/tern-worktree",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -7120,7 +7525,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lists, opens, and creates Git worktrees from the command palette; well-documented with install via tern plugin, POSIX sh plus git/jq requirements, and limited community signals (2 stars, 4 commits).",
         "relevanceScore": 0.95,
@@ -7284,6 +7689,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/betizzel/omaterm",
+          "sectionPath": [],
+          "anchorText": "https://github.com/betizzel/omaterm",
+          "surroundingText": "https://github.com/betizzel/omaterm",
+          "targetUrl": "https://github.com/betizzel/omaterm",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -7391,6 +7805,16 @@
           "surroundingText": "omaterm",
           "targetUrl": "https://github.com/betizzel/omaterm",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omaterm",
+          "surroundingText": "omaterm",
+          "targetUrl": "https://github.com/betizzel/omaterm",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -7405,7 +7829,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Small MIT-licensed shell helper that maps Omarchy theme colors into Tern/omp via a template, hook, and sync script. Relevant for Tern on Omarchy, but the repo is tiny (2 commits, 6 stars) with no tests or release cadence.",
         "relevanceScore": 0.82,
@@ -7569,6 +7993,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/olegpulatov/pane-highlight",
+          "sectionPath": [],
+          "anchorText": "https://github.com/olegpulatov/pane-highlight",
+          "surroundingText": "https://github.com/olegpulatov/pane-highlight",
+          "targetUrl": "https://github.com/olegpulatov/pane-highlight",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -7676,6 +8109,16 @@
           "surroundingText": "pane-highlight",
           "targetUrl": "https://github.com/olegpulatov/pane-highlight",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pane-highlight",
+          "surroundingText": "pane-highlight",
+          "targetUrl": "https://github.com/olegpulatov/pane-highlight",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -7690,7 +8133,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that highlights the active split pane and recolors it from user/host rules (ssh, su/sudo, remoting). Documented with install, config, and known limits; small repo with no automated tests.",
         "relevanceScore": 0.92,
@@ -7861,6 +8304,16 @@
           "surroundingText": "tern-agents",
           "targetUrl": "https://github.com/maxtuzz/tern-agents",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agents",
+          "surroundingText": "tern-agents",
+          "targetUrl": "https://github.com/maxtuzz/tern-agents",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -7874,7 +8327,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Young MIT-licensed Tern plugin that launches coding-agent CLIs as native agent blocks with named presets; relevant and documented, but early (0.1.0) against an unversioned closed-beta plugin API.",
         "relevanceScore": 0.92,
@@ -8044,6 +8497,16 @@
           "surroundingText": "tern-chime",
           "targetUrl": "https://github.com/h4vc/tern-chime",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-chime",
+          "surroundingText": "tern-chime",
+          "targetUrl": "https://github.com/h4vc/tern-chime",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8057,7 +8520,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that plays non-overlapping chimes for pane alerts, omp agent yields, and long-running commands, with per-OS players and user-overridable sounds.toml.",
         "relevanceScore": 0.92,
@@ -8231,6 +8694,16 @@
           "surroundingText": "tern-model-usage",
           "targetUrl": "https://github.com/azmifarih/tern-model-usage",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-model-usage",
+          "surroundingText": "tern-model-usage",
+          "targetUrl": "https://github.com/azmifarih/tern-model-usage",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8244,7 +8717,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern window plugin that polls `omp usage --json` and shows coding-plan quota in the status line plus a details pane. Small single-commit repo with a clear README; maintenance history is too thin to treat as proven.",
         "relevanceScore": 0.92,
@@ -8413,6 +8886,16 @@
           "surroundingText": "tern-status",
           "targetUrl": "https://github.com/getpipher/tern-status",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-status",
+          "surroundingText": "tern-status",
+          "targetUrl": "https://github.com/getpipher/tern-status",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8426,7 +8909,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that adds tmux-style status-right segments (CPU, memory, battery, online, disk, clock) on macOS using native Tern tones. Thin README and two commits; disk path is hardcoded and platform is macOS-only.",
         "relevanceScore": 0.86,
@@ -8596,6 +9079,16 @@
           "surroundingText": "tern-worktrees",
           "targetUrl": "https://github.com/riicodespretty/tern-worktrees",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktrees",
+          "surroundingText": "tern-worktrees",
+          "targetUrl": "https://github.com/riicodespretty/tern-worktrees",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8609,7 +9102,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin plus tern-wt CLI and omp skill that open git worktrees as Tern tabs, with branch/PR pickers, teardown on close, and documented setup. On-topic for a Tern directory; small GitHub traction but substantial docs, tests, and MIT license.",
         "relevanceScore": 0.95,
@@ -8782,6 +9275,16 @@
           "surroundingText": "tern-worktrees (aliefe04)",
           "targetUrl": "https://github.com/aliefe04/tern-worktrees",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-worktrees (aliefe04)",
+          "surroundingText": "tern-worktrees (aliefe04)",
+          "targetUrl": "https://github.com/aliefe04/tern-worktrees",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8795,7 +9298,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern window plugin that adds palette commands to create a git worktree plus agent tab and to remove a clean, merged worktree. Docs are clear and honest about Tern 0.6.1 limits and untested paths; the repo is very new (two commits, one star).",
         "relevanceScore": 0.92,
@@ -8967,6 +9470,16 @@
           "surroundingText": "Toons",
           "targetUrl": "https://github.com/tazedib/toons-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Toons",
+          "surroundingText": "Toons",
+          "targetUrl": "https://github.com/tazedib/toons-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -8980,7 +9493,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that animates hand-authored cartoons of agent phases from host command hooks, ported from claude-toons to native Tern UI. Docs, install, keys, and Luau check/render tooling are clear; the repo is new (1 commit, 2 stars).",
         "relevanceScore": 0.92,
@@ -9144,6 +9657,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/getpipher/font-default",
+          "sectionPath": [],
+          "anchorText": "https://github.com/getpipher/font-default",
+          "surroundingText": "https://github.com/getpipher/font-default",
+          "targetUrl": "https://github.com/getpipher/font-default",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -9251,6 +9773,16 @@
           "surroundingText": "font-default",
           "targetUrl": "https://github.com/getpipher/font-default",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "font-default",
+          "surroundingText": "font-default",
+          "targetUrl": "https://github.com/getpipher/font-default",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -9265,7 +9797,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Small MIT-licensed Tern plugin that remaps Reset font size (⌘0) after the built-in reset so it lands one step below Tern’s factory default. Directly relevant as a Stencil/Tern plugin, but it is a one-commit, undocumented-beyond-README workaround with no community signals.",
         "relevanceScore": 0.82,
@@ -9434,6 +9966,16 @@
           "surroundingText": "jira-tern",
           "targetUrl": "https://github.com/hanbong5938/jira-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "jira-tern",
+          "surroundingText": "jira-tern",
+          "targetUrl": "https://github.com/hanbong5938/jira-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -9447,7 +9989,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern-only Rust plugin that browses Jira, comments, runs explicit transitions, and creates Git/jj checkouts with omp handoff. Docs are unusually careful about auth, receipts, and migration; the repo is very new (3 commits, 0 stars) and requires a local cargo build.",
         "relevanceScore": 0.92,
@@ -9614,6 +10156,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/dbydd/power-surge",
+          "sectionPath": [],
+          "anchorText": "https://github.com/dbydd/power-surge",
+          "surroundingText": "https://github.com/dbydd/power-surge",
+          "targetUrl": "https://github.com/dbydd/power-surge",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -9721,6 +10272,16 @@
           "surroundingText": "power-surge",
           "targetUrl": "https://github.com/dbydd/power-surge",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "power-surge",
+          "surroundingText": "power-surge",
+          "targetUrl": "https://github.com/dbydd/power-surge",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -9735,7 +10296,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Neovim plus Tern plugin that counts typing combos and escalates Tern cursor trail/pulse effects without drawing in the buffer. Documented install, options, and chords; very new with no stars.",
         "relevanceScore": 0.92,
@@ -9895,6 +10456,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/cangiolo/remote-image-paste",
+          "sectionPath": [],
+          "anchorText": "https://github.com/cangiolo/remote-image-paste",
+          "surroundingText": "https://github.com/cangiolo/remote-image-paste",
+          "targetUrl": "https://github.com/cangiolo/remote-image-paste",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -9956,7 +10526,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that uploads a macOS clipboard image file over SSH to a remote host and pastes the server path (bracketed paste / omp attachment). Directly relevant, well-documented, but macOS-only, zero stars, and the listed GitHub owner does not match the current repo host.",
         "relevanceScore": 0.92,
@@ -10129,6 +10699,16 @@
           "surroundingText": "tern-bell",
           "targetUrl": "https://github.com/qiaoqinyu/tern-bell",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-bell",
+          "surroundingText": "tern-bell",
+          "targetUrl": "https://github.com/qiaoqinyu/tern-bell",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -10142,7 +10722,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "macOS Tern plugin that plays system or custom sounds when an agent turn finishes, with a transactional settings pane. Niche but on-topic; small repo (2 commits, 1 star) and macOS-only playback via afplay.",
         "relevanceScore": 0.86,
@@ -10312,6 +10892,16 @@
           "surroundingText": "tern-claude-usage",
           "targetUrl": "https://github.com/zerx-lab/tern-claude-usage",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-claude-usage",
+          "surroundingText": "tern-claude-usage",
+          "targetUrl": "https://github.com/zerx-lab/tern-claude-usage",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -10325,7 +10915,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that shows Claude Pro/Max and ChatGPT Codex subscription usage in a panel and status bar, with multi-account OAuth, CLI credential pickup, and MIT-licensed Luau sources plus tests.",
         "relevanceScore": 0.95,
@@ -10498,6 +11088,16 @@
           "surroundingText": "tern-close-plugin",
           "targetUrl": "https://github.com/yumosx/tern-close-plugin",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-close-plugin",
+          "surroundingText": "tern-close-plugin",
+          "targetUrl": "https://github.com/yumosx/tern-close-plugin",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -10511,7 +11111,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that adds eight palette commands to close other tabs or split blocks relative to the focused block, with empty actions hidden. Small public repo with no stars, no GitHub description, and limited community signals.",
         "relevanceScore": 0.85,
@@ -10682,6 +11282,16 @@
           "surroundingText": "tern-file-paste",
           "targetUrl": "https://github.com/vokativ/tern-file-paste",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-file-paste",
+          "surroundingText": "tern-file-paste",
+          "targetUrl": "https://github.com/vokativ/tern-file-paste",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -10695,7 +11305,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern client plugin that uploads clipboard files over SSH into a focused remote pane and inserts paths without overriding normal paste. Docs and CI are solid, but the project is small (1 star, 6 commits) and needs explicit host SSH mapping plus desktop clipboard tools.",
         "relevanceScore": 0.92,
@@ -10868,6 +11478,16 @@
           "surroundingText": "tern-haptic-alert",
           "targetUrl": "https://github.com/lfsmoura/tern-haptic-alert",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-haptic-alert",
+          "surroundingText": "tern-haptic-alert",
+          "targetUrl": "https://github.com/lfsmoura/tern-haptic-alert",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -10881,7 +11501,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that pulses a Logitech MX Master 4 when an agent finishes or waits for input; documented install and HID++ playback, but macOS-only, hardware-specific, and very new (two commits, two stars).",
         "relevanceScore": 0.88,
@@ -11052,6 +11672,16 @@
           "surroundingText": "tern-omp-layout-fixes",
           "targetUrl": "https://github.com/0xgreg/tern-omp-layout-fixes",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-layout-fixes",
+          "surroundingText": "tern-omp-layout-fixes",
+          "targetUrl": "https://github.com/0xgreg/tern-omp-layout-fixes",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -11065,7 +11695,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small MIT-licensed Tern plugin that widens OMP session transcripts and adds composer spacing via CSS surface hooks. Single-commit, zero-star repo with a clear README but no maintenance or community signals yet.",
         "relevanceScore": 0.85,
@@ -11236,6 +11866,16 @@
           "surroundingText": "tern-paste-image",
           "targetUrl": "https://github.com/microck/tern-paste-image",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-paste-image",
+          "surroundingText": "tern-paste-image",
+          "targetUrl": "https://github.com/microck/tern-paste-image",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -11249,7 +11889,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Windows-only Tern plugin that pastes clipboard screenshots into local or remote terminals via Ctrl+Alt+V and optional SSH upload. Docs and plugin.toml are present, but the repo has a single commit and no community traction, so treat as a niche helper to list with that caveat.",
         "relevanceScore": 0.86,
@@ -11421,6 +12061,16 @@
           "surroundingText": "tern-remote-open",
           "targetUrl": "https://github.com/loneexile/tern-remote-open",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-remote-open",
+          "surroundingText": "tern-remote-open",
+          "targetUrl": "https://github.com/loneexile/tern-remote-open",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -11434,7 +12084,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that opens remote file://, localhost, and OAuth loopback links on the Mac over ssh/scp, with install docs, tests, and security notes. Small star count and Mac-only ssh-agent/known_hosts assumptions limit reach; still a direct match for the Tern plugin catalog.",
         "relevanceScore": 0.92,
@@ -11607,6 +12257,16 @@
           "surroundingText": "tern-swarm",
           "targetUrl": "https://github.com/bmanturner/tern-swarm",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-swarm",
+          "surroundingText": "tern-swarm",
+          "targetUrl": "https://github.com/bmanturner/tern-swarm",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -11620,7 +12280,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern desktop plugin that turns a Kanban board into omp coding-agent jobs in git worktrees, with checks and human review before ship. Early 0.1.0, macOS-only testing, and unattended yolo agents mean it needs a cautious listing despite clear docs.",
         "relevanceScore": 0.92,
@@ -11794,6 +12454,16 @@
           "surroundingText": "tern-vimnav",
           "targetUrl": "https://github.com/mayask/tern-vimnav",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-vimnav",
+          "surroundingText": "tern-vimnav",
+          "targetUrl": "https://github.com/mayask/tern-vimnav",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -11807,7 +12477,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that routes ctrl+h/j/k/l between Neovim/Vim splits and Tern panes, modeled on vim-tmux-navigator. Fits the Tern plugin rubric but is a one-commit, unstarred repo with known keybind tradeoffs.",
         "relevanceScore": 0.85,
@@ -11970,6 +12640,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/edheltzel/Butler-Pane",
+          "sectionPath": [],
+          "anchorText": "https://github.com/edheltzel/Butler-Pane",
+          "surroundingText": "https://github.com/edheltzel/Butler-Pane",
+          "targetUrl": "https://github.com/edheltzel/butler-pane",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -12031,7 +12710,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that surfaces GitButler workspaces in the terminal via status bar, lanes, diffs, and but CLI-backed commands; documented tutorial exists but the project is still labeled WIP, macOS-only, and the listed GitHub URL redirects to a renamed repo.",
         "relevanceScore": 0.86,
@@ -12205,6 +12884,16 @@
           "surroundingText": "tern-sdk",
           "targetUrl": "https://github.com/stencil-hq/tern-sdk",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-sdk",
+          "surroundingText": "tern-sdk",
+          "targetUrl": "https://github.com/stencil-hq/tern-sdk",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -12218,7 +12907,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official multi-language SDKs and example plugins for Tern’s Surface Protocol; high relevance for a Tern directory, with modest GitHub activity and no published releases on the repo page.",
         "relevanceScore": 0.95,
@@ -13408,6 +14097,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi",
+          "surroundingText": "https://github.com/can1357/oh-my-pi",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
           "sectionPath": [],
           "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
@@ -13507,6 +14205,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/tui",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
           "sectionPath": [],
           "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
@@ -13603,6 +14310,15 @@
           "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
           "targetUrl": "https://github.com/can1357/oh-my-pi",
           "discoveredAt": "2026-10-27T09:20:00.106Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "sectionPath": [],
+          "anchorText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "surroundingText": "https://github.com/can1357/oh-my-pi/tree/main/packages/wire",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
         },
         {
           "sourceType": "curated_readme",
@@ -13713,6 +14429,16 @@
           "surroundingText": "@oh-my-pi/pi-tui",
           "targetUrl": "https://github.com/can1357/oh-my-pi",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@oh-my-pi/pi-tui",
+          "surroundingText": "@oh-my-pi/pi-tui",
+          "targetUrl": "https://github.com/can1357/oh-my-pi",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -13727,7 +14453,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "TypeScript terminal UI library used by the OMP/Tern coding-agent stack: differential rendering, flicker-free CSI 2026 output, and a documented component set (editor, markdown, images, layouts). Strong maintenance and docs; it is an SDK rather than a standalone Tern plugin.",
         "relevanceScore": 0.92,
@@ -13899,6 +14625,16 @@
           "surroundingText": "Hermes for Tern",
           "targetUrl": "https://github.com/thefullctx/hermes-for-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hermes for Tern",
+          "surroundingText": "Hermes for Tern",
+          "targetUrl": "https://github.com/thefullctx/hermes-for-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -13912,7 +14648,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Unofficial Python adapter that renders Hermes Agent as a native Tern surface (Markdown, tools, docked composer) via a wrapper around the existing hermes command. Well-documented MIT project with tests and previews; still a small, community-maintained checkout that must stay on disk while the wrapper is installed.",
         "relevanceScore": 0.92,
@@ -14076,6 +14812,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/pgkt04/rmon",
+          "sectionPath": [],
+          "anchorText": "https://github.com/pgkt04/rmon",
+          "surroundingText": "https://github.com/pgkt04/rmon",
+          "targetUrl": "https://github.com/pgkt04/rmon",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -14183,6 +14928,16 @@
           "surroundingText": "rmon",
           "targetUrl": "https://github.com/pgkt04/rmon",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "rmon",
+          "surroundingText": "rmon",
+          "targetUrl": "https://github.com/pgkt04/rmon",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -14197,7 +14952,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Rust TUI system monitor with CPU/GPU/network/disk/process panels, process kill/filter/tree, and disk benchmarks. Explicitly documents Tern terminal support; small MIT repo with CI, tests, and a curl|sh installer.",
         "relevanceScore": 0.86,
@@ -14368,6 +15123,16 @@
           "surroundingText": "octet-tern",
           "targetUrl": "https://github.com/skaft-software/octet",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "octet-tern",
+          "surroundingText": "octet-tern",
+          "targetUrl": "https://github.com/skaft-software/octet",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -14381,7 +15146,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Native Rust terminal coding agent with docs, MIT license, and a 0.9.5 release, but it is a general LLM CLI rather than a Tern/Stencil plugin, block, TSP app, or SDK.",
         "relevanceScore": 0.15,
@@ -14546,6 +15311,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/theblazehen/mantern",
+          "sectionPath": [],
+          "anchorText": "https://github.com/theblazehen/mantern",
+          "surroundingText": "https://github.com/theblazehen/mantern",
+          "targetUrl": "https://github.com/theblazehen/mantern",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -14653,6 +15427,16 @@
           "surroundingText": "mantern",
           "targetUrl": "https://github.com/theblazehen/mantern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "mantern",
+          "surroundingText": "mantern",
+          "targetUrl": "https://github.com/theblazehen/mantern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -14667,7 +15451,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Rust TSP man-page viewer for Tern that renders pages as a native surface with foldable sections and falls back to system man. Small GPL-3.0 repo with clear docs; early (6 stars, 6 commits) and limited to Tern flow/styles and single-page native mode.",
         "relevanceScore": 0.92,
@@ -14833,6 +15617,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/arg3t/neotern",
+          "sectionPath": [],
+          "anchorText": "https://github.com/arg3t/neotern",
+          "surroundingText": "https://github.com/arg3t/neotern",
+          "targetUrl": "https://github.com/arg3t/neotern",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -14940,6 +15733,16 @@
           "surroundingText": "neotern",
           "targetUrl": "https://github.com/arg3t/neotern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "neotern",
+          "surroundingText": "neotern",
+          "targetUrl": "https://github.com/arg3t/neotern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -14954,7 +15757,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Alpha Neovim UI that draws nvim --embed as native Tern surfaces (editors, pickers, cmdline) via tern-sdk; useful for the directory but tightly coupled to one author’s plugin set and still unstable.",
         "relevanceScore": 0.92,
@@ -15116,6 +15919,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/verusferro/Ternatro",
+          "sectionPath": [],
+          "anchorText": "https://github.com/verusferro/Ternatro",
+          "surroundingText": "https://github.com/verusferro/Ternatro",
+          "targetUrl": "https://github.com/verusferro/ternatro",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -15223,6 +16035,16 @@
           "surroundingText": "Ternatro",
           "targetUrl": "https://github.com/verusferro/ternatro",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Ternatro",
+          "surroundingText": "Ternatro",
+          "targetUrl": "https://github.com/verusferro/ternatro",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -15237,7 +16059,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern plugin that runs an unmodified local Balatro install inside a Tern pane via native drawing. Well-documented setup for Linux/Windows (macOS extra steps); small repo, personal-use only due to game IP.",
         "relevanceScore": 0.86,
@@ -15398,6 +16220,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/d3d0n/terngram",
+          "sectionPath": [],
+          "anchorText": "https://github.com/d3d0n/terngram",
+          "surroundingText": "https://github.com/d3d0n/terngram",
+          "targetUrl": "https://github.com/d3d0n/terngram",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -15505,6 +16336,16 @@
           "surroundingText": "Terngram",
           "targetUrl": "https://github.com/d3d0n/terngram",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Terngram",
+          "surroundingText": "Terngram",
+          "targetUrl": "https://github.com/d3d0n/terngram",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -15519,7 +16360,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Keyboard-first unofficial Telegram client for Tern using TDLib and native UI; well-documented plugin with tests, but early-stage, macOS-centric, and unsigned with incomplete Telegram features.",
         "relevanceScore": 0.92,
@@ -15687,6 +16528,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/saavy1/saavy_cloud",
+          "sectionPath": [],
+          "anchorText": "https://github.com/saavy1/saavy_cloud",
+          "surroundingText": "https://github.com/saavy1/saavy_cloud",
+          "targetUrl": "https://github.com/saavy1/saavy_cloud",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -15794,6 +16644,16 @@
           "surroundingText": "saavy",
           "targetUrl": "https://github.com/saavy1/saavy_cloud",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "saavy",
+          "surroundingText": "saavy",
+          "targetUrl": "https://github.com/saavy1/saavy_cloud",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -15808,7 +16668,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Tern-native endless-chat coding agent with Cloudflare Durable Object memory and a local desktop runner; documented architecture and deploy path, but early (1 star, single-user, no visible license).",
         "relevanceScore": 0.86,
@@ -15973,6 +16833,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/wolfiesch/omp-side",
+          "sectionPath": [],
+          "anchorText": "https://github.com/wolfiesch/omp-side",
+          "surroundingText": "https://github.com/wolfiesch/omp-side",
+          "targetUrl": "https://github.com/wolfiesch/omp-side",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -16080,6 +16949,16 @@
           "surroundingText": "omp-side",
           "targetUrl": "https://github.com/wolfiesch/omp-side",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp-side",
+          "surroundingText": "omp-side",
+          "targetUrl": "https://github.com/wolfiesch/omp-side",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -16094,7 +16973,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Oh My Pi plugin that forks the current session into a nearby pane via /side, with native adapters including Tern. Small MIT repo with tests and clear install/usage docs; limited stars and Ghostty management gaps.",
         "relevanceScore": 0.82,
@@ -16268,6 +17147,16 @@
           "surroundingText": "pi-tern",
           "targetUrl": "https://github.com/ghost-9/pi-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pi-tern",
+          "surroundingText": "pi-tern",
+          "targetUrl": "https://github.com/ghost-9/pi-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -16281,7 +17170,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed pi coding-agent extension for Tern/TSP: handshake, Mermaid, WKWebView browser, panes, and optional native surfaces. Well-documented and CI-backed, but niche (Tern 0.5.1+, pi 1.0.x, no tmux) with low stars.",
         "relevanceScore": 0.92,
@@ -16455,6 +17344,16 @@
           "surroundingText": "tern-mcp",
           "targetUrl": "https://github.com/nac-l/tern-mcp",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-mcp",
+          "surroundingText": "tern-mcp",
+          "targetUrl": "https://github.com/nac-l/tern-mcp",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -16468,7 +17367,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Local stdio MCP server that wraps the Tern CLI with documented tools, tests, and targeting safeguards. Early-stage (one commit, few stars) and Linux/macOS runtime is not claimed as verified.",
         "relevanceScore": 0.92,
@@ -16634,6 +17533,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "sectionPath": [],
+          "anchorText": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "surroundingText": "https://github.com/Mouriya-Emma/omp-thinking-translator",
+          "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -16741,6 +17649,16 @@
           "surroundingText": "omp-thinking-translator",
           "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "omp-thinking-translator",
+          "surroundingText": "omp-thinking-translator",
+          "targetUrl": "https://github.com/mouriya-emma/omp-thinking-translator",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -16755,7 +17673,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "omp/Tern extension that translates visible assistant thinking for display only (not session/model context), with native TSP sections, tests, and bilingual docs. Low stars/forks and git-only install; host must expose omp-specific renderer APIs.",
         "relevanceScore": 0.92,
@@ -16929,6 +17847,16 @@
           "surroundingText": "tern-control",
           "targetUrl": "https://github.com/wolfiesch/tern-control",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-control",
+          "surroundingText": "tern-control",
+          "targetUrl": "https://github.com/wolfiesch/tern-control",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -16942,7 +17870,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Unofficial Oh My Pi / Pi extension that adds typed Tern pane listing, layout, and input tools for coding agents. Docs, tests, and MIT license are present, but the repo is very new (one commit, one star).",
         "relevanceScore": 0.92,
@@ -17116,6 +18044,16 @@
           "surroundingText": "tern-omp-vimnav",
           "targetUrl": "https://github.com/dinmon/tern-omp-vimnav",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-vimnav",
+          "surroundingText": "tern-omp-vimnav",
+          "targetUrl": "https://github.com/dinmon/tern-omp-vimnav",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -17129,7 +18067,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin plus omp extension that adds in-transcript Vim-style navigation, search, copy, and hints; documented and MIT-licensed, but the repo has a single commit and no stars yet.",
         "relevanceScore": 0.95,
@@ -17437,6 +18375,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://stencil.so/tern",
+          "sectionPath": [],
+          "anchorText": "Plugin SDK",
+          "surroundingText": "Plugin SDK",
+          "targetUrl": "https://docs.stencil.so/tern",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -17544,6 +18491,16 @@
           "surroundingText": "Tern plugin book",
           "targetUrl": "https://docs.stencil.so/tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern plugin book",
+          "surroundingText": "Tern plugin book",
+          "targetUrl": "https://docs.stencil.so/tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -17558,7 +18515,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Official Tern Plugin SDK documentation covering Luau host/window plugins, blocks, lenses, chrome, and the Surface Protocol. Strongly relevant official docs with clear architecture and security notes; plugin install implies process/file access trust.",
         "relevanceScore": 0.95,
@@ -17730,6 +18687,16 @@
           "surroundingText": "Getting Started",
           "targetUrl": "https://docs.stencil.so/tern/guides/getting-started.html",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Getting Started",
+          "surroundingText": "Getting Started",
+          "targetUrl": "https://docs.stencil.so/tern/guides/getting-started.html",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -17743,7 +18710,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Tern plugin getting-started guide covering plugin.toml, host/window Luau halves, linking, types, reload, and error surfaces. Solid primary docs for building Stencil Tern plugins.",
         "relevanceScore": 0.95,
@@ -17913,6 +18880,16 @@
           "surroundingText": "Command Lenses",
           "targetUrl": "https://docs.stencil.so/tern/guides/lenses.html",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Command Lenses",
+          "surroundingText": "Command Lenses",
+          "targetUrl": "https://docs.stencil.so/tern/guides/lenses.html",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -17926,7 +18903,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Tern docs for Command Lenses: matching shell commands, Lua host handlers, views, events, and rehydration. Strong fit as a first-party plugin/SDK guide with concrete match rules and a du table example.",
         "relevanceScore": 0.95,
@@ -18098,6 +19075,16 @@
           "surroundingText": "Debugging",
           "targetUrl": "https://docs.stencil.so/tern/guides/debugging.html",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Debugging",
+          "surroundingText": "Debugging",
+          "targetUrl": "https://docs.stencil.so/tern/guides/debugging.html",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -18111,7 +19098,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official Tern docs covering plugin failure surfaces, logs, budgets, luau-lsp types, and ctl-driven tests. Strong fit as a Resources entry for plugin authors.",
         "relevanceScore": 0.92,
@@ -18281,6 +19268,16 @@
           "surroundingText": "Tern Surface Protocol",
           "targetUrl": "https://docs.stencil.so/tern/protocol/index.html",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Tern Surface Protocol",
+          "surroundingText": "Tern Surface Protocol",
+          "targetUrl": "https://docs.stencil.so/tern/protocol/index.html",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -18294,7 +19291,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Official protocol docs for programs that speak TSP over a pty so Tern can layout, draw, and animate a semantic UI tree instead of cell painting. Directly relevant to TSP apps and SDKs; quality is high but this is specification, not a runnable tool.",
         "relevanceScore": 0.95,
@@ -18460,6 +19457,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "sectionPath": [],
+          "anchorText": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "surroundingText": "https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md",
+          "targetUrl": "https://github.com/pelikanade/flake",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -18567,6 +19573,16 @@
           "surroundingText": "pelikanade/flake",
           "targetUrl": "https://github.com/pelikanade/flake",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "pelikanade/flake",
+          "surroundingText": "pelikanade/flake",
+          "targetUrl": "https://github.com/pelikanade/flake",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -18581,7 +19597,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Personal NixOS flake that documents pinning a closed-beta Tern binary via requireFile; not a Tern plugin, block, TSP app, or SDK. Listing the whole repo is a weak fit for an awesome-Tern directory.",
         "relevanceScore": 0.28,
@@ -18742,6 +19758,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "sectionPath": [],
+          "anchorText": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "surroundingText": "https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix",
+          "targetUrl": "https://github.com/tdortman/dotfiles",
+          "discoveredAt": "2026-10-28T09:20:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "theblazehen/awesome-tern",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -18849,6 +19874,16 @@
           "surroundingText": "tdortman/dotfiles",
           "targetUrl": "https://github.com/tdortman/dotfiles",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tdortman/dotfiles",
+          "surroundingText": "tdortman/dotfiles",
+          "targetUrl": "https://github.com/tdortman/dotfiles",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -18863,7 +19898,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:20:00.106Z",
+      "updatedAt": "2026-10-28T09:20:00.093Z",
       "aiReview": {
         "summary": "Personal chezmoi/NixOS dotfiles with a Nix package and Plasma module for Tern, not a reusable plugin or SDK. Informal README and piped install scripts make it a weak directory entry unless maintainers want Nix examples only.",
         "relevanceScore": 0.62,
@@ -19033,6 +20068,16 @@
           "surroundingText": "theoparis/nix-tern",
           "targetUrl": "https://github.com/theoparis/nix-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "theoparis/nix-tern",
+          "surroundingText": "theoparis/nix-tern",
+          "targetUrl": "https://github.com/theoparis/nix-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19046,7 +20091,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-14T09:00:00.151Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Nix flake that packages the closed-beta Tern multiplexer as an unfree binary with wrappers for NixOS runtime libs and a login-shell probe shim. Relevant to Tern on Nix, but it is a one-commit repo with no README, a hardcoded store tarball, and x86_64-linux-only support.",
         "relevanceScore": 0.72,
@@ -19209,6 +20254,16 @@
           "surroundingText": "tern-pencil-preview",
           "targetUrl": "https://github.com/samuelfontess/tern-pencil-preview",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pencil-preview",
+          "surroundingText": "tern-pencil-preview",
+          "targetUrl": "https://github.com/samuelfontess/tern-pencil-preview",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19222,7 +20277,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT Tern plugin that previews pen.dev .pen files as a read-only native block and live whiteboard of top-level frames via the authenticated Pencil CLI. Documented Windows-first verification, no reverse editing, and several runtime limits.",
         "relevanceScore": 0.92,
@@ -19384,6 +20439,16 @@
           "surroundingText": "tern-gpg-touch",
           "targetUrl": "https://github.com/edcnogueira/tern-gpg-touch",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-gpg-touch",
+          "surroundingText": "tern-gpg-touch",
+          "targetUrl": "https://github.com/edcnogueira/tern-gpg-touch",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19397,7 +20462,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that toasts (and optionally sounds) when a pane command likely needs a security-key touch for GPG signing. Small MIT Luau project with tests and clear install/config docs; zero stars and host-only, so it will not cover agent-run commands.",
         "relevanceScore": 0.92,
@@ -19559,6 +20624,16 @@
           "surroundingText": "tern-awui",
           "targetUrl": "https://github.com/materemias/tern-awui",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-awui",
+          "surroundingText": "tern-awui",
+          "targetUrl": "https://github.com/materemias/tern-awui",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19572,7 +20647,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-15T09:00:00.102Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed phone/browser companion for omp agents in Tern, served over Tailscale as a PWA with two-way control. Strong docs, tests, and installer; low community traction and it is explicitly a stopgap until an official mobile client.",
         "relevanceScore": 0.92,
@@ -19727,6 +20802,16 @@
           "surroundingText": "tern-omp-usage",
           "targetUrl": "https://github.com/joaodutra88/tern-omp-usage",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-usage",
+          "surroundingText": "tern-omp-usage",
+          "targetUrl": "https://github.com/joaodutra88/tern-omp-usage",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19740,7 +20825,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:00:00.080Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern status-line plugin that surfaces Claude/Codex omp usage, work-week budget, saved resets, and today’s tokens/cost. Docs, tests, and CI are present, but the repo is very new with no stars or community traction.",
         "relevanceScore": 0.92,
@@ -19892,6 +20977,16 @@
           "surroundingText": "tern-kata",
           "targetUrl": "https://github.com/dangerboi/tern-kata",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-kata",
+          "surroundingText": "tern-kata",
+          "targetUrl": "https://github.com/dangerboi/tern-kata",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -19905,7 +21000,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:00:00.080Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin plus Go pane that browses and edits local kata Issues with Tern widgets; well-documented but still young with a tiny GitHub audience.",
         "relevanceScore": 0.92,
@@ -20040,6 +21135,16 @@
           "surroundingText": "tern-projects",
           "targetUrl": "https://github.com/thegeneralist01/tern-projects",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-projects",
+          "surroundingText": "tern-projects",
+          "targetUrl": "https://github.com/thegeneralist01/tern-projects",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20053,7 +21158,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-18T09:00:00.119Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that adds a project sidebar, pinned chats, and FTS search across several coding-agent session stores. Directly on-rubric; small/new repo with MIT license and install docs, but limited community signals.",
         "relevanceScore": 0.95,
@@ -20187,6 +21292,16 @@
           "surroundingText": "Worktree Panel",
           "targetUrl": "https://github.com/mullerino/tern-worktree-panel",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Worktree Panel",
+          "surroundingText": "Worktree Panel",
+          "targetUrl": "https://github.com/mullerino/tern-worktree-panel",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20200,7 +21315,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-18T09:00:00.119Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that pins a per-tab panel of git worktrees and omp agent states, with documented install, limits, and tests. Small, young repo (11 commits, 1 star) but README and plugin layout are clear enough for directory inclusion after a light check.",
         "relevanceScore": 0.92,
@@ -20323,6 +21438,16 @@
           "surroundingText": "tern-ai-limits",
           "targetUrl": "https://github.com/pfthetrial/tern-ai-limits",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-ai-limits",
+          "surroundingText": "tern-ai-limits",
+          "targetUrl": "https://github.com/pfthetrial/tern-ai-limits",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20336,7 +21461,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that displays remaining AI coding-plan usage across multiple providers, with Windows-first direct readers and optional omp. Documentation is clear, but the repo is very new (few commits/stars) and some usage endpoints are unofficial.",
         "relevanceScore": 0.92,
@@ -20460,6 +21585,16 @@
           "surroundingText": "tern-rmd",
           "targetUrl": "https://github.com/betizzel/tern-rmd",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-rmd",
+          "surroundingText": "tern-rmd",
+          "targetUrl": "https://github.com/betizzel/tern-rmd",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20473,7 +21608,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that opens .Rmd files as notebooks with a shared live R session, chunk output, and round-trip-safe source. Relevant and well documented, but the repo is very new (few commits, 1 star).",
         "relevanceScore": 0.92,
@@ -20592,6 +21727,16 @@
           "surroundingText": "tern-software-factory",
           "targetUrl": "https://github.com/junaidrahim/tern-software-factory",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-software-factory",
+          "surroundingText": "tern-software-factory",
+          "targetUrl": "https://github.com/junaidrahim/tern-software-factory",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20605,7 +21750,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lists host agents, subagents, and omp usage limits in a Software Factory block, with keyboard navigation to panes. Small repo (8 commits, 1 star) but a detailed README covering install, behavior, and refresh limits.",
         "relevanceScore": 0.92,
@@ -20728,6 +21873,16 @@
           "surroundingText": "tern-todo",
           "targetUrl": "https://github.com/deliselino/tern-todo",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-todo",
+          "surroundingText": "tern-todo",
+          "targetUrl": "https://github.com/deliselino/tern-todo",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20741,7 +21896,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that stores tasks in JSON and links them to panes and agent sessions. Install via tern plugin install; small public repo with basic README and low community traction.",
         "relevanceScore": 0.92,
@@ -20862,6 +22017,16 @@
           "surroundingText": "tern-annotate",
           "targetUrl": "https://github.com/hyper-stition/tern-annotate",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-annotate",
+          "surroundingText": "tern-annotate",
+          "targetUrl": "https://github.com/hyper-stition/tern-annotate",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -20875,7 +22040,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Prototype Tern plugin for anchored comments on block snapshots, batching edits to agents, and filing to-dos to a Markdown board. Directly relevant, MIT-licensed, but early (0 stars, 2 commits) and documents plugin-API workarounds and slow startup.",
         "relevanceScore": 0.92,
@@ -20997,6 +22162,16 @@
           "surroundingText": "tern-bigquery",
           "targetUrl": "https://github.com/junaidrahim/tern-bigquery",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-bigquery",
+          "surroundingText": "tern-bigquery",
+          "targetUrl": "https://github.com/junaidrahim/tern-bigquery",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21010,7 +22185,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern native-block plugin that browses BigQuery via the bq CLI (projects, datasets, schemas, 50-row previews). Docs and tests are strong for a 0.1.0 repo with almost no community or history signal.",
         "relevanceScore": 0.92,
@@ -21135,6 +22310,16 @@
           "surroundingText": "tern-canvas-viewer",
           "targetUrl": "https://github.com/iacore/tern-canvas-viewer",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-canvas-viewer",
+          "surroundingText": "tern-canvas-viewer",
+          "targetUrl": "https://github.com/iacore/tern-canvas-viewer",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21148,7 +22333,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that renders .excalidraw and .tldraw files as SVG image blocks without converting files on disk. Small, well-documented, BSD-2-Clause, but 0 stars, 3 commits, and several documented rendering limits.",
         "relevanceScore": 0.92,
@@ -21271,6 +22456,16 @@
           "surroundingText": "tern-csv",
           "targetUrl": "https://github.com/taooceros/tern-csv",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-csv",
+          "surroundingText": "tern-csv",
+          "targetUrl": "https://github.com/taooceros/tern-csv",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21284,7 +22479,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that opens CSV/TSV as a keyboard-driven native table with a Table/Text swap. Directly relevant, well documented, and tested, but the repo has no stars or issue history.",
         "relevanceScore": 0.92,
@@ -21404,6 +22599,16 @@
           "surroundingText": "tern-dbgview",
           "targetUrl": "https://github.com/hime7864/tern-dbgview",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-dbgview",
+          "surroundingText": "tern-dbgview",
+          "targetUrl": "https://github.com/hime7864/tern-dbgview",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21417,7 +22622,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Windows-only Tern plugin that docks live kernel DbgPrint and Win32 OutputDebugString output via bundled DbgViewCli and a custom DBWIN helper. Solid, detailed README, but zero stars, vendored binaries, and elevation/driver use warrant a human look.",
         "relevanceScore": 0.85,
@@ -21537,6 +22742,16 @@
           "surroundingText": "tern-find-in-files",
           "targetUrl": "https://github.com/jmilldotdev/tern-find-in-files",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-find-in-files",
+          "surroundingText": "tern-find-in-files",
+          "targetUrl": "https://github.com/jmilldotdev/tern-find-in-files",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21550,7 +22765,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that searches files under the focused pane’s directory with ripgrep, VS Code-style live results, and documented keybinds. Thin Luau plugin (MIT) with no stars or issues; requires ripgrep and a custom keybind because Tern’s preset owns shift+cmd+f.",
         "relevanceScore": 0.92,
@@ -21669,6 +22884,16 @@
           "surroundingText": "tern-omp-stats",
           "targetUrl": "https://github.com/balaurent/tern-omp-stats",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-stats",
+          "surroundingText": "tern-omp-stats",
+          "targetUrl": "https://github.com/balaurent/tern-omp-stats",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21682,7 +22907,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern block that reads ~/.omp/stats.db read-only via sqlite3 and renders usage dashboards with native Tern UI. Niche but well-documented with tests; 0 stars and Linux-only testing against Tern 0.9.2.",
         "relevanceScore": 0.86,
@@ -21804,6 +23029,16 @@
           "surroundingText": "tern-periscope",
           "targetUrl": "https://github.com/kenxengineering/tern-periscope",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-periscope",
+          "surroundingText": "tern-periscope",
+          "targetUrl": "https://github.com/kenxengineering/tern-periscope",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21817,7 +23052,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that lists omp/oh-my-pi subagents from session jsonl files and tails transcripts in-block, with documented install, keybindings, and known status-inference limits. Zero stars and no automated tests; main is explicitly unstable versus tagged releases.",
         "relevanceScore": 0.92,
@@ -21938,6 +23173,16 @@
           "surroundingText": "tern-ports",
           "targetUrl": "https://github.com/meisijiya/tern-ports",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-ports",
+          "surroundingText": "tern-ports",
+          "targetUrl": "https://github.com/meisijiya/tern-ports",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -21951,7 +23196,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that lists listening TCP ports and tags those with an omp ancestor. README, platform probes, and tests are present; the repo has no stars or issues yet.",
         "relevanceScore": 0.92,
@@ -22070,6 +23315,16 @@
           "surroundingText": "tern-pr-tour",
           "targetUrl": "https://github.com/lfsmoura/tern-pr-tour",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pr-tour",
+          "surroundingText": "tern-pr-tour",
+          "targetUrl": "https://github.com/lfsmoura/tern-pr-tour",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22083,7 +23338,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin plus agent skill that turns PRs into step-by-step tours (diff-tour format) with editor follow, contents, and in-tour Q&A. Directly relevant; MIT code and docs exist, but the repo has no stars, issues, or maintenance history.",
         "relevanceScore": 0.92,
@@ -22204,6 +23459,16 @@
           "surroundingText": "tern-plugin-omp-usage",
           "targetUrl": "https://github.com/jmazzola/tern-plugin-omp-usage",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-plugin-omp-usage",
+          "surroundingText": "tern-plugin-omp-usage",
+          "targetUrl": "https://github.com/jmazzola/tern-plugin-omp-usage",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22217,7 +23482,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin plus omp extension that draws provider usage windows above the composer context bar, with hover details and a settings panel. Niche but on-target for Tern/omp, with clear install, screenshots, and troubleshooting; very low star count and a two-part install (plugin link plus yaml extension path).",
         "relevanceScore": 0.92,
@@ -22340,6 +23605,16 @@
           "surroundingText": "tern-vscode-dark",
           "targetUrl": "https://github.com/itsyndicate25/tern-vscode-dark",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-vscode-dark",
+          "surroundingText": "tern-vscode-dark",
+          "targetUrl": "https://github.com/itsyndicate25/tern-vscode-dark",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22353,7 +23628,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that applies VS Code Dark Modern colors to chrome, terminal, and the file editor. Small MIT repo with a clear README; only dark appearance is themed and maintenance signals are thin.",
         "relevanceScore": 0.92,
@@ -22473,6 +23748,16 @@
           "surroundingText": "tern-zh-cn",
           "targetUrl": "https://github.com/maicent/tern-zh-cn",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-zh-cn",
+          "surroundingText": "tern-zh-cn",
+          "targetUrl": "https://github.com/maicent/tern-zh-cn",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22486,7 +23771,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern (Stencil) plugin that wraps 50+ built-in commands with Simplified Chinese palette titles and CSS-replaces some UI labels; incomplete i18n by design and tied to Tern 0.8.x class names.",
         "relevanceScore": 0.85,
@@ -22607,6 +23892,16 @@
           "surroundingText": "tern-git-fx",
           "targetUrl": "https://github.com/willstarnet/tern-git-fx",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-git-fx",
+          "surroundingText": "tern-git-fx",
+          "targetUrl": "https://github.com/willstarnet/tern-git-fx",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22620,7 +23915,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that overlays CSS pixel-art sprites while git commands run. Docs, tests, CI, and MIT license are solid; community traction is still minimal.",
         "relevanceScore": 0.92,
@@ -22742,6 +24037,16 @@
           "surroundingText": "tern-plugins (Unravl)",
           "targetUrl": "https://github.com/unravl/tern-plugins",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-plugins (Unravl)",
+          "surroundingText": "tern-plugins (Unravl)",
+          "targetUrl": "https://github.com/unravl/tern-plugins",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22755,7 +24060,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small collection of two Tern plugins (sessions sidebar and a Spine composer visual fix) with per-plugin READMEs, tests, and install/link docs. The GitHub repo is described as private, so directory listing value is limited without access.",
         "relevanceScore": 0.85,
@@ -22876,6 +24181,16 @@
           "surroundingText": "Kai",
           "targetUrl": "https://github.com/yupmoh/tern-plugins",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kai",
+          "surroundingText": "Kai",
+          "targetUrl": "https://github.com/yupmoh/tern-plugins",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -22889,7 +24204,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small MIT collection of Tern plugins; currently ships Kai, a workspaces sidebar with session cards, git/files trees, and live agent state. On-topic but very low community signal.",
         "relevanceScore": 0.92,
@@ -23009,6 +24324,16 @@
           "surroundingText": "tern-tab-status",
           "targetUrl": "https://github.com/yoyooyooo/tern-tab-status",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-tab-status",
+          "surroundingText": "tern-tab-status",
+          "targetUrl": "https://github.com/yoyooyooo/tern-tab-status",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23022,7 +24347,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT Tern plugin that paints tab-bar status dots from native OMP/pi pane states, with install via tern plugin CLI, bilingual docs, CI, and documented version/platform limits.",
         "relevanceScore": 0.95,
@@ -23147,6 +24472,16 @@
           "surroundingText": "TernGitButler",
           "targetUrl": "https://github.com/edheltzel/gitbutler-for-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "TernGitButler",
+          "surroundingText": "TernGitButler",
+          "targetUrl": "https://github.com/edheltzel/gitbutler-for-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23160,7 +24495,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "WIP Tern plugin that surfaces GitButler workspaces, status, diffs, and but-CLI actions in the terminal. Strong docs and UI coverage, but early (1 star, macOS/Tern-specific) so list it as a plugin, not a general SDK.",
         "relevanceScore": 0.92,
@@ -23282,6 +24617,16 @@
           "surroundingText": "tern-agent-progress",
           "targetUrl": "https://github.com/sipty/tern-agent-progress",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agent-progress",
+          "surroundingText": "tern-agent-progress",
+          "targetUrl": "https://github.com/sipty/tern-agent-progress",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23295,7 +24640,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small MIT Tern plugin that marks omp-agent tabs with WoW-style quest icons and todo progress; relevant and documented, but unstarred and dependent on fragile nth-of-type tab CSS.",
         "relevanceScore": 0.86,
@@ -23415,6 +24760,16 @@
           "surroundingText": "tern-browser-profiles",
           "targetUrl": "https://github.com/ian139/tern-browser-profiles",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-browser-profiles",
+          "surroundingText": "tern-browser-profiles",
+          "targetUrl": "https://github.com/ian139/tern-browser-profiles",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23428,7 +24783,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that opens isolated in-Tern Chromium-profile browsers on macOS by copying cookies from installed Chrome/Brave/Edge-family profiles via Keychain. Docs are unusually detailed, but the repo is unstarred and cookie/session handling is inherently sensitive.",
         "relevanceScore": 0.92,
@@ -23550,6 +24905,16 @@
           "surroundingText": "tern-custom-background",
           "targetUrl": "https://github.com/naraaalt/tern-custom-background",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-custom-background",
+          "surroundingText": "tern-custom-background",
+          "targetUrl": "https://github.com/naraaalt/tern-custom-background",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23563,7 +24928,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Windows-only Tern plugin that dithers an image (or animated GIF) as a full-window wallpaper, with a settings UI and a first-run C# helper compiled via the system csc.exe.",
         "relevanceScore": 0.92,
@@ -23682,6 +25047,16 @@
           "surroundingText": "tern-desktop-pet",
           "targetUrl": "https://github.com/hanbong5938/tern-desktop-pet",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-desktop-pet",
+          "surroundingText": "tern-desktop-pet",
+          "targetUrl": "https://github.com/hanbong5938/tern-desktop-pet",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23695,7 +25070,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern window plugin (Luau + Rust native-adapter) that observes local/remote hosts and forwards local semantic asks to a separately installed Desktop Pet app; MIT, tests claimed, but 0 stars and paired native reconnect is still unproved.",
         "relevanceScore": 0.86,
@@ -23817,6 +25192,16 @@
           "surroundingText": "tern-extrakeys",
           "targetUrl": "https://github.com/bneil/tern-extrakeys",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-extrakeys",
+          "surroundingText": "tern-extrakeys",
+          "targetUrl": "https://github.com/bneil/tern-extrakeys",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23830,7 +25215,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that adds a Termux-style extra-keys pane targeting a chosen terminal. Docs, tests, and known limits are clear; the repo has no stars and Android support is untested.",
         "relevanceScore": 0.92,
@@ -23952,6 +25337,16 @@
           "surroundingText": "tern-grid-layout",
           "targetUrl": "https://github.com/yoyooyooo/tern-grid-layout",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-grid-layout",
+          "surroundingText": "tern-grid-layout",
+          "targetUrl": "https://github.com/yoyooyooo/tern-grid-layout",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -23965,7 +25360,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Experimental Tern plugin that equalizes pane columns on window resize or a command; documented and MIT-licensed, but unreleased, unstarred, and verified mainly on macOS.",
         "relevanceScore": 0.86,
@@ -24088,6 +25483,16 @@
           "surroundingText": "tern-kami",
           "targetUrl": "https://github.com/justdoswift/tern-kami",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-kami",
+          "surroundingText": "tern-kami",
+          "targetUrl": "https://github.com/justdoswift/tern-kami",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24101,7 +25506,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern window plugin that applies a Kami-inspired light paper theme plus optional native font-family setup. Relevant for Stencil/Tern theming; docs are detailed, but the repo has no stars and only macOS/Tern 0.8.4 is claimed as tested.",
         "relevanceScore": 0.86,
@@ -24226,6 +25631,16 @@
           "surroundingText": "tern-minimax-quota",
           "targetUrl": "https://github.com/meisijiya/tern-minimax-quota",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-minimax-quota",
+          "surroundingText": "tern-minimax-quota",
+          "targetUrl": "https://github.com/meisijiya/tern-minimax-quota",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24239,7 +25654,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that shows MiniMax Token Plan remaining quota in the status bar, with keychain storage, palette commands, and documented install/reload caveats. Small, well-documented MIT repo with no community traction yet.",
         "relevanceScore": 0.86,
@@ -24361,6 +25776,16 @@
           "surroundingText": "tern-obsidian",
           "targetUrl": "https://github.com/dbydd/tern-obsidian",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-obsidian",
+          "surroundingText": "tern-obsidian",
+          "targetUrl": "https://github.com/dbydd/tern-obsidian",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24374,7 +25799,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern terminal plugin that detects Obsidian vaults and opens notes, Bases, and JSON Canvas with documented wikilink, tag, and index support. Early public repo (0 stars, 2 commits) with a Chinese README, MIT license, and explicit gaps versus full Obsidian.",
         "relevanceScore": 0.92,
@@ -24497,6 +25922,16 @@
           "surroundingText": "tern-omp-groups",
           "targetUrl": "https://github.com/vishiod/tern-omp-groups",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-groups",
+          "surroundingText": "tern-omp-groups",
+          "targetUrl": "https://github.com/vishiod/tern-omp-groups",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24510,7 +25945,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT Tern plugin that groups omp chats by stable title codes, auto-moves them into sessions, and reopens or reads chat/subagent history. Directly relevant; early repo (few commits, no stars) and curl|sh install plus plugin execution deserve a caution before listing.",
         "relevanceScore": 0.92,
@@ -24632,6 +26067,16 @@
           "surroundingText": "tern-plugins (mreishus)",
           "targetUrl": "https://github.com/mreishus/tern-plugins",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-plugins (mreishus)",
+          "surroundingText": "tern-plugins (mreishus)",
+          "targetUrl": "https://github.com/mreishus/tern-plugins",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24645,7 +26090,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small MIT collection of two Tern terminal plugins (bottom tab bar; nvim scrollback) with install/link docs; 0 stars and no issue activity, but clearly scoped and relevant.",
         "relevanceScore": 0.92,
@@ -24766,6 +26211,16 @@
           "surroundingText": "tern-remote-paste",
           "targetUrl": "https://github.com/jmilldotdev/tern-remote-paste",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-remote-paste",
+          "surroundingText": "tern-remote-paste",
+          "targetUrl": "https://github.com/jmilldotdev/tern-remote-paste",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24779,7 +26234,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that on macOS maps Ctrl+V in SSH panes to uploading a clipboard PNG via pngpaste and pasting the remote path; niche, unstarred, and constrained (macOS, BatchMode SSH, leftover /tmp files).",
         "relevanceScore": 0.82,
@@ -24898,6 +26353,16 @@
           "surroundingText": "tern-task-plugin",
           "targetUrl": "https://github.com/yesmeck/tern-task-plugin",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-task-plugin",
+          "surroundingText": "tern-task-plugin",
+          "targetUrl": "https://github.com/yesmeck/tern-task-plugin",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -24911,7 +26376,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that treats a task as a session plus git worktree, with a PR-stage kanban dashboard. Strong README and tests, but zero stars and no public activity yet.",
         "relevanceScore": 0.95,
@@ -25033,6 +26498,16 @@
           "surroundingText": "tern-workspaces-sidebar",
           "targetUrl": "https://github.com/tobiasesquivel/tern-workspaces-sidebar",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-workspaces-sidebar",
+          "surroundingText": "tern-workspaces-sidebar",
+          "targetUrl": "https://github.com/tobiasesquivel/tern-workspaces-sidebar",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25046,7 +26521,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-19T09:00:00.338Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that shows sessions as nested workspaces with git counters and agent-state badges, plus a local Node runtime for omp/Claude Code/Codex commands. Directly on-topic, well documented, but unstarred and tied to closed-beta Tern builds.",
         "relevanceScore": 0.92,
@@ -25151,6 +26626,16 @@
           "surroundingText": "tern-agents-ui",
           "targetUrl": "https://github.com/saanuregh/tern-agents-ui",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agents-ui",
+          "surroundingText": "tern-agents-ui",
+          "targetUrl": "https://github.com/saanuregh/tern-agents-ui",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25164,7 +26649,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin plus tclaude/tcodex binaries that render Claude Code and Codex chats in Tern panes via the Surface Protocol, with documented keys, features, and install/build paths. Relevant for the directory, but the repo is very new (few commits, one star), so treat as an early community plugin rather than a proven staple.",
         "relevanceScore": 0.92,
@@ -25265,6 +26750,16 @@
           "surroundingText": "codex-tern",
           "targetUrl": "https://github.com/juniorxxue/codex-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "codex-tern",
+          "surroundingText": "codex-tern",
+          "targetUrl": "https://github.com/juniorxxue/codex-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25278,7 +26773,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Unofficial Codex GUI on Tern that talks to official `codex app-server` over stdio JSON-RPC. Relevant TSP app, but it is early (0 stars, 5 commits) and needs Tern closed beta plus Codex CLI.",
         "relevanceScore": 0.86,
@@ -25379,6 +26874,16 @@
           "surroundingText": "hermes-tern",
           "targetUrl": "https://github.com/alt-glitch/hermes-tern",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "hermes-tern",
+          "surroundingText": "hermes-tern",
+          "targetUrl": "https://github.com/alt-glitch/hermes-tern",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25392,7 +26897,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Hermes Agent plugin that renders chat, tools, approvals, PRs, and background-job charts in Tern via TSP; documented install, tests, and MIT license, with a small GitHub following.",
         "relevanceScore": 0.92,
@@ -25491,6 +26996,16 @@
           "surroundingText": "tern-omp-bridge",
           "targetUrl": "https://github.com/theblazehen/tern-omp-bridge",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-bridge",
+          "surroundingText": "tern-omp-bridge",
+          "targetUrl": "https://github.com/theblazehen/tern-omp-bridge",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25504,7 +27019,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern window plugin plus omp extension that registers a tern_exec tool so omp agents can run Luau in the live window, inspect panes, and render native views. Docs cover install, architecture, and unsandboxed execution; the repo is new (0 stars, few commits) and macOS is untested.",
         "relevanceScore": 0.92,
@@ -25606,6 +27121,16 @@
           "surroundingText": "tern-omp-usage-dashboard",
           "targetUrl": "https://github.com/wolfiesch/tern-omp-usage-dashboard",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-usage-dashboard",
+          "surroundingText": "tern-omp-usage-dashboard",
+          "targetUrl": "https://github.com/wolfiesch/tern-omp-usage-dashboard",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25619,7 +27144,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Tern plugin that shows OMP provider quotas in a native pane, with tests, documented install/privacy caveats, and a plugin-id clash with another omp-usage plugin.",
         "relevanceScore": 0.92,
@@ -25723,6 +27248,16 @@
           "surroundingText": "tern-plugins (Emirfs)",
           "targetUrl": "https://github.com/emirfs/tern-plugins",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-plugins (Emirfs)",
+          "surroundingText": "tern-plugins (Emirfs)",
+          "targetUrl": "https://github.com/emirfs/tern-plugins",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25736,7 +27271,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small MIT collection of three Tern plugins (omp-usage, omp-profile, split-columns) with a concise install README. Relevant to Stencil/Tern, but the default branch is a feature branch, activity is thin (7 commits, 0 stars), and community/maintenance signals are weak.",
         "relevanceScore": 0.92,
@@ -25837,6 +27372,16 @@
           "surroundingText": "tern-agent-nav",
           "targetUrl": "https://github.com/arcadia822/tern-agent-nav",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-agent-nav",
+          "surroundingText": "tern-agent-nav",
+          "targetUrl": "https://github.com/arcadia822/tern-agent-nav",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25850,7 +27395,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that adds a compact session-grouped agent navigator rail with documented install, status heuristics, tests, and known SDK limits. Low adoption and English-UI hint matching mean it should be listed after a quick maintainer check, not rejected.",
         "relevanceScore": 0.92,
@@ -25955,6 +27500,16 @@
           "surroundingText": "tern-claude-workflows",
           "targetUrl": "https://github.com/cgasgarth/tern-claude-workflows",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-claude-workflows",
+          "surroundingText": "tern-claude-workflows",
+          "targetUrl": "https://github.com/cgasgarth/tern-claude-workflows",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -25968,7 +27523,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that surfaces Claude Code workflow progress (phases, agents, tokens, idle time) for the session in the current tab by polling Claude’s local session files. Directly relevant, well documented, but maintenance depends on undocumented Claude Code internals and the repo has no stars yet.",
         "relevanceScore": 0.92,
@@ -26070,6 +27625,16 @@
           "surroundingText": "tern-omp-trajectory",
           "targetUrl": "https://github.com/ahaxzh/tern-omp-trajectory",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-omp-trajectory",
+          "surroundingText": "tern-omp-trajectory",
+          "targetUrl": "https://github.com/ahaxzh/tern-omp-trajectory",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26083,7 +27648,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that renders oh-my-pi (omp) JSONL session logs as a trajectory block with a round ledger, inspectors, and token timeline. Solid README, tests, and chunked parsing; zero stars and Linux-only tooling are the main caveats.",
         "relevanceScore": 0.92,
@@ -26187,6 +27752,16 @@
           "surroundingText": "tern-dsh-web",
           "targetUrl": "https://github.com/meisijiya/tern-dsh-web",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-dsh-web",
+          "surroundingText": "tern-dsh-web",
+          "targetUrl": "https://github.com/meisijiya/tern-dsh-web",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26200,7 +27775,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern status-bar plugin that starts, restarts, updates, and opens the globally installed DeepSeek Harness Web UI; small MIT repo with docs and no community traction yet.",
         "relevanceScore": 0.86,
@@ -26303,6 +27878,16 @@
           "surroundingText": "tern-tab-search",
           "targetUrl": "https://github.com/cgasgarth/tern-tab-search",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-tab-search",
+          "surroundingText": "tern-tab-search",
+          "targetUrl": "https://github.com/cgasgarth/tern-tab-search",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26316,7 +27901,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Small Tern plugin that opens a native picker for session:tab search via ctrl+alt+t. Implementation is typed Luau with unit tests, but the repo has no README, two commits, and almost no community signal.",
         "relevanceScore": 0.92,
@@ -26419,6 +28004,16 @@
           "surroundingText": "tern-wide-autocomplete",
           "targetUrl": "https://github.com/doyouing/tern-wide-autocomplete",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-wide-autocomplete",
+          "surroundingText": "tern-wide-autocomplete",
+          "targetUrl": "https://github.com/doyouing/tern-wide-autocomplete",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26432,7 +28027,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern UI plugin that CSS-widens native OMP autocomplete overlays and aligns Reader popups with the composer. Directly relevant, well-documented, MIT-licensed; tiny repo (one commit, no stars) and selector-fragile.",
         "relevanceScore": 0.92,
@@ -26532,6 +28127,16 @@
           "surroundingText": "tern-difftastic",
           "targetUrl": "https://github.com/microproofs/tern-difftastic",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-difftastic",
+          "surroundingText": "tern-difftastic",
+          "targetUrl": "https://github.com/microproofs/tern-difftastic",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26545,7 +28150,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that renders difftastic structural diffs of jj/git changes in a review block, with hunk review marks, search, and blame. Small MIT repo with README/SPEC, tests, and install notes; still early (few commits, one star) and depends on difftastic’s unstable JSON plus trusted-plugin access.",
         "relevanceScore": 0.92,
@@ -26646,6 +28251,16 @@
           "surroundingText": "tern-clock",
           "targetUrl": "https://github.com/ajaxdude/tern-clock",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-clock",
+          "surroundingText": "tern-clock",
+          "targetUrl": "https://github.com/ajaxdude/tern-clock",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26659,7 +28274,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern terminal plugin that shows local system time in the tab bar or status line, with 12h/24h, optional seconds, and four positions. Small, well-documented Luau plugin; low community traction and a short commit history.",
         "relevanceScore": 0.85,
@@ -26762,6 +28377,16 @@
           "surroundingText": "tern-commands",
           "targetUrl": "https://github.com/lucaxic/tern-commands",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-commands",
+          "surroundingText": "tern-commands",
+          "targetUrl": "https://github.com/lucaxic/tern-commands",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26775,7 +28400,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that turns COMMANDS.md fenced blocks into grouped clickable command buttons with install via tern plugin install. Docs and tests exist, but the repo has a single commit, no stars, and no GitHub description.",
         "relevanceScore": 0.86,
@@ -26877,6 +28502,16 @@
           "surroundingText": "tern-jobs",
           "targetUrl": "https://github.com/eggpeat/tern-jobs",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-jobs",
+          "surroundingText": "tern-jobs",
+          "targetUrl": "https://github.com/eggpeat/tern-jobs",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -26890,7 +28525,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern host plugin that lists systemd user timers and failed user services, with last-run logs, start-now, and failure/recovery toasts. Docs, tests, and command-safety notes are solid; the repo is new (one commit, no stars).",
         "relevanceScore": 0.92,
@@ -26994,6 +28629,16 @@
           "surroundingText": "tern-nom",
           "targetUrl": "https://github.com/tdortman/tern-plugins",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-nom",
+          "surroundingText": "tern-nom",
+          "targetUrl": "https://github.com/tdortman/tern-plugins",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -27007,7 +28652,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "MIT-licensed Rust/Nix workspace of Tern terminal plugins; currently one crate (tern-nom) wrapping nix-output-monitor as a live card. Directly on-rubric but young (0 stars, single plugin) so worth a human pass.",
         "relevanceScore": 0.85,
@@ -27106,6 +28751,16 @@
           "surroundingText": "Warble",
           "targetUrl": "https://github.com/elkinamg/tern-warble",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Warble",
+          "surroundingText": "Warble",
+          "targetUrl": "https://github.com/elkinamg/tern-warble",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -27119,7 +28774,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that controls Spotify playback via Web API + PKCE (macOS, Premium). Solid docs and plugin layout, but unofficial Keymaster auth and limited platform/community signals warrant a human look.",
         "relevanceScore": 0.92,
@@ -27222,6 +28877,16 @@
           "surroundingText": "tern-spotify (taooceros)",
           "targetUrl": "https://github.com/taooceros/tern-spotify",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-spotify (taooceros)",
+          "surroundingText": "tern-spotify (taooceros)",
+          "targetUrl": "https://github.com/taooceros/tern-spotify",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -27235,7 +28900,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Tern plugin that fronts a local librespot-based Rust daemon as a Spotify Connect device, with a Luau UI for library, playback, and lyrics. Directly on-rubric; docs cover install, keys, and smoke tests, but the repo is new with no stars or forks.",
         "relevanceScore": 0.92,
@@ -27337,6 +29002,16 @@
           "surroundingText": "tern-plugin-base",
           "targetUrl": "https://github.com/olegpulatov/tern-plugin-base",
           "discoveredAt": "2026-10-27T09:00:00.129Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-plugin-base",
+          "surroundingText": "tern-plugin-base",
+          "targetUrl": "https://github.com/olegpulatov/tern-plugin-base",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
         }
       ],
       "globalFactRefs": [],
@@ -27350,7 +29025,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-27T09:00:00.129Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
       "aiReview": {
         "summary": "Minimal MIT-0 GitHub template for Tern terminal plugins (Luau host, plugin.toml, justfile, optional AGENTS.md). Directly on-topic; docs are clear but the example is a load greeting, tests are absent, and the repo has no stars or forks.",
         "relevanceScore": 0.92,
@@ -27402,6 +29077,93 @@
           "output": 555,
           "cacheRead": 6144,
           "totalTokens": 10648,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "github:larkinwc/tern-pushover",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/larkinwc/tern-pushover",
+      "title": "tern-pushover",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "theblazehen/awesome-tern",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tern-pushover",
+          "surroundingText": "tern-pushover",
+          "targetUrl": "https://github.com/larkinwc/tern-pushover",
+          "discoveredAt": "2026-10-28T09:00:00.065Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-28T09:00:00.065Z",
+      "updatedAt": "2026-10-28T09:00:00.065Z",
+      "aiReview": {
+        "summary": "MIT-licensed Tern plugin that sends Pushover phone alerts for agent wait/finish and long-running shell commands, with away detection, credential-store keys, and documented timer/window limits.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.78,
+        "riskScore": 0.22,
+        "suggestedTags": [
+          "tern-plugin",
+          "pushover",
+          "notifications",
+          "luau"
+        ],
+        "evidence": [
+          "GitHub API: Luau, MIT, files include plugin.toml, lib/*.luau, tests, install.sh.",
+          "README lists needs-you, finished, and long-command (default 60s) notification types.",
+          "README documents Tern 50ms timer budget, 2s poll, watchdog, and 10s dedupe.",
+          "Pushover itself is a paid third-party app after a trial; the plugin is MIT."
+        ],
+        "uncertainty": [
+          "Cannot verify runtime behavior, recent commits, or CI from the listing snapshot.",
+          "Cannot confirm credential-store behavior or idle detection without running Tern."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-10-28T10:35:23.899Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Tools",
+        "tagline": "Phone alerts when a Tern agent waits or a long command ends",
+        "description": "Sends Pushover notifications when a Tern agent needs input, finishes, or a long shell command ends, optionally only while you are away.",
+        "pros": [
+          "README documents install, palette commands, settings, uninstall, and how events are detected.",
+          "Repo includes MIT license, plugin.toml, Luau libraries, and unit/window tests.",
+          "Keys are described as stored in the system credential store rather than plugin kv.",
+          "Works on macOS, Windows, and Linux according to the README, with idle-detection caveats on Linux."
+        ],
+        "cons": [
+          "GitHub shows 0 stars, 0 forks, and 0 issues, so public maintenance signal is thin.",
+          "A Tern window must stay open because the plugin window half does not run in the daemon alone.",
+          "Linux always pushes because idle time cannot be queried the same way as on macOS and Windows.",
+          "Optional curl | sh installer writes keys to plugin-data until a Tern window migrates them."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "solo founder",
+          "small team",
+          "agentic coding",
+          "production"
+        ],
+        "usage": {
+          "input": 1729,
+          "output": 599,
+          "cacheRead": 6144,
+          "totalTokens": 8472,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
