@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T19:17:16.413Z",
+  "generatedAt": "2026-10-28T20:38:49.785Z",
   "appId": "awesome-gta6",
   "items": [
     {
@@ -8264,6 +8264,16 @@
           "surroundingText": "r/GTA6",
           "targetUrl": "https://reddit.com/r/GTA6",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/GTA6",
+          "surroundingText": "r/GTA6",
+          "targetUrl": "https://reddit.com/r/GTA6",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -8277,7 +8287,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Large unofficial Reddit community for Grand Theft Auto VI discussion, leaks, and news; not Rockstar-affiliated and quality varies by user posts.",
         "relevanceScore": 0.92,
@@ -9063,6 +9073,16 @@
           "surroundingText": "GTA 6 Countdown",
           "targetUrl": "https://gta6countdown.com",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Countdown",
+          "surroundingText": "GTA 6 Countdown",
+          "targetUrl": "https://gta6countdown.com",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -9076,7 +9096,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Fan countdown landing page built with a Nicepage template; not official news, tooling, or a maintained resource. Reject as a typical countdown clone.",
         "relevanceScore": 0.25,
@@ -9808,6 +9828,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://fivem.net/",
+          "sectionPath": [],
+          "anchorText": "FiveM - the GTA V multiplayer modification you have dreamt of",
+          "surroundingText": "FiveM - the GTA V multiplayer modification you have dreamt of",
+          "targetUrl": "https://fivem.net",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -10535,6 +10564,16 @@
           "surroundingText": "FiveM",
           "targetUrl": "https://fivem.net",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "FiveM",
+          "surroundingText": "FiveM",
+          "targetUrl": "https://fivem.net",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [
@@ -10548,55 +10587,58 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Cfx landing page for a GTA V (not GTA VI) multiplayer modification framework with downloads, docs, forums, and server tooling. Strong GTA V mod resource, weak fit for a GTA 6–focused directory.",
-        "relevanceScore": 0.22,
-        "qualityScore": 0.86,
-        "riskScore": 0.18,
+        "summary": "Official Cfx multiplayer mod framework for Grand Theft Auto V, not GTA VI. High-quality GTA V tooling, but off-theme for a GTA 6 directory.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.85,
+        "riskScore": 0.25,
         "suggestedTags": [
           "mods",
           "tools",
           "community"
         ],
         "evidence": [
-          "Excerpt: FiveM and FiveM for GTAV Enhanced are multiplayer-enabled modification frameworks for Grand Theft Auto V, powered by Cfx.",
-          "Canonical URL https://fivem.net with docs, servers, forum, marketplace, and citizenfx/fivem GitHub.",
-          "Footer attributes FiveM as a Take-Two trademark; not a countdown or fake official clone.",
-          "Theme mismatch: listed in awesome-gta6-tools despite GTA V scope."
+          "Excerpt: FiveM and FiveM for GTAV Enhanced are multiplayer-enabled modification frameworks for Grand Theft Auto V.",
+          "Links to servers.fivem.net, docs.fivem.net, forum.cfx.re, GitHub citizenfx/fivem.",
+          "Footer attributes FiveM as a Take-Two/Rockstar trademark, indicating official ownership rather than a clone."
         ],
         "uncertainty": [
-          "Whether Cfx will ship a GTA VI equivalent is not stated on the page.",
-          "Live player count and sale terms may be time-sensitive."
+          "Whether any GTA VI support is planned; none is stated on the page.",
+          "Exact current concurrent-player figure beyond the truncated marketing line."
         ],
-        "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-28T19:46:27.822Z",
+        "recommendedAction": "recommend_reject",
+        "reviewedAt": "2026-10-28T20:40:22.340Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "GTA V multiplayer mod framework with custom servers",
-        "description": "Download a GTA V multiplayer modification client, browse servers, and run custom gamemodes with Lua, C#, or JavaScript.",
+        "tagline": "Community GTA V multiplayer mod framework with custom server",
+        "description": "Download a GTA V multiplayer modification framework with custom servers, streaming assets, docs, and developer runtimes.",
         "pros": [
-          "Site describes a long-running Cfx-powered GTA V multiplayer modification framework with client download and documentation.",
-          "Provides server list, forum, marketplace, support, and GitHub links from the official domain.",
-          "States it does not modify the GTAV install and documents system requirements for Legacy and Enhanced.",
-          "Supports server scripting in Lua, C#, and JavaScript per the published docs links."
+          "Official fivem.net site describes a maintained GTA V multiplayer modification framework powered by Cfx.",
+          "Provides server list, docs, forum, marketplace, and client downloads including GTAV Enhanced early access.",
+          "States it does not modify the GTAV install so players can switch with GTA Online.",
+          "Documents Lua, C#, and JavaScript scripting and self-hosted or partner-hosted servers."
         ],
         "cons": [
-          "Content is explicitly for Grand Theft Auto V, not GTA VI.",
-          "Client is Windows-only and requires a owned copy of GTAV.",
-          "Some features (GTAV Enhanced) are labeled Early Access with features subject to change."
+          "Content is for Grand Theft Auto V, not GTA VI, so it is a poor fit for a GTA 6 directory.",
+          "Client requires a licensed PC copy of GTAV; consoles are not supported.",
+          "Some features (server upvotes, Portal support, hosting partners) are commercial add-ons."
         ],
         "pricingModel": "freemium",
+        "bestFor": [
+          "prototyping",
+          "learning"
+        ],
         "usage": {
-          "input": 21793,
-          "output": 749,
+          "input": 22031,
+          "output": 573,
           "cacheRead": 5120,
-          "totalTokens": 27662,
+          "totalTokens": 27724,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -10604,8 +10646,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://fivem.net",
-        "contentHash": "f2f4c3972fca94f4862c0a69789136513239b66bbd8bd6d244450df4b16fd4d6",
-        "excerpt": "Title: FiveM\n\nURL Source: https://fivem.net/\n\nMarkdown Content:\n[](https://fivem.net/)\n\nmenu\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\nclose\n\n**End of Summer Sale**: Get 25% off server Upvotes by using the coupon code **UPVOTES25**. Offer ends September 8, 2026. Terms apply.\n\nclose\n\n**FiveM** and **FiveM for GTAV Enhanced** are multiplayer-enabled modification frameworks for Grand Theft Auto V, powered by **Cfx**.\n\nJoin the 269.5k people playing right now!\n\nDOWNLOAD FIVEM FiveM.exe\nBy downl"
+        "contentHash": "5373383bea5a329fcef041fe2241c92c16f453d9cb0eb70ce1253487ea915cdd",
+        "excerpt": "Title: FiveM\n\nURL Source: https://fivem.net/\n\nPublished Time: Fri, 09 Oct 2026 19:49:03 GMT\n\nMarkdown Content:\n[](https://fivem.net/)\n\nmenu\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\nclose\n\n**End of Summer Sale**: Get 25% off server Upvotes by using the coupon code **UPVOTES25**. Offer ends September 8, 2026. Terms apply.\n\nclose\n\n**FiveM** and **FiveM for GTAV Enhanced** are multiplayer-enabled modification frameworks for Grand Theft Auto V, powered by **Cfx**.\n\nJoin the 269.5k people playin"
       }
     },
     {
@@ -11292,6 +11334,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://www.rockstargames.com/newswire",
+          "sectionPath": [],
+          "anchorText": "Newswire - Rockstar Games",
+          "surroundingText": "Newswire - Rockstar Games",
+          "targetUrl": "https://www.rockstargames.com/newswire",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -12019,6 +12070,16 @@
           "surroundingText": "Rockstar Newswire",
           "targetUrl": "https://www.rockstargames.com/newswire",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Rockstar Newswire",
+          "surroundingText": "Rockstar Newswire",
+          "targetUrl": "https://www.rockstargames.com/newswire",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [
@@ -12036,11 +12097,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Rockstar Games news hub with first-party GTA VI trailer, store, and soundtrack posts plus other Rockstar titles. Prefer this over fan clones for canonical announcements.",
-        "relevanceScore": 1,
-        "qualityScore": 0.95,
+        "summary": "Official publisher news index with multiple Grand Theft Auto VI posts (trailers, store, music) plus other Rockstar titles. Strong primary source for GTA 6 announcements, not a dedicated VI-only feed.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.92,
         "riskScore": 0.05,
         "suggestedTags": [
           "news",
@@ -12048,36 +12109,36 @@
           "gta6"
         ],
         "evidence": [
-          "canonicalUrl https://www.rockstargames.com/newswire matches official-web seed.",
-          "Excerpt title Newswire - Rockstar Games and articles such as Watch the Grand Theft Auto VI Launch Trailer.",
-          "Rubric prefers official Rockstar Newswire posts; riskFlags empty."
+          "canonicalUrl and excerpt URL Source are https://www.rockstargames.com/newswire",
+          "Excerpt title is Newswire - Rockstar Games with GTA VI article headlines dated 2026",
+          "Rubric prefers official Newswire posts; riskFlags empty; not a GitHub clone"
         ],
         "uncertainty": [
-          "Excerpt published-time header shows a future date that may be scraper noise.",
-          "Whether every listed GTA VI article remains live after scrape was not re-fetched here."
+          "Excerpt published-time header shows 2045 which may be a scraper artifact",
+          "Full article bodies and update cadence beyond the listed headlines were not independently fetched"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-28T19:46:40.511Z",
+        "reviewedAt": "2026-10-28T20:40:34.765Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "First-party studio posts on GTA VI and other titles",
-        "description": "Read official game announcements, trailers, store drops, and soundtrack news from the publisher’s public news feed.",
+        "tagline": "Official game announcements and trailer posts",
+        "description": "Publishes first-party articles on GTA VI trailers, store items, and music alongside GTA Online and other titles.",
         "pros": [
-          "Hosted on rockstargames.com as the publisher’s Newswire.",
-          "Excerpt lists multiple Grand Theft Auto VI articles including launch trailer and extended look.",
-          "Also covers GTA Online and other catalog titles, so GTA VI items sit in a live official feed."
+          "Hosted on rockstargames.com/newswire as the publisher’s official news listing.",
+          "Excerpt lists multiple Grand Theft Auto VI articles including launch trailer and extended look posts.",
+          "Links to related official videos, downloads, store, and support pages."
         ],
         "cons": [
-          "Feed mixes GTA VI with GTA Online, Red Dead Online, and music posts, so it is not GTA VI-only.",
-          "Page is a news index, not a dedicated GTA VI documentation or tooling resource."
+          "Feed mixes GTA VI with GTA Online, Red Dead Online, and other brand posts.",
+          "Not a GTA VI-only archive; readers must filter titles."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 22719,
-          "output": 642,
+          "input": 22968,
+          "output": 662,
           "cacheRead": 5120,
-          "totalTokens": 28481,
+          "totalTokens": 28750,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12085,8 +12146,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.rockstargames.com/newswire",
-        "contentHash": "ffea76e2f267dc487c1282e11acdbf1a0447e0b29abd974e02dc799022b905cb",
-        "excerpt": "Title: Newswire - Rockstar Games\n\nURL Source: https://www.rockstargames.com/newswire\n\nPublished Time: Mon, 23 Oct 2045 10:57:47 GMT\n\nMarkdown Content:\n[Launch Trailer Now Playing Launch Trailer Now Playing](https://www.rockstargames.com/VI/launch-trailer)\n\nSkip the Menu\n\n[](https://www.rockstargames.com/)\n\n[](https://www.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n[Get Launcher](https://socialclub.rockstargames.com/rockst"
+        "contentHash": "9407b4a5d5b5dfa7202092016cd9c9621974c25168cdaec50bbfa1fa38e6c1ff",
+        "excerpt": "Title: Newswire - Rockstar Games\n\nURL Source: https://www.rockstargames.com/newswire\n\nPublished Time: Sun, 22 Oct 2045 22:03:33 GMT\n\nMarkdown Content:\n[Launch Trailer Now Playing Launch Trailer Now Playing](https://www.rockstargames.com/VI/launch-trailer)\n\nSkip the Menu\n\n[](https://www.rockstargames.com/)\n\n[](https://www.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n[Get Launcher](https://socialclub.rockstargames.com/rockst"
       }
     },
     {
@@ -12770,6 +12831,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.rockstargames.com/gta-vi",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.rockstargames.com/gta-vi",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.rockstargames.com/gta-vi",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -12785,7 +12855,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Claimed official Rockstar GTA VI page on rockstargames.com, but this exact path returned HTTP 404, so it is not a verified live listing until the canonical URL is confirmed.",
         "relevanceScore": 0.95,
@@ -12840,7 +12910,7 @@
       "id": "web:545123b0dc8b2e68",
       "type": "web_url",
       "canonicalUrl": "https://www.reddit.com/r/GTA6",
-      "title": "awesome-gta6",
+      "title": "Reddit",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -13517,6 +13587,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.reddit.com/r/GTA6",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.reddit.com/r/GTA6",
+          "sectionPath": [],
+          "anchorText": "Reddit",
+          "surroundingText": "Reddit",
+          "targetUrl": "https://www.reddit.com/r/GTA6",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -13534,7 +13613,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Public Reddit community for Grand Theft Auto VI discussion, leaks, and news. Fetch of the page returned 403, so current rules, size, and moderation quality were not verified from the excerpt.",
         "relevanceScore": 0.9,
@@ -14271,6 +14350,15 @@
           "surroundingText": "Reddit",
           "targetUrl": "https://www.reddit.com/r/GTA_VI",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.reddit.com/r/GTA_VI",
+          "sectionPath": [],
+          "anchorText": "Reddit",
+          "surroundingText": "Reddit",
+          "targetUrl": "https://www.reddit.com/r/GTA_VI",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -14288,7 +14376,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Fan subreddit for Grand Theft Auto VI discussion, leaks, and news; crawler fetch returned Reddit 403, so current rules and activity were not verified in-page.",
         "relevanceScore": 0.9,
@@ -14349,7 +14437,7 @@
       "id": "web:fbc28e55c856b13a",
       "type": "web_url",
       "canonicalUrl": "https://discord.gg/rockstargames",
-      "title": "awesome-gta6",
+      "title": "Rockstar Games",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -15026,6 +15114,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://discord.gg/rockstargames",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://discord.gg/rockstargames",
+          "sectionPath": [],
+          "anchorText": "Rockstar Games",
+          "surroundingText": "Rockstar Games",
+          "targetUrl": "https://discord.gg/rockstargames",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -15043,12 +15140,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Rockstar Games Discord invite. Useful as a first-party community hub, though the scrape has almost no page content and the server is publisher-wide rather than GTA VI–only.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.78,
-        "riskScore": 0.18,
+        "summary": "Official Rockstar Games Discord invite; useful as a primary community hub, though the scrape excerpt has no channel or GTA VI–specific detail.",
+        "relevanceScore": 0.85,
+        "qualityScore": 0.8,
+        "riskScore": 0.15,
         "suggestedTags": [
           "community",
           "official",
@@ -15056,36 +15153,37 @@
         ],
         "evidence": [
           "canonicalUrl is https://discord.gg/rockstargames",
-          "facts.excerpt title is Rockstar Games",
-          "source bucket official-web; not a GitHub countdown/clone repo"
+          "reference title is Rockstar Games",
+          "source bucket official-web; not a template/clone GitHub marketing site"
         ],
         "uncertainty": [
-          "Invite still valid and points at the genuine official server",
-          "How much GTA VI discussion or official posting actually occurs there",
-          "Discord login/JS page did not load markdown content"
+          "Whether the live invite still resolves to the official server",
+          "How much GTA VI discussion exists versus other Rockstar titles",
+          "Exact server rules, verification, and announcement channels"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-28T19:47:30.501Z",
+        "reviewedAt": "2026-10-28T20:40:47.183Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official Discord for news, support, and player chat",
-        "description": "Join the publisher’s official Discord for announcements, support, and community discussion around current and upcoming titles.",
+        "tagline": "Official publisher Discord for Rockstar titles",
+        "description": "Join the official Rockstar Games Discord for publisher community chat and announcements.",
         "pros": [
-          "Invite slug matches the well-known official Rockstar Games Discord.",
-          "Fits the Community category and official-source preference for a GTA VI directory.",
-          "No clone-repo or fake landing-page pattern in the URL."
+          "Canonical discord.gg/rockstargames invite tied to the publisher brand.",
+          "Seeded as official-web rather than a GitHub clone or countdown landing page.",
+          "Fits the Community category for a GTA 6 resource list."
         ],
         "cons": [
-          "Fetched excerpt is empty besides the title, so server channels and GTA VI coverage are unverified.",
-          "Publisher-wide community, not a GTA VI–specific resource."
+          "Fetched excerpt contains almost no page content to verify channels or GTA VI focus.",
+          "Invite links can expire or be rotated without notice.",
+          "Coverage is publisher-wide, not GTA 6-only."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 9334,
-          "output": 702,
-          "cacheRead": 5120,
-          "totalTokens": 15156,
+          "input": 13974,
+          "output": 578,
+          "cacheRead": 512,
+          "totalTokens": 15064,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -15093,8 +15191,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://discord.gg/rockstargames",
-        "contentHash": "96548390cec0a739ca0b14da778bbb5e8656e798e6ec710dcd084fc7082e04fa",
-        "excerpt": "Title: Rockstar Games\n\nURL Source: https://discord.gg/rockstargames\n\nPublished Time: Mon, 19 Oct 2026 07:23:45 GMT\n\nWarning: This page maybe not yet fully loaded, consider explicitly specify a timeout.\n\nMarkdown Content:"
+        "contentHash": "6e9e83d1760df9e2568de6a77dbb3b1bd84214aedb45d545f923325b918ebd3b",
+        "excerpt": "Title: Rockstar Games\n\nURL Source: https://discord.gg/rockstargames\n\nMarkdown Content:"
       }
     },
     {
@@ -15778,6 +15876,15 @@
           "surroundingText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
           "targetUrl": "https://openiv.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://openiv.com/",
+          "sectionPath": [],
+          "anchorText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
+          "surroundingText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
+          "targetUrl": "https://openiv.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -15795,7 +15902,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Established PC modding tool for GTA V, GTA IV, and Max Payne 3 with docs, forums, and a 2022 4.1 resume-of-development post. It is not a GTA VI resource; treat as prior-gen tooling, not GTA 6 news or official Rockstar content.",
         "relevanceScore": 0.28,
@@ -16539,6 +16646,15 @@
           "surroundingText": "Script Hook V - AB Software Development",
           "targetUrl": "https://www.dev-c.com/gtav/scripthookv",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.dev-c.com/gtav/scripthookv",
+          "sectionPath": [],
+          "anchorText": "Script Hook V - AB Software Development",
+          "surroundingText": "Script Hook V - AB Software Development",
+          "targetUrl": "https://www.dev-c.com/gtav/scripthookv",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -16556,51 +16672,49 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Script Hook V download page for GTA V ASI plugins; well-known maintained mod runtime, but it targets GTA V rather than GTA VI.",
-        "relevanceScore": 0.15,
-        "qualityScore": 0.85,
-        "riskScore": 0.35,
+        "summary": "This is Alexander Blade’s Script Hook V runtime for GTA V ASI plugins, not a GTA VI resource. Keep it out of a GTA 6 directory despite it being established GTA V mod tooling.",
+        "relevanceScore": 0.12,
+        "qualityScore": 0.82,
+        "riskScore": 0.38,
         "suggestedTags": [
           "mods",
           "tools"
         ],
         "evidence": [
-          "Excerpt states Script Hook V enables GTA V script natives in *.asi plugins and includes Asi Loader and Native Trainer.",
-          "Install instructions copy ScriptHookV.dll next to GTA5.exe; supported patches listed as 1.0.3889.0 / 1.0.1158.13.",
-          "Site is dev-c.com by Alexander Blade, a long-standing GTA V mod tooling source, not a countdown/clone landing page."
+          "Excerpt title and heading are Script Hook V on dev-c.com/gtav/scripthookv.",
+          "Describes ScriptHookV.dll next to GTA5.exe and unsupported GTA Online.",
+          "Version table: v3889.0 / 1158.13, Alexander Blade 2006-2026."
         ],
         "uncertainty": [
-          "Whether a GTA VI directory should list predecessor-game tooling at all.",
-          "Binary integrity of the ZIP beyond the publisher page was not independently verified."
+          "Whether a future GTA VI hook will live on the same site.",
+          "Binary integrity of the zip beyond the page text."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-10-28T19:47:55.919Z",
+        "reviewedAt": "2026-10-28T20:41:01.415Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
         "tagline": "GTA V ASI plugin runtime with trainer and loader",
-        "description": "Download a GTA V script-hook library, ASI loader, and native trainer for custom plugins in single-player.",
+        "description": "Install a DLL that lets custom ASI plugins call GTA V script natives; includes ASI loader and a sample native trainer. Online play is blocked.",
         "pros": [
-          "Publisher page for Alexander Blade’s Script Hook V, ASI loader, and Native Trainer.",
-          "Documents install steps, supported GTA V patches, and that it exits on GTA Online.",
-          "Provides versioned ZIP and SDK download links plus a GTAForums support topic."
+          "Publisher page documents GTA V native-script ASI plugins, ASI loader, and Native Trainer.",
+          "Lists supported game patches, a dated 15 Jul 2026 release, and a developer SDK download.",
+          "States it exits the game if the player enters GTA Online.",
+          "Points to a GTAForums support thread."
         ],
         "cons": [
-          "Content is for GTA V (GTA5.exe / ScriptHookV.dll), not GTA VI.",
-          "Requires copying DLLs into the game folder, which is typical for mods but not a GTA 6 news or official Rockstar resource."
+          "Content and downloads are for GTA V (GTA5.exe), not GTA VI.",
+          "Requires copying third-party DLLs into the game folder, which is a typical anti-cheat and malware-risk pattern.",
+          "Users must keep the hook DLL in sync after game updates."
         ],
         "pricingModel": "free",
-        "bestFor": [
-          "prototyping",
-          "learning"
-        ],
         "usage": {
-          "input": 11811,
-          "output": 616,
-          "cacheRead": 5120,
-          "totalTokens": 17547,
+          "input": 1443,
+          "output": 466,
+          "cacheRead": 17024,
+          "totalTokens": 18933,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -16608,7 +16722,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.dev-c.com/gtav/scripthookv",
-        "contentHash": "13cf45d483848a4d01457f0faa61be75ff86fe9abc55c02c9caab728f3754284",
+        "contentHash": "e32b08454785f6ac4f97551f025f3681ac141eef699e5abee5f669115bb3bbf5",
         "excerpt": "Title: Script Hook V - AB Software Development\n\nURL Source: https://www.dev-c.com/gtav/scripthookv\n\nMarkdown Content:\n[AB Software Development](http://www.dev-c.com/)\n*   [Blog](http://www.dev-c.com/ \"Blog\")\n*   [gta v](http://www.dev-c.com/gtav/ \"GTA V\")\n*   [gta iv](http://www.dev-c.com/gtaiv/ \"GTA IV\")\n*   [gta sa](http://www.dev-c.com/gtasa/ \"GTA San Andreas\")\n*   [skyrim](http://www.dev-c.com/skyrim/ \"Skyrim\")\n*   [Fallout](http://www.dev-c.com/fallout4/ \"Fallout 4\")\n*   [misc](http://www.dev-c.com/misc/ \"Miscellaneous tools\")\n\n# Script Hook V\n\n  \n  \n\n**Script Hook V** is the library that allows to use **GTA V** script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme.\n\nThis distrib also includes the latest **Asi Loader** and **Native Trainer**.\n\nAsi Loader download\n\n**Installation**  \n**1**. Copy _ScriptHookV.dll_ to the game's main folder, i.e. where _GTA5.exe_ is"
       }
     },
@@ -17293,6 +17407,15 @@
           "surroundingText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
           "targetUrl": "https://www.gta5-mods.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.gta5-mods.com/",
+          "sectionPath": [],
+          "anchorText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
+          "surroundingText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
+          "targetUrl": "https://www.gta5-mods.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -17310,7 +17433,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Long-running GTA 5 PC mod catalog (vehicles, scripts, tools, maps). It is not a GTA VI news or official source; only incidental VI-themed GTA 5 add-ons appear.",
         "relevanceScore": 0.35,
@@ -18050,6 +18173,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.nexusmods.com/gta5",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.nexusmods.com/gta5",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.nexusmods.com/gta5",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -18065,7 +18197,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Nexus Mods’ Grand Theft Auto V hub is a large third-party mod catalog, not GTA VI content. Useful as analog tooling context, but it is off-theme for a GTA 6 directory.",
         "relevanceScore": 0.25,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T19:17:16.413Z",
+  "generatedAt": "2026-10-28T20:38:49.785Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -782,6 +782,15 @@
           "surroundingText": "DeepSeek API Docs",
           "targetUrl": "https://api-docs.deepseek.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek API Docs",
+          "surroundingText": "DeepSeek API Docs",
+          "targetUrl": "https://api-docs.deepseek.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -799,58 +808,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official developer documentation for the DeepSeek HTTP API, including first-call examples, OpenAI/Anthropic-compatible base URLs, models, and agent-tool integration pages. High-value canonical docs for an awesome-style DeepSeek directory.",
+        "summary": "Official API documentation covering first calls, OpenAI/Anthropic-compatible endpoints, models, pricing, and agent integrations. High-value canonical developer docs for production and prototyping.",
         "relevanceScore": 1,
-        "qualityScore": 0.92,
+        "qualityScore": 0.95,
         "riskScore": 0.05,
         "suggestedTags": [
-          "deepseek",
-          "api",
           "docs",
-          "llm"
+          "api",
+          "llm",
+          "deepseek"
         ],
         "evidence": [
-          "canonicalUrl and facts.excerpt identify https://api-docs.deepseek.com as DeepSeek API Docs with Docusaurus navigation.",
-          "Excerpt lists base_url https://api.deepseek.com, Anthropic path, models deepseek-flash and deepseek-v4-pro, and sample SDK usage.",
-          "source is official-web; riskFlags empty; confidenceReasons include bucket:official-web and bucket:approve.",
-          "Nav includes Models & Pricing, Rate Limit, Error Codes, and Agent Integrations."
+          "canonicalUrl and excerpt URL are https://api-docs.deepseek.com",
+          "Title and nav: Your First API Call, Models & Pricing, API Reference, Change Log",
+          "States OpenAI/Anthropic-compatible format with base_url https://api.deepseek.com",
+          "riskFlags empty; source official-web; confidenceScore 1"
         ],
         "uncertainty": [
-          "Full completeness of every API reference page beyond the first-call excerpt was not independently crawled here.",
-          "Current model names, billing rates, and Search/Fetch API details may change after the excerpt snapshot."
+          "Complete pricing tiers and SLA not fully quoted in the excerpt",
+          "Currency of every listed agent integration beyond the nav links"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-28T19:17:35.150Z",
+        "reviewedAt": "2026-10-28T20:39:03.895Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official API reference and first-call guides",
-        "description": "Official docs for chat completions, OpenAI/Anthropic-compatible endpoints, models, pricing, errors, and agent tool integrations.",
+        "tagline": "Official API docs, guides, and OpenAI-compatible endpoints",
+        "description": "Official developer docs for chat completions, models, pricing, rate limits, and agent tool integrations with OpenAI- and Anthropic-compatible APIs.",
         "pros": [
-          "Hosted on the official api-docs.deepseek.com domain with Quick Start, API Guides, API Reference, and Change Log.",
-          "Documents OpenAI- and Anthropic-compatible base URLs, API keys, and example curl/Python/Node chat-completion calls.",
-          "Covers models and pricing, token usage, rate limits, error codes, and agent integrations.",
-          "Links to API status, FAQ, platform keys, and bilingual English/Chinese docs."
+          "Hosted on api-docs.deepseek.com as official Docusaurus documentation.",
+          "Documents OpenAI- and Anthropic-compatible base URLs, API keys, and chat completion examples in curl, Python, and Node.js.",
+          "Includes quick start topics for models and pricing, token usage, rate limits, error codes, and agent integrations.",
+          "Links to API status, FAQ, changelog, and the platform API key page."
         ],
         "cons": [
-          "Excerpt is primarily the first-call landing page rather than a full model card or SDK source.",
-          "API usage itself requires a platform key and is billed separately from the docs site."
+          "Excerpt is primarily the first-call page plus navigation, so full API reference depth is not shown in this snapshot.",
+          "API usage itself is billed via platform keys; docs do not imply a free unlimited API."
         ],
-        "pricingModel": "free",
+        "pricingModel": "freemium",
         "bestFor": [
-          "learning",
           "prototyping",
           "production",
           "agentic coding",
+          "learning",
           "small team"
         ],
         "usage": {
-          "input": 17447,
-          "output": 864,
-          "cacheRead": 512,
-          "totalTokens": 18823,
+          "input": 12974,
+          "output": 537,
+          "cacheRead": 5120,
+          "totalTokens": 18631,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -858,8 +867,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://api-docs.deepseek.com",
-        "contentHash": "dfa15719c4629ba61a62316821af79f713cda9546559d4e69d90dd3c2bc45821",
-        "excerpt": "Title: Your First API Call | DeepSeek API Docs\n\nURL Source: https://api-docs.deepseek.com/\n\nMarkdown Content:\n[Skip to main content](https://api-docs.deepseek.com/#__docusaurus_skipToContent_fallback)\n\nSearch / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. [Click here to view the guide.](https://api-docs.deepseek.com/guides/search)\n\n[ **DeepSeek API Docs**](https://api-docs.deepseek.com/)\n\nctrl K\n\n[Resources](https://api-docs.deepseek.com/#)\n*   [Integrations](https://github.com/deepseek-ai/awesome-deepseek-integration/tree/main)\n*   [API Status](https://status.deepseek.com/)\n*   [FAQ](https://static.deepseek.com/faq/index.html?lang=en#/category/4)\n\n[English](https://api-docs.deepseek.com/#)\n*   [English](https://api-docs.deepseek.com/)\n*   [中文（中国）](https://api-docs.deepseek.com/zh-cn/)\n\n[DeepSeek Platform](https://platform.deepseek.com/)[中](https://api-docs.deepseek.com/zh-cn/ \"中文（中国）\")\n\n[Quick Start](https://api-docs.deepseek.c"
+        "contentHash": "70199343b0b61dc585e2d10f6f075d1f8b9f28b36c151d812053421457967cbe",
+        "excerpt": "Title: Your First API Call | DeepSeek API Docs\n\nURL Source: https://api-docs.deepseek.com/\n\nPublished Time: Mon, 19 Oct 2026 06:05:51 GMT\n\nMarkdown Content:\n[Skip to main content](https://api-docs.deepseek.com/#__docusaurus_skipToContent_fallback)\n\nSearch / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. [Click here to view the guide.](https://api-docs.deepseek.com/guides/search)\n\n[ **DeepSeek API Docs**](https://api-docs.deepseek.com/)\n\nctrl K\n\n[Resources](https://api-docs.deepseek.com/#)\n*   [Integrations](https://github.com/deepseek-ai/awesome-deepseek-integration/tree/main)\n*   [API Status](https://status.deepseek.com/)\n*   [FAQ](https://static.deepseek.com/faq/index.html?lang=en#/category/4)\n\n[English](https://api-docs.deepseek.com/#)\n*   [English](https://api-docs.deepseek.com/)\n*   [中文（中国）](https://api-docs.deepseek.com/zh-cn/)\n\n[DeepSeek Platform](https://platform.deepseek.com/)[中](https://api-docs.deepseek.com/zh-cn/ \"中文（中"
       }
     },
     {
@@ -1543,6 +1552,15 @@
           "surroundingText": "DeepSeek Platform",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Platform",
+          "surroundingText": "DeepSeek Platform",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         },
         {
           "sourceType": "curated_readme",
@@ -2317,6 +2335,15 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://platform.deepseek.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://platform.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://platform.deepseek.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -2334,7 +2361,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API console for account signup, model access, and links to API docs (V4 series, web search/fetch). Prefer pairing with api-docs.deepseek.com rather than this login-gated landing page alone.",
         "relevanceScore": 0.92,
@@ -78305,6 +78332,15 @@
           "surroundingText": "中文（中国）",
           "targetUrl": "https://api-docs.deepseek.com/zh-cn",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "中文（中国）",
+          "surroundingText": "中文（中国）",
+          "targetUrl": "https://api-docs.deepseek.com/zh-cn",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -78319,7 +78355,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official Simplified Chinese API docs covering first calls, OpenAI/Anthropic-compatible endpoints, models, and agent-tool setup. Prefer this over news; English docs remain the default listing unless a Chinese-language section is intended.",
         "relevanceScore": 0.95,
@@ -79053,6 +79089,15 @@
           "surroundingText": "Models &amp; Pricing",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Models &amp; Pricing",
+          "surroundingText": "Models &amp; Pricing",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -79067,7 +79112,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing current models, token pricing (peak/off-peak, cache hit/miss), context limits, and billing rules. Useful for developers comparing costs before calling the API.",
         "relevanceScore": 0.95,
@@ -79803,6 +79848,15 @@
           "surroundingText": "Token &amp; Token Usage",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Token &amp; Token Usage",
+          "surroundingText": "Token &amp; Token Usage",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/token_usage",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -79817,7 +79871,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official API docs page explaining how tokens are defined, billed, and estimated for text and images, including an offline tokenizer download.",
         "relevanceScore": 0.92,
@@ -80553,6 +80607,15 @@
           "surroundingText": "Rate Limit &amp; Isolation",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Rate Limit &amp; Isolation",
+          "surroundingText": "Rate Limit &amp; Isolation",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/rate_limit",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -80567,7 +80630,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official API docs covering account-level concurrency limits, user_id isolation for safety/KVCache/scheduling, and HTTP keep-alive behavior including 429 handling.",
         "relevanceScore": 0.95,
@@ -81303,6 +81366,15 @@
           "surroundingText": "Error Codes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Error Codes",
+          "surroundingText": "Error Codes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/error_codes",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -81317,7 +81389,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page listing HTTP error codes with causes and suggested fixes. Useful reference for integrators, though it is a short table rather than a full SDK or tutorial.",
         "relevanceScore": 0.92,
@@ -82050,6 +82122,15 @@
           "surroundingText": "DeepSeek Harness",
           "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness",
+          "surroundingText": "DeepSeek Harness",
+          "targetUrl": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -82064,7 +82145,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official English quickstart for DeepSeek Harness covering Web UI setup, API key/model config, workspace selection, and a first agent task. Linked from DeepSeek API docs as agent integration material.",
         "relevanceScore": 0.92,
@@ -82802,6 +82883,15 @@
           "surroundingText": "API Guides",
           "targetUrl": "https://api-docs.deepseek.com/guides/vision",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Guides",
+          "surroundingText": "API Guides",
+          "targetUrl": "https://api-docs.deepseek.com/guides/vision",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -82816,7 +82906,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for sending images to deepseek-flash (OpenAI, Anthropic, and Responses APIs), including formats, size/token limits, and code samples.",
         "relevanceScore": 0.95,
@@ -87547,6 +87637,15 @@
           "surroundingText": "Anthropic API",
           "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Anthropic API",
+          "surroundingText": "Anthropic API",
+          "targetUrl": "https://api-docs.deepseek.com/guides/anthropic_api",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -87561,7 +87660,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs guide for Anthropic-format compatibility, including base URL, SDK setup, Claude model mapping, and field-level support notes.",
         "relevanceScore": 0.95,
@@ -88299,6 +88398,15 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://api-docs.deepseek.com/api/create-chat-completion",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -88313,7 +88421,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official Chat Completions API reference for POST /chat/completions, covering request parameters, thinking mode, tools, streaming, and response schema.",
         "relevanceScore": 0.95,
@@ -89352,6 +89460,15 @@
           "surroundingText": "Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Integrations",
+          "surroundingText": "Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -89369,7 +89486,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek GitHub awesome-list of third-party apps, plugins, and frameworks that call the DeepSeek API. Useful catalog, not an SDK or model card; last push is older than current docs.",
         "relevanceScore": 0.86,
@@ -90108,6 +90225,15 @@
           "surroundingText": "FAQ",
           "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "FAQ",
+          "surroundingText": "FAQ",
+          "targetUrl": "https://static.deepseek.com/faq/index.html?lang=en",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -90122,7 +90248,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official English FAQ hosted on static.deepseek.com and linked from the API docs. Content is a client-rendered SPA, so the page itself is thin without JavaScript.",
         "relevanceScore": 0.82,
@@ -90856,6 +90982,15 @@
           "surroundingText": "Change Log",
           "targetUrl": "https://api-docs.deepseek.com/updates",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Change Log",
+          "surroundingText": "Change Log",
+          "targetUrl": "https://api-docs.deepseek.com/updates",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -90870,7 +91005,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs changelog listing dated model releases, model-name routing, pricing changes, and deprecations. Useful for tracking API compatibility, not a tutorial or SDK.",
         "relevanceScore": 0.86,
@@ -91604,6 +91739,15 @@
           "surroundingText": "API key",
           "targetUrl": "https://platform.deepseek.com/api_keys",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API key",
+          "surroundingText": "API key",
+          "targetUrl": "https://platform.deepseek.com/api_keys",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -91618,7 +91762,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek platform page for creating and managing API keys, linked from the API docs. It is developer tooling, not a model card or SDK, and the live page could not be fetched (HTTP 429).",
         "relevanceScore": 0.72,
@@ -92352,6 +92496,15 @@
           "surroundingText": "Claude Code",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Claude Code",
+          "surroundingText": "Claude Code",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -92366,7 +92519,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing Anthropic’s terminal coding CLI at DeepSeek via Anthropic-compatible env vars, plus install steps, web search notes, and Claude model-name mapping.",
         "relevanceScore": 0.92,
@@ -93101,6 +93254,15 @@
           "surroundingText": "Twitter",
           "targetUrl": "https://twitter.com/deepseek_ai",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Twitter",
+          "surroundingText": "Twitter",
+          "targetUrl": "https://twitter.com/deepseek_ai",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -93115,7 +93277,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek X/Twitter handle linked from API docs; it is a social feed, not developer documentation, model cards, or SDKs, so it is a weak fit for this directory.",
         "relevanceScore": 0.25,
@@ -95194,6 +95356,15 @@
           "surroundingText": "API Status",
           "targetUrl": "https://status.deepseek.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "API Status",
+          "surroundingText": "API Status",
+          "targetUrl": "https://status.deepseek.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -95208,7 +95379,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API status page linked from the API docs; useful operational reference, not model docs or an SDK.",
         "relevanceScore": 0.72,
@@ -95572,6 +95743,15 @@
           "surroundingText": "Codex",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Codex",
+          "surroundingText": "Codex",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -95586,7 +95766,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for pointing OpenAI Codex clients (CLI, desktop, VS Code) at DeepSeek models via the Responses API, with a setup script and manual config.toml/models.json steps.",
         "relevanceScore": 0.92,
@@ -95953,6 +96133,15 @@
           "surroundingText": "OpenCode",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenCode",
+          "surroundingText": "OpenCode",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/opencode",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -95967,7 +96156,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to connect OpenCode to the DeepSeek provider with an API key and DeepSeek-V4-Flash. Short setup guide with screenshots; install details are deferred to the third-party download page.",
         "relevanceScore": 0.86,
@@ -96336,6 +96525,15 @@
           "surroundingText": "OpenClaw",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "OpenClaw",
+          "surroundingText": "OpenClaw",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/openclaw",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -96350,7 +96548,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install or reconfigure an open-source chat assistant to use DeepSeek as the model provider.",
         "relevanceScore": 0.86,
@@ -96719,6 +96917,15 @@
           "surroundingText": "Hermes",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Hermes",
+          "surroundingText": "Hermes",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/hermes",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -96733,7 +96940,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page showing how to install Hermes Agent and point it at DeepSeek via API key, base URL, and model selection.",
         "relevanceScore": 0.86,
@@ -97098,6 +97305,15 @@
           "surroundingText": "Reasonix",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Reasonix",
+          "surroundingText": "Reasonix",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/reasonix",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -97112,7 +97328,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs page for wiring a terminal coding agent to DeepSeek keys and models. Short setup guide (Node, API key, npx) rather than a full SDK or model card.",
         "relevanceScore": 0.82,
@@ -97478,6 +97694,15 @@
           "surroundingText": "WorkBuddy/CodeBuddy",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "WorkBuddy/CodeBuddy",
+          "surroundingText": "WorkBuddy/CodeBuddy",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/workbuddy",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -97492,7 +97717,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API Docs page showing how to point WorkBuddy/CodeBuddy at DeepSeek via an OpenAI-compatible Chat Completions endpoint and local models.json.",
         "relevanceScore": 0.85,
@@ -97859,6 +98084,15 @@
           "surroundingText": "Qoder",
           "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Qoder",
+          "surroundingText": "Qoder",
+          "targetUrl": "https://api-docs.deepseek.com/quick_start/agent_integrations/qoder",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -97873,7 +98107,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs for connecting custom DeepSeek models in Qoder’s IDE, CLI, and JetBrains plugin, including install, API-key setup, and troubleshooting.",
         "relevanceScore": 0.86,
@@ -98241,6 +98475,15 @@
           "surroundingText": "Contribute Your Agent Integrations",
           "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Contribute Your Agent Integrations",
+          "surroundingText": "Contribute Your Agent Integrations",
+          "targetUrl": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -98258,7 +98501,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-25T01:20:00.079Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek GitHub list of setup guides for using DeepSeek models in popular agent and coding-assistant tools. Linked from API docs; not an SDK or model card.",
         "relevanceScore": 0.86,
@@ -98503,6 +98746,16 @@
           "surroundingText": "n8n-nodes-deepseek",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-deepseek",
+          "surroundingText": "n8n-nodes-deepseek",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -98516,7 +98769,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Community n8n node that wraps DeepSeek chat-style calls in workflows; useful for automation users, not official DeepSeek docs or an SDK.",
         "relevanceScore": 0.45,
@@ -98754,6 +99007,16 @@
           "surroundingText": "DeepSeek Mini-Router",
           "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Mini-Router",
+          "surroundingText": "DeepSeek Mini-Router",
+          "targetUrl": "https://github.com/hccccc01333/codex-deepseek-mini-router",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -98767,7 +99030,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Community Codex plugin that injects task-aware prompts for DeepSeek v4 Pro/Flash; not official DeepSeek docs, model cards, or an SDK. Small-sample BigCodeBench notes and MIT source exist, but it is a niche Codex hook rather than core developer tooling.",
         "relevanceScore": 0.38,
@@ -99007,6 +99270,16 @@
           "surroundingText": "DeepSeek Harness GenUI",
           "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DeepSeek Harness GenUI",
+          "surroundingText": "DeepSeek Harness GenUI",
+          "targetUrl": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -99020,7 +99293,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Community DeepSeek Harness plugin that generates task-specific React UIs with persisted state; useful agent tooling, not official docs or a model SDK.",
         "relevanceScore": 0.48,
@@ -99223,6 +99496,15 @@
           "surroundingText": "DeepSeek",
           "targetUrl": "https://chat.deepseek.com",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://chat.deepseek.com",
+          "sectionPath": [],
+          "anchorText": "DeepSeek",
+          "surroundingText": "DeepSeek",
+          "targetUrl": "https://chat.deepseek.com",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -99239,51 +99521,53 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official DeepSeek web chat login surface, not docs, model cards, or SDKs. Thin captured content (auth, terms, cookies) makes it a weak fit for a developer directory.",
-        "relevanceScore": 0.45,
-        "qualityScore": 0.35,
-        "riskScore": 0.3,
+        "summary": "Official consumer chat login page, not docs, model cards, or SDKs. Thin evidence (auth wall only) makes it a weak fit for a developer directory.",
+        "relevanceScore": 0.35,
+        "qualityScore": 0.25,
+        "riskScore": 0.35,
         "suggestedTags": [
           "deepseek",
           "llm"
         ],
         "evidence": [
-          "facts.excerpt title and URL Source are https://chat.deepseek.com/.",
-          "Excerpt consists of signup/login, Terms of Use, Privacy Policy, ICP filing, and cookie banners.",
-          "Candidate type is web_url with no SDK or docs content in the reference."
+          "URL is https://chat.deepseek.com with official-web source.",
+          "Facts excerpt is only terms consent, sign up/log in, cookies, and ICP filing.",
+          "Rubric prefers docs, Hugging Face model cards, and SDKs over consumer chat."
         ],
         "uncertainty": [
-          "Chat feature set, model lineup, and whether the product is free after login are not in the excerpt.",
-          "Privacy/data-handling practices beyond linked policy URLs are unverified."
+          "Chat feature set, model versions, and rate limits are not in the excerpt.",
+          "Pricing after login is not stated.",
+          "Data-handling details beyond linked policies are unverified."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-18T11:31:14.537Z",
+        "reviewedAt": "2026-10-28T21:03:21.470Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official web chat for DeepSeek models",
-        "description": "Sign in to the official DeepSeek chat product in the browser. Captured page is mainly auth, terms, and cookie consent.",
+        "tagline": "Official web chat login for the company’s models",
+        "description": "Sign in to the official web chat. The captured page is an auth and cookie consent wall, not API or model documentation.",
         "pros": [
-          "Canonical official URL at chat.deepseek.com.",
+          "Canonical official hostname for the consumer chat product.",
           "Links to Terms of Use, Privacy Policy, and cookie policy.",
-          "Supports Google and Apple login in addition to email signup."
+          "Account login supports Google and Apple in addition to email."
         ],
         "cons": [
-          "Reference excerpt is a login/consent wall, not product or API documentation.",
-          "Does not describe models, APIs, or developer usage.",
-          "Rubric prefers Hugging Face model cards and maintained SDKs over consumer chat UIs."
+          "Excerpt is a signup/login wall, not documentation or developer tooling.",
+          "Does not describe models, APIs, or usage beyond authentication.",
+          "Requires account creation and cookie consent before use."
         ],
+        "pricingModel": "freemium",
         "bestFor": [
-          "prototyping",
-          "learning"
+          "learning",
+          "prototyping"
         ],
         "usage": {
-          "input": 2711,
-          "output": 680,
+          "input": 3586,
+          "output": 441,
           "cacheRead": 5120,
-          "totalTokens": 8511,
+          "totalTokens": 9147,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -99445,6 +99729,15 @@
           "surroundingText": "awesome-deepseek",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "sectionPath": [],
+          "anchorText": "awesome-deepseek",
+          "surroundingText": "awesome-deepseek",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-instruct",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -99459,7 +99752,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official Hugging Face model card for DeepSeek-Coder 5.7B MQA Instruct under the deepseek-ai org. Fits a DeepSeek directory as a first-party coding LLM checkpoint, though the listing title is mislabeled from discovery.",
         "relevanceScore": 0.86,
@@ -99665,6 +99958,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-base · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -99681,12 +99983,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B base, with Transformers usage, FIM/completion examples, and license notes. Suitable as a primary developer resource for this open-weight code model.",
+        "summary": "Official Hugging Face model card for the 6.7B DeepSeek Coder base checkpoint, with Transformers/vLLM usage and code completion/infill examples. Prefer this over news; note the custom DeepSeek license rather than a standard OSI license.",
         "relevanceScore": 0.92,
         "qualityScore": 0.86,
-        "riskScore": 0.12,
+        "riskScore": 0.18,
         "suggestedTags": [
           "deepseek",
           "hugging-face",
@@ -99695,32 +99997,33 @@
           "docs"
         ],
         "evidence": [
-          "HF id deepseek-ai/deepseek-coder-6.7b-base, pipeline_tag text-generation, library transformers, ~2.2M all-time downloads, 145 likes.",
-          "Card states 6.7B MHA model trained on 2T tokens (87% code / 13% NL) with 16K window and FIM.",
-          "License section: code MIT; model use under Model License; commercial use supported.",
-          "No gated flag; public model repo with LICENSE file."
+          "canonicalUrl and title match huggingface.co/deepseek-ai/deepseek-coder-6.7B-base.",
+          "Excerpt states text-generation, Transformers, PyTorch, Safetensors, llama tags and 149 likes.",
+          "Introduction describes 1B–33B coder series trained from scratch on 2T tokens (87% code).",
+          "How-to sections cover code completion, insertion, and repository-level completion."
         ],
         "uncertainty": [
-          "Current benchmark SOTA claims versus later open code models were not independently verified.",
-          "Exact commercial restrictions in LICENSE-MODEL were not fully quoted in the excerpt."
+          "Exact commercial terms of deepseek-license were not fully quoted in the excerpt.",
+          "Current download counts, last commit date, and maintenance status beyond the card snapshot are unverified.",
+          "Benchmark numbers are claimed as SOTA among open code models but not independently checked here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:31:52.578Z",
+        "reviewedAt": "2026-10-28T21:03:33.620Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "6.7B base code LM with 16K window and FIM",
-        "description": "Official HF card for a 6.7B code base model trained on 2T tokens, with Transformers examples for completion and infilling.",
+        "tagline": "6.7B code LLM weights with completion and infill recipes",
+        "description": "Download a 6.7B code model trained on 2T tokens and run completion, fill-in-the-blank, and 16K-context project-level generation via Transformers or vLLM.",
         "pros": [
-          "Hosted under the official deepseek-ai org on Hugging Face with transformers and safetensors weights.",
-          "Model card documents 6.7B parameters, 2T-token training mix, 16K context, and fill-in-the-blank usage.",
-          "Includes runnable Transformers snippets for code completion, insertion, and repository-level completion.",
-          "Points to homepage, GitHub, chat demo, and a model license that states commercial use is allowed."
+          "Hosted under the official deepseek-ai organization on Hugging Face.",
+          "Model card documents 6.7B parameters, 2T-token training mix, 16K window, and fill-in-the-blank pretraining.",
+          "Includes Transformers load/generate snippets plus vLLM and SGLang serve examples.",
+          "Links to the GitHub repo, homepage, and related coder chat site."
         ],
         "cons": [
-          "Last modified March 2024; this is an older Coder generation, not R1.",
-          "License is tagged as other (deepseek-license), so users must read LICENSE-MODEL rather than a standard OSI SPDX id.",
-          "Examples use trust_remote_code=True and CUDA, which is extra operational friction."
+          "License is listed as deepseek-license, not a standard OSI open-source license.",
+          "This is a base (not instruction-tuned) checkpoint, so chat use needs extra prompting or a instruct variant.",
+          "The provided excerpt truncates some usage examples."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -99731,10 +100034,10 @@
           "small team"
         ],
         "usage": {
-          "input": 2177,
-          "output": 658,
-          "cacheRead": 11136,
-          "totalTokens": 13971,
+          "input": 7732,
+          "output": 750,
+          "cacheRead": 5120,
+          "totalTokens": 13602,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -99742,8 +100045,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base",
-        "contentHash": "7d26cb5f5a5be5930fb8ac5e075458b9ee2fb55f6323b55c08bac66f4767ab7c",
-        "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)"
+        "contentHash": "2434fe02b0906d06a34549e37773a91fdbe29d7147e8e4ca60c2d8de4f586d07",
+        "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-base\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        * "
       }
     },
     {
@@ -99896,6 +100199,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -99912,11 +100224,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B Instruct with Transformers usage, chat template, and serving examples. Weights are public under DeepSeek’s own license; the repo was last updated in early 2024, so it is an older coder line rather than R1-era models.",
-        "relevanceScore": 0.88,
-        "qualityScore": 0.78,
+        "summary": "Official Hugging Face model card for DeepSeek Coder 6.7B Instruct, with Transformers/vLLM usage, training notes, and license links.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.88,
         "riskScore": 0.12,
         "suggestedTags": [
           "deepseek",
@@ -99926,45 +100238,44 @@
           "docs"
         ],
         "evidence": [
-          "canonicalUrl https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
-          "Facts excerpt: id deepseek-ai/deepseek-coder-6.7b-instruct, likes 525, downloadsAllTime 3722283, gated false, library_name transformers",
-          "Introduction text: trained from scratch on 2T tokens, 87% code, sizes 1B–33B, 16K window",
-          "Usage snippets for transformers pipeline, vLLM serve, SGLang"
+          "URL is huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct with pipeline tags text-generation, transformers, pytorch.",
+          "Card states 6.7B instruct is initialized from 6.7b-base and fine-tuned on 2B instruction tokens.",
+          "Usage snippets show pipeline, AutoModelForCausalLM, vLLM serve, and SGLang launch_server.",
+          "Rubric prefers Hugging Face model cards for DeepSeek developer resources."
         ],
         "uncertainty": [
-          "Exact commercial terms of the DeepSeek model license were not fully extracted",
-          "Current benchmark claims vs later Coder V2 / R1 not verified here"
+          "Current download counts, community activity beyond 23 discussions, and whether weights remain the recommended Coder checkpoint.",
+          "Full DeepSeek license terms beyond the license:deepseek tag."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:32:09.826Z",
+        "reviewedAt": "2026-10-28T21:03:43.492Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "6.7B instruct coder weights on Hugging Face",
-        "description": "Download and run a 6.7B instruct code model via Transformers, vLLM, or SGLang from the official DeepSeek org card.",
+        "tagline": "6.7B instruct code model on Hugging Face",
+        "description": "Download a 6.7B instruction-tuned code LLM with Transformers, vLLM, and chat inference examples on Hugging Face.",
         "pros": [
-          "Hosted under the official deepseek-ai org on Hugging Face with pipeline_tag text-generation and Transformers support.",
-          "Model card documents chat template, AutoModelForCausalLM loading, and vLLM/SGLang serving snippets.",
-          "Public, ungated repo with safetensors weights (~6.7B parameters) and millions of historical downloads.",
-          "Card describes training on 2T tokens (87% code) and 16K context for project-level completion."
+          "Hosted under the official deepseek-ai organization on Hugging Face.",
+          "Model card documents training mix, 6.7B instruct fine-tune, and Transformers usage.",
+          "Includes local serving examples for vLLM and SGLang plus license and contact sections."
         ],
         "cons": [
-          "lastModified is 2024-02-02, so this is the first-generation Coder line, not newer DeepSeek models.",
-          "License is tagged as DeepSeek/other rather than a standard OSI license.",
-          "No Hugging Face inference providers listed in the captured metadata."
+          "Excerpted card is truncated before the full chat-inference sample completes.",
+          "License is the custom DeepSeek license rather than a standard OSI license.",
+          "This is an older Coder line, not R1."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
-          "learning",
           "agentic coding",
+          "learning",
           "solo founder"
         ],
         "usage": {
-          "input": 1306,
-          "output": 728,
-          "cacheRead": 11136,
-          "totalTokens": 13170,
+          "input": 7729,
+          "output": 529,
+          "cacheRead": 5120,
+          "totalTokens": 13378,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -99972,8 +100283,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct",
-        "contentHash": "03711afbc21186b728d002045e7db93411a1f7e94d5b2f15cffd0ba4d4a36f34",
-        "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co"
+        "contentHash": "153607c0c9bb54d9d294de063711abeed87646659f5f90247c68c8e5aa77ecb3",
+        "excerpt": "Title: deepseek-ai/deepseek-coder-6.7b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-6.7B-instruct\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n  "
       }
     },
     {
@@ -100126,6 +100437,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-base · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -100142,60 +100462,60 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Hugging Face model card for the 33B DeepSeek Coder base checkpoint, with Transformers usage for completion and infilling. Weights last updated in 2024; license is DeepSeek’s custom model license rather than a standard OSI SPDX id on the hub.",
-        "relevanceScore": 0.88,
-        "qualityScore": 0.78,
-        "riskScore": 0.12,
+        "summary": "Official Hugging Face model card for the 33B DeepSeek Coder base weights, with Transformers/vLLM usage, training summary, and code-completion examples. Prefer this over news; note the custom DeepSeek license rather than a standard OSI license.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.84,
+        "riskScore": 0.18,
         "suggestedTags": [
           "deepseek",
           "hugging-face",
-          "llm",
           "open-source",
+          "llm",
           "docs"
         ],
         "evidence": [
-          "canonicalUrl https://huggingface.co/deepseek-ai/deepseek-coder-33B-base; id deepseek-ai/deepseek-coder-33b-base, pipeline_tag text-generation, library transformers.",
-          "Card states 33B GQA, 2T tokens, 87% code / 13% NL, 16K window, FIM, sizes 1.3B–33B.",
-          "Usage: AutoTokenizer/AutoModelForCausalLM with trust_remote_code; vLLM and SGLang serve examples in the page excerpt.",
-          "downloadsAllTime 121035, likes 90, gated false, licenseFilePath LICENSE, createdAt 2023-10-28."
+          "canonicalUrl and facts.excerpt are huggingface.co/deepseek-ai/deepseek-coder-33B-base.",
+          "Tags include Text Generation, Transformers, PyTorch, Safetensors; license:deepseek-license.",
+          "Card states 33B parameters, 2T tokens, 87% code / 13% NL, 16K window and FIM.",
+          "Rubric prefers official HF model cards over news."
         ],
         "uncertainty": [
-          "Cannot independently verify claimed SOTA scores on HumanEval/MultiPL-E/MBPP/DS-1000/APPS from this page alone.",
-          "Exact commercial restrictions in LICENSE-MODEL were not fully quoted in the excerpt.",
-          "Runtime memory/hardware requirements for 33B BF16 (~66GB files) are not specified beyond sharded safetensors size."
+          "Current download counts, last commit, and community activity beyond Like 94 / Community 5 in the excerpt.",
+          "Exact DeepSeek license clauses for commercial use.",
+          "Whether newer Coder or V2/V3 models supersede this 33B base for most users."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:32:31.009Z",
+        "reviewedAt": "2026-10-28T21:03:58.021Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "33B code LM weights for completion and infilling",
-        "description": "Download a 33B project-level code model with 16K context, FIM infilling, and Transformers, vLLM, and SGLang examples.",
+        "description": "Download a 33B code language model trained on 2T tokens, with 16K context, fill-in-the-blank, and Transformers or vLLM serving.",
         "pros": [
-          "Hosted under the official deepseek-ai org with a full model card, tokenizer config, and Transformers loading examples.",
-          "Documents 33B GQA weights trained on 2T tokens, 16K window, and fill-in-the-blank infilling.",
-          "Includes code-completion, FIM insertion, and repository-level completion snippets plus vLLM/SGLang serve notes.",
-          "Safetensors shards are public and ungated; hub reports commercial use under the DeepSeek model license."
+          "Hosted on the official deepseek-ai Hugging Face org with a model card covering training data, sizes, and how-to-use.",
+          "Documents Transformers loading plus vLLM and SGLang serving examples.",
+          "Describes a 33B GQA base model trained from scratch on 2T tokens with 16K window and fill-in-the-blank.",
+          "Links to the GitHub repository, homepage, and related coder chat site."
         ],
         "cons": [
-          "Hub metadata shows lastModified 2024-03-07, so this is an older Coder generation, not R1.",
-          "License tag is license:other (deepseek-license), so terms must be read separately from MIT on the code repo.",
-          "Discussion volume is low (5 threads) and recent download counts are modest versus current flagship models."
+          "License is listed as deepseek-license, not a standard OSI license, so commercial terms need a separate read.",
+          "This is the base (not instruct) checkpoint, so it is not a chat-tuned product by itself.",
+          "The captured page excerpt is truncated before full license and contact sections."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
+          "production",
           "agentic coding",
-          "learning",
-          "production"
+          "learning"
         ],
         "usage": {
-          "input": 8067,
-          "output": 903,
+          "input": 7504,
+          "output": 850,
           "cacheRead": 5120,
-          "totalTokens": 14090,
+          "totalTokens": 13474,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -100203,8 +100523,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-base",
-        "contentHash": "b02dc8bbb55502974a7fda4a6530f12aff6907283955dc758a82f1bb81e0b8c2",
-        "excerpt": "Title: deepseek-ai/deepseek-coder-33b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-base\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n "
+        "contentHash": "2ffc68bf4e74d0a88bb3297e259285453fc7c47ba0d2dc83c1ce29e1dccdccc5",
+        "excerpt": "Title: deepseek-ai/deepseek-coder-33b-base · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-base\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   "
       }
     },
     {
@@ -100357,6 +100677,15 @@
           "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
           "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "sectionPath": [],
+          "anchorText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
+          "surroundingText": "deepseek-ai/deepseek-coder-33b-instruct · Hugging Face",
+          "targetUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -100373,12 +100702,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Official Hugging Face model card for DeepSeek Coder 33B Instruct: 33B code LLM with Transformers usage, 16K context, and a separate DeepSeek model license (not MIT). Last updated March 2024; card sample code still shows the 6.7B repo id.",
+        "summary": "Official Hugging Face model card for DeepSeek’s 33B instruction-tuned code LLM, with Transformers/vLLM/SGLang usage, license, and training summary. Prefer this over news as a primary model-card listing.",
         "relevanceScore": 0.92,
-        "qualityScore": 0.78,
-        "riskScore": 0.18,
+        "qualityScore": 0.88,
+        "riskScore": 0.12,
         "suggestedTags": [
           "deepseek",
           "hugging-face",
@@ -100387,44 +100716,47 @@
           "docs"
         ],
         "evidence": [
-          "canonicalUrl and HF id deepseek-ai/deepseek-coder-33b-instruct; pipeline_tag text-generation; library transformers.",
-          "Facts: ~33.3B BF16 params, likes 603, downloadsAllTime ~758k, license deepseek/other.",
-          "Model card states commercial use under LICENSE-MODEL and lists GitHub deepseek-ai/deepseek-coder."
+          "canonicalUrl is huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
+          "Excerpt lists pipeline_tag text-generation, Transformers/PyTorch/Safetensors, License:deepseek, ~606 likes",
+          "Card sections include Introduction, Model Summary, How to Use, License, Contact",
+          "Rubric prefers HuggingFace model cards over news"
         ],
         "uncertainty": [
-          "Whether weights remain the recommended production Coder vs later DeepSeek-Coder-V2/V3.",
-          "Current inference-provider availability (availableInferenceProviders empty in scrape).",
-          "Exact commercial terms in LICENSE-MODEL not quoted in full here."
+          "Exact current download counts, latest commit, and full license text beyond the listed tag",
+          "Whether 33B Coder remains the recommended production coder versus newer DeepSeek models",
+          "Runtime/hardware requirements not fully specified in the excerpt"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:32:47.530Z",
+        "reviewedAt": "2026-10-28T21:04:09.222Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official 33B instruct code model card on Hugging Face",
-        "description": "Download and run the 33B instruction-tuned code model via Transformers, with training notes, license, and inference examples.",
+        "tagline": "33B instruction-tuned open code LLM weights",
+        "description": "Download a 33B instruction-tuned code model trained on 2T tokens; run with Transformers, vLLM, or SGLang for chat and completion.",
         "pros": [
-          "Published under the official deepseek-ai org on Hugging Face with a full model card.",
-          "Documents 33B instruct fine-tune from the 33B base on 2B instruction tokens, 2T pretrain mix, and 16K window.",
-          "Shows Transformers loading, chat template, vLLM/SGLang serving, and commercial-use note under the model license."
+          "Hosted under the official deepseek-ai org on Hugging Face with a model card, files, and community tab.",
+          "Documents Transformers, vLLM, SGLang, Colab/Kaggle, and quantization/local-app paths.",
+          "States architecture origin (33B base plus 2B-token instruction fine-tune), 16K window, and DeepSeek license.",
+          "Links homepage, GitHub deepseek-coder repo, and coder chat demo."
         ],
         "cons": [
-          "Repo lastModified is 2024-03-07; this is the older Coder line, not R1.",
-          "In-card inference snippet still loads deepseek-coder-6.7b-instruct instead of 33B.",
-          "License tag is other/deepseek (not Apache/MIT for weights); gated=false but license file must be followed."
+          "The provided scrape is truncated mid How-to-Use example, so full card details are not fully verified here.",
+          "License is custom DeepSeek rather than a standard OSI SPDX identifier on the listing.",
+          "33B local inference needs substantial GPU memory compared with smaller Coder sizes."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "agentic coding",
           "learning",
+          "production",
           "small team"
         ],
         "usage": {
-          "input": 1308,
-          "output": 566,
-          "cacheRead": 11008,
-          "totalTokens": 12882,
+          "input": 7510,
+          "output": 661,
+          "cacheRead": 5120,
+          "totalTokens": 13291,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -100432,8 +100764,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct",
-        "contentHash": "6f7cd80f7514cd4e3af29f342fd397cb2e7d40a837860f3eea319a517a2208f1",
-        "excerpt": "Title: deepseek-ai/deepseek-coder-33b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/p"
+        "contentHash": "29ed1ee0ad8364497336c3e6adbfded6d5cbdfe90987a5918a764b3e69ad4665",
+        "excerpt": "Title: deepseek-ai/deepseek-coder-33b-instruct · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/deepseek-coder-33B-instruct\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n    "
       }
     },
     {
@@ -100586,6 +100918,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -100602,12 +100943,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Hugging Face model card for a 1.3B OpenCodeInterpreter checkpoint based on DeepSeek Coder, with Transformers usage and Apache-2.0 weights. Last updated March 2024 and not an official DeepSeek model card.",
+        "summary": "Third-party Hugging Face model card for a 1.3B coder fine-tuned from DeepSeek Coder with execution-feedback training; useful as a related open weight, not official DeepSeek docs or SDK.",
         "relevanceScore": 0.62,
         "qualityScore": 0.68,
-        "riskScore": 0.18,
+        "riskScore": 0.15,
         "suggestedTags": [
           "hugging-face",
           "open-source",
@@ -100615,30 +100956,31 @@
           "deepseek"
         ],
         "evidence": [
-          "facts.excerpt: id m-a-p/OpenCodeInterpreter-DS-1.3B, pipeline_tag text-generation, license apache-2.0, library transformers.",
-          "facts.excerpt: Model Information says based on deepseek-coder-1.3b-base; chat_template mentions Deepseek Coder.",
-          "facts.excerpt: createdAt 2024-02-26, lastModified 2024-03-03, likes 26, downloadsAllTime 11855."
+          "HF page tags: text-generation, transformers, safetensors, llama, code, conversational; license apache-2.0.",
+          "Model information section: based on deepseek-coder-1.3b-base.",
+          "Reported OpenCodeInterpreter-DS-1.3B HumanEval 65.2 / MBPP 63.4; + execution feedback 65.2 / 65.2.",
+          "Usage examples for pipeline/AutoModelForCausalLM, vLLM serve, and SGLang launch_server."
         ],
         "uncertainty": [
-          "Current HumanEval/MBPP numbers are truncated in the excerpt.",
-          "Whether the GitHub/homepage links still work and whether weights remain compatible with latest Transformers."
+          "Current download counts, maintenance, and whether weights remain the primary recommended checkpoint.",
+          "Full model-card sections beyond the provided excerpt (contact, inference caveats)."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-10-18T11:33:05.736Z",
+        "reviewedAt": "2026-10-28T21:04:23.293Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
-        "suggestedCategory": "SDKs",
-        "tagline": "1.3B code model with execution-feedback training",
-        "description": "Load a 1.3B code generation checkpoint based on DeepSeek Coder via Transformers, with chat template and Apache-2.0 weights.",
+        "suggestedCategory": "Resources",
+        "tagline": "1.3B coder weights with execution-feedback training",
+        "description": "Load Apache-2.0 1.3B code-generation weights based on DeepSeek Coder via Transformers, vLLM, or SGLang, with HumanEval/MBPP scores and paper links.",
         "pros": [
-          "Public Hugging Face model repo with transformers, safetensors, and Apache-2.0 tags.",
-          "Card states the weights are based on deepseek-coder-1.3b-base and links arXiv 2402.14658.",
-          "Includes Transformers load examples and a DeepSeek Coder-style chat template."
+          "Hosted as a Hugging Face model card with Transformers, vLLM, and SGLang usage snippets.",
+          "States the base model is deepseek-ai/deepseek-coder-1.3b-base and Apache-2.0 license.",
+          "Includes HumanEval and MBPP scores and links to arXiv 2402.14658 plus GitHub/homepage."
         ],
         "cons": [
-          "Not an official DeepSeek model card; published by m-a-p.",
-          "Repository lastModified is 2024-03-03, so maintenance may be stale.",
-          "1.3B size and modest likes/downloads limit production usefulness versus larger official models."
+          "It is a Multimodal Art Projection derivative, not an official DeepSeek model card or SDK.",
+          "The 1.3B variant shows modest community activity (about 26 likes and 3 discussions).",
+          "Benchmark tables mix larger siblings, so this checkpoint is the weakest in the series."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -100647,10 +100989,10 @@
           "agentic coding"
         ],
         "usage": {
-          "input": 1242,
-          "output": 689,
-          "cacheRead": 11008,
-          "totalTokens": 12939,
+          "input": 7872,
+          "output": 962,
+          "cacheRead": 5120,
+          "totalTokens": 13954,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -100658,8 +101000,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
-        "contentHash": "b3c42e777eabdb8b0aea8a57172a416450189fa97c3fafa2d4151dcd69028c46",
-        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n     "
+        "contentHash": "a107487caa9d28f7337847adfc2b6781891abaa9f7b4c88b29ea1f4a462f61ac",
+        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-1.3B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Dai"
       }
     },
     {
@@ -100812,6 +101154,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -100828,12 +101179,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Hugging Face model card for a 6.7B code model fine-tuned from DeepSeek Coder with execution-and-refinement training; community research weights, not official DeepSeek docs or SDKs.",
+        "summary": "Hugging Face model card for a 6.7B code-generation checkpoint based on deepseek-coder-6.7b-base, with Apache-2.0 weights, Transformers/vLLM usage, and HumanEval/MBPP numbers. Third-party OpenCodeInterpreter work, not official DeepSeek docs.",
         "relevanceScore": 0.72,
-        "qualityScore": 0.7,
-        "riskScore": 0.18,
+        "qualityScore": 0.78,
+        "riskScore": 0.12,
         "suggestedTags": [
           "hugging-face",
           "open-source",
@@ -100841,31 +101192,33 @@
           "deepseek"
         ],
         "evidence": [
-          "HF id m-a-p/OpenCodeInterpreter-DS-6.7B, pipeline_tag text-generation, license apache-2.0, library transformers.",
-          "Model card text: based on deepseek-coder-6.7b-base; chat template mentions Deepseek Coder.",
-          "Tags include arxiv:2402.14658 OpenCodeInterpreter; downloadsAllTime 356205; lastModified 2024-03-03; gated false."
+          "URL https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B with pipeline_tag text-generation and llama/code tags.",
+          "Model information: based on deepseek-coder-6.7b-base.",
+          "License: apache-2.0; paper https://arxiv.org/abs/2402.14658.",
+          "OpenCodeInterpreter-DS-6.7B HumanEval 76.2 / MBPP 73.9 in the table.",
+          "Like count 139 and 13 community discussions shown on the page."
         ],
         "uncertainty": [
-          "Whether weights remain the recommended checkpoint versus later OpenCodeInterpreter sizes.",
-          "Independent verification of listed HumanEval/MBPP numbers beyond the card excerpt."
+          "Current download counts, last weight update, and full remaining card sections after the truncated table.",
+          "Whether the GitHub/homepage remain actively maintained."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:33:26.742Z",
+        "reviewedAt": "2026-10-28T21:04:36.153Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "6.7B code model with execution and refinement",
-        "description": "Download Apache-2.0 Transformers weights for code generation with execution feedback, based on DeepSeek Coder 6.7B.",
+        "tagline": "Code LLM with execution-feedback benchmarks on HF",
+        "description": "Load a DeepSeek-Coder-based 6.7B code model via Transformers or vLLM; Apache-2.0 weights and HumanEval/MBPP scores are on the card.",
         "pros": [
-          "Public Hugging Face model card with Transformers, vLLM, and SGLang usage snippets.",
-          "States it is based on deepseek-coder-6.7b-base and Apache-2.0.",
-          "Links the OpenCodeInterpreter paper (arXiv 2402.14658) and HumanEval/MBPP discussion.",
-          "Ungated repo with safetensors, hundreds of thousands of all-time downloads, and 139 likes."
+          "Hosted on Hugging Face with Transformers, vLLM, and SGLang usage snippets.",
+          "License is Apache-2.0.",
+          "Card states the base is deepseek-coder-6.7b-base and cites arXiv:2402.14658.",
+          "Reports HumanEval and MBPP scores with and without execution feedback."
         ],
         "cons": [
-          "Third-party Multimodal Art Projection release, not an official DeepSeek model or SDK.",
-          "Card last modified in March 2024; not current DeepSeek R1/API tooling.",
-          "Excerpted card is noisy HTML/JSON rather than a fully maintained official docs site."
+          "Not an official DeepSeek model card or SDK.",
+          "Excerpt truncates the model card after the benchmark table.",
+          "Community model (m-a-p), so maintenance and support are not DeepSeek-owned."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -100874,10 +101227,10 @@
           "agentic coding"
         ],
         "usage": {
-          "input": 1710,
-          "output": 547,
-          "cacheRead": 11008,
-          "totalTokens": 13265,
+          "input": 7851,
+          "output": 855,
+          "cacheRead": 5120,
+          "totalTokens": 13826,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -100885,8 +101238,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
-        "contentHash": "ebcca00371bea255076bdea15bff8e118b3521229147836bce79fdbc4b63193f",
-        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n     "
+        "contentHash": "1e065da25944c416096d151e5de824d962ba58a62bba9e3dee6fb95ed46a7bc3",
+        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-6.7B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Dai"
       }
     },
     {
@@ -101039,6 +101392,15 @@
           "surroundingText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "sectionPath": [],
+          "anchorText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
+          "surroundingText": "codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face",
+          "targetUrl": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -101055,56 +101417,58 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Hugging Face model card for a 33B code LLM QLoRA-finetuned on DeepSeek-Coder-33B, with Transformers/vLLM usage and HumanEval results. Third-party CodeFuse release with license tagged “other,” not an official DeepSeek org card.",
+        "summary": "Hugging Face model card for a 33B code LLM QLoRA-finetuned on DeepSeek-Coder-33B, with Transformers/vLLM usage and HumanEval numbers. Third-party CodeFuse release with license tagged other, not official DeepSeek docs.",
         "relevanceScore": 0.82,
-        "qualityScore": 0.72,
-        "riskScore": 0.28,
+        "qualityScore": 0.78,
+        "riskScore": 0.22,
         "suggestedTags": [
-          "deepseek",
           "hugging-face",
-          "llm"
+          "deepseek",
+          "llm",
+          "open-source"
         ],
         "evidence": [
-          "HF id codefuse-ai/CodeFuse-DeepSeek-33B; pipeline_tag text-generation; library transformers.",
-          "Excerpt: “finetuned by QLoRA on multiple code-related tasks on the base model DeepSeek-Coder-33B.”",
-          "lastModified 2025-04-02; downloadsAllTime 13656; likes 61; gated false; license:other."
+          "URL https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B with pipeline_tag text-generation and libraries transformers/pytorch/safetensors.",
+          "Model description: CodeFuse-DeepSeek-33B is a 33B Code-LLM finetuned by QLoRA on DeepSeek-Coder-33B.",
+          "News: 2024-01-12 release claiming 78.65% HumanEval pass@1.",
+          "License field: other; community discussions count 9; likes 61 in the excerpt."
         ],
         "uncertainty": [
-          "Exact license text and commercial use terms beyond the “other” tag.",
-          "Whether weights remain maintained versus the 2024-01-12 release notes.",
-          "Independent verification of HumanEval numbers."
+          "Full license text and whether weights remain downloadable.",
+          "Maintenance status after 2024-01-12 beyond the scraped page date.",
+          "Whether HumanEval figures are independently reproduced."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:33:46.648Z",
+        "reviewedAt": "2026-10-28T21:04:50.009Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "33B code LLM finetuned from DeepSeek-Coder",
-        "description": "Download a 33B code text-generation model on Hugging Face, with Transformers, vLLM, and SGLang usage plus HumanEval scores.",
+        "tagline": "33B code LLM finetuned from DeepSeek-Coder weights",
+        "description": "Load a 33B code-focused chat model via Transformers, vLLM, or SGLang; bilingual card covers HumanEval results and inference format.",
         "pros": [
-          "Public Hugging Face model repo with a model card, chat template, and Transformers load examples.",
-          "Card states it is a 33B code LLM QLoRA-finetuned on DeepSeek-Coder-33B.",
-          "Reports 78.65% HumanEval pass@1 with greedy decoding (2024-01-12).",
-          "Sharded safetensors weights and tags for English/Chinese, code, and conversational use."
+          "Hosted as a Hugging Face model card with Transformers, vLLM, and SGLang usage snippets.",
+          "Describes a 33B QLoRA finetune of DeepSeek-Coder-33B for code-related tasks.",
+          "Reports HumanEval pass@1 of 78.65% with greedy decoding in the 2024-01-12 notes.",
+          "Lists English and Chinese, code, and conversational tags plus a bilingual model card outline."
         ],
         "cons": [
           "Published by codefuse-ai, not the official DeepSeek organization.",
-          "License is tagged “other,” so redistribution terms need a separate check.",
-          "Modest engagement (~61 likes, ~13.6k all-time downloads) and no hosted inference providers listed."
+          "License is listed as other, so redistribution terms need a separate check.",
+          "News section also promotes other CodeFuse models, so the card is not DeepSeek-only."
         ],
-        "pricingModel": "free",
+        "pricingModel": "open-source",
         "bestFor": [
-          "agentic coding",
           "prototyping",
-          "learning"
+          "learning",
+          "agentic coding"
         ],
         "usage": {
-          "input": 6028,
-          "output": 1001,
+          "input": 7844,
+          "output": 925,
           "cacheRead": 5120,
-          "totalTokens": 12149,
+          "totalTokens": 13889,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -101112,8 +101476,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B",
-        "contentHash": "b6c706b75457c4ba846d1c3f059d8a9e9ca6328919cb42dde5963a75666ea8a1",
-        "excerpt": "Title: codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face\n\nURL Source: https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n     "
+        "contentHash": "80260e37aa2132c674cc0fa2cc1855a3966c1d72a4e46b654fb6e230e307d753",
+        "excerpt": "Title: codefuse-ai/CodeFuse-DeepSeek-33B · Hugging Face\n\nURL Source: https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Dai"
       }
     },
     {
@@ -101266,6 +101630,15 @@
           "surroundingText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
           "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "sectionPath": [],
+          "anchorText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
+          "surroundingText": "m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face",
+          "targetUrl": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [
@@ -101282,11 +101655,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
-        "summary": "Hugging Face model card for a 33B OpenCodeInterpreter checkpoint based on deepseek-coder-33b-base, with Apache-2.0 weights, Transformers usage, and HumanEval/MBPP numbers. Last repo update is 2024-03-03 and activity is modest, so treat it as a research/code-gen checkpoint rather than a maintained official DeepSeek product.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.72,
+        "summary": "Hugging Face model card for a 33B code-generation model based on deepseek-coder-33b-base, with Apache-2.0 weights, Transformers/vLLM usage, and HumanEval/MBPP numbers. Useful as a DeepSeek-Coder derivative, not official DeepSeek docs or an SDK.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.78,
         "riskScore": 0.12,
         "suggestedTags": [
           "deepseek",
@@ -101295,42 +101668,46 @@
           "llm"
         ],
         "evidence": [
-          "id m-a-p/OpenCodeInterpreter-DS-33B, pipeline_tag text-generation, license apache-2.0, tags include llama and code.",
-          "Model Information: based on deepseek-coder-33b-base; paper OpenCodeInterpreter integrating generation with execution and refinement.",
-          "downloadsAllTime 16921, likes 149, createdAt 2024-02-19, lastModified 2024-03-03."
+          "URL https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B with pipeline_tag text-generation, license apache-2.0, arxiv 2402.14658.",
+          "Card text: This model is based on deepseek-ai/deepseek-coder-33b-base.",
+          "OpenCodeInterpreter-DS-33B HumanEval 79.3 / MBPP 78.7; + execution feedback 82.9 / 83.5.",
+          "Usage examples for transformers pipeline, AutoModelForCausalLM, vllm serve, and sglang.launch_server."
         ],
         "uncertainty": [
-          "Whether weights remain fully available and compatible with current Transformers/vLLM versions.",
-          "Maintenance status of Multimodal Art Projection vs. official DeepSeek releases."
+          "Current download counts, last weight update, and whether the 2024 paper results still match the hosted files.",
+          "Safety/eval coverage beyond the coding benchmarks on the card."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-18T11:34:01.371Z",
+        "reviewedAt": "2026-10-28T21:05:03.722Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "33B code model with execution-feedback refinement",
-        "description": "Load a DeepSeek-Coder-based 33B text-generation checkpoint for code generation, execution feedback, and iterative refinement via Transformers or local servers.",
+        "tagline": "33B DeepSeek-Coder base with execution-refinement code gen",
+        "description": "Download a 33B Llama-style coder based on deepseek-coder-33b-base; run via Transformers, vLLM, or SGLang and compare HumanEval/MBPP scores.",
         "pros": [
-          "Public Hugging Face model card with transformers/PyTorch tags and Apache-2.0 license.",
-          "Card states the checkpoint is based on deepseek-coder-33b-base and links arXiv:2402.14658.",
-          "Includes HumanEval/MBPP scores with and without execution feedback, plus Transformers/vLLM/SGLang usage snippets."
+          "Model card states the checkpoint is based on deepseek-coder-33b-base.",
+          "Apache-2.0 license is listed on the Hugging Face page.",
+          "Includes Transformers load snippets plus vLLM and SGLang serve examples.",
+          "Publishes HumanEval and MBPP scores with and without execution feedback.",
+          "Links the paper (arXiv:2402.14658), homepage, and GitHub for the OpenCodeInterpreter family."
         ],
         "cons": [
-          "Repository lastModified in the excerpt is 2024-03-03; not an official DeepSeek org card.",
-          "All-time downloads (~17k) and likes (149) are modest versus flagship DeepSeek models.",
-          "Excerpt usage widgets are generic chat prompts, not code-interpreter-specific examples."
+          "This is a third-party m-a-p fine-tune, not an official DeepSeek model card or SDK.",
+          "33B local inference needs substantial GPU memory; the card does not replace production API docs.",
+          "The provided excerpt cuts off mid-benchmark table, so some listed variants are incomplete in the scrape."
         ],
         "pricingModel": "open-source",
         "bestFor": [
           "prototyping",
           "learning",
-          "agentic coding"
+          "agentic coding",
+          "small team"
         ],
         "usage": {
-          "input": 10765,
-          "output": 738,
-          "cacheRead": 512,
-          "totalTokens": 12015,
+          "input": 1322,
+          "output": 718,
+          "cacheRead": 12800,
+          "totalTokens": 14840,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -101338,8 +101715,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
-        "contentHash": "5b0b35d39dc44699bb1796716e7793870688395f47ab991f1214deb71ade29b4",
-        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n       "
+        "contentHash": "03b2496b9eb13340d14aed336f5ea1b79ba5d0d5daa331e6b91549e857dc86ea",
+        "excerpt": "Title: m-a-p/OpenCodeInterpreter-DS-33B · Hugging Face\n\nURL Source: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily"
       }
     },
     {
@@ -101492,6 +101869,15 @@
           "surroundingText": "https://github.com/unit-mesh/auto-dev",
           "targetUrl": "https://github.com/unit-mesh/auto-dev",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/unit-mesh/auto-dev",
+          "sectionPath": [],
+          "anchorText": "https://github.com/unit-mesh/auto-dev",
+          "surroundingText": "https://github.com/unit-mesh/auto-dev",
+          "targetUrl": "https://github.com/unit-mesh/auto-dev",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -101506,7 +101892,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Open-source Kotlin Multiplatform multi-agent coding platform (IDE plugins, CLI, desktop/mobile) that lists DeepSeek among many LLM backends. It is not official DeepSeek documentation, a model card, or a DeepSeek SDK.",
         "relevanceScore": 0.28,
@@ -101711,6 +102097,15 @@
           "surroundingText": "https://github.com/AI-QL/tuui",
           "targetUrl": "https://github.com/ai-ql/tuui",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/AI-QL/tuui",
+          "sectionPath": [],
+          "anchorText": "https://github.com/AI-QL/tuui",
+          "surroundingText": "https://github.com/AI-QL/tuui",
+          "targetUrl": "https://github.com/ai-ql/tuui",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -101725,7 +102120,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Open-source desktop MCP client for local LLM chat and cross-vendor API orchestration. Useful as a general LLM/MCP tool, not official DeepSeek docs, model cards, or SDKs.",
         "relevanceScore": 0.35,
@@ -101931,6 +102326,15 @@
           "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
           "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/danilofalcao/cursor-deepseek",
+          "sectionPath": [],
+          "anchorText": "https://github.com/danilofalcao/cursor-deepseek",
+          "surroundingText": "https://github.com/danilofalcao/cursor-deepseek",
+          "targetUrl": "https://github.com/danilofalcao/cursor-deepseek",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -101945,7 +102349,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Unofficial Go HTTP/2 proxy that maps OpenAI-compatible Cursor Composer requests to DeepSeek, OpenRouter, or Ollama. Useful community tooling, but not official docs, model cards, or a maintained SDK.",
         "relevanceScore": 0.55,
@@ -102151,6 +102555,15 @@
           "surroundingText": "https://github.com/cohesion-org/deepseek-go",
           "targetUrl": "https://github.com/cohesion-org/deepseek-go",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/cohesion-org/deepseek-go",
+          "sectionPath": [],
+          "anchorText": "https://github.com/cohesion-org/deepseek-go",
+          "surroundingText": "https://github.com/cohesion-org/deepseek-go",
+          "targetUrl": "https://github.com/cohesion-org/deepseek-go",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -102165,7 +102578,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Community MIT-licensed Go client for DeepSeek’s API (chat, reasoning, tools, FIM, streaming) plus OpenAI-compatible providers. Useful developer tooling, but it is not an official DeepSeek SDK or model card.",
         "relevanceScore": 0.82,
@@ -102373,6 +102786,15 @@
           "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
           "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "sectionPath": [],
+          "anchorText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "surroundingText": "https://github.com/ForgetMeAI/FreeDeepseekAPI",
+          "targetUrl": "https://github.com/forgetmeai/freedeepseekapi",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -102387,7 +102809,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Unofficial Node.js local proxy that exposes DeepSeek Web Chat as OpenAI/Anthropic-compatible APIs via a logged-in browser session. Experimental and not official docs or SDKs; ToS and stability risk.",
         "relevanceScore": 0.45,
@@ -102592,6 +103014,15 @@
           "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
           "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/tensorchord/deepseek-api-arena",
+          "sectionPath": [],
+          "anchorText": "https://github.com/tensorchord/deepseek-api-arena",
+          "surroundingText": "https://github.com/tensorchord/deepseek-api-arena",
+          "targetUrl": "https://github.com/tensorchord/deepseek-api-arena",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -102606,7 +103037,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Community Python CLI that benchmarks TTFT/TBT across several DeepSeek API providers; useful for latency comparison, not official docs or an SDK.",
         "relevanceScore": 0.62,
@@ -102810,6 +103241,15 @@
           "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "sectionPath": [],
+          "anchorText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "surroundingText": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "targetUrl": "https://github.com/hollisho/deepseek-ai-translate-for-translatepress",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -102824,7 +103264,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Third-party WordPress plugin that wires DeepSeek’s translation API into TranslatePress. Useful for WP sites, but it is not official DeepSeek docs, a model card, or a maintained SDK.",
         "relevanceScore": 0.28,
@@ -103027,6 +103467,15 @@
           "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
           "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/deepseek-php/deepseek-php-client",
+          "sectionPath": [],
+          "anchorText": "https://github.com/deepseek-php/deepseek-php-client",
+          "surroundingText": "https://github.com/deepseek-php/deepseek-php-client",
+          "targetUrl": "https://github.com/deepseek-php/deepseek-php-client",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -103041,7 +103490,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Community MIT PHP client for the DeepSeek API (Composer, PHP 8.1+), with fluent builders, PSR-18/Guzzle or Symfony HTTP, streaming, and V4 model support. Useful for PHP apps; it is not an official DeepSeek first-party SDK.",
         "relevanceScore": 0.82,
@@ -103248,6 +103697,15 @@
           "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
           "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "sectionPath": [],
+          "anchorText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "surroundingText": "https://github.com/yagizeraslan/DeepSeek-Unity",
+          "targetUrl": "https://github.com/yagizeraslan/deepseek-unity",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -103262,7 +103720,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Unofficial Unity UPM package that wraps the DeepSeek chat API with streaming, samples, and editor key storage. Community-maintained, not official docs or a Hugging Face model card.",
         "relevanceScore": 0.62,
@@ -103467,6 +103925,15 @@
           "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
           "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "sectionPath": [],
+          "anchorText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "surroundingText": "https://github.com/xxxkkw/DeepSeek-Atlas-Chat",
+          "targetUrl": "https://github.com/xxxkkw/deepseek-atlas-chat",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -103481,7 +103948,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Community scripts to export, INT8-quantize, and run DeepSeek-R1-Distill-Qwen-1.5B on Huawei Ascend Atlas 200I DK A2 (OM). Niche hardware demo, not official docs or a maintained SDK.",
         "relevanceScore": 0.42,
@@ -103630,6 +104097,15 @@
           "surroundingText": "Click here to view the guide.",
           "targetUrl": "https://api-docs.deepseek.com/guides/search",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "Click here to view the guide.",
+          "surroundingText": "Click here to view the guide.",
+          "targetUrl": "https://api-docs.deepseek.com/guides/search",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -103644,7 +104120,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-17T09:20:00.063Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official API docs for Search and Fetch JSON endpoints that give agents and RAG apps live web results and Markdown page content, with auth, operators, errors, billing, and rate limits.",
         "relevanceScore": 0.95,
@@ -103794,6 +104270,15 @@
           "surroundingText": "News",
           "targetUrl": "https://api-docs.deepseek.com/news/news261017",
           "discoveredAt": "2026-10-28T18:40:05.174Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://api-docs.deepseek.com/",
+          "sectionPath": [],
+          "anchorText": "News",
+          "surroundingText": "News",
+          "targetUrl": "https://api-docs.deepseek.com/news/news261017",
+          "discoveredAt": "2026-10-28T19:17:16.416Z"
         }
       ],
       "globalFactRefs": [],
@@ -103808,7 +104293,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-17T09:20:00.063Z",
-      "updatedAt": "2026-10-28T18:40:05.174Z",
+      "updatedAt": "2026-10-28T19:17:16.416Z",
       "aiReview": {
         "summary": "Official DeepSeek API docs news post announcing DeepSeek-V4.1-Flash-1017, Search & Fetch pricing, and Hugging Face/ModelScope weights. Prefer the model card or API guides over this announcement page for a directory listing.",
         "relevanceScore": 0.45,
@@ -103967,41 +104452,43 @@
       "createdAt": "2026-10-17T10:00:00.201Z",
       "updatedAt": "2026-10-28T10:00:04.192Z",
       "aiReview": {
-        "summary": "Official DeepSeek-AI Hugging Face model card for a MIT-licensed image-text-to-text checkpoint with transformers tags, local inference notes, and published benchmark tables. Suitable as a primary model listing; confirm weights and encoding extras on the repo.",
+        "summary": "Official Hugging Face model card for a MIT-licensed DeepSeek V4.1 Flash checkpoint with transformers support, inference notes, and published benchmarks. Prefer this over news; confirm the snapshot stays maintained if listed.",
         "relevanceScore": 0.92,
         "qualityScore": 0.86,
         "riskScore": 0.12,
         "suggestedTags": [
           "deepseek",
           "hugging-face",
-          "llm",
-          "open-source"
+          "open-source",
+          "llm"
         ],
         "evidence": [
-          "HF API/model page: deepseek-ai/DeepSeek-V4.1-Flash-1017, library transformers, license MIT, ~18K downloads, ~1.5K likes.",
-          "Model card states it is a minor update to DeepSeek-V4.1-Flash with benchmark table and 1M context sampling notes.",
-          "Rubric prefers official HF model cards over news."
+          "HF API/model page: pipeline_tag image-text-to-text, library transformers, license MIT.",
+          "Card describes DeepSeek-V4.1-Flash-1017 as a minor update with benchmark table and inference/encoding folders.",
+          "Facts: ~117K downloads, ~3.5K likes; tags include safetensors and endpoints_compatible."
         ],
         "uncertainty": [
-          "Weight completeness, file sizes, and actual lastModified were not independently verified beyond the card snapshot.",
-          "Independent reproduction of listed benchmark numbers was not performed."
+          "Cannot independently verify benchmark methodology or weight integrity beyond the card.",
+          "Unknown long-term replacement by a newer Flash snapshot.",
+          "Hardware and runtime requirements for 1M context are not fully specified in the excerpt."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-19T11:55:56.093Z",
+        "reviewedAt": "2026-10-28T21:05:44.338Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official MIT multimodal checkpoint with local inference note",
-        "description": "Official Hugging Face card for an image-text-to-text model with transformers support, encoding/inference docs, and published benchmarks.",
+        "tagline": "Official MIT weights for multimodal reasoning and agents",
+        "description": "Download official image-text-to-text weights with transformers, local inference notes, prompt encoding, and published coding and vision benchmarks.",
         "pros": [
-          "Hosted under the official deepseek-ai org on Hugging Face with pipeline_tag image-text-to-text.",
-          "MIT license is declared on the model card and tags.",
-          "Card documents prompt encoding, sampling parameters, and a pointer to local inference instructions.",
-          "Includes a comparison table versus the prior Flash checkpoint and other models."
+          "Hosted on the official deepseek-ai Hugging Face org with MIT license and transformers tags.",
+          "Model card documents sampling settings, local inference, and a Python prompt-encoding reference.",
+          "Includes benchmark tables versus prior Flash and other models, plus a technical report link.",
+          "Reports substantial download and like counts, indicating public usage of the weights."
         ],
         "cons": [
-          "No Jinja chat template is included; encoding relies on a custom Python reference or a separate recipe repo.",
-          "lastModified is not provided in the supplied facts snapshot."
+          "This is a dated minor snapshot (1017) rather than a general docs portal or SDK.",
+          "The card states no Jinja chat template is included, so production encoding needs extra tooling.",
+          "lastModified is not provided in the supplied facts."
         ],
         "pricingModel": "open-source",
         "bestFor": [
@@ -104011,10 +104498,10 @@
           "learning"
         ],
         "usage": {
-          "input": 3469,
-          "output": 595,
-          "cacheRead": 5120,
-          "totalTokens": 9184,
+          "input": 2000,
+          "output": 690,
+          "cacheRead": 7424,
+          "totalTokens": 10114,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -104056,6 +104543,16 @@
           "surroundingText": "tobemagic/deepseek-harness-bluebook",
           "targetUrl": "https://github.com/tobemagic/deepseek-harness-bluebook",
           "discoveredAt": "2026-10-28T18:40:05.162Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "tobemagic/deepseek-harness-bluebook",
+          "surroundingText": "tobemagic/deepseek-harness-bluebook",
+          "targetUrl": "https://github.com/tobemagic/deepseek-harness-bluebook",
+          "discoveredAt": "2026-10-28T19:17:16.402Z"
         }
       ],
       "globalFactRefs": [],
@@ -104069,7 +104566,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-27T09:00:00.129Z",
-      "updatedAt": "2026-10-28T18:40:05.162Z",
+      "updatedAt": "2026-10-28T19:17:16.402Z",
       "aiReview": {
         "summary": "Unofficial Chinese design-interpretation book on DeepSeek Harness (agent shell architecture), not official docs, model cards, or SDKs. Complete free MIT manuscript with HTML/PDF/EPUB, but low GitHub traction and no first-party affiliation.",
         "relevanceScore": 0.42,
