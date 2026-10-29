@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29T15:47:58.665Z",
+  "generatedAt": "2026-10-29T16:05:59.650Z",
   "appId": "awesome-voice-ai",
   "items": [
     {
       "id": "web:5773d7fb7df7c564",
       "type": "web_url",
       "canonicalUrl": "https://suno.com",
-      "title": "Suno | AI Music Generator",
+      "title": "Suno",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -388,6 +388,16 @@
           "surroundingText": "Suno",
           "targetUrl": "https://suno.com",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno",
+          "surroundingText": "Suno",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -405,7 +415,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Suno web app for prompt-to-full-song generation with paid Studio, stems, remix, and custom-model tools. Strong fit for an AI music directory; it is a consumer product, not a developer SDK.",
         "relevanceScore": 0.95,
@@ -474,7 +484,7 @@
       "id": "web:7a34c540c33653b4",
       "type": "web_url",
       "canonicalUrl": "https://help.suno.com",
-      "title": "See the full FAQ →",
+      "title": "Suno Help Center",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -838,6 +848,16 @@
           "surroundingText": "Suno Help Center",
           "targetUrl": "https://help.suno.com",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Help Center",
+          "surroundingText": "Suno Help Center",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -852,7 +872,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official knowledge base covering music generation, accounts, mobile, rights, Studio, and community FAQs. Usable as the canonical support/docs surface rather than a model or API.",
         "relevanceScore": 0.82,
@@ -909,7 +929,7 @@
       "id": "web:2c3f0035ae09a8ae",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/blog",
-      "title": "Blog",
+      "title": "Suno Blog",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1192,6 +1212,16 @@
           "surroundingText": "Suno Blog",
           "targetUrl": "https://suno.com/blog",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Blog",
+          "surroundingText": "Suno Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1206,7 +1236,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Suno company blog with product updates, model launches, Studio/DAW tips, partnerships, and creator spotlights. Useful as a primary news/docs surface, not an API or tool itself.",
         "relevanceScore": 0.82,
@@ -1466,6 +1496,16 @@
           "surroundingText": "Suno on YouTube",
           "targetUrl": "https://www.youtube.com/@SunoMusic",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on YouTube",
+          "surroundingText": "Suno on YouTube",
+          "targetUrl": "https://www.youtube.com/@SunoMusic",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1479,7 +1519,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "YouTube handle @SunoMusic is a social channel, not an API, SDK, or product surface. Officiality versus similarly named music channels is unverified, so it is a weak fit for a tools directory.",
         "relevanceScore": 0.22,
@@ -1736,6 +1776,16 @@
           "surroundingText": "Suno Prompt Builder at usesuno.com",
           "targetUrl": "https://usesuno.com/tools",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Prompt Builder at usesuno.com",
+          "surroundingText": "Suno Prompt Builder at usesuno.com",
+          "targetUrl": "https://usesuno.com/tools",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1749,7 +1799,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party catalog of 16 free in-browser helpers for Suno Style prompts, lyrics, and public-link downloads—not an official Suno API or model. Useful for creators; downloaders depend on public Suno URLs and a fetch service.",
         "relevanceScore": 0.72,
@@ -2013,6 +2063,16 @@
           "surroundingText": "Suno AI Wiki",
           "targetUrl": "https://sunoaiwiki.com",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Wiki",
+          "surroundingText": "Suno AI Wiki",
+          "targetUrl": "https://sunoaiwiki.com",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2026,7 +2086,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party unofficial Suno guide site with prompt/meta-tag tips plus a lyric censorship-bypass tool and unrelated outbound links; not an official API or maintained voice stack.",
         "relevanceScore": 0.35,
@@ -2288,6 +2348,16 @@
           "surroundingText": "Learn Prompting: Suno Guide",
           "targetUrl": "https://learnprompting.org/blog/guide-suno",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Learn Prompting: Suno Guide",
+          "surroundingText": "Learn Prompting: Suno Guide",
+          "targetUrl": "https://learnprompting.org/blog/guide-suno",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2301,7 +2371,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party Learn Prompting how-to on using Suno (prompts, custom lyrics, metatags, pricing/use cases). Useful as a beginner tutorial, not an official product, API, or maintained voice stack.",
         "relevanceScore": 0.55,
@@ -2561,6 +2631,16 @@
           "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
           "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2574,7 +2654,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Blog guide on Suno Style vs Lyrics fields, tag order, and 5–8-tag limits, with examples; it is marketing for AceTagGen, not an official Suno API or model.",
         "relevanceScore": 0.42,
@@ -2834,6 +2914,16 @@
           "surroundingText": "\"Why Most Suno Prompts Fail\"",
           "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Why Most Suno Prompts Fail\"",
+          "surroundingText": "\"Why Most Suno Prompts Fail\"",
+          "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2847,7 +2937,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Vendor blog post explaining three Suno Style-prompt failure patterns (overfilled tags, collisions, feeling vs mechanism tags) and pitching AceTagGen. Useful prompting notes, not an official Suno surface or API.",
         "relevanceScore": 0.42,
@@ -3106,6 +3196,16 @@
           "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
           "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3119,7 +3219,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party AceTagGen blog comparing Suno V3.5–V5.5 prompt styles and use cases; useful as a short guide, not an official Suno surface, API, or model.",
         "relevanceScore": 0.42,
@@ -3379,6 +3479,16 @@
           "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
           "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3392,7 +3502,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party AceTagGen blog listing 17 community-tested Suno prompt/syntax tricks (melisma, tags, style sandwich). Useful as a tips article, not an official API, SDK, or maintained voice stack.",
         "relevanceScore": 0.42,
@@ -3653,6 +3763,16 @@
           "surroundingText": "r/SunoAI",
           "targetUrl": "https://www.reddit.com/r/SunoAI",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/SunoAI",
+          "surroundingText": "r/SunoAI",
+          "targetUrl": "https://www.reddit.com/r/SunoAI",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3666,7 +3786,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Unofficial Reddit community for Suno AI music generation; useful for prompts and product chatter, but it is not an API, model, or official product surface.",
         "relevanceScore": 0.45,
@@ -3925,6 +4045,16 @@
           "surroundingText": "Suno AI Reviews on Futurepedia",
           "targetUrl": "https://www.futurepedia.io/tool/suno",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Reviews on Futurepedia",
+          "surroundingText": "Suno AI Reviews on Futurepedia",
+          "targetUrl": "https://www.futurepedia.io/tool/suno",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3938,7 +4068,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Futurepedia aggregator listing for Suno with marketing copy, two user reviews, and outbound links—not an official product, API, or maintained voice/music stack.",
         "relevanceScore": 0.25,
@@ -4195,6 +4325,16 @@
           "surroundingText": "Suno on Wikipedia",
           "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on Wikipedia",
+          "surroundingText": "Suno on Wikipedia",
+          "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4208,7 +4348,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Wikipedia encyclopedia article about the Suno music-generation company/platform, not an official product, API, or model surface. Weak fit for a tools directory versus suno.com or platform.suno.com.",
         "relevanceScore": 0.22,
@@ -4465,6 +4605,16 @@
           "surroundingText": "**suno-prompt-scorer**",
           "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**suno-prompt-scorer**",
+          "surroundingText": "**suno-prompt-scorer**",
+          "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4478,7 +4628,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Small MIT TypeScript library that heuristically scores Suno style prompts (length, collisions, specificity, density). Useful as a niche helper, not an official Suno surface or audio model/API.",
         "relevanceScore": 0.42,
@@ -4737,6 +4887,16 @@
           "surroundingText": "AceTagGen Public Scorer API",
           "targetUrl": "https://acetaggen.com/api/suno-score",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AceTagGen Public Scorer API",
+          "surroundingText": "AceTagGen Public Scorer API",
+          "targetUrl": "https://acetaggen.com/api/suno-score",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4750,7 +4910,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Third-party HTTP endpoint listed as a Suno tag/score helper; the documented URL returns HTTP 400 and the site has no usable public docs, so it is a weak directory listing until the API is verified.",
         "relevanceScore": 0.45,
@@ -5009,6 +5169,16 @@
           "surroundingText": "Bark",
           "targetUrl": "https://github.com/suno-ai/bark",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bark",
+          "surroundingText": "Bark",
+          "targetUrl": "https://github.com/suno-ai/bark",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5022,7 +5192,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Suno open-source transformer text-to-audio model with a Python API, CLI, speaker presets, and MIT-licensed checkpoints. Strong fit for TTS/audio directories; last documented updates are from 2023 and it does not support custom voice cloning.",
         "relevanceScore": 0.92,
@@ -5082,7 +5252,7 @@
       "id": "web:54209856214d147e",
       "type": "web_url",
       "canonicalUrl": "https://elevenlabs.io",
-      "title": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+      "title": "ElevenLabs",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -5464,6 +5634,16 @@
           "surroundingText": "ElevenLabs",
           "targetUrl": "https://elevenlabs.io",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -5481,7 +5661,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official ElevenLabs site for TTS, voice cloning, music, STT, dubbing, and voice agents, with documented APIs. Prefer this over unofficial clone packs or roundup articles.",
         "relevanceScore": 1,
@@ -5751,6 +5931,16 @@
           "surroundingText": "OpenAI TTS",
           "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "OpenAI TTS",
+          "surroundingText": "OpenAI TTS",
+          "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5764,7 +5954,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official OpenAI Audio API TTS docs covering gpt-4o-mini-tts, tts-1/tts-1-hd, built-in voices, streaming, and multi-language SDKs. Strong fit for a voice-agent directory as a maintained commercial speech endpoint.",
         "relevanceScore": 0.95,
@@ -6026,6 +6216,16 @@
           "surroundingText": "Azure Speech Services",
           "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Azure Speech Services",
+          "surroundingText": "Azure Speech Services",
+          "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6039,7 +6239,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Microsoft Azure Speech APIs covering TTS, STT, translation, custom voices, and voice-agent surfaces with pay-as-you-go cloud (and container/edge) deployment. Strong fit for a voice-agents directory; listing URL now redirects to Azure Speech in Foundry Tools.",
         "relevanceScore": 0.92,
@@ -6304,6 +6504,16 @@
           "surroundingText": "Deepgram Aura-2",
           "targetUrl": "https://deepgram.com/product/text-to-speech",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Deepgram Aura-2",
+          "surroundingText": "Deepgram Aura-2",
+          "targetUrl": "https://deepgram.com/product/text-to-speech",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6317,7 +6527,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Deepgram TTS product page for conversation-oriented streaming speech (Aura-2 / Flux), with APIs, latency claims, and enterprise deployment options suitable for a voice-agent directory.",
         "relevanceScore": 0.92,
@@ -6582,6 +6792,16 @@
           "surroundingText": "Voice AI & Voice Agents Primer",
           "targetUrl": "https://voiceaiandvoiceagents.com",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Voice AI & Voice Agents Primer",
+          "surroundingText": "Voice AI & Voice Agents Primer",
+          "targetUrl": "https://voiceaiandvoiceagents.com",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6595,7 +6815,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Illustrated 2026 primer on conversational voice agents covering architecture, latency, models, and production practices; educational resource, not an API or product.",
         "relevanceScore": 0.82,
@@ -6860,6 +7080,16 @@
           "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
           "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "wildminder/awesome-ai-voice",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6873,7 +7103,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Independent TTS comparison site ranking provider models by Elo from blind preference tests, with sample counts, voice counts, release dates, and API pricing. Useful as a directory resource, not as a speech API or model.",
         "relevanceScore": 0.86,

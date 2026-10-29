@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:47:58.665Z",
+  "generatedAt": "2026-10-29T16:05:59.650Z",
   "appId": "awesome-selfhosted",
   "items": [
     {
@@ -379,6 +379,16 @@
           "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "surroundingText": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -393,7 +403,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "This candidate points at the well-known awesome-selfhosted GitHub list, but the extracted title is the CC BY-SA 3.0 license string rather than the project name, so metadata needs a fix before listing.",
         "relevanceScore": 0.95,
@@ -833,6 +843,16 @@
           "surroundingText": "HTML version",
           "targetUrl": "https://awesome-selfhosted.net",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HTML version",
+          "surroundingText": "HTML version",
+          "targetUrl": "https://awesome-selfhosted.net",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -850,7 +870,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official HTML catalog of Free Software network services you can host yourself, grouped by category with licenses and source links. Use it as a discovery index, not as a deployable app.",
         "relevanceScore": 1,
@@ -919,7 +939,7 @@
       "id": "github:yourselfhosted/slash",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/yourselfhosted/slash",
-      "title": "Website",
+      "title": "Slash",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1292,6 +1312,16 @@
           "surroundingText": "Slash",
           "targetUrl": "https://github.com/yourselfhosted/slash",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Slash",
+          "surroundingText": "Slash",
+          "targetUrl": "https://github.com/yourselfhosted/slash",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1306,7 +1336,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "FOSS AGPL-3.0 self-hosted short-link and bookmark manager with Docker deploy, docs, and browser extensions; listed in awesome-selfhosted.",
         "relevanceScore": 0.92,
@@ -1742,6 +1772,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://github.com/stoatchat/self-hosted",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://github.com/stoatchat/self-hosted",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1756,7 +1796,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Docker Compose stack for self-hosting Stoat (chat backend, web client, file server, and proxies) under AGPL-3.0, with documented domain, Caddy, and update steps.",
         "relevanceScore": 0.92,
@@ -1818,7 +1858,7 @@
       "id": "github:webtor-io/self-hosted",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/webtor-io/self-hosted",
-      "title": "Website",
+      "title": "Webtor",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2191,6 +2231,16 @@
           "surroundingText": "Webtor",
           "targetUrl": "https://github.com/webtor-io/self-hosted",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Webtor",
+          "surroundingText": "Webtor",
+          "targetUrl": "https://github.com/webtor-io/self-hosted",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2205,7 +2255,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed all-in-one Docker image for self-hosting torrent streaming, library, and related web UI, with documented env/volume setup and GHCR images for amd64/arm64.",
         "relevanceScore": 0.92,
@@ -2266,7 +2316,7 @@
       "id": "web:7db682e0660dc27a",
       "type": "web_url",
       "canonicalUrl": "https://homelabos.com",
-      "title": "Website",
+      "title": "HomelabOS",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -2639,6 +2689,16 @@
           "surroundingText": "HomelabOS",
           "targetUrl": "https://homelabos.com",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HomelabOS",
+          "surroundingText": "HomelabOS",
+          "targetUrl": "https://homelabos.com",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2653,7 +2713,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Ansible/Docker toolkit to deploy many self-hosted apps on your own hardware, with docs and a public GitLab repo. Pipe-to-bash install and license file were not verified here, so treat it as a homelab stack rather than a polished product.",
         "relevanceScore": 0.82,
@@ -3087,6 +3147,16 @@
           "surroundingText": "Source Code",
           "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Source Code",
+          "surroundingText": "Source Code",
+          "targetUrl": "https://gitlab.com/NickBusey/HomelabOS",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3101,7 +3171,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Ansible-and-Docker toolkit for deploying a catalog of self-hosted services on your own hardware; public GitLab project with recent activity and a clear FOSS homelab focus.",
         "relevanceScore": 0.92,
@@ -3792,6 +3862,16 @@
           "surroundingText": "/c/selfhosted on lemmy.world",
           "targetUrl": "https://lemmy.world/c/selfhosted",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/c/selfhosted on lemmy.world",
+          "surroundingText": "/c/selfhosted on lemmy.world",
+          "targetUrl": "https://lemmy.world/c/selfhosted",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3806,7 +3886,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Active Lemmy community for discussing self-hosted software alternatives, already linked from awesome-selfhosted. It is a forum, not a deployable app.",
         "relevanceScore": 0.72,
@@ -4238,6 +4318,16 @@
           "surroundingText": "/r/selfhosted on reddit",
           "targetUrl": "https://old.reddit.com/r/selfhosted",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted on reddit",
+          "surroundingText": "/r/selfhosted on reddit",
+          "targetUrl": "https://old.reddit.com/r/selfhosted",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4252,7 +4342,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Public Reddit community for self-hosting discussion, not a deployable FOSS server app. Useful as a related resource; depends on Reddit’s hosted platform and may require an account for full participation.",
         "relevanceScore": 0.72,
@@ -4684,6 +4774,16 @@
           "surroundingText": "/r/selfhosted Matrix Channel",
           "targetUrl": "https://matrix.to",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/selfhosted Matrix Channel",
+          "surroundingText": "/r/selfhosted Matrix Channel",
+          "targetUrl": "https://matrix.to",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4698,7 +4798,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "matrix.to is an invite landing page for Matrix rooms, not a self-hosted server app. The listing is a community chat link, so it does not belong in a tools/apps directory.",
         "relevanceScore": 0.15,
@@ -5127,6 +5227,16 @@
           "surroundingText": "/r/homelab on reddit",
           "targetUrl": "https://old.reddit.com/r/homelab",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "/r/homelab on reddit",
+          "surroundingText": "/r/homelab on reddit",
+          "targetUrl": "https://old.reddit.com/r/homelab",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5141,7 +5251,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Public Reddit community for homelab hardware, racks, and self-hosted projects; useful as a discussion resource, not a deployable app.",
         "relevanceScore": 0.72,
@@ -5199,7 +5309,7 @@
       "id": "github:awesome-selfhosted/awesome-selfhosted-data",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
-      "title": "raw data",
+      "title": "AUTHORS",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -5572,6 +5682,16 @@
           "surroundingText": "AUTHORS",
           "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AUTHORS",
+          "surroundingText": "AUTHORS",
+          "targetUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5586,7 +5706,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "This is the machine-readable dataset that generates awesome-selfhosted, not a deployable server app. Listing it as a directory entry is circular and a poor fit for a self-hosted software catalog.",
         "relevanceScore": 0.25,
@@ -5846,6 +5966,16 @@
           "surroundingText": "Submit App",
           "targetUrl": "https://github.com/ccbikai/awesome-homelab",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Submit App",
+          "surroundingText": "Submit App",
+          "targetUrl": "https://github.com/ccbikai/awesome-homelab",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5859,7 +5989,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "This is a curated GitHub awesome-list of third-party homelab apps, not a deployable self-hosted server. Discovery used a mislabeled “Submit App” issue link; license is unset on GitHub.",
         "relevanceScore": 0.28,
@@ -6120,6 +6250,16 @@
           "surroundingText": "Yacht",
           "targetUrl": "https://github.com/selfhostedpro/yacht",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Yacht",
+          "surroundingText": "Yacht",
+          "targetUrl": "https://github.com/selfhostedpro/yacht",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6133,7 +6273,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed Docker container UI with templates and compose support, but the README states it is largely unmaintained and points users to incomplete rewrite/forks.",
         "relevanceScore": 0.72,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:47:58.665Z",
+  "generatedAt": "2026-10-29T16:05:59.650Z",
   "appId": "awesome-ai-workflow",
   "items": [
     {
@@ -208,6 +208,16 @@
           "surroundingText": "crawlbase/n8n-nodes-crawlbase",
           "targetUrl": "https://github.com/crawlbase/n8n-nodes-crawlbase",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "crawlbase/n8n-nodes-crawlbase",
+          "surroundingText": "crawlbase/n8n-nodes-crawlbase",
+          "targetUrl": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -223,7 +233,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Crawlbase community node for n8n with native credentials, Crawling API options, and an importable example workflow. Useful as a maintained n8n integration, but the repo has no stars and GitHub reports no license file despite an MIT notice in the README.",
         "relevanceScore": 0.78,
@@ -494,6 +504,16 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "czlonkowski/n8n-workflow-patterns",
+          "surroundingText": "czlonkowski/n8n-workflow-patterns",
+          "targetUrl": "https://github.com/czlonkowski/n8n-skills",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "sickn33/antigravity-awesome-skills",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -691,6 +711,16 @@
           "surroundingText": "czlonkowski/n8n-skills",
           "targetUrl": "https://github.com/czlonkowski/n8n-skills",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "czlonkowski/n8n-skills",
+          "surroundingText": "czlonkowski/n8n-skills",
+          "targetUrl": "https://github.com/czlonkowski/n8n-skills",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -707,7 +737,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Open-source Claude Code skill pack (14 skills plus router/hooks) that guides AI assistants to build and validate n8n workflows via n8n-mcp, not a set of importable n8n templates.",
         "relevanceScore": 0.82,
@@ -978,6 +1008,16 @@
           "surroundingText": "start an n8n Cloud trial",
           "targetUrl": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "enescingoz/awesome-n8n-templates",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "start an n8n Cloud trial",
+          "surroundingText": "start an n8n Cloud trial",
+          "targetUrl": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -991,7 +1031,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "This is an n8n partner/affiliate redirect to the n8n.io homepage and Cloud signup, not an importable workflow template, integration, or docs page. It does not belong in a templates-focused directory.",
         "relevanceScore": 0.15,
@@ -1249,6 +1289,16 @@
           "surroundingText": "Link to Template",
           "targetUrl": "https://n8n.io/workflows/3025-empower-your-ai-chatbot-with-long-term-memory-and-dynamic-tool-routing",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "enescingoz/awesome-n8n-templates",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Link to Template",
+          "surroundingText": "Link to Template",
+          "targetUrl": "https://n8n.io/workflows/3025-empower-your-ai-chatbot-with-long-term-memory-and-dynamic-tool-routing",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1262,7 +1312,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official n8n.io workflow template for an AI chatbot with Google Docs long-term memory, OpenAI short-term context, dynamic tool routing, and Gmail/Telegram notifications. Importable community template last updated about eight months ago.",
         "relevanceScore": 0.88,
@@ -1524,6 +1574,16 @@
           "surroundingText": "Convert your n8n workflow into full-fledged product ➜",
           "targetUrl": "https://pixeljets.com/n8n-to-saas",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Convert your n8n workflow into full-fledged product ➜",
+          "surroundingText": "Convert your n8n workflow into full-fledged product ➜",
+          "targetUrl": "https://pixeljets.com/n8n-to-saas",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1537,7 +1597,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Paid consulting offer to migrate n8n workflows into custom SaaS (Node.js, Stripe, multi-tenant UI). Not an importable template, integration, or official n8n/Dify/Flowise resource.",
         "relevanceScore": 0.32,
@@ -1797,6 +1857,16 @@
           "surroundingText": "n8n",
           "targetUrl": "https://n8n.partnerlinks.io/xvc4bt53bv9e",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n",
+          "surroundingText": "n8n",
+          "targetUrl": "https://n8n.partnerlinks.io/xvc4bt53bv9e",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -1810,7 +1880,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official n8n homepage reached via a partner/affiliate tracking URL, not templates or docs. Prefer the canonical n8n.io or workflow-template links over this redirect.",
         "relevanceScore": 0.75,
@@ -2073,6 +2143,16 @@
           "surroundingText": "n8n-nodes-evolution-api",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-evolution-api",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-evolution-api",
+          "surroundingText": "n8n-nodes-evolution-api",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-evolution-api",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2086,7 +2166,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node package that exposes Evolution API v2.2+ WhatsApp operations (instances, messages, groups, chat) for self-hosted n8n 1.54.4+.",
         "relevanceScore": 0.88,
@@ -2350,6 +2430,16 @@
           "surroundingText": "n8n-nodes-chatwoot",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-chatwoot",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-chatwoot",
+          "surroundingText": "n8n-nodes-chatwoot",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-chatwoot",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2363,7 +2453,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that connects Chatwoot to n8n workflows; npm shows version 0.1.40 and high weekly downloads, but the GitHub README still contains starter-template placeholders instead of operation docs.",
         "relevanceScore": 0.78,
@@ -2625,6 +2715,16 @@
           "surroundingText": "n8n-nodes-zapi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zapi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-zapi",
+          "surroundingText": "n8n-nodes-zapi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zapi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2638,7 +2738,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that connects workflows to Z-API for WhatsApp send operations; still at 0.1.0 with many documented operations unimplemented.",
         "relevanceScore": 0.72,
@@ -2898,6 +2998,16 @@
           "surroundingText": "n8n-nodes-imap",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-imap",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-imap",
+          "surroundingText": "n8n-nodes-imap",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-imap",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -2911,7 +3021,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that connects to IMAP servers and retrieves emails; useful as an integration, not a workflow template catalog.",
         "relevanceScore": 0.78,
@@ -3172,6 +3282,16 @@
           "surroundingText": "@devlikeapro/n8n-nodes-waha",
           "targetUrl": "https://www.npmjs.com/package/@devlikeapro/n8n-nodes-waha",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@devlikeapro/n8n-nodes-waha",
+          "surroundingText": "@devlikeapro/n8n-nodes-waha",
+          "targetUrl": "https://www.npmjs.com/package/@devlikeapro/n8n-nodes-waha",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3185,7 +3305,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that connects workflows to WAHA (WhatsApp HTTP API). Relevant as an n8n integration, not a workflow template or official docs.",
         "relevanceScore": 0.72,
@@ -3443,6 +3563,16 @@
           "surroundingText": "@devlikeapro/n8n-nodes-chatwoot",
           "targetUrl": "https://www.npmjs.com/package/@devlikeapro/n8n-nodes-chatwoot",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@devlikeapro/n8n-nodes-chatwoot",
+          "surroundingText": "@devlikeapro/n8n-nodes-chatwoot",
+          "targetUrl": "https://www.npmjs.com/package/@devlikeapro/n8n-nodes-chatwoot",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3456,7 +3586,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that connects workflows to Chatwoot. MIT-licensed npm module with modest weekly usage; a maintained integration rather than a template gallery.",
         "relevanceScore": 0.82,
@@ -3717,6 +3847,16 @@
           "surroundingText": "n8n-nodes-notificame-hub",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-notificame-hub",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-notificame-hub",
+          "surroundingText": "n8n-nodes-notificame-hub",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-notificame-hub",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -3730,7 +3870,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node (MIT, npm 0.3.3) that calls NotificaMe Hub for WhatsApp, Instagram, Facebook, Telegram, and reseller operations. Relevant as a maintained n8n integration, but it is a niche third-party node, not importable workflow templates or official n8n docs.",
         "relevanceScore": 0.72,
@@ -3993,6 +4133,16 @@
           "surroundingText": "n8n-nodes-thang-zalo-app",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-thang-zalo-app",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-thang-zalo-app",
+          "surroundingText": "n8n-nodes-thang-zalo-app",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-thang-zalo-app",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4006,7 +4156,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for Zalo (Vietnamese README). Importable as an n8n community node, not a workflow template or official docs.",
         "relevanceScore": 0.62,
@@ -4265,6 +4415,16 @@
           "surroundingText": "n8n-nodes-chat-data",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-chat-data",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-chat-data",
+          "surroundingText": "n8n-nodes-chat-data",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-chat-data",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4278,7 +4438,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that integrates Chatdata so workflows can manage chatbots, send messages, and retrieve leads. Modest weekly downloads; verify maintenance against the GitHub repo before listing as a core template source.",
         "relevanceScore": 0.72,
@@ -4538,6 +4698,16 @@
           "surroundingText": "n8n-nodes-waha",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-waha",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-waha",
+          "surroundingText": "n8n-nodes-waha",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-waha",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4551,7 +4721,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that talks to WAHA (self-hosted WhatsApp HTTP API), with install docs, OpenAPI-generated operations, and linked workflow templates. Useful for n8n WhatsApp automation; unofficial WhatsApp access carries typical ToS and account-risk caveats.",
         "relevanceScore": 0.82,
@@ -4814,6 +4984,16 @@
           "surroundingText": "n8n-nodes-quepasa",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-quepasa",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-quepasa",
+          "surroundingText": "n8n-nodes-quepasa",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-quepasa",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -4827,7 +5007,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that connects Quepasa (WhatsApp-oriented, v4+) to n8n workflows. Modest weekly downloads and a community package rather than official n8n/Quepasa templates.",
         "relevanceScore": 0.72,
@@ -5089,6 +5269,16 @@
           "surroundingText": "n8n-nodes-zl-vietts 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zl-vietts",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-zl-vietts 🆕",
+          "surroundingText": "n8n-nodes-zl-vietts 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zl-vietts",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5102,7 +5292,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "npm listing is a security holding package (0.0.1-security) with no usable n8n node, not an importable workflow or maintained integration.",
         "relevanceScore": 0.05,
@@ -5358,6 +5548,16 @@
           "surroundingText": "n8n-nodes-wecom",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-wecom",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-wecom",
+          "surroundingText": "n8n-nodes-wecom",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-wecom",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5371,7 +5571,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for WeCom (WeChat Work) covering messaging, contacts, CRM, and other enterprise APIs. Useful as a maintained integration, not an importable workflow template; modest weekly downloads.",
         "relevanceScore": 0.72,
@@ -5632,6 +5832,16 @@
           "surroundingText": "n8n-nodes-feishu-lite",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-feishu-lite",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-feishu-lite",
+          "surroundingText": "n8n-nodes-feishu-lite",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-feishu-lite",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5645,7 +5855,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT n8n community node for Feishu (Bitable, sheets, wiki) with an importable workflow JSON and npm install path; modest weekly downloads and Chinese-first docs.",
         "relevanceScore": 0.82,
@@ -5908,6 +6118,16 @@
           "surroundingText": "n8n-nodes-whatsable",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-whatsable",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-whatsable",
+          "surroundingText": "n8n-nodes-whatsable",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-whatsable",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -5921,7 +6141,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that connects workflows to WhatsAble’s WhatsApp API. Importable integration with modest weekly downloads; third-party WhatsApp automation, not official n8n or Meta templates.",
         "relevanceScore": 0.72,
@@ -6184,6 +6404,16 @@
           "surroundingText": "n8n-nodes-wuzapi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-wuzapi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-wuzapi",
+          "surroundingText": "n8n-nodes-wuzapi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-wuzapi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6197,7 +6427,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n nodes wrapping Wuzapi, a WhatsApp multi-device REST API. Useful as an n8n integration, not an importable workflow template; unofficial WhatsApp access may conflict with platform terms.",
         "relevanceScore": 0.62,
@@ -6457,6 +6687,16 @@
           "surroundingText": "n8n-nodes-alive5",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-alive5",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-alive5",
+          "surroundingText": "n8n-nodes-alive5",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-alive5",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6470,7 +6710,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for sending and receiving SMS through Alive5. Useful as a maintained integration, not a workflow template library.",
         "relevanceScore": 0.72,
@@ -6731,6 +6971,16 @@
           "surroundingText": "n8n-nodes-stevomanager 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-stevomanager",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-stevomanager 🆕",
+          "surroundingText": "n8n-nodes-stevomanager 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-stevomanager",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -6744,7 +6994,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping the StevoManager WhatsApp-channel API; importable as an n8n community package, not a workflow template or official docs.",
         "relevanceScore": 0.72,
@@ -7007,6 +7257,16 @@
           "surroundingText": "n8n-nodes-qrcode",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-qrcode",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-qrcode",
+          "surroundingText": "n8n-nodes-qrcode",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-qrcode",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -7020,7 +7280,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that generates QR codes (MIT, v0.1.0). Useful as a maintained integration, not an importable workflow template.",
         "relevanceScore": 0.62,
@@ -7280,6 +7540,16 @@
           "surroundingText": "n8n-nodes-ai-media-generate 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-ai-media-generate",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-ai-media-generate 🆕",
+          "surroundingText": "n8n-nodes-ai-media-generate 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-ai-media-generate",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -7293,7 +7563,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node (MIT) that wraps FAL, Replicate, and Genbo APIs for image/video generation. Early 0.1.x package with very low adoption and a README that still describes a FAL-only install name.",
         "relevanceScore": 0.72,
@@ -7555,6 +7825,16 @@
           "surroundingText": "n8n-nodes-pdforge",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdforge",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-pdforge",
+          "surroundingText": "n8n-nodes-pdforge",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdforge",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -7568,7 +7848,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that calls pdf noodle (formerly pdforge) to generate and deliver PDFs. Useful as an integration, not as importable n8n workflow templates.",
         "relevanceScore": 0.72,
@@ -7828,6 +8108,16 @@
           "surroundingText": "n8n-nodes-document-generator",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-document-generator",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-document-generator",
+          "surroundingText": "n8n-nodes-document-generator",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-document-generator",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -7841,7 +8131,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that renders Handlebars templates for documents, HTML, PDF, or email content. Importable as an n8n-community-node-package; modest weekly downloads and MIT license.",
         "relevanceScore": 0.78,
@@ -8101,6 +8391,16 @@
           "surroundingText": "official, open-source n8n integration",
           "targetUrl": "https://scrapeninja.net/docs/n8n?utm_source=github&utm_medium=banner&utm_campaign=awesome",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "official, open-source n8n integration",
+          "surroundingText": "official, open-source n8n integration",
+          "targetUrl": "https://scrapeninja.net/docs/n8n?utm_source=github&utm_medium=banner&utm_campaign=awesome",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -8114,7 +8414,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official ScrapeNinja docs for an n8n community node plus HTTP API usage: scrape, JS render, crawl, and local HTML extractors. Relevant maintained integration docs, not a template gallery.",
         "relevanceScore": 0.86,
@@ -8376,6 +8676,16 @@
           "surroundingText": "@mendable/n8n-nodes-firecrawl",
           "targetUrl": "https://www.npmjs.com/package/@mendable/n8n-nodes-firecrawl",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@mendable/n8n-nodes-firecrawl",
+          "surroundingText": "@mendable/n8n-nodes-firecrawl",
+          "targetUrl": "https://www.npmjs.com/package/@mendable/n8n-nodes-firecrawl",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -8389,7 +8699,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node for Firecrawl scrape, crawl, map, search, extract, and related jobs, including AI Agent tool mode. Fits an n8n directory as a maintained integration, not a workflow template gallery.",
         "relevanceScore": 0.86,
@@ -8653,6 +8963,16 @@
           "surroundingText": "n8n-nodes-firecrawl",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firecrawl",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-firecrawl",
+          "surroundingText": "n8n-nodes-firecrawl",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firecrawl",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -8666,7 +8986,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that wraps Firecrawl for scraping/crawling workflows. Useful as an integration, not an importable template or official docs.",
         "relevanceScore": 0.72,
@@ -8926,6 +9246,16 @@
           "surroundingText": "n8n-nodes-puppeteer",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-puppeteer",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-puppeteer",
+          "surroundingText": "n8n-nodes-puppeteer",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-puppeteer",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -8939,7 +9269,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that adds Puppeteer browser automation (HTML, screenshots, PDFs, custom scripts) with Docker and remote-browser options; MIT-licensed and actively published on npm.",
         "relevanceScore": 0.86,
@@ -9200,6 +9530,16 @@
           "surroundingText": "n8n-nodes-serpapi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-serpapi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-serpapi",
+          "surroundingText": "n8n-nodes-serpapi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-serpapi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -9213,7 +9553,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node that connects workflows to SerpApi. Useful as a maintained n8n integration, not as an importable workflow template.",
         "relevanceScore": 0.78,
@@ -9473,6 +9813,16 @@
           "surroundingText": "n8n-nodes-nvk-browser 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-nvk-browser",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-nvk-browser 🆕",
+          "surroundingText": "n8n-nodes-nvk-browser 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-nvk-browser",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -9486,7 +9836,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Canonical npm URL for this n8n community node currently returns package-not-found; related NVK Browser automation lives under a different package name with incomplete docs. Treat as a broken listing until a live install path and repo are confirmed.",
         "relevanceScore": 0.58,
@@ -9747,6 +10097,16 @@
           "surroundingText": "n8n-nodes-webpage-content-extractor",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-webpage-content-extractor",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-webpage-content-extractor",
+          "surroundingText": "n8n-nodes-webpage-content-extractor",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-webpage-content-extractor",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -9760,7 +10120,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that extracts main article text from a URL using Mozilla Readability (reader-mode style). Early 0.1.x package with modest weekly downloads; MIT-licensed and installable from npm.",
         "relevanceScore": 0.82,
@@ -10020,6 +10380,16 @@
           "surroundingText": "n8n-nodes-firecrawl-scraper",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firecrawl-scraper",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-firecrawl-scraper",
+          "surroundingText": "n8n-nodes-firecrawl-scraper",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firecrawl-scraper",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -10033,7 +10403,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping the Firecrawl JS SDK for scrape, crawl, map, and extract. MIT-licensed and installable as a community package, but still marked in development, with very low download/star counts and leftover HttpBin starter files.",
         "relevanceScore": 0.72,
@@ -10293,6 +10663,16 @@
           "surroundingText": "n8n-nodes-browserless",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-browserless",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-browserless",
+          "surroundingText": "n8n-nodes-browserless",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-browserless",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -10306,7 +10686,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that integrates Browserless for browser automation and scraping. MIT-licensed npm package with modest weekly downloads; not an official n8n or Browserless product.",
         "relevanceScore": 0.82,
@@ -10568,6 +10948,16 @@
           "surroundingText": "n8n-nodes-globals",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-globals",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-globals",
+          "surroundingText": "n8n-nodes-globals",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-globals",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -10581,7 +10971,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that stores reusable constants in credentials and exposes them in workflows. Suitable as a maintained integration, not a workflow template gallery.",
         "relevanceScore": 0.82,
@@ -10842,6 +11232,16 @@
           "surroundingText": "n8n-nodes-text-manipulation",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-text-manipulation",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-text-manipulation",
+          "surroundingText": "n8n-nodes-text-manipulation",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-text-manipulation",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -10855,7 +11255,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for string/text transforms (MIT, ~1k weekly downloads). Useful as a maintained community integration, not an official template or workflow gallery.",
         "relevanceScore": 0.72,
@@ -11116,6 +11516,16 @@
           "surroundingText": "n8n-nodes-datastore",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-datastore",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-datastore",
+          "surroundingText": "n8n-nodes-datastore",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-datastore",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -11129,7 +11539,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node for an in-memory key-value store between workflow runs; the repo now points users to official n8n Data Tables instead.",
         "relevanceScore": 0.72,
@@ -11389,6 +11799,16 @@
           "surroundingText": "n8n-nodes-cronlytic",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cronlytic",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-cronlytic",
+          "surroundingText": "n8n-nodes-cronlytic",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cronlytic",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -11402,7 +11822,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that triggers workflows via Cronlytic webhooks and managed cron jobs. Early 0.1.x package with low GitHub traction; useful only if you already use or will pay for Cronlytic.",
         "relevanceScore": 0.72,
@@ -11663,6 +12083,16 @@
           "surroundingText": "n8n-nodes-tesseractjs",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-tesseractjs",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-tesseractjs",
+          "surroundingText": "n8n-nodes-tesseractjs",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-tesseractjs",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -11676,7 +12106,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that wraps Tesseract.js for OCR on images (and related PDF/image deps). Importable as an n8n community package, not an official template gallery.",
         "relevanceScore": 0.85,
@@ -11935,6 +12365,16 @@
           "surroundingText": "@splainez/n8n-nodes-phonenumber-parser",
           "targetUrl": "https://www.npmjs.com/package/@splainez/n8n-nodes-phonenumber-parser",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@splainez/n8n-nodes-phonenumber-parser",
+          "surroundingText": "@splainez/n8n-nodes-phonenumber-parser",
+          "targetUrl": "https://www.npmjs.com/package/@splainez/n8n-nodes-phonenumber-parser",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -11948,7 +12388,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that parses phone numbers via libphonenumber-js. Useful as a small integration, not an importable workflow template or official docs.",
         "relevanceScore": 0.55,
@@ -12209,6 +12649,16 @@
           "surroundingText": "n8n-nodes-evolution-api-media-downloader",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-evolution-api-media-downloader",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-evolution-api-media-downloader",
+          "surroundingText": "n8n-nodes-evolution-api-media-downloader",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-evolution-api-media-downloader",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -12222,7 +12672,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node (MIT, v0.1.0) that downloads media from Evolution API message data. GitHub homepage 404s and weekly downloads are low (~68), so treat as a niche, weakly maintained integration rather than a template library.",
         "relevanceScore": 0.55,
@@ -12481,6 +12931,16 @@
           "surroundingText": "n8n-nodes-kommo",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-kommo",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-kommo",
+          "surroundingText": "n8n-nodes-kommo",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-kommo",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -12494,7 +12954,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for the Kommo API (MIT, npm). It is an integration package rather than an importable workflow template; docs on npm are minimal.",
         "relevanceScore": 0.72,
@@ -12755,6 +13215,16 @@
           "surroundingText": "@brave/n8n-nodes-brave-search",
           "targetUrl": "https://www.npmjs.com/package/@brave/n8n-nodes-brave-search",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@brave/n8n-nodes-brave-search",
+          "surroundingText": "@brave/n8n-nodes-brave-search",
+          "targetUrl": "https://www.npmjs.com/package/@brave/n8n-nodes-brave-search",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -12768,7 +13238,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Brave community n8n node wrapping the Brave Search API; MIT-licensed npm package with modest weekly downloads and a public GitHub repo.",
         "relevanceScore": 0.86,
@@ -13028,6 +13498,16 @@
           "surroundingText": "@tavily/n8n-nodes-tavily",
           "targetUrl": "https://www.npmjs.com/package/@tavily/n8n-nodes-tavily",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@tavily/n8n-nodes-tavily",
+          "surroundingText": "@tavily/n8n-nodes-tavily",
+          "targetUrl": "https://www.npmjs.com/package/@tavily/n8n-nodes-tavily",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -13041,7 +13521,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Tavily community n8n node package (MIT) for web search and content extraction, with a public GitHub repo and modest weekly npm usage.",
         "relevanceScore": 0.86,
@@ -13301,6 +13781,16 @@
           "surroundingText": "@apify/n8n-nodes-apify",
           "targetUrl": "https://www.npmjs.com/package/@apify/n8n-nodes-apify",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@apify/n8n-nodes-apify",
+          "surroundingText": "@apify/n8n-nodes-apify",
+          "targetUrl": "https://www.npmjs.com/package/@apify/n8n-nodes-apify",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -13314,7 +13804,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node for Apify: run Actors/tasks, fetch datasets and KV records, and trigger workflows on run completion. Documented install for self-hosted and n8n Cloud with tests and CI.",
         "relevanceScore": 0.88,
@@ -13578,6 +14068,16 @@
           "surroundingText": "@cloudconvert/n8n-nodes-cloudconvert",
           "targetUrl": "https://www.npmjs.com/package/@cloudconvert/n8n-nodes-cloudconvert",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@cloudconvert/n8n-nodes-cloudconvert",
+          "surroundingText": "@cloudconvert/n8n-nodes-cloudconvert",
+          "targetUrl": "https://www.npmjs.com/package/@cloudconvert/n8n-nodes-cloudconvert",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -13591,7 +14091,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official-looking MIT n8n community node that wraps CloudConvert’s file conversion API; relevant as a maintained integration, not a workflow template gallery.",
         "relevanceScore": 0.78,
@@ -13851,6 +14351,16 @@
           "surroundingText": "n8n-nodes-apify",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-apify",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-apify",
+          "surroundingText": "n8n-nodes-apify",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-apify",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -13864,7 +14374,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that calls Apify actors, tasks, runs, and datasets via API key. Early 0.1.0 release with modest usage; useful as an n8n integration, not a template gallery.",
         "relevanceScore": 0.78,
@@ -14125,6 +14635,16 @@
           "surroundingText": "n8n-nodes-transcript-lol 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-transcript-lol",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-transcript-lol 🆕",
+          "surroundingText": "n8n-nodes-transcript-lol 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-transcript-lol",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -14138,7 +14658,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that wraps Transcript.lol for audio/video speech-to-text. It is an integration package, not an n8n workflow template or official docs.",
         "relevanceScore": 0.62,
@@ -14399,6 +14919,16 @@
           "surroundingText": "n8n-nodes-minio",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-minio",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-minio",
+          "surroundingText": "n8n-nodes-minio",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-minio",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -14412,7 +14942,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node wrapping the MinIO client for presigned get/put URLs and object deletion. Useful as an integration, not a workflow template; small repo and a narrow operation set.",
         "relevanceScore": 0.78,
@@ -14673,6 +15203,16 @@
           "surroundingText": "n8n-nodes-instagram-token",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-instagram-token",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-instagram-token",
+          "surroundingText": "n8n-nodes-instagram-token",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-instagram-token",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -14686,7 +15226,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node for Instagram Graph/Messaging APIs with access-token credentials, auto-refresh, messaging, publishing, comments, and a webhook trigger. Small GitHub footprint (8 stars) and modest npm usage; it is a maintained fork rather than official n8n or Meta docs.",
         "relevanceScore": 0.82,
@@ -14949,6 +15489,16 @@
           "surroundingText": "n8n-nodes-openpix",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-openpix",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-openpix",
+          "surroundingText": "n8n-nodes-openpix",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-openpix",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -14962,7 +15512,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for OpenPix (Pix payments). Importable as an n8n community node, not a workflow template gallery.",
         "relevanceScore": 0.72,
@@ -15223,6 +15773,16 @@
           "surroundingText": "n8n-nodes-powerbi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-powerbi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-powerbi",
+          "surroundingText": "n8n-nodes-powerbi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-powerbi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -15236,7 +15796,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for Microsoft Power BI REST APIs (reports, datasets, DAX, refresh, gateways). MIT, published on npm with GitHub source; not official Microsoft/n8n templates.",
         "relevanceScore": 0.82,
@@ -15499,6 +16059,16 @@
           "surroundingText": "n8n-nodes-qdrant",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-qdrant",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-qdrant",
+          "surroundingText": "n8n-nodes-qdrant",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-qdrant",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -15512,7 +16082,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node for Qdrant vector search, maintained by qdrant-tech with modest weekly npm usage.",
         "relevanceScore": 0.82,
@@ -15772,6 +16342,16 @@
           "surroundingText": "n8n-nodes-cnpj",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cnpj",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-cnpj",
+          "surroundingText": "n8n-nodes-cnpj",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cnpj",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -15785,7 +16365,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that looks up Brazilian company details by CNPJ. Niche integration, not a workflow template; useful only if you need that data in n8n.",
         "relevanceScore": 0.55,
@@ -16045,6 +16625,16 @@
           "surroundingText": "@justbrunasso/n8n-nodes-glpi 🆕",
           "targetUrl": "https://www.npmjs.com/package/@justbrunasso/n8n-nodes-glpi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@justbrunasso/n8n-nodes-glpi 🆕",
+          "surroundingText": "@justbrunasso/n8n-nodes-glpi 🆕",
+          "targetUrl": "https://www.npmjs.com/package/@justbrunasso/n8n-nodes-glpi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -16058,7 +16648,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping the GLPI REST API (9.x+). Useful as an integration package, not an importable workflow template; very low download volume.",
         "relevanceScore": 0.62,
@@ -16318,6 +16908,16 @@
           "surroundingText": "n8n-nodes-firebird",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firebird",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-firebird",
+          "surroundingText": "n8n-nodes-firebird",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-firebird",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -16331,7 +16931,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that runs Query, Insert, and Update against Firebird SQL. Useful as a maintained integration, not a workflow template gallery.",
         "relevanceScore": 0.72,
@@ -16590,6 +17190,16 @@
           "surroundingText": "n8n-nodes-dataforseo",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-dataforseo",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-dataforseo",
+          "surroundingText": "n8n-nodes-dataforseo",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-dataforseo",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -16603,7 +17213,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node package that wraps DataForSEO APIs for SEO, SERP, backlink, and keyword workflows. Fits an n8n directory as a maintained integration rather than a template gallery.",
         "relevanceScore": 0.86,
@@ -16863,6 +17473,16 @@
           "surroundingText": "n8n-nodes-instagram-integrations",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-instagram-integrations",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-instagram-integrations",
+          "surroundingText": "n8n-nodes-instagram-integrations",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-instagram-integrations",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -16876,7 +17496,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node for Instagram Graph API (OAuth2/token, messaging, publishing, comments, webhooks). Relevant as a maintained integration, not a workflow-template gallery.",
         "relevanceScore": 0.82,
@@ -17138,6 +17758,16 @@
           "surroundingText": "@asaasbr/n8n-nodes-asaas",
           "targetUrl": "https://www.npmjs.com/package/@asaasbr/n8n-nodes-asaas",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@asaasbr/n8n-nodes-asaas",
+          "surroundingText": "@asaasbr/n8n-nodes-asaas",
+          "targetUrl": "https://www.npmjs.com/package/@asaasbr/n8n-nodes-asaas",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -17151,7 +17781,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official-looking MIT n8n community node package for the Asaas payments API, with modest weekly npm usage. GitHub homepage 404s, so maintenance and docs should be checked before listing.",
         "relevanceScore": 0.72,
@@ -17412,6 +18042,16 @@
           "surroundingText": "n8n-nodes-awork",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-awork",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-awork",
+          "surroundingText": "n8n-nodes-awork",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-awork",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -17425,7 +18065,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package that connects workflows to the awork API; MIT-licensed and maintained by awork, with modest weekly downloads.",
         "relevanceScore": 0.78,
@@ -17682,6 +18322,16 @@
           "surroundingText": "n8n-nodes-comfyui-all 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-comfyui-all",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-comfyui-all 🆕",
+          "surroundingText": "n8n-nodes-comfyui-all 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-comfyui-all",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -17695,7 +18345,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that runs ComfyUI workflows with auto Tool/Action modes and dynamic parameter overrides. Real integration, but very low adoption (19 weekly npm downloads, 7 GitHub stars) so it needs a human check before listing.",
         "relevanceScore": 0.72,
@@ -17955,6 +18605,16 @@
           "surroundingText": "n8n-nodes-binance",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-binance",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-binance",
+          "surroundingText": "n8n-nodes-binance",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-binance",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -17968,7 +18628,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for Binance spot/futures actions and triggers. It is an integration, not an importable workflow template, with very low npm usage and a screenshot-heavy README.",
         "relevanceScore": 0.62,
@@ -18229,6 +18889,16 @@
           "surroundingText": "@skriptfabrik/n8n-nodes-moco",
           "targetUrl": "https://www.npmjs.com/package/@skriptfabrik/n8n-nodes-moco",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@skriptfabrik/n8n-nodes-moco",
+          "surroundingText": "@skriptfabrik/n8n-nodes-moco",
+          "targetUrl": "https://www.npmjs.com/package/@skriptfabrik/n8n-nodes-moco",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -18242,7 +18912,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node package that exposes CRUD operations for MOCO ERP (activities, companies, contacts, deals, projects, users). Installable from npm with documented credentials; weekly downloads are low.",
         "relevanceScore": 0.82,
@@ -18504,6 +19174,16 @@
           "surroundingText": "@custom-js/n8n-nodes-pdf-toolkit",
           "targetUrl": "https://www.npmjs.com/package/@custom-js/n8n-nodes-pdf-toolkit",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@custom-js/n8n-nodes-pdf-toolkit",
+          "surroundingText": "@custom-js/n8n-nodes-pdf-toolkit",
+          "targetUrl": "https://www.npmjs.com/package/@custom-js/n8n-nodes-pdf-toolkit",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -18517,7 +19197,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package (MIT) that wraps customjs.space PDF APIs; relevant for n8n PDF workflows but depends on a third-party SaaS, not a template gallery.",
         "relevanceScore": 0.78,
@@ -18777,6 +19457,16 @@
           "surroundingText": "@yuniruyuni/n8n-nodes-twitch 🆕",
           "targetUrl": "https://www.npmjs.com/package/@yuniruyuni/n8n-nodes-twitch",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@yuniruyuni/n8n-nodes-twitch 🆕",
+          "surroundingText": "@yuniruyuni/n8n-nodes-twitch 🆕",
+          "targetUrl": "https://www.npmjs.com/package/@yuniruyuni/n8n-nodes-twitch",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -18790,7 +19480,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for Twitch API operations and EventSub triggers. Early 0.1.x release with very low npm download volume; treat as a niche integration, not a template catalog.",
         "relevanceScore": 0.62,
@@ -19051,6 +19741,16 @@
           "surroundingText": "n8n-nodes-shortio",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-shortio",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-shortio",
+          "surroundingText": "n8n-nodes-shortio",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-shortio",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -19064,7 +19764,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community MIT n8n node that talks to Short.io for custom short links. Relevant as a maintained-looking integration package, but weekly downloads are very low and it is unaffiliated with Short.io.",
         "relevanceScore": 0.72,
@@ -19324,6 +20024,16 @@
           "surroundingText": "@mookielianhd/n8n-nodes-instagram",
           "targetUrl": "https://www.npmjs.com/package/@mookielianhd/n8n-nodes-instagram",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@mookielianhd/n8n-nodes-instagram",
+          "surroundingText": "@mookielianhd/n8n-nodes-instagram",
+          "targetUrl": "https://www.npmjs.com/package/@mookielianhd/n8n-nodes-instagram",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -19337,7 +20047,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node for Instagram Graph API publishing, comments, DMs, and webhooks. Useful as a maintained integration, not an importable workflow template pack.",
         "relevanceScore": 0.82,
@@ -19599,6 +20309,16 @@
           "surroundingText": "n8n-nodes-asaas-v2",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-asaas-v2",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-asaas-v2",
+          "surroundingText": "n8n-nodes-asaas-v2",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-asaas-v2",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -19612,7 +20332,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for the Asaas API (Brazilian payments). Useful as a maintained community integration, not a workflow template or official docs.",
         "relevanceScore": 0.72,
@@ -19872,6 +20592,16 @@
           "surroundingText": "n8n-nodes-confirm8 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-confirm8",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-confirm8 🆕",
+          "surroundingText": "n8n-nodes-confirm8 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-confirm8",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -19885,7 +20615,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping the Confirm8 API (MIT, v0.52.0). Useful as a maintained integration candidate, but it is not an importable workflow template, has ~2 weekly downloads, and puts API tokens in node parameters rather than n8n credentials.",
         "relevanceScore": 0.62,
@@ -20147,6 +20877,16 @@
           "surroundingText": "n8n-nodes-metricool-or 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-metricool-or",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-metricool-or 🆕",
+          "surroundingText": "n8n-nodes-metricool-or 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-metricool-or",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -20160,7 +20900,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node for Metricool (brands, analytics, scheduling, ads). Useful integration, but it is not an importable workflow template and has very low npm adoption.",
         "relevanceScore": 0.62,
@@ -20421,6 +21161,16 @@
           "surroundingText": "@elevenlabs/n8n-nodes-elevenlabs",
           "targetUrl": "https://www.npmjs.com/package/@elevenlabs/n8n-nodes-elevenlabs",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@elevenlabs/n8n-nodes-elevenlabs",
+          "surroundingText": "@elevenlabs/n8n-nodes-elevenlabs",
+          "targetUrl": "https://www.npmjs.com/package/@elevenlabs/n8n-nodes-elevenlabs",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -20434,7 +21184,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node that connects workflows to ElevenLabs voice APIs (TTS, STT, conversational AI). Maintained npm package with substantial weekly downloads, not a template gallery.",
         "relevanceScore": 0.86,
@@ -20696,6 +21446,16 @@
           "surroundingText": "n8n-nodes-mcp",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-mcp",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-mcp",
+          "surroundingText": "n8n-nodes-mcp",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-mcp",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -20709,7 +21469,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that connects workflows to MCP servers (STDIO, HTTP Streamable, legacy SSE) so agents can list resources, run tools, and use prompts. MIT-licensed npm package with substantial adoption; not an official n8n product.",
         "relevanceScore": 0.92,
@@ -20972,6 +21732,16 @@
           "surroundingText": "n8n-nodes-elevenlabs",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-elevenlabs",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-elevenlabs",
+          "surroundingText": "n8n-nodes-elevenlabs",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-elevenlabs",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -20985,7 +21755,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that wires ElevenLabs text-to-speech into workflows. MIT-licensed and downloadable from npm, but still at 0.0.6 so treat it as an unofficial integration rather than a template pack.",
         "relevanceScore": 0.78,
@@ -21244,6 +22014,16 @@
           "surroundingText": "n8n-nodes-deepseek",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-deepseek",
+          "surroundingText": "n8n-nodes-deepseek",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-deepseek",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -21257,7 +22037,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that adds DeepSeek chat/completion-style operations similar to OpenAI nodes. Useful as a maintained integration, not a workflow template gallery.",
         "relevanceScore": 0.78,
@@ -21516,6 +22296,16 @@
           "surroundingText": "n8n-nodes-palatine-speech 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-palatine-speech",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-palatine-speech 🆕",
+          "surroundingText": "n8n-nodes-palatine-speech 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-palatine-speech",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -21529,7 +22319,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that wraps Palatine Speech for transcription, diarization, sentiment, summarization, and OpenAI-compatible chat. Useful as a maintained integration, not an importable workflow template.",
         "relevanceScore": 0.72,
@@ -21791,6 +22581,16 @@
           "surroundingText": "n8n-nodes-aiscraper",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aiscraper",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-aiscraper",
+          "surroundingText": "n8n-nodes-aiscraper",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aiscraper",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -21804,7 +22604,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that calls the Parsera API for AI-powered web scraping. Useful as a maintained integration, not an importable workflow template.",
         "relevanceScore": 0.72,
@@ -22063,6 +22863,16 @@
           "surroundingText": "n8n-nodes-pdfco",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdfco",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-pdfco",
+          "surroundingText": "n8n-nodes-pdfco",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdfco",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -22076,7 +22886,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official PDF.co community node for n8n that wraps convert, merge, split, OCR, and AI document APIs. MIT-licensed npm package with substantial weekly downloads; PDF.co itself is a paid API behind credentials.",
         "relevanceScore": 0.86,
@@ -22338,6 +23148,16 @@
           "surroundingText": "n8n-nodes-docx-filler 🆕",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-docx-filler",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-docx-filler 🆕",
+          "surroundingText": "n8n-nodes-docx-filler 🆕",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-docx-filler",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -22351,7 +23171,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for filling DOCX/PDF templates with {{TAG}} placeholders; MIT-licensed but very low weekly downloads and not an official n8n template catalog.",
         "relevanceScore": 0.72,
@@ -22612,6 +23432,16 @@
           "surroundingText": "n8n-nodes-htmlcsstopdf",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-htmlcsstopdf",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-htmlcsstopdf",
+          "surroundingText": "n8n-nodes-htmlcsstopdf",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-htmlcsstopdf",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -22625,7 +23455,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that converts HTML/CSS to PDF via the PdfMunk API; useful as a maintained integration, but it depends on a third-party paid API rather than being an importable workflow template.",
         "relevanceScore": 0.72,
@@ -22885,6 +23715,16 @@
           "surroundingText": "n8n-nodes-pdfkit",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdfkit",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-pdfkit",
+          "surroundingText": "n8n-nodes-pdfkit",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdfkit",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -22898,7 +23738,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that uses PDFKit mainly to turn images into PDFs. Early 0.1.x MIT package with a thin description and limited stated scope.",
         "relevanceScore": 0.72,
@@ -23158,6 +23998,16 @@
           "surroundingText": "n8n-nodes-docx-converter",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-docx-converter",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-docx-converter",
+          "surroundingText": "n8n-nodes-docx-converter",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-docx-converter",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -23171,7 +24021,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that extracts plain text from DOCX binary input via Mammoth.js. Useful as an integration, not an importable workflow template.",
         "relevanceScore": 0.62,
@@ -23431,6 +24281,16 @@
           "surroundingText": "n8n-nodes-pdf-generation",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdf-generation",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-pdf-generation",
+          "surroundingText": "n8n-nodes-pdf-generation",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pdf-generation",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -23444,7 +24304,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node (v0.1.0, MIT) that generates PDFs from text or table data. Early, low-download package with extra unrelated dependencies; worth a human look before listing.",
         "relevanceScore": 0.62,
@@ -23705,6 +24565,16 @@
           "surroundingText": "n8n-nodes-sb-render",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-sb-render",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-sb-render",
+          "surroundingText": "n8n-nodes-sb-render",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-sb-render",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -23718,7 +24588,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node for FFmpeg video composition (subtitles, BGM, narration, merge, parallax). Real package with a GitHub repo, but very low adoption and it is a node, not an importable workflow template.",
         "relevanceScore": 0.55,
@@ -23979,6 +24849,16 @@
           "surroundingText": "n8n-nodes-zohozeptomail",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zohozeptomail",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-zohozeptomail",
+          "surroundingText": "n8n-nodes-zohozeptomail",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-zohozeptomail",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -23992,7 +24872,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Zoho-maintained n8n community node for Zoho ZeptoMail (MIT, v1.0.3). Useful as a maintained integration, not a workflow template library.",
         "relevanceScore": 0.72,
@@ -24252,6 +25132,16 @@
           "surroundingText": "n8n-nodes-a2a",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-a2a",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-a2a",
+          "surroundingText": "n8n-nodes-a2a",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-a2a",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -24265,7 +25155,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node on npm (0.4.0, MIT) claiming A2A banking and Google Agent2Agent support, but the linked GitHub repo 404s, early metadata still uses starter placeholders, and the package still ships ExampleNode/HttpBin. Weak fit versus maintained n8n templates or official docs.",
         "relevanceScore": 0.45,
@@ -24527,6 +25417,16 @@
           "surroundingText": "n8n-nodes-rd-station-crm",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-rd-station-crm",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-rd-station-crm",
+          "surroundingText": "n8n-nodes-rd-station-crm",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-rd-station-crm",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -24540,7 +25440,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node for RD Station CRM covering API v1/v2 resources and a webhook trigger. Useful as an integration package, not an importable workflow template.",
         "relevanceScore": 0.72,
@@ -24802,6 +25702,16 @@
           "surroundingText": "n8n-nodes-notionmd",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-notionmd",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-notionmd",
+          "surroundingText": "n8n-nodes-notionmd",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-notionmd",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -24815,7 +25725,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that converts Markdown into Notion blocks. Early 0.1.0 release with very low npm usage, so treat as niche rather than a maintained workflow template.",
         "relevanceScore": 0.45,
@@ -25074,6 +25984,16 @@
           "surroundingText": "@telnyx/n8n-nodes-telnyx-ai",
           "targetUrl": "https://www.npmjs.com/package/@telnyx/n8n-nodes-telnyx-ai",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@telnyx/n8n-nodes-telnyx-ai",
+          "surroundingText": "@telnyx/n8n-nodes-telnyx-ai",
+          "targetUrl": "https://www.npmjs.com/package/@telnyx/n8n-nodes-telnyx-ai",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -25087,7 +26007,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed Telnyx community node for n8n (voice AI, TTS/STT, conversational agents). Relevant as a maintained n8n integration, not a workflow template gallery.",
         "relevanceScore": 0.78,
@@ -25349,6 +26269,16 @@
           "surroundingText": "@pdfgeneratorapi/n8n-nodes-pdf-generator-api",
           "targetUrl": "https://www.npmjs.com/package/@pdfgeneratorapi/n8n-nodes-pdf-generator-api",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@pdfgeneratorapi/n8n-nodes-pdf-generator-api",
+          "surroundingText": "@pdfgeneratorapi/n8n-nodes-pdf-generator-api",
+          "targetUrl": "https://www.npmjs.com/package/@pdfgeneratorapi/n8n-nodes-pdf-generator-api",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -25362,7 +26292,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT n8n community node wrapping PDF Generator API for templates, HTML/URL conversion, PDF services, and e-invoices. Node is maintained with tests and CI; generation itself depends on a paid SaaS account.",
         "relevanceScore": 0.82,
@@ -25625,6 +26555,16 @@
           "surroundingText": "n8n-nodes-sshv2",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-sshv2",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-sshv2",
+          "surroundingText": "n8n-nodes-sshv2",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-sshv2",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -25638,7 +26578,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for SSH/SCP/SFTP (command, upload, download) with MIT license and modest weekly downloads. Fits n8n integrations more than importable workflow templates; treat as a third-party node, not official docs.",
         "relevanceScore": 0.62,
@@ -25899,6 +26839,16 @@
           "surroundingText": "@blotato/n8n-nodes-blotato",
           "targetUrl": "https://www.npmjs.com/package/@blotato/n8n-nodes-blotato",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@blotato/n8n-nodes-blotato",
+          "surroundingText": "@blotato/n8n-nodes-blotato",
+          "targetUrl": "https://www.npmjs.com/package/@blotato/n8n-nodes-blotato",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -25912,7 +26862,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT-licensed n8n community node for Blotato: AI visuals, media upload, multi-platform posting, and source extraction. Useful n8n integration, but Blotato API access requires a paid subscription.",
         "relevanceScore": 0.82,
@@ -26174,6 +27124,16 @@
           "surroundingText": "n8n-nodes-megaapi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-megaapi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-megaapi",
+          "surroundingText": "n8n-nodes-megaapi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-megaapi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -26187,7 +27147,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for MegaAPI WhatsApp (messaging, groups, media). MIT, v1.3.1, low weekly downloads; GitHub homepage currently 404.",
         "relevanceScore": 0.72,
@@ -26448,6 +27408,16 @@
           "surroundingText": "n8n-nodes-aistudio",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aistudio",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-aistudio",
+          "surroundingText": "n8n-nodes-aistudio",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aistudio",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -26461,7 +27431,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping Gemini generateContent; installable from npm but sparse docs, very low usage, and models appear stuck at Gemini 1.x while n8n now has official Gemini nodes.",
         "relevanceScore": 0.42,
@@ -26720,6 +27690,16 @@
           "surroundingText": "n8n-nodes-upload-post",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-upload-post",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-upload-post",
+          "surroundingText": "n8n-nodes-upload-post",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-upload-post",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -26733,7 +27713,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official MIT n8n community node for the Upload-Post API: installable from npm, with credentials, upload/status/analytics operations, and GitHub source. Depends on a third-party posting API and API keys, not an n8n workflow template.",
         "relevanceScore": 0.82,
@@ -26997,6 +27977,16 @@
           "surroundingText": "@gotohuman/n8n-nodes-gotohuman",
           "targetUrl": "https://www.npmjs.com/package/@gotohuman/n8n-nodes-gotohuman",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@gotohuman/n8n-nodes-gotohuman",
+          "surroundingText": "@gotohuman/n8n-nodes-gotohuman",
+          "targetUrl": "https://www.npmjs.com/package/@gotohuman/n8n-nodes-gotohuman",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -27010,7 +28000,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that inserts human review/approval steps into AI workflows via gotoHuman. MIT-licensed npm package with modest weekly downloads; useful as a maintained n8n integration rather than a template gallery.",
         "relevanceScore": 0.82,
@@ -27271,6 +28261,16 @@
           "surroundingText": "n8n-nodes-pushinator",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pushinator",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-pushinator",
+          "surroundingText": "n8n-nodes-pushinator",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-pushinator",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -27284,7 +28284,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that sends Pushinator push notifications via API token credentials. Real MIT package on npm, but tiny usage (0 GitHub stars, ~56 weekly downloads) and a single Send Notification operation.",
         "relevanceScore": 0.62,
@@ -27546,6 +28546,16 @@
           "surroundingText": "@igabm/n8n-nodes-tiktok",
           "targetUrl": "https://www.npmjs.com/package/@igabm/n8n-nodes-tiktok",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@igabm/n8n-nodes-tiktok",
+          "surroundingText": "@igabm/n8n-nodes-tiktok",
+          "targetUrl": "https://www.npmjs.com/package/@igabm/n8n-nodes-tiktok",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -27559,7 +28569,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node package for TikTok Content Posting API (video/photo post, status, profile) via OAuth2. README documents operations and MIT licensing, but the repo description still says it is work-in-progress and not working yet.",
         "relevanceScore": 0.82,
@@ -27820,6 +28830,16 @@
           "surroundingText": "n8n-nodes-htmlcsstoimage",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-htmlcsstoimage",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-htmlcsstoimage",
+          "surroundingText": "n8n-nodes-htmlcsstoimage",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-htmlcsstoimage",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -27833,7 +28853,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT n8n community node wrapping htmlcsstoimg.com for HTML/CSS-to-image and URL screenshots; relevant as an integration, not an importable workflow template.",
         "relevanceScore": 0.68,
@@ -28093,6 +29113,16 @@
           "surroundingText": "n8n-nodes-aimlapi",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aimlapi",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-aimlapi",
+          "surroundingText": "n8n-nodes-aimlapi",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aimlapi",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -28106,7 +29136,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that calls AIMLAPI for chat, image, audio, video, TTS/STT, and embeddings; useful as an integration, not as workflow templates.",
         "relevanceScore": 0.78,
@@ -28367,6 +29397,16 @@
           "surroundingText": "n8n-nodes-randomizer",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-randomizer",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-randomizer",
+          "surroundingText": "n8n-nodes-randomizer",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-randomizer",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -28380,7 +29420,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that randomly routes between two inputs (uniform or percentage-weighted). Small MIT package (v0.1.0, ~127 weekly downloads, 4 stars); useful as a niche workflow helper, not a template library.",
         "relevanceScore": 0.55,
@@ -28639,6 +29679,16 @@
           "surroundingText": "n8n-nodes-seats-aero",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-seats-aero",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-seats-aero",
+          "surroundingText": "n8n-nodes-seats-aero",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-seats-aero",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -28652,7 +29702,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node wrapping the Seats.aero Partner API for award-seat search and monitoring. Niche and lightly used (v0.1.4, ~2 weekly downloads); useful only if you already have a Pro API key.",
         "relevanceScore": 0.68,
@@ -28913,6 +29963,16 @@
           "surroundingText": "n8n-nodes-cloudinary",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cloudinary",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-cloudinary",
+          "surroundingText": "n8n-nodes-cloudinary",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-cloudinary",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -28926,7 +29986,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Cloudinary community node for n8n (upload, tags, metadata). MIT-licensed npm package with a public GitHub repo; useful as an integration, not a workflow template.",
         "relevanceScore": 0.72,
@@ -29186,6 +30246,16 @@
           "surroundingText": "n8n-nodes-aws-sqs-trigger",
           "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aws-sqs-trigger",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n-nodes-aws-sqs-trigger",
+          "surroundingText": "n8n-nodes-aws-sqs-trigger",
+          "targetUrl": "https://www.npmjs.com/package/n8n-nodes-aws-sqs-trigger",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -29199,7 +30269,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Community n8n node that triggers workflows from AWS SQS using existing n8n AWS credentials. Early 0.1.1 package with modest usage; useful as a maintained integration, not a workflow template.",
         "relevanceScore": 0.62,
@@ -29460,6 +30530,16 @@
           "surroundingText": "@globalping/n8n-nodes-globalping",
           "targetUrl": "https://www.npmjs.com/package/@globalping/n8n-nodes-globalping",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@globalping/n8n-nodes-globalping",
+          "surroundingText": "@globalping/n8n-nodes-globalping",
+          "targetUrl": "https://www.npmjs.com/package/@globalping/n8n-nodes-globalping",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -29473,7 +30553,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed n8n community node that runs ping, traceroute, MTR, HTTP, and DNS measurements from Globalping’s worldwide probe network. Modest weekly downloads but a real, maintained npm/GitHub package, so it fits an n8n integrations list.",
         "relevanceScore": 0.82,
@@ -29734,6 +30814,16 @@
           "surroundingText": "Installing community nodes",
           "targetUrl": "https://docs.n8n.io/integrations/community-nodes/installation",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Installing community nodes",
+          "surroundingText": "Installing community nodes",
+          "targetUrl": "https://docs.n8n.io/integrations/community-nodes/installation",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -29747,7 +30837,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official n8n documentation covering four ways to install community nodes (verified panel, GUI/npm, CLI, env vars), with a self-hosting caveat for unverified packages. Suitable as a maintained docs link, not a workflow template gallery.",
         "relevanceScore": 0.86,
@@ -30008,6 +31098,16 @@
           "surroundingText": "Installing and updating n8n in Docker",
           "targetUrl": "https://docs.n8n.io/hosting/installation/docker",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Installing and updating n8n in Docker",
+          "surroundingText": "Installing and updating n8n in Docker",
+          "targetUrl": "https://docs.n8n.io/hosting/installation/docker",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -30021,7 +31121,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official n8n docs for Docker install/update, including run commands, PostgreSQL env vars, and image pulls. The page itself is marked outdated and points to Docker Compose as the recommended method.",
         "relevanceScore": 0.78,
@@ -30283,6 +31383,16 @@
           "surroundingText": "Web scraping in n8n",
           "targetUrl": "https://pixeljets.com/blog/web-scraping-in-n8n",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Web scraping in n8n",
+          "surroundingText": "Web scraping in n8n",
+          "targetUrl": "https://pixeljets.com/blog/web-scraping-in-n8n",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -30296,7 +31406,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Vendor-adjacent n8n scraping tutorial covering HTTP Request limits and the ScrapeNinja community node; useful reading, not an importable workflow pack.",
         "relevanceScore": 0.62,
@@ -30559,6 +31669,16 @@
           "surroundingText": "n8n for developers",
           "targetUrl": "https://pixeljets.com/blog/n8n",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "restyler/awesome-n8n",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n for developers",
+          "surroundingText": "n8n for developers",
+          "targetUrl": "https://pixeljets.com/blog/n8n",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -30572,7 +31692,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "First-person 2024–2025 blog on self-hosting n8n (Docker, nginx, Code node, OAuth, pricing) with affiliate/referral links and ScrapeNinja promotion; useful reading, not importable workflows.",
         "relevanceScore": 0.55,
@@ -30833,6 +31953,16 @@
           "surroundingText": "AI 流程平台对比——Dify、Fastgpt、Ragflow",
           "targetUrl": "https://zerozzz.win/ai-%E6%B5%81%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%AF%B9%E6%AF%94dify%E3%80%81fastgpt%E3%80%81ragflow",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AI 流程平台对比——Dify、Fastgpt、Ragflow",
+          "surroundingText": "AI 流程平台对比——Dify、Fastgpt、Ragflow",
+          "targetUrl": "https://zerozzz.win/ai-%E6%B5%81%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%AF%B9%E6%AF%94dify%E3%80%81fastgpt%E3%80%81ragflow",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -30846,7 +31976,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Chinese comparison post of Dify, FastGPT, and Ragflow linked from Awesome-Dify-Workflow; the URL currently returns HTTP 404, so it is not a usable template or official docs resource.",
         "relevanceScore": 0.35,
@@ -31104,6 +32234,16 @@
           "surroundingText": "dify-sandbox-py",
           "targetUrl": "https://github.com/svcvit/dify-sandbox-py",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "dify-sandbox-py",
+          "surroundingText": "dify-sandbox-py",
+          "targetUrl": "https://github.com/svcvit/dify-sandbox-py",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -31119,7 +32259,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Unofficial Dify code-node sandbox drop-in that trades isolation for extra Python/Node deps. Useful for self-hosted personal stacks, not a workflow template and weaker than the official sandbox.",
         "relevanceScore": 0.42,
@@ -31390,6 +32530,16 @@
           "surroundingText": "dify_plugin_collection",
           "targetUrl": "https://github.com/svcvit/dify_plugin_collection",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "dify_plugin_collection",
+          "surroundingText": "dify_plugin_collection",
+          "targetUrl": "https://github.com/svcvit/dify_plugin_collection",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -31405,7 +32555,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Unofficial GitHub mirror of Dify marketplace .difypkg installers for offline use and source inspection. Useful for Dify plugin discovery, but last updated 2025-06-07, omits dependencies, and is not official marketplace or docs.",
         "relevanceScore": 0.72,
@@ -31473,7 +32623,7 @@
       "id": "web:8fec20c6c4e621fb",
       "type": "web_url",
       "canonicalUrl": "https://marketplace.dify.ai",
-      "title": "Marketplace Explore Dify tools, models, and integrations",
+      "title": "官方市场",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -31855,6 +33005,16 @@
           "surroundingText": "官方市场",
           "targetUrl": "https://marketplace.dify.ai",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "官方市场",
+          "surroundingText": "官方市场",
+          "targetUrl": "https://marketplace.dify.ai",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -31869,7 +33029,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Dify Marketplace for discovering tools, models, and integrations; high-signal for Dify workflow directories despite a thin public page.",
         "relevanceScore": 0.92,
@@ -32130,6 +33290,16 @@
           "surroundingText": "google翻译",
           "targetUrl": "https://github.com/svcvit/dify-plugin-google_translate",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "google翻译",
+          "surroundingText": "google翻译",
+          "targetUrl": "https://github.com/svcvit/dify-plugin-google_translate",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -32145,7 +33315,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Small unofficial Dify plugin (v0.0.1) that wraps Google Translate with content and dest parameters; listed in Awesome-Dify-Workflow but is a plugin, not an importable workflow template.",
         "relevanceScore": 0.68,
@@ -32412,6 +33582,16 @@
           "surroundingText": "对话Agent",
           "targetUrl": "https://github.com/svcvit/dify-plugin-tod_agent",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "对话Agent",
+          "surroundingText": "对话Agent",
+          "targetUrl": "https://github.com/svcvit/dify-plugin-tod_agent",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -32427,7 +33607,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT-licensed Dify plugin (v0.0.4) for task-oriented and multi-turn dialogue with schema-based collection and state keys. Early version, modest stars, last push April 2025—review before listing.",
         "relevanceScore": 0.78,
@@ -32696,6 +33876,16 @@
           "surroundingText": "dify-plugin-artifacts",
           "targetUrl": "https://github.com/svcvit/dify-plugin-artifacts",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "dify-plugin-artifacts",
+          "surroundingText": "dify-plugin-artifacts",
+          "targetUrl": "https://github.com/svcvit/dify-plugin-artifacts",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -32711,7 +33901,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "MIT Dify plugin that exposes a chat UI to render LLM-generated HTML (plus canvas) via a chatflow endpoint; small, early (v0.0.x) and last pushed April 2025.",
         "relevanceScore": 0.72,
@@ -32775,7 +33965,7 @@
       "id": "web:2a9390567b5a142f",
       "type": "web_url",
       "canonicalUrl": "https://cloud.dify.ai",
-      "title": "Get Started",
+      "title": "Dify",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -33157,6 +34347,16 @@
           "surroundingText": "Dify",
           "targetUrl": "https://cloud.dify.ai",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Dify",
+          "surroundingText": "Dify",
+          "targetUrl": "https://cloud.dify.ai",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -33171,7 +34371,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Dify Cloud sign-in/app host for building LLM workflows; listed as Get Started from Dify and Awesome-Dify-Workflow. Prefer this as the live product, not a template gallery.",
         "relevanceScore": 0.92,
@@ -33431,6 +34631,16 @@
           "surroundingText": "DIFY插件",
           "targetUrl": "https://marketplace.dify.ai/plugins/svcvit/artifacts",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DIFY插件",
+          "surroundingText": "DIFY插件",
+          "targetUrl": "https://marketplace.dify.ai/plugins/svcvit/artifacts",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -33444,7 +34654,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Dify Marketplace plugin that adds a chat UI capable of rendering LLM-generated HTML. Relevant Dify add-on, but the listing page is thin and HTML rendering carries typical injection-risk caveats.",
         "relevanceScore": 0.82,
@@ -33704,6 +34914,16 @@
           "surroundingText": "MCP Agent 策略",
           "targetUrl": "https://marketplace.dify.ai/plugins/hjlarry/agent",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "MCP Agent 策略",
+          "surroundingText": "MCP Agent 策略",
+          "targetUrl": "https://marketplace.dify.ai/plugins/hjlarry/agent",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -33717,7 +34937,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Dify Marketplace plugin that adds an agent strategy with MCP tool calls and ordinary function calls; relevant for Dify agent setups but still at 0.0.1 with a thin public description.",
         "relevanceScore": 0.78,
@@ -33978,6 +35198,16 @@
           "surroundingText": "Dify MCP 插件指南：一键连接 Zapier，轻松调用 7000+ App 工具",
           "targetUrl": "https://mp.weixin.qq.com/s/CDhqmLO1JXSB__aUMqoGoQ",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Dify MCP 插件指南：一键连接 Zapier，轻松调用 7000+ App 工具",
+          "surroundingText": "Dify MCP 插件指南：一键连接 Zapier，轻松调用 7000+ App 工具",
+          "targetUrl": "https://mp.weixin.qq.com/s/CDhqmLO1JXSB__aUMqoGoQ",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -33991,7 +35221,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "WeChat article titled as a Dify MCP plugin guide to connect Zapier; the page is captcha-gated so it cannot be verified as an importable workflow or official docs.",
         "relevanceScore": 0.25,
@@ -34249,6 +35479,16 @@
           "surroundingText": "DIFY图文知识库如何输出图片内容",
           "targetUrl": "https://blog.vcvit.me/2025/04/21/04-dify-knowledge-base-how-to-output-image-content",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "DIFY图文知识库如何输出图片内容",
+          "surroundingText": "DIFY图文知识库如何输出图片内容",
+          "targetUrl": "https://blog.vcvit.me/2025/04/21/04-dify-knowledge-base-how-to-output-image-content",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -34262,7 +35502,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Personal Hexo tutorial on making Dify knowledge retrieval return mixed text and images by embedding pictures in Word, tuning chunk separators, and prompting a Chatflow LLM. Useful Dify how-to, but not an importable workflow and not official docs.",
         "relevanceScore": 0.72,
@@ -34525,6 +35765,16 @@
           "surroundingText": "@AdamPlatin123",
           "targetUrl": "https://github.com/adamplatin123/open-deep-research-workflow-on-dify",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@AdamPlatin123",
+          "surroundingText": "@AdamPlatin123",
+          "targetUrl": "https://github.com/adamplatin123/open-deep-research-workflow-on-dify",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -34540,7 +35790,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Importable Dify DSL workflow that recreates a multi-source deep-research report pipeline; listed in Awesome-Dify-Workflow with modest stars, last push Feb 2025, no SPDX license on GitHub.",
         "relevanceScore": 0.86,
@@ -34811,6 +36061,16 @@
           "surroundingText": "@svcvit",
           "targetUrl": "https://blog.vcvit.me/2024/12/05/use-dify-sandbox-to-parse-files",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "@svcvit",
+          "surroundingText": "@svcvit",
+          "targetUrl": "https://blog.vcvit.me/2024/12/05/use-dify-sandbox-to-parse-files",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -34824,7 +36084,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Short personal blog post describing a hacky Dify Docker sandbox workaround to locate uploaded files by size; it is not an importable template and the author says the method is not reliable.",
         "relevanceScore": 0.52,
@@ -35084,6 +36344,16 @@
           "surroundingText": "Winson-030",
           "targetUrl": "https://github.com/winson-030/dify-dsl",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Winson-030",
+          "surroundingText": "Winson-030",
+          "targetUrl": "https://github.com/winson-030/dify-dsl",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -35099,7 +36369,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Small GPL-licensed GitHub stash of importable Dify YAML DSL workflows (document Q&A and search-agent variants). README is one line, last push mid-2024, so treat as unmaintained starter templates rather than a documented catalog.",
         "relevanceScore": 0.82,
@@ -35369,6 +36639,16 @@
           "surroundingText": "ghostviper",
           "targetUrl": "https://github.com/ghostviper/dify-workflow",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ghostviper",
+          "surroundingText": "ghostviper",
+          "targetUrl": "https://github.com/ghostviper/dify-workflow",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -35384,7 +36664,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Small GitHub collection of Dify workflow DSLs with a two-line README, Apache-2.0 license, low stars, and last push in June 2024. Importable templates match the directory theme, but documentation and maintenance are too thin for a confident approve.",
         "relevanceScore": 0.72,
@@ -35650,6 +36930,16 @@
           "surroundingText": "Dify 一键生成多尺寸 Cover 与全平台文案",
           "targetUrl": "https://www.youtube.com/watch?v=kCrQp8YZTsQ",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Dify 一键生成多尺寸 Cover 与全平台文案",
+          "surroundingText": "Dify 一键生成多尺寸 Cover 与全平台文案",
+          "targetUrl": "https://www.youtube.com/watch?v=kCrQp8YZTsQ",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -35663,7 +36953,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "YouTube walkthrough of a Dify “one-stop ops” workflow that generates multi-size covers and platform copy. Useful as learning material, but it is not an importable template or official docs.",
         "relevanceScore": 0.62,
@@ -35924,6 +37214,16 @@
           "surroundingText": "dify_course",
           "targetUrl": "https://github.com/pekingmuge/dify_course",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "dify_course",
+          "surroundingText": "dify_course",
+          "targetUrl": "https://github.com/pekingmuge/dify_course",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -35939,7 +37239,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "GitHub demo of a Dify workflow that generates a custom tutorial; the public copy lacks sharding and parallel iteration, and the README mainly sells a paid full version.",
         "relevanceScore": 0.72,
@@ -36207,6 +37507,16 @@
           "surroundingText": "aws-samples",
           "targetUrl": "https://github.com/aws-samples/dify-aws-tool",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "aws-samples",
+          "surroundingText": "aws-samples",
+          "targetUrl": "https://github.com/aws-samples/dify-aws-tool",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -36223,7 +37533,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "AWS Samples repo of Dify plugins (Bedrock, SageMaker, AWS tools), CloudFormation/EKS deploy links, and importable workflow DSL files. Relevant as maintained Dify templates plus AWS integrations, not a screenshot gallery.",
         "relevanceScore": 0.92,
@@ -36496,6 +37806,16 @@
           "surroundingText": "dify-plugin-mem0ai",
           "targetUrl": "https://github.com/tonori/dify-plugin-mem0ai",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "svcvit/Awesome-Dify-Workflow",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "dify-plugin-mem0ai",
+          "surroundingText": "dify-plugin-mem0ai",
+          "targetUrl": "https://github.com/tonori/dify-plugin-mem0ai",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [
@@ -36511,7 +37831,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Unofficial Dify plugin that exposes add/query memory tools against a companion mem0ai-api service. Small, last-pushed mid-2024, no license, and not an importable workflow template.",
         "relevanceScore": 0.62,
@@ -36773,6 +38093,16 @@
           "surroundingText": "Synta MCP",
           "targetUrl": "https://github.com/synta-ai/n8n-mcp-codex-plugin-synta",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Synta MCP",
+          "surroundingText": "Synta MCP",
+          "targetUrl": "https://github.com/synta-ai/n8n-mcp-codex-plugin-synta",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -36786,7 +38116,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Codex plugin that wires Codex to Synta’s remote MCP for building, validating, and debugging n8n workflows. Relevant to n8n automation but it is a Codex/MCP wrapper, not importable n8n/Dify/Flowise templates or official product docs.",
         "relevanceScore": 0.62,
@@ -37047,6 +38377,16 @@
           "surroundingText": "Hiddify",
           "targetUrl": "https://github.com/hiddify/hiddify-app",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Hiddify",
+          "surroundingText": "Hiddify",
+          "targetUrl": "https://github.com/hiddify/hiddify-app",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -37060,7 +38400,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Open-source multi-platform proxy client (Sing-box, Xray, etc.) with no n8n, Dify, or Flowise templates; it does not match an AI-automation workflow directory.",
         "relevanceScore": 0.05,
@@ -37318,6 +38658,16 @@
           "surroundingText": "Lidify",
           "targetUrl": "https://github.com/thewicklowwolf/lidify",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "awesome-selfhosted/awesome-selfhosted",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Lidify",
+          "surroundingText": "Lidify",
+          "targetUrl": "https://github.com/thewicklowwolf/lidify",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -37331,7 +38681,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:00:00.108Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Self-hosted Lidarr music-discovery app (Last.fm; Spotify API broken). Unrelated to n8n, Dify, or Flowise workflow templates.",
         "relevanceScore": 0.05,
@@ -37389,7 +38739,7 @@
       "id": "github:langgenius/dify",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/langgenius/dify",
-      "title": "Support",
+      "title": "Dify",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -37771,6 +39121,16 @@
           "surroundingText": "Dify",
           "targetUrl": "https://github.com/langgenius/dify",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Dify",
+          "surroundingText": "Dify",
+          "targetUrl": "https://github.com/langgenius/dify",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -37785,7 +39145,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Dify GitHub repo: self-hostable LLM app platform with visual workflows, RAG, agents, and APIs. Strong fit for a Dify/n8n/Flowise automation directory; license is Apache-based with extra conditions, not plain Apache 2.0.",
         "relevanceScore": 0.95,
@@ -37846,7 +39206,7 @@
       "id": "github:flowiseai/flowise",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/flowiseai/flowise",
-      "title": "Star",
+      "title": "Flowise",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -38219,6 +39579,16 @@
           "surroundingText": "Flowise",
           "targetUrl": "https://github.com/flowiseai/flowise",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Flowise",
+          "surroundingText": "Flowise",
+          "targetUrl": "https://github.com/flowiseai/flowise",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -38233,7 +39603,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official Flowise GitHub: open-source visual builder for LLM workflows and AI agents, a core product for this directory’s Flowise/n8n/Dify scope.",
         "relevanceScore": 0.98,
@@ -38293,7 +39663,7 @@
       "id": "github:n8n-io/n8n",
       "type": "github_repo",
       "canonicalUrl": "https://github.com/n8n-io/n8n",
-      "title": "GitHub",
+      "title": "n8n",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -38675,6 +40045,16 @@
           "surroundingText": "n8n",
           "targetUrl": "https://github.com/n8n-io/n8n",
           "discoveredAt": "2026-10-29T09:00:00.108Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "AwesomeHomelab/awesome-homelab",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "n8n",
+          "surroundingText": "n8n",
+          "targetUrl": "https://github.com/n8n-io/n8n",
+          "discoveredAt": "2026-10-29T16:02:50.454Z"
         }
       ],
       "globalFactRefs": [],
@@ -38689,7 +40069,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-29T09:20:00.075Z",
+      "updatedAt": "2026-10-29T16:02:50.454Z",
       "aiReview": {
         "summary": "Official n8n source repository: fair-code workflow and AI-agent automation with visual plus code building, self-host or cloud, and a large integration/template catalog. Strong fit for n8n-focused directories; license is Sustainable Use (not OSI) plus a paid enterprise edition.",
         "relevanceScore": 1,
