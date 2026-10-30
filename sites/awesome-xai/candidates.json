@@ -20,112 +20,22 @@
           "discoveredAt": "2026-08-18T00:00:00.000Z"
         }
       ],
-      "globalFactRefs": [],
-      "confidenceScore": 0.5,
+      "globalFactRefs": [
+        "facts:ecosyste:https://github.com/xai-org/grok-1"
+      ],
+      "confidenceScore": 0,
       "confidenceReasons": [
         "formula:awesome-gate-bucket-v1",
-        "bucket:review"
+        "gate:archived"
       ],
-      "riskFlags": [],
-      "recommendedAction": "recommend_approve",
+      "riskFlags": [
+        "archived"
+      ],
+      "recommendedAction": "recommend_reject",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T00:00:00.000Z",
-      "updatedAt": "2026-08-18T00:00:00.000Z",
-      "aiReview": {
-        "summary": "Grok-1 is the official xAI open weights dump.",
-        "relevanceScore": 0.94,
-        "qualityScore": 0.88,
-        "riskScore": 0.08,
-        "suggestedTags": [
-          "grok",
-          "xai"
-        ],
-        "evidence": [
-          "awesome-grok README lists this as the official Grok-1 repository."
-        ],
-        "uncertainty": [],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-30T09:38:03.624Z",
-        "modelId": "gemini-3-flash-preview",
-        "promptVersion": "2",
-        "suggestedCategory": "Tools",
-        "pros": [
-          "Official org path.",
-          "Listed in curated README."
-        ],
-        "cons": [
-          "Weights are large to host locally."
-        ],
-        "pricingModel": "open-source",
-        "bestFor": [
-          "learning",
-          "production"
-        ]
-      }
-    },
-    {
-      "id": "web:6558fb82d73a95e1",
-      "type": "web_url",
-      "canonicalUrl": "https://x.ai",
-      "title": "xAI",
-      "discoveredFrom": "curated_readme",
-      "sourceEvidence": [
-        {
-          "sourceType": "curated_readme",
-          "sourceRepo": "https://x.ai/",
-          "sectionPath": [],
-          "anchorText": "xAI official site",
-          "surroundingText": "xAI official site",
-          "targetUrl": "https://x.ai",
-          "discoveredAt": "2026-08-18T00:00:00.000Z"
-        }
-      ],
-      "globalFactRefs": [],
-      "confidenceScore": 1,
-      "confidenceReasons": [
-        "formula:awesome-gate-bucket-v1",
-        "bucket:seed",
-        "bucket:official-web",
-        "bucket:approve"
-      ],
-      "riskFlags": [],
-      "recommendedAction": "recommend_approve",
-      "proposedRegistryPatch": {},
-      "status": "pending",
-      "createdAt": "2026-08-18T00:00:00.000Z",
-      "updatedAt": "2026-08-18T00:00:00.000Z",
-      "aiReview": {
-        "summary": "Official x.ai homepage for Grok and API access.",
-        "relevanceScore": 0.94,
-        "qualityScore": 0.88,
-        "riskScore": 0.08,
-        "suggestedTags": [
-          "grok",
-          "xai"
-        ],
-        "evidence": [
-          "awesome-grok README lists this as the official Grok-1 repository."
-        ],
-        "uncertainty": [],
-        "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-10-30T09:38:03.624Z",
-        "modelId": "gemini-3-flash-preview",
-        "promptVersion": "2",
-        "suggestedCategory": "Tools",
-        "pros": [
-          "Official org path.",
-          "Listed in curated README."
-        ],
-        "cons": [
-          "Weights are large to host locally."
-        ],
-        "pricingModel": "open-source",
-        "bestFor": [
-          "learning",
-          "production"
-        ]
-      }
+      "updatedAt": "2026-08-18T00:00:00.000Z"
     }
   ]
 }
