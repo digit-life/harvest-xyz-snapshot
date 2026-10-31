@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:46:57.311Z",
+  "generatedAt": "2026-10-31T10:30:00.067Z",
   "appId": "awesome-mac",
   "items": [
     {
@@ -228,6 +228,16 @@
           "surroundingText": "flutter/flutter-setting-up-on-macos",
           "targetUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-agent-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "flutter/flutter-setting-up-on-macos",
+          "surroundingText": "flutter/flutter-setting-up-on-macos",
+          "targetUrl": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -241,7 +251,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Agent skill that checklists Flutter macOS toolchain setup (Xcode, CocoaPods, flutter doctor). Not a Mac-native app; listing quality depends on an unverified GitHub skill path.",
         "relevanceScore": 0.35,
@@ -523,6 +533,16 @@
           "surroundingText": "connerkward/macos-screen-recorder-system-audio",
           "targetUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "connerkward/macos-screen-recorder-system-audio",
+          "surroundingText": "connerkward/macos-screen-recorder-system-audio",
+          "targetUrl": "https://github.com/connerkward/macos-screen-recorder-system-audio",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [
@@ -538,7 +558,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Mac-native Swift CLI that records the main display plus system audio via ScreenCaptureKit without virtual audio drivers. Tiny, well-documented niche tool with very low community traction and a sponsored README; review before listing as a first-class awesome-mac entry.",
         "relevanceScore": 0.78,
@@ -826,6 +846,16 @@
           "surroundingText": "liewcf/codex-notify-macos",
           "targetUrl": "https://github.com/liewcf/codex-notify-macos",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "liewcf/codex-notify-macos",
+          "surroundingText": "liewcf/codex-notify-macos",
+          "targetUrl": "https://github.com/liewcf/codex-notify-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -839,7 +869,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Mac-native Codex CLI notify-hook setup that plays a completion sound and shows a Notification Center banner via afplay and osascript. Tiny MIT repo (guide plus setup script); useful for Codex-on-Mac users but not a general macOS app.",
         "relevanceScore": 0.62,
@@ -1120,6 +1150,16 @@
           "surroundingText": "HERE",
           "targetUrl": "https://github.com/jaywcjlove/awesome-mac",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "HERE",
+          "surroundingText": "HERE",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-mac",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -1133,7 +1173,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "This candidate is the awesome-mac curated list itself, not a Mac app or tool. The title is a scrape artifact (“HERE”), so it should not be listed as a directory entry.",
         "relevanceScore": 0.25,
@@ -1413,6 +1453,16 @@
           "surroundingText": "Awesome Swift macOS Apps",
           "targetUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Awesome Swift macOS Apps",
+          "surroundingText": "Awesome Swift macOS Apps",
+          "targetUrl": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -1426,7 +1476,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Curated open-source list of Swift macOS apps from the awesome-mac maintainer; Mac-native discovery resource, not an app itself.",
         "relevanceScore": 0.92,
@@ -1707,6 +1757,16 @@
           "surroundingText": "Emacs",
           "targetUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Emacs",
+          "surroundingText": "Emacs",
+          "targetUrl": "https://www.emacswiki.org/emacs/EmacsForMacOS",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -1720,7 +1780,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "EmacsWiki’s EmacsForMacOS page is a community index of ports, builds, and setup notes for GNU Emacs on macOS, not a single Mac-native product. Useful as a historical/resource link from awesome-mac, but pages like this often mix stale ports with current advice.",
         "relevanceScore": 0.62,
@@ -2002,6 +2062,16 @@
           "surroundingText": "PDF Auditor",
           "targetUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "PDF Auditor",
+          "surroundingText": "PDF Auditor",
+          "targetUrl": "https://pura-vida.in/apps/pdf-auditor?utm_source=github&utm_medium=awesome-mac",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -2015,7 +2085,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Native macOS PDF inspection app (App Store) covering structure, security, JS, metadata, and forensics with local processing. Freemium Pro upsell; Apple silicon and macOS 12+ only.",
         "relevanceScore": 0.82,
@@ -2297,6 +2367,16 @@
           "surroundingText": "Itsyconnect",
           "targetUrl": "https://github.com/nickustinov/itsyconnect-macos",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Itsyconnect",
+          "surroundingText": "Itsyconnect",
+          "targetUrl": "https://github.com/nickustinov/itsyconnect-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -2310,7 +2390,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "MIT-licensed Electron/Next.js desktop client for App Store Connect with local SQLite, Keychain-backed credentials, and optional Docker/MCP. Useful Mac-native listing from awesome-mac; still a small project with credential-handling risk.",
         "relevanceScore": 0.86,
@@ -2595,6 +2675,16 @@
           "surroundingText": "SSH Keys Manager",
           "targetUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SSH Keys Manager",
+          "surroundingText": "SSH Keys Manager",
+          "targetUrl": "https://github.com/stmol/ssh-keys-manager-macos-app",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -2608,7 +2698,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Native Swift/SwiftUI macOS utility for browsing, generating, and editing local SSH keys and config; listed on awesome-mac, but GitHub builds are unsigned/not notarized and the app touches private keys.",
         "relevanceScore": 0.86,
@@ -2894,6 +2984,16 @@
           "surroundingText": "React Native macOS",
           "targetUrl": "https://github.com/ptmt/react-native-desktop",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "React Native macOS",
+          "surroundingText": "React Native macOS",
+          "targetUrl": "https://github.com/ptmt/react-native-desktop",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -2907,7 +3007,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Deprecated experimental React Native fork for Cocoa macOS apps; the repo itself points people to Microsoft’s React Native for Windows/macOS and Catalyst instead of continued use of this codebase.",
         "relevanceScore": 0.35,
@@ -3188,6 +3288,16 @@
           "surroundingText": "vChewing 唯音",
           "targetUrl": "https://github.com/vchewing/vchewing-macos",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "vChewing 唯音",
+          "surroundingText": "vChewing 唯音",
+          "targetUrl": "https://github.com/vchewing/vchewing-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -3201,7 +3311,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Native Swift macOS IME for Zhuyin and Pinyin, already listed on awesome-mac; GitHub may lag Gitee as the canonical source.",
         "relevanceScore": 0.92,
@@ -3485,6 +3595,16 @@
           "surroundingText": "MacOSCleaner",
           "targetUrl": "https://github.com/alextkdev/macoscleaner",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "MacOSCleaner",
+          "surroundingText": "MacOSCleaner",
+          "targetUrl": "https://github.com/alextkdev/macoscleaner",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -3498,7 +3618,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Native SwiftUI macOS cleaner and uninstaller (Apple Silicon, macOS 26+) with local scanning, Trash-based uninstall/duplicates, and GPLv3 plus Commons Clause. Fits a Mac tools directory; Intel and older macOS users are excluded.",
         "relevanceScore": 0.9,
@@ -3784,6 +3904,16 @@
           "surroundingText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
           "targetUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "surroundingText": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "targetUrl": "https://apps.apple.com/app/apple-store/id6476942786?pt=124015613&ct=awesome-mac&mt=8&platform=mac",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -3797,7 +3927,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Mac-native website/app blocker from jaywcjlove/awesome-mac; useful for focus work, but App Store shows no ratings and access is paid after a 7-day trial.",
         "relevanceScore": 0.82,
@@ -4082,6 +4212,16 @@
           "surroundingText": "AltTab",
           "targetUrl": "https://alt-tab-macos.netlify.app",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AltTab",
+          "surroundingText": "AltTab",
+          "targetUrl": "https://alt-tab-macos.netlify.app",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -4095,7 +4235,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Native macOS window switcher that lists every window (not just apps) with previews; open-source core plus optional Pro features. Strong fit for an awesome-mac directory.",
         "relevanceScore": 0.95,
@@ -4349,6 +4489,15 @@
           "surroundingText": "OS - macOS 27 Golden Gate - Apple",
           "targetUrl": "https://www.apple.com/macos",
           "discoveredAt": "2026-10-30T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "OS - macOS 27 Golden Gate - Apple",
+          "surroundingText": "OS - macOS 27 Golden Gate - Apple",
+          "targetUrl": "https://www.apple.com/macos",
+          "discoveredAt": "2026-10-31T09:20:00.071Z"
         }
       ],
       "globalFactRefs": [
@@ -4366,11 +4515,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-30T09:20:00.119Z",
+      "updatedAt": "2026-10-31T09:20:00.071Z",
       "aiReview": {
-        "summary": "Official Apple marketing page for the Mac operating system, not a third-party app, CLI, or SDK. Poor fit for an awesome-style directory of Mac tools; listing the OS homepage adds little beyond a store/nav hub.",
-        "relevanceScore": 0.22,
-        "qualityScore": 0.55,
+        "summary": "Official Apple marketing page for macOS 27 Golden Gate, not a third-party Mac app or developer tool. Poor fit for an awesome-style tools directory despite being the canonical OS site.",
+        "relevanceScore": 0.15,
+        "qualityScore": 0.85,
         "riskScore": 0.05,
         "suggestedTags": [
           "macos",
@@ -4379,41 +4528,42 @@
           "official"
         ],
         "evidence": [
-          "canonicalUrl and excerpt source are https://www.apple.com/macos with final URL https://www.apple.com/os/macos/.",
-          "Title in facts is “OS - macOS 27 Golden Gate”.",
-          "Markdown content is shop, Explore Mac/iPad/iPhone, and support links rather than a discrete tool.",
-          "riskFlags is empty; domain is official Apple."
+          "Title and H1 in facts: macOS 27 Golden Gate on apple.com/os/macos.",
+          "Content is Apple product marketing (Siri AI, Liquid Glass, child safety), not a third-party project.",
+          "Rubric prefers Mac-native tools over OS landing pages."
         ],
         "uncertainty": [
-          "Full feature set of the current OS release is not in the provided excerpt.",
-          "Whether a curated awesome-mac list intentionally includes the OS homepage cannot be verified from this candidate alone."
+          "Whether macOS 27 Golden Gate naming is final versus scraper/title artifact.",
+          "Exact licensing/update cost beyond bundled Mac software.",
+          "Full feature set past the truncated excerpt."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-10-30T11:04:39.102Z",
+        "reviewedAt": "2026-10-31T10:59:17.370Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Official desktop OS page for Mac computers",
-        "description": "Apple’s public site for the current Mac operating system, with shopping, hardware, and support navigation rather than a standalone developer tool.",
+        "tagline": "Official desktop OS with Siri AI and system apps",
+        "description": "Apple’s current macOS release page covering Siri AI, Apple Intelligence in apps, child safety, and system refinements.",
         "pros": [
-          "Canonical apple.com destination for the Mac operating system.",
-          "Site is maintained by Apple and is Mac-specific rather than a generic web app.",
-          "Links to Mac hardware, support, and related Apple software pages."
+          "Canonical apple.com destination for the current macOS version.",
+          "Documents first-party features such as Siri AI, Apple Intelligence in Safari/Photos, and parental controls.",
+          "Maintained by Apple with no third-party malware or impersonation risk on this URL."
         ],
         "cons": [
-          "Captured excerpt is mostly global shop and product navigation, not a usable tool listing.",
-          "The operating system itself is not a directory-style Mac app, CLI, or SDK.",
-          "Does not describe APIs, installable software, or maintainer-facing documentation."
+          "It is the operating system marketing site, not a Mac app, CLI, or SDK for a tools list.",
+          "Excerpt is promotional and incomplete; many claims are Apple-branded marketing copy.",
+          "Does not match awesome-mac style entries that list installable utilities."
         ],
         "pricingModel": "paid",
         "bestFor": [
+          "production",
           "learning"
         ],
         "usage": {
-          "input": 12425,
-          "output": 797,
-          "cacheRead": 512,
-          "totalTokens": 13734,
+          "input": 6794,
+          "output": 648,
+          "cacheRead": 5120,
+          "totalTokens": 12562,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -4421,8 +4571,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.apple.com/macos",
-        "contentHash": "3dd30e46c867f7fbd746c5cf1d42fbf71f379d8d775cc48288b6c124a8917311",
-        "excerpt": "Title: OS - macOS 27 Golden Gate\n\nURL Source: https://www.apple.com/macos/\n\nFinal URL: https://www.apple.com/os/macos/\n\nMarkdown Content:\n*   [Apple](https://www.apple.com/)\n*   \n    *   [Store](https://www.apple.com/us/shop/goto/store)\n\n## Shop\n\n    *   [Shop the Latest](https://www.apple.com/us/shop/goto/store)\n    *   [Mac](https://www.apple.com/us/shop/goto/buy_mac)\n    *   [iPad](https://www.apple.com/us/shop/goto/buy_ipad)\n    *   [iPhone](https://www.apple.com/us/shop/goto/buy_iphone)\n    *   [Apple Watch](https://www.apple.com/us/shop/goto/buy_watch)\n    *   [Apple Vision Pro](https://www.apple.com/us/shop/goto/buy_vision)\n    *   [AirPods](https://www.apple.com/us/shop/goto/airpods/accessories)\n    *   [Home](https://www.apple.com/us/shop/goto/buy_home)\n    *   [Accessories](https://www.apple.com/us/shop/goto/buy_accessories)\n\n## Quick Links\n\n    *   [Find a Store](https://www.apple.com/retail/)\n    *   [Order Status](https://www.apple.com/us/shop/goto/order/list)\n    *   [App"
+        "contentHash": "9532cb465f59568078c62569865dd4d7f73341beb8055f26ef344bbdebaeaf8e",
+        "excerpt": "Title: OS - macOS 27 Golden Gate - Apple\n\nURL Source: https://www.apple.com/macos/\n\nFinal URL: https://www.apple.com/os/macos/\n\nMarkdown Content:\n*   [Apple](https://www.apple.com/)\n*   \n    *   [Store](https://www.apple.com/us/shop/goto/store)\n\n    *   [Mac](https://www.apple.com/mac/)\n\n    *   [iPad](https://www.apple.com/ipad/)\n\n    *   [iPhone](https://www.apple.com/iphone/)\n\n    *   [Watch](https://www.apple.com/watch/)\n\n    *   [Vision](https://www.apple.com/apple-vision-pro/)\n\n    *   [AirPods](https://www.apple.com/airpods/)\n\n    *   [Home](https://www.apple.com/home/)\n\n    *   [Entertainment](https://www.apple.com/entertainment/)\n\n    *   [Accessories](https://www.apple.com/us/shop/goto/buy_accessories)\n\n    *   [Support](https://support.apple.com/?cid=gn-ols-home-hp-tab)\n\n*   [](https://www.apple.com/us/search)      \n*   [0+](https://www.apple.com/us/shop/goto/bag)    \n\n*   [Overview](https://www.apple.com/os/?version=no-hero)\n*   [iOS](https://www.apple.com/os/ios/?version=n"
       }
     },
     {
@@ -4620,6 +4770,15 @@
           "surroundingText": "Learn more about developing for macOS",
           "targetUrl": "https://developer.apple.com/macos",
           "discoveredAt": "2026-10-30T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.apple.com/macos/",
+          "sectionPath": [],
+          "anchorText": "Learn more about developing for macOS",
+          "surroundingText": "Learn more about developing for macOS",
+          "targetUrl": "https://developer.apple.com/macos",
+          "discoveredAt": "2026-10-31T09:20:00.071Z"
         }
       ],
       "globalFactRefs": [],
@@ -4634,7 +4793,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-10-30T09:20:00.119Z",
+      "updatedAt": "2026-10-31T09:20:00.071Z",
       "aiReview": {
         "summary": "Official Apple Developer hub for Mac app and game APIs, design guidance, and getting-started pathways. Appropriate as a first-party documentation resource, not a third-party tool listing.",
         "relevanceScore": 0.95,
@@ -4796,6 +4955,16 @@
           "surroundingText": "SoundCloud for macOS",
           "targetUrl": "https://github.com/jettsba/soundcloud-for-macos",
           "discoveredAt": "2026-10-30T09:00:00.123Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "SoundCloud for macOS",
+          "surroundingText": "SoundCloud for macOS",
+          "targetUrl": "https://github.com/jettsba/soundcloud-for-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
         }
       ],
       "globalFactRefs": [],
@@ -4809,7 +4978,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-24T15:18:05.553Z",
-      "updatedAt": "2026-10-30T09:00:00.123Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
       "aiReview": {
         "summary": "Unofficial Swift/AppKit WKWebView wrapper that adds Mac music-player behaviors (media keys, background play, sleep pause) around soundcloud.com. Mac-native and MIT-licensed, but very low adoption, unsigned/un-notarized binaries, and markup-fragile controls argue for human review rather than auto-approve.",
         "relevanceScore": 0.72,
@@ -4859,6 +5028,92 @@
           "output": 605,
           "cacheRead": 6144,
           "totalTokens": 11626,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
+    },
+    {
+      "id": "github:pragyaangaur/minecraft-bedrock-macos",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/pragyaangaur/minecraft-bedrock-macos",
+      "title": "Bedrock Launcher",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bedrock Launcher",
+          "surroundingText": "Bedrock Launcher",
+          "targetUrl": "https://github.com/pragyaangaur/minecraft-bedrock-macos",
+          "discoveredAt": "2026-10-31T09:00:00.177Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-10-31T09:00:00.177Z",
+      "updatedAt": "2026-10-31T09:00:00.177Z",
+      "aiReview": {
+        "summary": "Apple Silicon launcher that rebuilds and runs a user-owned Windows Minecraft Bedrock 1.26.52 install under Wine/DXMT, fully offline. Very new (2 stars), unsigned, reverse-engineered from a memory dump, and limited to one tested version with no online features.",
+        "relevanceScore": 0.62,
+        "qualityScore": 0.48,
+        "riskScore": 0.58,
+        "suggestedTags": [
+          "macos",
+          "minecraft",
+          "wine",
+          "apple-silicon",
+          "launcher"
+        ],
+        "evidence": [
+          "GitHub: pragyaangaur/Minecraft-Bedrock-macOS, Shell, MIT, 2 stars, 0 forks.",
+          "README: Bedrock-Launcher.dmg, copy game folder + dump, Apple silicon, version 1.26.52, offline-only.",
+          "Listed in jaywcjlove/awesome-mac as Bedrock Launcher.",
+          "Repo includes patches/wine-gdk, patches/dxmt, setup.sh, and docs on rebuilding the executable from a dump."
+        ],
+        "uncertainty": [
+          "Cannot verify binary safety of the unsigned DMG or runtime stability on current macOS.",
+          "Cannot verify Mojang/Microsoft ToS compliance of dump-based executable rebuild.",
+          "Cannot verify claimed ~100 FPS on M4 or that macOS 27 testing is accurate."
+        ],
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-10-31T11:08:39.388Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "1",
+        "suggestedCategory": "Apps",
+        "tagline": "Run owned Windows Bedrock on Apple silicon, offline",
+        "description": "Prepare a user-owned Windows Bedrock copy and launch it offline on M1+ Macs via Wine, DXMT, and a local app.",
+        "pros": [
+          "Mac-specific Apple silicon project with a DMG launcher, setup scripts, and documented Wine/DXMT patches.",
+          "MIT-licensed tooling plus notes that game files are not redistributed and must come from a Windows copy the user owns.",
+          "README documents limitations (offline only, one tested version, unsigned Gatekeeper flow) and a from-source build path."
+        ],
+        "cons": [
+          "Repository has 2 stars, 0 forks, and 0 issues, so maintenance and community validation are unproven.",
+          "Depends on reverse-engineering an encrypted Windows executable from a memory dump, which can contain sign-in tokens.",
+          "Only Minecraft for Windows 1.26.52 is tested; online, Realms, Marketplace, and servers do not work.",
+          "Distributed app is not Apple-signed, requiring Privacy & Security Open Anyway."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "prototyping",
+          "learning"
+        ],
+        "usage": {
+          "input": 3717,
+          "output": 769,
+          "cacheRead": 6144,
+          "totalTokens": 10630,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
