@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-04T10:30:00.136Z",
+  "generatedAt": "2026-11-05T10:30:00.080Z",
   "appId": "awesome-ai-video",
   "items": [
     {
       "id": "web:9f2f24fcaf90bd31",
       "type": "web_url",
       "canonicalUrl": "https://ai.google.dev",
-      "title": "Gemini Developer API | مدل‌های باز Gemma &nbsp;|&nbsp; Google AI for Developers",
+      "title": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -854,6 +854,15 @@
           "surroundingText": "Gemini Developer API | مدل‌های باز Gemma &nbsp;|&nbsp; Google AI for Developers",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-11-04T09:20:00.113Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "surroundingText": "Gemini Developer API | Gemma open models &nbsp;|&nbsp; Google AI for Developers",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-11-05T09:20:00.122Z"
         }
       ],
       "globalFactRefs": [
@@ -871,11 +880,11 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-11-04T09:20:00.113Z",
+      "updatedAt": "2026-11-05T09:20:00.122Z",
       "aiReview": {
-        "summary": "Official Google developer hub with API docs, reference, and pricing for Gemini, Imagen, Veo, and Gemma. High-value maintained source for video-generation APIs versus recap or demo pages.",
-        "relevanceScore": 0.95,
-        "qualityScore": 0.92,
+        "summary": "Official Google developer hub with API docs, pricing, and model pages for Gemini, Imagen, Veo video generation, and Gemma. Strong fit for an AI video/API directory; the homepage is a portal rather than a single SDK.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.9,
         "riskScore": 0.08,
         "suggestedTags": [
           "gemini-api",
@@ -885,45 +894,43 @@
           "official-docs"
         ],
         "evidence": [
-          "Excerpt lists Models: Gemini, Imagen, Veo, Gemma with Docs, API reference, and Pricing links.",
-          "Veo docs URL: https://ai.google.dev/gemini-api/docs/video",
-          "Source classified official-web with empty riskFlags.",
-          "Start-building copy describes API-key integration of Gemini, Imagen, and Veo."
+          "Excerpt lists Veo About, Docs (ai.google.dev/gemini-api/docs/video), and Pricing.",
+          "Excerpt lists Gemini API docs, API reference, Imagen docs, and Gemma docs/Gemmaverse.",
+          "Source is official-web https://ai.google.dev with empty riskFlags."
         ],
         "uncertainty": [
-          "Exact free-tier limits and Veo availability by region are not in the excerpt.",
-          "SDK language coverage is not enumerated on this hub page."
+          "Current Veo API quotas, watermarking, and region availability not in the excerpt.",
+          "Exact free-tier vs paid Gemini/Veo rates not quoted here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-04T10:30:35.100Z",
+        "reviewedAt": "2026-11-05T10:30:35.655Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Resources",
-        "tagline": "Documented APIs for text, image, and video models",
-        "description": "Access developer docs, API reference, and pricing for generative video, image, and language models plus open-weight customization.",
+        "tagline": "Official APIs and docs for Google generative models",
+        "description": "Browse API docs, pricing, and model pages for text, image, and video generation, plus open models and on-device tooling.",
         "pros": [
-          "Official site links Gemini, Imagen, and Veo docs, API reference, and pricing.",
-          "Includes Veo video generation docs at ai.google.dev/gemini-api/docs/video.",
-          "Covers Gemma open models, Gemmaverse, and on-device paths such as Google AI Edge.",
-          "Points to Google AI Studio, responsible-AI toolkit, and a developer forum."
+          "Official ai.google.dev portal with docs, API reference, and pricing links.",
+          "Includes Veo video generation docs under the Gemini API video path.",
+          "Also covers Imagen, Gemma open models, Google AI Studio, and on-device Edge/Nano paths."
         ],
         "cons": [
-          "Landing page is a portal; implementation details live on nested doc routes.",
-          "Commercial API use is metered via a separate pricing page."
+          "Landing page is a broad developer hub, not a focused Veo SDK or model card.",
+          "Paid API usage details live on a separate pricing page, not fully specified in the excerpt."
         ],
         "pricingModel": "freemium",
         "bestFor": [
-          "solo founder",
-          "small team",
-          "enterprise",
           "prototyping",
-          "production"
+          "production",
+          "learning",
+          "agentic coding",
+          "enterprise"
         ],
         "usage": {
-          "input": 132,
-          "output": 611,
-          "cacheRead": 22016,
-          "totalTokens": 22759,
+          "input": 21365,
+          "output": 785,
+          "cacheRead": 512,
+          "totalTokens": 22662,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1211,6 +1218,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-11-04T09:00:02.900Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-11-05T09:00:03.152Z"
         }
       ],
       "globalFactRefs": [],
@@ -1224,7 +1241,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-04T09:00:02.900Z",
+      "updatedAt": "2026-11-05T09:00:03.152Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -1559,6 +1576,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-11-04T09:00:02.900Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-11-05T09:00:03.152Z"
         }
       ],
       "globalFactRefs": [],
@@ -1572,7 +1599,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-04T09:00:02.900Z",
+      "updatedAt": "2026-11-05T09:00:03.152Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -1904,6 +1931,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-11-04T09:00:02.900Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-11-05T09:00:03.152Z"
         }
       ],
       "globalFactRefs": [],
@@ -1917,7 +1954,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-04T09:00:02.900Z",
+      "updatedAt": "2026-11-05T09:00:03.152Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -2252,6 +2289,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-11-04T09:00:02.900Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-11-05T09:00:03.152Z"
         }
       ],
       "globalFactRefs": [],
@@ -2265,7 +2312,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-04T09:00:02.900Z",
+      "updatedAt": "2026-11-05T09:00:03.152Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -2561,6 +2608,15 @@
           "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-11-04T09:20:00.113Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Intelligent tools for scaling content and teams.",
+          "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-11-05T09:20:00.122Z"
         }
       ],
       "globalFactRefs": [
@@ -2578,7 +2634,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-04T09:20:00.113Z",
+      "updatedAt": "2026-11-05T09:20:00.122Z",
       "aiReview": {
         "summary": "Official Runway homepage is in-scope as a known AI video vendor, but the captured page is a cookie-consent wall with no API, SDK, or model documentation for developers.",
         "relevanceScore": 0.55,
@@ -2752,6 +2808,16 @@
           "surroundingText": "Levea AI Video Editor",
           "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
           "discoveredAt": "2026-11-04T09:00:02.900Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea AI Video Editor",
+          "surroundingText": "Levea AI Video Editor",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-11-05T09:00:03.152Z"
         }
       ],
       "globalFactRefs": [],
@@ -2765,7 +2831,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-28T09:00:00.065Z",
-      "updatedAt": "2026-11-04T09:00:02.900Z",
+      "updatedAt": "2026-11-05T09:00:03.152Z",
       "aiReview": {
         "summary": "MIT-licensed MCP/plugin wrapper that sends natural-language edits to a hosted Livecore/Levea cloud engine. Useful for agentic editing workflows, not a first-party video-generation model or official Veo/Runway SDK.",
         "relevanceScore": 0.42,
