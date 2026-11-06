@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:30:00.080Z",
+  "generatedAt": "2026-11-06T07:32:58.028Z",
   "appId": "awesome-deepseek",
   "items": [
     {
@@ -21850,11 +21850,66 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-11-05T10:00:04.291Z"
+      "updatedAt": "2026-11-05T10:00:04.291Z",
+      "aiReview": {
+        "summary": "Official Hugging Face model card for the 1.5B Qwen2.5-Math distill of DeepSeek-R1, with MIT weights, usage notes, and published math/code benchmarks.",
+        "relevanceScore": 0.92,
+        "qualityScore": 0.88,
+        "riskScore": 0.08,
+        "suggestedTags": [
+          "deepseek",
+          "hugging-face",
+          "open-source",
+          "llm",
+          "r1"
+        ],
+        "evidence": [
+          "canonicalUrl is huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "Model card license MIT; pipeline_tag text-generation; library transformers",
+          "Card states distill of R1 onto Qwen2.5-Math-1.5B and lists AIME 2024 pass@1 28.9 for this size",
+          "Facts: downloads 724025, likes 1658"
+        ],
+        "uncertainty": [
+          "lastModified was null in provided facts",
+          "Live inference quality and tokenizer/config caveats versus stock Qwen were not independently verified"
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-11-06T07:33:17.871Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Resources",
+        "tagline": "1.5B Qwen distill of R1 reasoning weights on HF",
+        "description": "Download MIT-licensed 1.5B distilled reasoning weights based on Qwen2.5-Math, with transformers/vLLM usage and published benchmarks.",
+        "pros": [
+          "Hosted by the official deepseek-ai org on Hugging Face with MIT-licensed weights.",
+          "Documents that the checkpoint is distilled from DeepSeek-R1 onto Qwen2.5-Math-1.5B.",
+          "Includes distilled-model benchmark numbers (AIME, MATH-500, GPQA, LiveCodeBench) and local serving notes for vLLM/SGLang.",
+          "High community uptake (about 724K downloads and 1.6K likes)."
+        ],
+        "cons": [
+          "The card is shared across the R1 family, so most prose describes larger models rather than this 1.5B checkpoint alone.",
+          "The 1.5B distill scores well below larger distills on the published reasoning and coding tables."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "learning",
+          "prototyping",
+          "solo founder",
+          "small team"
+        ],
+        "usage": {
+          "input": 5478,
+          "output": 691,
+          "cacheRead": 18944,
+          "totalTokens": 25113,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:f82a68591775d32c",
@@ -22620,11 +22675,67 @@
         "bucket:review"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_review",
+      "recommendedAction": "recommend_approve",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-18T02:01:06.954Z",
-      "updatedAt": "2026-11-05T10:00:04.291Z"
+      "updatedAt": "2026-11-05T10:00:04.291Z",
+      "aiReview": {
+        "summary": "Official Hugging Face model card for an 8B Llama-3.1-based distill of DeepSeek-R1, with weights, usage notes, and published reasoning benchmarks.",
+        "relevanceScore": 0.95,
+        "qualityScore": 0.88,
+        "riskScore": 0.15,
+        "suggestedTags": [
+          "deepseek",
+          "r1",
+          "hugging-face",
+          "open-source",
+          "llm"
+        ],
+        "evidence": [
+          "canonicalUrl is huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B with pipeline_tag text-generation.",
+          "Model card lists base Llama-3.1-8B, MIT badge plus Llama 3.1 license note, and Distill-Llama-8B benchmark row (e.g. AIME 2024 pass@1 50.4).",
+          "Facts: 80005 downloads, 918 likes."
+        ],
+        "uncertainty": [
+          "Exact lastModified timestamp was null in facts.",
+          "Commercial terms depend on Meta Llama 3.1 license compliance, not fully restated here."
+        ],
+        "recommendedAction": "recommend_approve",
+        "reviewedAt": "2026-11-06T07:33:32.807Z",
+        "modelId": "xai-oauth/grok-4.6:low",
+        "promptVersion": "2",
+        "suggestedCategory": "Resources",
+        "tagline": "8B Llama distill of R1 reasoning weights on Hugging Face",
+        "description": "Download an 8B Llama-3.1 distill of R1 for local text generation, with Transformers/vLLM usage notes and math, code, and reasoning scores.",
+        "pros": [
+          "Hosted on the official deepseek-ai Hugging Face org with transformers and safetensors artifacts.",
+          "Card documents distillation from Llama-3.1-8B using R1-generated samples and reports AIME, MATH-500, GPQA, and LiveCodeBench scores.",
+          "Includes local serving examples (vLLM/SGLang), temperature and prompt recommendations, and a paper citation (arXiv:2501.12948).",
+          "About 80K downloads and 918 likes indicate active community use."
+        ],
+        "cons": [
+          "Weights inherit Llama 3.1 licensing constraints even though the R1 repo is labeled MIT.",
+          "The shared card is family-wide; this checkpoint is smaller and weaker on several benchmarks than the 32B/70B distills.",
+          "lastModified was not provided in the supplied facts."
+        ],
+        "pricingModel": "open-source",
+        "bestFor": [
+          "prototyping",
+          "learning",
+          "solo founder",
+          "small team",
+          "agentic coding"
+        ],
+        "usage": {
+          "input": 5447,
+          "output": 613,
+          "cacheRead": 18176,
+          "totalTokens": 24236,
+          "provider": "xai-oauth",
+          "model": "grok-4.6"
+        }
+      }
     },
     {
       "id": "web:d11ae4473ac06aa9",
