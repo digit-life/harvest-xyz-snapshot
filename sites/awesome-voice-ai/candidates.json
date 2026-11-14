@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:30:00.055Z",
+  "generatedAt": "2026-11-14T10:30:00.022Z",
   "appId": "awesome-voice-ai",
   "items": [
     {
@@ -317,6 +317,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno | AI Music Generator",
+          "surroundingText": "Suno | AI Music Generator",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno | AI Music Generator",
+          "surroundingText": "Suno | AI Music Generator",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "shaizadok92/awesome-suno",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -664,6 +682,26 @@
           "surroundingText": "Suno",
           "targetUrl": "https://suno.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno",
+          "surroundingText": "Suno",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno",
+          "surroundingText": "Suno",
+          "targetUrl": "https://suno.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [
@@ -681,62 +719,59 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
-        "summary": "Official AI music product: prompt-to-song generation, Studio DAW, voice cloning, stems, remix, and paid commercial rights. Strong fit for a voice/music directory as a primary maintained surface, not a roundup or clone pack.",
+        "summary": "Official Suno web product for prompt-based full-song generation (vocals, lyrics, production), with Studio, remix, stems, voice capture, and paid commercial rights. Strong fit for an AI music directory; not an API/SDK.",
         "relevanceScore": 0.95,
-        "qualityScore": 0.88,
+        "qualityScore": 0.9,
         "riskScore": 0.22,
         "suggestedTags": [
           "ai-music",
-          "tts-vocals",
+          "tts-singing",
           "voice-cloning",
           "stems",
           "web-app"
         ],
         "evidence": [
-          "canonicalUrl https://suno.com; title AI Music Generator; FAQ states free up to 10 songs/day.",
-          "Features listed: v6, Studio DAW, Voices, stem separation, remix, custom models, music library.",
-          "Rubric prefers official Suno surfaces for music generation.",
-          "Store ratings cited (4.9 iOS 1M+ reviews; 4.8 Android 2.3M+).",
-          "riskFlags empty; source official-web."
+          "Excerpt title and URL are Suno | AI Music Generator at https://suno.com.",
+          "Features listed: v6, Suno Studio, Voices, stem separation, remix, custom models, commercial rights for paid subscribers.",
+          "Pricing section documents Free $0, Pro ~$8–10/mo, Premier ~$24–30/mo with credit and download caps.",
+          "Rubric prefers official Suno surfaces for music generation."
         ],
         "uncertainty": [
-          "Exact current model names (v6 vs FAQ v5.5) and public API vs MCP capabilities.",
-          "Precise pricing amounts beyond plan names and song caps.",
-          "Legal status of training data and commercial-use terms beyond FAQ claims."
+          "Public API availability and terms are not in the excerpt.",
+          "Exact current model names and credit-to-song conversion may differ from FAQ vs marketing blocks.",
+          "Legal status of training data and commercial licenses outside paid-plan copy is not verified here."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-12T11:00:00.759Z",
+        "reviewedAt": "2026-11-14T10:57:44.456Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Apps",
-        "tagline": "Prompt-to-song AI with studio, voices, and stems",
-        "description": "Generate full songs from prompts, edit in a browser DAW, clone voices, separate stems, and remix. Free daily generations; paid plans add commercial rights.",
+        "tagline": "Prompt-to-full-song AI generator with studio tools",
+        "description": "Generate complete songs from prompts, then remix, separate stems, clone a singing voice, and edit in a browser DAW. Free daily credits; paid plans add downloads",
         "pros": [
-          "Official suno.com surface with web, iOS, and Android apps.",
-          "Creates full songs with vocals and production from a text prompt.",
-          "Offers Voices, stem separation, remix, custom models, and a browser Studio.",
-          "Free daily generation; paid plans include commercial rights (FAQ: Pro 500 songs/month).",
-          "Documents MCP and product pages for Studio, Voices, and related tools."
+          "Official suno.com surface lists v6 generation, browser Studio DAW, remix, stem separation, custom models, and voice recording.",
+          "Free tier includes daily credits and free models; Pro/Premier add downloads, commercial rights, and more credits.",
+          "Product is positioned for complete songs with vocals and lyrics, not only short instrumental loops."
         ],
         "cons": [
-          "Excerpt is a marketing splash with limited API/SDK detail for developers.",
-          "Commercial rights are tied to paid subscription per the FAQ.",
-          "Voice cloning and custom models raise typical likeness/copyright policy questions not fully specified here."
+          "Free plan excludes commercial rights, monthly downloads, and stem separation.",
+          "Primary surface is a consumer app, not a documented developer API or SDK.",
+          "FAQ copy on the same page mixes model/plan names (e.g. v5.5 vs v6) so current limits should be checked on pricing."
         ],
         "pricingModel": "freemium",
         "bestFor": [
           "solo founder",
           "prototyping",
-          "production",
-          "learning"
+          "learning",
+          "production"
         ],
         "usage": {
-          "input": 11434,
-          "output": 665,
+          "input": 12334,
+          "output": 786,
           "cacheRead": 5504,
-          "totalTokens": 17603,
+          "totalTokens": 18624,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -744,15 +779,15 @@
       "reference": {
         "source": "official-web",
         "url": "https://suno.com",
-        "contentHash": "af43b86c899387b4744d2f6050a9ba92780e69172db0be962b165364c15c0639",
-        "excerpt": "Title: Suno | AI Music Generator\n\nURL Source: https://suno.com/\n\nMarkdown Content:\n\n[](https://suno.com/home)\n\nLoading\n\nLoading\n\nOpen App\n\nLoading\n\nLoading\n\n*   Products\n*   Resources\n*   [Pricing](https://suno.com/#pricing-section)\n*   [Careers](https://suno.com/careers)\n\nLog in\n\nLog in Join Suno for free\n\nMake any song you can imagine\n\n# Make any song you can imagine\n\n# Make any song you can imagine\n\nStart with a simple prompt or dive into our pro editing tools, your next track is just a step away.\n\nAdvanced\n\nCreate\n\n# Start making music for free\n\nSelect the plan that best fits your needs\n\nThe #1 AI music app\n\nWhere you can discover, create and share from anywhere because music has no boundaries.\n\n4.9 4.9 stars\n\n1M+ reviews Download on iPhone\n\n4.8 4.8 stars\n\n2.3M+ reviews Download on Android\n\n# Mind blowing song quality\n\nWhether you have a melody in your head, lyrics you've written, or just a feeling you want to hear—Suno makes high-quality music creation accessible to all\n\n384K\n\n31K"
+        "contentHash": "97df7e991ab5729a0e8a3762856ff195feaa5a4916d40ddbf0ffeb59089e3f2c",
+        "excerpt": "Title: Suno | AI Music Generator\n\nURL Source: https://suno.com/\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[](https://suno.com/home)\n\n*   Products\n*   Resources\n*   [Pricing](https://suno.com/#pricing-section)\n*   [Careers](https://suno.com/careers)\n\nLog in Open App\n\nLog in Join Suno for free\n\nA new worldEpicGarage[Audio 1](https://suno.com/)\n\npick [n]oneMC Escher[Audio 2](https://suno.com/)\n\nMake any song you can imagine\n\n# Make any song you can imagine\n\nStart with a simple prompt or dive into our pro editing tools, your next track is just a step away.\n\nAdvanced\n\nCreate\n\n## Mind blowing song quality\n\nWhether you have a melody in your head, lyrics you've written, or just a feeling you want to hear—Suno makes high-quality music creation accessible to all\n\n*   645K[Remix](https://suno.com/create?remix_type=cover&song_id=58490298-ca5b-451b-9e59-e432153bb178)  \nA new world\n\nEpicGarage\n\n*   392K[Remix](https://suno.com/create?remix_type=cover&song_id=9bca6f37-af92-436"
       }
     },
     {
       "id": "web:7a34c540c33653b4",
       "type": "web_url",
       "canonicalUrl": "https://help.suno.com",
-      "title": "See the full FAQ →",
+      "title": "See the full FAQ",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -1045,6 +1080,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Help Center ↗",
+          "surroundingText": "Help Center ↗",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "See the full FAQ",
+          "surroundingText": "See the full FAQ",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "shaizadok92/awesome-suno",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1392,6 +1445,26 @@
           "surroundingText": "Suno Help Center",
           "targetUrl": "https://help.suno.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Help Center",
+          "surroundingText": "Suno Help Center",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Help Center",
+          "surroundingText": "Suno Help Center",
+          "targetUrl": "https://help.suno.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -1406,7 +1479,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official knowledge base covering music generation, accounts, mobile, rights, Studio, and community FAQs. Usable as the canonical support/docs surface rather than a model or API.",
         "relevanceScore": 0.82,
@@ -1675,6 +1748,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Blog",
+          "surroundingText": "Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Blog",
+          "surroundingText": "Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "shaizadok92/awesome-suno",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -2022,6 +2113,26 @@
           "surroundingText": "Suno Blog",
           "targetUrl": "https://suno.com/blog",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Blog",
+          "surroundingText": "Suno Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Blog",
+          "surroundingText": "Suno Blog",
+          "targetUrl": "https://suno.com/blog",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -2036,7 +2147,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno company blog with product updates, model launches, Studio/DAW tips, partnerships, and creator spotlights. Useful as a primary news/docs surface, not an API or tool itself.",
         "relevanceScore": 0.82,
@@ -2446,6 +2557,26 @@
           "surroundingText": "Suno on YouTube",
           "targetUrl": "https://www.youtube.com/@SunoMusic",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on YouTube",
+          "surroundingText": "Suno on YouTube",
+          "targetUrl": "https://www.youtube.com/@SunoMusic",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on YouTube",
+          "surroundingText": "Suno on YouTube",
+          "targetUrl": "https://www.youtube.com/@SunoMusic",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -2459,7 +2590,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "YouTube handle @SunoMusic is a social channel, not an API, SDK, or product surface. Officiality versus similarly named music channels is unverified, so it is a weak fit for a tools directory.",
         "relevanceScore": 0.22,
@@ -2866,6 +2997,26 @@
           "surroundingText": "Suno Prompt Builder at usesuno.com",
           "targetUrl": "https://usesuno.com/tools",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Prompt Builder at usesuno.com",
+          "surroundingText": "Suno Prompt Builder at usesuno.com",
+          "targetUrl": "https://usesuno.com/tools",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno Prompt Builder at usesuno.com",
+          "surroundingText": "Suno Prompt Builder at usesuno.com",
+          "targetUrl": "https://usesuno.com/tools",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -2879,7 +3030,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party catalog of 16 free in-browser helpers for Suno Style prompts, lyrics, and public-link downloads—not an official Suno API or model. Useful for creators; downloaders depend on public Suno URLs and a fetch service.",
         "relevanceScore": 0.72,
@@ -3293,6 +3444,26 @@
           "surroundingText": "Suno AI Wiki",
           "targetUrl": "https://sunoaiwiki.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Wiki",
+          "surroundingText": "Suno AI Wiki",
+          "targetUrl": "https://sunoaiwiki.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Wiki",
+          "surroundingText": "Suno AI Wiki",
+          "targetUrl": "https://sunoaiwiki.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -3306,7 +3477,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party unofficial Suno guide site with prompt/meta-tag tips plus a lyric censorship-bypass tool and unrelated outbound links; not an official API or maintained voice stack.",
         "relevanceScore": 0.35,
@@ -3718,6 +3889,26 @@
           "surroundingText": "Learn Prompting: Suno Guide",
           "targetUrl": "https://learnprompting.org/blog/guide-suno",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Learn Prompting: Suno Guide",
+          "surroundingText": "Learn Prompting: Suno Guide",
+          "targetUrl": "https://learnprompting.org/blog/guide-suno",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Learn Prompting: Suno Guide",
+          "surroundingText": "Learn Prompting: Suno Guide",
+          "targetUrl": "https://learnprompting.org/blog/guide-suno",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -3731,7 +3922,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party Learn Prompting how-to on using Suno (prompts, custom lyrics, metatags, pricing/use cases). Useful as a beginner tutorial, not an official product, API, or maintained voice stack.",
         "relevanceScore": 0.55,
@@ -4141,6 +4332,26 @@
           "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
           "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "surroundingText": "\"The Science Behind Perfect SUNO Prompts\"",
+          "targetUrl": "https://acetaggen.com/blog/science-behind-perfect-suno-prompts",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -4154,7 +4365,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Blog guide on Suno Style vs Lyrics fields, tag order, and 5–8-tag limits, with examples; it is marketing for AceTagGen, not an official Suno API or model.",
         "relevanceScore": 0.42,
@@ -4564,6 +4775,26 @@
           "surroundingText": "\"Why Most Suno Prompts Fail\"",
           "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Why Most Suno Prompts Fail\"",
+          "surroundingText": "\"Why Most Suno Prompts Fail\"",
+          "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Why Most Suno Prompts Fail\"",
+          "surroundingText": "\"Why Most Suno Prompts Fail\"",
+          "targetUrl": "https://acetaggen.com/blog/why-most-suno-prompts-fail-and-how-to-stop-guessing",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -4577,7 +4808,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Vendor blog post explaining three Suno Style-prompt failure patterns (overfilled tags, collisions, feeling vs mechanism tags) and pitching AceTagGen. Useful prompting notes, not an official Suno surface or API.",
         "relevanceScore": 0.42,
@@ -4986,6 +5217,26 @@
           "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
           "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "surroundingText": "\"Suno v5 vs v4: Complete Comparison\"",
+          "targetUrl": "https://acetaggen.com/blog/suno-v5-vs-v4-complete-comparison",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -4999,7 +5250,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party AceTagGen blog comparing Suno V3.5–V5.5 prompt styles and use cases; useful as a short guide, not an official Suno surface, API, or model.",
         "relevanceScore": 0.42,
@@ -5409,6 +5660,26 @@
           "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
           "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "surroundingText": "\"17 Suno Tricks That Change How You Make Music\"",
+          "targetUrl": "https://acetaggen.com/blog/17-suno-tricks-change-how-you-make-music",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -5422,7 +5693,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party AceTagGen blog listing 17 community-tested Suno prompt/syntax tricks (melisma, tags, style sandwich). Useful as a tips article, not an official API, SDK, or maintained voice stack.",
         "relevanceScore": 0.42,
@@ -5833,6 +6104,26 @@
           "surroundingText": "r/SunoAI",
           "targetUrl": "https://www.reddit.com/r/SunoAI",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/SunoAI",
+          "surroundingText": "r/SunoAI",
+          "targetUrl": "https://www.reddit.com/r/SunoAI",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/SunoAI",
+          "surroundingText": "r/SunoAI",
+          "targetUrl": "https://www.reddit.com/r/SunoAI",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -5846,7 +6137,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Unofficial Reddit community for Suno AI music generation; useful for prompts and product chatter, but it is not an API, model, or official product surface.",
         "relevanceScore": 0.45,
@@ -6255,6 +6546,26 @@
           "surroundingText": "Suno AI Reviews on Futurepedia",
           "targetUrl": "https://www.futurepedia.io/tool/suno",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Reviews on Futurepedia",
+          "surroundingText": "Suno AI Reviews on Futurepedia",
+          "targetUrl": "https://www.futurepedia.io/tool/suno",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno AI Reviews on Futurepedia",
+          "surroundingText": "Suno AI Reviews on Futurepedia",
+          "targetUrl": "https://www.futurepedia.io/tool/suno",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -6268,7 +6579,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Futurepedia aggregator listing for Suno with marketing copy, two user reviews, and outbound links—not an official product, API, or maintained voice/music stack.",
         "relevanceScore": 0.25,
@@ -6675,6 +6986,26 @@
           "surroundingText": "Suno on Wikipedia",
           "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on Wikipedia",
+          "surroundingText": "Suno on Wikipedia",
+          "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Suno on Wikipedia",
+          "surroundingText": "Suno on Wikipedia",
+          "targetUrl": "https://en.wikipedia.org/wiki/Suno_(platform",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -6688,7 +7019,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Wikipedia encyclopedia article about the Suno music-generation company/platform, not an official product, API, or model surface. Weak fit for a tools directory versus suno.com or platform.suno.com.",
         "relevanceScore": 0.22,
@@ -7095,6 +7426,26 @@
           "surroundingText": "**suno-prompt-scorer**",
           "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**suno-prompt-scorer**",
+          "surroundingText": "**suno-prompt-scorer**",
+          "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**suno-prompt-scorer**",
+          "surroundingText": "**suno-prompt-scorer**",
+          "targetUrl": "https://github.com/shaizadok92/suno-prompt-scorer",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -7108,7 +7459,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Small MIT TypeScript library that heuristically scores Suno style prompts (length, collisions, specificity, density). Useful as a niche helper, not an official Suno surface or audio model/API.",
         "relevanceScore": 0.42,
@@ -7517,6 +7868,26 @@
           "surroundingText": "AceTagGen Public Scorer API",
           "targetUrl": "https://acetaggen.com/api/suno-score",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AceTagGen Public Scorer API",
+          "surroundingText": "AceTagGen Public Scorer API",
+          "targetUrl": "https://acetaggen.com/api/suno-score",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "shaizadok92/awesome-suno",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "AceTagGen Public Scorer API",
+          "surroundingText": "AceTagGen Public Scorer API",
+          "targetUrl": "https://acetaggen.com/api/suno-score",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -7530,7 +7901,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party HTTP endpoint listed as a Suno tag/score helper; the documented URL returns HTTP 400 and the site has no usable public docs, so it is a weak directory listing until the API is verified.",
         "relevanceScore": 0.45,
@@ -7939,6 +8310,26 @@
           "surroundingText": "Bark",
           "targetUrl": "https://github.com/suno-ai/bark",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bark",
+          "surroundingText": "Bark",
+          "targetUrl": "https://github.com/suno-ai/bark",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Bark",
+          "surroundingText": "Bark",
+          "targetUrl": "https://github.com/suno-ai/bark",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -7952,7 +8343,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Official Suno open-source transformer text-to-audio model with a Python API, CLI, speaker presets, and MIT-licensed checkpoints. Strong fit for TTS/audio directories; last documented updates are from 2023 and it does not support custom voice cloning.",
         "relevanceScore": 0.92,
@@ -8323,6 +8714,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "surroundingText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "surroundingText": "Free AI Voice Generator &amp; Voice Agents Platform | ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "yzfly/awesome-voice-agents",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -8670,6 +9079,26 @@
           "surroundingText": "ElevenLabs",
           "targetUrl": "https://elevenlabs.io",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "ElevenLabs",
+          "surroundingText": "ElevenLabs",
+          "targetUrl": "https://elevenlabs.io",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [
@@ -8687,12 +9116,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
-        "summary": "Official commercial TTS, voice cloning, music, dubbing, and voice-agent platform with documented APIs; high-value listing for an AI-voice directory.",
-        "relevanceScore": 1,
+        "summary": "Official ElevenLabs homepage for TTS, voice cloning, music, speech-to-text, dubbing, and voice agents, with documented APIs and enterprise positioning. Strong fit for a voice-AI directory as a maintained commercial platform rather than a clone pack or news roundup.",
+        "relevanceScore": 0.98,
         "qualityScore": 0.92,
-        "riskScore": 0.25,
+        "riskScore": 0.28,
         "suggestedTags": [
           "tts",
           "voice-cloning",
@@ -8701,47 +9130,49 @@
           "music-generation"
         ],
         "evidence": [
-          "canonicalUrl https://elevenlabs.io with title Free AI Voice Generator & Voice Agents Platform",
-          "Excerpt lists ElevenCreative, ElevenAgents, ElevenAPI, Text to Speech, Music, Speech to Text, Voice Cloning, Dubbing",
-          "API snippet uses @elevenlabs/elevenlabs-js textToSpeech.convert and music.compositionPlan.create",
-          "Pricing and sign-up links; promo 30,000 credits for $1",
-          "Rubric prefers official ElevenLabs surfaces; candidate bucket:official-web and empty riskFlags"
+          "canonicalUrl https://elevenlabs.io matches official-web seed and rubric preference for official ElevenLabs surfaces.",
+          "Excerpt lists ElevenCreative, ElevenAgents, ElevenAPI, Text to Speech, Music, Speech to Text, Voice Cloning, Dubbing.",
+          "Excerpt includes @elevenlabs/elevenlabs-js TTS convert sample with modelId eleven_v4 and Music compositionPlan.create.",
+          "Title and nav include Pricing, Enterprise, Sign up, and Explore docs at /docs/overview/intro.",
+          "riskFlags empty; confidenceReasons include bucket:official-web and bucket:approve."
         ],
         "uncertainty": [
-          "Current exact plan prices and free-tier limits beyond the promo",
-          "Independent quality of models vs. marketing claims (e.g. 75ms Flash, 98% Scribe)",
-          "Full ToS, cloning consent enforcement, and music licensing details"
+          "Current free-tier limits and exact paid SKUs not fully specified in the excerpt.",
+          "Independent quality of “leading TTS” and “98% ASR” claims not verified here.",
+          "Legal terms for voice cloning and music licensing not reviewed beyond homepage copy."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-12T11:00:13.505Z",
+        "reviewedAt": "2026-11-14T10:58:00.992Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "TTS, cloning, music, and conversational voice agents",
-        "description": "Generate speech, clone voices, compose music, and deploy conversational agents via web studio and APIs across 90+ languages.",
+        "tagline": "TTS, cloning, music, and conversational voice APIs",
+        "description": "Generate speech, clone voices, make music, transcribe audio, and deploy voice agents via web apps and APIs across 90+ languages.",
         "pros": [
-          "Official site documents TTS, STT, music, SFX, voice cloning, dubbing, and conversational agents.",
-          "Public API examples include a JS client for text-to-speech and music composition.",
-          "Homepage lists enterprise customers and links to docs, pricing, and product surfaces.",
-          "Voice library covers use cases such as narration, ads, characters, and conversational speech."
+          "Official site lists Text to Speech, Speech to Text, Music, Voice Cloning, Dubbing, and Voice Agents with API docs.",
+          "Documents JS client usage for TTS (including Eleven v4) and a Music composition-plan API.",
+          "ElevenAgents covers omnichannel agents, analytics, testing, guardrails, and workflows.",
+          "Public pricing, enterprise, and customer-story pages are linked from the homepage.",
+          "Cited as used by large developers and enterprises on the marketing site."
         ],
         "cons": [
-          "Paid credit/subscription model; commercial music rights vary by tier.",
-          "Homepage scrape is marketing-heavy and incomplete versus full product/docs coverage.",
-          "Voice cloning and celebrity-style demos raise typical misuse and consent concerns."
+          "Homepage is marketing-heavy; model limits, quotas, and full API surface need the docs and pricing pages.",
+          "Voice cloning and celebrity-style revival content raise misuse and consent risk even on an official product.",
+          "Music commercial rights are stated to vary by subscription tier."
         ],
         "pricingModel": "freemium",
         "bestFor": [
-          "prototyping",
-          "production",
+          "solo founder",
+          "small team",
           "enterprise",
-          "small team"
+          "prototyping",
+          "production"
         ],
         "usage": {
-          "input": 12331,
-          "output": 667,
+          "input": 12648,
+          "output": 723,
           "cacheRead": 5504,
-          "totalTokens": 18502,
+          "totalTokens": 18875,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -8749,8 +9180,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://elevenlabs.io",
-        "contentHash": "bc2324cfb65e29ba8012508abb9908d731aef2fe8e2cb1dd11be1099c6a4b5b7",
-        "excerpt": "Title: Free AI Voice Generator & Voice Agents Platform | ElevenLabs\n\nURL Source: https://elevenlabs.io/\n\nPublished Time: Thu, 22 Oct 2026 07:40:58 GMT\n\nMarkdown Content:\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n$1\n\n30,000 credits for $1 Start with 30,000 credits for only $1.Ends November 16\n\n[Subscribe](https://elevenlabs.io/pricing)\n\n[](https://elevenlabs.io/pricing)\n\n[Skip to content](https://elevenlabs.io/#content)\n\n*   [](https://elevenlabs.io/)\n*       *   Products \n    *   Solutions \n    *   [Customers](https://elevenlabs.io/customer-stories)\n    *   Resources \n    *   [Enterprise](https://elevenlabs.io/enterprise)\n    *   [Pricing](https://elevenlabs.io/pricing)\n\n[Log in](https://elevenlabs.io/app/sign-in)[Sign up](https://elevenlabs.io/app/sign-up)\n\n[Contact sales](https://elevenlabs.io/contact-sales)[Log in](https://elevenlabs.io/app)\n\n[](https://elevenlabs.io/)\n\n*   [Contact sales](https://elevenlabs.io/contact-sales) \n*   [Sign up](https://elevenlabs.io/app/si"
+        "contentHash": "914b77941bba07bd4e9d25a520b43db2f85f8996882f4ed5cbf1b8cc6d1b3e6d",
+        "excerpt": "Title: Free AI Voice Generator & Voice Agents Platform | ElevenLabs\n\nURL Source: https://elevenlabs.io/\n\nPublished Time: Thu, 22 Oct 2026 07:40:58 GMT\n\nMarkdown Content:\n\nIntroducing Eleven v4 Meet Eleven v4, our most emotive model yet.\n\n[Discover](https://elevenlabs.io/v4)\n\n[](https://elevenlabs.io/v4)\n\n[Skip to content](https://elevenlabs.io/#content)\n\n*   [](https://elevenlabs.io/)\n*       *   Products \n    *   Solutions \n    *   [Customers](https://elevenlabs.io/customer-stories)\n    *   Resources \n    *   [Enterprise](https://elevenlabs.io/enterprise)\n    *   [Pricing](https://elevenlabs.io/pricing)\n\n[Log in](https://elevenlabs.io/app/sign-in)[Sign up](https://elevenlabs.io/app/sign-up)\n\n[Contact sales](https://elevenlabs.io/contact-sales)[Log in](https://elevenlabs.io/app)\n\n[](https://elevenlabs.io/)\n\n*   [Contact sales](https://elevenlabs.io/contact-sales) \n*   [Sign up](https://elevenlabs.io/app/sign-up) \n\n# Bringing technology to life\n\n[Sign up](https://elevenlabs.io/app/sign-"
       }
     },
     {
@@ -9109,6 +9540,26 @@
           "surroundingText": "OpenAI TTS",
           "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "OpenAI TTS",
+          "surroundingText": "OpenAI TTS",
+          "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "OpenAI TTS",
+          "surroundingText": "OpenAI TTS",
+          "targetUrl": "https://platform.openai.com/docs/guides/text-to-speech",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -9122,7 +9573,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Official OpenAI Audio API TTS docs covering gpt-4o-mini-tts, tts-1/tts-1-hd, built-in voices, streaming, and multi-language SDKs. Strong fit for a voice-agent directory as a maintained commercial speech endpoint.",
         "relevanceScore": 0.95,
@@ -9534,6 +9985,26 @@
           "surroundingText": "Azure Speech Services",
           "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Azure Speech Services",
+          "surroundingText": "Azure Speech Services",
+          "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Azure Speech Services",
+          "surroundingText": "Azure Speech Services",
+          "targetUrl": "https://azure.microsoft.com/products/ai-services/text-to-speech",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -9547,7 +10018,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Official Microsoft Azure Speech APIs covering TTS, STT, translation, custom voices, and voice-agent surfaces with pay-as-you-go cloud (and container/edge) deployment. Strong fit for a voice-agents directory; listing URL now redirects to Azure Speech in Foundry Tools.",
         "relevanceScore": 0.92,
@@ -9962,6 +10433,26 @@
           "surroundingText": "Deepgram Aura-2",
           "targetUrl": "https://deepgram.com/product/text-to-speech",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Deepgram Aura-2",
+          "surroundingText": "Deepgram Aura-2",
+          "targetUrl": "https://deepgram.com/product/text-to-speech",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Deepgram Aura-2",
+          "surroundingText": "Deepgram Aura-2",
+          "targetUrl": "https://deepgram.com/product/text-to-speech",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -9975,7 +10466,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Official Deepgram TTS product page for conversation-oriented streaming speech (Aura-2 / Flux), with APIs, latency claims, and enterprise deployment options suitable for a voice-agent directory.",
         "relevanceScore": 0.92,
@@ -10390,6 +10881,26 @@
           "surroundingText": "Voice AI & Voice Agents Primer",
           "targetUrl": "https://voiceaiandvoiceagents.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Voice AI & Voice Agents Primer",
+          "surroundingText": "Voice AI & Voice Agents Primer",
+          "targetUrl": "https://voiceaiandvoiceagents.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "yzfly/awesome-voice-agents",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Voice AI & Voice Agents Primer",
+          "surroundingText": "Voice AI & Voice Agents Primer",
+          "targetUrl": "https://voiceaiandvoiceagents.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -10403,7 +10914,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Illustrated 2026 primer on conversational voice agents covering architecture, latency, models, and production practices; educational resource, not an API or product.",
         "relevanceScore": 0.82,
@@ -10818,6 +11329,26 @@
           "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
           "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "wildminder/awesome-ai-voice",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "wildminder/awesome-ai-voice",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "surroundingText": "Artificial Analysis — Text-to-Speech Leaderboard",
+          "targetUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -10831,7 +11362,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Independent TTS comparison site ranking provider models by Elo from blind preference tests, with sample counts, voice counts, release dates, and API pricing. Useful as a directory resource, not as a speech API or model.",
         "relevanceScore": 0.86,
@@ -11193,6 +11724,24 @@
           "surroundingText": "Ultra-realistic speech",
           "targetUrl": "https://elevenlabs.io/text-to-speech",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Ultra-realistic speech",
+          "surroundingText": "Ultra-realistic speech",
+          "targetUrl": "https://elevenlabs.io/text-to-speech",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Ultra-realistic speech",
+          "surroundingText": "Ultra-realistic speech",
+          "targetUrl": "https://elevenlabs.io/text-to-speech",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -11207,7 +11756,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official ElevenLabs text-to-speech product page with a web app, large voice library, multilingual synthesis, voice cloning, and a TTS API. Strong fit for an AI voice tools directory.",
         "relevanceScore": 0.98,
@@ -11566,6 +12115,24 @@
           "surroundingText": "Text to Speech API",
           "targetUrl": "https://elevenlabs.io/text-to-speech-api",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Text to Speech API",
+          "surroundingText": "Text to Speech API",
+          "targetUrl": "https://elevenlabs.io/text-to-speech-api",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "Text to Speech API",
+          "surroundingText": "Text to Speech API",
+          "targetUrl": "https://elevenlabs.io/text-to-speech-api",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -11580,7 +12147,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official ElevenLabs Text to Speech API docs/marketing page for production TTS, streaming, cloning, and SDKs. Strong fit for an AI voice directory; commercial usage-based API, not open-source.",
         "relevanceScore": 1,
@@ -11941,6 +12508,24 @@
           "surroundingText": "API Reference",
           "targetUrl": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://elevenlabs.io/",
+          "sectionPath": [],
+          "anchorText": "API Reference",
+          "surroundingText": "API Reference",
+          "targetUrl": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -11955,7 +12540,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official ElevenLabs POST /v1/text-to-speech/{voice_id} docs: convert text to audio with model, format, voice-settings, continuity, and effects parameters plus multi-language SDK examples.",
         "relevanceScore": 0.98,
@@ -12307,6 +12892,24 @@
           "surroundingText": "https://suno.com/home",
           "targetUrl": "https://suno.com/home",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://suno.com/home",
+          "surroundingText": "https://suno.com/home",
+          "targetUrl": "https://suno.com/home",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://suno.com/home",
+          "surroundingText": "https://suno.com/home",
+          "targetUrl": "https://suno.com/home",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -12321,7 +12924,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno web app for AI music generation (create, share, discover). Preferred official surface for music-gen listings; consumer product, not a developer SDK.",
         "relevanceScore": 0.95,
@@ -12671,6 +13274,24 @@
           "surroundingText": "Careers",
           "targetUrl": "https://suno.com/careers",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Careers",
+          "surroundingText": "Careers",
+          "targetUrl": "https://suno.com/careers",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Careers",
+          "surroundingText": "Careers",
+          "targetUrl": "https://suno.com/careers",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -12685,7 +13306,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "This URL is Suno’s hiring site, not a music-generation product, API, or SDK. It does not belong in a directory of usable AI voice or audio tools.",
         "relevanceScore": 0.05,
@@ -12735,7 +13356,7 @@
       "id": "web:c1ad3f1cfd47c9b2",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/studio-welcome",
-      "title": "Suno Studio A browser-based DAW for arranging, editing and mixing every part of a song until it is exactly yours.",
+      "title": "Suno Studio",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -13025,6 +13646,24 @@
           "surroundingText": "Suno Studio A browser-based DAW for arranging, editing and mixing every part of a song until it is exactly yours.",
           "targetUrl": "https://suno.com/studio-welcome",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Studio",
+          "surroundingText": "Studio",
+          "targetUrl": "https://suno.com/studio-welcome",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno Studio",
+          "surroundingText": "Suno Studio",
+          "targetUrl": "https://suno.com/studio-welcome",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -13039,7 +13678,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Studio 2.0 landing page for a browser DAW that arranges, edits, mixes, and exports AI-generated songs with stems, MIDI, and effects. Fits an awesome list of music-generation tools as a first-party product surface, not a roundup or clone spam.",
         "relevanceScore": 0.95,
@@ -13100,7 +13739,7 @@
       "id": "web:b7d5974066aee4f3",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/voices",
-      "title": "Voices Record a few seconds of your own voice, then hear it sing anything you write, in any style.",
+      "title": "Voices",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -13390,6 +14029,24 @@
           "surroundingText": "Voices Record a few seconds of your own voice, then hear it sing anything you write, in any style.",
           "targetUrl": "https://suno.com/voices",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Voices",
+          "surroundingText": "Voices",
+          "targetUrl": "https://suno.com/voices",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Voices",
+          "surroundingText": "Voices",
+          "targetUrl": "https://suno.com/voices",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -13404,7 +14061,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Voices product page: record or upload your voice and use it in generated songs, with verification so only you can use that voice. Fits an awesome list of AI voice/music tools as a first-party Suno surface, not a third-party clone pack.",
         "relevanceScore": 0.92,
@@ -13464,7 +14121,7 @@
       "id": "web:01717c62932e902b",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/stem-separation",
-      "title": "Stem separation Pull any song apart into clean, time-aligned stems and carry them into the DAW you already use.",
+      "title": "Stem separation",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -13754,6 +14411,24 @@
           "surroundingText": "Stem separation Pull any song apart into clean, time-aligned stems and carry them into the DAW you already use.",
           "targetUrl": "https://suno.com/stem-separation",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Stem Separation",
+          "surroundingText": "Stem Separation",
+          "targetUrl": "https://suno.com/stem-separation",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Stem separation",
+          "surroundingText": "Stem separation",
+          "targetUrl": "https://suno.com/stem-separation",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -13768,7 +14443,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno product page for in-product stem splitting: auto 12-stem split, isolate-from-mix, and advanced instrument selection for DAW export. Fits an AI music/audio directory as a maintained vendor surface, not a standalone API or open-source model.",
         "relevanceScore": 0.86,
@@ -13826,7 +14501,7 @@
       "id": "web:18fbf9e0d5ef3b00",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/remix-welcome",
-      "title": "Remix Take a song somewhere new. Change its style, rewrite the lyrics or rebuild it around your own recording.",
+      "title": "Remix",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -14116,6 +14791,24 @@
           "surroundingText": "Remix Take a song somewhere new. Change its style, rewrite the lyrics or rebuild it around your own recording.",
           "targetUrl": "https://suno.com/remix-welcome",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/remix-welcome",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/remix-welcome",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -14130,7 +14823,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Remix landing page for covering, mashups, extending, sampling, and restyling existing tracks in the web create flow. Fits a music-generation directory as a maintained first-party product surface, not a ringtone pack or news roundup.",
         "relevanceScore": 0.92,
@@ -14187,7 +14880,7 @@
       "id": "web:403ca238689ece1e",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/custom-models",
-      "title": "Custom models Train a model on your own recordings so every song it makes starts from your sound.",
+      "title": "Custom models",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -14477,6 +15170,24 @@
           "surroundingText": "Custom models Train a model on your own recordings so every song it makes starts from your sound.",
           "targetUrl": "https://suno.com/custom-models",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Custom Models",
+          "surroundingText": "Custom Models",
+          "targetUrl": "https://suno.com/custom-models",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Custom models",
+          "surroundingText": "Custom models",
+          "targetUrl": "https://suno.com/custom-models",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -14491,7 +15202,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno product page for Custom Models: train up to three private models on owned uploads and library audio so generated songs start from your sound.",
         "relevanceScore": 0.92,
@@ -14548,7 +15259,7 @@
       "id": "web:6ed74e45c55d68f7",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/music-library",
-      "title": "Music library Browse songs by genre, mood and occasion, whether you need a reference, a spark or the right track for a project.",
+      "title": "Music library",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -14838,6 +15549,24 @@
           "surroundingText": "Music library Browse songs by genre, mood and occasion, whether you need a reference, a spark or the right track for a project.",
           "targetUrl": "https://suno.com/music-library",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Music Library",
+          "surroundingText": "Music Library",
+          "targetUrl": "https://suno.com/music-library",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Music library",
+          "surroundingText": "Music library",
+          "targetUrl": "https://suno.com/music-library",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -14852,7 +15581,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno catalog for browsing generated tracks by genre, mood, occasion, instrument, use case, and collection, then creating a new track from a description. Useful as an end-user discovery surface, not an API or SDK.",
         "relevanceScore": 0.86,
@@ -15199,6 +15928,24 @@
           "surroundingText": "About",
           "targetUrl": "https://suno.com/about",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "About",
+          "surroundingText": "About",
+          "targetUrl": "https://suno.com/about",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "About",
+          "surroundingText": "About",
+          "targetUrl": "https://suno.com/about",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -15213,7 +15960,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno company About page describing the AI music product (Studio, models, voices) and company stats. Prefer the main product URL over this marketing/careers-oriented page for a tools directory.",
         "relevanceScore": 0.72,
@@ -15714,6 +16461,24 @@
           "surroundingText": "Pricing",
           "targetUrl": "https://suno.com/pricing",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Pricing",
+          "surroundingText": "Pricing",
+          "targetUrl": "https://suno.com/pricing",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Pricing",
+          "surroundingText": "Pricing",
+          "targetUrl": "https://suno.com/pricing",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -15728,7 +16493,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno pricing page for AI music generation, listing free and paid creator plans plus FAQs on credits, commercial rights, and model versions. Thin as a directory listing (pricing, not a docs/API hub) but is the vendor’s canonical commercial surface.",
         "relevanceScore": 0.86,
@@ -16195,6 +16960,24 @@
           "surroundingText": "Safety",
           "targetUrl": "https://suno.com/safety",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Safety",
+          "surroundingText": "Safety",
+          "targetUrl": "https://suno.com/safety",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Safety",
+          "surroundingText": "Safety",
+          "targetUrl": "https://suno.com/safety",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -16209,7 +16992,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Safety Center covering principles, community guidelines, C2PA Content Credentials, originality checks, and reporting. Useful policy/provenance reference, not a generation API or product surface.",
         "relevanceScore": 0.72,
@@ -16559,6 +17342,24 @@
           "surroundingText": "Contact Us ↗",
           "targetUrl": "https://help.suno.com/en/articles/2551617",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Contact Us ↗",
+          "surroundingText": "Contact Us ↗",
+          "targetUrl": "https://help.suno.com/en/articles/2551617",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Contact Us ↗",
+          "surroundingText": "Contact Us ↗",
+          "targetUrl": "https://help.suno.com/en/articles/2551617",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -16573,7 +17374,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno help article on how to get support (search, support@suno.com, billing email, Discord). It is not a product, API, or music-generation surface suitable for an AI voice/music tools directory.",
         "relevanceScore": 0.15,
@@ -16918,6 +17719,24 @@
           "surroundingText": "Community Guidelines",
           "targetUrl": "https://suno.com/community-guidelines",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Community Guidelines",
+          "surroundingText": "Community Guidelines",
+          "targetUrl": "https://suno.com/community-guidelines",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Community Guidelines",
+          "surroundingText": "Community Guidelines",
+          "targetUrl": "https://suno.com/community-guidelines",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -16932,7 +17751,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official policy page for an AI music platform, not a product, API, SDK, or model surface. Unsuitable as a directory listing for voice/music tools.",
         "relevanceScore": 0.15,
@@ -17278,6 +18097,24 @@
           "surroundingText": "https://x.com/suno",
           "targetUrl": "https://x.com/suno",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://x.com/suno",
+          "surroundingText": "https://x.com/suno",
+          "targetUrl": "https://x.com/suno",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://x.com/suno",
+          "surroundingText": "https://x.com/suno",
+          "targetUrl": "https://x.com/suno",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -17292,7 +18129,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno X/Twitter account only; it is a social feed, not a product, API, or model surface for a voice/music tools directory.",
         "relevanceScore": 0.25,
@@ -17638,6 +18475,24 @@
           "surroundingText": "https://www.instagram.com/sunomusic",
           "targetUrl": "https://www.instagram.com/sunomusic",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.instagram.com/sunomusic",
+          "surroundingText": "https://www.instagram.com/sunomusic",
+          "targetUrl": "https://www.instagram.com/sunomusic",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.instagram.com/sunomusic",
+          "surroundingText": "https://www.instagram.com/sunomusic",
+          "targetUrl": "https://www.instagram.com/sunomusic",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -17652,7 +18507,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Instagram account for marketing and community posts, not a product, API, or model surface for an AI voice/music tools directory.",
         "relevanceScore": 0.15,
@@ -17996,6 +18851,24 @@
           "surroundingText": "https://www.tiktok.com/@sunomusic",
           "targetUrl": "https://www.tiktok.com/@sunomusic",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.tiktok.com/@sunomusic",
+          "surroundingText": "https://www.tiktok.com/@sunomusic",
+          "targetUrl": "https://www.tiktok.com/@sunomusic",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.tiktok.com/@sunomusic",
+          "surroundingText": "https://www.tiktok.com/@sunomusic",
+          "targetUrl": "https://www.tiktok.com/@sunomusic",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -18010,7 +18883,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno TikTok account only; no product, API, SDK, or model surface for a voice/music tools directory.",
         "relevanceScore": 0.15,
@@ -18355,6 +19228,24 @@
           "surroundingText": "https://www.youtube.com/@suno",
           "targetUrl": "https://www.youtube.com/@suno",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.youtube.com/@suno",
+          "surroundingText": "https://www.youtube.com/@suno",
+          "targetUrl": "https://www.youtube.com/@suno",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://www.youtube.com/@suno",
+          "surroundingText": "https://www.youtube.com/@suno",
+          "targetUrl": "https://www.youtube.com/@suno",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -18369,7 +19260,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno YouTube handle linked from suno.com; it is a marketing/video channel, not a music-generation API, app, or SDK. Fine as a brand surface, weak as a directory listing versus the product itself.",
         "relevanceScore": 0.48,
@@ -18711,6 +19602,24 @@
           "surroundingText": "https://discord.com/invite/suno",
           "targetUrl": "https://discord.com/invite/suno",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://discord.com/invite/suno",
+          "surroundingText": "https://discord.com/invite/suno",
+          "targetUrl": "https://discord.com/invite/suno",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "https://discord.com/invite/suno",
+          "surroundingText": "https://discord.com/invite/suno",
+          "targetUrl": "https://discord.com/invite/suno",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -18725,7 +19634,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno Discord (~394k members) for community support around AI music generation, not a product, API, or SDK surface.",
         "relevanceScore": 0.42,
@@ -18783,7 +19692,7 @@
       "id": "web:880f01837d5d37ed",
       "type": "web_url",
       "canonicalUrl": "https://suno.com/v6",
-      "title": "v6, our newest model Our most capable model yet, with fuller vocals, tighter arrangements and more of the detail you asked for.",
+      "title": "v6, our newest model",
       "discoveredFrom": "curated_readme",
       "sourceEvidence": [
         {
@@ -19028,6 +19937,24 @@
           "surroundingText": "v6, our newest model Our most capable model yet, with fuller vocals, tighter arrangements and more of the detail you asked for.",
           "targetUrl": "https://suno.com/v6",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "v6, our newest model Our most capable model yet, with fuller vocals, tighter arrangements and more of the detail you asked for.",
+          "surroundingText": "v6, our newest model Our most capable model yet, with fuller vocals, tighter arrangements and more of the detail you asked for.",
+          "targetUrl": "https://suno.com/v6",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "v6, our newest model",
+          "surroundingText": "v6, our newest model",
+          "targetUrl": "https://suno.com/v6",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -19042,7 +19969,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:20:00.059Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno v6 product page for the latest music-generation models, with web create flow, section-level editing, dual v6/v6-wild modes, and Studio stem mixing.",
         "relevanceScore": 0.95,
@@ -19311,6 +20238,24 @@
           "surroundingText": "iOS app ↗",
           "targetUrl": "https://apps.apple.com/app/suno-make-and-explore-music/id6480136315",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "iOS app ↗",
+          "surroundingText": "iOS app ↗",
+          "targetUrl": "https://apps.apple.com/app/suno-make-and-explore-music/id6480136315",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "iOS app ↗",
+          "surroundingText": "iOS app ↗",
+          "targetUrl": "https://apps.apple.com/app/suno-make-and-explore-music/id6480136315",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -19325,7 +20270,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-20T09:20:00.084Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno iOS client linked from suno.com for making and exploring AI-generated music. Fits a music-generation directory as a first-party consumer app, not an API or SDK.",
         "relevanceScore": 0.86,
@@ -19592,6 +20537,24 @@
           "surroundingText": "Release Notes",
           "targetUrl": "https://suno.com/release-notes",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Release Notes",
+          "surroundingText": "Release Notes",
+          "targetUrl": "https://suno.com/release-notes",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Release Notes",
+          "surroundingText": "Release Notes",
+          "targetUrl": "https://suno.com/release-notes",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -19606,7 +20569,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-20T09:20:00.084Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno changelog covering music models (v6), Studio DAW updates, Speech beta, and product features. Useful as a maintained source of truth for what the platform currently ships, not an API or SDK.",
         "relevanceScore": 0.86,
@@ -19873,6 +20836,24 @@
           "surroundingText": "AI Music Tools",
           "targetUrl": "https://suno.com/tools",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "AI Music Tools",
+          "surroundingText": "AI Music Tools",
+          "targetUrl": "https://suno.com/tools",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "AI Music Tools",
+          "surroundingText": "AI Music Tools",
+          "targetUrl": "https://suno.com/tools",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -19887,7 +20868,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-20T09:20:00.084Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno tools directory covering song generation, instrumentals, lyrics, stems/vocal removal, trimming, and clip joining. Fits an AI voice/music directory as a first-party product surface, not a third-party clone pack.",
         "relevanceScore": 0.95,
@@ -20154,6 +21135,24 @@
           "surroundingText": "Suno Credentials",
           "targetUrl": "https://suno.com/suno-credentials",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno Credentials",
+          "surroundingText": "Suno Credentials",
+          "targetUrl": "https://suno.com/suno-credentials",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Suno Credentials",
+          "surroundingText": "Suno Credentials",
+          "targetUrl": "https://suno.com/suno-credentials",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -20168,7 +21167,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-20T09:20:00.084Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Suno page to check C2PA content credentials on audio (upload or URL) plus a documented free detect API; not a general AI detector and only covers newly downloaded Suno files.",
         "relevanceScore": 0.86,
@@ -20437,6 +21436,24 @@
           "surroundingText": "Cookie Policy",
           "targetUrl": "https://suno.com/cookie-policy",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Cookie Policy",
+          "surroundingText": "Cookie Policy",
+          "targetUrl": "https://suno.com/cookie-policy",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Cookie Policy",
+          "surroundingText": "Cookie Policy",
+          "targetUrl": "https://suno.com/cookie-policy",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -20451,7 +21468,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-20T09:20:00.084Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "This URL is Suno’s cookie/tracking legal page, not a product, API, or music-generation surface. It should not be listed in an awesome-style AI voice/music directory.",
         "relevanceScore": 0.05,
@@ -20655,6 +21672,24 @@
           "surroundingText": "MCP",
           "targetUrl": "https://suno.com/mcp",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "MCP",
+          "surroundingText": "MCP",
+          "targetUrl": "https://suno.com/mcp",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "MCP",
+          "surroundingText": "MCP",
+          "targetUrl": "https://suno.com/mcp",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -20669,7 +21704,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-28T18:40:05.174Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Model Context Protocol endpoint that lets ChatGPT, Claude, Gemini, Cursor, and Claude Code generate, remix, and extend songs in-chat using an existing account and credits.",
         "relevanceScore": 0.92,
@@ -20752,6 +21787,24 @@
           "surroundingText": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=ai.google&utm_medium=referral",
           "targetUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech?utm_source=ai.google&utm_medium=referral",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=ai.google&utm_medium=referral",
+          "surroundingText": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=ai.google&utm_medium=referral",
+          "targetUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech?utm_source=ai.google&utm_medium=referral",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=ai.google&utm_medium=referral",
+          "surroundingText": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=ai.google&utm_medium=referral",
+          "targetUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech?utm_source=ai.google&utm_medium=referral",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -20766,7 +21819,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-11T09:20:00.024Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official Google announcement of Gemini 3.8 Flash and Flash-Lite TTS, covering promptable voice design, replication, line-level direction, and Gemini API / AI Studio access. Strong fit as a primary TTS surface; this URL is a blog post rather than the API docs themselves.",
         "relevanceScore": 0.92,
@@ -20824,6 +21877,378 @@
           "model": "grok-4.6"
         }
       }
+    },
+    {
+      "id": "web:47c9a27b92b6a0bd",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=f0f00357-0cd7-4fd5-96e5-d9314439f4e5",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=f0f00357-0cd7-4fd5-96e5-d9314439f4e5",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:04bb9f53e0b96b80",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=8e7e59d7-b2db-461b-8384-22b7f61784ef",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=8e7e59d7-b2db-461b-8384-22b7f61784ef",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:6c5bcce41813b44d",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=58490298-ca5b-451b-9e59-e432153bb178",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=58490298-ca5b-451b-9e59-e432153bb178",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:2a1f95998f708055",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=4eed94d1-9d36-4a8b-aa74-71250bbb8b0f",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=4eed94d1-9d36-4a8b-aa74-71250bbb8b0f",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:3573bc165991c936",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=e9548485-9bf8-46bc-ace1-83b5e21f872c",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=e9548485-9bf8-46bc-ace1-83b5e21f872c",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:2f8197f6f88de812",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=9f5adfa3-865d-482f-9ce6-38f5cc05a8ae",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=9f5adfa3-865d-482f-9ce6-38f5cc05a8ae",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:34b404757fdd8f46",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=057fa44a-a2c2-4089-8fca-52a637117f00",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=057fa44a-a2c2-4089-8fca-52a637117f00",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:6c7528e99dd16c63",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=9bca6f37-af92-436c-a4c6-aa22c908b7d1",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=9bca6f37-af92-436c-a4c6-aa22c908b7d1",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:f29037d0d4837669",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=538ab4ae-3ace-4abf-95f9-be0bed53b65d",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=538ab4ae-3ace-4abf-95f9-be0bed53b65d",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:97237329fd5adecf",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create?remix_type=cover&song_id=c1a16429-f3fe-4d99-bdcf-61ee13ed6f00",
+      "title": "Remix",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Remix",
+          "surroundingText": "Remix",
+          "targetUrl": "https://suno.com/create?remix_type=cover&song_id=c1a16429-f3fe-4d99-bdcf-61ee13ed6f00",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:509d57a3ae8ce2ed",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/create",
+      "title": "Free AI music generator",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Free AI music generator",
+          "surroundingText": "Free AI music generator",
+          "targetUrl": "https://suno.com/create",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:ff0b4aae37155356",
+      "type": "web_url",
+      "canonicalUrl": "https://suno.com/bridge",
+      "title": "Bridge (beta)",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://suno.com/",
+          "sectionPath": [],
+          "anchorText": "Bridge (beta)",
+          "surroundingText": "Bridge (beta)",
+          "targetUrl": "https://suno.com/bridge",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-14T09:20:00.064Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
     }
   ]
 }

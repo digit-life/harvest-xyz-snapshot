@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:30:00.055Z",
+  "generatedAt": "2026-11-14T10:30:00.022Z",
   "appId": "awesome-xai",
   "items": [
     {
@@ -929,6 +929,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok API Documentation | SpaceXSI Docs",
+          "surroundingText": "Grok API Documentation | SpaceXSI Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok API Documentation | SpaceXSI Docs",
+          "surroundingText": "Grok API Documentation | SpaceXSI Docs",
+          "targetUrl": "https://docs.x.ai",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "milisp/awesome-grok",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1713,12 +1731,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
-        "summary": "Official developer documentation for the xAI API, covering models, quickstart, REST reference, tools, media, and advanced usage. Primary source for integrating Grok capabilities rather than a third-party tutorial.",
-        "relevanceScore": 1,
-        "qualityScore": 0.95,
-        "riskScore": 0.05,
+        "summary": "Official developer documentation at docs.x.ai covering API overview, quickstart, models, REST reference, tools, and multimodal capabilities. Primary canonical source for platform integration.",
+        "relevanceScore": 0.98,
+        "qualityScore": 0.92,
+        "riskScore": 0.08,
         "suggestedTags": [
           "docs",
           "api",
@@ -1726,32 +1744,37 @@
           "grok"
         ],
         "evidence": [
-          "canonicalUrl and excerpt URL are https://docs.x.ai with final path /overview.",
-          "Excerpt nav lists Get Started (Quickstart, Models, Pricing, Release Notes), REST Reference, Tools, Files, Imagine, Voice, and Advanced API Usage.",
-          "Source type official-web; riskFlags empty; confidenceReasons include bucket:official-web and bucket:approve.",
-          "Linked from curated awesome-grok README as developer docs."
+          "canonicalUrl and excerpt source https://docs.x.ai with final URL https://docs.x.ai/overview",
+          "Get Started links: Quickstart, models, pricing, release notes, REST reference",
+          "Capability sections for text, image/video, voice, files, tools, and advanced API",
+          "Links to console.x.ai, status.x.ai, x.ai/legal, and docs.x.ai/llms.txt",
+          "riskFlags empty; type official-web; confidence bucket approve"
         ],
         "uncertainty": [
-          "Full page depth and accuracy of every subpage were not independently crawled beyond the provided excerpt.",
-          "Current model names and retirement dates may change after the excerpt snapshot."
+          "Full depth of each doc page beyond the homepage nav excerpt",
+          "Current model lineup and pricing details not fully quoted in the excerpt",
+          "Whether SpaceXSI in the title is a scraper artifact or live site branding"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-12T10:30:21.049Z",
+        "reviewedAt": "2026-11-14T10:30:49.046Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
         "tagline": "Official API docs for models, tools, and media",
-        "description": "Official developer docs covering quickstart, models, REST reference, tools, files, voice, and advanced API usage.",
+        "description": "Covers quickstart, REST reference, multimodal APIs, tools, files, and advanced usage for developers.",
         "pros": [
-          "Hosted on docs.x.ai with overview, quickstart, models, pricing, and REST reference.",
-          "Documents text, image, video, voice, files, collections, and tool APIs including function calling and search.",
-          "Includes cookbook, migration guides, rate limits, debugging, and community platform integrations.",
-          "Provides llms.txt, status, console, Discord, and legal/support links from the docs home."
+          "Hosted on the official docs.x.ai domain with console, status, and legal links.",
+          "Navigation includes quickstart, models, pricing, REST reference, and capability guides.",
+          "Documents text, image, video, voice, files, tools, and advanced API topics.",
+          "Provides llms.txt, cookbook, Discord, and support contacts.",
+          "Lists migration guides, FAQ, and community platform integrations."
         ],
         "cons": [
-          "The listing title mixes in unrelated third-party branding (SpaceXSI) that is not the docs site itself.",
-          "API usage still requires console access and paid usage; the docs site does not replace an SDK."
+          "Scraped page title uses an inconsistent SpaceXSI Docs branding.",
+          "Excerpt is a nav dump, so individual page quality is not fully shown.",
+          "API usage itself is not free; this listing is documentation only."
         ],
+        "pricingModel": "free",
         "bestFor": [
           "learning",
           "prototyping",
@@ -1760,10 +1783,10 @@
           "small team"
         ],
         "usage": {
-          "input": 29157,
-          "output": 648,
-          "cacheRead": 512,
-          "totalTokens": 30317,
+          "input": 1156,
+          "output": 597,
+          "cacheRead": 29824,
+          "totalTokens": 31577,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1771,8 +1794,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://docs.x.ai",
-        "contentHash": "a043dd5f6c32b3a7d0353c6f32ebd052c4b88b6a6ed0c18979ab93a6eaadca30",
-        "excerpt": "Title: Grok API Documentation\n\nURL Source: https://docs.x.ai/\n\nFinal URL: https://docs.x.ai/overview\n\nMarkdown Content:\n[](https://docs.x.ai/)\n\n[API](https://docs.x.ai/overview)\n\n[Grok Build](https://docs.x.ai/build/overview)[Grok Bot](https://docs.x.ai/grok-bot/overview)[Grok](https://docs.x.ai/grok/overview)[X Subscription](https://docs.x.ai/x-subscription/overview)\n\nSearch\n\nCtrl+K\n\n[API Console](https://console.x.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=header-api-console)\n\nProducts\n\n[Grok](https://grok.com/?referrer=docs)\n\nStatus\n\n[Available](https://status.x.ai/)\n\nResources\n\n[llms.txt](https://docs.x.ai/llms.txt)[Discord](https://discord.gg/x-ai)[Email support](mailto:support@x.ai)[Terms and Policies](https://x.ai/legal)\n\nGet Started\n\n*   [Overview](https://docs.x.ai/overview)\n*   [Quickstart](https://docs.x.ai/developers/quickstart)\n*   [Grok 4.7 Latest](https://docs.x.ai/developers/grok-4-7)\n*   [Models](https://docs.x.ai/developers/models)\n*   "
+        "contentHash": "a9c997ee706bd5596258e2f6ca2287bcba0ef792bbda2408b33be17b26e55d1b",
+        "excerpt": "Title: Grok API Documentation | SpaceXSI Docs\n\nURL Source: https://docs.x.ai/\n\nFinal URL: https://docs.x.ai/overview\n\nMarkdown Content:\n[](https://docs.x.ai/)\n\n[API](https://docs.x.ai/overview)\n\n[Grok Build](https://docs.x.ai/build/overview)[Grok Bot](https://docs.x.ai/grok-bot/overview)[Grok](https://docs.x.ai/grok/overview)[X Subscription](https://docs.x.ai/x-subscription/overview)\n\nSearch\n\n⌘K\n\n[API Console](https://console.x.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=header-api-console)\n\nProducts\n\n[Grok](https://grok.com/?referrer=docs)[Grok Bot](https://x.ai/bot)[Grok Build](https://x.ai/build?source=docs)\n\nStatus\n\n[Loading...](https://status.x.ai/)\n\nResources\n\n[llms.txt](https://docs.x.ai/llms.txt)[Discord](https://discord.gg/x-ai)[Email support](mailto:support@x.ai)[Terms and Policies](https://x.ai/legal)\n\nGet Started\n\n*   [Overview](https://docs.x.ai/overview)\n*   [Quickstart](https://docs.x.ai/developers/quickstart)\n*   [Grok 4.7 Latest](https://"
       }
     },
     {
@@ -2702,6 +2725,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://x.ai/",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://x.ai/",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "backblaze-labs/awesome-video-generation",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3049,6 +3090,26 @@
           "surroundingText": "xAI Aurora / Grok Imagine",
           "targetUrl": "https://x.ai",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xAI Aurora / Grok Imagine",
+          "surroundingText": "xAI Aurora / Grok Imagine",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "xAI Aurora / Grok Imagine",
+          "surroundingText": "xAI Aurora / Grok Imagine",
+          "targetUrl": "https://x.ai",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         },
         {
           "sourceType": "curated_readme",
@@ -3834,7 +3895,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official company and product homepage for the Grok API, docs, console, and consumer apps. High-value seed link for an xAI/Grok directory, but it is a marketing site rather than a GitHub SDK.",
         "relevanceScore": 1,
@@ -5033,6 +5094,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://console.x.ai",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://console.x.ai",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://console.x.ai",
+          "sectionPath": [],
+          "anchorText": "awesome-xai",
+          "surroundingText": "awesome-xai",
+          "targetUrl": "https://console.x.ai",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "milisp/awesome-grok",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -5814,7 +5893,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI developer console at console.x.ai for API keys, team access, billing, and Grok/voice/image APIs. High platform relevance; login-gated so in-app docs cannot be verified from the public page.",
         "relevanceScore": 1,
@@ -16718,6 +16797,24 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "xai",
+          "sectionPath": [],
+          "anchorText": "xai",
+          "surroundingText": "xai",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-11-13T10:00:03.165Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "xai",
+          "sectionPath": [],
+          "anchorText": "xai",
+          "surroundingText": "xai",
+          "targetUrl": "https://huggingface.co/xai",
+          "discoveredAt": "2026-11-14T10:00:00.104Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "milisp/awesome-grok",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -17499,7 +17596,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:40.370Z",
-      "updatedAt": "2026-11-12T10:00:04.325Z",
+      "updatedAt": "2026-11-14T10:00:00.104Z",
       "aiReview": {
         "summary": "The listed Hugging Face URL resolves to the unrelated university org “XAI” (explainable AI research), not xAI/Grok. It should not be listed as an official xAI Hub presence.",
         "relevanceScore": 0.05,
@@ -25554,6 +25651,24 @@
           "surroundingText": "Grok",
           "targetUrl": "https://grok.com",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://grok.com",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://grok.com",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -25568,7 +25683,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official consumer web app for xAI’s assistant, linked from docs.x.ai; useful as the primary chat surface, not as an API/SDK.",
         "relevanceScore": 0.95,
@@ -27304,6 +27419,24 @@
           "surroundingText": "Grok Bot",
           "targetUrl": "https://docs.x.ai/grok-bot/overview",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://docs.x.ai/grok-bot/overview",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://docs.x.ai/grok-bot/overview",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -27318,7 +27451,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI docs for persistent cloud AI teammates with computer use, connectors, skills, and team rollout. High-value primary documentation for Grok/xAI developers and operators.",
         "relevanceScore": 0.95,
@@ -28108,6 +28241,24 @@
           "surroundingText": "Grok",
           "targetUrl": "https://docs.x.ai/grok/overview",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://docs.x.ai/grok/overview",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok",
+          "surroundingText": "Grok",
+          "targetUrl": "https://docs.x.ai/grok/overview",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -28122,7 +28273,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-26T01:20:00.166Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI consumer documentation for the Grok assistant (web and mobile), covering chat, media, connectors, plans, and links to FAQ, enterprise, and Grok Bot. Useful as a first-party product overview, not an API or SDK reference.",
         "relevanceScore": 0.86,
@@ -33404,6 +33555,24 @@
           "surroundingText": "Grok Build",
           "targetUrl": "https://docs.x.ai/build/overview",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Build",
+          "surroundingText": "Grok Build",
+          "targetUrl": "https://docs.x.ai/build/overview",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Build",
+          "surroundingText": "Grok Build",
+          "targetUrl": "https://docs.x.ai/build/overview",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -33418,7 +33587,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-08T01:53:06.583Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI documentation for an installable coding agent with interactive TUI, headless CLI, ACP, custom models, and API examples. Direct platform docs with clear install and usage paths.",
         "relevanceScore": 0.98,
@@ -33902,6 +34071,24 @@
           "surroundingText": "Grok 4.7 Latest",
           "targetUrl": "https://docs.x.ai/developers/grok-4-7",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok 4.7 Latest",
+          "surroundingText": "Grok 4.7 Latest",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-7",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok 4.7 Latest",
+          "surroundingText": "Grok 4.7 Latest",
+          "targetUrl": "https://docs.x.ai/developers/grok-4-7",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -33916,7 +34103,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-22T01:20:00.082Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI developer page for Grok 4.7 covering model id, API examples, context/pricing, tools, and caching notes. Direct, current platform docs suitable for a Grok/xAI directory.",
         "relevanceScore": 1,
@@ -34399,6 +34586,24 @@
           "surroundingText": "View model",
           "targetUrl": "https://docs.x.ai/developers/models/grok-4.7",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "View model",
+          "surroundingText": "View model",
+          "targetUrl": "https://docs.x.ai/developers/models/grok-4.7",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "View model",
+          "surroundingText": "View model",
+          "targetUrl": "https://docs.x.ai/developers/models/grok-4.7",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -34413,7 +34618,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-22T01:20:00.082Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI developer model page for grok-4.7 covering modalities, context, capabilities, pricing, rate limits, and regions. Direct, high-value reference for API integration.",
         "relevanceScore": 1,
@@ -34972,6 +35177,24 @@
           "surroundingText": "Try in playground",
           "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.7&utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=highlights-grok-47",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Try in playground",
+          "surroundingText": "Try in playground",
+          "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.7&utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=highlights-grok-47",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Try in playground",
+          "surroundingText": "Try in playground",
+          "targetUrl": "https://console.x.ai/team/default/chat?model=grok-4.7&utm_source=docs&utm_medium=referral&utm_campaign=docs-home&utm_content=highlights-grok-47",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -34986,7 +35209,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-09-27T01:20:00.067Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Official xAI console chat playground deep-linked from docs for trying grok-4.7. Useful as a first-party try-it surface, not a GitHub SDK or docs page.",
         "relevanceScore": 0.86,
@@ -35670,6 +35893,26 @@
           "surroundingText": "Docs",
           "targetUrl": "https://x.ai/news/grok-imagine-api",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://x.ai/news/grok-imagine-api",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://x.ai/news/grok-imagine-api",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -35683,7 +35926,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Official xAI announcement for the Grok Imagine video generation and editing API, with console and docs links. Useful as a product pointer, but it is a news post rather than developer documentation.",
         "relevanceScore": 0.86,
@@ -36093,6 +36336,26 @@
           "surroundingText": "ngrok",
           "targetUrl": "https://ngrok.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "agarrharr/awesome-cli-apps",
+          "sourcePath": "readme.md",
+          "sectionPath": [],
+          "anchorText": "ngrok",
+          "surroundingText": "ngrok",
+          "targetUrl": "https://ngrok.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "agarrharr/awesome-cli-apps",
+          "sourcePath": "readme.md",
+          "sectionPath": [],
+          "anchorText": "ngrok",
+          "surroundingText": "ngrok",
+          "targetUrl": "https://ngrok.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -36106,7 +36369,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "ngrok is a general-purpose traffic gateway and localhost tunnel, not an xAI or Grok API/SDK resource. Reject for this directory despite being a well-documented developer tool.",
         "relevanceScore": 0.05,
@@ -36514,6 +36777,26 @@
           "surroundingText": "Frankieli123/grok-skill",
           "targetUrl": "https://github.com/frankieli123/grok-skill",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Frankieli123/grok-skill",
+          "surroundingText": "Frankieli123/grok-skill",
+          "targetUrl": "https://github.com/frankieli123/grok-skill",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "RoggeOhta/awesome-codex-cli",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Frankieli123/grok-skill",
+          "surroundingText": "Frankieli123/grok-skill",
+          "targetUrl": "https://github.com/frankieli123/grok-skill",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -36527,7 +36810,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party Codex/Claude skill that calls an OpenAI-compatible Grok (2api) endpoint for web search; useful for agent workflows but unofficial, Windows-install-centric, and depends on a user-supplied proxy.",
         "relevanceScore": 0.62,
@@ -36939,6 +37222,26 @@
           "surroundingText": "Build Remote Agent",
           "targetUrl": "https://github.com/linespottingorg/grokbuildremote-agents",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Build Remote Agent",
+          "surroundingText": "Build Remote Agent",
+          "targetUrl": "https://github.com/linespottingorg/grokbuildremote-agents",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Build Remote Agent",
+          "surroundingText": "Build Remote Agent",
+          "targetUrl": "https://github.com/linespottingorg/grokbuildremote-agents",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -36952,7 +37255,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party MIT desktop agent (gbr-agent) that remotely drives local Grok Build / terminal sessions via a phone app and HTTPS relay. Useful for Grok CLI workflows but unofficial, zero GitHub stars, and it injects input into local sessions.",
         "relevanceScore": 0.72,
@@ -37366,6 +37669,26 @@
           "surroundingText": "**xAI**",
           "targetUrl": "https://getdesign.md/x.ai/design-md",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-design-md",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**xAI**",
+          "surroundingText": "**xAI**",
+          "targetUrl": "https://getdesign.md/x.ai/design-md",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "VoltAgent/awesome-design-md",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "**xAI**",
+          "surroundingText": "**xAI**",
+          "targetUrl": "https://getdesign.md/x.ai/design-md",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -37379,7 +37702,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Third-party DESIGN.md of xAI’s public visual style, not official Grok/xAI API or SDK documentation. Useful as UI inspiration only; weak fit for a developer platform directory.",
         "relevanceScore": 0.22,
@@ -37788,6 +38111,26 @@
           "surroundingText": "Chatbox",
           "targetUrl": "https://chatboxai.app",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Chatbox",
+          "surroundingText": "Chatbox",
+          "targetUrl": "https://chatboxai.app",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Chatbox",
+          "surroundingText": "Chatbox",
+          "targetUrl": "https://chatboxai.app",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -37801,7 +38144,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Cross-platform multi-provider AI client that can use xAI among many other APIs; useful as an end-user app, not an official Grok/xAI SDK or docs resource.",
         "relevanceScore": 0.38,
@@ -38213,6 +38556,26 @@
           "surroundingText": "Grux",
           "targetUrl": "https://gruxai.com",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grux",
+          "surroundingText": "Grux",
+          "targetUrl": "https://gruxai.com",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "jaywcjlove/awesome-mac",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grux",
+          "surroundingText": "Grux",
+          "targetUrl": "https://gruxai.com",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -38226,7 +38589,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Open-source macOS AI agent (MIT, Apple silicon) with local Ollama or BYO keys; useful as a desktop agent but not an xAI/Grok platform resource.",
         "relevanceScore": 0.15,
@@ -38574,6 +38937,24 @@
           "surroundingText": "https://github.com/merterbak/Grok-MCP",
           "targetUrl": "https://github.com/merterbak/grok-mcp",
           "discoveredAt": "2026-11-12T09:20:00.071Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/merterbak/Grok-MCP",
+          "sectionPath": [],
+          "anchorText": "https://github.com/merterbak/Grok-MCP",
+          "surroundingText": "https://github.com/merterbak/Grok-MCP",
+          "targetUrl": "https://github.com/merterbak/grok-mcp",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://github.com/merterbak/Grok-MCP",
+          "sectionPath": [],
+          "anchorText": "https://github.com/merterbak/Grok-MCP",
+          "surroundingText": "https://github.com/merterbak/Grok-MCP",
+          "targetUrl": "https://github.com/merterbak/grok-mcp",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
         }
       ],
       "globalFactRefs": [],
@@ -38588,7 +38969,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-12T00:31:51.822Z",
-      "updatedAt": "2026-11-12T09:20:00.071Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z",
       "aiReview": {
         "summary": "Third-party Python MCP server wrapping xAI’s Grok API (search, vision, media, files) for Claude Desktop/Code. Useful for agent setups but unofficial, small-star, and depends on your own API key.",
         "relevanceScore": 0.82,
@@ -38962,6 +39343,26 @@
           "surroundingText": "Grok Bot Wiki",
           "targetUrl": "https://github.com/seleems/grokbotwiki-gemini-extension",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok Bot Wiki",
+          "surroundingText": "Grok Bot Wiki",
+          "targetUrl": "https://github.com/seleems/grokbotwiki-gemini-extension",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Grok Bot Wiki",
+          "surroundingText": "Grok Bot Wiki",
+          "targetUrl": "https://github.com/seleems/grokbotwiki-gemini-extension",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -38975,7 +39376,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-13T09:00:00.091Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Unofficial Gemini CLI extension that talks to a hosted read-only Grok Bot Wiki MCP for community templates and troubleshooting; useful for Gemini CLI users, not an xAI API/SDK.",
         "relevanceScore": 0.42,
@@ -39346,6 +39747,26 @@
           "surroundingText": "wiki MCP service",
           "targetUrl": "https://www.grokbotwiki.com/mcp",
           "discoveredAt": "2026-11-12T09:00:00.093Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "wiki MCP service",
+          "surroundingText": "wiki MCP service",
+          "targetUrl": "https://www.grokbotwiki.com/mcp",
+          "discoveredAt": "2026-11-13T09:00:00.087Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "wiki MCP service",
+          "surroundingText": "wiki MCP service",
+          "targetUrl": "https://www.grokbotwiki.com/mcp",
+          "discoveredAt": "2026-11-14T09:00:00.090Z"
         }
       ],
       "globalFactRefs": [],
@@ -39359,7 +39780,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-13T09:00:00.091Z",
-      "updatedAt": "2026-11-12T09:00:00.093Z",
+      "updatedAt": "2026-11-14T09:00:00.090Z",
       "aiReview": {
         "summary": "Unofficial, free read-only MCP server that lets assistants search a community Grok Bot template directory and guides. Useful for Grok Bot discovery, but it is not an official xAI API/SDK and listings are untested.",
         "relevanceScore": 0.55,
@@ -39507,6 +39928,86 @@
           "model": "grok-4.6"
         }
       }
+    },
+    {
+      "id": "web:3b295a1700215f49",
+      "type": "web_url",
+      "canonicalUrl": "https://x.ai/bot",
+      "title": "Grok Bot",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://x.ai/bot",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Bot",
+          "surroundingText": "Grok Bot",
+          "targetUrl": "https://x.ai/bot",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-13T09:20:00.097Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
+    },
+    {
+      "id": "web:a4d5ed010ee93134",
+      "type": "web_url",
+      "canonicalUrl": "https://x.ai/build?source=docs",
+      "title": "Grok Build",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Build",
+          "surroundingText": "Grok Build",
+          "targetUrl": "https://x.ai/build?source=docs",
+          "discoveredAt": "2026-11-13T09:20:00.097Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://docs.x.ai/",
+          "sectionPath": [],
+          "anchorText": "Grok Build",
+          "surroundingText": "Grok Build",
+          "targetUrl": "https://x.ai/build?source=docs",
+          "discoveredAt": "2026-11-14T09:20:00.064Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-13T09:20:00.097Z",
+      "updatedAt": "2026-11-14T09:20:00.064Z"
     }
   ]
 }
