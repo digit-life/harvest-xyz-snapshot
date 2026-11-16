@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T10:30:00.050Z",
+  "generatedAt": "2026-11-16T10:30:00.085Z",
   "appId": "awesome-generative-ui",
   "items": [
     {
@@ -388,6 +388,16 @@
           "surroundingText": "Generative UI: LLMs are Effective UI Generators",
           "targetUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: LLMs are Effective UI Generators",
+          "surroundingText": "Generative UI: LLMs are Effective UI Generators",
+          "targetUrl": "https://generativeui.github.io/static/pdfs/paper.pdf",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [],
@@ -401,7 +411,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:00:00.138Z",
+      "updatedAt": "2026-11-16T09:03:19.019Z",
       "aiReview": {
         "summary": "Google Research preprint on prompt-to-full-web-page Generative UI, with human preference results, the PAGEN expert-page dataset, and interactive demos. Useful as a primary paper, not a product or SDK you can run yourself.",
         "relevanceScore": 0.86,
@@ -801,6 +811,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://v0.app/",
+          "sectionPath": [],
+          "anchorText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "surroundingText": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-11-16T09:20:00.120Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "narrowin/awesome-generative-ui",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -1178,6 +1197,16 @@
           "surroundingText": "v0",
           "targetUrl": "https://v0.app",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "v0",
+          "surroundingText": "v0",
+          "targetUrl": "https://v0.app",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [
@@ -1195,47 +1224,46 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:20:00.084Z",
+      "updatedAt": "2026-11-16T09:20:00.120Z",
       "aiReview": {
-        "summary": "Official Vercel prompt-to-app product that generates, edits, and deploys full-stack web UIs from templates and chat; strong fit for a generative-UI directory as a maintained working generator rather than a listicle or mockup.",
+        "summary": "Vercel’s official prompt-to-app generator with a live create flow, template gallery (apps, landing pages, components, dashboards), enterprise/pricing/iOS/student paths, and ChatGPT-plan login. Strong fit for a generative-UI directory as a maintained working product, not a listicle.",
         "relevanceScore": 0.95,
         "qualityScore": 0.88,
-        "riskScore": 0.15,
+        "riskScore": 0.12,
         "suggestedTags": [
           "prompt-to-ui",
           "vercel",
           "templates",
-          "deployment",
-          "design-mode"
+          "full-stack",
+          "ai-generator"
         ],
         "evidence": [
-          "canonicalUrl https://v0.app with official homepage excerpt describing Prompt. Build. Publish.",
-          "Template categories: Apps and Games, Landing Pages, Components, Dashboards.",
-          "Features listed: GitHub sync, app/API integration, Vercel deploy, design mode, design systems, agentic default.",
-          "Nav includes Enterprise, Pricing, iOS, Students, FAQ, Docs.",
-          "Listed in awesome-generative-ui curated README as v0."
+          "Homepage title and nav: Templates, Enterprise, Pricing, iOS, Students, FAQ, Log In/Sign Up.",
+          "Create prompt UI labeled v0 Max with drop-to-attach and example chips.",
+          "Template categories and many community templates with engagement counts (e.g. landing pages, dashboards, shadcn-related starters).",
+          "Listed in awesome-generative-ui as v0; official-web source with empty riskFlags."
         ],
         "uncertainty": [
-          "Exact free vs paid quotas and ChatGPT-plan coupling not in the excerpt.",
-          "Code quality, license of generated output, and self-host options not verified.",
-          "iOS app capability beyond marketing copy not independently tested."
+          "Exact free vs paid quotas and whether core generation is free without a plan.",
+          "How much of generated apps is production-ready vs prototype.",
+          "iOS app capabilities beyond the nav link."
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-15T10:56:25.566Z",
+        "reviewedAt": "2026-11-16T10:55:11.631Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Tools",
-        "tagline": "Prompt, generate, and publish full-stack web UIs",
-        "description": "Generate working web apps from prompts and templates, sync to GitHub, edit visually, and deploy with one-click hosting.",
+        "tagline": "Prompt-to-full-stack web apps with templates",
+        "description": "Generate full-stack web apps from prompts, start from templates for apps, landings, components, and dashboards, and sign in with existing AI plans.",
         "pros": [
-          "Official site documents prompt-to-build-and-publish plus GitHub sync and one-click Vercel deploy.",
-          "Includes templates for components, landing pages, dashboards, and design-system controls.",
-          "Positions agentic planning, database/API integration, visual design mode, and an iOS app.",
-          "Links to docs, FAQ, enterprise, pricing, and community rather than a static gallery only."
+          "Official Vercel product at v0.app with login, templates, pricing, enterprise, iOS, students, and FAQ.",
+          "Prompt composer and example starters (contact form, image editor, mini game, finance calculator) indicate a working generator.",
+          "Template catalog covers apps and games, landing pages, components, and dashboards with public view counts.",
+          "Supports attaching files and ChatGPT-plan login according to the homepage."
         ],
         "cons": [
-          "Commercial hosted service with login and a pricing page; not an open-source kit.",
-          "Excerpt does not document model quality limits, export formats, or offline use."
+          "Closed SaaS rather than an open GitHub kit; generated output quality is not verifiable from the excerpt.",
+          "Pricing and usage limits require the pricing page and are not detailed on the homepage excerpt."
         ],
         "pricingModel": "freemium",
         "bestFor": [
@@ -1243,13 +1271,13 @@
           "small team",
           "prototyping",
           "agentic coding",
-          "production"
+          "enterprise"
         ],
         "usage": {
-          "input": 14222,
-          "output": 591,
+          "input": 14692,
+          "output": 582,
           "cacheRead": 5504,
-          "totalTokens": 20317,
+          "totalTokens": 20778,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -1257,8 +1285,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://v0.app",
-        "contentHash": "35ee72a17819de7f66e05ef08c3b6a2241b7f435d0ac20b275150196c0fa3f4a",
-        "excerpt": "Title: v0 by Vercel - Build Full-Stack Web Apps with AI\n\nURL Source: https://v0.app/\n\nMarkdown Content:\n[Home](https://v0.app/)\n\n*   Templates\n*   [Enterprise](https://v0.app/enterprise)\n*   [Pricing](https://v0.app/pricing)\n*   [iOS](https://v0.app/ios)\n*   [Students](https://v0.app/students)\n*   [FAQ](https://v0.app/faq)\n\n[Log In](https://v0.app/api/auth/login?next=%2F)[Sign Up](https://v0.app/api/auth/login?next=%2F&action=signup)\n\n[Use your **ChatGPT plan** in v0](https://v0.app/api/auth/login?next=%2F)\n\n# What do you want to create?\n\nv0 Max\n\nContact Form Image Editor Mini Game Finance Calculator\n\n## Start with a template\n\n[Apps and Games](https://v0.app/templates/apps-and-games)[Landing Pages](https://v0.app/templates/landing-pages)[Components](https://v0.app/templates/components)[Dashboards](https://v0.app/templates/dashboards)[Browse all](https://v0.app/templates)\n\n[Browse all](https://v0.app/templates)\n\n### Prompt.  \nBuild. Publish.\n\nGenerate working applications in minutes wit"
+        "contentHash": "6d918f74288955578199e89278488a132e2173f0da7368bbf9852e35742e36c2",
+        "excerpt": "Title: v0 by Vercel - Build Full-Stack Web Apps with AI\n\nURL Source: https://v0.app/\n\nMarkdown Content:\n[Home](https://v0.app/)\n\n*   Templates\n*   [Enterprise](https://v0.app/enterprise)\n*   [Pricing](https://v0.app/pricing)\n*   [iOS](https://v0.app/ios)\n*   [Students](https://v0.app/students)\n*   [FAQ](https://v0.app/faq)\n\n[Log In](https://v0.app/api/auth/login?next=%2F)[Sign Up](https://v0.app/api/auth/login?next=%2F&action=signup)\n\n[Use your **ChatGPT plan** in v0](https://v0.app/api/auth/login?next=%2F)\n\n# What do you want to create?\n\nv0 Max\n\nDrop to attach\n\nContact Form Image Editor Mini Game Finance Calculator\n\n## Start with a template\n\n[Apps and Games](https://v0.app/templates/apps-and-games)[Landing Pages](https://v0.app/templates/landing-pages)[Components](https://v0.app/templates/components)[Dashboards](https://v0.app/templates/dashboards)[Browse all](https://v0.app/templates)\n\n[](https://v0.app/templates/hkRpZoLOrJC)[](https://v0.app/templates/hkRpZoLOrJC)\n\n[View Details](ht"
       }
     },
     {
@@ -1647,6 +1675,16 @@
           "surroundingText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
           "targetUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "surroundingText": "Vercel: Introducing AI SDK 3.0 with Generative UI",
+          "targetUrl": "https://vercel.com/blog/ai-sdk-3-generative-ui",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [],
@@ -1660,7 +1698,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:00:00.138Z",
+      "updatedAt": "2026-11-16T09:03:19.019Z",
       "aiReview": {
         "summary": "Official March 2024 Vercel post announcing AI SDK 3.0 streaming of React Server Components from LLMs, with code, FAQ, and demo/docs links. Strong primary source for generative UI, but it is an announcement article rather than a living generator or kit.",
         "relevanceScore": 0.86,
@@ -2104,6 +2142,16 @@
           "surroundingText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
           "targetUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "surroundingText": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+          "targetUrl": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [],
@@ -2117,7 +2165,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:00:00.138Z",
+      "updatedAt": "2026-11-16T09:03:19.019Z",
       "aiReview": {
         "summary": "Primary Google Research post on prompt-to-interactive UI (HTML/CSS/JS), with paper, demos, and product experiments in Gemini and Search AI Mode. Strong source for the generative-UI space, but it is research/product documentation rather than a standalone generator or design kit.",
         "relevanceScore": 0.86,
@@ -2560,6 +2608,16 @@
           "surroundingText": "Enabling teachers to create learning interactives with generative UI",
           "targetUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Enabling teachers to create learning interactives with generative UI",
+          "surroundingText": "Enabling teachers to create learning interactives with generative UI",
+          "targetUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [],
@@ -2573,7 +2631,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:00:00.138Z",
+      "updatedAt": "2026-11-16T09:03:19.019Z",
       "aiReview": {
         "summary": "Google Research post on generating teacher-vetted STEM practice simulations with generative UI, pedagogical guardrails, a public sample library, and a classroom pilot. Strong GenUI research evidence, but it is an education experiment rather than a general-purpose generator or design-system kit.",
         "relevanceScore": 0.78,
@@ -3016,6 +3074,16 @@
           "surroundingText": "The Developer's Guide to Generative UI in 2026",
           "targetUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
           "discoveredAt": "2026-11-15T09:00:00.138Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "narrowin/awesome-generative-ui",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "The Developer's Guide to Generative UI in 2026",
+          "surroundingText": "The Developer's Guide to Generative UI in 2026",
+          "targetUrl": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026",
+          "discoveredAt": "2026-11-16T09:03:19.019Z"
         }
       ],
       "globalFactRefs": [],
@@ -3029,7 +3097,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-15T09:00:00.138Z",
+      "updatedAt": "2026-11-16T09:03:19.019Z",
       "aiReview": {
         "summary": "Vendor blog that explains three generative-UI patterns (static AG-UI, declarative A2UI/Open-JSON-UI, open-ended MCP Apps) with code and a playground repo. Useful as a concept article, not a standalone generator or kit.",
         "relevanceScore": 0.72,
