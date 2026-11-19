@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T10:30:00.101Z",
+  "generatedAt": "2026-11-19T10:30:00.043Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -980,6 +980,15 @@
           "surroundingText": "Google AI - How we're making AI helpful for everyone",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-11-18T09:20:00.086Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Google AI - How we're making AI helpful for everyone",
+          "surroundingText": "Google AI - How we're making AI helpful for everyone",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-11-19T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -997,7 +1006,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-11-18T09:20:00.086Z",
+      "updatedAt": "2026-11-19T09:20:00.055Z",
       "aiReview": {
         "summary": "Canonical URL ai.google.dev resolves to a consumer marketing hub at ai.google, not Gemini/Gemma developer docs. Useful as an official product map, but it is not an API, SDK, model card, or video-generation reference.",
         "relevanceScore": 0.28,
@@ -1473,6 +1482,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-11-18T09:02:42.453Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
         }
       ],
       "globalFactRefs": [],
@@ -1486,7 +1505,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -1961,6 +1980,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-11-18T09:02:42.453Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
         }
       ],
       "globalFactRefs": [],
@@ -1974,7 +2003,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -2446,6 +2475,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-11-18T09:02:42.453Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
         }
       ],
       "globalFactRefs": [],
@@ -2459,7 +2498,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -2934,6 +2973,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-11-18T09:02:42.453Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
         }
       ],
       "globalFactRefs": [],
@@ -2947,7 +2996,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -3369,6 +3418,15 @@
           "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-11-18T09:20:00.086Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Intelligent tools for scaling content and teams.",
+          "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-11-19T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -3386,55 +3444,55 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-18T09:20:00.086Z",
+      "updatedAt": "2026-11-19T09:20:00.055Z",
       "aiReview": {
-        "summary": "Official Runway marketing homepage; the captured excerpt is a cookie-consent wall, not API, SDK, or model-card documentation developers can use.",
-        "relevanceScore": 0.55,
-        "qualityScore": 0.25,
+        "summary": "Official Runway homepage is in-scope for AI video, but the captured page is mostly a cookie-consent wall with no API, SDK, or model-card content for developers.",
+        "relevanceScore": 0.72,
+        "qualityScore": 0.28,
         "riskScore": 0.15,
         "suggestedTags": [
-          "runway",
           "ai-video",
-          "generative-video",
-          "commercial"
+          "runway",
+          "commercial",
+          "generative-video"
         ],
         "evidence": [
-          "Title and URL are runway.com marketing copy about scaling content and teams.",
-          "facts.excerpt is Cookiebot consent UI, privacy/terms links, and ad/analytics cookies.",
-          "Rubric prefers official API/SDK/docs over closed landing pages with no API."
+          "canonicalUrl and reference.url are https://runway.com",
+          "facts.excerpt title: Intelligent tools for scaling content and teams",
+          "excerpt content is Cookiebot consent categories (Necessary, Functional, Analytics, Advertising)",
+          "riskFlags is empty; type is web_url / official-web"
         ],
         "uncertainty": [
-          "Whether a public developer API exists and is documented on another path.",
-          "Current product features, pricing tiers, and terms beyond cookie/privacy links.",
-          "Whether docs.developers.runwayml.com or similar should be listed instead."
+          "Current API availability, Gen-3/Aleph docs, and pricing cannot be verified from this excerpt",
+          "Whether a better docs.developer URL exists was not in the facts"
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-11-18T10:59:01.576Z",
+        "reviewedAt": "2026-11-19T10:59:51.378Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
         "suggestedCategory": "Apps",
-        "tagline": "Commercial AI video tools for content production",
-        "description": "Company site for commercial generative video and content tools. Captured page is a cookie banner, not developer API docs.",
+        "tagline": "Commercial AI video and content tools for teams",
+        "description": "Company site for AI video generation and content tools; this crawl shows consent copy, not developer docs or APIs.",
         "pros": [
-          "Canonical company domain for a well-known AI video product.",
-          "Listed as an official-web seed for an awesome-ai-video directory."
+          "Canonical official domain for a well-known AI video product.",
+          "Title positions the offering as tools for content production and teams."
         ],
         "cons": [
-          "Reference excerpt contains only cookie consent and tracking notices, not product or API documentation.",
-          "No SDK, model card, or endpoint documentation is present in the provided facts.",
-          "Closed marketing landing page is a weaker listing than official developer docs."
+          "Reference excerpt is cookie-banner and tracker documentation, not product or API docs.",
+          "No SDK, endpoints, pricing, or model-card details are present in the provided facts.",
+          "Rubric prefers developer docs over a closed marketing landing page."
         ],
         "pricingModel": "paid",
         "bestFor": [
           "small team",
-          "production",
-          "prototyping"
+          "prototyping",
+          "production"
         ],
         "usage": {
-          "input": 8128,
-          "output": 497,
+          "input": 8230,
+          "output": 519,
           "cacheRead": 5504,
-          "totalTokens": 14129,
+          "totalTokens": 14253,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3442,8 +3500,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://runway.com",
-        "contentHash": "f46bb0fd4398b51fdd1fb6ac9fc4732010b655095755f18b95bb17313721edef",
-        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nPublished Time: Thu, 22 Oct 2026 07:40:58 GMT\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/privacy-policy) and subject to your settings) and our [****Terms of Use****]"
+        "contentHash": "3758493bd4b97d869e9443831ac5ca27761d0e7b3461bb9520cb6a1c1abd1996",
+        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/privacy-policy) and subject to your settings) and our [****Terms of Use****](https://runwayml.com/terms-of-use) (which cont"
       }
     },
     {
@@ -3705,6 +3763,16 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea AI Video Editor",
+          "surroundingText": "Levea AI Video Editor",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "sickn33/antigravity-awesome-skills",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3712,6 +3780,16 @@
           "surroundingText": "Levea",
           "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
           "discoveredAt": "2026-11-18T09:02:42.453Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea",
+          "surroundingText": "Levea",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-11-19T09:00:02.917Z"
         }
       ],
       "globalFactRefs": [],
@@ -3725,7 +3803,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-28T09:00:00.065Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "aiReview": {
         "summary": "MIT-licensed MCP/plugin wrapper that sends natural-language edits to a hosted Livecore/Levea cloud engine. Useful for agentic editing workflows, not a first-party video-generation model or official Veo/Runway SDK.",
         "relevanceScore": 0.42,
@@ -3838,10 +3916,23 @@
           "targetUrl": "https://higgsfield.ai/pricing",
           "discoveredAt": "2026-11-18T09:02:42.453Z",
           "dealEnds": "2026-11-18"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "Higgsfield (AI video)",
+          "surroundingText": "Official /pricing (Nov 16 Chrome + official sale_11_11 JSON): still LIVE after the Sunday 60% window ended on schedule. Visible BLACK FRIDAY 65% OFF / up to 65% OFF premium plans. New official window starts_at 2026-11-16T00:00:00Z, ends_at 2026-11-18T00:00:00Z (Tuesday 17 Nov 2026, 7:00 PM America/New_York). Individual annual cards this run: Starter $15/mo billed yearly (no strikethrough; was $19 on Nov 15); Plus $49 → $27/mo billed yearly (−45%, Save $264; was $59 → $35 / −41% / Save $288); Ultra $129 → $50/mo billed yearly (on-page −60%, Save $948; was $65 / −50% / Save $768). Official JSON max_discount_percent 65; internal phase pre_black_friday is a misleading label — visible copy is a live “ends in” sale. · Sunday 60% window ended 2026-11-16T00:00:00Z (15 Nov 2026, 7:00 PM America/New_York); new official 65% window 2026-11-16T00:00:00Z through 2026-11-18T00:00:00Z (ends Tuesday 17 Nov 2026, 7:00 PM America/New_York)",
+          "targetUrl": "https://higgsfield.ai/pricing",
+          "discoveredAt": "2026-11-19T09:00:02.917Z",
+          "dealEnds": "2026-11-18"
         }
       ],
       "globalFactRefs": [
-        "facts:jina:https://higgsfield.ai/pricing"
+        "facts:official-web:https://higgsfield.ai/pricing"
       ],
       "confidenceScore": 0.5,
       "confidenceReasons": [
@@ -3853,12 +3944,12 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-15T09:00:00.138Z",
-      "updatedAt": "2026-11-18T09:02:42.453Z",
+      "updatedAt": "2026-11-19T09:00:02.917Z",
       "reference": {
         "source": "official-web",
         "url": "https://higgsfield.ai/pricing",
-        "contentHash": "9635ab843a6db0d872581a4ff893f324a74cadbaef808f337927e5602e171d97",
-        "excerpt": "Title: Higgsfield\n\nURL Source: https://higgsfield.ai/pricing\n\nPublished Time: Wed, 18 Nov 2026 08:56:07 GMT\n\nMarkdown Content:\n[Offer ends in 39 h 02 m 07 s Black Friday 64% OFF premium plans. Get Unlimited Nano Banana Pro, GPT Image 2.5 Nano Banana Pro GPT Image 2.5 and more.Get special offer with 64% OFF](https://higgsfield.ai/pricing?source=sale_11_11_header)\n\n[Higgsfield](https://higgsfield.ai/)\n\n*   [Explore](https://higgsfield.ai/)\n*   [Image](https://higgsfield.ai/ai/image?model=gpt_image_2)\n*   [Video](https://higgsfield.ai/ai/video)\n*   [Audio](https://higgsfield.ai/audio)\n*   [MCP](https://higgsfield.ai/mcp)\n*   [API](https://open.higgsfield.ai/)\n\n*   [Cinema Studio](https://higgsfield.ai/generate)\n*   [Genjutsu Top](https://higgsfield.ai/genjutsu-create)\n*   [Short Drama New](https://higgsfield.ai/short-drama)\n*   [Miracle Soon](https://higgsfield.ai/miracle)\n*   [Contests](https://higgsfield.ai/contests/talent-contest)\n*   [Shorts New](https://higgsfield.ai/shorts-studio)\n*"
+        "contentHash": "fa0beb029817d330789da2e8fc84b9a982928802fcc776aa2703f463d4e86403",
+        "excerpt": "Pricing plans — Higgsfield AI Video &amp; Image Generator Higgsfield Explore Image Video Audio MCP API Cinema Studio Genjutsu Top Short Drama New Miracle Soon Contests Shorts New Ads Studio New Playable Supercomputer Community Academy Plugins Canvas Enterprise Pricing Login Sign up Higgsfield Fresh drops Drops Explore Image Video Audio MCP Agentic Studios Community Contests Learn More Enterprise Pricing Login Sign up © 2026 Higgsfield, Inc. All rights reserved. Help center Cookie Notice Terms Privacy Report a vulnerability"
       }
     }
   ]
