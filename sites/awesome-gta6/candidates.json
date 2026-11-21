@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:30:00.151Z",
+  "generatedAt": "2026-11-21T10:30:00.079Z",
   "appId": "awesome-gta6",
   "items": [
     {
@@ -629,6 +629,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look Coming August 27",
           "targetUrl": "https://www.youtube.com/watch?v=YmzCydc4qOk",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look Coming August 27",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look Coming August 27",
+          "targetUrl": "https://www.youtube.com/watch?v=YmzCydc4qOk",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -642,7 +651,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-24T13:11:11.102Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube teaser (25s) announcing an Extended Look premiere on Netflix and Rockstar channels on August 27, 2026. Strong official video listing; not a clone or unofficial recap.",
         "relevanceScore": 0.95,
@@ -9144,6 +9153,16 @@
           "surroundingText": "r/GTA6",
           "targetUrl": "https://reddit.com/r/GTA6",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "r/GTA6",
+          "surroundingText": "r/GTA6",
+          "targetUrl": "https://reddit.com/r/GTA6",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -9157,7 +9176,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Large unofficial Reddit community for Grand Theft Auto VI discussion, leaks, and news; not Rockstar-affiliated and quality varies by user posts.",
         "relevanceScore": 0.92,
@@ -10193,6 +10212,16 @@
           "surroundingText": "GTA 6 Countdown",
           "targetUrl": "https://gta6countdown.com",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Countdown",
+          "surroundingText": "GTA 6 Countdown",
+          "targetUrl": "https://gta6countdown.com",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -10206,7 +10235,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Fan countdown landing page built with a Nicepage template; not official news, tooling, or a maintained resource. Reject as a typical countdown clone.",
         "relevanceScore": 0.25,
@@ -11154,6 +11183,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://fivem.net/",
+          "sectionPath": [],
+          "anchorText": "FiveM - the GTA V multiplayer modification you have dreamt of",
+          "surroundingText": "FiveM - the GTA V multiplayer modification you have dreamt of",
+          "targetUrl": "https://fivem.net",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -12131,6 +12169,16 @@
           "surroundingText": "FiveM",
           "targetUrl": "https://fivem.net",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "FiveM",
+          "surroundingText": "FiveM",
+          "targetUrl": "https://fivem.net",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [
@@ -12148,55 +12196,50 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Official FiveM site for GTA V multiplayer modification, not GTA VI. High-quality Cfx product, but off-theme for a GTA 6 directory.",
-        "relevanceScore": 0.15,
-        "qualityScore": 0.85,
-        "riskScore": 0.25,
+        "summary": "Official Cfx multiplayer modification framework for Grand Theft Auto V, not GTA VI. High-quality maintained mod platform, but off-theme for a GTA 6 directory.",
+        "relevanceScore": 0.22,
+        "qualityScore": 0.86,
+        "riskScore": 0.18,
         "suggestedTags": [
           "mods",
           "tools",
           "community"
         ],
         "evidence": [
-          "Excerpt: FiveM and FiveM for GTAV Enhanced are multiplayer-enabled modification frameworks for Grand Theft Auto V.",
-          "Requires Grand Theft Auto V Legacy or Enhanced; system requirements listed for those SKUs.",
-          "Links to servers.fivem.net, docs.fivem.net, forum.cfx.re, and github.com/citizenfx/fivem.",
-          "Listed in awesome-gta6-tools README despite being a GTA V project."
+          "Excerpt title and body: multiplayer-enabled modification frameworks for Grand Theft Auto V, powered by Cfx.",
+          "Requires GTA V Legacy or Enhanced; system requirements and FAQ are GTA V-specific.",
+          "Links to servers.fivem.net, docs.fivem.net, forum.cfx.re, github.com/citizenfx/fivem.",
+          "Footer: FiveM is a copyright and registered trademark of Take-Two Interactive Software, Inc."
         ],
         "uncertainty": [
-          "Whether FiveM will support GTA VI later cannot be verified from this page.",
-          "Current live player count and sale terms may have changed since the excerpt."
+          "Whether any GTA VI support exists beyond this GTA V product.",
+          "Exact current player counts and sale terms beyond the excerpt."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-11-20T10:56:15.518Z",
+        "reviewedAt": "2026-11-21T10:54:48.851Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "GTA V multiplayer mod framework with custom servers",
-        "description": "Download a GTA V multiplayer modification framework with server hosting, scripting, and custom assets. Requires a PC copy of Grand Theft Auto V.",
+        "tagline": "GTA V community multiplayer mod framework and servers",
+        "description": "Download a GTA V multiplayer mod client, browse servers, and host custom gamemodes with Lua, C#, or JavaScript.",
         "pros": [
-          "Site states it is a Cfx-powered multiplayer modification framework for Grand Theft Auto V.",
-          "Provides server list, docs, forum, marketplace, and client downloads.",
-          "Describes source-available tooling and Lua, C#, and JavaScript scripting.",
-          "Footer identifies FiveM as a Take-Two/Rockstar-related trademarked product."
+          "Official site documents a long-running Cfx-powered GTA V multiplayer modification with client download, docs, forums, and GitHub.",
+          "Lists server list, hosting, marketplace, and scripting runtimes (Lua, C#, JavaScript).",
+          "States it does not modify the GTA V install and is source-available.",
+          "Now presented with Rockstar/Take-Two trademark and privacy links."
         ],
         "cons": [
-          "Content is exclusively GTA V (Legacy/Enhanced), with no GTA VI coverage.",
-          "Client download and server hosting sit outside Rockstar Newswire/GTA VI news.",
-          "Paid upvotes and partner hosting are commercial add-ons, not GTA 6 resources."
+          "Targets Grand Theft Auto V (Legacy and Enhanced), not GTA VI.",
+          "Client is Windows-only and requires a owned copy of GTA V."
         ],
         "pricingModel": "freemium",
-        "bestFor": [
-          "learning",
-          "prototyping"
-        ],
         "usage": {
-          "input": 27373,
-          "output": 617,
+          "input": 27211,
+          "output": 714,
           "cacheRead": 5504,
-          "totalTokens": 33494,
+          "totalTokens": 33429,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -12204,8 +12247,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://fivem.net",
-        "contentHash": "438be603eeb9c7a18b203754e5f520842e7564b9914571d984d17a67e9d07ab9",
-        "excerpt": "Title: FiveM\n\nURL Source: https://fivem.net/\n\nMarkdown Content:\n[](https://fivem.net/)\n\nmenu\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\nclose\n\n**End of Summer Sale**: Get 25% off server Upvotes by using the coupon code **UPVOTES25**. Offer ends September 8, 2026. Terms apply.\n\nclose\n\n**FiveM** and **FiveM for GTAV Enhanced** are multiplayer-enabled modification frameworks for Grand Theft Auto V, powered by **Cfx**.\n\nJoin the 102.3k people playing right now!\n\nDOWNLOAD FIVEM FiveM.exe\nBy downl"
+        "contentHash": "cc85901277ac9f5c42738fdb384d6346e10206b47713cbc3b7951295dece31f9",
+        "excerpt": "Title: FiveM - the GTA V multiplayer modification you have dreamt of\n\nURL Source: https://fivem.net/\n\nPublished Time: Fri, 09 Oct 2026 19:49:03 GMT\n\nMarkdown Content:\n[](https://fivem.net/)\n\nmenu\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\n*   [Server List](https://servers.fivem.net/)\n*   [Support](https://support.cfx.re/)\n*   [Portal](https://portal.cfx.re/ \"Portal\")\n*   [Forum](https://forum.cfx.re/)\n*   [Marketplace](https://marketplace.cfx.re/ \"Marketplace\")\n*   [Documentation](https://docs.fivem.net/)\n\nclose\n\n**End of Summer Sale**: Get 25% off server Upvotes by using the coupon code **UPVOTES25**. Offer ends September 8, 2026. Terms apply.\n\nclose\n\n**FiveM** and **FiveM for GTAV Enhanced** are multiplayer-enabled modification frameworks for Grand Theft Au"
       }
     },
     {
@@ -13108,6 +13151,15 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "https://www.rockstargames.com/newswire",
+          "sectionPath": [],
+          "anchorText": "Newswire - Rockstar Games",
+          "surroundingText": "Newswire - Rockstar Games",
+          "targetUrl": "https://www.rockstargames.com/newswire",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -14085,6 +14137,16 @@
           "surroundingText": "Rockstar Newswire",
           "targetUrl": "https://www.rockstargames.com/newswire",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "ViceForgeApp/awesome-gta6-tools",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Rockstar Newswire",
+          "surroundingText": "Rockstar Newswire",
+          "targetUrl": "https://www.rockstargames.com/newswire",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [
@@ -14102,51 +14164,51 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:00:00.086Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Official Rockstar Games Newswire listing studio announcements, including multiple Grand Theft Auto VI posts. Prefer this over fan or clone sites as the primary news source.",
-        "relevanceScore": 0.95,
+        "summary": "Official Rockstar Games Newswire is the first-party news feed covering GTA VI launches, trailers, pre-load, and related titles. Prefer this over clone or fan countdown sites for GTA 6 news.",
+        "relevanceScore": 1,
         "qualityScore": 0.95,
         "riskScore": 0.05,
         "suggestedTags": [
-          "news",
           "official",
+          "news",
           "gta6"
         ],
         "evidence": [
-          "canonicalUrl https://www.rockstargames.com/newswire",
-          "Title and excerpt: Newswire - Rockstar Games with GTA VI article links",
-          "Rubric prefers official Rockstar Newswire posts; candidate is not a GitHub countdown/clone"
+          "canonicalUrl and excerpt URL Source are https://www.rockstargames.com/newswire",
+          "Rubric prefers official Rockstar Newswire posts; candidate buckets include official-web and approve",
+          "Excerpt headlines include Grand Theft Auto VI Now Available, Watch the Grand Theft Auto VI Launch Trailer, and Pre-Load Grand Theft Auto VI Now"
         ],
         "uncertainty": [
-          "Whether every listed 2026 article is live versus scrape/test content",
-          "How often GTA VI vs GTA Online/RDO posts dominate the feed"
+          "Live article list may change after the excerpt snapshot",
+          "Whether every listed GTA VI headline remains the current homepage mix"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-20T10:56:25.617Z",
+        "reviewedAt": "2026-11-21T10:55:02.394Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Resources",
-        "tagline": "Official studio news and GTA VI announcements",
-        "description": "Read official Rockstar posts on GTA VI, trailers, store drops, and related titles from the publisher newswire.",
+        "tagline": "First-party posts on GTA VI and other titles",
+        "description": "Browse official GTA VI launch, trailer, pre-load, and related-title stories on the publisher news index.",
         "pros": [
-          "Hosted on rockstargames.com, the publisher’s official site.",
-          "Excerpt shows dedicated GTA VI articles (availability, pre-load, trailer, score, radio).",
-          "Also lists Videos, Downloads, Store, and Support, matching a real studio hub rather than a clone landing page."
+          "Hosted on rockstargames.com/newswire, the publisher’s official news index.",
+          "Excerpt lists dated GTA VI articles such as launch availability, launch trailer, and pre-load.",
+          "Also indexes GTA Online and other title posts, so GTA VI items sit in a maintained first-party feed."
         ],
         "cons": [
-          "Feed covers all Rockstar titles, so not every item is GTA VI-specific.",
-          "Published Time in the scrape is anomalous (2045), so scrape metadata may be noisy."
+          "The index mixes GTA VI with GTA Online and Red Dead Online stories, so it is not GTA VI-only.",
+          "Published Time in the scrape is anomalous (2045), so crawl metadata should not be trusted as article dates."
         ],
         "pricingModel": "free",
         "bestFor": [
           "learning"
         ],
         "usage": {
-          "input": 28563,
-          "output": 463,
+          "input": 28810,
+          "output": 678,
           "cacheRead": 5504,
-          "totalTokens": 34530,
+          "totalTokens": 34992,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -14154,8 +14216,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.rockstargames.com/newswire",
-        "contentHash": "9a20a5b690881700a130b9f2ef76c8de02d8d9c8fbeb87f127e27df5224631eb",
-        "excerpt": "Title: Newswire - Rockstar Games\n\nURL Source: https://www.rockstargames.com/newswire\n\nPublished Time: Tue, 14 Nov 2045 07:26:32 GMT\n\nMarkdown Content:\n[Grand Theft Auto VI Out Now Grand Theft Auto VI Out Now](https://www.rockstargames.com/newswire/article/39akk424a9oo53)\n\nSkip the Menu\n\n[](https://www.rockstargames.com/)\n\n[](https://www.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n[Get Launcher](https://socialclub.rockstar"
+        "contentHash": "d2f6008f2ecb38bd9bbdaa26949d8372bcac264007afb5d5f5318e84ca0cb44c",
+        "excerpt": "Title: Newswire - Rockstar Games\n\nURL Source: https://www.rockstargames.com/newswire\n\nPublished Time: Thu, 16 Nov 2045 02:39:01 GMT\n\nMarkdown Content:\n[Grand Theft Auto VI Out Now Grand Theft Auto VI Out Now](https://www.rockstargames.com/newswire/article/39akk424a9oo53)\n\nSkip the Menu\n\n[](https://www.rockstargames.com/)\n\n[](https://www.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n*   Games - Sub Menu\n*   [Newswire](https://www.rockstargames.com/newswire)\n*   [Videos](https://www.rockstargames.com/videos)\n*   [Downloads](https://www.rockstargames.com/downloads)\n*   [Store External](https://store.rockstargames.com/)\n*   [Support External](https://support.rockstargames.com/)\n\n[Get Launcher](https://socialclub.rockstar"
       }
     },
     {
@@ -15055,6 +15117,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.rockstargames.com/gta-vi",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.rockstargames.com/gta-vi",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.rockstargames.com/gta-vi",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [],
@@ -15070,7 +15141,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "Claimed official Rockstar GTA VI page on rockstargames.com, but this exact path returned HTTP 404, so it is not a verified live listing until the canonical URL is confirmed.",
         "relevanceScore": 0.95,
@@ -16018,6 +16089,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.reddit.com/r/GTA6",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.reddit.com/r/GTA6",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.reddit.com/r/GTA6",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -16035,7 +16115,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "r/GTA6 is Reddit’s dedicated Grand Theft Auto VI discussion subreddit. Automated fetch returned 403, so listing quality and moderation cannot be verified from the excerpt.",
         "relevanceScore": 0.85,
@@ -16990,6 +17070,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.reddit.com/r/GTA_VI",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.reddit.com/r/GTA_VI",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.reddit.com/r/GTA_VI",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -17007,7 +17096,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "r/GTA_VI is a large unofficial Reddit community for Grand Theft Auto VI discussion; the crawl returned a 403 login wall, so listing quality depends on the live subreddit, not the scrape.",
         "relevanceScore": 0.88,
@@ -17958,6 +18047,15 @@
           "surroundingText": "Rockstar Games",
           "targetUrl": "https://discord.gg/rockstargames",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://discord.gg/rockstargames",
+          "sectionPath": [],
+          "anchorText": "Rockstar Games",
+          "surroundingText": "Rockstar Games",
+          "targetUrl": "https://discord.gg/rockstargames",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -17975,9 +18073,9 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Official publisher Discord invite with a large member base; useful as a Community listing for GTA VI discussion, though it is not GTA VI-specific.",
+        "summary": "Official Rockstar Games Discord invite (~1M members). Useful as a first-party community hub, not GTA 6-specific news or tooling.",
         "relevanceScore": 0.82,
         "qualityScore": 0.88,
         "riskScore": 0.12,
@@ -17987,37 +18085,37 @@
           "gta6"
         ],
         "evidence": [
-          "canonicalUrl https://discord.gg/rockstargames with final URL https://discord.com/invite/rockstargames",
-          "Excerpt title: Join the Rockstar Games Discord Server!",
-          "Excerpt member counts: 1,013,523 Members; 124,628 Online",
-          "Excerpt includes Discord ToS/Privacy and Create Account/Log in flow"
+          "facts.excerpt title: Join the Rockstar Games Discord Server!",
+          "Final URL: https://discord.com/invite/rockstargames",
+          "Excerpt lists ~1,028,043 members and an Official message marker",
+          "Candidate type web_url with source official-web; not a GitHub countdown clone"
         ],
         "uncertainty": [
-          "Cannot verify channel structure, moderation quality, or GTA VI channel presence from the invite excerpt alone",
-          "Invite liveness and member counts may change over time"
+          "Cannot verify current channel layout or how much GTA VI discussion is allowed",
+          "Member counts may have changed since the excerpt snapshot"
         ],
         "recommendedAction": "recommend_approve",
-        "reviewedAt": "2026-11-20T10:56:36.381Z",
+        "reviewedAt": "2026-11-21T10:55:12.854Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Official publisher Discord for game news and chat",
-        "description": "Join the official publisher Discord to follow announcements and talk with other players across the studio's titles.",
+        "tagline": "Official Discord for GTA and other studio titles",
+        "description": "Join the publisher Discord for official posts, support, and player discussion across Rockstar titles including GTA.",
         "pros": [
-          "Invite resolves to discord.com/invite/rockstargames and is labeled as an official server.",
+          "Invite resolves to discord.com/invite/rockstargames and is labeled an official server.",
           "Excerpt reports over one million members and a large online count.",
-          "Fits the Community category preferred for official publisher channels."
+          "Fits a GTA 6 directory as a first-party community channel rather than a clone landing page."
         ],
         "cons": [
-          "The invite page does not describe GTA VI-specific channels or content.",
-          "Joining requires a Discord account and age confirmation."
+          "Invite page does not describe GTA 6-specific channels or content.",
+          "Requires a Discord account and age verification to join."
         ],
         "pricingModel": "free",
         "usage": {
-          "input": 12299,
-          "output": 548,
+          "input": 12319,
+          "output": 641,
           "cacheRead": 5504,
-          "totalTokens": 18351,
+          "totalTokens": 18464,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -18025,8 +18123,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://discord.gg/rockstargames",
-        "contentHash": "fcd247111762b612d7dae967eca24fcd4f767c65991c23e5f774ab394918a935",
-        "excerpt": "Title: Join the Rockstar Games Discord Server!\n\nURL Source: https://discord.gg/rockstargames\n\nFinal URL: https://discord.com/invite/rockstargames\n\nPublished Time: Thu, 19 Nov 2026 08:23:09 GMT\n\nWarning: This page maybe not yet fully loaded, consider explicitly specify a timeout.\n\nMarkdown Content:\n[](https://discord.com/)\n\nYou've been invited to join\n\n# Rockstar Games\n\n124,628 Online\n\n1,013,523 Members\n\nDisplay Name \n\nThis is how others see you. You can use special characters and emoji.\n\nDate of Birth \n\nMonth \n\nMonth, \n\nMonth\n\nDay \n\nDay, \n\nDay\n\nYear \n\nYear, \n\nYear\n\nBy clicking “Create Account,” you agree to Discord's [Terms of Service](https://discord.com/terms) and have read the [Privacy Policy](https://discord.com/privacy)\n\nCreate Account\n\nAlready have an account? Log in\n\n,\n\n,\n\nReactions\n\nOfficial message\n\nclick to open image dialog"
+        "contentHash": "71422071e9fe9deffadb6b794976ba3cfab322ad0859cca1a424322407ecea8a",
+        "excerpt": "Title: Join the Rockstar Games Discord Server!\n\nURL Source: https://discord.gg/rockstargames\n\nFinal URL: https://discord.com/invite/rockstargames\n\nMarkdown Content:\n[](https://discord.com/)\n\nYou've been invited to join\n\n# Rockstar Games\n\n144,737 Online\n\n1,028,043 Members\n\nDisplay Name \n\nThis is how others see you. You can use special characters and emoji.\n\nDate of Birth \n\nMonth \n\nMonth, \n\nMonth\n\nDay \n\nDay, \n\nDay\n\nYear \n\nYear, \n\nYear\n\nBy clicking “Create Account,” you agree to Discord's [Terms of Service](https://discord.com/terms) and have read the [Privacy Policy](https://discord.com/privacy)\n\nCreate Account\n\nAlready have an account? Log in\n\n,\n\n,\n\nReactions\n\nOfficial message\n\nclick to open image dialog"
       }
     },
     {
@@ -18926,6 +19024,15 @@
           "surroundingText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
           "targetUrl": "https://openiv.com",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://openiv.com/",
+          "sectionPath": [],
+          "anchorText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
+          "surroundingText": "OpenIV &#8211; The ultimate modding tool for GTA V, GTA IV and Max Payne 3",
+          "targetUrl": "https://openiv.com",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -18943,7 +19050,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "Established OpenIV site for GTA V/IV and Max Payne 3 modding; no GTA VI support is documented, so it is a weak fit for a GTA 6 directory despite being a real maintained tool, not a clone.",
         "relevanceScore": 0.28,
@@ -19900,6 +20007,15 @@
           "surroundingText": "Script Hook V - AB Software Development",
           "targetUrl": "https://www.dev-c.com/gtav/scripthookv",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.dev-c.com/gtav/scripthookv",
+          "sectionPath": [],
+          "anchorText": "Script Hook V - AB Software Development",
+          "surroundingText": "Script Hook V - AB Software Development",
+          "targetUrl": "https://www.dev-c.com/gtav/scripthookv",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -19917,54 +20033,52 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Well-known GTA V ASI/script-hook library from Alexander Blade; it is not a GTA VI resource and does not belong in a GTA 6 directory.",
+        "summary": "Official Alexander Blade Script Hook V page for GTA V ASI plugins; it targets GTA V/Online-disabled single-player, not GTA VI, so it is off-theme for a GTA 6 directory.",
         "relevanceScore": 0.15,
-        "qualityScore": 0.85,
+        "qualityScore": 0.82,
         "riskScore": 0.35,
         "suggestedTags": [
           "mods",
           "tools"
         ],
         "evidence": [
-          "Excerpt title and URL: Script Hook V at https://www.dev-c.com/gtav/scripthookv",
-          "Excerpt: library for GTA V script natives in custom *.asi plugins; does not work in GTA Online",
-          "Excerpt: includes Asi Loader and Native Trainer; install copies ScriptHookV.dll next to GTA5.exe",
-          "Excerpt table: Version v3889.0 / 1158.13, download zip, SDK zip, gtaforums topic"
+          "Excerpt title and URL are Script Hook V on dev-c.com/gtav/scripthookv.",
+          "Describes GTA V natives, GTA5.exe folder, and GTA Online incompatibility.",
+          "Not a countdown clone; it is a long-standing third-party GTA V mod runtime."
         ],
         "uncertainty": [
-          "Whether a GTA VI equivalent will exist or if this page will ever cover GTA 6",
-          "Current binary integrity and malware status of the zip downloads was not independently scanned"
+          "Whether a GTA VI script hook will exist or whether this page will ever cover it.",
+          "Integrity of the zip downloads was not independently verified."
         ],
         "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-11-20T10:57:05.520Z",
+        "reviewedAt": "2026-11-21T10:55:23.158Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Tools",
-        "tagline": "GTA V ASI plugin runtime for single-player scripts",
-        "description": "Lets custom .asi plugins call GTA V script natives in single-player; includes ASI loader and Native Trainer. Does not work in GTA Online.",
+        "tagline": "GTA V ASI plugin runtime with trainer and loader",
+        "description": "Lets custom ASI plugins call GTA V script natives; includes ASI loader and Native Trainer, and exits the game if you enter Online.",
         "pros": [
-          "Official Script Hook V download page from AB Software Development.",
-          "States it is for GTA V .asi plugins and includes ASI loader and Native Trainer.",
-          "Documents that it closes the game when entering GTA Online.",
-          "Lists a supported patch version and a GTAForums support topic."
+          "Publisher page documents ScriptHookV.dll, ASI loader (dinput8.dll), and Native Trainer with install steps.",
+          "Lists a 15 Jul 2026 release and supported GTA V patches 1.0.3889.0 / 1.0.1158.13.",
+          "States it does not work in GTA Online and closes the game when entering multiplayer.",
+          "Provides a developer SDK download and a gtaforums support topic."
         ],
         "cons": [
-          "The page is for Grand Theft Auto V, not Grand Theft Auto VI.",
-          "Injected game scripting tooling can be used against multiplayer terms of service if misused.",
-          "Version and SDK links may go stale after Rockstar patches."
+          "Content is for Grand Theft Auto V, not GTA VI.",
+          "Binary DLL injection into a commercial game is ToS-sensitive and can break after patches."
         ],
         "pricingModel": "free",
         "bestFor": [
-          "prototyping",
-          "learning"
+          "learning",
+          "prototyping"
         ],
         "usage": {
-          "input": 14838,
-          "output": 663,
+          "input": 14875,
+          "output": 593,
           "cacheRead": 5504,
-          "totalTokens": 21005,
+          "totalTokens": 20972,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -19972,8 +20086,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.dev-c.com/gtav/scripthookv",
-        "contentHash": "86373be7e166741645d1085dabd448f820a989eeb51d55ae70af909c7cdabb63",
-        "excerpt": "Title: Script Hook V - AB Software Development\n\nURL Source: https://www.dev-c.com/gtav/scripthookv\n\nMarkdown Content:\n[AB Software Development](http://www.dev-c.com/)\n*   [Blog](http://www.dev-c.com/ \"Blog\")\n*   [gta v](http://www.dev-c.com/gtav/ \"GTA V\")\n*   [gta iv](http://www.dev-c.com/gtaiv/ \"GTA IV\")\n*   [gta sa](http://www.dev-c.com/gtasa/ \"GTA San Andreas\")\n*   [skyrim](http://www.dev-c.com/skyrim/ \"Skyrim\")\n*   [Fallout](http://www.dev-c.com/fallout4/ \"Fallout 4\")\n*   [misc](http://www.dev-c.com/misc/ \"Miscellaneous tools\")\n\nDiscover more\n\nScript Hook V\n\nGTA V mods\n\nGTA San Andreas\n\nC++ scripting tutorials\n\nGame development software\n\nTry Action Games\n\nRead Game Guides\n\nLearn Scripting\n\n# Script Hook V\n\n  \n  \n\n**Script Hook V** is the library that allows to use **GTA V** script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme.\n\nScript Hook V\n\nThis distrib also in"
+        "contentHash": "5f45728edfa207b4b1d4ae8e20c67aeb7e3eb8621329bb22e23003b21172ee5b",
+        "excerpt": "Title: Script Hook V - AB Software Development\n\nURL Source: https://www.dev-c.com/gtav/scripthookv\n\nMarkdown Content:\n[AB Software Development](http://www.dev-c.com/)\n*   [Blog](http://www.dev-c.com/ \"Blog\")\n*   [gta v](http://www.dev-c.com/gtav/ \"GTA V\")\n*   [gta iv](http://www.dev-c.com/gtaiv/ \"GTA IV\")\n*   [gta sa](http://www.dev-c.com/gtasa/ \"GTA San Andreas\")\n*   [skyrim](http://www.dev-c.com/skyrim/ \"Skyrim\")\n*   [Fallout](http://www.dev-c.com/fallout4/ \"Fallout 4\")\n*   [misc](http://www.dev-c.com/misc/ \"Miscellaneous tools\")\n\n# Script Hook V\n\n  \n  \n\n**Script Hook V** is the library that allows to use **GTA V** script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme.\n\nScript Hook V\n\nThis distrib also includes the latest **Asi Loader** and **Native Trainer**.\n\n**Installation**  \n**1**. Copy _ScriptHookV.dll_ to the game's main folder, i.e. where _GTA5.exe_ is locat"
       }
     },
     {
@@ -20873,6 +20987,15 @@
           "surroundingText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
           "targetUrl": "https://www.gta5-mods.com",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.gta5-mods.com/",
+          "sectionPath": [],
+          "anchorText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
+          "surroundingText": "GTA5-Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.",
+          "targetUrl": "https://www.gta5-mods.com",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -20886,54 +21009,58 @@
         "bucket:approve"
       ],
       "riskFlags": [],
-      "recommendedAction": "recommend_reject",
+      "recommendedAction": "recommend_review",
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Long-running GTA 5 PC mod catalog (vehicles, scripts, tools, maps). It is not a GTA 6 resource and should not be listed as GTA VI content.",
-        "relevanceScore": 0.22,
+        "summary": "Established GTA V community mod catalog (vehicles, scripts, tools). It is not official GTA VI coverage, so it is a weak fit for a GTA 6 directory despite real hosting quality.",
+        "relevanceScore": 0.28,
         "qualityScore": 0.78,
-        "riskScore": 0.34,
+        "riskScore": 0.42,
         "suggestedTags": [
           "mods",
-          "tools",
-          "community"
+          "community",
+          "tools"
         ],
         "evidence": [
-          "canonicalUrl and title identify gta5-mods.com as a GTA 5 car/script/tool source.",
-          "Homepage welcome text: browse latest GTA 5 PC mods by category.",
-          "Featured/latest listings are GTA 5 add-on vehicles, clothing, scripts, and graphics packs."
+          "Title and welcome copy: source for latest GTA 5 car mods, scripts, tools.",
+          "Canonical URL https://www.gta5-mods.com with category paths /tools, /vehicles, /scripts.",
+          "Featured/latest items are GTA V add-on vehicles and scripts; one listing titled Crash Like GTA 6 is still a GTA V script.",
+          "Not a GitHub landing-page clone; excerpt shows a functioning mod portal."
         ],
         "uncertainty": [
-          "Whether any GTA 6 section exists beyond this GTA 5 homepage.",
-          "Moderation, malware scanning, and license terms for downloads.",
-          "Monetization beyond a free public catalog."
+          "Moderation, malware scanning, and FiveM/online-play policy not verified.",
+          "Whether a GTA 6 section will exist after launch is unknown."
         ],
-        "recommendedAction": "recommend_reject",
-        "reviewedAt": "2026-11-20T10:57:19.533Z",
+        "recommendedAction": "recommend_review",
+        "reviewedAt": "2026-11-21T10:55:37.824Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "2",
         "suggestedCategory": "Apps",
-        "tagline": "Community hub for GTA 5 PC mods and tools",
-        "description": "Browse user-uploaded GTA 5 PC mods across vehicles, scripts, maps, and tools, with featured and latest files.",
+        "tagline": "Community catalog of GTA V PC mods, scripts, and tools",
+        "description": "Browse user-uploaded GTA V PC mods across vehicles, scripts, maps, and tools, with featured and latest listings.",
         "pros": [
-          "Live site lists GTA 5 PC mod categories including tools, vehicles, scripts, maps, and player content.",
-          "Shows featured, latest, and weekly most-downloaded files with author credits.",
-          "Offers multilingual pages, upload/login, Discord, and an adult-content filter."
+          "Live site lists categories such as tools, vehicles, scripts, maps, and player content.",
+          "Shows featured files, latest uploads, and weekly most-liked listings with authors.",
+          "Offers account, upload, search, language, and Discord links.",
+          "Content is user-generated GTA V mods, not a countdown or fake official clone."
         ],
         "cons": [
-          "Catalog and branding are GTA 5, not GTA 6.",
-          "User-generated downloads are unofficial and may include adult or third-party assets.",
-          "Excerpt is a JS-heavy homepage scrape, so full catalog health is not independently verified here."
+          "Catalog is for GTA 5 PC, not GTA VI official news or tooling.",
+          "Excerpt includes adult-content toggle and a third-party cheats link.",
+          "User-uploaded binaries carry typical malware and ToS risk for online play."
         ],
         "pricingModel": "free",
+        "bestFor": [
+          "learning"
+        ],
         "usage": {
-          "input": 20517,
-          "output": 677,
+          "input": 20645,
+          "output": 867,
           "cacheRead": 5504,
-          "totalTokens": 26698,
+          "totalTokens": 27016,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -20941,7 +21068,7 @@
       "reference": {
         "source": "official-web",
         "url": "https://www.gta5-mods.com",
-        "contentHash": "7476cf4b56ead6f5d4cdc1289ac6357d4cc528453fdcaf9cd499486629099610",
+        "contentHash": "353b005ba9d0b799f04c79c2c90d41a3fdbedefbd6b3b607e1557fcad65ecbad",
         "excerpt": "Title: Mods.com - Your source for the latest GTA 5 car mods, scripts, tools and more.\n\nURL Source: https://www.gta5-mods.com/\n\nMarkdown Content:\nLoading...\n\n[](https://www.gta5-mods.com/)\n*   [English](https://www.gta5-mods.com/#language)\n    *   [Bahasa Indonesia](https://www.gta5-mods.com/id/)\n    *   [Bahasa Melayu](https://www.gta5-mods.com/ms/)\n    *   [Български](https://www.gta5-mods.com/bg/)\n    *   [Català](https://www.gta5-mods.com/ca/)\n    *   [Čeština](https://www.gta5-mods.com/cs/)\n    *   [Dansk](https://www.gta5-mods.com/da/)\n    *   [Deutsch](https://www.gta5-mods.com/de/)\n    *   [Ελληνικά](https://www.gta5-mods.com/el/)\n    *   [English](https://www.gta5-mods.com/)\n    *   [Español](https://www.gta5-mods.com/es/)\n    *   [Français](https://www.gta5-mods.com/fr/)\n    *   [Galego](https://www.gta5-mods.com/gl/)\n    *   [한국어](https://www.gta5-mods.com/ko/)\n    *   [हिन्दी](https://www.gta5-mods.com/hi/)\n    *   [Italiano](https://www.gta5-mods.com/it/)\n    *   [Magyar](h"
       }
     },
@@ -21842,6 +21969,15 @@
           "surroundingText": "awesome-gta6",
           "targetUrl": "https://www.nexusmods.com/gta5",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.nexusmods.com/gta5",
+          "sectionPath": [],
+          "anchorText": "awesome-gta6",
+          "surroundingText": "awesome-gta6",
+          "targetUrl": "https://www.nexusmods.com/gta5",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [],
@@ -21857,7 +21993,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-25T01:20:00.152Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "Nexus Mods’ Grand Theft Auto V hub is a large third-party mod catalog, not GTA VI content. Useful as analog tooling context, but it is off-theme for a GTA 6 directory.",
         "relevanceScore": 0.25,
@@ -25588,6 +25724,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=MJOrsRRa9GM",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=MJOrsRRa9GM",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -25601,7 +25746,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube upload of Grand Theft Auto VI: An Extended Look, also covered on Rockstar Newswire. Prefer this over fan reuploads.",
         "relevanceScore": 0.98,
@@ -26232,6 +26377,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=53C6gUqRpK4",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=53C6gUqRpK4",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -26245,7 +26399,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip promoting Grand Theft Auto VI: An Extended Look as now playing; short channel promo, not a full gameplay featurette.",
         "relevanceScore": 0.92,
@@ -26876,6 +27030,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=mAfR_ybf5WM",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=mAfR_ybf5WM",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -26889,7 +27052,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip titled as an extended look at Grand Theft Auto VI, sourced from the studio’s channel feed. Short promotional video (19s) with minimal description beyond GTA VI hashtags.",
         "relevanceScore": 0.95,
@@ -27518,6 +27681,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=L-9NI3mHZVo",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=L-9NI3mHZVo",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -27531,7 +27703,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip titled as an extended GTA VI look; it is authentic publisher video but only 33 seconds with almost no description.",
         "relevanceScore": 0.95,
@@ -28161,6 +28333,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=GVTE_MuInQg",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=GVTE_MuInQg",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -28174,7 +28355,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube video of Grand Theft Auto VI: An Extended Look, also documented on the Rockstar Newswire. Strong fit for a GTA 6 video listing.",
         "relevanceScore": 0.95,
@@ -28801,6 +28982,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
           "targetUrl": "https://www.youtube.com/watch?v=Xzxv75FjMJk",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look — Now Playing",
+          "targetUrl": "https://www.youtube.com/watch?v=Xzxv75FjMJk",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -28814,7 +29004,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip titled “Grand Theft Auto VI: An Extended Look — Now Playing.” Short in-world scene (44s) on the publisher channel; strong fit for a GTA 6 video list.",
         "relevanceScore": 0.95,
@@ -29686,6 +29876,15 @@
           "surroundingText": "Grand Theft Auto VI: An Extended Look",
           "targetUrl": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: An Extended Look",
+          "surroundingText": "Grand Theft Auto VI: An Extended Look",
+          "targetUrl": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -29699,7 +29898,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-28T01:50:16.113Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube video titled Grand Theft Auto VI: An Extended Look, also covered on Rockstar Newswire and the GTA VI site. Strong fit for a GTA 6 video listing.",
         "relevanceScore": 1,
@@ -76263,6 +76462,15 @@
           "surroundingText": "Grand Theft Auto VI Launch Trailer",
           "targetUrl": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI Launch Trailer",
+          "surroundingText": "Grand Theft Auto VI Launch Trailer",
+          "targetUrl": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -76276,7 +76484,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:30:00.089Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube launch trailer for Grand Theft Auto VI. Strong fit for a GTA 6 directory Video/official slot; not a clone or unofficial recap.",
         "relevanceScore": 0.95,
@@ -76628,6 +76836,15 @@
           "surroundingText": "Grand Theft Auto VI Launch Trailer",
           "targetUrl": "https://www.youtube.com/watch?v=icy-lhqJhMQ",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI Launch Trailer",
+          "surroundingText": "Grand Theft Auto VI Launch Trailer",
+          "targetUrl": "https://www.youtube.com/watch?v=icy-lhqJhMQ",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -76641,7 +76858,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-16T09:30:00.089Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube launch trailer for Grand Theft Auto VI (in-game PS5 capture, ~90s), posted on the studio channel and aligned with Rockstar Newswire.",
         "relevanceScore": 0.95,
@@ -95194,6 +95411,15 @@
           "surroundingText": "GTA 5 | Les ventes repartent à la hausse, une dernière fois avant l’arrivée de GTA 6, GTA Online ne sera pas abandonné",
           "targetUrl": "https://www.rockstarmag.fr/gta-5-les-ventes-repartent-a-la-hausse-une-derniere-fois-avant-larrivee-de-gta-6-gta-online-ne-sera-pas-abandonne",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 5 | Les ventes repartent à la hausse, une dernière fois avant l’arrivée de GTA 6, GTA Online ne sera pas abandonné",
+          "surroundingText": "GTA 5 | Les ventes repartent à la hausse, une dernière fois avant l’arrivée de GTA 6, GTA Online ne sera pas abandonné",
+          "targetUrl": "https://www.rockstarmag.fr/gta-5-les-ventes-repartent-a-la-hausse-une-derniere-fois-avant-larrivee-de-gta-6-gta-online-ne-sera-pas-abandonne",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -95207,7 +95433,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-10T09:30:00.521Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "French fan-site news recap of Take-Two investor figures on GTA 5 sales and a quote that GTA Online will keep support as GTA 6 launches. Useful as secondary news, not an official Rockstar source.",
         "relevanceScore": 0.62,
@@ -95360,6 +95586,15 @@
           "surroundingText": "GTA 6 | Des précommandes largement au dessus des attentes, Take Two est confiant et de gros changements à venir chez Rockstar Games",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-des-precommandes-largement-au-dessus-des-attentes-take-two-est-confiant-et-de-gros-changements-a-venir-chez-rockstar-games",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | Des précommandes largement au dessus des attentes, Take Two est confiant et de gros changements à venir chez Rockstar Games",
+          "surroundingText": "GTA 6 | Des précommandes largement au dessus des attentes, Take Two est confiant et de gros changements à venir chez Rockstar Games",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-des-precommandes-largement-au-dessus-des-attentes-take-two-est-confiant-et-de-gros-changements-a-venir-chez-rockstar-games",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -95373,7 +95608,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-10T09:30:00.521Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "French fan-magazine recap of Take-Two CEO comments on GTA 6 preorders and launch, citing IGN and Variety. Useful as secondary news, not an official Rockstar source.",
         "relevanceScore": 0.78,
@@ -96020,6 +96255,15 @@
           "surroundingText": "Grand Theft Auto VI: Pre-Load Now",
           "targetUrl": "https://www.youtube.com/watch?v=TIPlpDAsfWo",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: Pre-Load Now",
+          "surroundingText": "Grand Theft Auto VI: Pre-Load Now",
+          "targetUrl": "https://www.youtube.com/watch?v=TIPlpDAsfWo",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -96033,7 +96277,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-11T09:30:00.382Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip announcing that GTA VI digital (and code-in-box) pre-loads are live ahead of the Nov 19 launch.",
         "relevanceScore": 0.95,
@@ -96180,6 +96424,15 @@
           "surroundingText": "Grand Theft Auto VI: Out Now",
           "targetUrl": "https://www.youtube.com/watch?v=_yl5ELcmugI",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: Out Now",
+          "surroundingText": "Grand Theft Auto VI: Out Now",
+          "targetUrl": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -96193,7 +96446,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-11T09:30:00.382Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube clip announcing GTA VI digital pre-load availability ahead of the November 19, 2026 launch.",
         "relevanceScore": 0.95,
@@ -96341,6 +96594,15 @@
           "surroundingText": "Grand Theft Auto VI: The Festival",
           "targetUrl": "https://www.youtube.com/watch?v=AvBcfBrBl60",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI: The Festival",
+          "surroundingText": "Grand Theft Auto VI: The Festival",
+          "targetUrl": "https://www.youtube.com/watch?v=AvBcfBrBl60",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -96354,7 +96616,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-11T09:30:00.382Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "Official Rockstar Games YouTube short reminding viewers of the GTA VI: The Festival ticket lottery deadline and Dice signup. Suitable as a Video listing; it is promotional event content, not gameplay or a trailer.",
         "relevanceScore": 0.92,
@@ -97365,6 +97627,15 @@
           "surroundingText": "GTA 6 | Nouveau trailer, specs PS5 Pro, compatibilité Xbox One et plus encore !",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-nouveau-trailer-specs-ps5-pro-compatibilite-xbox-one-et-plus-encore",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | Nouveau trailer, specs PS5 Pro, compatibilité Xbox One et plus encore !",
+          "surroundingText": "GTA 6 | Nouveau trailer, specs PS5 Pro, compatibilité Xbox One et plus encore !",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-nouveau-trailer-specs-ps5-pro-compatibilite-xbox-one-et-plus-encore",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -97378,7 +97649,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-11T09:30:00.382Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "French fan-site recap of console specs, DualSense features, Xbox Cloud on Xbox One, and a trailer, with a cited Rockstar Newswire source. Useful as news coverage, not an official Rockstar page.",
         "relevanceScore": 0.82,
@@ -99193,6 +99464,15 @@
           "surroundingText": "GTA 6 | Le jeu sera disponible sur Xbox One, et Take Two signe un partenariat de 10 ans avec Xbox",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-le-jeu-sera-disponible-sur-xbox-one-et-take-two-signe-un-partenariat-de-10-ans-avec-xbox",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | Le jeu sera disponible sur Xbox One, et Take Two signe un partenariat de 10 ans avec Xbox",
+          "surroundingText": "GTA 6 | Le jeu sera disponible sur Xbox One, et Take Two signe un partenariat de 10 ans avec Xbox",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-le-jeu-sera-disponible-sur-xbox-one-et-take-two-signe-un-partenariat-de-10-ans-avec-xbox",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -99206,7 +99486,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-12T09:30:00.044Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "French fan-site news piece on GTA 6 Xbox Cloud Gaming (including Xbox One via cloud) and a reported 10-year Xbox–Take-Two deal, with a link to an Xbox news post. Useful as a news item, not official Rockstar coverage.",
         "relevanceScore": 0.72,
@@ -100300,6 +100580,15 @@
           "surroundingText": "GTA 6 | Le jeu aurait déjà franchi le cap du milliard de dollars de recettes",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-le-jeu-aurait-deja-franchi-le-cap-du-milliard-de-dollars-de-recettes",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | Le jeu aurait déjà franchi le cap du milliard de dollars de recettes",
+          "surroundingText": "GTA 6 | Le jeu aurait déjà franchi le cap du milliard de dollars de recettes",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-le-jeu-aurait-deja-franchi-le-cap-du-milliard-de-dollars-de-recettes",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -100313,7 +100602,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-13T09:30:00.056Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z",
       "aiReview": {
         "summary": "French Rockstar Mag article claiming GTA 6 preorders already hit $1B via a Sensor Tower estimate, plus platform split and cost-recovery commentary. Third-party rumor news, not an official Rockstar post.",
         "relevanceScore": 0.72,
@@ -102099,6 +102388,15 @@
           "surroundingText": "GTA 6 | « C’était assez dingue » : à 28 ans, il dessine le jeu dans le ciel des États-Unis",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-cetait-assez-dingue-a-28-ans-il-dessine-le-jeu-dans-le-ciel-des-etats-unis",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | « C’était assez dingue » : à 28 ans, il dessine le jeu dans le ciel des États-Unis",
+          "surroundingText": "GTA 6 | « C’était assez dingue » : à 28 ans, il dessine le jeu dans le ciel des États-Unis",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-cetait-assez-dingue-a-28-ans-il-dessine-le-jeu-dans-le-ciel-des-etats-unis",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -102112,7 +102410,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-15T09:30:00.136Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:48fdad791b416151",
@@ -102513,6 +102811,15 @@
           "surroundingText": "GTA 6 | Toutes les récompenses et tous les records obtenus par le jeu",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-toutes-les-recompenses-et-tous-les-records-obtenus-par-le-jeu",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 | Toutes les récompenses et tous les records obtenus par le jeu",
+          "surroundingText": "GTA 6 | Toutes les récompenses et tous les records obtenus par le jeu",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-toutes-les-recompenses-et-tous-les-records-obtenus-par-le-jeu",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -102526,7 +102833,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-16T09:30:01.224Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:b353a84785ca3438",
@@ -104970,6 +105277,15 @@
           "surroundingText": "GTA 6 est maintenant disponible",
           "targetUrl": "https://www.rockstarmag.fr/gta-6-est-maintenant-disponible",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://rockstarmag.fr/feed",
+          "sectionPath": [],
+          "anchorText": "GTA 6 est maintenant disponible",
+          "surroundingText": "GTA 6 est maintenant disponible",
+          "targetUrl": "https://www.rockstarmag.fr/gta-6-est-maintenant-disponible",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -104983,7 +105299,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-19T09:30:00.471Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:131b9ff7f99e6961",
@@ -107097,6 +107413,15 @@
           "surroundingText": "Grand Theft Auto VI Now Available",
           "targetUrl": "https://www.youtube.com/watch?v=T95WGWkx7P0",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.youtube.com/feeds/videos.xml?user=RockstarGames",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto VI Now Available",
+          "surroundingText": "Grand Theft Auto VI Now Available",
+          "targetUrl": "https://www.youtube.com/watch?v=T95WGWkx7P0",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107110,7 +107435,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:652aadeaf185bfb9",
@@ -107127,6 +107452,15 @@
           "surroundingText": "How to Use Focus and Stealth in GTA 6",
           "targetUrl": "https://www.gtaboom.com/gta-6-focus-stealth-guide-02ba",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "How to Use Focus and Stealth in GTA 6",
+          "surroundingText": "How to Use Focus and Stealth in GTA 6",
+          "targetUrl": "https://www.gtaboom.com/gta-6-focus-stealth-guide-02ba",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107140,7 +107474,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:70d99b46f6b0208d",
@@ -107157,6 +107491,15 @@
           "surroundingText": "GTA 6 Police Escape Guide to Chases, Wanted, Clues and Residual Heat",
           "targetUrl": "https://www.gtaboom.com/how-to-lose-the-cops-in-gta-6-every-way-to-shake-the-police-4ff9",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Police Escape Guide to Chases, Wanted, Clues and Residual Heat",
+          "surroundingText": "GTA 6 Police Escape Guide to Chases, Wanted, Clues and Residual Heat",
+          "targetUrl": "https://www.gtaboom.com/how-to-lose-the-cops-in-gta-6-every-way-to-shake-the-police-4ff9",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107170,7 +107513,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:8c8c69087816c391",
@@ -107187,6 +107530,15 @@
           "surroundingText": "Miami Heat Sold Over $1.5 Million in Merch on GTA 6 Launch Eve",
           "targetUrl": "https://www.gtaboom.com/the-miami-heat-sold-over-15-million-in-vice-city-merch-on-gta-6-launch-eve-72c0",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "Miami Heat Sold Over $1.5 Million in Merch on GTA 6 Launch Eve",
+          "surroundingText": "Miami Heat Sold Over $1.5 Million in Merch on GTA 6 Launch Eve",
+          "targetUrl": "https://www.gtaboom.com/the-miami-heat-sold-over-15-million-in-vice-city-merch-on-gta-6-launch-eve-72c0",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107200,7 +107552,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:f58a8536ecb14465",
@@ -107907,6 +108259,15 @@
           "surroundingText": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
+          "surroundingText": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107920,7 +108281,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:573f7dbb1b9fe164",
@@ -107937,6 +108298,15 @@
           "surroundingText": "GTA 6 is playable in first-person, here's how to activate it",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 is playable in first-person, here's how to activate it",
+          "surroundingText": "GTA 6 is playable in first-person, here's how to activate it",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107950,7 +108320,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:0fd9eb8fec26e7b1",
@@ -107967,6 +108337,15 @@
           "surroundingText": "Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online",
+          "surroundingText": "Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -107980,7 +108359,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:ac8b051421017a9f",
@@ -107997,6 +108376,15 @@
           "surroundingText": "Help: I can't stop obeying traffic laws in GTA 6",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/help-i-cant-stop-obeying-traffic-laws-in-gta-6",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Help: I can't stop obeying traffic laws in GTA 6",
+          "surroundingText": "Help: I can't stop obeying traffic laws in GTA 6",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/help-i-cant-stop-obeying-traffic-laws-in-gta-6",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108010,7 +108398,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:d68862ea3ac955b3",
@@ -108027,6 +108415,15 @@
           "surroundingText": "GTA 6 has the best use of the PS5 controller I've ever seen",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-the-best-use-of-the-ps5-controller-ive-ever-seen",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 has the best use of the PS5 controller I've ever seen",
+          "surroundingText": "GTA 6 has the best use of the PS5 controller I've ever seen",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-the-best-use-of-the-ps5-controller-ive-ever-seen",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108040,7 +108437,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:9dd2b5dd345a897c",
@@ -108057,6 +108454,15 @@
           "surroundingText": "GTA 5's Steam concurrents have gone up rather than down now that GTA 6 is out, suggesting a lot of PC players are waiting",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-steam-concurrents-have-gone-up-rather-than-down-now-that-gta-6-is-out-suggesting-a-lot-of-pc-players-are-waiting",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 5's Steam concurrents have gone up rather than down now that GTA 6 is out, suggesting a lot of PC players are waiting",
+          "surroundingText": "GTA 5's Steam concurrents have gone up rather than down now that GTA 6 is out, suggesting a lot of PC players are waiting",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-steam-concurrents-have-gone-up-rather-than-down-now-that-gta-6-is-out-suggesting-a-lot-of-pc-players-are-waiting",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108070,7 +108476,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:951829b802512929",
@@ -108087,6 +108493,15 @@
           "surroundingText": "Should you give the statue to Benedict Halifax in GTA 6?",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Should you give the statue to Benedict Halifax in GTA 6?",
+          "surroundingText": "Should you give the statue to Benedict Halifax in GTA 6?",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108100,7 +108515,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:c0027ec390acfedd",
@@ -108117,6 +108532,15 @@
           "surroundingText": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
+          "surroundingText": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108130,7 +108554,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:d51b26a90000870b",
@@ -108147,6 +108571,15 @@
           "surroundingText": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
+          "surroundingText": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108160,7 +108593,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:2a3a3623fd5dbea5",
@@ -108177,6 +108610,15 @@
           "surroundingText": "Where to have a bona fide bigfoot (skunk ape) sighting in GTA 6",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Where to have a bona fide bigfoot (skunk ape) sighting in GTA 6",
+          "surroundingText": "Where to have a bona fide bigfoot (skunk ape) sighting in GTA 6",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108190,7 +108632,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:8882735172aa84ab",
@@ -108207,6 +108649,15 @@
           "surroundingText": "Your GTA 6 car is your Red Dead 2 horse, and it's perfect",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/your-gta-6-car-is-your-red-dead-2-horse-and-its-perfect",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Your GTA 6 car is your Red Dead 2 horse, and it's perfect",
+          "surroundingText": "Your GTA 6 car is your Red Dead 2 horse, and it's perfect",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/your-gta-6-car-is-your-red-dead-2-horse-and-its-perfect",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108220,7 +108671,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:d8064fbf81a56e96",
@@ -108237,6 +108688,15 @@
           "surroundingText": "Peter Moore, who famously announced GTA 4 with a tattoo, posts fake GTA 6 tattoo pic and says he hopes it will give the industry 'a shot in the arm'",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/peter-moore-who-famously-announced-gta-4-with-a-tattoo-posts-fake-gta-6-tattoo-pic-and-says-he-hopes-it-will-give-the-industry-a-shot-in-the-arm",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Peter Moore, who famously announced GTA 4 with a tattoo, posts fake GTA 6 tattoo pic and says he hopes it will give the industry 'a shot in the arm'",
+          "surroundingText": "Peter Moore, who famously announced GTA 4 with a tattoo, posts fake GTA 6 tattoo pic and says he hopes it will give the industry 'a shot in the arm'",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/peter-moore-who-famously-announced-gta-4-with-a-tattoo-posts-fake-gta-6-tattoo-pic-and-says-he-hopes-it-will-give-the-industry-a-shot-in-the-arm",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108250,7 +108710,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:c331d224771ecbba",
@@ -108267,6 +108727,15 @@
           "surroundingText": "Cheats in GTA 6 are weirdly restrictive, and I'm counting the minutes until the PC version fixes them",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/im-counting-the-minutes-until-the-pc-version-fixes-the-weirdly-restrictive-cheats-in-gta-6",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Cheats in GTA 6 are weirdly restrictive, and I'm counting the minutes until the PC version fixes them",
+          "surroundingText": "Cheats in GTA 6 are weirdly restrictive, and I'm counting the minutes until the PC version fixes them",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/im-counting-the-minutes-until-the-pc-version-fixes-the-weirdly-restrictive-cheats-in-gta-6",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108280,7 +108749,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:d6837be2f17cafc9",
@@ -108297,6 +108766,15 @@
           "surroundingText": "This is technically the worst version of GTA 6 that we'll ever play",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/this-is-technically-the-worst-version-of-gta-6-that-well-ever-play",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "This is technically the worst version of GTA 6 that we'll ever play",
+          "surroundingText": "This is technically the worst version of GTA 6 that we'll ever play",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/this-is-technically-the-worst-version-of-gta-6-that-well-ever-play",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108310,7 +108788,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:fe3a5d2807694fbc",
@@ -108327,6 +108805,15 @@
           "surroundingText": "Even our bunch of diehard PC gamers aren't that bothered by 30 fps in GTA 6",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/even-our-bunch-of-diehard-pc-gamers-arent-that-bothered-by-30-fps-in-gta-6",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Even our bunch of diehard PC gamers aren't that bothered by 30 fps in GTA 6",
+          "surroundingText": "Even our bunch of diehard PC gamers aren't that bothered by 30 fps in GTA 6",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/even-our-bunch-of-diehard-pc-gamers-arent-that-bothered-by-30-fps-in-gta-6",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108340,7 +108827,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:5a0f221ecf8ce448",
@@ -108357,6 +108844,15 @@
           "surroundingText": "Yes, you're hearing 'Weird Al' Yankovic hosting a radio station in GTA 6",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/yes-youre-hearing-weird-al-yankovic-hosting-a-radio-station-in-gta-6",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Yes, you're hearing 'Weird Al' Yankovic hosting a radio station in GTA 6",
+          "surroundingText": "Yes, you're hearing 'Weird Al' Yankovic hosting a radio station in GTA 6",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/yes-youre-hearing-weird-al-yankovic-hosting-a-radio-station-in-gta-6",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108370,7 +108866,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:91765d5447a75432",
@@ -108387,6 +108883,15 @@
           "surroundingText": "I just found a verrrry familiar-looking hat in GTA 6, and it was in the last place I would have expected",
           "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/arthur-morgan-hat-location-rdr2",
           "discoveredAt": "2026-11-20T09:30:00.106Z"
+        },
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "I just found a verrrry familiar-looking hat in GTA 6, and it was in the last place I would have expected",
+          "surroundingText": "I just found a verrrry familiar-looking hat in GTA 6, and it was in the last place I would have expected",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/arthur-morgan-hat-location-rdr2",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
         }
       ],
       "globalFactRefs": [],
@@ -108400,7 +108905,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
-      "updatedAt": "2026-11-20T09:30:00.106Z"
+      "updatedAt": "2026-11-21T09:30:00.060Z"
     },
     {
       "id": "web:0a94e025a489bf62",
@@ -109391,6 +109896,1987 @@
       "status": "pending",
       "createdAt": "2026-11-20T09:30:00.106Z",
       "updatedAt": "2026-11-20T09:30:00.106Z"
+    },
+    {
+      "id": "web:19b5fa99b619fd30",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-watson-bay-safehouse-guide-b746",
+      "title": "GTA 6 Watson Bay Safehouse Guide: Where to Find the VF-G1 and Open the Safe",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Watson Bay Safehouse Guide: Where to Find the VF-G1 and Open the Safe",
+          "surroundingText": "GTA 6 Watson Bay Safehouse Guide: Where to Find the VF-G1 and Open the Safe",
+          "targetUrl": "https://www.gtaboom.com/gta-6-watson-bay-safehouse-guide-b746",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:e6c3e2d055d58ad7",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-moses-walkthrough-3093",
+      "title": "GTA 6 Moses Walkthrough and How to Register a Car for Free",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Moses Walkthrough and How to Register a Car for Free",
+          "surroundingText": "GTA 6 Moses Walkthrough and How to Register a Car for Free",
+          "targetUrl": "https://www.gtaboom.com/gta-6-moses-walkthrough-3093",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:2040ff3a5b880b1b",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-girls-trip-walkthrough-a927",
+      "title": "GTA 6 Girls' Trip Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Girls' Trip Walkthrough",
+          "surroundingText": "GTA 6 Girls' Trip Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-girls-trip-walkthrough-a927",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:6601b392d0783468",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-got-pills-walkthrough-f6e2",
+      "title": "GTA 6 Got Pills? Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Got Pills? Walkthrough",
+          "surroundingText": "GTA 6 Got Pills? Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-got-pills-walkthrough-f6e2",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:b5bd4c6e41d857d4",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-just-moved-in-walkthrough-0df9",
+      "title": "How to Complete Just Moved In in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "How to Complete Just Moved In in GTA 6",
+          "surroundingText": "How to Complete Just Moved In in GTA 6",
+          "targetUrl": "https://www.gtaboom.com/gta-6-just-moved-in-walkthrough-0df9",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:e72a6a97d46ad79a",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-overnight-charges-walkthrough-c32e",
+      "title": "GTA 6 Overnight Charges Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Overnight Charges Walkthrough",
+          "surroundingText": "GTA 6 Overnight Charges Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-overnight-charges-walkthrough-c32e",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f280aa3c22ff809c",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-starfish-island-mansion-garage-4cf3",
+      "title": "GTA 6 Starfish Island Garage: Where to Find the Vitello, Itali RSX and Dubsta",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Starfish Island Garage: Where to Find the Vitello, Itali RSX and Dubsta",
+          "surroundingText": "GTA 6 Starfish Island Garage: Where to Find the Vitello, Itali RSX and Dubsta",
+          "targetUrl": "https://www.gtaboom.com/gta-6-starfish-island-mansion-garage-4cf3",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:cbe72a08bbc83838",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/how-to-get-paul-walkers-mitsubishi-eclipse-in-gta-6-36b8",
+      "title": "How to Get Paul Walker’s Mitsubishi Eclipse in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "How to Get Paul Walker’s Mitsubishi Eclipse in GTA 6",
+          "surroundingText": "How to Get Paul Walker’s Mitsubishi Eclipse in GTA 6",
+          "targetUrl": "https://www.gtaboom.com/how-to-get-paul-walkers-mitsubishi-eclipse-in-gta-6-36b8",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f1255cc34d56b99b",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-collectible-card-locations-bbf1",
+      "title": "GTA 6 Collectible Card Locations: Three Early Pickups",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Collectible Card Locations: Three Early Pickups",
+          "surroundingText": "GTA 6 Collectible Card Locations: Three Early Pickups",
+          "targetUrl": "https://www.gtaboom.com/gta-6-collectible-card-locations-bbf1",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:4c35d004e30b43f3",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-whats-in-the-bag-walkthrough-74c7",
+      "title": "GTA 6 What's in the Bag? Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 What's in the Bag? Walkthrough",
+          "surroundingText": "GTA 6 What's in the Bag? Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-whats-in-the-bag-walkthrough-74c7",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:850cecae2b8cf62f",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-discharge-time-walkthrough-05d7",
+      "title": "GTA 6 Discharge Time Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Discharge Time Walkthrough",
+          "surroundingText": "GTA 6 Discharge Time Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-discharge-time-walkthrough-05d7",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:b7bc3cdf5b471fb2",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-home-sweet-home-walkthrough-e4ac",
+      "title": "GTA 6 Home Sweet Home Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Home Sweet Home Walkthrough",
+          "surroundingText": "GTA 6 Home Sweet Home Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-home-sweet-home-walkthrough-e4ac",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:3e5752b7b0b90301",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-tourist-trap-walkthrough-f032",
+      "title": "GTA 6 Tourist Trap Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Tourist Trap Walkthrough",
+          "surroundingText": "GTA 6 Tourist Trap Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-tourist-trap-walkthrough-f032",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:6dea50aedc69f3fe",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-recalibration-walkthrough-9838",
+      "title": "GTA 6 Recalibration Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Recalibration Walkthrough",
+          "surroundingText": "GTA 6 Recalibration Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-recalibration-walkthrough-9838",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:ba8cfd935ebb2ef9",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-don-gone-walkthrough-35e0",
+      "title": "GTA 6 Don Gone Walkthrough",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Don Gone Walkthrough",
+          "surroundingText": "GTA 6 Don Gone Walkthrough",
+          "targetUrl": "https://www.gtaboom.com/gta-6-don-gone-walkthrough-35e0",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:b33d06d29aeacd91",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-help-kirk-find-mr-mangrove-walkthrough-198d",
+      "title": "GTA 6 Skunk Ape Walkthrough (Part 3 of 3): Help Kirk Find Mr. Mangrove",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Skunk Ape Walkthrough (Part 3 of 3): Help Kirk Find Mr. Mangrove",
+          "surroundingText": "GTA 6 Skunk Ape Walkthrough (Part 3 of 3): Help Kirk Find Mr. Mangrove",
+          "targetUrl": "https://www.gtaboom.com/gta-6-help-kirk-find-mr-mangrove-walkthrough-198d",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:012c75fb31242c24",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-did-not-kill-physical-games-it-just-proved-they-were-already-dead",
+      "title": "GTA 6 Did Not Kill Physical Games, It Just Proved They Were Already Dead",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Did Not Kill Physical Games, It Just Proved They Were Already Dead",
+          "surroundingText": "GTA 6 Did Not Kill Physical Games, It Just Proved They Were Already Dead",
+          "targetUrl": "https://www.gtaboom.com/gta-6-did-not-kill-physical-games-it-just-proved-they-were-already-dead",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:0d40364d725a7ed8",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-just-set-the-biggest-entertainment-launch-record-in-history-5193",
+      "title": "GTA 6 Just Set the Biggest Entertainment Launch Record in History",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Just Set the Biggest Entertainment Launch Record in History",
+          "surroundingText": "GTA 6 Just Set the Biggest Entertainment Launch Record in History",
+          "targetUrl": "https://www.gtaboom.com/gta-6-just-set-the-biggest-entertainment-launch-record-in-history-5193",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:1656789a05e8df49",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-the-album-is-out-now-with-all-34-original-tracks-d4f2",
+      "title": "GTA 6: The Album Is Out Now With All 34 Original Tracks",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6: The Album Is Out Now With All 34 Original Tracks",
+          "surroundingText": "GTA 6: The Album Is Out Now With All 34 Original Tracks",
+          "targetUrl": "https://www.gtaboom.com/gta-6-the-album-is-out-now-with-all-34-original-tracks-d4f2",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:52ee6a1a419cc52d",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-sex-nudity-and-relationships-the-complete-guide-97c2",
+      "title": "GTA 6 Sex, Nudity and Relationships: The Complete Guide",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Sex, Nudity and Relationships: The Complete Guide",
+          "surroundingText": "GTA 6 Sex, Nudity and Relationships: The Complete Guide",
+          "targetUrl": "https://www.gtaboom.com/gta-6-sex-nudity-and-relationships-the-complete-guide-97c2",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:83d0f085e6d6d8ff",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/10-best-free-early-game-weapons-in-gta-vi-e01f",
+      "title": "12 Free Early Weapons in GTA VI and Where to Find Them",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "12 Free Early Weapons in GTA VI and Where to Find Them",
+          "surroundingText": "12 Free Early Weapons in GTA VI and Where to Find Them",
+          "targetUrl": "https://www.gtaboom.com/10-best-free-early-game-weapons-in-gta-vi-e01f",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:49a919085ec07319",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face",
+      "title": "The Florida Joker Really Made It Into GTA 6 as a Background Face",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "The Florida Joker Really Made It Into GTA 6 as a Background Face",
+          "surroundingText": "The Florida Joker Really Made It Into GTA 6 as a Background Face",
+          "targetUrl": "https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:86f1ad489cb41eaa",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/stephen-smith-calls-gta-6-a-major-problem-for-nba-players-3c60",
+      "title": "Stephen Smith Walks Back on Calling GTA 6 a \"Major Problem\" for NBA Players",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "Stephen Smith Walks Back on Calling GTA 6 a \"Major Problem\" for NBA Players",
+          "surroundingText": "Stephen Smith Walks Back on Calling GTA 6 a \"Major Problem\" for NBA Players",
+          "targetUrl": "https://www.gtaboom.com/stephen-smith-calls-gta-6-a-major-problem-for-nba-players-3c60",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:296bd27c0572626c",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/over-2-million-players-used-the-new-zealand-trick-to-play-gta-6-early-05ce",
+      "title": "Over 2 Million Players Used the New Zealand Trick to Play GTA 6 Early",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "Over 2 Million Players Used the New Zealand Trick to Play GTA 6 Early",
+          "surroundingText": "Over 2 Million Players Used the New Zealand Trick to Play GTA 6 Early",
+          "targetUrl": "https://www.gtaboom.com/over-2-million-players-used-the-new-zealand-trick-to-play-gta-6-early-05ce",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:bce9f77c5e7540ab",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-chapter-1-legendary-weapon-locations-2ea1",
+      "title": "GTA 6: Where to Find Three Legendary Weapons in Chapter 1",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6: Where to Find Three Legendary Weapons in Chapter 1",
+          "surroundingText": "GTA 6: Where to Find Three Legendary Weapons in Chapter 1",
+          "targetUrl": "https://www.gtaboom.com/gta-6-chapter-1-legendary-weapon-locations-2ea1",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:76bedce9a4caf122",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-kenton-treasure-diving-part-2-6889",
+      "title": "GTA 6 Treasure Diving Part 2 Guide to Kenton's Next Three Wrecks",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Treasure Diving Part 2 Guide to Kenton's Next Three Wrecks",
+          "surroundingText": "GTA 6 Treasure Diving Part 2 Guide to Kenton's Next Three Wrecks",
+          "targetUrl": "https://www.gtaboom.com/gta-6-kenton-treasure-diving-part-2-6889",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f126eb6a33f5c25d",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gtaboom.com/gta-6-search-for-tree-effigies-walkthrough-2af2",
+      "title": "GTA 6 Skunk Ape Walkthrough (Part 2 of 3): Search for Tree Effigies",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://gtaboom.com/feed.xml",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Skunk Ape Walkthrough (Part 2 of 3): Search for Tree Effigies",
+          "surroundingText": "GTA 6 Skunk Ape Walkthrough (Part 2 of 3): Search for Tree Effigies",
+          "targetUrl": "https://www.gtaboom.com/gta-6-search-for-tree-effigies-walkthrough-2af2",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:c621be4e89b0eb79",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists",
+      "title": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+          "surroundingText": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:1ff0273c0b5ec1ad",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/15-hidden-gta-6-controls-and-features-you-should-know-about",
+      "title": "15 hidden GTA 6 controls and features you should know about",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "15 hidden GTA 6 controls and features you should know about",
+          "surroundingText": "15 hidden GTA 6 controls and features you should know about",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/15-hidden-gta-6-controls-and-features-you-should-know-about",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:a819020e520d257e",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map",
+      "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+          "surroundingText": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:42cc8e4cdd5b31e3",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster",
+      "title": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+          "surroundingText": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:9c0d3e31b0de85b3",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch",
+      "title": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+          "surroundingText": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:66843dd8993638f4",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters",
+      "title": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+          "surroundingText": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+          "targetUrl": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:412c1d27ee09a9f7",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location",
+      "title": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+          "surroundingText": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:a39fb0c4a610312f",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/we-may-have-forgiven-gta-6-for-having-no-physical-media-but-ive-picked-through-amazons-early-black-friday-blu-ray-deals-to-find-you-27-stone-cold-classics-to-jam-into-that-noisy-ol-disk-drive-instead",
+      "title": "We may have forgiven GTA 6 for having no physical media, but I’ve picked through Amazon’s early Black Friday Blu-ray deals to find you 27 stone cold classics to jam into that noisy ol’ disk drive instead",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "We may have forgiven GTA 6 for having no physical media, but I’ve picked through Amazon’s early Black Friday Blu-ray deals to find you 27 stone cold classics to jam into that noisy ol’ disk drive instead",
+          "surroundingText": "We may have forgiven GTA 6 for having no physical media, but I’ve picked through Amazon’s early Black Friday Blu-ray deals to find you 27 stone cold classics to jam into that noisy ol’ disk drive instead",
+          "targetUrl": "https://www.pcgamer.com/hardware/we-may-have-forgiven-gta-6-for-having-no-physical-media-but-ive-picked-through-amazons-early-black-friday-blu-ray-deals-to-find-you-27-stone-cold-classics-to-jam-into-that-noisy-ol-disk-drive-instead",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:18dc73083c3b05f9",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much",
+      "title": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+          "surroundingText": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:3e1890387dced316",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click",
+      "title": "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+          "surroundingText": "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:e5ec5d0b45913f18",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-niko-bellic",
+      "title": "Is Niko Bellic in GTA 6?",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Is Niko Bellic in GTA 6?",
+          "surroundingText": "Is Niko Bellic in GTA 6?",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-niko-bellic",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f23173bb9c377dbf",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me",
+      "title": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+          "surroundingText": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:3939ebf2898f549b",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fix-railing-house-repairs",
+      "title": "How to fix the railing in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to fix the railing in GTA 6",
+          "surroundingText": "How to fix the railing in GTA 6",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fix-railing-house-repairs",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:705c530853d087f6",
+      "type": "web_url",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week",
+      "title": "Modders reckon GTA 6 will be playable on PC within a week",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.pcgamer.com/rss",
+          "sectionPath": [],
+          "anchorText": "Modders reckon GTA 6 will be playable on PC within a week",
+          "surroundingText": "Modders reckon GTA 6 will be playable on PC within a week",
+          "targetUrl": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:72c68c623a39cb9b",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-guides-walkthroughs",
+      "title": "GTA 6 guides and walkthroughs",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 guides and walkthroughs",
+          "surroundingText": "GTA 6 guides and walkthroughs",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-guides-walkthroughs",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:d319ab44a3f36cd4",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pc-port-could-come-from-hackers-before-rockstar-if-cyberleek-makes-good-on-its-latest-threat-this-community-will-have-it-emulated-inside-a-week",
+      "title": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat",
+          "surroundingText": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pc-port-could-come-from-hackers-before-rockstar-if-cyberleek-makes-good-on-its-latest-threat-this-community-will-have-it-emulated-inside-a-week",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:5a21d0db4f7db6e0",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/lets-put-gta-6s-usd3-79-billion-launch-into-perspective-gta-5-made-usd800-million-at-launch-and-red-dead-redemption-2-made-usd725-million",
+      "title": "Let's put GTA 6's $3.79 billion launch into perspective: GTA 5 made $800 million at launch",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "Let's put GTA 6's $3.79 billion launch into perspective: GTA 5 made $800 million at launch",
+          "surroundingText": "Let's put GTA 6's $3.79 billion launch into perspective: GTA 5 made $800 million at launch",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/lets-put-gta-6s-usd3-79-billion-launch-into-perspective-gta-5-made-usd800-million-at-launch-and-red-dead-redemption-2-made-usd725-million",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:451751af474e73bb",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years",
+      "title": "GTA 6 sold 32.5 million copies before it was even released – Elden Ring sold 30 million in 3 years",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 sold 32.5 million copies before it was even released – Elden Ring sold 30 million in 3 years",
+          "surroundingText": "GTA 6 sold 32.5 million copies before it was even released – Elden Ring sold 30 million in 3 years",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:5d30236d674992f6",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-soars-rockstar-confirms-about-1-000-of-its-employees-have-worked-there-for-at-least-10-years-suggesting-not-firing-everyone-may-be-a-good-idea",
+      "title": "As GTA 6 soars, Rockstar confirms about 1,000 employees have worked there for at least 10 years",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "As GTA 6 soars, Rockstar confirms about 1,000 employees have worked there for at least 10 years",
+          "surroundingText": "As GTA 6 soars, Rockstar confirms about 1,000 employees have worked there for at least 10 years",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-soars-rockstar-confirms-about-1-000-of-its-employees-have-worked-there-for-at-least-10-years-suggesting-not-firing-everyone-may-be-a-good-idea",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:53b7f7bef0b6bf0c",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jet-how-to-get",
+      "title": "How to get a GTA 6 jet easily and cause chaos in the skies",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to get a GTA 6 jet easily and cause chaos in the skies",
+          "surroundingText": "How to get a GTA 6 jet easily and cause chaos in the skies",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jet-how-to-get",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:752c657b80f53fc5",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-exec-stop-thinking-in-tasks-completion-percentages-online-guides-and-approach-leonida-like-a-new-kind-of-open-world",
+      "title": "GTA 6 exec: \"Stop thinking in tasks, completion percentages, online guides\"",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 exec: \"Stop thinking in tasks, completion percentages, online guides\"",
+          "surroundingText": "GTA 6 exec: \"Stop thinking in tasks, completion percentages, online guides\"",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-exec-stop-thinking-in-tasks-completion-percentages-online-guides-and-approach-leonida-like-a-new-kind-of-open-world",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:fd99a16f1293469a",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/after-accusing-rockstar-of-stealing-his-likeness-for-gta-6-florida-joker-gets-his-wish-of-a-cameo-and-a-spot-in-the-cast-gta-boys-for-life",
+      "title": "After accusing Rockstar of stealing his likeness for GTA 6, Florida Joker gets his wish of a cameo and a spot in the cast",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "After accusing Rockstar of stealing his likeness for GTA 6, Florida Joker gets his wish of a cameo and a spot in the cast",
+          "surroundingText": "After accusing Rockstar of stealing his likeness for GTA 6, Florida Joker gets his wish of a cameo and a spot in the cast",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/after-accusing-rockstar-of-stealing-his-likeness-for-gta-6-florida-joker-gets-his-wish-of-a-cameo-and-a-spot-in-the-cast-gta-boys-for-life",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:c4f2af0b2c85b7f5",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-to-donnie-or-brian",
+      "title": "Should you sell to Donnie or Brian in GTA 6?",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "Should you sell to Donnie or Brian in GTA 6?",
+          "surroundingText": "Should you sell to Donnie or Brian in GTA 6?",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-to-donnie-or-brian",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:c66521ef09b379a8",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more",
+      "title": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
+          "surroundingText": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f9b200068a0001cc",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code",
+      "title": "GTA 6 Bowling Alley safe code",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Bowling Alley safe code",
+          "surroundingText": "GTA 6 Bowling Alley safe code",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:ea62585d6dcc2cd3",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-5-protagonists-are-referenced-in-a-perfect-gta-6-easter-egg-all-about-the-events-of-los-santos",
+      "title": "Grand Theft Auto 5 protagonists are referenced in a perfect GTA 6 Easter egg all about the events of Los Santos",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "Grand Theft Auto 5 protagonists are referenced in a perfect GTA 6 Easter egg all about the events of Los Santos",
+          "surroundingText": "Grand Theft Auto 5 protagonists are referenced in a perfect GTA 6 Easter egg all about the events of Los Santos",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-5-protagonists-are-referenced-in-a-perfect-gta-6-easter-egg-all-about-the-events-of-los-santos",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:09370267921e2563",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-glitch-adds-the-first-person-mode-that-rockstar-skipped",
+      "title": "GTA 6 glitch adds the first-person mode that Rockstar skipped",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 glitch adds the first-person mode that Rockstar skipped",
+          "surroundingText": "GTA 6 glitch adds the first-person mode that Rockstar skipped",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-glitch-adds-the-first-person-mode-that-rockstar-skipped",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:e69ef34f9bd1d0c8",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/naughty-dog-dev-blown-away-by-grand-theft-auto-6-gta-vi-appears-to-me-as-a-bugatti-veyron-would-to-a-nervous-victorian-child",
+      "title": "Naughty Dog dev stunned by GTA 6: \"Appears to me as a Bugatti Veyron would to a nervous Victorian\"",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "Naughty Dog dev stunned by GTA 6: \"Appears to me as a Bugatti Veyron would to a nervous Victorian\"",
+          "surroundingText": "Naughty Dog dev stunned by GTA 6: \"Appears to me as a Bugatti Veyron would to a nervous Victorian\"",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/naughty-dog-dev-blown-away-by-grand-theft-auto-6-gta-vi-appears-to-me-as-a-bugatti-veyron-would-to-a-nervous-victorian-child",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:69a36d879100f6e9",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-skip-time-pass",
+      "title": "How to skip and pass time in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to skip and pass time in GTA 6",
+          "surroundingText": "How to skip and pass time in GTA 6",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-skip-time-pass",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:91ce1c68053a728a",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-actor-bravely-raises-her-hand-if-you-play-the-game-let-me-know-if-you-find-me",
+      "title": "GTA 6 Mandy actor bravely raises her hand: \"If you play the game, let me know if you find me\"",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Mandy actor bravely raises her hand: \"If you play the game, let me know if you find me\"",
+          "surroundingText": "GTA 6 Mandy actor bravely raises her hand: \"If you play the game, let me know if you find me\"",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-actor-bravely-raises-her-hand-if-you-play-the-game-let-me-know-if-you-find-me",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:f196f9c7b174bbcb",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-skunk-ape-mr-mangrove",
+      "title": "How to find Bigfoot, or Mr. Mangrove the Skunk Ape, in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to find Bigfoot, or Mr. Mangrove the Skunk Ape, in GTA 6",
+          "surroundingText": "How to find Bigfoot, or Mr. Mangrove the Skunk Ape, in GTA 6",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-skunk-ape-mr-mangrove",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:5a2db201ac0a2536",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-workout",
+      "title": "How to workout in GTA 6 to build Strength and Cardio quickly",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to workout in GTA 6 to build Strength and Cardio quickly",
+          "surroundingText": "How to workout in GTA 6 to build Strength and Cardio quickly",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-workout",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:cb626fb426a350ab",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/the-first-gta-6-speedrun-is-less-than-40-hours-with-no-breaks-from-a-streamer-who-stayed-up-for-50-plus-hours",
+      "title": "The first GTA 6 speedrun is less than 40 hours, from a streamer who \"stayed up for 50-plus hours\"",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "The first GTA 6 speedrun is less than 40 hours, from a streamer who \"stayed up for 50-plus hours\"",
+          "surroundingText": "The first GTA 6 speedrun is less than 40 hours, from a streamer who \"stayed up for 50-plus hours\"",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/the-first-gta-6-speedrun-is-less-than-40-hours-with-no-breaks-from-a-streamer-who-stayed-up-for-50-plus-hours",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:7d71407d71a3b945",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-thirst-levels-reach-heights-that-even-former-nintendo-boss-reggie-fils-aime-cant-help-but-notice",
+      "title": "GTA 6 Mandy thirst levels reach heights that even former Nintendo boss Reggie Fils-Aimé can't help but notice",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "GTA 6 Mandy thirst levels reach heights that even former Nintendo boss Reggie Fils-Aimé can't help but notice",
+          "surroundingText": "GTA 6 Mandy thirst levels reach heights that even former Nintendo boss Reggie Fils-Aimé can't help but notice",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-thirst-levels-reach-heights-that-even-former-nintendo-boss-reggie-fils-aime-cant-help-but-notice",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:4eef9516e62f9adf",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/former-take-two-ceo-says-gta-6-is-the-last-pre-ai-blockbuster-video-game-of-its-kind-rockstars-game-represents-the-culmination-of-a-model-of-creativity-that-ai-is-about-to-upend",
+      "title": "Former Take-Two CEO says GTA 6 is \"the last pre-AI blockbuster video game of its kind\"",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "Former Take-Two CEO says GTA 6 is \"the last pre-AI blockbuster video game of its kind\"",
+          "surroundingText": "Former Take-Two CEO says GTA 6 is \"the last pre-AI blockbuster video game of its kind\"",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/former-take-two-ceo-says-gta-6-is-the-last-pre-ai-blockbuster-video-game-of-its-kind-rockstars-game-represents-the-culmination-of-a-model-of-creativity-that-ai-is-about-to-upend",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:c732a4d11fba0abf",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/120-hours-in-gta-6-whats-it-really-like-to-review-the-biggest-entertainment-event-of-the-decade",
+      "title": "120 hours in GTA 6: What's it really like to review the biggest entertainment event of the decade?",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "120 hours in GTA 6: What's it really like to review the biggest entertainment event of the decade?",
+          "surroundingText": "120 hours in GTA 6: What's it really like to review the biggest entertainment event of the decade?",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/120-hours-in-gta-6-whats-it-really-like-to-review-the-biggest-entertainment-event-of-the-decade",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:58a2bd394813ede0",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-paul-walker-fast-and-furious-car",
+      "title": "How to get Paul Walker's Fast and Furious car in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to get Paul Walker's Fast and Furious car in GTA 6",
+          "surroundingText": "How to get Paul Walker's Fast and Furious car in GTA 6",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-paul-walker-fast-and-furious-car",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:8ed2d94aedaaae74",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gamesradar.com/games/grand-theft-auto/exotic-animals-front-illegal-operation-gta-6",
+      "title": "How to complete the Exotic Animals Front illegal operation in GTA 6",
+      "discoveredFrom": "github_search",
+      "sourceEvidence": [
+        {
+          "sourceType": "github_search",
+          "sourceRepo": "https://www.gamesradar.com/rss",
+          "sectionPath": [],
+          "anchorText": "How to complete the Exotic Animals Front illegal operation in GTA 6",
+          "surroundingText": "How to complete the Exotic Animals Front illegal operation in GTA 6",
+          "targetUrl": "https://www.gamesradar.com/games/grand-theft-auto/exotic-animals-front-illegal-operation-gta-6",
+          "discoveredAt": "2026-11-21T09:30:00.060Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:30:00.060Z",
+      "updatedAt": "2026-11-21T09:30:00.060Z"
+    },
+    {
+      "id": "web:718348088b0d1f52",
+      "type": "web_url",
+      "canonicalUrl": "https://www.gta5-mods.com/scripts/crashcinema",
+      "title": "Crash Like GTA 6",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://www.gta5-mods.com/",
+          "sectionPath": [],
+          "anchorText": "Crash Like GTA 6",
+          "surroundingText": "Crash Like GTA 6",
+          "targetUrl": "https://www.gta5-mods.com/scripts/crashcinema",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 1,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:official-web",
+        "bucket:approve"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_approve",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:20:00.055Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z"
     }
   ]
 }

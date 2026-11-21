@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:30:00.151Z",
+  "generatedAt": "2026-11-21T10:30:00.079Z",
   "appId": "awesome-ai-video",
   "items": [
     {
@@ -998,6 +998,15 @@
           "surroundingText": "Google AI - How we're making AI helpful for everyone",
           "targetUrl": "https://ai.google.dev",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://ai.google.dev/",
+          "sectionPath": [],
+          "anchorText": "Google AI - How we're making AI helpful for everyone",
+          "surroundingText": "Google AI - How we're making AI helpful for everyone",
+          "targetUrl": "https://ai.google.dev",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
@@ -1015,7 +1024,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-08-17T19:38:04.437Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
         "summary": "Canonical URL ai.google.dev resolves to a consumer marketing hub at ai.google, not Gemini/Gemma developer docs. Useful as an official product map, but it is not an API, SDK, model card, or video-generation reference.",
         "relevanceScore": 0.28,
@@ -1511,6 +1520,16 @@
           "surroundingText": "Google Veo 2 / Veo 3",
           "targetUrl": "https://deepmind.google/technologies/veo",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Google Veo 2 / Veo 3",
+          "surroundingText": "Google Veo 2 / Veo 3",
+          "targetUrl": "https://deepmind.google/technologies/veo",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -1524,7 +1543,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Official Google DeepMind Veo page covering Veo 3.1/3/2 video (and native audio) generation, with links to Gemini, Flow, a prompt guide, and Gemini API video docs. Strong fit for an AI video directory; the URL is a product/docs hub rather than a standalone SDK.",
         "relevanceScore": 0.92,
@@ -2019,6 +2038,16 @@
           "surroundingText": "Kling AI",
           "targetUrl": "https://klingai.com",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI",
+          "surroundingText": "Kling AI",
+          "targetUrl": "https://klingai.com",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -2032,7 +2061,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Official Kuaishou video/image generation product with a documented REST API (text-to-video, image-to-video, Omni, audio). Canonical URL is a marketing app; developer docs live under /dev with prepaid API packages separate from consumer credits.",
         "relevanceScore": 0.86,
@@ -2524,6 +2553,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -2537,7 +2576,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Official fal-hosted HTTP API for Pika v2.2 text-to-video, with input/output schema, client examples, and per-clip pricing. Useful developer docs for a commercial inference endpoint, not an open-source model or prompt library.",
         "relevanceScore": 0.88,
@@ -3032,6 +3071,16 @@
           "surroundingText": "Docs",
           "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "backblaze-labs/awesome-video-generation",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Docs",
+          "surroundingText": "Docs",
+          "targetUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -3045,7 +3094,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:00:00.152Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "Artificial Analysis text-to-video leaderboard ranks T2V models by human Elo, with filters, sample counts, and API price per minute. Useful for model selection, not an SDK, API, or official model card.",
         "relevanceScore": 0.62,
@@ -3485,10 +3534,19 @@
           "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
           "targetUrl": "https://runway.com",
           "discoveredAt": "2026-11-20T09:20:00.119Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "https://runway.com/",
+          "sectionPath": [],
+          "anchorText": "Runway | Intelligent tools for scaling content and teams.",
+          "surroundingText": "Runway | Intelligent tools for scaling content and teams.",
+          "targetUrl": "https://runway.com",
+          "discoveredAt": "2026-11-21T09:20:00.055Z"
         }
       ],
       "globalFactRefs": [
-        "facts:official-web:https://runway.com"
+        "facts:jina:https://runway.com"
       ],
       "confidenceScore": 1,
       "confidenceReasons": [
@@ -3502,59 +3560,57 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-10T09:20:00.077Z",
-      "updatedAt": "2026-11-20T09:20:00.119Z",
+      "updatedAt": "2026-11-21T09:20:00.055Z",
       "aiReview": {
-        "summary": "Official marketing homepage for a major AI video/image/audio platform with a developer API, not the API docs or model card. Useful as a canonical product entry if paired with Dev/docs links.",
-        "relevanceScore": 0.82,
-        "qualityScore": 0.52,
-        "riskScore": 0.18,
+        "summary": "Official marketing homepage for a well-known AI video/content vendor, but the captured page is a cookie-consent wall with no API, SDK, or model-card documentation for developers.",
+        "relevanceScore": 0.55,
+        "qualityScore": 0.25,
+        "riskScore": 0.2,
         "suggestedTags": [
-          "video-generation",
-          "api",
-          "creative-suite",
-          "gen-4",
-          "official"
+          "ai-video",
+          "commercial",
+          "gen-ai",
+          "runway"
         ],
         "evidence": [
-          "Excerpt: Runway Dev as API platform with Get API Key and View documentation.",
-          "Excerpt: Creative suite generates and edits video, images, and audio.",
-          "Excerpt: Gen-4.5 described as a video model; try free / paid plans / enterprise sales.",
-          "canonicalUrl https://runway.com is official-web with no riskFlags."
+          "Title: Intelligent tools for scaling content and teams.",
+          "URL Source https://runway.com/ with privacy-policy and terms-of-use on runwayml.com.",
+          "Markdown content is cookie categories (Necessary, Functional, Analytics, Advertising) rather than API docs.",
+          "Rubric prefers official Runway docs over closed landing pages with no API."
         ],
         "uncertainty": [
-          "Current API coverage, rate limits, and SDK languages not verified.",
-          "Whether Gen-4.5 is fully available via API vs Creative UI only.",
-          "Exact consumer vs enterprise pricing not in the excerpt."
+          "Current product lineup, Gen-3/Aleph capabilities, and API availability are not in the excerpt.",
+          "Pricing tiers and whether a public developer API is linked from this homepage cannot be verified from facts.",
+          "Whether a better canonical docs URL exists (docs.runwayml.com or similar) is unknown here."
         ],
         "recommendedAction": "recommend_review",
-        "reviewedAt": "2026-11-20T11:02:09.850Z",
+        "reviewedAt": "2026-11-21T11:00:03.013Z",
         "modelId": "xai-oauth/grok-4.6:low",
         "promptVersion": "1",
-        "suggestedCategory": "Tools",
-        "tagline": "Cloud suite and API for generating and editing video",
-        "description": "Generate and edit video, images, and audio in a cloud workspace, with a developer API, mobile apps, and research models.",
+        "suggestedCategory": "Apps",
+        "tagline": "Commercial AI video and content generation platform",
+        "description": "Sells intelligent tools for generating and scaling video and team content; this URL is the public marketing site, not developer docs.",
         "pros": [
-          "Official site describes a dedicated Dev/API platform with documentation and API keys.",
-          "Lists video models including Gen-4.5 and research on general world models.",
-          "Mentions cloud creative workspace for video, image, and audio plus iOS/Android apps."
+          "Canonical official domain for a major AI video product vendor.",
+          "Title and privacy/terms links identify a real commercial product, not a news recap.",
+          "Repeatedly listed as an official-web seed for AI video directories."
         ],
         "cons": [
-          "Page is a marketing landing page, not SDK, model card, or API reference.",
-          "Developer pricing, auth, and endpoint details are not in the excerpt.",
-          "Copy is enterprise-sales oriented with limited technical specifics."
+          "Fetched excerpt is almost entirely Cookiebot consent UI, not product or API documentation.",
+          "No model cards, SDK references, endpoints, or prompt libraries appear in the provided facts.",
+          "Closed marketing landing page is a weaker developer resource than official API docs."
         ],
-        "pricingModel": "freemium",
+        "pricingModel": "paid",
         "bestFor": [
           "prototyping",
           "production",
-          "small team",
-          "enterprise"
+          "small team"
         ],
         "usage": {
-          "input": 6638,
-          "output": 875,
+          "input": 8454,
+          "output": 562,
           "cacheRead": 5504,
-          "totalTokens": 13017,
+          "totalTokens": 14520,
           "provider": "xai-oauth",
           "model": "grok-4.6"
         }
@@ -3562,8 +3618,8 @@
       "reference": {
         "source": "official-web",
         "url": "https://runway.com",
-        "contentHash": "e8988936928ee82e19b12d8511d2a5f51fafe6dd1fcc6a2846b6b7dd9bf93bdd",
-        "excerpt": "Runway | Intelligent tools for scaling content and teams. Runway app for iPhone Runway app for Android Create anything, anytime. Try app Try app Creative Dev Robotics Research Resources Enterprise Pricing Enterprise Sales Login Try Runway Enterprises get up to 2 months of usage free. Sign by 12/31. See terms Enterprises get up to 2 months of usage free. Sign by 12/31. See terms Contact sales Intelligent tools for scaling content and teams. Runway is building foundational Real-World Intelligence that is changing how the world’s top brands, companies, agencies and studios are able to tell their stories. Try Runway for free We partner with the world&#x27;s leading organizations to advance their industries: Three platforms built on-top of the same Real-World Intelligence models Runway Creative Your complete Creative Suite with everything you need, to make anything you want. An all-in-one cloud-based creative platform that offers endless ways to generate and edit video, images and audio in "
+        "contentHash": "f46bb0fd4398b51fdd1fb6ac9fc4732010b655095755f18b95bb17313721edef",
+        "excerpt": "Title: Runway | Intelligent tools for scaling content and teams.\n\nURL Source: https://runway.com/\n\nPublished Time: Thu, 22 Oct 2026 07:40:58 GMT\n\nMarkdown Content:\n\n[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)\n\n*   [Consent](https://runway.com/#)\n*   [Details](https://runway.com/#)\n*   [[#IABV2SETTINGS#]](https://runway.com/#)\n*   [About](https://runway.com/#)\n\nThis website uses cookies\n\nWe and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.\n\nBy continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/privacy-policy) and subject to your settings) and our [****Terms of Use****]"
       }
     },
     {
@@ -3845,6 +3901,16 @@
         },
         {
           "sourceType": "curated_readme",
+          "sourceRepo": "Piebald-AI/awesome-gemini-cli-extensions",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea AI Video Editor",
+          "surroundingText": "Levea AI Video Editor",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
+        },
+        {
+          "sourceType": "curated_readme",
           "sourceRepo": "sickn33/antigravity-awesome-skills",
           "sourcePath": "README.md",
           "sectionPath": [],
@@ -3872,6 +3938,16 @@
           "surroundingText": "Levea",
           "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
           "discoveredAt": "2026-11-20T09:00:02.867Z"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "sickn33/antigravity-awesome-skills",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Levea",
+          "surroundingText": "Levea",
+          "targetUrl": "https://github.com/brajendrak00068/agentic-ai-video-production",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
         }
       ],
       "globalFactRefs": [],
@@ -3885,7 +3961,7 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-10-28T09:00:00.065Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "aiReview": {
         "summary": "MIT-licensed MCP/plugin wrapper that sends natural-language edits to a hosted Livecore/Levea cloud engine. Useful for agentic editing workflows, not a first-party video-generation model or official Veo/Runway SDK.",
         "relevanceScore": 0.42,
@@ -4024,6 +4100,19 @@
           "targetUrl": "https://higgsfield.ai/pricing",
           "discoveredAt": "2026-11-20T09:00:02.867Z",
           "dealEnds": "2026-11-23"
+        },
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "thoughtcook/verified-black-friday",
+          "sourcePath": "data/deals.json",
+          "sectionPath": [
+            "AI"
+          ],
+          "anchorText": "Higgsfield (AI video)",
+          "surroundingText": "Official /pricing (Nov 20): still LIVE, but the 64% window that ended at 2026-11-20T00:00:00Z has ended on schedule. Official sale_11_11 JSON now has a new window starts_at 2026-11-20T00:00:00Z, ends_at 2026-11-23T00:00:00Z, phase pre_black_friday_63, max_discount_percent 63. Visible copy: “Black Friday 63% OFF” / “Up to 63% OFF premium plans” / “Get plan with 63% OFF.” That 63% max is worse than the earlier official 65% window (and the later 64% window). Visible individual plan dollars were not present in the static HTML/JSON this run and are not invented. · New official 63% window 2026-11-20T00:00:00Z through 2026-11-23T00:00:00Z; prior 64% window ended 2026-11-20T00:00:00Z",
+          "targetUrl": "https://higgsfield.ai/pricing",
+          "discoveredAt": "2026-11-21T09:00:00.121Z",
+          "dealEnds": "2026-11-23"
         }
       ],
       "globalFactRefs": [
@@ -4039,13 +4128,117 @@
       "proposedRegistryPatch": {},
       "status": "pending",
       "createdAt": "2026-11-15T09:00:00.138Z",
-      "updatedAt": "2026-11-20T09:00:02.867Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
       "reference": {
         "source": "official-web",
         "url": "https://higgsfield.ai/pricing",
-        "contentHash": "5d2de59a749bf8e4136fb4bf94e6b002ed364ac80f7fbaedd1e9b427fd07d553",
-        "excerpt": "Pricing plans — Higgsfield AI Video &amp; Image Generator Higgsfield Explore Image Video Audio MCP API Cinema Studio Genjutsu Top Short Drama New Miracle Soon Contests Shorts New Ads Studio New GPU New Playable Supercomputer Community Academy Plugins Canvas Enterprise Pricing Get started Higgsfield Fresh drops Drops Explore Image Video Audio MCP Agentic Studios Community Contests Learn More Enterprise Pricing Get started © 2026 Higgsfield, Inc. All rights reserved. Help center Cookie Notice Terms Privacy Affiliate Terms Report a vulnerability"
+        "contentHash": "3d677a2e643cd9dddf63443dc169659934f8992ae7e66c5c7e4fc56391439277",
+        "excerpt": "Pricing plans — Higgsfield AI Video &amp; Image Generator Higgsfield Explore Image Video Audio MCP API Cinema Studio Genjutsu Top Short Drama New Miracle Soon Contests Shorts New Ads Studio New GPU New Playable Supercomputer Community Academy Plugins Canvas Enterprise Pricing Get started Higgsfield New drops Drops Home Image Video Audio MCP Agentic Studios Community Contests Learn More Enterprise Pricing Get started © 2026 Higgsfield, Inc. All rights reserved. Help center Cookie Notice Terms Privacy Affiliate Terms Report a vulnerability"
       }
+    },
+    {
+      "id": "web:c0983683264d1648",
+      "type": "web_url",
+      "canonicalUrl": "https://www.seeddance.io/pricing",
+      "title": "Seedance AI Video Generator",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "sourcePath": "README.md",
+          "sectionPath": [
+            "🎬 Video, Audio & Podcasting"
+          ],
+          "anchorText": "Seedance AI Video Generator",
+          "surroundingText": "[Seedance AI Video Generator](https://www.seeddance.io/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026) | AI video and image generator with Seedance 2.5, Kling, Veo, Hailuo, Seedream and GPT Image in one workspace | 💸 **50% OFF** Pro on annual billing ($29 → $14.50/mo) · auto-applied | Nov 20, 2026 - Dec 1, 2026",
+          "targetUrl": "https://www.seeddance.io/pricing",
+          "discoveredAt": "2026-11-21T09:00:00.121Z",
+          "dealEnds": "2026-12-01"
+        }
+      ],
+      "globalFactRefs": [
+        "facts:jina:https://www.seeddance.io/pricing"
+      ],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:00:00.121Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z",
+      "reference": {
+        "source": "official-web",
+        "url": "https://www.seeddance.io/pricing",
+        "contentHash": "5c3f144047abfa7965ddb6c2e904795c9998a5864c6ce31db6cbcbb3b278a067",
+        "excerpt": "Title: Seedance Pricing — Free Credits, No Watermark, Commercial Use\n\nURL Source: https://www.seeddance.io/pricing\n\nMarkdown Content:\n[](https://www.seeddance.io/)\n\n*   [Try Seedance](https://www.seeddance.io/home)\n*   AI Video Seedance 2.5\n*   AI Image\n*   [Pricing-50%](https://www.seeddance.io/pricing)\n*   [API](https://www.seeddance.io/docs)\n*   [Blog](https://www.seeddance.io/blog)\n\n[AI Video](https://www.seeddance.io/ai-video-generator)[Text to Video](https://www.seeddance.io/ai-video-generator/text-to-video)[Image to Video](https://www.seeddance.io/ai-video-generator/image-to-video)[Video to Video](https://www.seeddance.io/ai-video-generator/video-to-video)[Video Extender](https://www.seeddance.io/ai-video-extender)[First & Last Frame](https://www.seeddance.io/first-last-frame-to-video)[Reference to Video](https://www.seeddance.io/reference-to-video)[Motion Control](https://www.seeddance.io/motion-control)[Video Upscaler](https://www.seeddance.io/video-upscaler)[Seedance 2.0](htt"
+      }
+    },
+    {
+      "id": "github:klingai-tech/claude-plugin-cn",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/klingai-tech/claude-plugin-cn",
+      "title": "Kling AI China Plugin",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI China Plugin",
+          "surroundingText": "Kling AI China Plugin",
+          "targetUrl": "https://github.com/klingai-tech/claude-plugin-cn",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:00:00.121Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z"
+    },
+    {
+      "id": "github:klingai-tech/claude-plugin",
+      "type": "github_repo",
+      "canonicalUrl": "https://github.com/klingai-tech/claude-plugin",
+      "title": "Kling AI Global Plugin",
+      "discoveredFrom": "curated_readme",
+      "sourceEvidence": [
+        {
+          "sourceType": "curated_readme",
+          "sourceRepo": "internet-dot/awesome-codex-plugins",
+          "sourcePath": "README.md",
+          "sectionPath": [],
+          "anchorText": "Kling AI Global Plugin",
+          "surroundingText": "Kling AI Global Plugin",
+          "targetUrl": "https://github.com/klingai-tech/claude-plugin",
+          "discoveredAt": "2026-11-21T09:00:00.121Z"
+        }
+      ],
+      "globalFactRefs": [],
+      "confidenceScore": 0.5,
+      "confidenceReasons": [
+        "formula:awesome-gate-bucket-v1",
+        "bucket:review"
+      ],
+      "riskFlags": [],
+      "recommendedAction": "recommend_review",
+      "proposedRegistryPatch": {},
+      "status": "pending",
+      "createdAt": "2026-11-21T09:00:00.121Z",
+      "updatedAt": "2026-11-21T09:00:00.121Z"
     }
   ]
 }
